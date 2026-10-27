@@ -199,7 +199,7 @@ footer{font-size:12px;color:var(--muted);padding:0 0 32px}
 </header>
 
 <div class="wrap">
-  <p class="notice" id="notice">프로토타입 화면입니다. 회사명과 공시 내용은 모두 가상의 예시 데이터이며, 실제 서비스에서는 DART 오픈API로 받아온 공시가 표시됩니다.</p>
+  <p class="notice" id="notice">공시 데이터를 불러오는 중이에요.</p>
   <div class="summary" id="summary" role="group" aria-label="공시 유형 필터"></div>
   <div class="tabs" role="tablist">
     <button role="tab" id="tabFeed" aria-selected="true">공시 피드</button>
@@ -307,7 +307,7 @@ function renderFeed(){
   const tl = TYPES.find(t=>t.id===state.type);
   const scope = !state.date || state.date===TODAY ? "오늘" : state.date==="all" ? "최근 3일" : `${+state.date.slice(5,7)}월 ${+state.date.slice(8)}일`;
   $("#feedTitle").textContent = state.type==="all" ? `${scope} 공시 ${list.length}건` : `${scope} ${tl.label} 공시 ${list.length}건`;
-  if(!list.length){ $("#feed").innerHTML = `<div class="empty">조건에 맞는 공시가 없습니다. 필터를 바꾸거나 검색어를 지워보세요.</div>`; return; }
+  if(!list.length){ $("#feed").innerHTML = `<div class="empty">${D.length ? "조건에 맞는 공시가 없어요. 필터를 바꾸거나 검색어를 지워 보세요." : "표시할 공시가 없어요."}</div>`; return; }
   $("#feed").innerHTML = list.map(x => {
     const t = TYPES.find(t=>t.id===x.type);
     const open = state.open.has(x.i);
@@ -434,8 +434,23 @@ async function loadReal(){
     EV = [...manual, ...auto];
     $("#notice").textContent = `DART 오픈API 기준 코스피·코스닥 공시입니다. 평일 10분마다 갱신되고, 날짜별 기록은 계속 쌓여요.`;
     await showDate(true);
-  }catch(err){ /* 아직 데이터가 없으면 예시 데이터 유지 */ }
+  }catch(err){
+    try{
+      const j = await getJSON("data/latest.json");   // 이전 버전 데이터
+      TODAY = j.date; UPDATED = (j.updated_at||"").slice(11) || UPDATED;
+      DAYS = []; state.date = TODAY;
+      D = (j.items||[]).map(x=>mapItem({date:j.date, ...x}));
+      EV = [...await getItems("data/events.json"), ...await getItems("data/events_auto.json")];
+      $("#notice").textContent = "이전 형식 데이터를 보여주고 있어요. Actions에서 '공시 수집'을 한 번 실행하면 3일치 화면으로 바뀌어요.";
+      renderAll();
+    }catch(_){
+      D = []; EV = []; DAYS = [];
+      $("#notice").textContent = "아직 공시 데이터 파일이 없어요. GitHub Actions에서 '공시 수집'이 초록 체크로 끝났는지 확인하고, 1~2분 뒤 새로고침해 주세요.";
+      renderAll();
+    }
+  }
 }
+D = []; EV = [];
 renderAll(); loadReal();
 setInterval(()=>{ if(!document.hidden) loadReal(); }, 5*60*1000);
 document.addEventListener("visibilitychange", ()=>{ if(!document.hidden) loadReal(); });
