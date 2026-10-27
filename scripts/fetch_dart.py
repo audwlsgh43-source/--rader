@@ -13,7 +13,7 @@ ANTHROPIC_API_KEY가 있으면 주요 공시 원문을 AI가 읽고
   DART_API_KEY       (필수) OpenDART 인증키 40자리
   ANTHROPIC_API_KEY  (선택) AI 요약·일정 추출
   SUMMARY_MODEL      (선택) 기본 claude-haiku-5-5
-  MAX_SUMMARIES      (선택) 1회 실행당 새로 분석할 최대 건수, 기본 25
+  MAX_SUMMARIES      (선택) 1회 실행당 새로 분석할 최대 건수, 기본 80
 """
 import io
 import json
@@ -52,10 +52,8 @@ HIGH = ["유상증자", "전환사채", "신주인수권부사채", "교환사�
         "영업(잠정)실적", "잠정실적", "최대주주변경", "거래정지", "상장폐지", "관리종목", "불성실공시",
         "회생절차", "부도", "횡령", "배임", "임상"]
 MID = ["자기주식", "배당", "대량보유", "매출액또는손익구조", "무상증자", "타법인주식", "소송"]
-# 중요도와 별개로, 일정이 들어 있을 가능성이 높아 AI 분석 대상에 넣는 공시
-EVENT_HINTS = ["주주총회소집", "기업설명회", "IR", "배당", "상장", "청약", "권리락", "명의개서정지", "기준일"]
-# AI 분석에서 제외 (원문이 길고 일정·요약 가치가 낮음)
-SKIP_AI = ["분기보고서", "반기보고서", "사업보고서", "임원ㆍ주요주주", "감사보고서", "증권신고서", "투자설명서"]
+# AI 분석에서 제외: 수백 쪽짜리 정기보고서·신고서 (앞부분 12,000자로는 목차뿐이라 요약이 안 됨)
+SKIP_AI = ["분기보고서", "반기보고서", "사업보고서", "감사보고서", "증권신고서", "투자설명서"]
 
 EVENT_KINDS = {
     "실적발표": "", "IR": "", "주주총회": "", "배당기준일": "up", "배당지급": "up",
@@ -83,9 +81,7 @@ def classify(title: str) -> tuple[str, str]:
 
 def wants_ai(d: dict) -> bool:
     t = d["title"].replace(" ", "")
-    if any(k in t for k in SKIP_AI):
-        return False
-    return d["imp"] in ("high", "mid") or any(k in t for k in EVENT_HINTS)
+    return not any(k in t for k in SKIP_AI)
 
 
 def fetch_list(key: str, day: str) -> list[dict]:
@@ -251,7 +247,8 @@ def main():
         sys.exit("DART_API_KEY 환경변수가 없습니다. GitHub Secrets 또는 .env에 넣어주세요.")
     ai_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     model = os.environ.get("SUMMARY_MODEL", "claude-haiku-5-5")
-    max_sum = int(os.environ.get("MAX_SUMMARIES", "25"))
+    max_sum = int(os.environ.get("MAX_SUMMARIES", "80"))
+    workers = int(os.environ.get("AI_WORKERS", "4"))        # 동시에 분석할 개수
     show_days = int(os.environ.get("SHOW_DAYS", "3"))      # 공시가 있는 최근 며칠을 보여주고 AI 분석할지
     look_back = int(os.environ.get("LOOKBACK_DAYS", "5"))  # 주말을 건너뛰기 위해 달력 기준 며칠을 확인할지
 
@@ -276,22 +273,29 @@ def main():
         order = {"high": 0, "mid": 1, "low": 2}
         recent = sorted((iso for iso, items in days.items() if items), reverse=True)[:show_days]
         pool = [x for iso in recent for x in days[iso]]
-        todo = sorted((x for x in pool if not x["analyzed"] and wants_ai(x)),
-                      key=lambda x: (-int(x["date"].replace("-", "")), order[x["imp"]]))[:max_sum]
-        done = 0
-        for x in todo:
+        todo = [x for x in pool if not x["analyzed"] and wants_ai(x)]
+        todo.sort(key=lambda x: x["seen"] or "", reverse=True)                       # 같은 조건이면 최신 먼저
+        todo.sort(key=lambda x: (-int(x["date"].replace("-", "")), order[x["imp"]]))  # 최근 날짜 → 중요도 순
+        todo = todo[:max_sum]
+
+        def work(x):
             try:
                 body = doc_text(key, x["rcept_no"])
                 if body:
                     res = analyze(ai_key, model, x, x["date"], body)
                     x["ai"], x["points"] = res["summary"], res["points"]
                     x["numbers"], x["events"] = res["numbers"], res["events"]
-                    done += 1
                 x["analyzed"] = True
+                return 1 if x["ai"] else 0
             except Exception as e:  # 분석 실패는 수집을 막지 않음 (다음 실행 때 재시도)
                 print(f"AI 분석 실패 {x['corp']} {x['rcept_no']}: {e}")
-            time.sleep(0.3)
-        print(f"AI 분석 {done}건")
+                return 0
+
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            done = sum(ex.map(work, todo))
+        left = sum(1 for x in pool if not x["analyzed"] and wants_ai(x))
+        print(f"AI 분석 {done}건 (남은 대상 {left}건)")
 
     stamp = now.strftime("%Y-%m-%d %H:%M")
     for iso, items in days.items():
@@ -308,7 +312,7 @@ def main():
             n = load_json(f).get("count", 0)
         index.append({"date": f.stem, "count": n})
     (DAYS_DIR / "index.json").write_text(json.dumps({
-        "today": iso_today, "updated_at": stamp, "days": index,
+        "today": iso_today, "updated_at": stamp, "ai": bool(ai_key), "days": index,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
 
     n_ev = update_events([x for items in days.values() for x in items], iso_today)

@@ -269,6 +269,7 @@ let EV = [
 ];
 
 let state = {type:"all", q:"", watchOnly:false, day:null, wk:0, date:null, open:new Set()};
+let AI_ON = true;
 let DAYS = [];            // [{date,count}] 공시가 있는 최근 3일
 const dayCache = new Map(); // date -> items
 let watch = new Set(["한빛반도체","가온바이오"]);
@@ -302,6 +303,13 @@ function matches(x){
 
 const starSvg = `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z" fill="currentColor"/></svg>`;
 
+const PERIODIC = ["분기보고서","반기보고서","사업보고서","감사보고서","증권신고서","투자설명서"];
+function hintFor(x){
+  if(PERIODIC.some(k=>x.title.replace(/\s/g,"").includes(k))) return "정기보고서·신고서는 분량이 수백 쪽이라 요약하지 않아요. 원문에서 확인해 주세요.";
+  if(!AI_ON) return "AI 요약이 꺼져 있어요. GitHub Secrets에 ANTHROPIC_API_KEY를 등록하면 요약이 붙어요.";
+  if(x.analyzed && !x.ai) return "원문을 읽지 못해 요약하지 못했어요. 원문에서 확인해 주세요.";
+  return "AI 요약을 만드는 중이에요. 다음 갱신(약 10분) 때 표시돼요.";
+}
 function renderFeed(){
   const list = D.map((x,i)=>({...x,i:x.id||("s"+i)})).filter(matches);
   const tl = TYPES.find(t=>t.id===state.type);
@@ -328,7 +336,7 @@ function renderFeed(){
         ${x.kv.length?`<dl class="kv">${x.kv.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>`:""}
         ${x.pts.length?`<ul>${x.pts.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:""}
         ${evs?`<div class="evs">${evs}</div>`:""}
-        ${rich?"":`<p class="hint">${x.imp==="low"?"단순 보고성 공시라 요약을 만들지 않았어요.":"AI 요약을 준비 중이에요. 다음 갱신 때 표시돼요."}</p>`}
+        ${rich?"":`<p class="hint">${hintFor(x)}</p>`}
         ${x.meta?`<p class="meta-line">${esc(x.meta)}</p>`:""}
         <a href="${esc(x.url||"https://dart.fss.or.kr")}" target="_blank" rel="noopener">DART에서 원문 보기 →</a>
       </div>
@@ -401,10 +409,10 @@ function renderDates(){
 function renderAll(){ fmtToday(); renderDates(); renderSummary(); renderFeed(); renderCal(); }
 const mapItem = x => ({
   id:x.rcept_no, date:x.date, t:x.seen, corp:x.corp, mkt:x.mkt, type:x.type, imp:x.imp, title:x.title, ai:x.ai, url:x.url,
-  kv:x.numbers||[], pts:x.points||[], events:x.events||[],
+  kv:x.numbers||[], pts:x.points||[], events:x.events||[], analyzed:!!x.analyzed,
   meta:[x.stock_code, x.flr && x.flr!==x.corp ? `제출 ${x.flr}` : "", x.rm ? `비고 ${x.rm}` : "", `접수 ${x.rcept_no}`].filter(Boolean).join(" · ")
 });
-async function getJSON(f){ const r = await fetch(f, {cache:"no-store"}); if(!r.ok) throw new Error(f+" "+r.status); return r.json(); }
+async function getJSON(f){ const r = await fetch(`${f}?t=${Date.now()}`, {cache:"no-store"}); if(!r.ok) throw new Error(f+" "+r.status); return r.json(); }
 async function loadDay(date, force){
   if(!force && dayCache.has(date)) return dayCache.get(date);
   const j = await getJSON(`data/days/${date}.json`);
@@ -426,7 +434,7 @@ async function loadReal(){
   const getItems = async f => { try{ return (await getJSON(f)).items||[]; }catch(_){ return []; } };
   try{
     const idx = await getJSON("data/days/index.json");
-    TODAY = idx.today; UPDATED = (idx.updated_at||"").slice(11) || UPDATED;
+    TODAY = idx.today; UPDATED = (idx.updated_at||"").slice(11) || UPDATED; AI_ON = idx.ai !== false;
     const recent = idx.days.filter(d=>d.count>0).slice(0,3);
     DAYS = recent;
     if(!state.date || (state.date!=="all" && !recent.some(d=>d.date===state.date))) state.date = recent[0] ? recent[0].date : TODAY;
