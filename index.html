@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>공시레이더</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* layout: 상단 요약 칩(=필터) → 좌측 공시 피드 / 우측 주간 이벤트 캘린더, 폰에서는 탭 전환 */
+  --bg:#f3f5f7;
+  --surface:#ffffff;
+  --ink:#16202b;
+  --muted:#5d6b78;
+  --line:#dde3e9;
+  --accent:#0d6b6b;
+  --accent-soft:#e1f0ef;
+  --up:#d0312d; --down:#1f5fc9; --warn:#b26a00;
+  --up-soft:#fbe9e8; --down-soft:#e7eefb; --warn-soft:#fbf1e1;
+  --font-body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1418; --surface:#171e24; --ink:#e6ecf1; --muted:#93a1ad; --line:#26313a;
+    --accent:#4fc1bd; --accent-soft:#163231;
+    --up:#ff6b64; --down:#6ea2ff; --warn:#f0a63a;
+    --up-soft:#3a1d1c; --down-soft:#18263d; --warn-soft:#352812;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1418; --surface:#171e24; --ink:#e6ecf1; --muted:#93a1ad; --line:#26313a;
+  --accent:#4fc1bd; --accent-soft:#163231;
+  --up:#ff6b64; --down:#6ea2ff; --warn:#f0a63a;
+  --up-soft:#3a1d1c; --down-soft:#18263d; --warn-soft:#352812;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* top bar */
+header.top{position:sticky;top:0;z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:12px;height:56px}
+.brand{display:flex;align-items:center;gap:8px;font-weight:700;font-size:17px;letter-spacing:-.01em;white-space:nowrap}
+.brand svg{flex:none}
+.today{font-family:var(--font-mono);font-size:12.5px;color:var(--muted);white-space:nowrap}
+.search{flex:1;min-width:0;display:flex;align-items:center;gap:6px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:0 10px;height:36px}
+.search input{border:0;background:transparent;outline:none;width:100%;min-width:0}
+.iconbtn{flex:none;width:36px;height:36px;border-radius:8px;border:1px solid var(--line);background:var(--surface);cursor:pointer;display:grid;place-items:center}
+.iconbtn:hover{border-color:var(--accent)}
+
+.notice{font-size:12.5px;color:var(--warn);background:var(--warn-soft);border-radius:8px;padding:8px 12px;margin:14px 0 0}
+
+/* summary chips */
+.summary{display:flex;gap:8px;overflow-x:auto;padding:14px 0 4px;scrollbar-width:none}
+.summary::-webkit-scrollbar{display:none}
+.chip{flex:none;display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-width:92px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);cursor:pointer;text-align:left}
+.chip .n{font-family:var(--font-mono);font-size:20px;font-weight:500;line-height:1.1;font-variant-numeric:tabular-nums}
+.chip .l{font-size:12.5px;color:var(--muted)}
+.chip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.chip[aria-pressed="true"] .l{color:var(--accent);font-weight:600}
+
+/* mobile tabs */
+.tabs{display:none;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:4px;margin:10px 0 0}
+.tabs button{flex:1;border:0;background:transparent;border-radius:7px;height:34px;cursor:pointer;font-weight:500;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--accent);color:#fff}
+:root[data-theme="dark"] .tabs button[aria-selected="true"]{color:#0f1418}
+
+/* main grid */
+main.grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;padding:14px 0 48px;align-items:start}
+.panel-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:0 0 10px}
+.panel-head h2{font-size:15px;margin:0;font-weight:700;text-wrap:balance}
+.panel-head .meta{font-size:12.5px;color:var(--muted)}
+.toggle{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer;background:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.toggle[aria-pressed="true"]{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+
+/* feed */
+.feed{display:flex;flex-direction:column;gap:8px}
+.card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px 12px 18px}
+.card::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:4px;border-radius:0 3px 3px 0;background:var(--line)}
+.card.imp-high::before{background:var(--up)}
+.card.imp-mid::before{background:var(--warn)}
+.row1{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.time{font-family:var(--font-mono);font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.corp{font-weight:700}
+.mkt{font-size:11.5px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px}
+.pill{font-size:11.5px;font-weight:600;border-radius:999px;padding:1px 8px;background:var(--accent-soft);color:var(--accent)}
+.pill.t-up{background:var(--up-soft);color:var(--up)}
+.pill.t-down{background:var(--down-soft);color:var(--down)}
+.star{margin-left:auto;border:0;background:none;cursor:pointer;padding:2px;color:var(--muted);line-height:0}
+.star[aria-pressed="true"]{color:var(--warn)}
+.title{margin:6px 0 2px;font-size:14.5px;font-weight:500}
+.ai{display:flex;gap:8px;align-items:flex-start;font-size:13.5px;color:var(--muted);margin:4px 0 0}
+.ai b{flex:none;font-family:var(--font-mono);font-size:10.5px;font-weight:500;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 4px;margin-top:2px}
+.more{margin-top:8px;border:0;background:none;padding:0;color:var(--accent);font-size:13px;cursor:pointer}
+.detail{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);display:none}
+.card.open .detail{display:block}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:0 0 10px}
+.kv div{background:var(--bg);border-radius:8px;padding:8px 10px}
+.kv dt{font-size:11.5px;color:var(--muted)}
+.kv dd{margin:0;font-family:var(--font-mono);font-weight:500;font-variant-numeric:tabular-nums}
+.detail ul{margin:0 0 8px;padding-left:18px;font-size:13.5px}
+.detail a{font-size:13px;color:var(--accent)}
+.empty{padding:32px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:10px}
+
+/* calendar */
+aside.cal{position:sticky;top:72px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.week{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin:0 0 12px}
+.day{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:6px 0;text-align:center;cursor:pointer}
+.day .dw{display:block;font-size:11px;color:var(--muted)}
+.day .dd{display:block;font-family:var(--font-mono);font-size:15px;font-weight:500}
+.day .dots{display:flex;justify-content:center;gap:2px;height:6px;margin-top:2px}
+.day .dots i{width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.day.is-today .dd{color:var(--accent)}
+.day[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.evlist{display:flex;flex-direction:column;gap:0}
+.evday{font-size:12.5px;font-weight:700;color:var(--muted);padding:10px 0 4px;border-bottom:1px solid var(--line)}
+.ev{display:grid;grid-template-columns:62px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+.ev:last-child{border-bottom:0}
+.ev .k{font-size:11.5px;font-weight:600;color:var(--accent)}
+.ev .k.k-up{color:var(--up)} .ev .k.k-down{color:var(--down)}
+.ev .c{font-weight:600}
+.ev .s{color:var(--muted);font-size:12.5px}
+
+footer{font-size:12px;color:var(--muted);padding:0 0 32px}
+
+@media (max-width:860px){
+  main.grid{grid-template-columns:1fr}
+  .tabs{display:flex}
+  aside.cal{position:static}
+  body[data-tab="feed"] aside.cal{display:none}
+  body[data-tab="cal"] section.feedwrap{display:none}
+}
+@media (max-width:520px){
+  .today{display:none}
+  .brand span{display:none}
+}
+@media (prefers-reduced-motion:no-preference){
+  .card,.chip,.day{transition:border-color .15s,background-color .15s}
+}
+</style>
+</head>
+<body data-tab="feed">
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="var(--accent)" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="none" stroke="var(--accent)" stroke-width="1.5" opacity=".6"/><path d="M12 12 L19 6" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/><circle cx="16.5" cy="8.3" r="1.6" fill="var(--up)"/></svg>
+      <span>공시레이더</span>
+    </div>
+    <div class="today" id="today"></div>
+    <label class="search" for="q">
+      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="종목명·공시 제목 검색" autocomplete="off">
+    </label>
+    <button class="iconbtn" id="themeBtn" aria-label="밝게/어둡게 전환">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="notice" id="notice">프로토타입 화면입니다. 회사명과 공시 내용은 모두 가상의 예시 데이터이며, 실제 서비스에서는 DART 오픈API로 받아온 공시가 표시됩니다.</p>
+  <div class="summary" id="summary" role="group" aria-label="공시 유형 필터"></div>
+  <div class="tabs" role="tablist">
+    <button role="tab" id="tabFeed" aria-selected="true">공시 피드</button>
+    <button role="tab" id="tabCal" aria-selected="false">이벤트 일정</button>
+  </div>
+  <main class="grid">
+    <section class="feedwrap" aria-labelledby="feedTitle">
+      <div class="panel-head">
+        <h2 id="feedTitle">오늘의 공시</h2>
+        <button class="toggle" id="watchOnly" aria-pressed="false">★ 관심종목만</button>
+      </div>
+      <div class="feed" id="feed"></div>
+    </section>
+    <aside class="cal" aria-labelledby="calTitle">
+      <div class="panel-head">
+        <h2 id="calTitle">이번 주 주요 이벤트</h2>
+        <span class="meta" id="weekRange"></span>
+      </div>
+      <div class="week" id="week"></div>
+      <div class="evlist" id="evlist"></div>
+    </aside>
+  </main>
+  <footer>데이터 출처(예정): 금융감독원 DART 오픈API · 한국거래소 KIND. 요약은 AI가 생성하며 투자 판단의 근거로 쓰기 전에 원문을 확인하세요.</footer>
+</div>
+
+<script>
+let TODAY = "2026-10-27";
+let UPDATED = "17:45";
+const TYPES = [
+  {id:"all", label:"전체"},
+  {id:"earn", label:"실적"},
+  {id:"capital", label:"유상증자·CB", tone:"down"},
+  {id:"buyback", label:"자사주", tone:"up"},
+  {id:"div", label:"배당", tone:"up"},
+  {id:"stake", label:"지분변동"},
+  {id:"contract", label:"공급계약", tone:"up"},
+  {id:"ma", label:"합병·분할"},
+  {id:"etc", label:"기타·정정"}
+];
+let D = [
+  {t:"17:42",corp:"한빛반도체",mkt:"코스피",type:"earn",imp:"high",title:"연결재무제표기준 영업(잠정)실적(공정공시)",ai:"3분기 영업이익 2,140억원으로 전년 대비 68% 증가, 시장 기대치를 웃돌았습니다.",kv:[["매출액","1조 2,480억"],["영업이익","2,140억"],["YoY","+68.2%"],["QoQ","+21.5%"]],pts:["HBM 테스트 장비 매출 비중 확대","4분기 가이던스는 별도 공시 예정"]},
+  {t:"17:15",corp:"가온바이오",mkt:"코스닥",type:"capital",imp:"high",title:"주요사항보고서(유상증자결정)",ai:"주주배정 후 실권주 일반공모 방식으로 약 820억원을 조달합니다. 신주는 발행주식의 27% 규모입니다.",kv:[["조달금액","820억"],["신주수","1,350만주"],["예정발행가","6,070원"],["할인율","25%"]],pts:["자금 용도: 임상 3상 운영자금 610억, 채무상환 210억","1차 발행가 산정일 12월 3일"]},
+  {t:"16:58",corp:"동해정밀",mkt:"코스피",type:"buyback",imp:"mid",title:"자기주식취득 신탁계약 체결 결정",ai:"300억원 규모 자사주 신탁계약을 체결했습니다. 시가총액 대비 약 2.4%입니다.",kv:[["계약금액","300억"],["계약기간","6개월"],["시총 대비","2.4%"]],pts:["취득 후 소각 여부는 미정"]},
+  {t:"16:30",corp:"서진화학",mkt:"코스피",type:"contract",imp:"high",title:"단일판매ㆍ공급계약체결",ai:"북미 배터리사와 양극재 공급계약 4,560억원을 체결했습니다. 최근 매출의 39%에 해당합니다.",kv:[["계약금액","4,560억"],["매출 대비","39.1%"],["기간","2027.01~2029.12"]],pts:["계약 상대방은 영업비밀로 비공개 처리"]},
+  {t:"16:12",corp:"누리게임즈",mkt:"코스닥",type:"stake",imp:"mid",title:"주식등의대량보유상황보고서(일반)",ai:"글로벌 운용사가 지분을 5.12%에서 7.03%로 늘렸습니다. 보유 목적은 단순투자입니다.",kv:[["변동 전","5.12%"],["변동 후","7.03%"],["목적","단순투자"]],pts:["장내매수 방식"]},
+  {t:"15:47",corp:"한결금융지주",mkt:"코스피",type:"div",imp:"mid",title:"현금ㆍ현물배당결정(분기배당)",ai:"주당 600원 분기배당을 결정했습니다. 직전 분기보다 100원 늘었습니다.",kv:[["주당배당금","600원"],["배당기준일","11.10"],["시가배당률","0.9%"]],pts:["배당기준일 이전 결정으로 선배당 후투자 방식 적용"]},
+  {t:"15:20",corp:"미르모빌리티",mkt:"코스닥",type:"capital",imp:"high",title:"주요사항보고서(전환사채권발행결정)",ai:"300억원 규모 CB를 발행합니다. 전환가 하향 조정(리픽싱) 조건이 있어 희석 가능성에 유의가 필요합니다.",kv:[["발행금액","300억"],["표면/만기이율","0% / 3%"],["전환가","8,420원"],["리픽싱 하한","70%"]],pts:["전환청구 시작 2027년 11월","콜옵션 30% 부여"]},
+  {t:"14:55",corp:"태평양식품",mkt:"코스피",type:"earn",imp:"low",title:"매출액또는손익구조30%(대규모법인15%)이상변경",ai:"누적 영업이익이 전년 대비 18% 감소했습니다. 원재료 가격 상승이 주요 원인입니다.",kv:[["영업이익","412억"],["YoY","-18.0%"]],pts:["해외법인 매출은 12% 증가"]},
+  {t:"14:31",corp:"청운건설",mkt:"코스피",type:"ma",imp:"high",title:"주요사항보고서(회사분할결정)",ai:"플랜트 사업부를 물적분할해 신설법인을 세웁니다. 분할 기일은 내년 3월 1일입니다.",kv:[["분할방식","물적분할"],["분할기일","2027.03.01"],["주총일","2027.01.15"]],pts:["신설법인 상장 계획은 현재 없다고 공시","주식매수청구권 미부여"]},
+  {t:"13:40",corp:"한빛반도체",mkt:"코스피",type:"etc",imp:"low",title:"기업설명회(IR)개최(안내공시)",ai:"10월 29일 오후 4시 국내외 기관 대상 실적 컨퍼런스콜을 엽니다.",kv:[["일시","10.29 16:00"],["방식","컨퍼런스콜"]],pts:[]},
+  {t:"11:22",corp:"새봄에너지",mkt:"코스닥",type:"contract",imp:"mid",title:"단일판매ㆍ공급계약체결",ai:"ESS 구축 공사 312억원을 수주했습니다. 최근 매출의 14% 규모입니다.",kv:[["계약금액","312억"],["매출 대비","14.2%"]],pts:[]},
+  {t:"10:05",corp:"누리게임즈",mkt:"코스닥",type:"etc",imp:"low",title:"[기재정정]주요사항보고서(자기주식처분결정)",ai:"임직원 보상용 자사주 처분 일정이 11월 5일로 바뀌었습니다.",kv:[["정정항목","처분예정기간"]],pts:[]},
+  {t:"09:12",corp:"가온바이오",mkt:"코스닥",type:"etc",imp:"mid",title:"투자판단관련주요경영사항(임상시험계획승인)",ai:"식약처에서 비만 치료제 후보물질의 임상 2상 계획을 승인받았습니다.",kv:[["단계","임상 2상"],["대상","국내 160명"]],pts:[]}
+];
+let EV = [
+  {d:"2026-10-26",k:"실적발표",tone:"",c:"한결금융지주",s:"3분기 실적 발표 15:30"},
+  {d:"2026-10-27",k:"실적발표",tone:"",c:"한빛반도체",s:"잠정실적 공시 완료"},
+  {d:"2026-10-27",k:"보호예수",tone:"down",c:"루미에이아이",s:"상장 6개월 물량 1,120만주(18%) 해제"},
+  {d:"2026-10-28",k:"신규상장",tone:"up",c:"오름로보틱스",s:"코스닥 상장 · 공모가 21,000원"},
+  {d:"2026-10-28",k:"실적발표",tone:"",c:"서진화학",s:"컨퍼런스콜 16:00"},
+  {d:"2026-10-29",k:"IR",tone:"",c:"한빛반도체",s:"실적 컨퍼런스콜 16:00"},
+  {d:"2026-10-29",k:"공모청약",tone:"",c:"바른헬스케어",s:"일반청약 10.29~10.30"},
+  {d:"2026-10-30",k:"보호예수",tone:"down",c:"오름로보틱스",s:"기관 1개월 확약 물량 해제 예정일 안내"},
+  {d:"2026-10-30",k:"배당기준일",tone:"up",c:"동해정밀",s:"분기배당 주당 250원"},
+  {d:"2026-10-30",k:"주주총회",tone:"",c:"미르모빌리티",s:"임시주총 · 정관 변경"}
+];
+
+let state = {type:"all", q:"", watchOnly:false, day:null, open:new Set()};
+let watch = new Set(["한빛반도체","가온바이오"]);
+try{ const s = localStorage.getItem("radar-watch"); if(s) watch = new Set(JSON.parse(s)); }catch(e){}
+function saveWatch(){ try{ localStorage.setItem("radar-watch", JSON.stringify([...watch])); }catch(e){} }
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dow = ["일","월","화","수","목","금","토"];
+
+function fmtToday(){
+  const d = new Date(TODAY+"T00:00:00");
+  $("#today").textContent = `${TODAY.replace(/-/g,".")} (${dow[d.getDay()]}) ${UPDATED} 기준`;
+}
+
+function renderSummary(){
+  const counts = {all:D.length};
+  D.forEach(x => counts[x.type] = (counts[x.type]||0)+1);
+  $("#summary").innerHTML = TYPES.map(t => `
+    <button class="chip" data-type="${t.id}" aria-pressed="${state.type===t.id}">
+      <span class="n">${counts[t.id]||0}</span><span class="l">${t.label}</span>
+    </button>`).join("");
+}
+
+function matches(x){
+  if(state.type!=="all" && x.type!==state.type) return false;
+  if(state.watchOnly && !watch.has(x.corp)) return false;
+  if(state.q){ const q = state.q.toLowerCase(); if(!(x.corp+x.title+x.ai).toLowerCase().includes(q)) return false; }
+  return true;
+}
+
+const starSvg = `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z" fill="currentColor"/></svg>`;
+
+function renderFeed(){
+  const list = D.map((x,i)=>({...x,i})).filter(matches);
+  const tl = TYPES.find(t=>t.id===state.type);
+  $("#feedTitle").textContent = state.type==="all" ? `오늘의 공시 ${list.length}건` : `${tl.label} 공시 ${list.length}건`;
+  if(!list.length){ $("#feed").innerHTML = `<div class="empty">조건에 맞는 공시가 없습니다. 필터를 바꾸거나 검색어를 지워보세요.</div>`; return; }
+  $("#feed").innerHTML = list.map(x => {
+    const t = TYPES.find(t=>t.id===x.type);
+    const open = state.open.has(x.i);
+    return `<article class="card imp-${x.imp}${open?" open":""}" data-i="${x.i}">
+      <div class="row1">
+        <span class="time">${x.t}</span>
+        <span class="corp">${esc(x.corp)}</span>
+        <span class="mkt">${x.mkt}</span>
+        <span class="pill ${t.tone?"t-"+t.tone:""}">${t.label}</span>
+        <button class="star" data-corp="${esc(x.corp)}" aria-pressed="${watch.has(x.corp)}" aria-label="${esc(x.corp)} 관심종목 ${watch.has(x.corp)?"해제":"추가"}">${starSvg}</button>
+      </div>
+      <p class="title">${esc(x.title)}</p>
+      ${x.ai?`<p class="ai"><b>AI</b><span>${esc(x.ai)}</span></p>`:""}
+      <button class="more" data-toggle="${x.i}" aria-expanded="${open}">${open?"접기":"상세 보기"}</button>
+      <div class="detail">
+        <dl class="kv">${x.kv.map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
+        ${x.pts.length?`<ul>${x.pts.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:""}
+        <a href="${esc(x.url||"https://dart.fss.or.kr")}" target="_blank" rel="noopener">DART에서 원문 보기 →</a>
+      </div>
+    </article>`;
+  }).join("");
+}
+
+function renderCal(){
+  const start = new Date(TODAY+"T00:00:00"); start.setDate(start.getDate() - ((start.getDay()+6)%7));
+  const days = [...Array(5)].map((_,i)=>{ const d=new Date(start); d.setDate(d.getDate()+i); return d; });
+  const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+  $("#weekRange").textContent = `${days[0].getMonth()+1}.${days[0].getDate()} – ${days[4].getMonth()+1}.${days[4].getDate()}`;
+  $("#week").innerHTML = days.map(d=>{
+    const k = iso(d); const n = EV.filter(e=>e.d===k).length;
+    return `<button class="day${k===TODAY?" is-today":""}" data-day="${k}" aria-pressed="${state.day===k}" aria-label="${d.getMonth()+1}월 ${d.getDate()}일 이벤트 ${n}건">
+      <span class="dw">${dow[d.getDay()]}</span><span class="dd">${d.getDate()}</span>
+      <span class="dots">${"<i></i>".repeat(Math.min(n,3))}</span></button>`;
+  }).join("");
+  const list = EV.filter(e=>!state.day || e.d===state.day);
+  let html = "", cur = "";
+  list.forEach(e=>{
+    if(e.d!==cur){ cur=e.d; const d=new Date(e.d+"T00:00:00"); html += `<div class="evday">${d.getMonth()+1}월 ${d.getDate()}일 (${dow[d.getDay()]})${e.d===TODAY?" · 오늘":""}</div>`; }
+    html += `<div class="ev"><span class="k ${e.tone?"k-"+e.tone:""}">${e.k}</span><div><div class="c">${esc(e.c)}</div><div class="s">${esc(e.s)}</div></div></div>`;
+  });
+  $("#evlist").innerHTML = html;
+}
+
+document.addEventListener("click", ev=>{
+  const chip = ev.target.closest(".chip");
+  if(chip){ state.type = chip.dataset.type; renderSummary(); renderFeed(); return; }
+  const star = ev.target.closest(".star");
+  if(star){ const c = star.dataset.corp; watch.has(c)?watch.delete(c):watch.add(c); saveWatch(); renderFeed(); return; }
+  const tg = ev.target.closest("[data-toggle]");
+  if(tg){ const i = +tg.dataset.toggle; state.open.has(i)?state.open.delete(i):state.open.add(i); renderFeed(); return; }
+  const day = ev.target.closest(".day");
+  if(day){ state.day = state.day===day.dataset.day ? null : day.dataset.day; renderCal(); return; }
+});
+$("#q").addEventListener("input", e=>{ state.q = e.target.value.trim(); renderFeed(); });
+$("#watchOnly").addEventListener("click", e=>{ state.watchOnly=!state.watchOnly; e.currentTarget.setAttribute("aria-pressed", state.watchOnly); renderFeed(); });
+function setTab(t){ document.body.dataset.tab=t; $("#tabFeed").setAttribute("aria-selected", t==="feed"); $("#tabCal").setAttribute("aria-selected", t==="cal"); }
+$("#tabFeed").addEventListener("click",()=>setTab("feed"));
+$("#tabCal").addEventListener("click",()=>setTab("cal"));
+$("#themeBtn").addEventListener("click",()=>{
+  const r = document.documentElement;
+  const cur = r.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  r.dataset.theme = cur==="dark" ? "light" : "dark";
+});
+
+function renderAll(){ fmtToday(); renderSummary(); renderFeed(); renderCal(); }
+async function loadReal(){
+  try{
+    const r = await fetch("data/latest.json", {cache:"no-store"});
+    if(!r.ok) throw new Error(r.status);
+    const j = await r.json();
+    TODAY = j.date; UPDATED = (j.updated_at||"").slice(11) || UPDATED;
+    D = j.items.map(x => ({
+      t:x.seen, corp:x.corp, mkt:x.mkt, type:x.type, imp:x.imp, title:x.title, ai:x.ai, url:x.url,
+      kv:[["제출인", x.flr||"-"], ["종목코드", x.stock_code||"-"], ["접수번호", x.rcept_no]],
+      pts: x.rm ? [`비고: ${x.rm}`] : []
+    }));
+    try{
+      const e = await fetch("data/events.json", {cache:"no-store"});
+      if(e.ok){ EV = (await e.json()).items || []; }
+    }catch(_){}
+    $("#notice").textContent = `DART 오픈API 기준 ${TODAY.replace(/-/g,".")} 코스피·코스닥 공시입니다. 30분마다 자동으로 갱신됩니다.`;
+    state.open.clear(); renderAll();
+  }catch(err){ /* 데이터 파일이 없으면 예시 데이터 유지 */ }
+}
+renderAll(); loadReal();
+</script>
+</body>
+</html>
