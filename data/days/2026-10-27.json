@@ -1,8 +1,27 @@
 {
  "date": "2026-10-27",
- "updated_at": "2026-10-27 18:46",
- "count": 340,
+ "updated_at": "2026-10-27 19:24",
+ "count": 341,
  "items": [
+  {
+   "rcept_no": "20261027800715",
+   "date": "2026-10-27",
+   "corp": "IPARK현대산업개발",
+   "stock_code": "294870",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기타경영사항(자율공시)",
+   "flr": "IPARK현대산업개발",
+   "rm": "유",
+   "seen": "19:24",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800715"
+  },
   {
    "rcept_no": "20261027900703",
    "date": "2026-10-27",
