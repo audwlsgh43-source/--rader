@@ -1,10 +1,11 @@
 """
 공시레이더 - DART 공시 수집 스크립트
 
-오늘(한국시간) 접수된 코스피·코스닥 공시를 OpenDART에서 받아
-유형·중요도를 붙여 data/latest.json 으로 저장합니다.
+코스피·코스닥 공시를 OpenDART에서 받아 유형·중요도를 붙여
+data/days/YYYY-MM-DD.json 에 날짜별로 계속 쌓습니다(삭제하지 않음).
+매 실행마다 최근 5일(주말 포함)을 다시 확인해, 공시가 있는 최근 3일을 갱신·AI 분석합니다.
 ANTHROPIC_API_KEY가 있으면 주요 공시 원문을 AI가 읽고
-  - 한 줄 요약, 핵심 포인트, 핵심 수치  → latest.json
+  - 한 줄 요약, 핵심 포인트, 핵심 수치  → 날짜별 파일
   - 앞으로 예정된 일정(주총일, 배당기준일, 신주상장일 등) → data/events_auto.json
 을 만듭니다.
 
@@ -31,6 +32,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "latest.json"
 EVENTS_OUT = ROOT / "data" / "events_auto.json"
 ARCHIVE_DIR = ROOT / "data" / "archive"
+DAYS_DIR = ROOT / "data" / "days"
 
 DART_LIST = "https://opendart.fss.or.kr/api/list.json"
 DART_DOC = "https://opendart.fss.or.kr/api/document.xml"
@@ -186,30 +188,32 @@ def update_events(items: list[dict], today: str):
     return len(out)
 
 
-def main():
-    key = os.environ.get("DART_API_KEY", "").strip()
-    if not key:
-        sys.exit("DART_API_KEY 환경변수가 없습니다. GitHub Secrets 또는 .env에 넣어주세요.")
-    ai_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-    model = os.environ.get("SUMMARY_MODEL", "claude-haiku-5-5")
-    max_sum = int(os.environ.get("MAX_SUMMARIES", "25"))
+def load_json(path: Path) -> dict:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
 
-    now = datetime.now(KST)
-    day = now.strftime("%Y%m%d")
-    iso_day = now.strftime("%Y-%m-%d")
 
-    # 같은 날짜의 이전 결과가 있으면 '처음 확인한 시각'과 AI 분석을 이어받음
-    prev = {}
+def migrate_old_files():
+    """이전 버전의 latest.json / archive/*.json 을 days/ 폴더로 옮김"""
+    DAYS_DIR.mkdir(parents=True, exist_ok=True)
+    olds = list(ARCHIVE_DIR.glob("*.json")) if ARCHIVE_DIR.exists() else []
     if OUT.exists():
-        old = json.loads(OUT.read_text(encoding="utf-8"))
-        if old.get("date") == iso_day:
-            prev = {d["rcept_no"]: d for d in old.get("items", [])}
-        else:
-            ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
-            (ARCHIVE_DIR / f"{old.get('date', 'unknown')}.json").write_text(
-                json.dumps(old, ensure_ascii=False, indent=1), encoding="utf-8")
+        olds.append(OUT)
+    for f in olds:
+        j = load_json(f)
+        date = j.get("date")
+        if date and re.fullmatch(r"\d{4}-\d{2}-\d{2}", date) and not (DAYS_DIR / f"{date}.json").exists():
+            for it in j.get("items", []):
+                it.setdefault("date", date)
+            (DAYS_DIR / f"{date}.json").write_text(json.dumps(j, ensure_ascii=False, indent=1), encoding="utf-8")
+        f.unlink()
+    if ARCHIVE_DIR.exists() and not any(ARCHIVE_DIR.iterdir()):
+        ARCHIVE_DIR.rmdir()
 
-    raw = fetch_list(key, day)
+
+def build_items(raw: list[dict], date: str, prev: dict, seen_now: str) -> list[dict]:
     items = []
     for x in raw:
         if x.get("corp_cls") not in MARKETS:
@@ -220,6 +224,7 @@ def main():
         p = prev.get(no, {})
         items.append({
             "rcept_no": no,
+            "date": date,
             "corp": x["corp_name"],
             "stock_code": x.get("stock_code", ""),
             "mkt": MARKETS[x["corp_cls"]],
@@ -228,7 +233,7 @@ def main():
             "title": title,
             "flr": x.get("flr_nm", ""),
             "rm": x.get("rm", ""),
-            "seen": p.get("seen") or now.strftime("%H:%M"),
+            "seen": p.get("seen") if "seen" in p else seen_now,
             "ai": p.get("ai", ""),
             "points": p.get("points", []),
             "numbers": p.get("numbers", []),
@@ -236,37 +241,79 @@ def main():
             "analyzed": p.get("analyzed", False),
             "url": f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={no}",
         })
+    items.sort(key=lambda d: (d["seen"] or "", d["rcept_no"]), reverse=True)
+    return items
 
-    items.sort(key=lambda d: (d["seen"], d["rcept_no"]), reverse=True)
+
+def main():
+    key = os.environ.get("DART_API_KEY", "").strip()
+    if not key:
+        sys.exit("DART_API_KEY 환경변수가 없습니다. GitHub Secrets 또는 .env에 넣어주세요.")
+    ai_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    model = os.environ.get("SUMMARY_MODEL", "claude-haiku-5-5")
+    max_sum = int(os.environ.get("MAX_SUMMARIES", "25"))
+    show_days = int(os.environ.get("SHOW_DAYS", "3"))      # 공시가 있는 최근 며칠을 보여주고 AI 분석할지
+    look_back = int(os.environ.get("LOOKBACK_DAYS", "5"))  # 주말을 건너뛰기 위해 달력 기준 며칠을 확인할지
+
+    migrate_old_files()
+    now = datetime.now(KST)
+    today = now.date()
+    iso_today = today.isoformat()
+
+    # 매번 최근 LOOKBACK_DAYS일(주말 포함)을 다시 확인 → 공시가 있는 최근 SHOW_DAYS일이 항상 채워짐
+    targets = [today - timedelta(days=i) for i in range(look_back)]
+
+    days = {}
+    for d in targets:
+        iso = d.isoformat()
+        old = load_json(DAYS_DIR / f"{iso}.json")
+        prev = {x["rcept_no"]: x for x in old.get("items", [])}
+        raw = fetch_list(key, d.strftime("%Y%m%d"))
+        # 오늘 처음 본 공시에만 확인 시각을 붙이고, 지난 날짜 공시는 시각을 비워 둠
+        days[iso] = build_items(raw, iso, prev, now.strftime("%H:%M") if iso == iso_today else "")
 
     if ai_key:
         order = {"high": 0, "mid": 1, "low": 2}
-        todo = sorted((d for d in items if not d["analyzed"] and wants_ai(d)),
-                      key=lambda d: order[d["imp"]])[:max_sum]
+        recent = sorted((iso for iso, items in days.items() if items), reverse=True)[:show_days]
+        pool = [x for iso in recent for x in days[iso]]
+        todo = sorted((x for x in pool if not x["analyzed"] and wants_ai(x)),
+                      key=lambda x: (-int(x["date"].replace("-", "")), order[x["imp"]]))[:max_sum]
         done = 0
-        for d in todo:
+        for x in todo:
             try:
-                body = doc_text(key, d["rcept_no"])
+                body = doc_text(key, x["rcept_no"])
                 if body:
-                    res = analyze(ai_key, model, d, iso_day, body)
-                    d["ai"], d["points"] = res["summary"], res["points"]
-                    d["numbers"], d["events"] = res["numbers"], res["events"]
+                    res = analyze(ai_key, model, x, x["date"], body)
+                    x["ai"], x["points"] = res["summary"], res["points"]
+                    x["numbers"], x["events"] = res["numbers"], res["events"]
                     done += 1
-                d["analyzed"] = True
+                x["analyzed"] = True
             except Exception as e:  # 분석 실패는 수집을 막지 않음 (다음 실행 때 재시도)
-                print(f"AI 분석 실패 {d['corp']} {d['rcept_no']}: {e}")
+                print(f"AI 분석 실패 {x['corp']} {x['rcept_no']}: {e}")
             time.sleep(0.3)
         print(f"AI 분석 {done}건")
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps({
-        "date": iso_day,
-        "updated_at": now.strftime("%Y-%m-%d %H:%M"),
-        "count": len(items),
-        "items": items,
+    stamp = now.strftime("%Y-%m-%d %H:%M")
+    for iso, items in days.items():
+        (DAYS_DIR / f"{iso}.json").write_text(json.dumps({
+            "date": iso, "updated_at": stamp, "count": len(items), "items": items,
+        }, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    # 날짜 목록 (사이트가 이 파일을 보고 날짜 탭을 만듦)
+    index = []
+    for f in sorted(DAYS_DIR.glob("????-??-??.json"), reverse=True):
+        if f.stem in days:
+            n = len(days[f.stem])
+        else:
+            n = load_json(f).get("count", 0)
+        index.append({"date": f.stem, "count": n})
+    (DAYS_DIR / "index.json").write_text(json.dumps({
+        "today": iso_today, "updated_at": stamp, "days": index,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
-    n_ev = update_events(items, iso_day)
-    print(f"{iso_day} 코스피·코스닥 공시 {len(items)}건, 예정 일정 {n_ev}건 저장")
+
+    n_ev = update_events([x for items in days.values() for x in items], iso_today)
+    summary = ", ".join(f"{k} {len(v)}건" for k, v in sorted(days.items(), reverse=True))
+    print(f"저장: {summary} / 예정 일정 {n_ev}건 / 누적 {len(index)}일")
 
 
 if __name__ == "__main__":

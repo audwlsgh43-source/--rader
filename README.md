@@ -3,8 +3,8 @@
 평일 10분마다 DART 오픈API에서 오늘 나온 코스피·코스닥 공시를 받아 와서, 유형과 중요도를 붙여 보여주는 개인용 공시 대시보드예요.
 
 ```
-index.html                  화면 (data/latest.json을 읽어서 표시, 파일이 없으면 예시 데이터)
-scripts/fetch_dart.py       DART 공시 수집 → data/latest.json
+index.html                  화면 (공시가 있는 최근 3일 날짜 탭, 데이터가 없으면 예시 데이터)
+scripts/fetch_dart.py       DART 공시 수집 → data/days/YYYY-MM-DD.json (날짜별로 계속 누적)
 data/events.json            이벤트 캘린더 (우선 직접 편집)
 .github/workflows/update.yml  평일 07:00~20:59(KST) 10분마다 자동 실행
 ```
@@ -32,7 +32,7 @@ data/events.json            이벤트 캘린더 (우선 직접 편집)
 
 - 무료 플랜에서 GitHub Pages를 쓰려면 저장소가 **Public**이어야 하고, 그러면 사이트 주소를 아는 누구나 들어올 수 있어요. 키는 Secrets에만 저장되니 공개되지 않아요.
 - GitHub 예약 실행은 몇 분씩 늦어질 수 있어요.
-- 날짜가 바뀌면 전날 데이터는 `data/archive/날짜.json`에 보관돼요.
+- 공시는 `data/days/날짜.json`에 날짜별로 계속 쌓이고 지워지지 않아요. 사이트에는 공시가 있는 최근 3일(주말 제외)이 탭으로 보이고, 이 3일치에 AI 분석이 붙어요(`SHOW_DAYS`로 조절).
 - 공시 제목 키워드로 유형과 중요도를 나누는 기준은 `fetch_dart.py`의 `TYPE_RULES`, `HIGH`, `MID`에 있어요. 원하는 대로 고쳐서 쓰시면 돼요.
 
 ## 내 PC에서 테스트

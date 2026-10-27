@@ -64,6 +64,8 @@ header.top{position:sticky;top:0;z-index:5;background:var(--surface);border-bott
 .search input{border:0;background:transparent;outline:none;width:100%;min-width:0}
 .iconbtn{flex:none;width:36px;height:36px;border-radius:8px;border:1px solid var(--line);background:var(--surface);cursor:pointer;display:grid;place-items:center}
 .iconbtn:hover{border-color:var(--accent)}
+.iconbtn.spin svg{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
 
 .notice{font-size:12.5px;color:var(--warn);background:var(--warn-soft);border-radius:8px;padding:8px 12px;margin:14px 0 0}
 
@@ -91,6 +93,7 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;paddin
 .toggle[aria-pressed="true"]{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
 
 /* feed */
+section.feedwrap{min-width:0}
 .feed{display:flex;flex-direction:column;gap:8px}
 .card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px 12px 18px}
 .card::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:4px;border-radius:0 3px 3px 0;background:var(--line)}
@@ -128,6 +131,13 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;paddin
 a.ev{color:inherit;text-decoration:none}
 a.ev:hover .c{color:var(--accent)}
 .evempty{font-size:13px;color:var(--muted);padding:12px 0}
+.dates{display:flex;gap:6px;overflow-x:auto;margin:0 0 10px;scrollbar-width:none}
+.dates::-webkit-scrollbar{display:none}
+.dates button{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;font-size:13px;cursor:pointer;color:var(--muted)}
+.dates button b{font-family:var(--font-mono);font-weight:500;margin-left:4px;font-size:12px}
+.dates button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent);color:#fff}
+:root[data-theme="dark"] .dates button[aria-pressed="true"]{color:#0f1418}
+.dates:empty{display:none}
 .empty{padding:32px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:10px}
 
 /* calendar */
@@ -152,7 +162,7 @@ aside.cal{position:sticky;top:72px;background:var(--surface);border:1px solid va
 footer{font-size:12px;color:var(--muted);padding:0 0 32px}
 
 @media (max-width:860px){
-  main.grid{grid-template-columns:1fr}
+  main.grid{grid-template-columns:minmax(0,1fr)}
   .tabs{display:flex}
   aside.cal{position:static}
   body[data-tab="feed"] aside.cal{display:none}
@@ -179,6 +189,9 @@ footer{font-size:12px;color:var(--muted);padding:0 0 32px}
       <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="종목명·공시 제목 검색" autocomplete="off">
     </label>
+    <button class="iconbtn" id="refreshBtn" aria-label="새로고침">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
     <button class="iconbtn" id="themeBtn" aria-label="밝게/어둡게 전환">
       <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
     </button>
@@ -198,6 +211,7 @@ footer{font-size:12px;color:var(--muted);padding:0 0 32px}
         <h2 id="feedTitle">오늘의 공시</h2>
         <button class="toggle" id="watchOnly" aria-pressed="false">★ 관심종목만</button>
       </div>
+      <div class="dates" id="dates" role="group" aria-label="날짜 선택"></div>
       <div class="feed" id="feed"></div>
     </section>
     <aside class="cal" aria-labelledby="calTitle">
@@ -254,7 +268,9 @@ let EV = [
   {d:"2026-10-30",k:"주주총회",tone:"",c:"미르모빌리티",s:"임시주총 · 정관 변경"}
 ];
 
-let state = {type:"all", q:"", watchOnly:false, day:null, wk:0, open:new Set()};
+let state = {type:"all", q:"", watchOnly:false, day:null, wk:0, date:null, open:new Set()};
+let DAYS = [];            // [{date,count}] 공시가 있는 최근 3일
+const dayCache = new Map(); // date -> items
 let watch = new Set(["한빛반도체","가온바이오"]);
 try{ const s = localStorage.getItem("radar-watch"); if(s) watch = new Set(JSON.parse(s)); }catch(e){}
 function saveWatch(){ try{ localStorage.setItem("radar-watch", JSON.stringify([...watch])); }catch(e){} }
@@ -289,7 +305,8 @@ const starSvg = `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="tr
 function renderFeed(){
   const list = D.map((x,i)=>({...x,i:x.id||("s"+i)})).filter(matches);
   const tl = TYPES.find(t=>t.id===state.type);
-  $("#feedTitle").textContent = state.type==="all" ? `오늘의 공시 ${list.length}건` : `${tl.label} 공시 ${list.length}건`;
+  const scope = !state.date || state.date===TODAY ? "오늘" : state.date==="all" ? "최근 3일" : `${+state.date.slice(5,7)}월 ${+state.date.slice(8)}일`;
+  $("#feedTitle").textContent = state.type==="all" ? `${scope} 공시 ${list.length}건` : `${scope} ${tl.label} 공시 ${list.length}건`;
   if(!list.length){ $("#feed").innerHTML = `<div class="empty">조건에 맞는 공시가 없습니다. 필터를 바꾸거나 검색어를 지워보세요.</div>`; return; }
   $("#feed").innerHTML = list.map(x => {
     const t = TYPES.find(t=>t.id===x.type);
@@ -298,7 +315,7 @@ function renderFeed(){
     const rich = x.kv.length || x.pts.length;
     return `<article class="card imp-${x.imp}${open?" open":""}" data-i="${x.i}">
       <div class="row1">
-        <span class="time">${x.t}</span>
+        <span class="time">${state.date==="all" && x.date ? x.date.slice(5).replace("-",".")+" " : ""}${x.t||""}</span>
         <span class="corp">${esc(x.corp)}</span>
         <span class="mkt">${x.mkt}</span>
         <span class="pill ${t.tone?"t-"+t.tone:""}">${t.label}</span>
@@ -352,6 +369,8 @@ document.addEventListener("click", ev=>{
   if(tg){ const i = tg.dataset.toggle; state.open.has(i)?state.open.delete(i):state.open.add(i); renderFeed(); return; }
   const day = ev.target.closest(".day");
   if(day){ state.day = state.day===day.dataset.day ? null : day.dataset.day; renderCal(); return; }
+  const dt = ev.target.closest("[data-date]");
+  if(dt){ state.date = dt.dataset.date; state.open.clear(); showDate(false); return; }
   if(ev.target.closest("#wkPrev")){ state.wk--; state.day=null; renderCal(); return; }
   if(ev.target.closest("#wkNext")){ state.wk++; state.day=null; renderCal(); return; }
 });
@@ -360,30 +379,62 @@ $("#watchOnly").addEventListener("click", e=>{ state.watchOnly=!state.watchOnly;
 function setTab(t){ document.body.dataset.tab=t; $("#tabFeed").setAttribute("aria-selected", t==="feed"); $("#tabCal").setAttribute("aria-selected", t==="cal"); }
 $("#tabFeed").addEventListener("click",()=>setTab("feed"));
 $("#tabCal").addEventListener("click",()=>setTab("cal"));
+$("#refreshBtn").addEventListener("click", async e=>{
+  const btn = e.currentTarget; if(btn.classList.contains("spin")) return;
+  btn.classList.add("spin");
+  await Promise.all([loadReal(), new Promise(r=>setTimeout(r,600))]);
+  btn.classList.remove("spin");
+});
 $("#themeBtn").addEventListener("click",()=>{
   const r = document.documentElement;
   const cur = r.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   r.dataset.theme = cur==="dark" ? "light" : "dark";
 });
 
-function renderAll(){ fmtToday(); renderSummary(); renderFeed(); renderCal(); }
-async function loadReal(){
+function renderDates(){
+  if(!DAYS.length){ $("#dates").innerHTML = ""; return; }
+  const label = d => d===TODAY ? "오늘" : `${+d.slice(5,7)}.${+d.slice(8)}(${dow[new Date(d+"T00:00:00").getDay()]})`;
+  const total = DAYS.reduce((a,b)=>a+b.count,0);
+  $("#dates").innerHTML = DAYS.map(d=>`<button data-date="${d.date}" aria-pressed="${state.date===d.date}">${label(d.date)}<b>${d.count}</b></button>`).join("")
+    + `<button data-date="all" aria-pressed="${state.date==="all"}">3일 전체<b>${total}</b></button>`;
+}
+function renderAll(){ fmtToday(); renderDates(); renderSummary(); renderFeed(); renderCal(); }
+const mapItem = x => ({
+  id:x.rcept_no, date:x.date, t:x.seen, corp:x.corp, mkt:x.mkt, type:x.type, imp:x.imp, title:x.title, ai:x.ai, url:x.url,
+  kv:x.numbers||[], pts:x.points||[], events:x.events||[],
+  meta:[x.stock_code, x.flr && x.flr!==x.corp ? `제출 ${x.flr}` : "", x.rm ? `비고 ${x.rm}` : "", `접수 ${x.rcept_no}`].filter(Boolean).join(" · ")
+});
+async function getJSON(f){ const r = await fetch(f, {cache:"no-store"}); if(!r.ok) throw new Error(f+" "+r.status); return r.json(); }
+async function loadDay(date, force){
+  if(!force && dayCache.has(date)) return dayCache.get(date);
+  const j = await getJSON(`data/days/${date}.json`);
+  const items = (j.items||[]).map(x=>mapItem({date, ...x}));
+  dayCache.set(date, items); return items;
+}
+async function showDate(force){
   try{
-    const r = await fetch("data/latest.json", {cache:"no-store"});
-    if(!r.ok) throw new Error(r.status);
-    const j = await r.json();
-    TODAY = j.date; UPDATED = (j.updated_at||"").slice(11) || UPDATED;
-    D = j.items.map(x => ({
-      id:x.rcept_no, t:x.seen, corp:x.corp, mkt:x.mkt, type:x.type, imp:x.imp, title:x.title, ai:x.ai, url:x.url,
-      kv:x.numbers||[], pts:x.points||[], events:x.events||[],
-      meta:[x.stock_code, x.flr && x.flr!==x.corp ? `제출 ${x.flr}` : "", x.rm ? `비고 ${x.rm}` : "", `접수 ${x.rcept_no}`].filter(Boolean).join(" · ")
-    }));
-    const getItems = async f => { try{ const r = await fetch(f, {cache:"no-store"}); return r.ok ? ((await r.json()).items||[]) : []; }catch(_){ return []; } };
+    if(state.date==="all"){
+      const lists = await Promise.all(DAYS.map(d=>loadDay(d.date, force && d.date===TODAY)));
+      D = lists.flat();
+    }else{
+      D = await loadDay(state.date, force);
+    }
+  }catch(e){ D = []; }
+  renderAll();
+}
+async function loadReal(){
+  const getItems = async f => { try{ return (await getJSON(f)).items||[]; }catch(_){ return []; } };
+  try{
+    const idx = await getJSON("data/days/index.json");
+    TODAY = idx.today; UPDATED = (idx.updated_at||"").slice(11) || UPDATED;
+    const recent = idx.days.filter(d=>d.count>0).slice(0,3);
+    DAYS = recent;
+    if(!state.date || (state.date!=="all" && !recent.some(d=>d.date===state.date))) state.date = recent[0] ? recent[0].date : TODAY;
     const [manual, auto] = await Promise.all([getItems("data/events.json"), getItems("data/events_auto.json")]);
     EV = [...manual, ...auto];
-    $("#notice").textContent = `DART 오픈API 기준 ${TODAY.replace(/-/g,".")} 코스피·코스닥 공시입니다. 평일 10분마다 자동으로 갱신돼요.`;
-    renderAll();
-  }catch(err){ /* 데이터 파일이 없으면 예시 데이터 유지 */ }
+    $("#notice").textContent = `DART 오픈API 기준 코스피·코스닥 공시입니다. 평일 10분마다 갱신되고, 날짜별 기록은 계속 쌓여요.`;
+    await showDate(true);
+  }catch(err){ /* 아직 데이터가 없으면 예시 데이터 유지 */ }
 }
 renderAll(); loadReal();
 setInterval(()=>{ if(!document.hidden) loadReal(); }, 5*60*1000);
