@@ -1,0 +1,38 @@
+name: 공시 수집
+
+on:
+  schedule:
+    # 평일 한국시간 07:00~20:59, 10분마다 (cron은 UTC 기준, 정각 혼잡을 피해 3분 단위로)
+    - cron: "3,13,23,33,43,53 22-23 * * 0-4"
+    - cron: "3,13,23,33,43,53 0-11 * * 1-5"
+  workflow_dispatch: {}   # Actions 탭에서 수동 실행 버튼
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-dart
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: DART 공시 수집
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/fetch_dart.py
+      - name: 변경분 커밋
+        run: |
+          git config user.name "gongsi-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "공시 업데이트 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          git pull --rebase --autostash || true
+          git push

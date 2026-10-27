@@ -1,12 +1,12 @@
 # 공시레이더
 
-평일 30분마다 DART 오픈API에서 오늘 나온 코스피·코스닥 공시를 받아 와서, 유형과 중요도를 붙여 보여주는 개인용 공시 대시보드예요.
+평일 10분마다 DART 오픈API에서 오늘 나온 코스피·코스닥 공시를 받아 와서, 유형과 중요도를 붙여 보여주는 개인용 공시 대시보드예요.
 
 ```
 index.html                  화면 (data/latest.json을 읽어서 표시, 파일이 없으면 예시 데이터)
 scripts/fetch_dart.py       DART 공시 수집 → data/latest.json
 data/events.json            이벤트 캘린더 (우선 직접 편집)
-.github/workflows/update.yml  평일 07:00~20:30(KST) 30분마다 자동 실행
+.github/workflows/update.yml  평일 07:00~20:59(KST) 10분마다 자동 실행
 ```
 
 ## 설정 (한 번만)
@@ -19,7 +19,7 @@ data/events.json            이벤트 캘린더 (우선 직접 편집)
    저장소 화면에서 Settings → Secrets and variables → Actions → New repository secret을 눌러요.
    - Name: `DART_API_KEY`
    - Secret: 발급받은 40자리 키
-   - (선택) `ANTHROPIC_API_KEY`도 등록하면 중요도 '높음' 공시에 AI 요약이 붙어요. 등록하지 않으면 요약 없이 동작해요.
+   - (선택) `ANTHROPIC_API_KEY`도 등록하면 주요 공시에 AI 요약·핵심 수치가 붙고, 공시 속 일정이 캘린더에 자동으로 채워져요. 등록하지 않으면 요약 없이 동작해요.
 
 3. **첫 수집 실행**
    Actions 탭 → "공시 수집" → Run workflow를 눌러요. 1분쯤 지나 `data/latest.json`이 생기면 성공이에요.
