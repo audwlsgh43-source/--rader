@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "updated_at": "2026-10-28 08:56",
+ "updated_at": "2026-10-28 09:44",
  "count": 341,
  "items": [
   {
@@ -960,11 +960,30 @@
    "flr": "코스닥시장본부",
    "rm": "코",
    "seen": "17:21",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "메디톡스 보통주식(A086900)은 2026-10-28에 중간(분기)배당락이 실시되며, 기준가는 67,500원입니다.",
+   "points": [
+    "사유는 중간(분기) 배당락",
+    "대상 주권은 메디톡스 보통주식",
+    "배당락 실시일은 2026-10-28"
+   ],
+   "numbers": [
+    [
+     "기준가",
+     "67,500원"
+    ],
+    [
+     "단축코드",
+     "A086900"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-10-28",
+     "kind": "기타",
+     "desc": "중간(분기)배당락 실시"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027900570"
   },
   {
@@ -1436,7 +1455,7 @@
    "points": [],
    "numbers": [],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800561"
   },
   {
@@ -2614,7 +2633,7 @@
    "points": [],
    "numbers": [],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000306"
   },
   {
@@ -2671,7 +2690,7 @@
    "points": [],
    "numbers": [],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000301"
   },
   {
@@ -3184,7 +3203,7 @@
    "points": [],
    "numbers": [],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000240"
   },
   {
@@ -3203,7 +3222,7 @@
    "points": [],
    "numbers": [],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000239"
   },
   {
@@ -5597,7 +5616,7 @@
    "points": [],
    "numbers": [],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000159"
   },
   {
