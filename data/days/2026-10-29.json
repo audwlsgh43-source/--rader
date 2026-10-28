@@ -1,8 +1,27 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 08:21",
- "count": 7,
+ "updated_at": "2026-10-29 08:40",
+ "count": 8,
  "items": [
+  {
+   "rcept_no": "20261029000004",
+   "date": "2026-10-29",
+   "corp": "피델릭스",
+   "stock_code": "032580",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "피델릭스",
+   "rm": "",
+   "seen": "08:40",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000004"
+  },
   {
    "rcept_no": "20261029800011",
    "date": "2026-10-29",
