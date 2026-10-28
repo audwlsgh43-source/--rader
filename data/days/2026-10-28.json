@@ -1,8 +1,27 @@
 {
  "date": "2026-10-28",
- "updated_at": "2026-10-28 19:21",
- "count": 335,
+ "updated_at": "2026-10-28 20:05",
+ "count": 336,
  "items": [
+  {
+   "rcept_no": "20261028100055",
+   "date": "2026-10-28",
+   "corp": "알테오젠",
+   "stock_code": "196170",
+   "mkt": "코스닥",
+   "type": "ma",
+   "imp": "high",
+   "title": "정정신고서제출요구( 2026.10.19. 제출 증권신고서(합병) )",
+   "flr": "금융감독원",
+   "rm": "",
+   "seen": "20:05",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028100055"
+  },
   {
    "rcept_no": "20261028900937",
    "date": "2026-10-28",
@@ -20,8 +39,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900937",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900937"
   },
   {
    "rcept_no": "20261028900784",
