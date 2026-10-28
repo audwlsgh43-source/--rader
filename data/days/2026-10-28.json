@@ -1,8 +1,288 @@
 {
  "date": "2026-10-28",
- "updated_at": "2026-10-28 17:51",
- "count": 333,
+ "updated_at": "2026-10-28 18:32",
+ "count": 335,
  "items": [
+  {
+   "rcept_no": "20261028900784",
+   "date": "2026-10-28",
+   "corp": "피델릭스",
+   "stock_code": "032580",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "주권매매거래정지기간변경              (상장적격성 실질심사 대상(사유발생))",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900784",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028900781",
+   "date": "2026-10-28",
+   "corp": "피델릭스",
+   "stock_code": "032580",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기타시장안내              (상장적격성 실질심사 관련 안내)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900781",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028900778",
+   "date": "2026-10-28",
+   "corp": "풍원정밀",
+   "stock_code": "371950",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]전환가액의조정",
+   "flr": "풍원정밀",
+   "rm": "코",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900778",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028900777",
+   "date": "2026-10-28",
+   "corp": "피델릭스",
+   "stock_code": "032580",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "회계처리기준위반행위로인한증권선물위원회의검찰고발등",
+   "flr": "피델릭스",
+   "rm": "코",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900777",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028900775",
+   "date": "2026-10-28",
+   "corp": "비나텍",
+   "stock_code": "126340",
+   "mkt": "코스닥",
+   "type": "ma",
+   "imp": "mid",
+   "title": "타법인주식및출자증권취득결정",
+   "flr": "비나텍",
+   "rm": "코",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900775",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028900763",
+   "date": "2026-10-28",
+   "corp": "셀리드",
+   "stock_code": "299660",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "소송등의제기ㆍ신청(경영권분쟁소송)              (신주발행금지가처분)",
+   "flr": "셀리드",
+   "rm": "코",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900763",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028900756",
+   "date": "2026-10-28",
+   "corp": "하이퍼코퍼레이션",
+   "stock_code": "065650",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "불성실공시법인지정              (공시번복)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900756",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028800788",
+   "date": "2026-10-28",
+   "corp": "대양금속",
+   "stock_code": "009190",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기타시장안내              (상장적격성 실질심사 사유발생 안내)",
+   "flr": "유가증권시장본부",
+   "rm": "유",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800788",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028800782",
+   "date": "2026-10-28",
+   "corp": "대양금속",
+   "stock_code": "009190",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "mid",
+   "title": "불성실공시법인지정",
+   "flr": "유가증권시장본부",
+   "rm": "유",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800782",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028800773",
+   "date": "2026-10-28",
+   "corp": "코오롱",
+   "stock_code": "002020",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "mid",
+   "title": "불성실공시법인지정",
+   "flr": "유가증권시장본부",
+   "rm": "유",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800773",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028800767",
+   "date": "2026-10-28",
+   "corp": "에스디바이오센서",
+   "stock_code": "137310",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업가치제고계획(자율공시)",
+   "flr": "에스디바이오센서",
+   "rm": "유",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800767",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261028000493",
+   "date": "2026-10-28",
+   "corp": "GRT",
+   "stock_code": "900290",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "사업보고서 (2026.06)",
+   "flr": "GRT",
+   "rm": "연",
+   "seen": "18:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000493"
+  },
+  {
+   "rcept_no": "20261028000491",
+   "date": "2026-10-28",
+   "corp": "넥사다이내믹스",
+   "stock_code": "351320",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "어비스에이아이",
+   "rm": "",
+   "seen": "18:32",
+   "ai": "어비스에이아이가 넥사다이내믹스 전환사채를 취득해 전환 기준 8,120,278주(15.73%)를 보유하게 되었다고 보고했습니다.",
+   "points": [
+    "9월 22일 8CB, 10월 22일 5CB 전환사채를 취득",
+    "10월 22일 취득분은 6,504,770주이며 취득단가는 1,153원",
+    "보유목적은 단순투자로 기재됨",
+    "보고 대상 지분은 전환사채권 기준으로 기재됨"
+   ],
+   "numbers": [
+    [
+     "보유주식 수(전환사채 기준)",
+     "8,120,278주"
+    ],
+    [
+     "보유비율",
+     "15.73%"
+    ],
+    [
+     "10월 22일 취득 주식 수",
+     "6,504,770주"
+    ],
+    [
+     "10월 22일 취득단가",
+     "1,153원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000491"
+  },
   {
    "rcept_no": "20261028900760",
    "date": "2026-10-28",
@@ -20,8 +300,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900760",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900760"
   },
   {
    "rcept_no": "20261028900754",
@@ -40,8 +320,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900754",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900754"
   },
   {
    "rcept_no": "20261028900744",
@@ -60,8 +340,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900744",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900744"
   },
   {
    "rcept_no": "20261028900739",
@@ -80,8 +360,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900739",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900739"
   },
   {
    "rcept_no": "20261028900737",
@@ -100,8 +380,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900737",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900737"
   },
   {
    "rcept_no": "20261028900730",
@@ -120,8 +400,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900730",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900730"
   },
   {
    "rcept_no": "20261028900723",
@@ -140,8 +420,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900723",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900723"
   },
   {
    "rcept_no": "20261028900721",
@@ -160,8 +440,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900721",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900721"
   },
   {
    "rcept_no": "20261028900718",
@@ -180,8 +460,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900718",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900718"
   },
   {
    "rcept_no": "20261028900715",
@@ -200,8 +480,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900715",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900715"
   },
   {
    "rcept_no": "20261028900706",
@@ -220,8 +500,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900706",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900706"
   },
   {
    "rcept_no": "20261028900700",
@@ -240,8 +520,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900700",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900700"
   },
   {
    "rcept_no": "20261028900699",
@@ -260,8 +540,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900699",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900699"
   },
   {
    "rcept_no": "20261028900696",
@@ -280,8 +560,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900696",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900696"
   },
   {
    "rcept_no": "20261028900690",
@@ -479,8 +759,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900680",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900680"
   },
   {
    "rcept_no": "20261028900661",
@@ -499,8 +779,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900661",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900661"
   },
   {
    "rcept_no": "20261028900658",
@@ -519,8 +799,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900658",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900658"
   },
   {
    "rcept_no": "20261028900657",
@@ -572,8 +852,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900626",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900626"
   },
   {
    "rcept_no": "20261028800755",
@@ -592,8 +872,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800755",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800755"
   },
   {
    "rcept_no": "20261028800732",
@@ -612,8 +892,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800732",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800732"
   },
   {
    "rcept_no": "20261028800728",
@@ -632,8 +912,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800728",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800728"
   },
   {
    "rcept_no": "20261028800711",
@@ -652,8 +932,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800711",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800711"
   },
   {
    "rcept_no": "20261028800694",
@@ -1024,8 +1304,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000483",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000483"
   },
   {
    "rcept_no": "20261028000478",
@@ -1044,8 +1324,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000478",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000478"
   },
   {
    "rcept_no": "20261028000476",
@@ -1100,11 +1380,44 @@
    "flr": "더코디",
    "rm": "",
    "seen": "17:51",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "더코디가 제3자배정 방식으로 보통주 2,219,403주를 발행하는 유상증자를 결정했으며, 납입일은 2026년 11월 5일로 정정되었습니다.",
+   "points": [
+    "제3자배정 방식의 보통주 신주 발행",
+    "발행가액은 기준주가 대비 10% 할인 적용",
+    "조달 자금 전액을 운영자금으로 사용 예정",
+    "납입일 및 신주 상장예정일 정정 공시"
+   ],
+   "numbers": [
+    [
+     "신주 발행 주식수",
+     "2,219,403주"
+    ],
+    [
+     "발행가액",
+     "3,154원"
+    ],
+    [
+     "조달금액(발행가액 기준)",
+     "6,999,997,062원"
+    ],
+    [
+     "기준주가 대비 할인율",
+     "10%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-05",
+     "kind": "납입일",
+     "desc": "신주 대금 납입일(정정 후)"
+    },
+    {
+     "date": "2026-11-26",
+     "kind": "신주상장",
+     "desc": "신주 상장예정일(정정 후)"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000474"
   },
   {
@@ -1124,8 +1437,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000472",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000472"
   },
   {
    "rcept_no": "20261028000470",
@@ -1144,8 +1457,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000470",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000470"
   },
   {
    "rcept_no": "20261028000469",
@@ -1202,8 +1515,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000467",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000467"
   },
   {
    "rcept_no": "20261028000466",
@@ -1222,8 +1535,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000466",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000466"
   },
   {
    "rcept_no": "20261028000465",
@@ -1237,11 +1550,33 @@
    "flr": "제이앤제이인베스트먼트",
    "rm": "",
    "seen": "17:51",
-   "ai": "",
-   "points": [],
-   "numbers": [],
+   "ai": "제이앤제이인베스트먼트가 장내·장외 매도와 특별관계자 변동으로 크리스에프앤씨 지분 보유비율을 8.36%에서 2.88%로 낮췄다고 보고했습니다.",
+   "points": [
+    "보고사유: 장내·장외 매도 및 특별관계자 변동",
+    "보유목적: 단순투자",
+    "2025.01.10 장외매도 비고에 상대방 '임OO' 표기",
+    "김창현·아인스팩씨엔에스 특별관계 2026.09.29 해소"
+   ],
+   "numbers": [
+    [
+     "직전 보고 보유비율",
+     "8.36%"
+    ],
+    [
+     "이번 보고 보유비율",
+     "2.88%"
+    ],
+    [
+     "보고자 보유주식수",
+     "622,411주"
+    ],
+    [
+     "보유주식 증감",
+     "-1,284,039주"
+    ]
+   ],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000465"
   },
   {
@@ -1261,8 +1596,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000464",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000464"
   },
   {
    "rcept_no": "20261028000463",
@@ -1276,11 +1611,33 @@
    "flr": "우성",
    "rm": "",
    "seen": "17:51",
-   "ai": "",
-   "points": [],
-   "numbers": [],
+   "ai": "우성이 하나은행과 체결한 자기주식 취득 신탁계약을 2026년 10월 28일 계약기간 만료로 해지했으며, 신탁 해지에 따라 자기주식 188,100주가 회사 증권계좌로 반환되었습니다.",
+   "points": [
+    "계약기간 만료에 따른 해지로 해지 주요사항보고서는 미제출",
+    "해지 신탁업자는 주식회사 하나은행",
+    "계약해지금액 2,266,576,900원, 보통주 188,100주 반환",
+    "해지 후 자기주식 총 496,244주(발행주식총수 대비 16.06%) 보유"
+   ],
+   "numbers": [
+    [
+     "계약해지금액",
+     "2,266,576,900원"
+    ],
+    [
+     "반환된 자기주식 수",
+     "188,100주"
+    ],
+    [
+     "해지 후 자기주식 보유 수량",
+     "496,244주"
+    ],
+    [
+     "해지 후 자기주식 보유 비율",
+     "16.06%"
+    ]
+   ],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000463"
   },
   {
@@ -1300,8 +1657,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000460",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000460"
   },
   {
    "rcept_no": "20261028000458",
@@ -1356,11 +1713,44 @@
    "flr": "지엔코",
    "rm": "",
    "seen": "17:51",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "지엔코가 발행한 100억원 규모 사모 전환사채의 만기보장수익률을 9.5%에서 11.5%로 정정했고, 2026년 12월 10일 50억원 일부 조기상환이 예정되어 있습니다.",
+   "points": [
+    "정정사유: 만기보장수익률 9.5%에서 11.5%로 변경",
+    "2026.12.10 50억원 일부 조기상환, 잔여채권은 11.5% 적용",
+    "매도청구권 한도, 잔여채권의 30%(15억원)로 비례 조정",
+    "사모 무보증 기명식 전환사채, 전환가액 855원/주"
+   ],
+   "numbers": [
+    [
+     "권면(전자등록)총액",
+     "100억원"
+    ],
+    [
+     "만기이자율(정정 후)",
+     "11.5%"
+    ],
+    [
+     "1차부분상환 금액",
+     "50억원"
+    ],
+    [
+     "매도청구권 행사 한도(잔여채권 30%)",
+     "15억원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-10",
+     "kind": "기타",
+     "desc": "2차 조기상환청구기간 종료"
+    },
+    {
+     "date": "2026-12-10",
+     "kind": "기타",
+     "desc": "2차 조기상환지급일, 50억원 일부 상환 예정"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000456"
   },
   {
@@ -1380,8 +1770,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000453",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000453"
   },
   {
    "rcept_no": "20261028000451",
@@ -1488,8 +1878,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000447",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000447"
   },
   {
    "rcept_no": "20261028000446",
@@ -1508,8 +1898,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000446",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000446"
   },
   {
    "rcept_no": "20261028000444",
@@ -1754,11 +2144,44 @@
    "flr": "에코글로우",
    "rm": "",
    "seen": "17:51",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "에코글로우가 제16회차 사모 전환사채 액면 10억원을 매도자 엔키노에이아이(주)로부터 상호합의로 10억1,200만원에 장외매수합니다. 사채 처리 방향은 이사회 결정 후 확정됩니다.",
+   "points": [
+    "장외매수 방식, 취득자금은 자기자금",
+    "사채권자와의 상호합의에 따른 만기 전 취득",
+    "약정 이자가 없어 취득금액은 합의 금액으로 산정",
+    "향후 재매각 또는 소각 예정, 세부 사항은 이사회 결정"
+   ],
+   "numbers": [
+    [
+     "취득금액",
+     "10억1,200만원"
+    ],
+    [
+     "취득 대상 사채 권면금액",
+     "10억원"
+    ],
+    [
+     "보고일 현재 전환가액",
+     "2,930원/주"
+    ],
+    [
+     "전환 시 발행 주식수",
+     "341,296주"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2027-03-11",
+     "kind": "전환청구",
+     "desc": "전환청구기간 시작일"
+    },
+    {
+     "date": "2029-02-11",
+     "kind": "전환청구",
+     "desc": "전환청구기간 종료일"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000431"
   },
   {
@@ -1854,8 +2277,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000428",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000428"
   },
   {
    "rcept_no": "20261028000426",
@@ -2091,8 +2514,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000399",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000399"
   },
   {
    "rcept_no": "20261028000375",
@@ -2106,11 +2529,39 @@
    "flr": "휴맥스",
    "rm": "",
    "seen": "17:51",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "휴맥스가 주식회사 제이투비를 대상으로 제3자배정 유상증자를 결정했습니다. 신주 939,849주를 주당 5,320원에 발행해 운영자금 약 50억원을 조달합니다.",
+   "points": [
+    "제3자배정 방식, 대상자는 주식회사 제이투비",
+    "조달자금은 운영자금(상품매입, 임금, 법인 운영경비)",
+    "신주는 1년간 보호예수, 추가상장 후 6개월 의무보유",
+    "납입 완료 시 최대주주가 변대규에서 제이투비로 변경 예정"
+   ],
+   "numbers": [
+    [
+     "신주 발행 주식수",
+     "939,849주"
+    ],
+    [
+     "신주 발행가액",
+     "5,320원"
+    ],
+    [
+     "운영자금",
+     "4,999,996,680원"
+    ],
+    [
+     "증자 전 발행주식총수",
+     "6,584,982주"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-12",
+     "kind": "신주상장",
+     "desc": "유상증자 신주 상장 예정"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000375"
   },
   {
