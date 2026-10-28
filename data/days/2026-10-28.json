@@ -1,8 +1,28 @@
 {
  "date": "2026-10-28",
- "updated_at": "2026-10-28 18:32",
+ "updated_at": "2026-10-28 19:21",
  "count": 335,
  "items": [
+  {
+   "rcept_no": "20261028900937",
+   "date": "2026-10-28",
+   "corp": "디에이치엑스컴퍼니",
+   "stock_code": "031860",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "풍문또는보도에대한해명",
+   "flr": "디에이치엑스컴퍼니",
+   "rm": "코",
+   "seen": "19:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900937",
+   "read_fail": true
+  },
   {
    "rcept_no": "20261028900784",
    "date": "2026-10-28",
@@ -20,8 +40,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900784",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900784"
   },
   {
    "rcept_no": "20261028900781",
@@ -40,8 +60,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900781",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900781"
   },
   {
    "rcept_no": "20261028900778",
@@ -60,8 +80,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900778",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900778"
   },
   {
    "rcept_no": "20261028900777",
@@ -80,8 +100,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900777",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900777"
   },
   {
    "rcept_no": "20261028900775",
@@ -100,8 +120,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900775",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900775"
   },
   {
    "rcept_no": "20261028900763",
@@ -120,8 +140,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900763",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900763"
   },
   {
    "rcept_no": "20261028900756",
@@ -140,8 +160,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900756",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900756"
   },
   {
    "rcept_no": "20261028800788",
@@ -160,8 +180,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800788",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800788"
   },
   {
    "rcept_no": "20261028800782",
@@ -180,8 +200,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800782",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800782"
   },
   {
    "rcept_no": "20261028800773",
@@ -200,8 +220,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800773",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800773"
   },
   {
    "rcept_no": "20261028800767",
@@ -220,8 +240,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800767",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800767"
   },
   {
    "rcept_no": "20261028000493",
@@ -1491,11 +1511,64 @@
    "flr": "SK아이이테크놀로지",
    "rm": "",
    "seen": "17:51",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "SK이노베이션㈜가 자회사인 에스케이아이이테크놀로지㈜를 흡수합병하며, 합병기일은 2027년 1월 1일로 예정되어 있습니다.",
+   "points": [
+    "SK이노베이션㈜가 에스케이아이이테크놀로지㈜를 흡수합병, 소멸회사는 해산 예정",
+    "목적: 재무안정성 확보, 사업·재무리스크 완화, 운영 효율성 및 분리막 경쟁력 제고",
+    "외부평가기관(안진회계법인) 평가를 자발적으로 받았으며 합병비율을 적정하다고 판단",
+    "주식매수청구권 행사 규모가 3,500억원을 초과하면 각 당사자는 계약을 즉시 해제 가능"
+   ],
+   "numbers": [
+    [
+     "합병비율(SK이노베이션 : 에스케이아이이테크놀로지)",
+     "1 : 0.1174540"
+    ],
+    [
+     "합병신주 발행 수",
+     "4,481,300주"
+    ],
+    [
+     "주식매수청구 매수예정가격",
+     "14,620원"
+    ],
+    [
+     "계약 해제 기준(매수청구 금액)",
+     "3,500억원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-09",
+     "kind": "기타",
+     "desc": "합병 반대의사 통지 접수 시작(~11월 23일)"
+    },
+    {
+     "date": "2026-11-24",
+     "kind": "주주총회",
+     "desc": "합병계약 승인을 위한 임시 주주총회"
+    },
+    {
+     "date": "2026-11-24",
+     "kind": "기타",
+     "desc": "주식매수청구권 행사기간 시작(~12월 14일)"
+    },
+    {
+     "date": "2026-12-14",
+     "kind": "기타",
+     "desc": "주식매수청구권 행사기간 종료"
+    },
+    {
+     "date": "2026-12-29",
+     "kind": "매매거래정지",
+     "desc": "매매거래 정지 예정기간 시작(~2027년 1월 17일)"
+    },
+    {
+     "date": "2026-12-30",
+     "kind": "기타",
+     "desc": "주식매수대금 지급 잠정 예정일"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000468"
   },
   {
