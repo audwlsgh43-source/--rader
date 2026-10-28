@@ -167,7 +167,7 @@ a.ev:hover .c{color:var(--accent)}
 .empty{padding:32px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:10px}
 
 /* calendar */
-aside.cal{position:sticky;top:72px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+aside.cal{position:sticky;top:112px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
 .week{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin:0 0 12px}
 .day{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:6px 0;text-align:center;cursor:pointer}
 .day .dw{display:block;font-size:11px;color:var(--muted)}
@@ -186,6 +186,56 @@ aside.cal{position:sticky;top:72px;background:var(--surface);border:1px solid va
 .ev .s{color:var(--muted);font-size:12.5px}
 
 footer{font-size:12px;color:var(--muted);padding:0 0 32px}
+/* main tabs */
+.maintabs{display:flex;gap:2px;height:40px;align-items:stretch}
+.maintabs button{border:0;background:none;padding:0 14px;font-size:14.5px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent}
+.maintabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+body[data-view="market"] #viewDisclosure, body[data-view="disclosure"] #viewMarket{display:none}
+body[data-view="market"] .search{visibility:hidden}
+/* market view */
+#viewMarket{display:flex;flex-direction:column;gap:14px;padding:14px 0 40px}
+.mk-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.mk-head h2{margin:0;font-size:18px;text-wrap:balance}
+.mk-head span{font-size:12.5px;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.panel h3{margin:0 0 10px;font-size:14.5px}
+.panel .sub{font-size:12px;color:var(--muted);font-weight:400;margin-left:6px}
+.ai-card .hl{font-size:16px;font-weight:700;margin:0 0 6px;text-wrap:balance}
+.ai-card p{margin:0 0 8px;font-size:14px;line-height:1.65}
+.ai-card ul{margin:0;padding-left:18px;font-size:13.5px;color:var(--muted);display:flex;flex-direction:column;gap:3px}
+.ai-card .tag{font-family:var(--font-mono);font-size:10.5px;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 4px;margin-right:6px;vertical-align:2px}
+.idx-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+@media (max-width:520px){.idx .v{font-size:19px}.idx .nm{flex-direction:column;gap:0}.idx{padding:10px 12px}}
+.idx{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
+.idx .nm{font-size:13px;color:var(--muted);display:flex;justify-content:space-between;gap:6px}
+.idx .v{font-family:var(--font-mono);font-size:22px;font-weight:500;font-variant-numeric:tabular-nums}
+.idx .c{font-family:var(--font-mono);font-size:13px;font-variant-numeric:tabular-nums}
+.idx svg{width:100%;height:36px;margin-top:4px}
+.g-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.g{border:1px solid var(--line);border-radius:10px;padding:9px 11px;display:flex;flex-direction:column;gap:1px}
+.g .nm{font-size:12.5px;color:var(--muted)}
+.g .v{font-family:var(--font-mono);font-size:16px;font-weight:500;font-variant-numeric:tabular-nums}
+.g .c{font-family:var(--font-mono);font-size:12px}
+.g .t{font-size:11px;color:var(--muted)}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
+.breadth{display:flex;flex-direction:column;gap:12px}
+.br-row .lbl{display:flex;justify-content:space-between;font-size:13px;margin-bottom:5px;gap:6px;flex-wrap:wrap}
+.br-row .lbl b{font-weight:600}
+.br-row .lbl span{color:var(--muted);font-size:12px}
+.bar{display:flex;height:12px;border-radius:6px;overflow:hidden;background:var(--bg)}
+.bar i{display:block;height:100%}
+.bar .u{background:var(--up)} .bar .f{background:var(--line)} .bar .d{background:var(--down)}
+.mk-2col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:760px){.mk-2col{grid-template-columns:minmax(0,1fr)}}
+.rank{width:100%;border-collapse:collapse;font-size:13.5px}
+.rank td{padding:7px 4px;border-bottom:1px solid var(--line);white-space:nowrap}
+.rank tr:last-child td{border-bottom:0}
+.rank td.n{color:var(--muted);font-family:var(--font-mono);font-size:12px;width:22px}
+.rank td.nm{white-space:normal}
+.rank td.nm small{display:block;color:var(--muted);font-size:11px;line-height:1.2}
+.rank td.r{text-align:right;font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.mk-empty{color:var(--muted);font-size:13.5px}
+.mk-note{font-size:12px;color:var(--muted)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
 @media (max-width:860px){
@@ -204,7 +254,7 @@ footer{font-size:12px;color:var(--muted);padding:0 0 32px}
 }
 </style>
 </head>
-<body data-tab="feed">
+<body data-tab="feed" data-view="disclosure">
 <header class="top">
   <div class="wrap">
     <div class="brand">
@@ -223,10 +273,16 @@ footer{font-size:12px;color:var(--muted);padding:0 0 32px}
       <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
     </button>
   </div>
+  <div class="wrap"><nav class="maintabs" role="tablist" aria-label="메뉴">
+    <button role="tab" data-view="disclosure" aria-selected="true">공시</button>
+    <button role="tab" data-view="market" aria-selected="false">시황</button>
+  </nav></div>
 </header>
 
 <div class="wrap">
   <div class="runbar" id="runbar" role="status" aria-live="polite"><span class="dot"></span><span id="runtext"></span></div>
+  <section id="viewMarket" aria-label="시황"></section>
+  <div id="viewDisclosure">
   <p class="notice" id="notice">공시 데이터를 불러오는 중이에요.</p>
   <div class="summary" id="summary" role="group" aria-label="공시 유형 필터"></div>
   <div class="tabs" role="tablist">
@@ -252,6 +308,7 @@ footer{font-size:12px;color:var(--muted);padding:0 0 32px}
       <div class="evlist" id="evlist"></div>
     </aside>
   </main>
+  </div>
   <footer>데이터 출처: 금융감독원 DART 오픈API. 요약은 AI가 생성하므로 투자 판단 전에 원문을 확인하세요. · <button id="openSetup">즉시 수집 설정</button></footer>
 </div>
 <div class="modal" id="setup" role="dialog" aria-modal="true" aria-labelledby="setupTitle">
@@ -557,6 +614,7 @@ async function showDate(force){
   renderAll();
 }
 async function loadReal(){
+  loadMarket();
   const getItems = async f => { try{ return (await getJSON(f)).items||[]; }catch(_){ return []; } };
   try{
     const idx = await getJSON("data/days/index.json");
@@ -584,6 +642,72 @@ async function loadReal(){
     }
   }
 }
+/* ================= 시황 ================= */
+let MK = null;
+const fmt = (v, d=2) => v==null || isNaN(v) ? "-" : Number(v).toLocaleString("ko-KR", {minimumFractionDigits:d, maximumFractionDigits:d});
+const cls = v => v>0 ? "up" : v<0 ? "down" : "flat";
+const sign = v => v>0 ? "+" : "";
+const arrow = v => v>0 ? "▲" : v<0 ? "▼" : "";
+function spark(vals, tone){
+  if(!vals || vals.length<2) return "";
+  const w=200, h=36, mn=Math.min(...vals), mx=Math.max(...vals), r=(mx-mn)||1;
+  const pts = vals.map((v,i)=>[i*(w/(vals.length-1)), h-3-((v-mn)/r)*(h-6)]);
+  const line = pts.map(p=>p.map(n=>n.toFixed(1)).join(",")).join(" ");
+  const col = tone==="up" ? "var(--up)" : tone==="down" ? "var(--down)" : "var(--muted)";
+  const last = pts[pts.length-1];
+  return `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-hidden="true">
+    <polygon points="0,${h} ${line} ${w},${h}" fill="${col}" opacity=".09"/>
+    <polyline points="${line}" fill="none" stroke="${col}" stroke-width="1.6" vector-effect="non-scaling-stroke"/>
+    <circle cx="${last[0]}" cy="${last[1]}" r="2.5" fill="${col}"/></svg>`;
+}
+const won = v => v>=1e12 ? `${fmt(v/1e12,1)}조` : `${fmt(v/1e8,0)}억`;
+function gVal(g){
+  if(g.kind==="rate") return `${fmt(g.close,3)}%`;
+  if(g.kind==="fx") return `${fmt(g.close,2)}원`;
+  if(g.kind==="crypto") return `$${fmt(g.close,0)}`;
+  return fmt(g.close,2);
+}
+function rankTable(list, valFn){
+  if(!list || !list.length) return `<p class="mk-empty">데이터가 없어요.</p>`;
+  return `<table class="rank"><tbody>${list.map((x,i)=>`<tr><td class="n">${i+1}</td><td class="nm">${esc(x.name)}<small>${x.mkt}</small></td>
+    <td class="r">${fmt(x.close,0)}</td><td class="r ${cls(x.pct)}">${sign(x.pct)}${fmt(x.pct,2)}%</td>${valFn?`<td class="r">${valFn(x)}</td>`:""}</tr>`).join("")}</tbody></table>`;
+}
+function renderMarket(){
+  const el = $("#viewMarket");
+  if(!MK){ el.innerHTML = `<div class="panel"><p class="mk-empty">시황 데이터가 아직 없어요. ↻로 수집을 실행하거나 다음 자동 수집을 기다려 주세요.</p></div>`; return; }
+  const d = MK.date ? new Date(MK.date+"T00:00:00") : null;
+  const dlabel = d ? `${d.getMonth()+1}월 ${d.getDate()}일(${dow[d.getDay()]}) 장 마감 기준` : "";
+  const c = MK.comment;
+  const br = MK.breadth || {};
+  const brRow = m => { const b = br[m]; if(!b) return ""; const t = (b.up+b.flat+b.down)||1;
+    return `<div class="br-row"><div class="lbl"><b>${m}</b><span><span class="up">상승 ${b.up}</span> · 보합 ${b.flat} · <span class="down">하락 ${b.down}</span>${b.limit_up||b.limit_down?` · 상한가 ${b.limit_up} / 하한가 ${b.limit_down}`:""}</span></div>
+      <div class="bar"><i class="u" style="width:${b.up/t*100}%"></i><i class="f" style="width:${b.flat/t*100}%"></i><i class="d" style="width:${b.down/t*100}%"></i></div></div>`; };
+  el.innerHTML = `
+    <div class="mk-head"><h2>오늘의 시황</h2><span>${dlabel}${MK.updated_at?` · ${MK.updated_at.slice(5).replace("-",".")} 갱신`:""}</span></div>
+    ${c ? `<div class="panel ai-card"><p class="hl"><span class="tag">AI</span>${esc(c.headline)}</p><p>${esc(c.summary)}</p>${c.points&&c.points.length?`<ul>${c.points.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>` : ""}
+    <div class="idx-grid">${(MK.indices||[]).map(i=>`<div class="idx"><span class="nm"><span>${i.name}</span><span>거래대금 ${won(i.amount)}</span></span>
+      <span class="v">${fmt(i.close,2)}</span><span class="c ${cls(i.chg)}">${arrow(i.chg)} ${fmt(Math.abs(i.chg),2)} (${sign(i.pct)}${fmt(i.pct,2)}%)</span>${spark(i.spark, cls(i.chg))}</div>`).join("") || `<p class="mk-empty">국내 지수 데이터가 없어요.</p>`}</div>
+    <div class="panel"><h3>등락 종목 수</h3><div class="breadth">${brRow("코스피")}${brRow("코스닥")}</div></div>
+    <div class="panel"><h3>해외·환율·원자재<span class="sub">최근 종가 기준</span></h3>${(MK.global&&MK.global.length) ? `<div class="g-grid">${MK.global.map(g=>`<div class="g"><span class="nm">${g.name}</span><span class="v">${gVal(g)}</span><span class="c ${cls(g.pct)}">${sign(g.pct)}${fmt(g.pct,2)}%</span><span class="t">${g.date}</span></div>`).join("")}</div>` : `<p class="mk-empty">해외 시세를 받아오지 못했어요. 다음 수집 때 다시 시도해요.</p>`}</div>
+    <div class="panel"><h3>거래대금 상위</h3>${rankTable(MK.top_amount, x=>won(x.amount))}</div>
+    <div class="mk-2col">
+      <div class="panel"><h3>상승률 상위<span class="sub">시총 1천억 이상</span></h3>${rankTable(MK.gainers)}</div>
+      <div class="panel"><h3>하락률 상위<span class="sub">시총 1천억 이상</span></h3>${rankTable(MK.losers)}</div>
+    </div>
+    <div class="panel"><h3>시가총액 상위</h3>${rankTable(MK.marcap_top, x=>won(x.marcap))}</div>
+    <p class="mk-note">출처: 한국거래소 시세(FinanceDataReader 일별 데이터), Yahoo Finance. 국내 시세는 장 마감 후 반영돼요. AI 시황은 수치를 바탕으로 자동 작성되며 투자 권유가 아니에요.</p>`;
+}
+async function loadMarket(){ try{ MK = await getJSON("data/market.json"); }catch(_){ } renderMarket(); }
+function setView(v){
+  document.body.dataset.view = v;
+  document.querySelectorAll(".maintabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.view===v));
+  if(location.hash !== (v==="market" ? "#market" : "")) history.replaceState(null, "", v==="market" ? "#market" : location.pathname + location.search);
+  window.scrollTo(0,0);
+}
+document.querySelectorAll(".maintabs button").forEach(b=>b.addEventListener("click", ()=>setView(b.dataset.view)));
+window.addEventListener("hashchange", ()=>setView(location.hash==="#market" ? "market" : "disclosure"));
+if(location.hash==="#market") setView("market");
+
 D = []; EV = [];
 renderAll(); loadReal();
 setInterval(()=>{ if(!document.hidden) loadReal(); }, 5*60*1000);

@@ -4,6 +4,7 @@
 
 ```
 index.html                  화면 (공시가 있는 최근 3일 날짜 탭, 데이터가 없으면 예시 데이터)
+scripts/fetch_market.py     시황 수집 → data/market.json (국내 지수·등락·순위, 해외·환율, AI 시황)
 scripts/fetch_dart.py       DART 공시 수집 → data/days/YYYY-MM-DD.json (날짜별로 계속 누적)
 data/events.json            이벤트 캘린더 (우선 직접 편집)
 .github/workflows/update.yml  평일 07:00~20:59(KST) 10분마다 자동 실행
