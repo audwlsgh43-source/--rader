@@ -29,6 +29,11 @@ jobs:
           DART_API_KEY: ${{ secrets.DART_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/fetch_dart.py
+      - name: 시황 수집
+        continue-on-error: true   # 시황이 실패해도 공시 저장은 그대로 진행
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/fetch_market.py
       - name: 변경분 커밋
         run: |
           git config user.name "gongsi-bot"
