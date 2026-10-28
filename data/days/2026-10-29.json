@@ -1,8 +1,27 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 08:40",
- "count": 8,
+ "updated_at": "2026-10-29 08:52",
+ "count": 9,
  "items": [
+  {
+   "rcept_no": "20261029000016",
+   "date": "2026-10-29",
+   "corp": "롯데렌탈",
+   "stock_code": "089860",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "투자설명서",
+   "flr": "롯데렌탈",
+   "rm": "",
+   "seen": "08:52",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000016"
+  },
   {
    "rcept_no": "20261029000004",
    "date": "2026-10-29",
