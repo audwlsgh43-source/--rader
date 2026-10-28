@@ -541,7 +541,8 @@ async function getJSON(f){ const r = await fetch(`${f}?t=${Date.now()}`, {cache:
 async function loadDay(date, force){
   if(!force && dayCache.has(date)) return dayCache.get(date);
   const j = await getJSON(`data/days/${date}.json`);
-  const items = (j.items||[]).map(x=>mapItem({date, ...x}));
+  // 원문을 끝내 읽지 못해 요약이 없는 공시는 숨김 (정기보고서는 원문 링크용으로 유지)
+  const items = (j.items||[]).filter(x=>!(x.read_fail || (x.analyzed && !x.ai))).map(x=>mapItem({date, ...x}));
   dayCache.set(date, items); return items;
 }
 async function showDate(force){

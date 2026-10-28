@@ -132,7 +132,16 @@ def fetch_list(key: str, day: str) -> list[dict]:
     return items
 
 
-def doc_text(key: str, rcept_no: str, limit: int = 12000) -> str:
+def _clean(raw: str, limit: int) -> str:
+    raw = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", raw, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", raw)
+    text = re.sub(r"&nbsp;|&#160;", " ", text)
+    text = re.sub(r"&[a-z]+;|&#\d+;", " ", text)
+    return re.sub(r"\s+", " ", text).strip()[:limit]
+
+
+def doc_text_api(key: str, rcept_no: str, limit: int) -> str:
+    """OpenDART 원문 API (DART에 직접 제출된 공시)"""
     r = requests.get(DART_DOC, params={"crtfc_key": key, "rcept_no": rcept_no}, timeout=60)
     r.raise_for_status()
     try:
@@ -140,9 +149,46 @@ def doc_text(key: str, rcept_no: str, limit: int = 12000) -> str:
     except zipfile.BadZipFile:
         return ""
     raw = zf.read(zf.namelist()[0]).decode("utf-8", errors="ignore")
-    text = re.sub(r"<[^>]+>", " ", raw)
-    text = re.sub(r"&[a-z]+;", " ", text)
-    return re.sub(r"\s+", " ", text).strip()[:limit]
+    return _clean(raw, limit)
+
+
+VIEWER_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; gongsi-radar/1.0)"}
+
+
+def doc_text_viewer(rcept_no: str, limit: int) -> str:
+    """DART 웹 뷰어 (거래소 공시처럼 원문 API로 안 나오는 공시용)"""
+    r = requests.get("https://dart.fss.or.kr/dsaf001/main.do", params={"rcpNo": rcept_no},
+                     headers=VIEWER_HEADERS, timeout=30)
+    r.raise_for_status()
+    html = r.text
+    m = re.search(r"viewDoc\(\s*'(\d+)'\s*,\s*'(\d+)'\s*,\s*'([^']*)'\s*,\s*'([^']*)'\s*,\s*'([^']*)'\s*,\s*'([^']*)'", html)
+    if m:
+        rcp, dcm, ele, off, length, dtd = m.groups()
+    else:
+        m2 = re.search(r"dcmNo['\"]?\]?\s*[=:]\s*['\"](\d+)['\"]", html)
+        if not m2:
+            return ""
+        rcp, dcm, ele, off, length, dtd = rcept_no, m2.group(1), "0", "0", "0", "HTML"
+    v = requests.get("https://dart.fss.or.kr/report/viewer.do", params={
+        "rcpNo": rcp, "dcmNo": dcm, "eleId": ele, "offset": off, "length": length, "dtd": dtd,
+    }, headers=VIEWER_HEADERS, timeout=30)
+    v.raise_for_status()
+    v.encoding = v.apparent_encoding or "utf-8"
+    return _clean(v.text, limit)
+
+
+def doc_text(key: str, rcept_no: str, limit: int = 12000) -> str:
+    text = ""
+    try:
+        text = doc_text_api(key, rcept_no, limit)
+    except Exception:
+        pass
+    if len(text) < 50:
+        try:
+            text = doc_text_viewer(rcept_no, limit)
+        except Exception as e:
+            print(f"뷰어 원문 실패 {rcept_no}: {e}")
+    return text if len(text) >= 50 else ""
 
 
 PROMPT = """다음은 {corp}의 공시 「{title}」 원문(접수일 {date})입니다.
@@ -315,7 +361,9 @@ def build_items(raw: list[dict], date: str, prev: dict, seen_now: str) -> list[d
             "points": p.get("points", []),
             "numbers": p.get("numbers", []),
             "events": p.get("events", []),
-            "analyzed": p.get("analyzed", False),
+            # 이전 버전에서 원문을 못 읽은 공시(read_fail 표시 없음)는 웹 뷰어로 한 번 더 시도
+            "analyzed": p.get("analyzed", False) and (bool(p.get("ai")) or bool(p.get("read_fail"))),
+            **({"read_fail": True} if p.get("read_fail") else {}),
             "url": f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={no}",
         })
     items.sort(key=lambda d: (d["seen"] or "", d["rcept_no"]), reverse=True)
@@ -377,6 +425,9 @@ def main():
                     res = analyze(ai_key, model, x, x["date"], body)
                     x["ai"], x["points"] = res["summary"], res["points"]
                     x["numbers"], x["events"] = res["numbers"], res["events"]
+                    x.pop("read_fail", None)
+                else:
+                    x["read_fail"] = True  # 원문을 끝내 못 읽음 → 사이트 피드에서 숨김
                 x["analyzed"] = True
                 return 1 if x["ai"] else 0
             except Exception as e:  # 분석 실패는 수집을 막지 않음 (다음 실행 때 재시도)
@@ -398,14 +449,14 @@ def main():
     stamp = now.strftime("%Y-%m-%d %H:%M")
     for iso, items in days.items():
         (DAYS_DIR / f"{iso}.json").write_text(json.dumps({
-            "date": iso, "updated_at": stamp, "count": len(items), "items": items,
+            "date": iso, "updated_at": stamp, "count": sum(1 for x in items if not x.get("read_fail")), "items": items,
         }, ensure_ascii=False, indent=1), encoding="utf-8")
 
     # 날짜 목록 (사이트가 이 파일을 보고 날짜 탭을 만듦)
     index = []
     for f in sorted(DAYS_DIR.glob("????-??-??.json"), reverse=True):
         if f.stem in days:
-            n = len(days[f.stem])
+            n = sum(1 for x in days[f.stem] if not x.get("read_fail"))
         else:
             n = load_json(f).get("count", 0)
         index.append({"date": f.stem, "count": n})
