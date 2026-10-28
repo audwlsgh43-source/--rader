@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "updated_at": "2026-10-28 15:28",
+ "updated_at": "2026-10-28 16:08",
  "count": 338,
  "items": [
   {
@@ -1232,8 +1232,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000383",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000383"
   },
   {
    "rcept_no": "20261027000382",
@@ -1814,7 +1814,7 @@
    "imp": "mid",
    "title": "[기재정정]주요사항보고서(전환사채권발행결정)",
    "flr": "다보링크",
-   "rm": "",
+   "rm": "정",
    "seen": "18:46",
    "ai": "다보링크가 뉴머티리얼즈 신기술투자조합 1호를 상대로 30억원 규모의 무보증 사모 전환사채 발행을 결정했으며, 전환가액 등을 정정했습니다.",
    "points": [
@@ -3326,8 +3326,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800561",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800561"
   },
   {
    "rcept_no": "20261027800560",
@@ -7598,8 +7598,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000239",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000239"
   },
   {
    "rcept_no": "20261027000237",
@@ -8392,7 +8392,7 @@
    "imp": "low",
    "title": "주식병합결정",
    "flr": "다보링크",
-   "rm": "코",
+   "rm": "코정",
    "seen": "15:46",
    "ai": "다보링크가 보통주 주식병합을 이사회에서 결의했습니다. 자본금이 줄지 않는 병합이며, 2026년 11월 27일 주주총회 특별결의를 거쳐야 합니다.",
    "points": [
