@@ -13,7 +13,8 @@ ANTHROPIC_API_KEY가 있으면 주요 공시 원문을 AI가 읽고
   DART_API_KEY       (필수) OpenDART 인증키 40자리
   ANTHROPIC_API_KEY  (선택) AI 요약·일정 추출
   SUMMARY_MODEL      (선택) 기본 claude-haiku-5-5
-  MAX_SUMMARIES      (선택) 1회 실행당 새로 분석할 최대 건수, 기본 80
+  MAX_SUMMARIES      (선택) 1회 실행당 새로 분석할 최대 건수, 기본 600
+  AI_TIME_LIMIT      (선택) 1회 실행에서 AI 분석에 쓸 최대 시간(초), 기본 420 = 7분
 """
 import io
 import json
@@ -327,7 +328,8 @@ def main():
         sys.exit("DART_API_KEY 환경변수가 없습니다. GitHub Secrets 또는 .env에 넣어주세요.")
     ai_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     model = os.environ.get("SUMMARY_MODEL", "claude-haiku-5-5")
-    max_sum = int(os.environ.get("MAX_SUMMARIES", "80"))
+    max_sum = int(os.environ.get("MAX_SUMMARIES", "600"))
+    time_limit = int(os.environ.get("AI_TIME_LIMIT", "420"))
     workers = int(os.environ.get("AI_WORKERS", "4"))        # 동시에 분석할 개수
     show_days = int(os.environ.get("SHOW_DAYS", "3"))      # 공시가 있는 최근 며칠을 보여주고 AI 분석할지
     look_back = int(os.environ.get("LOOKBACK_DAYS", "5"))  # 주말을 건너뛰기 위해 달력 기준 며칠을 확인할지
@@ -362,8 +364,12 @@ def main():
 
         errors, fatal = [], []
 
+        t_start = time.time()
+
         def work(x):
             if fatal:  # 키·크레딧 문제면 남은 건은 시도하지 않음
+                return 0
+            if time.time() - t_start > time_limit:  # 시간 초과분은 다음 실행에서 이어서
                 return 0
             try:
                 body = doc_text(key, x["rcept_no"])

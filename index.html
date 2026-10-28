@@ -478,13 +478,14 @@ async function forceRun(){
     if(!r.ok) throw new Error(`GitHub 요청 실패 (${r.status})`);
     // 실행 상태 추적
     let runId = null, status = "queued";
-    for(let i=0; i<60 && status!=="completed"; i++){
+    for(let i=0; i<160 && status!=="completed"; i++){
       await sleep(i<3 ? 3000 : 5000);
       const j = await (await gh(`/actions/runs?event=workflow_dispatch&per_page=1`)).json();
       const run = (j.workflow_runs||[])[0];
       if(run && new Date(run.created_at).getTime() > t0 - 60000){ runId = run.id; status = run.status;
         const sec = Math.round((Date.now()-t0)/1000);
-        runStatus(status==="queued" ? `대기 중… (${sec}초) 다른 수집이 끝나면 바로 시작돼요` : `공시 수집·AI 요약 중… (${sec}초)`, "busy");
+        const t = sec>=60 ? `${Math.floor(sec/60)}분 ${sec%60}초` : `${sec}초`;
+        runStatus(status==="queued" ? `대기 중… (${t}) 다른 수집이 끝나면 바로 시작돼요` : `공시 수집·AI 요약 중… (${t}) 밀린 요약이 많으면 최대 8분쯤 걸려요`, "busy");
         if(status==="completed" && run.conclusion!=="success") throw new Error("수집이 실패했어요. GitHub Actions 탭에서 원인을 확인해 주세요.");
       }
     }
