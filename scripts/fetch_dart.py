@@ -163,19 +163,43 @@ numbers 배열의 각 원소는 ["항목명", "값"] 형태의 두 칸짜리 배
 {body}"""
 
 
+def parse_json_loose(text: str):
+    """코드블록·앞뒤 설명이 섞이거나 끝이 잘린 응답에서도 최대한 JSON을 꺼냄"""
+    t = re.sub(r"```(?:json)?", "", text).strip()
+    start = t.find("{")
+    if start < 0:
+        return None
+    t = t[start:]
+    end = t.rfind("}")
+    if end >= 0:
+        try:
+            return json.loads(t[:end + 1])
+        except json.JSONDecodeError:
+            pass
+    # 끝이 잘린 경우: summary만이라도 살림
+    m = re.search(r'"summary"\s*:\s*"((?:[^"\\]|\\.)*)"', t)
+    if m:
+        pts = re.findall(r'"points"\s*:\s*\[(.*?)\]', t, re.S)
+        points = re.findall(r'"((?:[^"\\]|\\.)*)"', pts[0]) if pts else []
+        return {"summary": m.group(1), "points": points, "numbers": [], "events": []}
+    return None
+
+
 def analyze(api_key: str, model: str, d: dict, date: str, body: str) -> dict:
     prompt = PROMPT.format(corp=d["corp"], title=d["title"], date=date,
                            kinds="/".join(EVENT_KINDS), body=body)
     r = requests.post("https://api.anthropic.com/v1/messages", headers={
         "x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json",
-    }, json={"model": model, "max_tokens": 800,
-             "messages": [{"role": "user", "content": prompt}]}, timeout=90)
+    }, json={"model": model, "max_tokens": 3000,
+             "messages": [{"role": "user", "content": prompt}]}, timeout=120)
     r.raise_for_status()
-    text = "".join(b.get("text", "") for b in r.json().get("content", []))
-    m = re.search(r"\{.*\}", text, re.S)
-    if not m:
-        raise ValueError("AI 응답에서 JSON을 찾지 못함")
-    j = json.loads(m.group(0))
+    rj = r.json()
+    text = "".join(b.get("text", "") for b in rj.get("content", []) if b.get("type") == "text")
+    j = parse_json_loose(text)
+    if j is None:
+        kinds = ",".join(b.get("type", "?") for b in rj.get("content", []))
+        snippet = re.sub(r"\s+", " ", text)[:100]
+        raise ValueError(f"AI 응답 형식 오류 (stop_reason={rj.get('stop_reason')}, 블록={kinds}, 앞부분='{snippet}')")
     nums = [n for n in j.get("numbers", []) if isinstance(n, list) and len(n) == 2]
     evs = []
     for e in j.get("events", []):
@@ -188,6 +212,31 @@ def analyze(api_key: str, model: str, d: dict, date: str, body: str) -> dict:
         "numbers": [[str(a), str(b)] for a, b in nums][:4],
         "events": evs[:6],
     }
+
+
+def ai_error_text(e: Exception) -> tuple[str, bool]:
+    """AI 오류를 사람이 읽을 수 있는 문장으로. (문장, 이번 실행에서 더 시도해도 소용없는 오류인지)"""
+    resp = getattr(e, "response", None)
+    code = getattr(resp, "status_code", None)
+    body = ""
+    try:
+        body = resp.text[:300] if resp is not None else ""
+    except Exception:
+        pass
+    low = body.lower()
+    if code == 401:
+        return "Anthropic API 키가 올바르지 않아요. 키를 새로 만들어 GitHub Secrets의 ANTHROPIC_API_KEY를 바꿔 주세요.", True
+    if code == 403:
+        return "Anthropic API 키에 권한이 없어요. 콘솔에서 키 상태를 확인해 주세요.", True
+    if "credit" in low or "billing" in low or "balance" in low:
+        return "Anthropic 크레딧이 부족해요. console.anthropic.com → Billing에서 크레딧을 충전해 주세요.", True
+    if code == 404 or "model" in low and "not" in low:
+        return f"AI 모델 이름을 찾지 못했어요 (응답: {body[:120]})", True
+    if code == 429:
+        return "Anthropic 사용 한도(분당 요청 수)에 걸렸어요. 잠시 뒤 자동으로 다시 시도해요.", False
+    if code and code >= 500:
+        return "Anthropic 서버가 일시적으로 응답하지 않아요. 다음 실행 때 다시 시도해요.", False
+    return f"AI 요약 실패: {str(e)[:220]}", False
 
 
 def update_events(items: list[dict], today: str):
@@ -300,6 +349,7 @@ def main():
         # 오늘 처음 본 공시에만 확인 시각을 붙이고, 지난 날짜 공시는 시각을 비워 둠
         days[iso] = build_items(raw, iso, prev, now.strftime("%H:%M") if iso == iso_today else "")
 
+    ai_error = ""
     if ai_key:
         order = {"high": 0, "mid": 1, "low": 2}
         recent = sorted((iso for iso, items in days.items() if items), reverse=True)[:show_days]
@@ -310,7 +360,11 @@ def main():
         todo.sort(key=lambda x: (0 if event_cat(x["title"]) else 1, -int(x["date"].replace("-", "")), order[x["imp"]]))
         todo = todo[:max_sum]
 
+        errors, fatal = [], []
+
         def work(x):
+            if fatal:  # 키·크레딧 문제면 남은 건은 시도하지 않음
+                return 0
             try:
                 body = doc_text(key, x["rcept_no"])
                 if body:
@@ -320,12 +374,18 @@ def main():
                 x["analyzed"] = True
                 return 1 if x["ai"] else 0
             except Exception as e:  # 분석 실패는 수집을 막지 않음 (다음 실행 때 재시도)
-                print(f"AI 분석 실패 {x['corp']} {x['rcept_no']}: {e}")
+                msg, stop = ai_error_text(e)
+                errors.append(msg)
+                if stop or (len(errors) >= 5 and not any(t.get("ai") for t in todo)):
+                    fatal.append(msg)  # 같은 오류가 반복되면 비용 낭비를 막기 위해 이번 실행은 중단
+                print(f"AI 분석 실패 {x['corp']} {x['rcept_no']}: {msg}")
                 return 0
 
         from concurrent.futures import ThreadPoolExecutor
         with ThreadPoolExecutor(max_workers=workers) as ex:
             done = sum(ex.map(work, todo))
+        if done == 0 and errors:
+            ai_error = fatal[0] if fatal else errors[0]
         left = sum(1 for x in pool if not x["analyzed"] and wants_ai(x))
         print(f"AI 분석 {done}건 (남은 대상 {left}건)")
 
@@ -344,7 +404,7 @@ def main():
             n = load_json(f).get("count", 0)
         index.append({"date": f.stem, "count": n})
     (DAYS_DIR / "index.json").write_text(json.dumps({
-        "today": iso_today, "updated_at": stamp, "ai": bool(ai_key), "days": index,
+        "today": iso_today, "updated_at": stamp, "ai": bool(ai_key), "ai_error": ai_error, "days": index,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
 
     n_ev = update_events([x for items in days.values() for x in items], iso_today)
