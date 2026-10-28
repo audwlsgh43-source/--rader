@@ -56,16 +56,41 @@ MID = ["자기주식", "배당", "대량보유", "매출액또는손익구조", 
 SKIP_AI = ["분기보고서", "반기보고서", "사업보고서", "감사보고서", "증권신고서", "투자설명서"]
 
 EVENT_KINDS = {
-    "실적발표": "", "IR": "", "주주총회": "", "배당기준일": "up", "배당지급": "up",
-    "청약": "", "신주상장": "down", "권리락": "", "전환청구": "down", "합병기일": "",
-    "분할기일": "", "보호예수해제": "down", "매매거래정지": "down", "기타": "",
+    "잠정실적발표": "", "IR(실적발표)": "", "IR(경영현황)": "", "주주총회": "",
+    "배당기준일": "up", "배당지급": "up", "청약": "", "납입일": "", "신주배정기준일": "",
+    "신주상장": "down", "권리락": "", "감자기준일": "down", "합병기일": "", "분할기일": "",
+    "매매거래정지": "down", "변경상장": "", "상호변경": "", "신규상장": "up", "재상장": "up",
+    "전환청구": "down", "보호예수해제": "down", "기타": "",
 }
+
+# 캘린더 분류: 일정이 나온 '원래 공시'의 제목으로 정함 (위에서부터 먼저 맞는 것)
+CAT_RULES = [
+    ("잠정실적", ["잠정실적", "영업(잠정)실적"]),
+    ("액면변경", ["주식분할", "주식병합", "액면분할", "액면병합", "액면변경"]),
+    ("유상증자", ["유상증자", "유무상증자"]),
+    ("무상증자", ["무상증자"]),
+    ("감자", ["감자"]),
+    ("합병/분할", ["합병", "분할"]),
+    ("배당", ["배당"]),
+    ("상호변경", ["상호변경"]),
+    ("재상장", ["재상장"]),
+    ("신규상장", ["신규상장", "주권상장", "상장예정"]),
+    ("IR", ["기업설명회", "IR개최", "IR)개최"]),
+]
+
+
+def event_cat(title: str) -> str:
+    t = title.replace(" ", "")
+    for name, kws in CAT_RULES:
+        if any(k in t for k in kws):
+            return name
+    return ""
 
 
 def classify(title: str) -> tuple[str, str]:
     t = title.replace(" ", "")
     typ = "etc"
-    if not t.startswith("["):  # [기재정정] 등 정정공시는 '기타·정정'
+    if not t.startswith("[") and not any(k in t for k in ("주식분할", "주식병합", "액면")):  # 정정공시·액면변경은 '기타'
         for name, kws in TYPE_RULES:
             if any(k in t for k in kws):
                 typ = name
@@ -131,6 +156,7 @@ JSON 외의 다른 글은 쓰지 마세요.
 }}
 
 events에는 원문에 날짜가 명시된, 접수일 이후의 일정만 넣으세요(없으면 빈 배열).
+기업설명회(IR)는 목적이 실적 발표면 "IR(실적발표)", 그 밖의 경영현황·사업설명이면 "IR(경영현황)"으로 쓰세요.
 numbers 배열의 각 원소는 ["항목명", "값"] 형태의 두 칸짜리 배열이어야 합니다.
 
 원문:
@@ -165,16 +191,21 @@ def analyze(api_key: str, model: str, d: dict, date: str, body: str) -> dict:
 
 
 def update_events(items: list[dict], today: str):
-    """AI가 뽑은 일정을 events_auto.json에 누적 (지난 7일 ~ 앞으로 90일만 보관)"""
+    """공시에서 나온 일정을 events_auto.json에 누적 (지난 7일 ~ 앞으로 90일만 보관)"""
     store = {}
     if EVENTS_OUT.exists():
         for e in json.loads(EVENTS_OUT.read_text(encoding="utf-8")).get("items", []):
             store[(e["rcept_no"], e["d"], e["k"])] = e
     for d in items:
-        for e in d.get("events", []):
+        cat = event_cat(d["title"]) or "기타"
+        evs = list(d.get("events", []))
+        # 잠정실적은 공시일이 곧 일정 → AI 없이 바로 등록
+        if cat == "잠정실적" and not d["title"].startswith("["):
+            evs.append({"date": d["date"], "kind": "잠정실적발표", "desc": d.get("ai") or "잠정실적 공시"})
+        for e in evs:
             store[(d["rcept_no"], e["date"], e["kind"])] = {
-                "d": e["date"], "k": e["kind"], "tone": EVENT_KINDS.get(e["kind"], ""),
-                "c": d["corp"], "s": e["desc"], "rcept_no": d["rcept_no"], "url": d["url"],
+                "d": e["date"], "k": e["kind"], "cat": cat, "tone": EVENT_KINDS.get(e["kind"], ""),
+                "c": d["corp"], "s": e["desc"][:60], "rcept_no": d["rcept_no"], "url": d["url"],
             }
     lo = (datetime.fromisoformat(today) - timedelta(days=7)).strftime("%Y-%m-%d")
     hi = (datetime.fromisoformat(today) + timedelta(days=90)).strftime("%Y-%m-%d")
@@ -275,7 +306,8 @@ def main():
         pool = [x for iso in recent for x in days[iso]]
         todo = [x for x in pool if not x["analyzed"] and wants_ai(x)]
         todo.sort(key=lambda x: x["seen"] or "", reverse=True)                       # 같은 조건이면 최신 먼저
-        todo.sort(key=lambda x: (-int(x["date"].replace("-", "")), order[x["imp"]]))  # 최근 날짜 → 중요도 순
+        # 일정 분류 공시 먼저 → 최근 날짜 → 중요도 순
+        todo.sort(key=lambda x: (0 if event_cat(x["title"]) else 1, -int(x["date"].replace("-", "")), order[x["imp"]]))
         todo = todo[:max_sum]
 
         def work(x):

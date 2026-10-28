@@ -138,6 +138,12 @@ a.ev:hover .c{color:var(--accent)}
 .dates button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent);color:#fff}
 :root[data-theme="dark"] .dates button[aria-pressed="true"]{color:#0f1418}
 .dates:empty{display:none}
+.cats{display:flex;flex-wrap:wrap;gap:4px;margin:0 0 12px}
+.cats button{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:3px 8px;font-size:12px;cursor:pointer;color:var(--muted)}
+.cats button b{font-family:var(--font-mono);font-weight:500;margin-left:3px;font-size:11px}
+.cats button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-soft);font-weight:600}
+.cats button:disabled{opacity:.45;cursor:default}
+.ev .cat{display:block;font-size:10.5px;color:var(--muted);font-weight:500;margin-top:1px}
 .empty{padding:32px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:10px}
 
 /* calendar */
@@ -152,7 +158,7 @@ aside.cal{position:sticky;top:72px;background:var(--surface);border:1px solid va
 .day[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
 .evlist{display:flex;flex-direction:column;gap:0}
 .evday{font-size:12.5px;font-weight:700;color:var(--muted);padding:10px 0 4px;border-bottom:1px solid var(--line)}
-.ev{display:grid;grid-template-columns:62px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+.ev{display:grid;grid-template-columns:84px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
 .ev:last-child{border-bottom:0}
 .ev .k{font-size:11.5px;font-weight:600;color:var(--accent)}
 .ev .k.k-up{color:var(--up)} .ev .k.k-down{color:var(--down)}
@@ -219,6 +225,7 @@ footer{font-size:12px;color:var(--muted);padding:0 0 32px}
         <h2 id="calTitle">주요 이벤트</h2>
         <div class="wknav"><button id="wkPrev" aria-label="이전 주">‹</button><span class="meta" id="weekRange"></span><button id="wkNext" aria-label="다음 주">›</button></div>
       </div>
+      <div class="cats" id="cats" role="group" aria-label="일정 종류"></div>
       <div class="week" id="week"></div>
       <div class="evlist" id="evlist"></div>
     </aside>
@@ -268,7 +275,10 @@ let EV = [
   {d:"2026-10-30",k:"주주총회",tone:"",c:"미르모빌리티",s:"임시주총 · 정관 변경"}
 ];
 
-let state = {type:"all", q:"", watchOnly:false, day:null, wk:0, date:null, open:new Set()};
+let state = {type:"all", q:"", watchOnly:false, day:null, wk:0, date:null, cat:"전체", open:new Set()};
+const CATS = ["전체","잠정실적","유상증자","무상증자","합병/분할","감자","액면변경","배당","상호변경","신규상장","재상장","IR","IR | 실적발표","IR | 경영현황"];
+const evCat = e => e.cat || (CATS.includes(e.k) ? e.k : "기타");
+const catMatch = (e,c) => c==="전체" || (c==="IR" ? evCat(e)==="IR" : c==="IR | 실적발표" ? e.k==="IR(실적발표)" : c==="IR | 경영현황" ? e.k==="IR(경영현황)" : evCat(e)===c);
 let AI_ON = true;
 let DAYS = [];            // [{date,count}] 공시가 있는 최근 3일
 const dayCache = new Map(); // date -> items
@@ -349,7 +359,10 @@ function renderCal(){
   const days = [...Array(5)].map((_,i)=>{ const d=new Date(start); d.setDate(d.getDate()+i); return d; });
   const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
   $("#weekRange").textContent = `${days[0].getMonth()+1}.${days[0].getDate()} – ${days[4].getMonth()+1}.${days[4].getDate()}`;
-  const evs = EV.filter(e=>!state.watchOnly || watch.has(e.c));
+  const base = EV.filter(e=>!state.watchOnly || watch.has(e.c));
+  $("#cats").innerHTML = CATS.map(c=>{ const n = base.filter(e=>catMatch(e,c)).length;
+    return `<button data-cat="${c}" aria-pressed="${state.cat===c}" ${n||c==="전체"||state.cat===c?"":"disabled"}>${c}<b>${n}</b></button>`; }).join("");
+  const evs = base.filter(e=>catMatch(e,state.cat));
   $("#calTitle").textContent = state.wk===0 ? "이번 주 주요 이벤트" : state.wk===1 ? "다음 주 주요 이벤트" : state.wk===-1 ? "지난주 주요 이벤트" : "주요 이벤트";
   $("#week").innerHTML = days.map(d=>{
     const k = iso(d); const n = evs.filter(e=>e.d===k).length;
@@ -362,10 +375,10 @@ function renderCal(){
   let html = "", cur = "";
   list.forEach(e=>{
     if(e.d!==cur){ cur=e.d; const d=new Date(e.d+"T00:00:00"); html += `<div class="evday">${d.getMonth()+1}월 ${d.getDate()}일 (${dow[d.getDay()]})${e.d===TODAY?" · 오늘":""}</div>`; }
-    const inner = `<span class="k ${e.tone?"k-"+e.tone:""}">${esc(e.k)}</span><div><div class="c">${esc(e.c)}</div><div class="s">${esc(e.s)}</div></div>`;
+    const inner = `<span class="k ${e.tone?"k-"+e.tone:""}">${esc(e.k)}${evCat(e)!=="기타"&&evCat(e)!==e.k?`<span class="cat">${esc(evCat(e))}</span>`:""}</span><div><div class="c">${esc(e.c)}</div><div class="s">${esc(e.s)}</div></div>`;
     html += e.url ? `<a class="ev" href="${esc(e.url)}" target="_blank" rel="noopener">${inner}</a>` : `<div class="ev">${inner}</div>`;
   });
-  $("#evlist").innerHTML = html || `<div class="evempty">${state.watchOnly?"관심종목 일정이 없어요.":"이 기간에 등록된 일정이 없어요."}</div>`;
+  $("#evlist").innerHTML = html || `<div class="evempty">${state.watchOnly?"관심종목 일정이 없어요.":state.cat!=="전체"?`이 기간에 ${state.cat} 일정이 없어요. ‹ › 로 다른 주를 확인해 보세요.`:"이 기간에 등록된 일정이 없어요."}</div>`;
 }
 
 document.addEventListener("click", ev=>{
@@ -377,6 +390,8 @@ document.addEventListener("click", ev=>{
   if(tg){ const i = tg.dataset.toggle; state.open.has(i)?state.open.delete(i):state.open.add(i); renderFeed(); return; }
   const day = ev.target.closest(".day");
   if(day){ state.day = state.day===day.dataset.day ? null : day.dataset.day; renderCal(); return; }
+  const ct = ev.target.closest("[data-cat]");
+  if(ct){ state.cat = ct.dataset.cat; renderCal(); return; }
   const dt = ev.target.closest("[data-date]");
   if(dt){ state.date = dt.dataset.date; state.open.clear(); showDate(false); return; }
   if(ev.target.closest("#wkPrev")){ state.wk--; state.day=null; renderCal(); return; }
