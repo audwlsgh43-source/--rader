@@ -1,8 +1,113 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 18:15",
- "count": 284,
+ "updated_at": "2026-10-29 19:10",
+ "count": 285,
  "items": [
+  {
+   "rcept_no": "20261029900893",
+   "date": "2026-10-29",
+   "corp": "시지트로닉스",
+   "stock_code": "429270",
+   "corp_code": "01284751",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]경영권변경등에관한계약체결",
+   "flr": "시지트로닉스",
+   "rm": "코",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900893",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029900892",
+   "date": "2026-10-29",
+   "corp": "시지트로닉스",
+   "stock_code": "429270",
+   "corp_code": "01284751",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "경영권변경등에관한계약체결",
+   "flr": "시지트로닉스",
+   "rm": "코정",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900892",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029900891",
+   "date": "2026-10-29",
+   "corp": "에스에너지",
+   "stock_code": "095910",
+   "corp_code": "00585538",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "기타시장안내              (주가 미달에 따른 상장폐지 우려 관련 안내)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "19:10",
+   "ai": "에스에너지 보통주는 2026.08.13자로 관리종목 지정되었으며, 종가 1,000원 미달이 재발하면 상장폐지될 수 있어 투자에 유의가 필요합니다.",
+   "points": [
+    "관리종목 지정 사유: 종가 1,000원 미달 상태 30일 연속(매매거래일)",
+    "지정 후 90일 내 종가 1,000원 이상 45일 연속 미충족 시 상장폐지 사유",
+    "지정 후 46일(매매거래일)부터 종가 미달 발생 시 상장폐지 가능",
+    "주식병합 또는 자본금 감소 완료 시 매매거래정지·상장폐지 가능"
+   ],
+   "numbers": [
+    [
+     "관리종목 지정 후 경과일수",
+     "36일"
+    ],
+    [
+     "1,000원 이상 연속충족일수",
+     "2일"
+    ],
+    [
+     "관리종목 해제 요건 연속 충족일수",
+     "45일 이상"
+    ],
+    [
+     "상장폐지 판단 종가 기준",
+     "1,000원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900891"
+  },
+  {
+   "rcept_no": "20261029800880",
+   "date": "2026-10-29",
+   "corp": "삼부토건",
+   "stock_code": "001470",
+   "corp_code": "00125974",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "투자판단관련주요경영사항",
+   "flr": "삼부토건",
+   "rm": "유",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800880",
+   "read_fail": true
+  },
   {
    "rcept_no": "20261029900877",
    "date": "2026-10-29",
@@ -21,8 +126,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900877",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900877"
   },
   {
    "rcept_no": "20261029900875",
@@ -42,8 +147,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900875",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900875"
   },
   {
    "rcept_no": "20261029900871",
@@ -63,8 +168,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900871",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900871"
   },
   {
    "rcept_no": "20261029900862",
@@ -84,8 +189,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900862",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900862"
   },
   {
    "rcept_no": "20261029900846",
@@ -105,8 +210,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900846",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900846"
   },
   {
    "rcept_no": "20261029900835",
@@ -126,8 +231,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900835",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900835"
   },
   {
    "rcept_no": "20261029900834",
@@ -147,8 +252,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900834",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900834"
   },
   {
    "rcept_no": "20261029900832",
@@ -168,8 +273,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900832",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900832"
   },
   {
    "rcept_no": "20261029900827",
@@ -189,8 +294,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900827",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900827"
   },
   {
    "rcept_no": "20261029900824",
@@ -210,8 +315,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900824",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900824"
   },
   {
    "rcept_no": "20261029900812",
@@ -231,8 +336,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900812",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900812"
   },
   {
    "rcept_no": "20261029800887",
@@ -252,8 +357,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800887",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800887"
   },
   {
    "rcept_no": "20261029800883",
@@ -273,8 +378,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800883",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800883"
   },
   {
    "rcept_no": "20261029800879",
@@ -294,8 +399,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800879",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800879"
   },
   {
    "rcept_no": "20261029800873",
@@ -315,8 +420,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800873",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800873"
   },
   {
    "rcept_no": "20261029800851",
@@ -336,8 +441,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800851",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800851"
   },
   {
    "rcept_no": "20261029800847",
@@ -357,8 +462,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800847",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800847"
   },
   {
    "rcept_no": "20261029800841",
@@ -378,8 +483,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800841",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800841"
   },
   {
    "rcept_no": "20261029800838",
@@ -399,8 +504,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800838",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800838"
   },
   {
    "rcept_no": "20261029800837",
@@ -420,8 +525,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800837",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800837"
   },
   {
    "rcept_no": "20261029800810",
@@ -441,8 +546,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800810",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800810"
   },
   {
    "rcept_no": "20261029800805",
@@ -462,8 +567,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800805",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800805"
   },
   {
    "rcept_no": "20261029800804",
@@ -483,8 +588,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800804",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800804"
   },
   {
    "rcept_no": "20261029800803",
@@ -504,8 +609,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800803",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800803"
   },
   {
    "rcept_no": "20261029800796",
@@ -525,8 +630,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800796",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800796"
   },
   {
    "rcept_no": "20261029000661",
@@ -546,8 +651,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000661",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000661"
   },
   {
    "rcept_no": "20261029000660",
@@ -567,8 +672,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000660",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000660"
   },
   {
    "rcept_no": "20261029000658",
@@ -636,8 +741,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000657",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000657"
   },
   {
    "rcept_no": "20261029000655",
@@ -657,8 +762,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000655",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000655"
   },
   {
    "rcept_no": "20261029000654",
@@ -703,8 +808,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000653",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000653"
   },
   {
    "rcept_no": "20261029000645",
@@ -724,8 +829,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000645",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000645"
   },
   {
    "rcept_no": "20261029000643",
@@ -793,11 +898,64 @@
    "flr": "SCL사이언스",
    "rm": "",
    "seen": "18:15",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "SCL사이언스가 완전자회사 SCL헬스케어를 소규모 무증자 방식으로 흡수합병하며, 합병기일은 2027년 1월 1일입니다.",
+   "points": [
+    "상법 제527조의3에 따른 소규모합병, 합병신주 미발행 무증자합병",
+    "목적: 연구개발 운영체계 일원화 및 기업가치 제고",
+    "존속회사 발행주식 20% 이상 보유 주주가 반대 시 소규모합병 불가",
+    "합병 후 사업장·임직원 유지, 본점을 용인시로 변경 추진"
+   ],
+   "numbers": [
+    [
+     "합병비율(존속:소멸)",
+     "1.0000000:0.0000000"
+    ],
+    [
+     "소멸회사 지분율",
+     "100%"
+    ],
+    [
+     "소멸회사 자산총계(2025.12.31.)",
+     "14,716,292,027원"
+    ],
+    [
+     "소멸회사 당기순손실(2025년)",
+     "-890,446,190원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-02",
+     "kind": "기타",
+     "desc": "합병계약 체결"
+    },
+    {
+     "date": "2026-11-13",
+     "kind": "기타",
+     "desc": "주주확정기준일 및 합병반대 의사통지 접수 시작"
+    },
+    {
+     "date": "2026-11-27",
+     "kind": "기타",
+     "desc": "합병반대 의사통지 접수 종료"
+    },
+    {
+     "date": "2026-11-30",
+     "kind": "기타",
+     "desc": "합병승인 이사회결의(주총 갈음), 채권자 이의제출기간 시작"
+    },
+    {
+     "date": "2026-12-30",
+     "kind": "주주총회",
+     "desc": "임시주주총회: 사업목적 추가·정관변경 안건"
+    },
+    {
+     "date": "2026-12-31",
+     "kind": "기타",
+     "desc": "채권자 이의제출기간 종료"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000639"
   },
   {
@@ -818,8 +976,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000607",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000607"
   },
   {
    "rcept_no": "20261029900819",
