@@ -4,8 +4,9 @@
 데이터 출처
   - 코스피·코스닥·코스피200 지수, 전 종목 시세: FinanceDataReader의 KRX 일별 캐시
     (github.com/FinanceData/fdr_krx_data_cache, 장 마감 후 갱신)
-  - 해외 지수·환율·금리·원자재: Yahoo Finance
-  - AI 시황 코멘트(선택): ANTHROPIC_API_KEY가 있으면 거래일마다 한 번 생성
+  - 뉴욕증시(지수·업종 ETF·주요 종목), 환율·금리·원자재: Yahoo Finance (50분에 한 번)
+  - 증권사 리포트 목록: 네이버 금융 리서치 (제목·증권사·날짜·링크만, 본문은 가져오지 않음)
+  - AI 시황 코멘트(선택): ANTHROPIC_API_KEY가 있으면 국내·뉴욕 각각 거래일마다 한 번 생성
 
 각 항목은 실패해도 다른 항목과 공시 수집에 영향을 주지 않습니다.
 """
@@ -26,11 +27,26 @@ CACHE = "https://raw.githubusercontent.com/FinanceData/fdr_krx_data_cache/refs/h
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
 KR_INDICES = [("ks11", "코스피"), ("kq11", "코스닥"), ("ks200", "코스피200")]
+# 환율·금리·원자재 (시황 탭 '환율·금리·원자재')
 GLOBAL = [
-    ("^GSPC", "S&P 500", "index"), ("^IXIC", "나스닥", "index"), ("^DJI", "다우", "index"),
-    ("^SOX", "필라델피아 반도체", "index"), ("KRW=X", "원/달러", "fx"), ("^TNX", "미국 10년물", "rate"),
+    ("KRW=X", "원/달러", "fx"), ("DX-Y.NYB", "달러인덱스", "fx"), ("^FVX", "미국 5년물", "rate"),
+    ("^TNX", "미국 10년물", "rate"), ("^TYX", "미국 30년물", "rate"),
     ("CL=F", "WTI 유가", "cmdty"), ("GC=F", "금", "cmdty"), ("BTC-USD", "비트코인", "crypto"),
 ]
+# 간밤 뉴욕증시
+US_INDICES = [("^GSPC", "S&P 500"), ("^IXIC", "나스닥"), ("^DJI", "다우"), ("^RUT", "러셀2000"),
+              ("^SOX", "필라델피아 반도체"), ("^VIX", "VIX(변동성)")]
+US_SECTORS = [("XLK", "기술"), ("XLC", "커뮤니케이션"), ("XLY", "임의소비재"), ("XLF", "금융"),
+              ("XLV", "헬스케어"), ("XLI", "산업재"), ("XLE", "에너지"), ("XLB", "소재"),
+              ("XLP", "필수소비재"), ("XLU", "유틸리티"), ("XLRE", "부동산")]
+US_STOCKS = [("NVDA", "엔비디아"), ("AAPL", "애플"), ("MSFT", "마이크로소프트"), ("AMZN", "아마존"),
+             ("GOOGL", "알파벳"), ("META", "메타"), ("TSLA", "테슬라"), ("AVGO", "브로드컴"),
+             ("TSM", "TSMC"), ("MU", "마이크론")]
+YAHOO_EVERY_MIN = 50   # Yahoo 호출은 50분에 한 번만 (요청 제한 회피)
+
+# 증권사 시황·투자정보 리포트 목록 (제목·링크만)
+REPORT_LISTS = [("시황", "https://finance.naver.com/research/market_info_list.naver", "market_info_read.naver"),
+                ("투자정보", "https://finance.naver.com/research/invest_list.naver", "invest_read.naver")]
 
 
 def csv_rows(text: str) -> list[dict]:
@@ -148,6 +164,73 @@ def global_quotes() -> list[dict]:
     return out
 
 
+def ny_now():
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("America/New_York"))
+    except Exception:
+        return datetime.now(timezone(timedelta(hours=-4)))
+
+
+def us_market() -> dict:
+    def grab(lst, keep_spark=False):
+        out = []
+        for sym, name in lst:
+            q = yahoo(sym)
+            if q:
+                if not keep_spark:
+                    q.pop("spark", None)
+                out.append({"key": sym, "name": name, **q})
+        return out
+    us = {"indices": grab(US_INDICES, True), "sectors": grab(US_SECTORS), "stocks": grab(US_STOCKS)}
+    us["sectors"].sort(key=lambda x: -x["pct"])
+    # 기준일: S&P 500 마지막 거래 시각(뉴욕)
+    try:
+        r = requests.get("https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC",
+                         params={"range": "5d", "interval": "1d"}, headers=UA, timeout=20)
+        t = r.json()["chart"]["result"][0]["meta"]["regularMarketTime"]
+        from zoneinfo import ZoneInfo
+        us["date"] = datetime.fromtimestamp(t, ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
+    except Exception:
+        us["date"] = ny_now().strftime("%Y-%m-%d")
+    nyn = ny_now()
+    us["closed"] = nyn.strftime("%Y-%m-%d") > us["date"] or nyn.strftime("%H:%M") >= "16:15" or nyn.weekday() >= 5
+    return us
+
+
+def _strip(html: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).replace("&amp;", "&").strip()
+
+
+def report_list() -> list[dict]:
+    """네이버 금융 리서치 목록에서 증권사·제목·날짜·링크만 수집 (본문은 가져오지 않음)"""
+    out = []
+    for cat, url, read_path in REPORT_LISTS:
+        try:
+            r = requests.get(url, headers=UA, timeout=20)
+            r.raise_for_status()
+            html = r.content.decode("euc-kr", errors="ignore")
+            for row in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
+                m = re.search(r'href="([^"]*%s\?nid=(\d+)[^"]*)"[^>]*>(.*?)</a>' % re.escape(read_path), row, re.S)
+                if not m:
+                    continue
+                tds = [_strip(td) for td in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+                date = next((t for t in tds if re.fullmatch(r"\d{2}\.\d{2}\.\d{2}", t)), "")
+                title = _strip(m.group(3))
+                broker = next((t for t in tds[1:] if t and t != title and not re.fullmatch(r"[\d.,]+", t)), "")
+                pdf = re.search(r'href="([^"]+\.pdf)"', row, re.I)
+                link = m.group(1).replace("&amp;", "&")
+                if not link.startswith("http"):
+                    link = "https://finance.naver.com/research/" + link.lstrip("/").replace("research/", "")
+                out.append({"cat": cat, "title": title[:80], "broker": broker[:20],
+                            "date": ("20" + date.replace(".", "-")) if date else "",
+                            "url": link, "pdf": pdf.group(1) if pdf else ""})
+        except Exception as e:
+            print(f"리포트 목록 실패 {cat}: {e}")
+    out.sort(key=lambda x: x["date"], reverse=True)
+    return out[:30]
+
+
 COMMENT_PROMPT = """아래는 {date} 한국 증시 마감 데이터와 해외 시장 데이터, 그날 주요 공시 요약입니다.
 이 숫자와 사실만 사용해서 개인 투자자용 '오늘의 시황'을 써 주세요.
 - 전망, 추천, 매수·매도 의견, 원인에 대한 추측은 쓰지 마세요. 데이터에 없는 뉴스나 사건도 쓰지 마세요.
@@ -159,11 +242,46 @@ COMMENT_PROMPT = """아래는 {date} 한국 증시 마감 데이터와 해외 �
 {data}"""
 
 
-def ai_comment(data: dict, date: str) -> dict | None:
+US_PROMPT = """아래는 뉴욕증시 {date} 마감 데이터입니다. 이 숫자만 사용해서 한국 투자자가 아침에 읽을 '간밤 뉴욕증시' 요약을 써 주세요.
+- 전망, 추천, 매수·매도 의견, 원인에 대한 추측은 쓰지 마세요. 데이터에 없는 뉴스나 사건도 쓰지 마세요.
+- 결과는 JSON 하나로만 답하세요.
+
+{{"headline": "한 줄 제목(30자 이내)", "summary": "전체 흐름 2~3문장", "points": ["지수·업종·종목·금리·환율에서 눈에 띄는 사실 3~5개, 각 50자 이내"]}}
+
+데이터:
+{data}"""
+
+
+def call_claude(prompt: str) -> dict | None:
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
         return None
     model = os.environ.get("SUMMARY_MODEL", "claude-haiku-5-5")
+    r = requests.post("https://api.anthropic.com/v1/messages", headers={
+        "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json",
+    }, json={"model": model, "max_tokens": 3000, "messages": [{"role": "user", "content": prompt}]}, timeout=120)
+    r.raise_for_status()
+    text = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
+    text = re.sub(r"```(?:json)?", "", text)
+    s, e = text.find("{"), text.rfind("}")
+    j = json.loads(text[s:e + 1])
+    return {"headline": str(j.get("headline", "")), "summary": str(j.get("summary", "")),
+            "points": [str(p) for p in j.get("points", [])][:5]}
+
+
+def us_comment(us: dict, macro: list) -> dict | None:
+    f = lambda x: f'{x["name"]} {x["close"]} ({x["pct"]:+.2f}%)'
+    brief = {"지수": [f(x) for x in us.get("indices", [])],
+             "업종ETF(등락순)": [f'{x["name"]} {x["pct"]:+.2f}%' for x in us.get("sectors", [])],
+             "주요종목": [f(x) for x in us.get("stocks", [])],
+             "금리·환율·원자재": [f(x) for x in macro]}
+    c = call_claude(US_PROMPT.format(date=us["date"], data=json.dumps(brief, ensure_ascii=False, indent=1)))
+    return {"date": us["date"], **c} if c else None
+
+
+def ai_comment(data: dict, date: str) -> dict | None:
+    if not os.environ.get("ANTHROPIC_API_KEY", "").strip():
+        return None
     brief = {
         "국내지수": [{k: i[k] for k in ("name", "close", "chg", "pct")} | {"거래대금(조원)": round(i["amount"] / 1e12, 1)}
                   for i in data.get("indices", [])],
@@ -179,16 +297,8 @@ def ai_comment(data: dict, date: str) -> dict | None:
         top = [x for x in items if x.get("imp") == "high" and x.get("ai")][:8]
         brief["주요공시"] = [f'{x["corp"]}: {x["ai"]}' for x in top]
     prompt = COMMENT_PROMPT.format(date=date, data=json.dumps(brief, ensure_ascii=False, indent=1))
-    r = requests.post("https://api.anthropic.com/v1/messages", headers={
-        "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json",
-    }, json={"model": model, "max_tokens": 3000, "messages": [{"role": "user", "content": prompt}]}, timeout=120)
-    r.raise_for_status()
-    text = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
-    text = re.sub(r"```(?:json)?", "", text)
-    s, e = text.find("{"), text.rfind("}")
-    j = json.loads(text[s:e + 1])
-    return {"date": date, "headline": str(j.get("headline", "")), "summary": str(j.get("summary", "")),
-            "points": [str(p) for p in j.get("points", [])][:5]}
+    c = call_claude(prompt)
+    return {"date": date, **c} if c else None
 
 
 def main():
@@ -208,15 +318,45 @@ def main():
             data.update(market_stats(rows))
     except Exception as e:
         errors.append(f"종목 시세: {e}")
+    last_y = old.get("yahoo_at", "")
+    yahoo_due = (not last_y or not old.get("us") or
+                 (now - datetime.strptime(last_y, "%Y-%m-%d %H:%M").replace(tzinfo=KST)) >= timedelta(minutes=YAHOO_EVERY_MIN))
+    if yahoo_due or os.environ.get("FORCE_MARKET") == "1":
+        try:
+            data["global"] = global_quotes()
+        except Exception as e:
+            errors.append(f"환율·금리·원자재: {e}")
+        try:
+            us = us_market()
+            if us.get("indices"):
+                data["us"] = us
+        except Exception as e:
+            errors.append(f"뉴욕증시: {e}")
+        if data.get("global") or data.get("us"):
+            data["yahoo_at"] = data["updated_at"]
     try:
-        data["global"] = global_quotes()
+        reps = report_list()
+        if reps:
+            data["reports"] = reps
+        else:
+            errors.append("리포트 목록: 0건 (페이지 구조가 바뀌었을 수 있어요)")
     except Exception as e:
-        errors.append(f"해외 시장: {e}")
+        errors.append(f"리포트 목록: {e}")
 
-    # 실패한 항목은 이전 값을 유지
-    for k in ("indices", "date", "breadth", "top_amount", "gainers", "losers", "marcap_top", "global"):
+    # 실패했거나 이번에 갱신하지 않은 항목은 이전 값을 유지
+    for k in ("indices", "date", "breadth", "top_amount", "gainers", "losers", "marcap_top",
+              "global", "us", "yahoo_at", "reports", "us_comment"):
         if not data.get(k) and old.get(k):
             data[k] = old[k]
+
+    us = data.get("us")
+    if us and us.get("closed") and (not data.get("us_comment") or data["us_comment"].get("date") != us["date"]):
+        try:
+            c = us_comment(us, data.get("global", []))
+            if c:
+                data["us_comment"] = c
+        except Exception as e:
+            errors.append(f"AI 뉴욕 시황: {e}")
 
     date = data.get("date") or (data.get("indices") or [{}])[0].get("date")
     comment = old.get("comment")
@@ -233,7 +373,8 @@ def main():
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"시황 저장: 기준일 {date}, 국내지수 {len(data.get('indices', []))}, 해외 {len(data.get('global', []))}, 오류 {errors}")
+    print(f"시황 저장: 기준일 {date}, 국내지수 {len(data.get('indices', []))}, 뉴욕 {len((data.get('us') or {}).get('indices', []))}, "
+          f"환율등 {len(data.get('global', []))}, 리포트 {len(data.get('reports', []))}, 오류 {errors}")
 
 
 if __name__ == "__main__":

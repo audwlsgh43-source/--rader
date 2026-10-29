@@ -236,6 +236,24 @@ body[data-view="market"] .search{visibility:hidden}
 .rank td.r{text-align:right;font-family:var(--font-mono);font-variant-numeric:tabular-nums}
 .mk-empty{color:var(--muted);font-size:13.5px}
 .mk-note{font-size:12px;color:var(--muted)}
+.subtabs{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:4px;align-self:flex-start}
+.subtabs button{border:0;background:none;border-radius:7px;height:32px;padding:0 16px;cursor:pointer;font-weight:600;color:var(--muted)}
+.subtabs button[aria-selected="true"]{background:var(--accent);color:#fff}
+:root[data-theme="dark"] .subtabs button[aria-selected="true"]{color:#0f1418}
+.sectors{display:flex;flex-direction:column;gap:6px}
+.sec{display:grid;grid-template-columns:84px 1fr 62px;align-items:center;gap:8px;font-size:13px}
+.sec .track{position:relative;height:10px;background:var(--bg);border-radius:5px}
+.sec .track::after{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--line)}
+.sec .fill{position:absolute;top:0;bottom:0;border-radius:5px}
+.sec .v{text-align:right;font-family:var(--font-mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+.reps{display:flex;flex-direction:column}
+.rep{display:flex;flex-direction:column;gap:2px;padding:10px 0;border-bottom:1px solid var(--line)}
+.rep:last-child{border-bottom:0}
+.rep a.t{color:var(--ink);text-decoration:none;font-weight:500;font-size:14px}
+.rep a.t:hover{color:var(--accent)}
+.rep .m{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.rep .m .c{color:var(--accent);font-weight:600}
+.rep .m a{color:var(--accent)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
 @media (max-width:860px){
@@ -672,31 +690,70 @@ function rankTable(list, valFn){
   return `<table class="rank"><tbody>${list.map((x,i)=>`<tr><td class="n">${i+1}</td><td class="nm">${esc(x.name)}<small>${x.mkt}</small></td>
     <td class="r">${fmt(x.close,0)}</td><td class="r ${cls(x.pct)}">${sign(x.pct)}${fmt(x.pct,2)}%</td>${valFn?`<td class="r">${valFn(x)}</td>`:""}</tr>`).join("")}</tbody></table>`;
 }
-function renderMarket(){
-  const el = $("#viewMarket");
-  if(!MK){ el.innerHTML = `<div class="panel"><p class="mk-empty">시황 데이터가 아직 없어요. ↻로 수집을 실행하거나 다음 자동 수집을 기다려 주세요.</p></div>`; return; }
-  const d = MK.date ? new Date(MK.date+"T00:00:00") : null;
-  const dlabel = d ? `${d.getMonth()+1}월 ${d.getDate()}일(${dow[d.getDay()]}) 장 마감 기준` : "";
-  const c = MK.comment;
+let MKTAB = (()=>{ const n=new Date(); const m=n.getHours()*60+n.getMinutes(); return m < 15*60+30 ? "us" : "kr"; })();
+function aiCard(c, tag){
+  if(!c) return "";
+  return `<div class="panel ai-card"><p class="hl"><span class="tag">${tag}</span>${esc(c.headline)}</p><p>${esc(c.summary)}</p>${c.points&&c.points.length?`<ul>${c.points.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`;
+}
+function idxCards(list, decimals=2){
+  return `<div class="idx-grid">${list.map(i=>`<div class="idx"><span class="nm"><span>${esc(i.name)}</span>${i.amount?`<span>거래대금 ${won(i.amount)}</span>`:""}</span>
+    <span class="v">${fmt(i.close,decimals)}</span><span class="c ${cls(i.chg)}">${arrow(i.chg)} ${fmt(Math.abs(i.chg),2)} (${sign(i.pct)}${fmt(i.pct,2)}%)</span>${spark(i.spark, cls(i.chg))}</div>`).join("")}</div>`;
+}
+function macroPanel(){
+  return `<div class="panel"><h3>환율·금리·원자재<span class="sub">최근 종가 기준</span></h3>${(MK.global&&MK.global.length) ? `<div class="g-grid">${MK.global.map(g=>`<div class="g"><span class="nm">${esc(g.name)}</span><span class="v">${gVal(g)}</span><span class="c ${cls(g.pct)}">${sign(g.pct)}${fmt(g.pct,2)}%</span><span class="t">${g.date}</span></div>`).join("")}</div>` : `<p class="mk-empty">시세를 받아오지 못했어요. 다음 수집 때 다시 시도해요.</p>`}</div>`;
+}
+function renderKR(){
   const br = MK.breadth || {};
   const brRow = m => { const b = br[m]; if(!b) return ""; const t = (b.up+b.flat+b.down)||1;
     return `<div class="br-row"><div class="lbl"><b>${m}</b><span><span class="up">상승 ${b.up}</span> · 보합 ${b.flat} · <span class="down">하락 ${b.down}</span>${b.limit_up||b.limit_down?` · 상한가 ${b.limit_up} / 하한가 ${b.limit_down}`:""}</span></div>
       <div class="bar"><i class="u" style="width:${b.up/t*100}%"></i><i class="f" style="width:${b.flat/t*100}%"></i><i class="d" style="width:${b.down/t*100}%"></i></div></div>`; };
-  el.innerHTML = `
-    <div class="mk-head"><h2>오늘의 시황</h2><span>${dlabel}${MK.updated_at?` · ${MK.updated_at.slice(5).replace("-",".")} 갱신`:""}</span></div>
-    ${c ? `<div class="panel ai-card"><p class="hl"><span class="tag">AI</span>${esc(c.headline)}</p><p>${esc(c.summary)}</p>${c.points&&c.points.length?`<ul>${c.points.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>` : ""}
-    <div class="idx-grid">${(MK.indices||[]).map(i=>`<div class="idx"><span class="nm"><span>${i.name}</span><span>거래대금 ${won(i.amount)}</span></span>
-      <span class="v">${fmt(i.close,2)}</span><span class="c ${cls(i.chg)}">${arrow(i.chg)} ${fmt(Math.abs(i.chg),2)} (${sign(i.pct)}${fmt(i.pct,2)}%)</span>${spark(i.spark, cls(i.chg))}</div>`).join("") || `<p class="mk-empty">국내 지수 데이터가 없어요.</p>`}</div>
+  const d = MK.date ? new Date(MK.date+"T00:00:00") : null;
+  return `<div class="mk-head"><h2>국내 증시</h2><span>${d ? `${d.getMonth()+1}월 ${d.getDate()}일(${dow[d.getDay()]}) 장 마감 기준` : ""}</span></div>
+    ${aiCard(MK.comment, "AI")}
+    ${(MK.indices||[]).length ? idxCards(MK.indices) : `<p class="mk-empty">국내 지수 데이터가 없어요.</p>`}
     <div class="panel"><h3>등락 종목 수</h3><div class="breadth">${brRow("코스피")}${brRow("코스닥")}</div></div>
-    <div class="panel"><h3>해외·환율·원자재<span class="sub">최근 종가 기준</span></h3>${(MK.global&&MK.global.length) ? `<div class="g-grid">${MK.global.map(g=>`<div class="g"><span class="nm">${g.name}</span><span class="v">${gVal(g)}</span><span class="c ${cls(g.pct)}">${sign(g.pct)}${fmt(g.pct,2)}%</span><span class="t">${g.date}</span></div>`).join("")}</div>` : `<p class="mk-empty">해외 시세를 받아오지 못했어요. 다음 수집 때 다시 시도해요.</p>`}</div>
     <div class="panel"><h3>거래대금 상위</h3>${rankTable(MK.top_amount, x=>won(x.amount))}</div>
     <div class="mk-2col">
       <div class="panel"><h3>상승률 상위<span class="sub">시총 1천억 이상</span></h3>${rankTable(MK.gainers)}</div>
       <div class="panel"><h3>하락률 상위<span class="sub">시총 1천억 이상</span></h3>${rankTable(MK.losers)}</div>
     </div>
-    <div class="panel"><h3>시가총액 상위</h3>${rankTable(MK.marcap_top, x=>won(x.marcap))}</div>
-    <p class="mk-note">출처: 한국거래소 시세(FinanceDataReader 일별 데이터), Yahoo Finance. 국내 시세는 장 마감 후 반영돼요. AI 시황은 수치를 바탕으로 자동 작성되며 투자 권유가 아니에요.</p>`;
+    <div class="panel"><h3>시가총액 상위</h3>${rankTable(MK.marcap_top, x=>won(x.marcap))}</div>`;
 }
+function renderUS(){
+  const us = MK.us;
+  if(!us || !(us.indices||[]).length) return `<div class="mk-head"><h2>간밤 뉴욕증시</h2></div><div class="panel"><p class="mk-empty">뉴욕증시 데이터를 아직 받지 못했어요. 다음 수집 때 다시 시도해요.</p></div>${macroPanel()}`;
+  const d = new Date(us.date+"T00:00:00");
+  const mx = Math.max(1, ...(us.sectors||[]).map(x=>Math.abs(x.pct)));
+  const secs = (us.sectors||[]).map(x=>{ const w = Math.abs(x.pct)/mx*50; const col = x.pct>=0 ? "var(--up)" : "var(--down)";
+    return `<div class="sec"><span>${esc(x.name)}</span><span class="track"><span class="fill" style="${x.pct>=0?`left:50%`:`right:50%`};width:${w}%;background:${col}"></span></span><span class="v ${cls(x.pct)}">${sign(x.pct)}${fmt(x.pct,2)}%</span></div>`; }).join("");
+  const stocks = (us.stocks||[]).map(g=>`<div class="g"><span class="nm">${esc(g.name)} <small>${g.key}</small></span><span class="v">$${fmt(g.close,2)}</span><span class="c ${cls(g.pct)}">${sign(g.pct)}${fmt(g.pct,2)}%</span></div>`).join("");
+  return `<div class="mk-head"><h2>간밤 뉴욕증시</h2><span>${d.getMonth()+1}월 ${d.getDate()}일(${dow[d.getDay()]}) ${us.closed ? "마감 기준" : "장중 · 마감 전"}</span></div>
+    ${aiCard(MK.us_comment && MK.us_comment.date===us.date ? MK.us_comment : null, "AI")}
+    ${idxCards(us.indices)}
+    <div class="mk-2col">
+      <div class="panel"><h3>업종별 등락<span class="sub">S&amp;P 500 업종 ETF</span></h3><div class="sectors">${secs}</div></div>
+      <div class="panel"><h3>주요 종목</h3><div class="g-grid">${stocks}</div></div>
+    </div>
+    ${macroPanel()}`;
+}
+function renderReports(){
+  const list = MK.reports || [];
+  const body = list.length ? `<div class="reps">${list.map(r=>`<div class="rep"><a class="t" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
+      <span class="m"><span class="c">${esc(r.cat)}</span><span>${esc(r.broker)}</span><span>${r.date ? r.date.slice(5).replace("-",".") : ""}</span>${r.pdf?`<a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>`:""}</span></div>`).join("")}</div>`
+    : `<p class="mk-empty">리포트 목록을 받아오지 못했어요. 다음 수집 때 다시 시도해요.</p>`;
+  return `<div class="mk-head"><h2>증권사 리포트</h2><span>시황·투자정보 최신 30건</span></div>
+    <div class="panel">${body}</div>
+    <p class="mk-note">제목과 링크만 모아 보여줘요. 리포트 원문은 각 증권사 자료이며 링크를 누르면 네이버 금융에서 열려요.</p>`;
+}
+function renderMarket(){
+  const el = $("#viewMarket");
+  if(!MK){ el.innerHTML = `<div class="panel"><p class="mk-empty">시황 데이터가 아직 없어요. ↻로 수집을 실행하거나 다음 자동 수집을 기다려 주세요.</p></div>`; return; }
+  const tabs = [["us","뉴욕"],["kr","국내"],["rep","리포트"]];
+  el.innerHTML = `<div class="subtabs" role="tablist">${tabs.map(([k,l])=>`<button role="tab" data-mk="${k}" aria-selected="${MKTAB===k}">${l}</button>`).join("")}</div>
+    ${MKTAB==="kr" ? renderKR() : MKTAB==="us" ? renderUS() : renderReports()}
+    <p class="mk-note">출처: 한국거래소 시세(FinanceDataReader 일별 데이터), Yahoo Finance, 네이버 금융 리서치 목록.${MK.updated_at?` 마지막 수집 ${MK.updated_at.slice(5).replace("-",".")}.`:""} AI 시황은 수치를 바탕으로 자동 작성되며 투자 권유가 아니에요.</p>`;
+}
+document.addEventListener("click", e=>{ const b = e.target.closest("[data-mk]"); if(b){ MKTAB = b.dataset.mk; renderMarket(); } });
 async function loadMarket(){ try{ MK = await getJSON("data/market.json"); }catch(_){ } renderMarket(); }
 function setView(v){
   document.body.dataset.view = v;
