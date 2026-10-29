@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29 13:03",
+ "updated_at": "2026-10-29 13:07",
  "indices": [
   {
    "key": "ks11",
@@ -478,7 +478,7 @@
    "broker": "DS투자증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/daily/37977",
-   "pdf": "https://stock.pstatic.net/stock-research/market/66/20261029_market_37891000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37977",
    "sum": [
     "한화에어로스페이스가 리투아니아 기업과 40mm 차륜형 대공포 생산·통합 계약 4건을 맺음",
@@ -584,7 +584,13 @@
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/daily/37970",
    "pdf": "https://stock.pstatic.net/stock-research/market/64/20261029_market_816638000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37970"
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37970",
+   "sum": [
+    "국내 증시는 반도체 호실적과 주주환원 기대에 코스피가 6.6% 급등했다",
+    "외국인과 기관이 함께 순매수해 이틀 연속 매수 사이드카가 발동됐다",
+    "미국은 연준이 금리를 동결했으나 인플레이션 낙관론에 상승 마감했다",
+    "유럽은 실적 부진과 유가 상승 속 ECB 결정을 앞두고 보합 마감했다"
+   ]
   },
   {
    "cat": "시황",
@@ -608,7 +614,13 @@
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/daily/37968",
    "pdf": "https://stock.pstatic.net/stock-research/market/64/20261029_market_462839000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37968"
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37968",
+   "sum": [
+    "SK증권은 유럽 배출권(EUA) 가격이 1주일간 3.7% 올라 강세를 보인다고 봄",
+    "SK증권은 국내 감축 인증 KOC 가격이 3개월 새 172.7% 급등한 점을 주목함",
+    "SK증권은 이스라엘 총선과 미국의 이란 공격 가능성이 국제유가를 끌어올렸다고 봄",
+    "EU 의회는 메탄 배출 규제의 수입 의무를 3년 유예하기로 함"
+   ]
   },
   {
    "cat": "시황",
@@ -675,7 +687,7 @@
    "broker": "유안타증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40635",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/18/20261029_invest_55561000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40635",
    "sum": [
     "유안타증권은 설비투자(Capex)가 숨 고르는 국면이라고 봄",
@@ -690,7 +702,7 @@
    "broker": "IBK투자증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40634",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/40/20261029_invest_185956000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40634",
    "sum": [
     "미국 연준이 인플레이션 우려 속에서도 기준금리를 4.00%로 동결함",
@@ -705,7 +717,7 @@
    "broker": "신한투자증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40633",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/21/20261029_invest_149940000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40633",
    "sum": [
     "Anthropic은 10월 26일 S-1을 공개했고, 12월 1일 전 상장 가능성이 높게 점쳐짐",
@@ -720,7 +732,7 @@
    "broker": "신한투자증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40632",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/21/20261029_invest_328859000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40632",
    "sum": [
     "AI 투자 지속성 우려 속에도 대만 증시는 낙폭과 변동성이 한국보다 작게 나타남",
@@ -735,7 +747,7 @@
    "broker": "키움증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40631",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/39/20261029_invest_698500000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40631",
    "sum": [
     "키움증권은 FOMC 금리 동결을 예상된 결과로 보고 증시 중립 이벤트로 봄",
@@ -750,7 +762,7 @@
    "broker": "유진투자증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40630",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/63/20261029_invest_769783000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40630",
    "sum": [
     "연준이 10월 금리를 동결했지만 전반적으로 덜 매파적이었다고 유진투자증권은 봄",
@@ -765,7 +777,7 @@
    "broker": "키움증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40629",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/39/20261029_invest_905827000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40629",
    "sum": [
     "10월 FOMC에서 연준은 금리를 동결했지만 성장 전망을 올리고 인플레이션 경계는 유지함",
@@ -780,7 +792,7 @@
    "broker": "키움증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40628",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/39/20261029_invest_307418000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40628",
    "sum": [
     "네오클라우드와 파워드셸은 매출이 투자 뒤에 늦게 발생해 전력 연결 시점과 거래상대방 신용이 핵심 변수임",
@@ -804,7 +816,7 @@
    "broker": "신한투자증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40626",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/21/20261029_invest_237650000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40626",
    "sum": [
     "신한투자증권은 2027년에도 AI 설비투자 사이클이 증시를 주도하지만 이미 후반부에 들어섰다고 봄",
@@ -820,7 +832,13 @@
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40625",
    "pdf": "https://stock.pstatic.net/stock-research/invest/21/20261029_invest_936366000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40625"
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40625",
+   "sum": [
+    "신한투자증권은 반도체 주가가 이익 감소보다 초과이익이 인정되는 기간이 짧아진 것을 반영했다고 봄",
+    "신한투자증권은 FY28 이익이 급감하지 않으면 인정 기간이 늘어 반도체 비중 확대 근거가 된다고 봄",
+    "신한투자증권은 2027년 말 KOSPI 기본 평가값을 7,000p, 밴드를 5,000~8,000p로 제시",
+    "신한투자증권은 수출 증가율 둔화 자체보다 단가 하락기에 물량이 함께 줄지가 위험 판단 기준이라고 봄"
+   ]
   },
   {
    "cat": "투자정보",
@@ -828,7 +846,7 @@
    "broker": "신한투자증권",
    "date": "2026-10-29",
    "url": "https://stock.naver.com/research/invest/40624",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/21/20261029_invest_674096000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40624",
    "sum": [
     "신한투자증권은 2027년 중국 경제가 수출과 첨단 제조업 중심의 K자형 구도를 이어갈 것으로 봄",
@@ -843,7 +861,7 @@
    "broker": "유안타증권",
    "date": "2026-10-28",
    "url": "https://stock.naver.com/research/daily/37965",
-   "pdf": "https://stock.pstatic.net/stock-research/market/18/20261028_market_365124000.pdf",
+   "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37965",
    "sum": [
     "3분기 영업이익 83조원대로 사상 최대, 유안타증권은 실적보다 중장기 이익 가시성이 중요하다고 봄",
@@ -858,8 +876,14 @@
    "broker": "유안타증권",
    "date": "2026-10-28",
    "url": "https://stock.naver.com/research/daily/37964",
-   "pdf": "",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37964"
+   "pdf": "https://stock.pstatic.net/stock-research/market/18/20261028_market_330194000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37964",
+   "sum": [
+    "AI 투자심리 회복에 기술주·성장주가 강세를 보이며 나스닥이 1.18% 상승",
+    "브로드컴 주선의 앤트로픽 630억 달러 대출이 AI 지출 지속 기대를 자극",
+    "FOMC를 앞두고 응답자 93%가 금리 동결을 예상하며 달러인덱스는 상승",
+    "유안타증권은 보잉의 737맥스 증산 지연이 턴어라운드 계획에 의구심을 키운다고 봄"
+   ]
   },
   {
    "cat": "시황",
@@ -867,8 +891,14 @@
    "broker": "신한투자증권",
    "date": "2026-10-28",
    "url": "https://stock.naver.com/research/daily/37963",
-   "pdf": "",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37963"
+   "pdf": "https://stock.pstatic.net/stock-research/market/21/20261028_market_323982000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/37963",
+   "sum": [
+    "코스피 6.2% 급등해 이틀째 사이드카 발동, AI 자금 조달과 하이닉스 실적이 견인",
+    "신한투자증권은 Anthropic의 630억 달러 조달 성사로 AI 자금 제약 우려가 완화됐다고 봄",
+    "SK하이닉스의 사상 최대 실적과 100조원 주주환원 계획이 반도체주 투심을 자극",
+    "신한투자증권은 미국 FOMC 매파적 동결 전망 속 환율 상승 등 불확실성은 남아 있다고 봄"
+   ]
   }
  ],
  "global": [

@@ -1,8 +1,50 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 13:02",
+ "updated_at": "2026-10-29 13:06",
  "count": 78,
  "items": [
+  {
+   "rcept_no": "20261029900219",
+   "date": "2026-10-29",
+   "corp": "상지건설",
+   "stock_code": "042940",
+   "corp_code": "00232007",
+   "mkt": "코스닥",
+   "type": "capital",
+   "imp": "high",
+   "title": "유상증자최종발행가액확정",
+   "flr": "상지건설",
+   "rm": "코",
+   "seen": "13:06",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900219",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029800213",
+   "date": "2026-10-29",
+   "corp": "LX세미콘",
+   "stock_code": "108320",
+   "corp_code": "00525934",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "low",
+   "title": "결산실적공시예고(안내공시)",
+   "flr": "LX세미콘",
+   "rm": "유",
+   "seen": "13:06",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800213",
+   "read_fail": true
+  },
   {
    "rcept_no": "20261029900211",
    "date": "2026-10-29",
@@ -21,8 +63,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900211",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900211"
   },
   {
    "rcept_no": "20261029800210",
