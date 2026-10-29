@@ -5,6 +5,16 @@
  "corp_code": "00579999",
  "disclosures": [
   {
+   "rcept_no": "20261029000194",
+   "date": "2026-10-29",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "J.P. Morgan Securities PLC의 고영 보유 비율이 7.61%에서 6.96%(4,748,695주)로 줄었다고 보고되었습니다(보고의무발생일 2026-10-26).",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000194",
+   "seen": "11:30"
+  },
+  {
    "rcept_no": "20261029000069",
    "date": "2026-10-29",
    "title": "주식등의대량보유상황보고서(약식)",
