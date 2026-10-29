@@ -1,8 +1,28 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 13:06",
- "count": 78,
+ "updated_at": "2026-10-29 13:17",
+ "count": 79,
  "items": [
+  {
+   "rcept_no": "20261029000212",
+   "date": "2026-10-29",
+   "corp": "DB증권",
+   "stock_code": "016610",
+   "corp_code": "00115694",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "투자설명서(일괄신고)",
+   "flr": "DB증권",
+   "rm": "",
+   "seen": "13:17",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000212"
+  },
   {
    "rcept_no": "20261029900219",
    "date": "2026-10-29",
@@ -21,8 +41,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900219",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900219"
   },
   {
    "rcept_no": "20261029800213",
@@ -42,8 +62,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800213",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800213"
   },
   {
    "rcept_no": "20261029900211",
