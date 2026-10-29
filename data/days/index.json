@@ -1,12 +1,12 @@
 {
  "today": "2026-10-29",
- "updated_at": "2026-10-29 15:14",
+ "updated_at": "2026-10-29 16:25",
  "ai": true,
- "ai_error": "AI 요약 실패: AI 응답 형식 오류 (stop_reason=max_tokens, 블록=thinking, 앞부분='')",
+ "ai_error": "",
  "days": [
   {
    "date": "2026-10-29",
-   "count": 106
+   "count": 204
   },
   {
    "date": "2026-10-28",

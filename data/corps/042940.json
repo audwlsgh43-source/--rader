@@ -5,6 +5,26 @@
  "corp_code": "00232007",
  "disclosures": [
   {
+   "rcept_no": "20261029000433",
+   "date": "2026-10-29",
+   "title": "[기재정정]투자설명서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000433",
+   "seen": "16:25"
+  },
+  {
+   "rcept_no": "20261029000422",
+   "date": "2026-10-29",
+   "title": "[발행조건확정]증권신고서(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000422",
+   "seen": "16:25"
+  },
+  {
    "rcept_no": "20261029000254",
    "date": "2026-10-29",
    "title": "[기재정정]주요사항보고서(유상증자결정)",
