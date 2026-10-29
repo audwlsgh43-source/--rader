@@ -22,7 +22,8 @@ import requests
 
 KST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "data" / "market.json"
+DATA_DIR = ROOT / "data"
+OUT = DATA_DIR / "market.json"
 DAYS_DIR = ROOT / "data" / "days"
 CACHE = "https://raw.githubusercontent.com/FinanceData/fdr_krx_data_cache/refs/heads/master/data"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
@@ -256,32 +257,115 @@ def _strip(html: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).replace("&amp;", "&").strip()
 
 
+def _walk(o):
+    if isinstance(o, dict):
+        yield o
+        for v in o.values():
+            yield from _walk(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _walk(v)
+
+
+def _next_payload_objects(html: str):
+    """Next.js 페이지에 들어 있는 데이터(JSON)를 꺼냄: __NEXT_DATA__ 또는 self.__next_f.push 조각"""
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if m:
+        try:
+            yield from _walk(json.loads(m.group(1)))
+        except Exception:
+            pass
+    chunks = []
+    for raw in re.findall(r'self\.__next_f\.push\(\[\d+,\s*("(?:[^"\\]|\\.)*")\]\)', html, re.S):
+        try:
+            chunks.append(json.loads(raw))
+        except Exception:
+            pass
+    text = "".join(chunks)
+    # RSC 스트림은 "id:JSON" 줄들로 이뤄짐 → 줄마다 JSON 부분을 파싱
+    for line in text.split("\n"):
+        i = line.find(":")
+        body = line[i + 1:] if i >= 0 else line
+        if not body or body[0] not in "[{":
+            continue
+        try:
+            yield from _walk(json.loads(body))
+        except Exception:
+            continue
+
+
+def _pick(d: dict, keys) -> str:
+    for k, v in d.items():
+        kl = k.lower()
+        if any(x in kl for x in keys) and isinstance(v, (str, int)) and str(v).strip():
+            return str(v).strip()
+    return ""
+
+
+def _norm_date(v: str) -> str:
+    v = str(v)
+    m = re.search(r"(20\d{2})[.\-/]?(\d{2})[.\-/]?(\d{2})", v)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    m = re.search(r"\b(\d{2})\.(\d{2})\.(\d{2})\b", v)
+    return f"20{m.group(1)}-{m.group(2)}-{m.group(3)}" if m else ""
+
+
 def report_list() -> list[dict]:
-    """네이버 금융 리서치 목록에서 증권사·제목·날짜·링크만 수집 (본문은 가져오지 않음)"""
+    """네이버 금융 리서치 목록에서 증권사·제목·날짜·링크만 수집 (개편된 Next.js 페이지와 예전 표 형식 모두 시도)"""
     out = []
     for cat, url, read_path in REPORT_LISTS:
         try:
             r = requests.get(url, headers=UA, timeout=20)
             r.raise_for_status()
-            html = r.content.decode("euc-kr", errors="ignore")
-            if "_read.naver" not in html:  # 진단용: 예상과 다른 페이지가 오면 앞부분을 기록
-                snippet = re.sub(r"\s+", " ", html)[:600]
-                print(f"리포트 목록 진단 {cat}: HTTP {r.status_code}, 길이 {len(html)}, 앞부분: {snippet}")
-            for row in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
-                m = re.search(r'href=["\']([^"\']*%s\?nid=(\d+)[^"\']*)["\'][^>]*>(.*?)</a>' % re.escape(read_path), row, re.S)
-                if not m:
+            raw = r.content
+            enc = "utf-8" if re.search(rb'charset=["\']?utf-8', raw[:3000], re.I) else "euc-kr"
+            html = raw.decode(enc, errors="ignore")
+            found = []
+            # 1) 새 페이지: 데이터 속에서 PDF 링크나 nid를 가진 항목을 찾음
+            for d in _next_payload_objects(html):
+                vals = " ".join(str(v) for v in d.values() if isinstance(v, (str, int)))
+                pdf = next((str(v) for v in d.values() if isinstance(v, str) and ".pdf" in v.lower()), "")
+                nid = _pick(d, ("nid", "researchid", "reportid"))
+                title = _pick(d, ("title", "subject"))
+                if not title or not (pdf or nid):
                     continue
-                tds = [_strip(td) for td in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
-                date = next((t for t in tds if re.fullmatch(r"\d{2}\.\d{2}\.\d{2}", t)), "")
-                title = _strip(m.group(3))
-                broker = next((t for t in tds[1:] if t and t != title and not re.fullmatch(r"[\d.,]+", t)), "")
-                pdf = re.search(r'href="([^"]+\.pdf)"', row, re.I)
-                link = m.group(1).replace("&amp;", "&")
-                if not link.startswith("http"):
-                    link = "https://finance.naver.com/research/" + link.lstrip("/").replace("research/", "")
-                out.append({"cat": cat, "title": title[:80], "broker": broker[:20],
-                            "date": ("20" + date.replace(".", "-")) if date else "",
-                            "url": link, "pdf": pdf.group(1) if pdf else ""})
+                broker = _pick(d, ("broker", "firm", "company", "brk", "source", "provider", "office"))
+                date = _norm_date(_pick(d, ("date", "dt", "time", "created", "regist", "write")) or vals)
+                link = _pick(d, ("url", "link", "href"))
+                if not link or ".pdf" in link.lower():
+                    link = f"https://finance.naver.com/research/{read_path}?nid={nid}" if nid else (pdf or url)
+                found.append({"cat": cat, "title": title[:80], "broker": broker[:20], "date": date,
+                              "url": link, "pdf": pdf})
+            # 2) 예전 표 형식
+            if not found:
+                for row in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
+                    m = re.search(r'href=["\']([^"\']*%s\?nid=(\d+)[^"\']*)["\'][^>]*>(.*?)</a>' % re.escape(read_path), row, re.S)
+                    if not m:
+                        continue
+                    tds = [_strip(td) for td in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+                    date = next((t for t in tds if re.fullmatch(r"\d{2}\.\d{2}\.\d{2}", t)), "")
+                    title = _strip(m.group(3))
+                    broker = next((t for t in tds[1:] if t and t != title and not re.fullmatch(r"[\d.,]+", t)), "")
+                    pdf = re.search(r'href="([^"]+\.pdf)"', row, re.I)
+                    link = m.group(1).replace("&amp;", "&")
+                    if not link.startswith("http"):
+                        link = "https://finance.naver.com/research/" + link.lstrip("/").replace("research/", "")
+                    found.append({"cat": cat, "title": title[:80], "broker": broker[:20],
+                                  "date": ("20" + date.replace(".", "-")) if date else "",
+                                  "url": link, "pdf": pdf.group(1) if pdf else ""})
+            # 중복 제거
+            seen = set()
+            for f in found:
+                k = f["pdf"] or f["url"] or f["title"]
+                if k not in seen:
+                    seen.add(k)
+                    out.append(f)
+            if not found:
+                dbg = DATA_DIR / "debug"
+                dbg.mkdir(parents=True, exist_ok=True)
+                (dbg / f"naver_{read_path.split('_')[0]}.html").write_text(html, encoding="utf-8")
+                print(f"리포트 목록 진단 {cat}: 항목을 못 찾아 페이지를 data/debug/에 저장했어요 (길이 {len(html)})")
         except Exception as e:
             print(f"리포트 목록 실패 {cat}: {e}")
     out.sort(key=lambda x: x["date"], reverse=True)

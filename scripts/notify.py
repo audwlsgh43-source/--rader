@@ -79,6 +79,9 @@ def split(text: str, limit: int = 3900) -> list[str]:
 def find_chat_id(token: str):
     try:
         r = requests.get(f"https://api.telegram.org/bot{token}/getUpdates", timeout=20).json()
+        if not r.get("ok"):
+            print(f"봇 토큰 확인 실패: {r.get('description')} → @BotFather에서 토큰을 다시 복사해 TELEGRAM_BOT_TOKEN을 바꿔 주세요.")
+            return
         ids = {}
         for u in r.get("result", []):
             m = u.get("message") or u.get("channel_post") or {}
