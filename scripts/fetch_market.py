@@ -264,8 +264,11 @@ def report_list() -> list[dict]:
             r = requests.get(url, headers=UA, timeout=20)
             r.raise_for_status()
             html = r.content.decode("euc-kr", errors="ignore")
+            if "_read.naver" not in html:  # 진단용: 예상과 다른 페이지가 오면 앞부분을 기록
+                snippet = re.sub(r"\s+", " ", html)[:600]
+                print(f"리포트 목록 진단 {cat}: HTTP {r.status_code}, 길이 {len(html)}, 앞부분: {snippet}")
             for row in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
-                m = re.search(r'href="([^"]*%s\?nid=(\d+)[^"]*)"[^>]*>(.*?)</a>' % re.escape(read_path), row, re.S)
+                m = re.search(r'href=["\']([^"\']*%s\?nid=(\d+)[^"\']*)["\'][^>]*>(.*?)</a>' % re.escape(read_path), row, re.S)
                 if not m:
                     continue
                 tds = [_strip(td) for td in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]

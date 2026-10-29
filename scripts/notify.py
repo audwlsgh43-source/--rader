@@ -219,6 +219,29 @@ def main():
     now = datetime.now(KST)
     state = load(STATE, {})
     url = site_url()
+    chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+    if not chat:
+        find_chat_id(os.environ["TELEGRAM_BOT_TOKEN"].strip())
+        STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+        return
+    # 처음 연결되면 확인 메시지 한 번 (채팅 ID가 바뀌면 다시)
+    if state.get("hello_chat") != chat:
+        msg = ("<b>공시레이더 알림이 연결됐어요</b>\n"
+               "· 관심종목에 새 공시가 올라오면 바로 알려드려요\n"
+               "· 평일 아침 7시 반쯤 브리핑을 보내드려요\n"
+               "· 금요일 저녁엔 주간 리포트가 와요" + (f'\n\n<a href="{url}">공시레이더 열기</a>' if url else ""))
+        if send(msg):
+            state["hello_chat"] = chat
+            print("연결 확인 메시지 전송 완료")
+        else:
+            print("연결 확인 메시지 전송 실패 (위 오류 참고)")
+    w = watchlist()
+    print(f"관심종목 {len(w)}개" + ("" if w else " → 사이트에서 ★를 눌러 저장하면 공시 알림이 시작돼요"))
+    hm = now.strftime("%H:%M")
+    if state.get("brief_date") == now.strftime("%Y-%m-%d"):
+        print("아침 브리핑: 오늘 이미 보냄")
+    elif now.weekday() >= 5 or not ("07:25" <= hm < "11:00"):
+        print("아침 브리핑: 평일 07:25~11:00에만 보내요 (지금 " + hm + ")")
     morning_brief(state, now, url)
     disclosure_alerts(state, now, url)
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
