@@ -254,6 +254,14 @@ body[data-view="market"] .search{visibility:hidden}
 .rep .m{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap}
 .rep .m .c{color:var(--accent);font-weight:600}
 .rep .m a{color:var(--accent)}
+.rep ul{margin:4px 0 2px;padding-left:16px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:2px}
+.ai-card h4{margin:10px 0 6px;font-size:12.5px;color:var(--muted);font-weight:600}
+.ai-card .issues{list-style:none;padding:0;margin:0 0 4px;display:flex;flex-direction:column;gap:6px}
+.ai-card .issues li{position:relative;padding:7px 10px 7px 12px;background:var(--warn-soft);border-radius:8px;font-size:13.5px;color:var(--ink)}
+.ai-card .issues li::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:2px;background:var(--warn)}
+.ai-card .src{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.ai-card .src a{font-size:11.5px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 8px;text-decoration:none;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ai-card .src a:hover{color:var(--accent);border-color:var(--accent)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
 @media (max-width:860px){
@@ -693,7 +701,11 @@ function rankTable(list, valFn){
 let MKTAB = (()=>{ const n=new Date(); const m=n.getHours()*60+n.getMinutes(); return m < 15*60+30 ? "us" : "kr"; })();
 function aiCard(c, tag){
   if(!c) return "";
-  return `<div class="panel ai-card"><p class="hl"><span class="tag">${tag}</span>${esc(c.headline)}</p><p>${esc(c.summary)}</p>${c.points&&c.points.length?`<ul>${c.points.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`;
+  const host = u => { try{ return new URL(u).hostname.replace(/^www\./,""); }catch(_){ return u; } };
+  return `<div class="panel ai-card"><p class="hl"><span class="tag">${tag}</span>${esc(c.headline)}</p><p>${esc(c.summary)}</p>
+    ${c.issues&&c.issues.length?`<h4>특이사항</h4><ul class="issues">${c.issues.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
+    ${c.points&&c.points.length?`<h4>주요 수치</h4><ul>${c.points.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
+    ${c.sources&&c.sources.length?`<div class="src">${c.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(x.title)}">${esc(host(x.url))} · ${esc(x.title)}</a>`).join("")}</div>`:""}</div>`;
 }
 function idxCards(list, decimals=2){
   return `<div class="idx-grid">${list.map(i=>`<div class="idx"><span class="nm"><span>${esc(i.name)}</span>${i.amount?`<span>거래대금 ${won(i.amount)}</span>`:""}</span>
@@ -739,11 +751,12 @@ function renderUS(){
 function renderReports(){
   const list = MK.reports || [];
   const body = list.length ? `<div class="reps">${list.map(r=>`<div class="rep"><a class="t" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
-      <span class="m"><span class="c">${esc(r.cat)}</span><span>${esc(r.broker)}</span><span>${r.date ? r.date.slice(5).replace("-",".") : ""}</span>${r.pdf?`<a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>`:""}</span></div>`).join("")}</div>`
+      <span class="m"><span class="c">${esc(r.cat)}</span><span>${esc(r.broker)}</span><span>${r.date ? r.date.slice(5).replace("-",".") : ""}</span>${r.pdf?`<a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>`:""}</span>
+      ${r.sum&&r.sum.length?`<ul>${r.sum.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`).join("")}</div>`
     : `<p class="mk-empty">리포트 목록을 받아오지 못했어요. 다음 수집 때 다시 시도해요.</p>`;
   return `<div class="mk-head"><h2>증권사 리포트</h2><span>시황·투자정보 최신 30건</span></div>
     <div class="panel">${body}</div>
-    <p class="mk-note">제목과 링크만 모아 보여줘요. 리포트 원문은 각 증권사 자료이며 링크를 누르면 네이버 금융에서 열려요.</p>`;
+    <p class="mk-note">요약은 리포트 앞부분을 AI가 3~4줄로 정리한 것이라 빠지거나 틀린 내용이 있을 수 있어요. 원문은 각 증권사 자료이며, 링크를 누르면 네이버 금융에서 열려요.</p>`;
 }
 function renderMarket(){
   const el = $("#viewMarket");

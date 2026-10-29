@@ -5,7 +5,8 @@
   - 코스피·코스닥·코스피200 지수, 전 종목 시세: FinanceDataReader의 KRX 일별 캐시
     (github.com/FinanceData/fdr_krx_data_cache, 장 마감 후 갱신)
   - 뉴욕증시(지수·업종 ETF·주요 종목), 환율·금리·원자재: Yahoo Finance (50분에 한 번)
-  - 증권사 리포트 목록: 네이버 금융 리서치 (제목·증권사·날짜·링크만, 본문은 가져오지 않음)
+  - 증권사 리포트 목록: 네이버 금융 리서치 (제목·증권사·날짜·링크) + PDF 앞부분을 읽어 AI 3~4줄 요약
+  - AI 시황은 웹 검색으로 그날 특이사항(실적, 지표, 특징주)을 찾아 함께 정리 (검색 1회당 $0.01)
   - AI 시황 코멘트(선택): ANTHROPIC_API_KEY가 있으면 국내·뉴욕 각각 거래일마다 한 번 생성
 
 각 항목은 실패해도 다른 항목과 공시 수집에 영향을 주지 않습니다.
@@ -14,7 +15,7 @@ import json
 import os
 import re
 from datetime import datetime, timedelta, timezone
-from io import StringIO
+from io import BytesIO, StringIO
 from pathlib import Path
 
 import requests
@@ -198,6 +199,59 @@ def us_market() -> dict:
     return us
 
 
+REPORT_PROMPT = """다음은 {broker}의 리포트 「{title}」 앞부분입니다.
+핵심 내용을 한국어 3~4줄로 요약해 주세요. 각 줄은 60자 이내, 원문 문장을 그대로 옮기지 말고 자기 말로 쓰세요.
+리포트의 의견은 '{broker}는 ~로 봄'처럼 리포트의 의견임을 밝혀 주세요. JSON 배열 하나로만 답하세요. 예: ["…", "…", "…"]
+
+원문:
+{body}"""
+
+
+def pdf_text(url: str, limit: int = 7000) -> str:
+    from pypdf import PdfReader
+    r = requests.get(url, headers=UA, timeout=60)
+    r.raise_for_status()
+    reader = PdfReader(BytesIO(r.content))
+    text = ""
+    for page in reader.pages[:4]:
+        text += (page.extract_text() or "") + "\n"
+        if len(text) > limit:
+            break
+    return re.sub(r"[ \t]+", " ", text).strip()[:limit]
+
+
+def summarize_reports(reports: list, old_reports: list, budget: int) -> int:
+    """새 리포트만 3~4줄 요약 (이미 요약한 건 이전 결과 재사용)"""
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    prev = {r["url"]: r.get("sum") for r in old_reports if r.get("sum")}
+    done = 0
+    for rep_ in reports:
+        if rep_["url"] in prev:
+            rep_["sum"] = prev[rep_["url"]]
+            continue
+        if not key or not rep_.get("pdf") or done >= budget:
+            continue
+        try:
+            body = pdf_text(rep_["pdf"])
+            if len(body) < 200:
+                continue
+            r = requests.post("https://api.anthropic.com/v1/messages", headers={
+                "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+                json={"model": os.environ.get("SUMMARY_MODEL", "claude-haiku-5-5"), "max_tokens": 1500,
+                      "messages": [{"role": "user", "content": REPORT_PROMPT.format(
+                          broker=rep_["broker"] or "증권사", title=rep_["title"], body=body)}]}, timeout=90)
+            r.raise_for_status()
+            text = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
+            s_, e_ = text.find("["), text.rfind("]")
+            lines = [str(x)[:90] for x in json.loads(text[s_:e_ + 1])][:4]
+            if lines:
+                rep_["sum"] = lines
+                done += 1
+        except Exception as e:
+            print(f"리포트 요약 실패 {rep_['title'][:20]}: {e}")
+    return done
+
+
 def _strip(html: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).replace("&amp;", "&").strip()
 
@@ -231,42 +285,68 @@ def report_list() -> list[dict]:
     return out[:30]
 
 
-COMMENT_PROMPT = """아래는 {date} 한국 증시 마감 데이터와 해외 시장 데이터, 그날 주요 공시 요약입니다.
-이 숫자와 사실만 사용해서 개인 투자자용 '오늘의 시황'을 써 주세요.
-- 전망, 추천, 매수·매도 의견, 원인에 대한 추측은 쓰지 마세요. 데이터에 없는 뉴스나 사건도 쓰지 마세요.
-- 결과는 JSON 하나로만 답하세요.
+COMMENT_PROMPT = """아래는 {date} 한국 증시 마감 데이터와 해외 시장 데이터, 그날 주요 공시 요약입니다. 개인 투자자용 '오늘의 국내 시황'을 써 주세요.
+[검색] 먼저 웹 검색으로 그날 국내 증시의 특이사항(지수를 움직인 이슈, 외국인·기관 수급 동향, 특징 업종·종목과 그 이유, 주요 실적 발표)을 확인하세요.
+- 수치는 아래 데이터를 우선 쓰고, 이슈는 검색이나 아래 공시로 확인된 사실만 쓰세요. 확인되지 않은 원인은 쓰지 마세요.
+- 기사 문장을 그대로 옮기지 말고 짧게 자기 말로 쓰세요.
+- 전망, 추천, 매수·매도 의견은 쓰지 마세요.
+- 마지막 답은 JSON 하나로만 하세요.
 
-{{"headline": "한 줄 제목(30자 이내)", "summary": "전체 흐름 2~3문장", "points": ["눈에 띄는 사실 3~5개, 각 50자 이내"]}}
-
-데이터:
-{data}"""
-
-
-US_PROMPT = """아래는 뉴욕증시 {date} 마감 데이터입니다. 이 숫자만 사용해서 한국 투자자가 아침에 읽을 '간밤 뉴욕증시' 요약을 써 주세요.
-- 전망, 추천, 매수·매도 의견, 원인에 대한 추측은 쓰지 마세요. 데이터에 없는 뉴스나 사건도 쓰지 마세요.
-- 결과는 JSON 하나로만 답하세요.
-
-{{"headline": "한 줄 제목(30자 이내)", "summary": "전체 흐름 2~3문장", "points": ["지수·업종·종목·금리·환율에서 눈에 띄는 사실 3~5개, 각 50자 이내"]}}
+{{"headline": "한 줄 제목(30자 이내)", "summary": "전체 흐름 2~3문장", "issues": ["특이사항 3~5개. 예: 'SK하이닉스, 실적 발표 후 11% 급등'. 각 60자 이내"], "points": ["지수·등락·거래대금에서 눈에 띄는 수치 2~4개, 각 50자 이내"]}}
 
 데이터:
 {data}"""
 
 
-def call_claude(prompt: str) -> dict | None:
+US_PROMPT = """아래는 뉴욕증시 {date}(현지) 마감 데이터입니다. 한국 투자자가 아침에 읽을 '간밤 뉴욕증시' 요약을 써 주세요.
+[검색] 먼저 웹 검색으로 그날 뉴욕증시의 특이사항(주요 기업 실적 발표와 주가 반응, 경제지표, 연준 발언, 크게 움직인 종목의 이유)을 확인하세요.
+- 수치는 아래 데이터를 우선 쓰고, 이슈는 검색으로 확인된 사실만 쓰세요. 확인되지 않은 원인은 쓰지 마세요.
+- 기사 문장을 그대로 옮기지 말고 짧게 자기 말로 쓰세요.
+- 전망, 추천, 매수·매도 의견은 쓰지 마세요.
+- 마지막 답은 JSON 하나로만 하세요.
+
+{{"headline": "한 줄 제목(30자 이내)", "summary": "전체 흐름 2~3문장", "issues": ["특이사항 3~5개. 예: '알파벳, 3분기 실적 발표 후 시간외 -5%'. 각 60자 이내"], "points": ["지수·업종·금리·환율에서 눈에 띄는 수치 2~4개, 각 50자 이내"]}}
+
+데이터:
+{data}"""
+
+
+def call_claude(prompt: str, search: bool = False) -> dict | None:
+    """Claude 호출. search=True면 웹 검색 도구로 그날 이슈를 찾고, 인용한 기사 링크를 sources로 돌려줌"""
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
         return None
     model = os.environ.get("SUMMARY_MODEL", "claude-haiku-5-5")
-    r = requests.post("https://api.anthropic.com/v1/messages", headers={
-        "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json",
-    }, json={"model": model, "max_tokens": 3000, "messages": [{"role": "user", "content": prompt}]}, timeout=120)
-    r.raise_for_status()
-    text = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
+    body = {"model": model, "max_tokens": 4000, "messages": [{"role": "user", "content": prompt}]}
+    if search:
+        body["tools"] = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}]
+    headers = {"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"}
+    blocks = []
+    for _ in range(4):  # 검색이 길어지면 pause_turn으로 끊겨 오므로 이어서 요청
+        r = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=body, timeout=180)
+        if r.status_code == 400 and search and "web search" in r.text.lower():
+            print("웹 검색이 꺼져 있어 검색 없이 작성합니다:", r.text[:200])
+            return call_claude(re.sub(r"\[검색\][^\n]*\n", "", prompt), search=False)
+        r.raise_for_status()
+        rj = r.json()
+        blocks += rj.get("content", [])
+        if rj.get("stop_reason") != "pause_turn":
+            break
+        body["messages"] = body["messages"][:1] + [{"role": "assistant", "content": rj["content"]}]
+    text = "".join(b.get("text", "") for b in blocks if b.get("type") == "text")
+    sources, seen = [], set()
+    for b in blocks:
+        for c in b.get("citations") or []:
+            u = c.get("url")
+            if u and u not in seen:
+                seen.add(u)
+                sources.append({"title": (c.get("title") or u)[:80], "url": u})
     text = re.sub(r"```(?:json)?", "", text)
-    s, e = text.find("{"), text.rfind("}")
-    j = json.loads(text[s:e + 1])
+    s_, e_ = text.find("{"), text.rfind("}")
+    j = json.loads(text[s_:e_ + 1])
     return {"headline": str(j.get("headline", "")), "summary": str(j.get("summary", "")),
-            "points": [str(p) for p in j.get("points", [])][:5]}
+            "issues": [str(p) for p in j.get("issues", [])][:5],
+            "points": [str(p) for p in j.get("points", [])][:5], "sources": sources[:5]}
 
 
 def us_comment(us: dict, macro: list) -> dict | None:
@@ -275,7 +355,7 @@ def us_comment(us: dict, macro: list) -> dict | None:
              "업종ETF(등락순)": [f'{x["name"]} {x["pct"]:+.2f}%' for x in us.get("sectors", [])],
              "주요종목": [f(x) for x in us.get("stocks", [])],
              "금리·환율·원자재": [f(x) for x in macro]}
-    c = call_claude(US_PROMPT.format(date=us["date"], data=json.dumps(brief, ensure_ascii=False, indent=1)))
+    c = call_claude(US_PROMPT.format(date=us["date"], data=json.dumps(brief, ensure_ascii=False, indent=1)), search=True)
     return {"date": us["date"], **c} if c else None
 
 
@@ -297,7 +377,7 @@ def ai_comment(data: dict, date: str) -> dict | None:
         top = [x for x in items if x.get("imp") == "high" and x.get("ai")][:8]
         brief["주요공시"] = [f'{x["corp"]}: {x["ai"]}' for x in top]
     prompt = COMMENT_PROMPT.format(date=date, data=json.dumps(brief, ensure_ascii=False, indent=1))
-    c = call_claude(prompt)
+    c = call_claude(prompt, search=True)
     return {"date": date, **c} if c else None
 
 
@@ -337,6 +417,8 @@ def main():
     try:
         reps = report_list()
         if reps:
+            n = summarize_reports(reps, old.get("reports") or [], int(os.environ.get("REPORT_SUMMARIES", "12")))
+            print(f"리포트 요약 {n}건")
             data["reports"] = reps
         else:
             errors.append("리포트 목록: 0건 (페이지 구조가 바뀌었을 수 있어요)")
