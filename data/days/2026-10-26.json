@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
- "updated_at": "2026-10-29 21:19",
- "count": 338,
+ "updated_at": "2026-10-30 07:29",
+ "count": 339,
  "items": [
   {
    "rcept_no": "20261026900788",
@@ -14777,6 +14777,26 @@
    ],
    "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000065"
+  },
+  {
+   "rcept_no": "20261026000059",
+   "date": "2026-10-26",
+   "corp": "인텔리빅스",
+   "stock_code": "420610",
+   "corp_code": "01649408",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "증권발행실적보고서",
+   "flr": "인텔리빅스",
+   "rm": "",
+   "seen": "",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000059"
   },
   {
    "rcept_no": "20261026000053",
