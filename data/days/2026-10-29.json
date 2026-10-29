@@ -1,8 +1,29 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 10:56",
+ "updated_at": "2026-10-29 11:03",
  "count": 64,
  "items": [
+  {
+   "rcept_no": "20261029900176",
+   "date": "2026-10-29",
+   "corp": "데브시스터즈",
+   "stock_code": "194480",
+   "corp_code": "01008762",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "결산실적공시예고",
+   "flr": "데브시스터즈",
+   "rm": "코",
+   "seen": "11:03",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900176",
+   "read_fail": true
+  },
   {
    "rcept_no": "20261029900162",
    "date": "2026-10-29",
@@ -21,8 +42,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900162",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900162"
   },
   {
    "rcept_no": "20261029900149",
@@ -42,8 +63,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900149",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900149"
   },
   {
    "rcept_no": "20261029900142",
@@ -63,8 +84,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900142",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900142"
   },
   {
    "rcept_no": "20261029000144",
