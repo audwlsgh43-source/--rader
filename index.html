@@ -7,45 +7,51 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
-<meta name="theme-color" content="#0d6b6b">
+<meta name="theme-color" content="#0a111d">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="공시레이더">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;600;700&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem("radar-theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
 <style>
 :root{
-  /* layout: 상단 요약 칩(=필터) → 좌측 공시 피드 / 우측 주간 이벤트 캘린더, 폰에서는 탭 전환 */
-  --bg:#f3f5f7;
-  --surface:#ffffff;
-  --ink:#16202b;
-  --muted:#5d6b78;
-  --line:#dde3e9;
-  --accent:#0d6b6b;
-  --accent-soft:#e1f0ef;
-  --up:#d0312d; --down:#1f5fc9; --warn:#b26a00;
-  --up-soft:#fbe9e8; --down-soft:#e7eefb; --warn-soft:#fbf1e1;
-  --font-body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
-  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
-  color-scheme:light;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#0f1418; --surface:#171e24; --ink:#e6ecf1; --muted:#93a1ad; --line:#26313a;
-    --accent:#4fc1bd; --accent-soft:#163231;
-    --up:#ff6b64; --down:#6ea2ff; --warn:#f0a63a;
-    --up-soft:#3a1d1c; --down-soft:#18263d; --warn-soft:#352812;
-    color-scheme:dark;
-  }
-}
-:root[data-theme="dark"]{
-  --bg:#0f1418; --surface:#171e24; --ink:#e6ecf1; --muted:#93a1ad; --line:#26313a;
-  --accent:#4fc1bd; --accent-soft:#163231;
-  --up:#ff6b64; --down:#6ea2ff; --warn:#f0a63a;
-  --up-soft:#3a1d1c; --down-soft:#18263d; --warn-soft:#352812;
+  /* 프라이빗 뱅킹: 딥 네이비 바탕 + 샴페인 골드 포인트, 숫자는 세리프로. 다크 기본, 라이트 선택 가능
+     layout: 상단 요약(=필터) → 좌측 공시 피드 / 우측 이벤트 캘린더, 폰에서는 탭 전환 */
+  --bg:#0a111d;
+  --surface:#0f1828;
+  --surface-2:#142036;
+  --ink:#ece6d8;
+  --muted:#8a93a5;
+  --line:#1d2a40;
+  --accent:#c8a66a;
+  --accent-soft:rgba(200,166,106,.12);
+  --on-accent:#0a111d;
+  --up:#e2605a; --down:#6b97f2; --warn:#d6ad62;
+  --up-soft:rgba(226,96,90,.12); --down-soft:rgba(107,151,242,.12); --warn-soft:rgba(214,173,98,.10);
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 8px 24px rgba(0,0,0,.25);
+  --font-body:"Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --font-display:"Noto Serif KR","Nanum Myeongjo",serif;
+  --font-mono:"Pretendard Variable",Pretendard,"Apple SD Gothic Neo",system-ui,sans-serif;
   color-scheme:dark;
+}
+:root[data-theme="light"]{
+  --bg:#f5f3ee;
+  --surface:#ffffff;
+  --surface-2:#faf8f3;
+  --ink:#121c2e;
+  --muted:#667085;
+  --line:#e7e2d7;
+  --accent:#93733a;
+  --accent-soft:rgba(147,115,58,.10);
+  --on-accent:#ffffff;
+  --up:#d1342e; --down:#2457c5; --warn:#93733a;
+  --up-soft:rgba(209,52,46,.08); --down-soft:rgba(36,87,197,.08); --warn-soft:rgba(147,115,58,.08);
+  --shadow:0 1px 2px rgba(18,28,46,.04), 0 6px 20px rgba(18,28,46,.05);
+  color-scheme:light;
 }
 *{box-sizing:border-box}
 html,body{margin:0}
@@ -74,7 +80,7 @@ header.top{position:sticky;top:0;z-index:5;background:var(--surface);border-bott
 .runbar .dot{width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
 @media (prefers-reduced-motion:no-preference){.runbar.busy .dot{animation:pulse 1s ease-in-out infinite}}
 @keyframes pulse{50%{opacity:.25}}
-.modal{position:fixed;inset:0;z-index:20;background:rgba(10,16,20,.45);display:none;align-items:flex-end;justify-content:center;padding:16px}
+.modal{position:fixed;inset:0;z-index:20;background:rgba(4,8,15,.6);backdrop-filter:blur(4px);display:none;align-items:flex-end;justify-content:center;padding:16px}
 .modal.on{display:flex}
 @media (min-width:600px){.modal{align-items:center}}
 .sheet{background:var(--surface);color:var(--ink);border-radius:14px;max-width:440px;width:100%;padding:18px;display:flex;flex-direction:column;gap:12px;max-height:90%;overflow:auto}
@@ -84,8 +90,7 @@ header.top{position:sticky;top:0;z-index:5;background:var(--surface);border-bott
 .sheet input{width:100%;height:40px;border:1px solid var(--line);border-radius:8px;padding:0 10px;background:var(--bg);font-family:var(--font-mono);font-size:13px}
 .sheet .row{display:flex;gap:8px;flex-wrap:wrap}
 .btn{height:38px;padding:0 14px;border-radius:8px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font-weight:500}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
-:root[data-theme="dark"] .btn.primary{color:#0f1418}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
 .btn.link{border:0;background:none;color:var(--muted);padding:0 4px;text-decoration:underline}
 footer button{border:0;background:none;color:var(--accent);font-size:12px;cursor:pointer;padding:0;text-decoration:underline}
 
@@ -101,8 +106,7 @@ footer button{border:0;background:none;color:var(--accent);font-size:12px;cursor
 /* mobile tabs */
 .tabs{display:none;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:4px;margin:10px 0 0}
 .tabs button{flex:1;border:0;background:transparent;border-radius:7px;height:34px;cursor:pointer;font-weight:500;color:var(--muted)}
-.tabs button[aria-selected="true"]{background:var(--accent);color:#fff}
-:root[data-theme="dark"] .tabs button[aria-selected="true"]{color:#0f1418}
+.tabs button[aria-selected="true"]{background:var(--accent);color:var(--on-accent)}
 
 /* main grid */
 main.grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;padding:14px 0 48px;align-items:start}
@@ -155,8 +159,7 @@ a.ev:hover .c{color:var(--accent)}
 .dates::-webkit-scrollbar{display:none}
 .dates button{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;font-size:13px;cursor:pointer;color:var(--muted)}
 .dates button b{font-family:var(--font-mono);font-weight:500;margin-left:4px;font-size:12px}
-.dates button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent);color:#fff}
-:root[data-theme="dark"] .dates button[aria-pressed="true"]{color:#0f1418}
+.dates button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent);color:var(--on-accent)}
 .dates:empty{display:none}
 .cats{display:flex;flex-wrap:wrap;gap:4px;margin:0 0 12px}
 .cats button{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:3px 8px;font-size:12px;cursor:pointer;color:var(--muted)}
@@ -191,7 +194,15 @@ footer{font-size:12px;color:var(--muted);padding:0 0 32px}
 .maintabs button{border:0;background:none;padding:0 14px;font-size:14.5px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent}
 .maintabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
 body[data-view="market"] #viewDisclosure, body[data-view="disclosure"] #viewMarket{display:none}
-body[data-view="market"] .search{visibility:hidden}
+body[data-view="talk"] #viewDisclosure, body[data-view="talk"] #viewMarket{display:none}
+body:not([data-view="talk"]) #viewTalk{display:none}
+body[data-view="market"] .search, body[data-view="talk"] .search{visibility:hidden}
+#viewTalk{display:flex;flex-direction:column;gap:14px;padding:14px 0 40px}
+.rules{font-size:12.5px;color:var(--muted);background:var(--warn-soft);border-radius:10px;padding:10px 12px;line-height:1.6}
+.rules b{color:var(--warn)}
+.giscus-box{min-height:240px}
+.talk-setup ol{margin:6px 0 0;padding-left:18px;font-size:13.5px;line-height:1.7}
+.talk-setup code{font-family:var(--font-mono);font-size:12.5px;background:var(--bg);padding:1px 5px;border-radius:4px}
 /* market view */
 #viewMarket{display:flex;flex-direction:column;gap:14px;padding:14px 0 40px}
 .mk-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap}
@@ -238,8 +249,7 @@ body[data-view="market"] .search{visibility:hidden}
 .mk-note{font-size:12px;color:var(--muted)}
 .subtabs{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:4px;align-self:flex-start}
 .subtabs button{border:0;background:none;border-radius:7px;height:32px;padding:0 16px;cursor:pointer;font-weight:600;color:var(--muted)}
-.subtabs button[aria-selected="true"]{background:var(--accent);color:#fff}
-:root[data-theme="dark"] .subtabs button[aria-selected="true"]{color:#0f1418}
+.subtabs button[aria-selected="true"]{background:var(--accent);color:var(--on-accent)}
 .sectors{display:flex;flex-direction:column;gap:6px}
 .sec{display:grid;grid-template-columns:84px 1fr 62px;align-items:center;gap:8px;font-size:13px}
 .sec .track{position:relative;height:10px;background:var(--bg);border-radius:5px}
@@ -278,36 +288,123 @@ body[data-view="market"] .search{visibility:hidden}
 @media (prefers-reduced-motion:no-preference){
   .card,.chip,.day{transition:border-color .15s,background-color .15s}
 }
+
+/* ===== 디자인 레이어: 프라이빗 뱅킹 ===== */
+body{font-size:15px;letter-spacing:-.005em;font-feature-settings:"tnum" 1}
+::selection{background:var(--accent-soft)}
+header.top{background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.2) blur(14px);-webkit-backdrop-filter:saturate(1.2) blur(14px);border-bottom:1px solid var(--line)}
+header.top::after{content:"";display:block;height:1px;background:linear-gradient(90deg,transparent,var(--accent) 50%,transparent);opacity:.35}
+.top .wrap{height:60px}
+.brand{gap:10px;font-family:var(--font-display);font-weight:600;font-size:18px;letter-spacing:.02em}
+.brand small{font-family:var(--font-body);font-size:10.5px;font-weight:600;letter-spacing:.18em;color:var(--accent);text-transform:uppercase;margin-left:2px}
+.today{font-size:12px;letter-spacing:.02em}
+.search{background:var(--surface);border-color:var(--line);border-radius:999px;height:38px;padding:0 14px;color:var(--muted)}
+.search:focus-within{border-color:var(--accent)}
+.search input{color:var(--ink)}
+.search input::placeholder{color:var(--muted)}
+.iconbtn{width:38px;height:38px;border-radius:999px;background:transparent;color:var(--muted)}
+.iconbtn:hover{color:var(--accent);border-color:var(--accent)}
+.maintabs{height:44px;gap:6px}
+.maintabs button{font-size:14px;font-weight:600;letter-spacing:.04em;padding:0 12px;border-bottom-width:1.5px}
+.maintabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+.notice{background:none;color:var(--muted);padding:12px 0 0;margin:0;font-size:12.5px;display:flex;align-items:center;gap:8px}
+.notice::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);flex:none;box-shadow:0 0 0 3px var(--accent-soft)}
+.runbar{border:1px solid var(--accent-soft);border-radius:10px}
+.summary{gap:8px;padding:14px 0 6px}
+.chip{min-width:96px;border-radius:12px;background:var(--surface);padding:11px 14px;gap:4px}
+.chip .n{font-family:var(--font-display);font-size:22px;font-weight:600}
+.chip .l{font-size:12px;letter-spacing:.02em}
+.chip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.chip[aria-pressed="true"] .n{color:var(--accent)}
+.tabs{border-radius:999px;padding:4px}
+.tabs button{border-radius:999px}
+.panel-head h2{font-family:var(--font-display);font-weight:600;font-size:16px;letter-spacing:.01em}
+.toggle{border-radius:999px;padding:4px 12px}
+.card{border-radius:14px;padding:14px 16px 14px 18px;background:var(--surface);transition:border-color .2s}
+.card:hover{border-color:color-mix(in srgb,var(--accent) 40%,var(--line))}
+.card::before{width:2px;top:16px;bottom:16px;border-radius:2px}
+.card.imp-high::before{background:var(--accent)}
+.card.imp-mid::before{background:color-mix(in srgb,var(--accent) 45%,transparent)}
+.corp{font-weight:700;letter-spacing:-.01em}
+.mkt{border-radius:999px;padding:0 7px;font-size:11px}
+.pill{background:none;border:1px solid currentColor;padding:0 8px;font-weight:600;font-size:11px;opacity:.95}
+.pill.t-up{background:none} .pill.t-down{background:none}
+.title{font-size:15px;color:var(--ink);margin:8px 0 2px}
+.ai b{border-radius:999px;padding:0 6px;font-family:var(--font-body);font-weight:700;letter-spacing:.06em;font-size:10px;border-color:var(--accent);color:var(--accent)}
+.more{font-weight:600;letter-spacing:.02em}
+.kv div{background:var(--surface-2);border:1px solid var(--line);border-radius:10px}
+.kv dd{font-family:var(--font-display);font-weight:600}
+aside.cal{border-radius:16px;background:var(--surface)}
+.day{border-radius:10px;background:var(--surface-2)}
+.day .dd{font-family:var(--font-display);font-weight:600}
+.day .dots i{background:var(--accent)}
+.cats button{border-radius:999px;padding:3px 10px}
+.cats button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.dates button{padding:5px 14px}
+.panel,.idx,.g{background:var(--surface);border-radius:16px}
+.g{border-radius:12px;background:var(--surface-2)}
+.mk-head h2{font-family:var(--font-display);font-weight:600;font-size:20px;letter-spacing:.01em}
+.panel h3{font-family:var(--font-display);font-weight:600;font-size:15px;letter-spacing:.01em}
+.idx .v{font-family:var(--font-display);font-weight:600;font-size:24px;letter-spacing:.01em}
+.g .v{font-family:var(--font-display);font-weight:600}
+.subtabs{border-radius:999px}
+.subtabs button{border-radius:999px;letter-spacing:.03em}
+.ai-card{background:linear-gradient(180deg,var(--accent-soft),transparent 70%),var(--surface);border-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
+.ai-card .hl{font-family:var(--font-display);font-weight:600;font-size:17px}
+.ai-card .tag{border-radius:999px;padding:0 7px;font-family:var(--font-body);font-weight:700;letter-spacing:.08em}
+.ai-card .issues li{background:var(--surface-2);border:1px solid var(--line)}
+.ai-card .issues li::before{background:var(--accent)}
+.rank td{border-bottom-color:var(--line)}
+.bar{height:8px}
+.btn{border-radius:999px}
+.sheet{border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}
+.sheet h3{font-family:var(--font-display);font-weight:600}
+.star svg{transition:transform .15s}
+.star[aria-pressed="true"]{color:var(--accent)}
+.star[aria-pressed="true"] svg path{fill:currentColor}
+.star:active svg{transform:scale(.88)}
+.theme-ico .sun{display:none}
+:root[data-theme="light"] .theme-ico .sun{display:block}
+:root[data-theme="light"] .theme-ico .moon{display:none}
+footer{border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
+@media (max-width:520px){.top .wrap{gap:8px}.brand small{display:none}.chip{min-width:84px;padding:10px 12px}.chip .n{font-size:20px}}
 </style>
 </head>
 <body data-tab="feed" data-view="disclosure">
 <header class="top">
   <div class="wrap">
     <div class="brand">
-      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="var(--accent)" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="none" stroke="var(--accent)" stroke-width="1.5" opacity=".6"/><path d="M12 12 L19 6" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/><circle cx="16.5" cy="8.3" r="1.6" fill="var(--up)"/></svg>
-      <span>공시레이더</span>
+      <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" fill="none" stroke="var(--accent)" stroke-width="1.2" opacity=".55"/><path d="M8.5 20.5a8.5 8.5 0 0 1 15 0" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round"/><path d="M12 20.5a4.6 4.6 0 0 1 8 0" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" opacity=".7"/><path d="M16 20.5 21.5 11" stroke="var(--ink)" stroke-width="1.4" stroke-linecap="round"/><circle cx="16" cy="20.5" r="1.6" fill="var(--accent)"/><circle cx="21.5" cy="11" r="1.5" fill="var(--accent)"/></svg>
+      <span>공시레이더<small>Private</small></span>
     </div>
     <div class="today" id="today"></div>
     <label class="search" for="q">
-      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M20 20l-4.2-4.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="종목명·공시 제목 검색" autocomplete="off">
     </label>
     <button class="iconbtn" id="refreshBtn" aria-label="새로고침">
-      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M19.5 4.5v4h-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </button>
     <button class="iconbtn" id="themeBtn" aria-label="밝게/어둡게 전환">
-      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
+      <svg class="theme-ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><g class="moon"><path d="M19.5 14.5A7.5 7.5 0 0 1 9.5 4.5a7.5 7.5 0 1 0 10 10z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></g><g class="sun" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.8v2M12 19.2v2M2.8 12h2M19.2 12h2M5.5 5.5l1.4 1.4M17.1 17.1l1.4 1.4M5.5 18.5l1.4-1.4M17.1 6.9l1.4-1.4"/></g></svg>
     </button>
   </div>
   <div class="wrap"><nav class="maintabs" role="tablist" aria-label="메뉴">
     <button role="tab" data-view="disclosure" aria-selected="true">공시</button>
     <button role="tab" data-view="market" aria-selected="false">시황</button>
+    <button role="tab" data-view="talk" aria-selected="false" hidden>토론</button><!-- 토론 탭: 보류 중. 다시 열려면 hidden과 아래 TALK_ON을 바꾸세요 -->
   </nav></div>
 </header>
 
 <div class="wrap">
   <div class="runbar" id="runbar" role="status" aria-live="polite"><span class="dot"></span><span id="runtext"></span></div>
   <section id="viewMarket" aria-label="시황"></section>
+  <section id="viewTalk" aria-label="토론">
+    <div class="mk-head"><h2>토론</h2><span>GitHub 계정으로 로그인하면 글을 쓸 수 있어요</span></div>
+    <div class="subtabs" role="tablist" id="talkRooms"></div>
+    <p class="rules"><b>이용 규칙</b> · 특정 종목의 매수·매도 권유, 목표가 제시, 리딩방·유료회원 모집, 확인되지 않은 루머, 개인정보 게시는 금지예요. 규칙에 어긋나는 글은 예고 없이 삭제될 수 있어요. 게시글은 작성자 개인 의견이며 투자 판단의 책임은 본인에게 있어요.</p>
+    <div class="panel giscus-box" id="giscusBox"></div>
+  </section>
   <div id="viewDisclosure">
   <p class="notice" id="notice">공시 데이터를 불러오는 중이에요.</p>
   <div class="summary" id="summary" role="group" aria-label="공시 유형 필터"></div>
@@ -438,7 +535,7 @@ function matches(x){
   return true;
 }
 
-const starSvg = `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z" fill="currentColor"/></svg>`;
+const starSvg = `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.5 5.2 5.7.8-4.1 4 1 5.6L12 16.6l-5.1 2.6 1-5.6-4.1-4 5.7-.8z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>`;
 
 const PERIODIC = ["분기보고서","반기보고서","사업보고서","감사보고서","증권신고서","투자설명서"];
 function hintFor(x){
@@ -603,8 +700,11 @@ $("#setup").addEventListener("click", e=>{ if(e.target.id==="setup") closeSetup(
 document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeSetup(); });
 $("#themeBtn").addEventListener("click",()=>{
   const r = document.documentElement;
-  const cur = r.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const cur = r.dataset.theme || "dark";
   r.dataset.theme = cur==="dark" ? "light" : "dark";
+  try{ localStorage.setItem("radar-theme", r.dataset.theme); }catch(_){}
+  const f = document.querySelector("iframe.giscus-frame");
+  if(f) f.contentWindow.postMessage({giscus:{setConfig:{theme: r.dataset.theme}}}, "https://giscus.app");
 });
 
 function renderDates(){
@@ -771,12 +871,45 @@ async function loadMarket(){ try{ MK = await getJSON("data/market.json"); }catch
 function setView(v){
   document.body.dataset.view = v;
   document.querySelectorAll(".maintabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.view===v));
-  if(location.hash !== (v==="market" ? "#market" : "")) history.replaceState(null, "", v==="market" ? "#market" : location.pathname + location.search);
+  const h = v==="disclosure" ? "" : "#"+v;
+  if(location.hash !== h) history.replaceState(null, "", h || location.pathname + location.search);
+  if(v==="talk") loadTalk();
   window.scrollTo(0,0);
 }
+/* ================= 토론 (GitHub Discussions + giscus) ================= */
+const ROOMS = [["free","자유토론","공시레이더 자유토론"],["stock","종목·공시","공시레이더 종목·공시 토론"],["market","시황","공시레이더 시황 토론"]];
+let TALK = null, ROOM = "free";
+async function loadTalk(){
+  if(!TALK){ try{ TALK = await getJSON("discussion.json"); }catch(_){ TALK = {}; } }
+  $("#talkRooms").innerHTML = ROOMS.map(([k,l])=>`<button role="tab" data-room="${k}" aria-selected="${ROOM===k}">${l}</button>`).join("");
+  const box = $("#giscusBox");
+  if(!TALK.repoId || !TALK.categoryId){
+    box.innerHTML = `<div class="talk-setup"><h3>토론 게시판 준비가 필요해요</h3>
+      <p class="mk-empty">운영자가 아래 설정을 한 번 하면 게시판이 열려요.</p>
+      <ol><li>저장소 Settings → General → Features에서 <b>Discussions</b> 체크</li>
+      <li><code>github.com/apps/giscus</code>에서 Install → gongsi-radar 저장소만 선택</li>
+      <li><code>giscus.app/ko</code>에서 저장소 입력 → 카테고리 <b>Announcements</b> 선택 → 아래 생성된 코드의 <code>data-repo-id</code>, <code>data-category-id</code> 값을 복사</li>
+      <li>저장소의 <code>discussion.json</code>에 두 값을 붙여넣고 Commit</li></ol></div>`;
+    return;
+  }
+  const room = ROOMS.find(r=>r[0]===ROOM);
+  const dark = (document.documentElement.dataset.theme || "dark") === "dark";
+  box.innerHTML = "";
+  const sc = document.createElement("script");
+  const attrs = { src:"https://giscus.app/client.js", "data-repo": TALK.repo || (REPO ? `${REPO.owner}/${REPO.repo}` : ""),
+    "data-repo-id": TALK.repoId, "data-category": TALK.category || "Announcements", "data-category-id": TALK.categoryId,
+    "data-mapping":"specific", "data-term": room[2], "data-strict":"1", "data-reactions-enabled":"1", "data-emit-metadata":"0",
+    "data-input-position":"top", "data-theme": dark ? "dark" : "light", "data-lang":"ko", "data-loading":"lazy", crossorigin:"anonymous" };
+  Object.entries(attrs).forEach(([k,v])=>sc.setAttribute(k,v));
+  sc.async = true;
+  box.appendChild(sc);
+}
+document.addEventListener("click", e=>{ const b = e.target.closest("[data-room]"); if(b){ ROOM = b.dataset.room; loadTalk(); } });
 document.querySelectorAll(".maintabs button").forEach(b=>b.addEventListener("click", ()=>setView(b.dataset.view)));
-window.addEventListener("hashchange", ()=>setView(location.hash==="#market" ? "market" : "disclosure"));
-if(location.hash==="#market") setView("market");
+const TALK_ON = false;  // 토론 탭 보류 중
+const VIEWS = TALK_ON ? ["#market","#talk"] : ["#market"];
+window.addEventListener("hashchange", ()=>setView(VIEWS.includes(location.hash) ? location.hash.slice(1) : "disclosure"));
+if(VIEWS.includes(location.hash)) setView(location.hash.slice(1));
 
 D = []; EV = [];
 renderAll(); loadReal();
