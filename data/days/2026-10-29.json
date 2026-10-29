@@ -1,8 +1,49 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 11:03",
- "count": 64,
+ "updated_at": "2026-10-29 11:10",
+ "count": 65,
  "items": [
+  {
+   "rcept_no": "20261029900174",
+   "date": "2026-10-29",
+   "corp": "우원개발",
+   "stock_code": "046940",
+   "corp_code": "00363246",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]단일판매ㆍ공급계약체결",
+   "flr": "우원개발",
+   "rm": "코",
+   "seen": "11:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900174",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029000167",
+   "date": "2026-10-29",
+   "corp": "DB증권",
+   "stock_code": "016610",
+   "corp_code": "00115694",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "투자설명서(일괄신고)",
+   "flr": "DB증권",
+   "rm": "",
+   "seen": "11:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000167"
+  },
   {
    "rcept_no": "20261029900176",
    "date": "2026-10-29",
@@ -21,8 +62,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900176",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900176"
   },
   {
    "rcept_no": "20261029900162",
