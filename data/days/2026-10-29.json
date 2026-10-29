@@ -1,8 +1,70 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 15:06",
- "count": 105,
+ "updated_at": "2026-10-29 15:14",
+ "count": 106,
  "items": [
+  {
+   "rcept_no": "20261029900360",
+   "date": "2026-10-29",
+   "corp": "CJ프레시웨이",
+   "stock_code": "051500",
+   "corp_code": "00127954",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "CJ프레시웨이",
+   "rm": "코",
+   "seen": "15:14",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900360",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029900359",
+   "date": "2026-10-29",
+   "corp": "셀리드",
+   "stock_code": "299660",
+   "corp_code": "01235296",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]증권발행결과(자율공시)",
+   "flr": "셀리드",
+   "rm": "코",
+   "seen": "15:14",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900359",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029000329",
+   "date": "2026-10-29",
+   "corp": "아세아텍",
+   "stock_code": "050860",
+   "corp_code": "00138747",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "주주총회소집공고",
+   "flr": "아세아텍",
+   "rm": "",
+   "seen": "15:14",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000329"
+  },
   {
    "rcept_no": "20261029900332",
    "date": "2026-10-29",
@@ -21,8 +83,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900332",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900332"
   },
   {
    "rcept_no": "20261029800334",
@@ -42,8 +104,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800334",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800334"
   },
   {
    "rcept_no": "20261029800329",
@@ -63,8 +125,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800329",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800329"
   },
   {
    "rcept_no": "20261029800325",
@@ -84,8 +146,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800325",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800325"
   },
   {
    "rcept_no": "20261029800315",
@@ -105,8 +167,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800315",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800315"
   },
   {
    "rcept_no": "20261029000325",
