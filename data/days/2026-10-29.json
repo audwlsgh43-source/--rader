@@ -1,8 +1,91 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 10:52",
- "count": 63,
+ "updated_at": "2026-10-29 10:56",
+ "count": 64,
  "items": [
+  {
+   "rcept_no": "20261029900162",
+   "date": "2026-10-29",
+   "corp": "한국정밀기계",
+   "stock_code": "101680",
+   "corp_code": "00257732",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]단일판매ㆍ공급계약체결",
+   "flr": "한국정밀기계",
+   "rm": "코",
+   "seen": "10:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900162",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029900149",
+   "date": "2026-10-29",
+   "corp": "네이블",
+   "stock_code": "153460",
+   "corp_code": "00842585",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "네이블",
+   "rm": "코",
+   "seen": "10:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900149",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029900142",
+   "date": "2026-10-29",
+   "corp": "아가방컴퍼니",
+   "stock_code": "013990",
+   "corp_code": "00138446",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "아가방컴퍼니",
+   "rm": "코",
+   "seen": "10:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900142",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029000144",
+   "date": "2026-10-29",
+   "corp": "키움증권",
+   "stock_code": "039490",
+   "corp_code": "00296290",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "투자설명서(일괄신고)",
+   "flr": "키움증권",
+   "rm": "",
+   "seen": "10:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000144"
+  },
   {
    "rcept_no": "20261029900159",
    "date": "2026-10-29",
@@ -55,11 +138,33 @@
    "flr": "LS전선",
    "rm": "",
    "seen": "10:52",
-   "ai": "",
-   "points": [],
-   "numbers": [],
+   "ai": "엘에스전선이 2026년 10월 20일~23일 장내매수로 LS마린솔루션 보유비율을 69.96%에서 70.44%로 늘렸습니다.",
+   "points": [
+    "방식: 장내매수 248,799주 (2026.10.20~10.23)",
+    "목적: 경영권에 영향을 주기 위한 목적 (최대주주)",
+    "교환사채 계약 주식 7,736,943주(14.81%), 이번 변동 없음",
+    "취득자금 전액 자기자금, 차입금 없음"
+   ],
+   "numbers": [
+    [
+     "이번 보고서 보유비율",
+     "70.44%"
+    ],
+    [
+     "증감 주식수",
+     "248,799주"
+    ],
+    [
+     "취득자금 총액",
+     "7,263,990,500원"
+    ],
+    [
+     "교환사채 대상 주식수",
+     "7,736,943주"
+    ]
+   ],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000137"
   },
   {
