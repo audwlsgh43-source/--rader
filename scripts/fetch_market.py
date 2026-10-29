@@ -207,21 +207,27 @@ def us_market() -> dict:
     return us
 
 
-REPORT_PROMPT = """다음은 {broker}의 리포트 「{title}」 앞부분입니다.
-핵심 내용을 한국어 3~4줄로 요약해 주세요. 각 줄은 60자 이내, 원문 문장을 그대로 옮기지 말고 자기 말로 쓰세요.
-리포트의 의견은 '{broker}는 ~로 봄'처럼 리포트의 의견임을 밝혀 주세요. JSON 배열 하나로만 답하세요. 예: ["…", "…", "…"]
+REPORT_PROMPT = """다음은 {broker}의 리포트 「{title}」 본문 일부입니다.
+아래 JSON 하나로만 답하세요.
+
+{{"summary": ["핵심 내용 3~4줄. 각 60자 이내, 원문 문장을 그대로 옮기지 말고 자기 말로"],
+  "valuation": ["밸류에이션 1~2줄. 각 70자 이내"]}}
+
+- 리포트의 의견은 '{broker}는 ~로 봄'처럼 리포트의 의견임을 밝혀 주세요.
+- valuation에는 목표주가 산정 방식과 근거 수치(적용 PER·PBR·EV/EBITDA 배수, 기준 EPS·BPS와 연도, 현재 주가 기준 PER·PBR, 상승여력, 동종업체 대비 수준 등)를 원문에 있는 숫자만으로 쓰세요.
+- 업종·시황 리포트처럼 밸류에이션 언급이 없으면 valuation은 빈 배열로 두세요. 숫자를 지어내지 마세요.
 
 원문:
 {body}"""
 
 
-def pdf_text(url: str, limit: int = 7000) -> str:
+def pdf_text(url: str, limit: int = 11000) -> str:
     from pypdf import PdfReader
     r = requests.get(url, headers=UA, timeout=60)
     r.raise_for_status()
     reader = PdfReader(BytesIO(r.content))
     text = ""
-    for page in reader.pages[:4]:
+    for page in reader.pages[:6]:
         text += (page.extract_text() or "") + "\n"
         if len(text) > limit:
             break
@@ -238,9 +244,12 @@ def summarize_reports(reports: list, old_reports: list, budget: int) -> int:
         for k in ("sum", "opinion", "goal", "pdf"):
             if p.get(k) and not rep_.get(k):
                 rep_[k] = p[k]
+        if "val" in p:
+            rep_["val"] = p["val"]
     order = {"기업": 1, "산업": 2, "시황": 3, "투자정보": 4}
     for rep_ in sorted(reports, key=lambda x: (not x.get("watch"), order.get(x["cat"], 9))):
-        if rep_.get("sum"):
+        # 요약이 있고, 기업 리포트는 밸류에이션까지 있으면 건너뜀 (예전에 요약만 만든 기업 리포트는 한 번 더)
+        if rep_.get("sum") and (rep_["cat"] != "기업" or "val" in rep_):
             continue
         if not key or done >= budget:
             continue
@@ -272,10 +281,19 @@ def summarize_reports(reports: list, old_reports: list, budget: int) -> int:
                           broker=rep_["broker"] or "증권사", title=rep_["title"], body=body)}]}, timeout=90)
             r.raise_for_status()
             text = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
-            s_, e_ = text.find("["), text.rfind("]")
-            lines = [str(x)[:90] for x in json.loads(text[s_:e_ + 1])][:4]
+            text = re.sub(r"```(?:json)?", "", text)
+            lines, val = [], []
+            try:
+                j = json.loads(text[text.find("{"):text.rfind("}") + 1])
+                lines = [str(x)[:90] for x in j.get("summary", [])][:4]
+                val = [str(x)[:110] for x in j.get("valuation", [])][:2]
+            except Exception:
+                s_, e_ = text.find("["), text.rfind("]")
+                lines = [str(x)[:90] for x in json.loads(text[s_:e_ + 1])][:4]
             if lines:
-                rep_["sum"] = lines
+                if not rep_.get("sum"):
+                    rep_["sum"] = lines
+                rep_["val"] = val      # 빈 배열 = 밸류에이션 언급 없음
                 done += 1
         except Exception as e:
             print(f"리포트 요약 실패 {rep_['title'][:20]}: {e}")

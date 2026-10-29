@@ -298,6 +298,8 @@ body[data-view="market"] .search, body[data-view="talk"] .search{visibility:hidd
 .rep .m a{color:var(--accent)}
 .rep .rep-stock{font-weight:700;color:var(--ink);font-size:13px}
 .rep .rep-op{color:var(--accent);font-weight:600}
+.rep-val{margin:6px 0 2px;padding:8px 10px;border-radius:10px;background:var(--accent-soft);display:flex;flex-direction:column;gap:2px;font-size:13px;color:var(--ink)}
+.rep-val b{font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--accent)}
 .rep ul{margin:4px 0 2px;padding-left:16px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:2px}
 .ai-card h4{margin:10px 0 6px;font-size:12.5px;color:var(--muted);font-weight:600}
 .ai-card .issues{list-style:none;padding:0;margin:0 0 4px;display:flex;flex-direction:column;gap:6px}
@@ -1241,7 +1243,8 @@ function repRow(r){
   const op = r.opinion || r.goal ? `<span class="rep-op">${esc(r.opinion||"")}${r.goal?` · 목표가 ${fmt(Number(r.goal),0)}원`:""}</span>` : "";
   return `<div class="rep">${left||op?`<span class="m">${left}${op}</span>`:""}<a class="t" href="${esc(r.url)}" target="_blank" rel="noopener">${r.watch?"★ ":""}${esc(r.title)}</a>
     <span class="m"><span class="c">${esc(r.cat)}</span><span>${esc(r.broker)}</span><span>${r.date ? r.date.slice(5).replace("-",".") : ""}</span>${r.pdf?`<a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>`:""}</span>
-    ${r.sum&&r.sum.length?`<ul>${r.sum.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`;
+    ${r.sum&&r.sum.length?`<ul>${r.sum.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
+    ${r.val&&r.val.length?`<div class="rep-val"><b>밸류에이션</b>${r.val.map(x=>`<span>${esc(x)}</span>`).join("")}</div>`:""}</div>`;
 }
 function renderReports(){
   const all = MK.reports || [];
