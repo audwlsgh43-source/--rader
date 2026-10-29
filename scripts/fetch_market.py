@@ -14,6 +14,7 @@
 import json
 import os
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from io import BytesIO, StringIO
 from pathlib import Path
@@ -51,7 +52,9 @@ REPORT_LISTS = [("시황", "https://finance.naver.com/research/market_info_list.
                 ("투자정보", "https://finance.naver.com/research/invest_list.naver", "invest_read.naver")]
 # 2026년 개편 후 네이버(Npay 증권) 리서치 JSON API — type 'market'은 화면의 /research/daily
 NAVER_RESEARCH_API = "https://stock.naver.com/api/stockSecurity/researches/v2"
-REPORT_TYPES = [("시황", "market", "daily"), ("투자정보", "invest", "invest")]
+# (분류, API type, 화면 경로, 가져올 개수)
+REPORT_TYPES = [("기업", "company", "company", 30), ("산업", "industry", "industry", 15),
+                ("시황", "market", "daily", 15), ("투자정보", "invest", "invest", 10)]
 NAVER_HEADERS = {**UA, "Accept": "application/json, text/plain, */*", "Referer": "https://stock.naver.com/"}
 
 
@@ -228,19 +231,32 @@ def pdf_text(url: str, limit: int = 7000) -> str:
 def summarize_reports(reports: list, old_reports: list, budget: int) -> int:
     """새 리포트만 3~4줄 요약 (이미 요약한 건 이전 결과 재사용)"""
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-    prev = {r["url"]: r.get("sum") for r in old_reports if r.get("sum")}
+    prev = {r["url"]: r for r in old_reports}
     done = 0
-    for rep_ in reports:
-        if rep_["url"] in prev:
-            rep_["sum"] = prev[rep_["url"]]
+    for rep_ in reports:  # 이전 결과(요약·투자의견·PDF) 이어받기
+        p = prev.get(rep_["url"]) or {}
+        for k in ("sum", "opinion", "goal", "pdf"):
+            if p.get(k) and not rep_.get(k):
+                rep_[k] = p[k]
+    order = {"기업": 1, "산업": 2, "시황": 3, "투자정보": 4}
+    for rep_ in sorted(reports, key=lambda x: (not x.get("watch"), order.get(x["cat"], 9))):
+        if rep_.get("sum"):
             continue
         if not key or done >= budget:
             continue
-        if not rep_.get("pdf") and rep_.get("api"):
+        if (not rep_.get("pdf") or (rep_["cat"] == "기업" and "opinion" not in rep_)) and rep_.get("api"):
             try:
                 d = requests.get(rep_["api"], headers=NAVER_HEADERS, timeout=20)
                 if d.ok:
-                    rep_["pdf"] = _find_pdf(d.json())
+                    dj = d.json()
+                    rep_["pdf"] = rep_.get("pdf") or _find_pdf(dj)
+                    if rep_["cat"] == "기업":
+                        for o in _walk(dj):
+                            if "opinion" in o and isinstance(o.get("opinion"), str):
+                                rep_["opinion"] = o["opinion"][:12]
+                            if o.get("goalPrice") not in (None, "", "0", 0):
+                                rep_["goal"] = str(o["goalPrice"])[:12]
+                        rep_.setdefault("opinion", "")
             except Exception as e:
                 print(f"리포트 상세 실패 {rep_['title'][:20]}: {e}")
         if not rep_.get("pdf"):
@@ -345,11 +361,38 @@ def _find_pdf(o) -> str:
     return ""
 
 
-def report_list_api() -> list[dict]:
-    out = []
-    for cat, typ, page in REPORT_TYPES:
+def _report_item(it: dict, cat: str, typ: str, page: str) -> dict | None:
+    f = _flat(it)
+    nid = _pick(f, ("nid", "researchid")) or str(it.get("id", ""))
+    title = _pick(f, ("title", "subject"))
+    if not nid or not title:
+        return None
+    rep_ = {"cat": cat, "title": title[:80],
+            "broker": _pick(f, ("brokername", "broker", "firm", "source"))[:20],
+            "date": _norm_date(_pick(f, ("writedate", "date", "dt", "regist", "created"))),
+            "url": f"https://stock.naver.com/research/{page}/{nid}",
+            "pdf": _find_pdf(it), "api": f"{NAVER_RESEARCH_API}/{typ}/{nid}"}
+    if typ == "company":
+        rep_["stock"] = _pick(f, ("itemname", "stockname", "corpname"))[:20]
+        rep_["code"] = _pick(f, ("itemcode", "stockcode"))[:6]
+    if typ == "industry":
+        rep_["sector"] = _pick(f, ("industryname", "industry", "category"))[:20]
+    return rep_
+
+
+def report_list_api(watch_codes: list[str] | None = None) -> list[dict]:
+    out, seen = [], set()
+
+    def add(x, watch=False):
+        if x and x["url"] not in seen:
+            seen.add(x["url"])
+            if watch:
+                x["watch"] = True
+            out.append(x)
+
+    for cat, typ, page, size in REPORT_TYPES:
         try:
-            r = requests.get(f"{NAVER_RESEARCH_API}/{typ}", params={"index": 0, "size": 20},
+            r = requests.get(f"{NAVER_RESEARCH_API}/{typ}", params={"index": 0, "size": size},
                              headers=NAVER_HEADERS, timeout=20)
             if not r.ok:
                 print(f"리포트 API {cat}: HTTP {r.status_code} {r.text[:150]}")
@@ -357,27 +400,38 @@ def report_list_api() -> list[dict]:
             j = r.json()
             items = j.get("items") if isinstance(j, dict) else j
             for it in items or []:
-                f = _flat(it)
-                nid = _pick(f, ("nid", "researchid")) or str(it.get("id", ""))
-                title = _pick(f, ("title", "subject"))
-                if not nid or not title:
-                    continue
-                broker = _pick(f, ("brokername", "broker", "firm", "company", "source"))
-                date = _norm_date(_pick(f, ("writedate", "date", "dt", "regist", "created")))
-                out.append({"cat": cat, "title": title[:80], "broker": broker[:20], "date": date,
-                            "url": f"https://stock.naver.com/research/{page}/{nid}",
-                            "pdf": _find_pdf(it), "api": f"{NAVER_RESEARCH_API}/{typ}/{nid}"})
+                add(_report_item(it, cat, typ, page))
             if not items:
                 print(f"리포트 API {cat}: 응답에 항목이 없어요 → {str(j)[:200]}")
         except Exception as e:
             print(f"리포트 API 실패 {cat}: {e}")
+    # 관심종목 기업 리포트는 따로 최근 5건씩
+    for code in watch_codes or []:
+        try:
+            r = requests.get(f"{NAVER_RESEARCH_API}/company", params={"itemCodes": code, "index": 0, "size": 5},
+                             headers=NAVER_HEADERS, timeout=20)
+            if r.ok:
+                j = r.json()
+                for it in (j.get("items") if isinstance(j, dict) else j) or []:
+                    x = _report_item(it, "기업", "company", "company")
+                    if x and not x.get("code"):
+                        x["code"] = code
+                    add(x, watch=True)
+            time.sleep(0.2)
+        except Exception as e:
+            print(f"관심종목 리포트 실패 {code}: {e}")
+    for x in out:  # 목록에서 이미 받은 관심종목 리포트에도 표시
+        if x.get("code") in (watch_codes or []):
+            x["watch"] = True
     out.sort(key=lambda x: x["date"], reverse=True)
-    return out[:30]
+    return out[:90]
 
 
 def report_list() -> list[dict]:
     """증권사 리포트 목록: 네이버 리서치 JSON API 우선, 실패하면 예전 페이지 방식"""
-    api = report_list_api()
+    watch_codes = [w.get("code") for w in json.loads((ROOT / "watchlist.json").read_text(encoding="utf-8")).get("items", [])
+                   if w.get("code")] if (ROOT / "watchlist.json").exists() else []
+    api = report_list_api(watch_codes)
     if api:
         return api
     out = []
@@ -571,7 +625,7 @@ def main():
     try:
         reps = report_list()
         if reps:
-            n = summarize_reports(reps, old.get("reports") or [], int(os.environ.get("REPORT_SUMMARIES", "12")))
+            n = summarize_reports(reps, old.get("reports") or [], int(os.environ.get("REPORT_SUMMARIES", "20")))
             print(f"리포트 요약 {n}건")
             data["reports"] = reps
         else:

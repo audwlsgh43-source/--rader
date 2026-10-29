@@ -264,6 +264,8 @@ body[data-view="market"] .search, body[data-view="talk"] .search{visibility:hidd
 .rep .m{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap}
 .rep .m .c{color:var(--accent);font-weight:600}
 .rep .m a{color:var(--accent)}
+.rep .rep-stock{font-weight:700;color:var(--ink);font-size:13px}
+.rep .rep-op{color:var(--accent);font-weight:600}
 .rep ul{margin:4px 0 2px;padding-left:16px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:2px}
 .ai-card h4{margin:10px 0 6px;font-size:12.5px;color:var(--muted);font-weight:600}
 .ai-card .issues{list-style:none;padding:0;margin:0 0 4px;display:flex;flex-direction:column;gap:6px}
@@ -924,6 +926,7 @@ async function openCorp(name, code){
       <button class="iconbtn cs-close" id="csClose" aria-label="닫기"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div></div>
     ${price}${fin}${hint}
     ${evs.length?`<div class="cs-sec"><h4>다가오는 일정</h4><div class="cs-list">${evs.slice(0,8).map(e=>`<div class="cs-item"><span class="d">${e.d.slice(5).replace("-",".")} · ${esc(e.k)}</span><span class="s">${esc(e.s||"")}</span></div>`).join("")}</div></div>`:""}
+    ${(()=>{ const rs=(MK&&MK.reports||[]).filter(r=>r.cat==="기업" && ((code && r.code===code) || r.stock===name)); return rs.length?`<div class="cs-sec"><h4>증권사 리포트 · ${rs.length}건</h4><div class="reps">${rs.slice(0,6).map(repRow).join("")}</div></div>`:""; })()}
     <div class="cs-sec"><h4>공시 기록${discl.length?` · ${discl.length}건`:""}</h4>${discl.length?`<div class="cs-list">${discl.slice(0,30).map(d=>`<div class="cs-item"><span class="d">${(d.date||"").slice(2).replace(/-/g,".")}</span><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title)}</a>${d.ai?`<span class="s">${esc(d.ai)}</span>`:""}</div>`).join("")}</div>`:`<p class="mk-empty">쌓인 공시 기록이 아직 없어요.</p>`}</div>`;
   $("#csClose").onclick = closeCorp;
   $("#csStar").onclick = () => { if(watch.has(name)) watch.delete(name); else { watch.add(name); if(code) watchCodes[name]=code; } saveWatch(); renderFeed(); renderCal(); openCorp(name, code); };
@@ -1015,16 +1018,27 @@ function renderUS(){
     </div>
     ${macroPanel()}`;
 }
-function renderReports(){
-  const list = MK.reports || [];
-  const body = list.length ? `<div class="reps">${list.map(r=>`<div class="rep"><a class="t" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
-      <span class="m"><span class="c">${esc(r.cat)}</span><span>${esc(r.broker)}</span><span>${r.date ? r.date.slice(5).replace("-",".") : ""}</span>${r.pdf?`<a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>`:""}</span>
-      ${r.sum&&r.sum.length?`<ul>${r.sum.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`).join("")}</div>`
-    : `<p class="mk-empty">리포트 목록을 받아오지 못했어요. 다음 수집 때 다시 시도해요.</p>`;
-  return `<div class="mk-head"><h2>증권사 리포트</h2><span>시황·투자정보 최신 30건</span></div>
-    <div class="panel">${body}</div>
-    <p class="mk-note">요약은 리포트 앞부분을 AI가 3~4줄로 정리한 것이라 빠지거나 틀린 내용이 있을 수 있어요. 원문은 각 증권사 자료이며, 링크를 누르면 네이버 금융에서 열려요.</p>`;
+let REPCAT = "전체";
+function repRow(r){
+  const left = r.cat==="기업" && r.stock ? `<button class="corp-link rep-stock" data-cname="${esc(r.stock)}" data-ccode="${esc(r.code||"")}">${esc(r.stock)}</button>` : r.sector ? `<span class="rep-stock">${esc(r.sector)}</span>` : "";
+  const op = r.opinion || r.goal ? `<span class="rep-op">${esc(r.opinion||"")}${r.goal?` · 목표가 ${fmt(Number(r.goal),0)}원`:""}</span>` : "";
+  return `<div class="rep">${left||op?`<span class="m">${left}${op}</span>`:""}<a class="t" href="${esc(r.url)}" target="_blank" rel="noopener">${r.watch?"★ ":""}${esc(r.title)}</a>
+    <span class="m"><span class="c">${esc(r.cat)}</span><span>${esc(r.broker)}</span><span>${r.date ? r.date.slice(5).replace("-",".") : ""}</span>${r.pdf?`<a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>`:""}</span>
+    ${r.sum&&r.sum.length?`<ul>${r.sum.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`;
 }
+function renderReports(){
+  const all = MK.reports || [];
+  const cats = ["전체","★ 관심종목","기업","산업","시황","투자정보"];
+  const count = c => c==="전체" ? all.length : c==="★ 관심종목" ? all.filter(r=>r.watch).length : all.filter(r=>r.cat===c).length;
+  const list = all.filter(r => REPCAT==="전체" || (REPCAT==="★ 관심종목" ? r.watch : r.cat===REPCAT));
+  const chips = `<div class="cats">${cats.map(c=>{ const n=count(c); return `<button data-repcat="${c}" aria-pressed="${REPCAT===c}" ${n||c==="전체"?"":"disabled"}>${c}<b>${n}</b></button>`; }).join("")}</div>`;
+  const body = list.length ? `<div class="reps">${list.map(repRow).join("")}</div>`
+    : `<p class="mk-empty">${all.length ? "이 분류의 리포트가 없어요." : "리포트 목록을 받아오지 못했어요. 다음 수집 때 다시 시도해요."}</p>`;
+  return `<div class="mk-head"><h2>증권사 리포트</h2><span>기업·산업·시황·투자정보 최신순</span></div>
+    ${chips}<div class="panel">${body}</div>
+    <p class="mk-note">요약은 리포트 앞부분을 AI가 3~4줄로 정리한 것이라 빠지거나 틀린 내용이 있을 수 있어요. 투자의견·목표가는 각 증권사 의견이에요. 원문은 네이버 증권 리서치에서 열려요.</p>`;
+}
+document.addEventListener("click", e=>{ const b=e.target.closest("[data-repcat]"); if(b){ REPCAT=b.dataset.repcat; renderMarket(); } });
 function renderMarket(){
   const el = $("#viewMarket");
   if(!MK){ el.innerHTML = `<div class="panel"><p class="mk-empty">시황 데이터가 아직 없어요. ↻로 수집을 실행하거나 다음 자동 수집을 기다려 주세요.</p></div>`; return; }
