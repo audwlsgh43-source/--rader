@@ -1,0 +1,28 @@
+{
+ "name": "네오오토",
+ "code": "212560",
+ "mkt": "코스닥",
+ "corp_code": "00876865",
+ "disclosures": [
+  {
+   "rcept_no": "20261026000003",
+   "date": "2026-10-26",
+   "title": "투자설명서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000003",
+   "seen": ""
+  },
+  {
+   "rcept_no": "20261014100006",
+   "date": "2026-10-26",
+   "title": "효력발생안내( 2026.10.14. 제출 증권신고서(주식의포괄적교환ㆍ이전) )",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014100006",
+   "seen": ""
+  }
+ ]
+}

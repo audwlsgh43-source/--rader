@@ -1,0 +1,28 @@
+{
+ "name": "한국알콜",
+ "code": "017890",
+ "mkt": "코스닥",
+ "corp_code": "00158565",
+ "disclosures": [
+  {
+   "rcept_no": "20261028000226",
+   "date": "2026-10-28",
+   "title": "주요사항보고서(자기주식취득결정)",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "한국알콜산업이 2026년 10월 29일부터 2027년 1월 28일까지 보통주 30만주(예정금액 42억5,400만원)를 코스닥 장내매수로 취득하기로 결정했습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000226",
+   "seen": "14:55"
+  },
+  {
+   "rcept_no": "20261027000040",
+   "date": "2026-10-27",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "주요주주 The Miri Strategic Emerging Markets Fund LP가 10월 20~23일 장내매수로 33,500주를 추가 취득해 지분율이 15.74%가 됐다고 보고했습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000040",
+   "seen": "15:46"
+  }
+ ]
+}

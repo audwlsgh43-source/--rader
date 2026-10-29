@@ -1,0 +1,38 @@
+{
+ "name": "IBKS제25호스팩",
+ "code": "0099X0",
+ "mkt": "코스닥",
+ "corp_code": "01949584",
+ "disclosures": [
+  {
+   "rcept_no": "20261027000360",
+   "date": "2026-10-27",
+   "title": "[기재정정]분기보고서 (2026.09)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000360",
+   "seen": "17:21"
+  },
+  {
+   "rcept_no": "20261027000353",
+   "date": "2026-10-27",
+   "title": "[기재정정]분기보고서 (2026.09)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000353",
+   "seen": "17:21"
+  },
+  {
+   "rcept_no": "20261027000342",
+   "date": "2026-10-27",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027000342",
+   "seen": "17:21"
+  }
+ ]
+}

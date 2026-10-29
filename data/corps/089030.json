@@ -1,0 +1,28 @@
+{
+ "name": "테크윙",
+ "code": "089030",
+ "mkt": "코스닥",
+ "corp_code": "00535676",
+ "disclosures": [
+  {
+   "rcept_no": "20261028900224",
+   "date": "2026-10-28",
+   "title": "단일판매ㆍ공급계약체결(자율공시)",
+   "type": "contract",
+   "imp": "high",
+   "ai": "테크윙이 인도 소재 Micron 법인과 반도체 검사장비 공급계약을 체결했습니다. 계약금액은 94億원대(9,497,217,450원)이며 2025년 연결 매출액의 5.97%입니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900224",
+   "seen": "13:42"
+  },
+  {
+   "rcept_no": "20261028000155",
+   "date": "2026-10-28",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "Manulife Investment Management(Hong Kong) 및 특별관계자가 장내매수로 테크윙 지분을 6.79%에서 7.91%로 늘렸으며, 보유목적은 단순투자입니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000155",
+   "seen": "12:15"
+  }
+ ]
+}

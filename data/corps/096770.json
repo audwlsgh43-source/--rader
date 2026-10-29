@@ -1,0 +1,28 @@
+{
+ "name": "SK이노베이션",
+ "code": "096770",
+ "mkt": "코스피",
+ "corp_code": "00631518",
+ "disclosures": [
+  {
+   "rcept_no": "20261028000313",
+   "date": "2026-10-28",
+   "title": "[기재정정]증권신고서(합병)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000313",
+   "seen": "16:08"
+  },
+  {
+   "rcept_no": "20261028000291",
+   "date": "2026-10-28",
+   "title": "[기재정정]주요사항보고서(회사합병결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "SK이노베이션이 자회사 SK아이이테크놀로지를 소규모합병 방식으로 흡수합병하며, 합병기일은 2027년 1월 1일로 예정되어 있습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000291",
+   "seen": "16:08"
+  }
+ ]
+}

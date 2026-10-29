@@ -1,0 +1,28 @@
+{
+ "name": "하나금융지주",
+ "code": "086790",
+ "mkt": "코스피",
+ "corp_code": "00547583",
+ "disclosures": [
+  {
+   "rcept_no": "20261029000023",
+   "date": "2026-10-29",
+   "title": "투자설명서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000023",
+   "seen": "09:05"
+  },
+  {
+   "rcept_no": "20261019100049",
+   "date": "2026-10-29",
+   "title": "효력발생안내( 2026.10.19. 제출 증권신고서(채무증권) )",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019100049",
+   "seen": "08:06"
+  }
+ ]
+}

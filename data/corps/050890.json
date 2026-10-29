@@ -1,0 +1,28 @@
+{
+ "name": "쏠리드",
+ "code": "050890",
+ "mkt": "코스닥",
+ "corp_code": "00364403",
+ "disclosures": [
+  {
+   "rcept_no": "20261027900672",
+   "date": "2026-10-27",
+   "title": "감자결정(종속회사의주요경영사항)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "쏠리드의 100% 종속회사 SOLiD GEAR PTE. LTD.가 자본금을 USD 28,100,000에서 USD 200,000으로 줄이는 유상감자를 결정했습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027900672",
+   "seen": "18:46"
+  },
+  {
+   "rcept_no": "20261027900652",
+   "date": "2026-10-27",
+   "title": "단일판매ㆍ공급계약체결(자율공시)",
+   "type": "contract",
+   "imp": "high",
+   "ai": "쏠리드가 계열회사 SOLiD Gear, Inc.와 북미 판매용 DAS(중계기) 공급계약을 177억2,231만원 규모로 체결했다. 최근 매출액 대비 6.01%이다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027900652",
+   "seen": "18:46"
+  }
+ ]
+}

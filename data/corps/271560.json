@@ -1,0 +1,18 @@
+{
+ "name": "오리온",
+ "code": "271560",
+ "mkt": "코스피",
+ "corp_code": "01238169",
+ "disclosures": [
+  {
+   "rcept_no": "20261026000387",
+   "date": "2026-10-27",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "Silchester International Investors LLP가 오리온 주식 2,806,355주(7.10%)를 보유하며, 직전 보고 대비 409,711주(1.04%p)를 장내매수로 늘렸다고 보고했습니다(보고의무발생일 2026.10.15).",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000387",
+   "seen": "15:46"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "name": "삼양홀딩스",
+ "code": "000070",
+ "mkt": "코스피",
+ "corp_code": "00126937",
+ "disclosures": [
+  {
+   "rcept_no": "20261026000341",
+   "date": "2026-10-26",
+   "title": "[발행조건확정]증권신고서(채무증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000341",
+   "seen": ""
+  },
+  {
+   "rcept_no": "20261026000335",
+   "date": "2026-10-26",
+   "title": "[기재정정]증권신고서(채무증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026000335",
+   "seen": ""
+  }
+ ]
+}
