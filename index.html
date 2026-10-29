@@ -184,6 +184,18 @@ aside.cal{position:sticky;top:112px;background:var(--surface);border:1px solid v
 .ev{display:grid;grid-template-columns:84px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
 .ev:last-child{border-bottom:0}
 .ev .k{font-size:11.5px;font-weight:600;color:var(--accent)}
+.evg{padding:9px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
+.evg:last-child{border-bottom:0}
+.evg-h{display:flex;align-items:center;gap:6px}
+.evg-h .c{font-weight:700;font-size:14px}
+.evn{font-size:11px;color:var(--muted);font-weight:500;margin-left:6px}
+.evg-l{display:flex;flex-direction:column;gap:3px}
+.evi{display:grid;grid-template-columns:84px 1fr;gap:8px;font-size:13px;color:inherit;text-decoration:none;align-items:baseline}
+a.evi:hover .s{color:var(--accent)}
+.evi .k{font-size:11.5px;font-weight:600;color:var(--accent)}
+.evi .k.k-up{color:var(--up)} .evi .k.k-down{color:var(--down)}
+.evi .s{color:var(--muted);font-size:12.5px}
+.evi .cat{font-size:10.5px;opacity:.8}
 .ev .k.k-up{color:var(--up)} .ev .k.k-down{color:var(--down)}
 .ev .c{font-weight:600}
 .ev .s{color:var(--muted);font-size:12.5px}
@@ -722,12 +734,24 @@ function renderCal(){
   }).join("");
   const lo = iso(days[0]), hi = iso(new Date(days[4].getTime()+2*864e5));
   const list = evs.filter(e=> state.day ? e.d===state.day : (e.d>=lo && e.d<=hi)).sort((a,b)=>a.d.localeCompare(b.d));
-  let html = "", cur = "";
-  list.forEach(e=>{
-    if(e.d!==cur){ cur=e.d; const d=new Date(e.d+"T00:00:00"); html += `<div class="evday">${d.getMonth()+1}월 ${d.getDate()}일 (${dow[d.getDay()]})${e.d===TODAY?" · 오늘":""}</div>`; }
-    const inner = `<span class="k ${e.tone?"k-"+e.tone:""}">${esc(e.k)}${evCat(e)!=="기타"&&evCat(e)!==e.k?`<span class="cat">${esc(evCat(e))}</span>`:""}</span><div><div class="c">${esc(e.c)}</div><div class="s">${esc(e.s)}</div></div>`;
-    html += e.url ? `<a class="ev" href="${esc(e.url)}" target="_blank" rel="noopener">${inner}</a>` : `<div class="ev">${inner}</div>`;
-  });
+  // 날짜별 → 회사별로 묶어서 한 회사는 한 줄에
+  let html = "";
+  const byDay = new Map();
+  list.forEach(e=>{ if(!byDay.has(e.d)) byDay.set(e.d, new Map()); const m = byDay.get(e.d); if(!m.has(e.c)) m.set(e.c, []); m.get(e.c).push(e); });
+  for(const [day, corps] of byDay){
+    const d = new Date(day+"T00:00:00");
+    html += `<div class="evday">${d.getMonth()+1}월 ${d.getDate()}일 (${dow[d.getDay()]})${day===TODAY?" · 오늘":""}<span class="evn">${corps.size}개 종목</span></div>`;
+    const rows = [...corps.entries()].sort((a,b)=> (watch.has(b[0])-watch.has(a[0])) || a[0].localeCompare(b[0]));
+    for(const [corp, es] of rows){
+      // 같은 종류·설명은 한 번만
+      const seen = new Set(); const uniq = es.filter(e=>{ const k=e.k+"|"+e.s; if(seen.has(k)) return false; seen.add(k); return true; });
+      const code = (es.find(e=>e.code)||{}).code || watchCodes[corp] || "";
+      html += `<div class="evg"><div class="evg-h"><button class="corp-link c" data-cname="${esc(corp)}" data-ccode="${esc(code)}">${watch.has(corp)?"★ ":""}${esc(corp)}</button>${uniq.length>1?`<span class="evn">${uniq.length}건</span>`:""}</div>
+        <div class="evg-l">${uniq.map(e=>{ const cat = evCat(e)!=="기타"&&evCat(e)!==e.k ? ` <span class="cat">${esc(evCat(e))}</span>` : "";
+          const body = `<span class="k ${e.tone?"k-"+e.tone:""}">${esc(e.k)}</span><span class="s">${esc(e.s||"")}${cat}</span>`;
+          return e.url ? `<a class="evi" href="${esc(e.url)}" target="_blank" rel="noopener">${body}</a>` : `<span class="evi">${body}</span>`; }).join("")}</div></div>`;
+    }
+  }
   $("#evlist").innerHTML = html || `<div class="evempty">${state.watchOnly?"관심종목 일정이 없어요.":state.cat!=="전체"?`이 기간에 ${state.cat} 일정이 없어요. ‹ › 로 다른 주를 확인해 보세요.`:"이 기간에 등록된 일정이 없어요."}</div>`;
 }
 

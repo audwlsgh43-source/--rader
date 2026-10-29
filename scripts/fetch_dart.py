@@ -88,6 +88,22 @@ def event_cat(title: str) -> str:
     return ""
 
 
+# 회사 주식과 관계없는 상품·채권 공시 (증권사 ELS/DLS, 회사채, 기업어음 등) → 수집 제외
+EXCLUDE_TITLES = ["파생결합", "일괄신고", "채무증권", "기업어음", "단기사채", "전자단기사채", "사채원리금",
+                  "신탁계약", "집합투자", "투자회사", "증권발행조건확정", "조건부자본증권"]
+
+
+def is_stock_disclosure(x: dict) -> bool:
+    """코스피·코스닥 종목의 주식 관련 공시만 True"""
+    if x.get("corp_cls") not in MARKETS:
+        return False
+    code = (x.get("stock_code") or "").strip()
+    if not re.fullmatch(r"[0-9A-Z]{6}", code):
+        return False
+    t = (x.get("report_nm") or "").replace(" ", "")
+    return not any(k in t for k in EXCLUDE_TITLES)
+
+
 def classify(title: str) -> tuple[str, str]:
     t = title.replace(" ", "")
     typ = "etc"
@@ -292,6 +308,18 @@ def update_events(items: list[dict], today: str):
     if EVENTS_OUT.exists():
         for e in json.loads(EVENTS_OUT.read_text(encoding="utf-8")).get("items", []):
             store[(e["rcept_no"], e["d"], e["k"])] = e
+    # 저장된 날짜별 공시에 남아 있는(=상장사 주식 공시인) 접수번호만 유지 → 예전에 섞여 들어온 상품 공시 일정 정리
+    valid = {}
+    for f in DAYS_DIR.glob("????-??-??.json"):
+        try:
+            for it in json.loads(f.read_text(encoding="utf-8")).get("items", []):
+                if not any(k in it.get("title", "").replace(" ", "") for k in EXCLUDE_TITLES):
+                    valid[it["rcept_no"]] = it
+        except Exception:
+            pass
+    for it in items:
+        valid[it["rcept_no"]] = it
+    store = {k: e for k, e in store.items() if e["rcept_no"] in valid}
     for d in items:
         cat = event_cat(d["title"]) or "기타"
         evs = list(d.get("events", []))
@@ -301,7 +329,7 @@ def update_events(items: list[dict], today: str):
         for e in evs:
             store[(d["rcept_no"], e["date"], e["kind"])] = {
                 "d": e["date"], "k": e["kind"], "cat": cat, "tone": EVENT_KINDS.get(e["kind"], ""),
-                "c": d["corp"], "s": e["desc"][:60], "rcept_no": d["rcept_no"], "url": d["url"],
+                "c": d["corp"], "code": d.get("stock_code", ""), "s": e["desc"][:60], "rcept_no": d["rcept_no"], "url": d["url"],
             }
     lo = (datetime.fromisoformat(today) - timedelta(days=7)).strftime("%Y-%m-%d")
     hi = (datetime.fromisoformat(today) + timedelta(days=90)).strftime("%Y-%m-%d")
@@ -339,7 +367,7 @@ def migrate_old_files():
 def build_items(raw: list[dict], date: str, prev: dict, seen_now: str) -> list[dict]:
     items = []
     for x in raw:
-        if x.get("corp_cls") not in MARKETS:
+        if not is_stock_disclosure(x):
             continue
         no = x["rcept_no"]
         title = x["report_nm"].strip()
@@ -448,6 +476,16 @@ def main():
         print(f"AI 분석 {done}건 (남은 대상 {left}건)")
 
     stamp = now.strftime("%Y-%m-%d %H:%M")
+    # 예전에 저장된 날짜 파일에서도 상품·채권 공시를 정리 (한 번 정리되면 다시 바뀌지 않음)
+    for f in DAYS_DIR.glob("????-??-??.json"):
+        if f.stem in days:
+            continue
+        j = load_json(f)
+        its = j.get("items", [])
+        keep = [x for x in its if x.get("stock_code") and not any(k in x.get("title", "").replace(" ", "") for k in EXCLUDE_TITLES)]
+        if len(keep) != len(its):
+            j["items"], j["count"] = keep, sum(1 for x in keep if not x.get("read_fail"))
+            f.write_text(json.dumps(j, ensure_ascii=False, indent=1), encoding="utf-8")
     for iso, items in days.items():
         (DAYS_DIR / f"{iso}.json").write_text(json.dumps({
             "date": iso, "updated_at": stamp, "count": sum(1 for x in items if not x.get("read_fail")), "items": items,
