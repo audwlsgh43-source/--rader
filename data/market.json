@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29 14:59",
+ "updated_at": "2026-10-29 15:06",
  "indices": [
   {
    "key": "ks11",
@@ -664,7 +664,6 @@
     "하나증권은 2027년 EBITDA 기준에는 이번 마일스톤이 영향을 주지 않는다고 봄"
    ],
    "goal": "620000",
-   "opinion": "",
    "val": []
   },
   {
@@ -1098,7 +1097,14 @@
    "url": "https://stock.naver.com/research/industry/46713",
    "pdf": "https://stock.pstatic.net/stock-research/industry/57/20261029_industry_911601000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46713",
-   "sector": "shipbuilding"
+   "sector": "shipbuilding",
+   "sum": [
+    "하나증권은 3사 모두 매수 의견을 유지하되 목표주가는 15.8~37.8% 하향함",
+    "3사 중 한국조선해양과 중공업은 영업이익이 전분기 대비 12~14% 줄고, 마린엔진은 93% 늘어남",
+    "조업일수 감소와 원화 강세로 조선 마진은 둔화됐지만 해양·특수선·엔진은 양호하다고 봄",
+    "마린엔진은 D/F 엔진 비중 확대와 ASP 상승으로 외형이 가파르게 성장함"
+   ],
+   "val": []
   },
   {
    "cat": "산업",

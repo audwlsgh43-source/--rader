@@ -1,8 +1,171 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 14:57",
- "count": 124,
+ "updated_at": "2026-10-29 15:06",
+ "count": 105,
  "items": [
+  {
+   "rcept_no": "20261029900332",
+   "date": "2026-10-29",
+   "corp": "제일엠앤에스",
+   "stock_code": "412540",
+   "corp_code": "00528791",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "기타시장안내              (관리종목 지정사유 추가 및 상장적격성 실질심사 사유 추가 관련 절차 등 미진행)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "15:06",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900332",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029800334",
+   "date": "2026-10-29",
+   "corp": "한화솔루션",
+   "stock_code": "009830",
+   "corp_code": "00162461",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "flr": "한화솔루션",
+   "rm": "유",
+   "seen": "15:06",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800334",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029800329",
+   "date": "2026-10-29",
+   "corp": "대한조선",
+   "stock_code": "439260",
+   "corp_code": "00182696",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "flr": "대한조선",
+   "rm": "유",
+   "seen": "15:06",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800329",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029800325",
+   "date": "2026-10-29",
+   "corp": "OCI홀딩스",
+   "stock_code": "010060",
+   "corp_code": "00148896",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "OCI홀딩스",
+   "rm": "유",
+   "seen": "15:06",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800325",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029800315",
+   "date": "2026-10-29",
+   "corp": "OCI홀딩스",
+   "stock_code": "010060",
+   "corp_code": "00148896",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]수시공시의무관련사항(공정공시)",
+   "flr": "OCI홀딩스",
+   "rm": "유",
+   "seen": "15:06",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800315",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261029000325",
+   "date": "2026-10-29",
+   "corp": "엠에스바이오",
+   "stock_code": "0013Y0",
+   "corp_code": "01749559",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "이선기",
+   "rm": "",
+   "seen": "15:06",
+   "ai": "엠에스바이오 비등기임원 이선기씨가 보유 주식 638,660주(지분율 2.35%)를 보고했으며, 직전 보고와 같은 수량입니다.",
+   "points": [
+    "보고자는 비등기임원(이사)으로 2024년 12월 31일 선임",
+    "보고 사유 발생일은 2026년 10월 22일이며 작성기준일은 2026년 10월 29일",
+    "직전 보고서(2026년 10월 27일)와 보유 수량 동일",
+    "6개월 내 매수·매도 등으로 이익 발생 시 단기매매차익 반환 안내 포함"
+   ],
+   "numbers": [
+    [
+     "보유 주식수",
+     "638,660주"
+    ],
+    [
+     "보유 지분율",
+     "2.35%"
+    ],
+    [
+     "발행주식총수",
+     "27,202,650주"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000325"
+  },
+  {
+   "rcept_no": "20261029000321",
+   "date": "2026-10-29",
+   "corp": "제일엠앤에스",
+   "stock_code": "412540",
+   "corp_code": "00528791",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]사업보고서 (2024.12)",
+   "flr": "제일엠앤에스",
+   "rm": "연",
+   "seen": "15:06",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000321"
+  },
   {
    "rcept_no": "20261029900318",
    "date": "2026-10-29",
@@ -161,8 +324,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900306",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900306"
   },
   {
    "rcept_no": "20261029900297",
@@ -182,8 +345,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900297",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900297"
   },
   {
    "rcept_no": "20261029900293",
@@ -223,8 +386,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900292",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900292"
   },
   {
    "rcept_no": "20261029900287",
@@ -244,8 +407,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900287",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900287"
   },
   {
    "rcept_no": "20261029800326",
@@ -265,8 +428,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800326",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800326"
   },
   {
    "rcept_no": "20261029800321",
@@ -286,8 +449,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800321",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800321"
   },
   {
    "rcept_no": "20261029800311",
@@ -307,8 +470,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800311",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800311"
   },
   {
    "rcept_no": "20261029800310",
@@ -445,8 +608,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800304",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800304"
   },
   {
    "rcept_no": "20261029800299",
@@ -466,28 +629,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800299",
-   "read_fail": true
-  },
-  {
-   "rcept_no": "20261029000316",
-   "date": "2026-10-29",
-   "corp": "교보증권",
-   "stock_code": "030610",
-   "corp_code": "00113359",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-   "flr": "교보증권",
-   "rm": "",
-   "seen": "14:57",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000316"
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800299"
   },
   {
    "rcept_no": "20261029000313",
@@ -507,8 +650,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000313",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000313"
   },
   {
    "rcept_no": "20261029000308",
@@ -606,11 +749,49 @@
    "flr": "서울전자통신",
    "rm": "",
    "seen": "14:57",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "서울전자통신이 제3자배정 방식으로 보통주 1,950,584주(주당 1,538원)를 발행하는 소액 유상증자를 결정했으며, 발행가액 확정에 따라 정정 공시한 내용입니다.",
+   "points": [
+    "제3자배정 방식이며 증권신고서 없이 실시하는 소액공모",
+    "발행가액은 기준주가 1,710원에서 10% 할인해 1,538원으로 확정",
+    "자금 용도: 운영자금, 채무상환, 타법인 증권취득",
+    "정정 사유: 발행가액 확정에 따른 신주 수·가격 변경"
+   ],
+   "numbers": [
+    [
+     "신주 발행주식수",
+     "1,950,584주"
+    ],
+    [
+     "신주 발행가액",
+     "1,538원"
+    ],
+    [
+     "타법인 증권취득자금",
+     "15억원"
+    ],
+    [
+     "채무상환자금",
+     "6억원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-02",
+     "kind": "청약",
+     "desc": "청약일, 청약취급처는 서울전자통신"
+    },
+    {
+     "date": "2026-11-27",
+     "kind": "납입일",
+     "desc": "주금납입일, KB국민은행 노량진지점"
+    },
+    {
+     "date": "2026-12-21",
+     "kind": "신주상장",
+     "desc": "신주 상장 예정일"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000299"
   },
   {
@@ -768,8 +949,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000290",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000290"
   },
   {
    "rcept_no": "20261029000287",
@@ -2274,26 +2455,6 @@
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000237"
   },
   {
-   "rcept_no": "20261029000212",
-   "date": "2026-10-29",
-   "corp": "DB증권",
-   "stock_code": "016610",
-   "corp_code": "00115694",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "투자설명서(일괄신고)",
-   "flr": "DB증권",
-   "rm": "",
-   "seen": "13:17",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000212"
-  },
-  {
    "rcept_no": "20261029900219",
    "date": "2026-10-29",
    "corp": "상지건설",
@@ -2592,26 +2753,6 @@
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000200"
   },
   {
-   "rcept_no": "20261029000196",
-   "date": "2026-10-29",
-   "corp": "한화투자증권",
-   "stock_code": "003530",
-   "corp_code": "00148610",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "투자설명서(일괄신고)",
-   "flr": "한화투자증권",
-   "rm": "",
-   "seen": "12:17",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000196"
-  },
-  {
    "rcept_no": "20261029800196",
    "date": "2026-10-29",
    "corp": "세아베스틸지주",
@@ -2693,99 +2834,6 @@
    "events": [],
    "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000194"
-  },
-  {
-   "rcept_no": "20261029000193",
-   "date": "2026-10-29",
-   "corp": "한화투자증권",
-   "stock_code": "003530",
-   "corp_code": "00148610",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(기타파생결합사채)",
-   "flr": "한화투자증권",
-   "rm": "",
-   "seen": "11:30",
-   "ai": "한화투자증권이 국고채 3개월 금리에 연계해 지급액이 정해지는 스마트DLB 617회를 99억9,500만원 규모로 모집하며, 예금자보호 대상이 아니고 원금손실 가능성이 있습니다.",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000193"
-  },
-  {
-   "rcept_no": "20261029000189",
-   "date": "2026-10-29",
-   "corp": "DB증권",
-   "stock_code": "016610",
-   "corp_code": "00115694",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(기타파생결합사채)",
-   "flr": "DB증권",
-   "rm": "",
-   "seen": "11:30",
-   "ai": "DB증권이 2026년 11월 2~6일 청약받는 300억원 규모 DLB(5등급)입니다. 원금상환 여부는 발행인의 지급여력에 따르며 예금자보호 대상이 아닙니다.",
-   "points": [
-    "기초자산은 국고채권 3개월 금리이며 디지털 콜 옵션 구조",
-    "만기상환 시 현금결제, 상장되지 않은 비상장 증권",
-    "원금상환 여부는 기초자산이 아닌 발행인 지급여력에 따라 결정",
-    "만기평가가격이 10% 이상이면 연 4.01%, 미만이면 연 4.00%(세전)"
-   ],
-   "numbers": [
-    [
-     "모집총액",
-     "300억원"
-    ],
-    [
-     "1증권당 발행가액",
-     "10,000원"
-    ],
-    [
-     "공정가액(제출일 전일 기준, 추산)",
-     "9,976.43원"
-    ],
-    [
-     "세전 투자수익률(연)",
-     "4.00~4.01%"
-    ]
-   ],
-   "events": [
-    {
-     "date": "2026-11-02",
-     "kind": "청약",
-     "desc": "청약 시작일(청약기간 개시)"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "청약",
-     "desc": "청약 종료일 오후 1시 30분까지 접수"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "납입일",
-     "desc": "청약증거금 증권납입금 대체 및 납입일"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "기타",
-     "desc": "배정 및 환불일, 증권 발행일"
-    },
-    {
-     "date": "2027-04-30",
-     "kind": "기타",
-     "desc": "만기평가일(기초자산 종가 기준 평가)"
-    },
-    {
-     "date": "2027-05-07",
-     "kind": "기타",
-     "desc": "만기일"
-    }
-   ],
-   "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000189"
   },
   {
    "rcept_no": "20261029000183",
@@ -2956,26 +3004,6 @@
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900174"
   },
   {
-   "rcept_no": "20261029000167",
-   "date": "2026-10-29",
-   "corp": "DB증권",
-   "stock_code": "016610",
-   "corp_code": "00115694",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "투자설명서(일괄신고)",
-   "flr": "DB증권",
-   "rm": "",
-   "seen": "11:10",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000167"
-  },
-  {
    "rcept_no": "20261029900176",
    "date": "2026-10-29",
    "corp": "데브시스터즈",
@@ -3060,26 +3088,6 @@
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900142"
   },
   {
-   "rcept_no": "20261029000144",
-   "date": "2026-10-29",
-   "corp": "키움증권",
-   "stock_code": "039490",
-   "corp_code": "00296290",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "투자설명서(일괄신고)",
-   "flr": "키움증권",
-   "rm": "",
-   "seen": "10:56",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000144"
-  },
-  {
    "rcept_no": "20261029900159",
    "date": "2026-10-29",
    "corp": "피델릭스",
@@ -3159,79 +3167,6 @@
    "events": [],
    "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000137"
-  },
-  {
-   "rcept_no": "20261029000127",
-   "date": "2026-10-29",
-   "corp": "키움증권",
-   "stock_code": "039490",
-   "corp_code": "00296290",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(파생결합증권-주가연계증권)",
-   "flr": "키움증권",
-   "rm": "",
-   "seen": "10:52",
-   "ai": "키움증권이 2026년 10월 30일~11월 5일 청약받는 원금비보장형 ELS 10개 회차(총 782억2,600만원)입니다. 예금자보호 대상이 아니며 원금손실이 발생할 수 있습니다.",
-   "points": [
-    "키움증권 신용으로 발행, 예금자보호법에 따라 보호되지 않음",
-    "팔란티어·인텔·마이크론 보통주를 기초자산으로 하는 구조",
-    "원금비보장형, 1등급(매우높은위험), 고난도금융투자상품",
-    "2099·2100회는 미국달러(USD) 표시 채권"
-   ],
-   "numbers": [
-    [
-     "발행예정금액",
-     "10조원"
-    ],
-    [
-     "이번 모집·매출총액",
-     "782억2,600만원"
-    ],
-    [
-     "발행예정기간 중 실제 발행액",
-     "7조775억원"
-    ],
-    [
-     "잔액",
-     "2조9,224억원"
-    ]
-   ],
-   "events": [
-    {
-     "date": "2026-10-30",
-     "kind": "청약",
-     "desc": "청약기간 시작(11월 5일까지)"
-    },
-    {
-     "date": "2026-11-05",
-     "kind": "납입일",
-     "desc": "납입기일"
-    },
-    {
-     "date": "2026-11-05",
-     "kind": "기타",
-     "desc": "배정기준일"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "기타",
-     "desc": "배정공고일"
-    },
-    {
-     "date": "2028-11-08",
-     "kind": "기타",
-     "desc": "만기일(2094·2095·2096·2097·2099회)"
-    },
-    {
-     "date": "2029-11-08",
-     "kind": "기타",
-     "desc": "만기일(2091·2092·2093·2098·2100회)"
-    }
-   ],
-   "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000127"
   },
   {
    "rcept_no": "20261029900125",
@@ -4197,167 +4132,6 @@
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000125"
   },
   {
-   "rcept_no": "20261029000120",
-   "date": "2026-10-29",
-   "corp": "키움증권",
-   "stock_code": "039490",
-   "corp_code": "00296290",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "투자설명서(일괄신고)",
-   "flr": "키움증권",
-   "rm": "",
-   "seen": "10:42",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000120"
-  },
-  {
-   "rcept_no": "20261029000118",
-   "date": "2026-10-29",
-   "corp": "키움증권",
-   "stock_code": "039490",
-   "corp_code": "00296290",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-   "flr": "키움증권",
-   "rm": "",
-   "seen": "10:42",
-   "ai": "키움증권이 삼성전자·S&P500 기초 주가연계파생결합사채 3개 회차(총 266억 1,300만원)를 10월 30일~11월 5일 청약으로 모집하며, 예금자보호 대상이 아닙니다.",
-   "points": [
-    "온라인 전용 일반청약이며 중개형 ISA 계좌로만 청약 가능",
-    "원금상환 여부는 기초자산이 아닌 키움증권의 지급여력에 따라 결정",
-    "투자금은 별도 예치 의무가 없어 발행인 고유재산과 분리되지 않음",
-    "비상장 상품으로, 중도상환 시 상환가격이 원금에 미달할 수 있음"
-   ],
-   "numbers": [
-    [
-     "전체 모집총액",
-     "266억 1,300만원"
-    ],
-    [
-     "제1411회 모집총액",
-     "100억원"
-    ],
-    [
-     "제1412회 모집총액",
-     "100억원"
-    ],
-    [
-     "제1413회 모집총액",
-     "66억 1,300만원"
-    ]
-   ],
-   "events": [
-    {
-     "date": "2026-10-30",
-     "kind": "청약",
-     "desc": "제1411~1413회 청약 시작(09:00)"
-    },
-    {
-     "date": "2026-11-05",
-     "kind": "청약",
-     "desc": "청약 마감(13:00), 배정 및 환불일(예정)"
-    },
-    {
-     "date": "2026-11-05",
-     "kind": "납입일",
-     "desc": "제1411~1413회 납입일(예정)"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "기타",
-     "desc": "제1411~1413회 발행일(예정)"
-    },
-    {
-     "date": "2027-05-10",
-     "kind": "기타",
-     "desc": "제1411·1413회 만기일(예정)"
-    },
-    {
-     "date": "2027-11-10",
-     "kind": "기타",
-     "desc": "제1412회 만기일(예정)"
-    }
-   ],
-   "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000118"
-  },
-  {
-   "rcept_no": "20261029000117",
-   "date": "2026-10-29",
-   "corp": "DB증권",
-   "stock_code": "016610",
-   "corp_code": "00115694",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(기타파생결합사채)",
-   "flr": "DB증권",
-   "rm": "",
-   "seen": "10:42",
-   "ai": "국고채 3개월 금리에 연계된 DB증권 기타파생결합사채(200억원)로, 예금자보호 대상이 아니며 발행인 신용에 따라 원금 손실이 발생할 수 있습니다.",
-   "points": [
-    "기초자산은 국고채 3개월 금리, 만기 2027년 2월 10일",
-    "만기 시 현금결제, 비상장으로 만기 전 환금이 어려울 수 있음",
-    "청약대상은 DB증권 지정 영업점 신규·휴면 개인 및 일반법인 고객",
-    "원금상환 여부는 기초자산이 아닌 발행인의 지급여력에 따라 결정"
-   ],
-   "numbers": [
-    [
-     "모집총액",
-     "200억원"
-    ],
-    [
-     "발행가액(1증권당)",
-     "10,000원"
-    ],
-    [
-     "세전 투자손익률(연)",
-     "연 4.70%~4.71%"
-    ],
-    [
-     "공정가액(추산)",
-     "10,013.06원"
-    ]
-   ],
-   "events": [
-    {
-     "date": "2026-11-02",
-     "kind": "청약",
-     "desc": "청약 시작(청약기간 시작일)"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "청약",
-     "desc": "청약 종료(오후 1시 30분까지)"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "납입일",
-     "desc": "납입일, 배정·환불일, 발행일"
-    },
-    {
-     "date": "2027-02-03",
-     "kind": "기타",
-     "desc": "만기평가일"
-    },
-    {
-     "date": "2027-02-10",
-     "kind": "기타",
-     "desc": "만기일(만기상환)"
-    }
-   ],
-   "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000117"
-  },
-  {
    "rcept_no": "20261029000111",
    "date": "2026-10-29",
    "corp": "디티에스",
@@ -4541,89 +4315,6 @@
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000079"
   },
   {
-   "rcept_no": "20261029000074",
-   "date": "2026-10-29",
-   "corp": "교보증권",
-   "stock_code": "030610",
-   "corp_code": "00113359",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "투자설명서(일괄신고)",
-   "flr": "교보증권",
-   "rm": "",
-   "seen": "10:42",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000074"
-  },
-  {
-   "rcept_no": "20261029000072",
-   "date": "2026-10-29",
-   "corp": "교보증권",
-   "stock_code": "030610",
-   "corp_code": "00113359",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-   "flr": "교보증권",
-   "rm": "",
-   "seen": "10:42",
-   "ai": "교보증권은 SK하이닉스 보통주를 기초자산으로 한 주가연계파생결합사채 100억원을 2026년 11월 6일 청약·납입하며, 예금자보호 대상이 아니고 원금상환은 발행사 지급여력에 따릅니다.",
-   "points": [
-    "기초자산은 SK하이닉스 보통주이며 월 쿠폰과 자동조기상환 구조임",
-    "예금자보호 대상이 아니며 원금상환은 발행사 지급여력에 따라 결정됨",
-    "중도상환 시 상환비용이 커서 투자자에게 원금에 미달하는 금액이 지급될 수 있음",
-    "청약은 IBK기업은행 신탁고객으로 제한됨"
-   ],
-   "numbers": [
-    [
-     "모집총액",
-     "100억원"
-    ],
-    [
-     "월 쿠폰 수익률(세전)",
-     "0.685%"
-    ],
-    [
-     "최대 이익률(세전)",
-     "24.66%"
-    ],
-    [
-     "쿠폰·자동조기상환 기준가격 비율",
-     "최초기준가격의 85%"
-    ]
-   ],
-   "events": [
-    {
-     "date": "2026-11-06",
-     "kind": "청약",
-     "desc": "청약기간(청약 취소 불가)"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "납입일",
-     "desc": "납입일 및 배정·환불일"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "기타",
-     "desc": "발행일 및 최초기준가격평가일"
-    },
-    {
-     "date": "2029-11-08",
-     "kind": "기타",
-     "desc": "만기일(만기상환)"
-    }
-   ],
-   "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000072"
-  },
-  {
    "rcept_no": "20261029000069",
    "date": "2026-10-29",
    "corp": "고영",
@@ -4664,99 +4355,6 @@
    "events": [],
    "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000069"
-  },
-  {
-   "rcept_no": "20261029000067",
-   "date": "2026-10-29",
-   "corp": "교보증권",
-   "stock_code": "030610",
-   "corp_code": "00113359",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "투자설명서(일괄신고)",
-   "flr": "교보증권",
-   "rm": "",
-   "seen": "10:42",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000067"
-  },
-  {
-   "rcept_no": "20261029000065",
-   "date": "2026-10-29",
-   "corp": "교보증권",
-   "stock_code": "030610",
-   "corp_code": "00113359",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-   "flr": "교보증권",
-   "rm": "",
-   "seen": "10:42",
-   "ai": "교보증권이 KOSPI200 지수에 연계해 발행하는 주가연계파생결합사채(총 99.5억원, 2029년 11월 6일 만기)입니다. 예금자보호 대상이 아니며 원금 상환은 발행사의 지급여력에 따라 결정됩니다.",
-   "points": [
-    "기초자산은 KOSPI200 지수이며 비상장 상품임",
-    "매월 쿠폰평가가격이 최초기준가격의 75% 이상이면 쿠폰 지급",
-    "자동조기상환 또는 만기평가가격이 85% 이상이면 액면 100% 상환",
-    "청약은 SC제일은행 신탁고객으로 제한됨"
-   ],
-   "numbers": [
-    [
-     "모집총액",
-     "9,950,000,000원"
-    ],
-    [
-     "1증권당 발행가액",
-     "9,950원"
-    ],
-    [
-     "쿠폰수익률(연)",
-     "5.22%"
-    ],
-    [
-     "최대 세전 수익률",
-     "15.66%"
-    ]
-   ],
-   "events": [
-    {
-     "date": "2026-11-06",
-     "kind": "청약",
-     "desc": "청약기간(청약 종료일, 이후 청약취소 불가)"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "납입일",
-     "desc": "청약증거금 납입금 자동대체 및 납입일"
-    },
-    {
-     "date": "2026-11-06",
-     "kind": "기타",
-     "desc": "배정 및 환불일, 발행일, 최초기준가격평가일"
-    },
-    {
-     "date": "2027-05-06",
-     "kind": "기타",
-     "desc": "1차 자동조기상환평가일"
-    },
-    {
-     "date": "2027-11-05",
-     "kind": "기타",
-     "desc": "2차 자동조기상환평가일"
-    },
-    {
-     "date": "2028-05-04",
-     "kind": "기타",
-     "desc": "3차 자동조기상환평가일"
-    }
-   ],
-   "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000065"
   },
   {
    "rcept_no": "20261029900076",
@@ -5082,26 +4680,6 @@
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000044"
   },
   {
-   "rcept_no": "20261029000043",
-   "date": "2026-10-29",
-   "corp": "교보증권",
-   "stock_code": "030610",
-   "corp_code": "00113359",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "투자설명서(일괄신고)",
-   "flr": "교보증권",
-   "rm": "",
-   "seen": "09:26",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000043"
-  },
-  {
    "rcept_no": "20261029800059",
    "date": "2026-10-29",
    "corp": "HDC랩스",
@@ -5142,26 +4720,6 @@
    "events": [],
    "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800059"
-  },
-  {
-   "rcept_no": "20261029000040",
-   "date": "2026-10-29",
-   "corp": "교보증권",
-   "stock_code": "030610",
-   "corp_code": "00113359",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "투자설명서(일괄신고)",
-   "flr": "교보증권",
-   "rm": "",
-   "seen": "09:23",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000040"
   },
   {
    "rcept_no": "20261029000039",
@@ -5257,137 +4815,6 @@
    "events": [],
    "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000036"
-  },
-  {
-   "rcept_no": "20261029000033",
-   "date": "2026-10-29",
-   "corp": "교보증권",
-   "stock_code": "030610",
-   "corp_code": "00113359",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(파생결합증권-주가연계증권)",
-   "flr": "교보증권",
-   "rm": "",
-   "seen": "09:23",
-   "ai": "교보증권이 SK하이닉스 등을 기초자산으로 한 주가연계증권 2종(13746·13747회)을 공모합니다. 예금자보호 대상이 아니며 원금 손실 가능성이 있습니다.",
-   "points": [
-    "13746회는 SK하이닉스, 13747회는 삼성전자·SK하이닉스가 기초자산",
-    "13746회: 월 쿠폰(연 6.33%) 및 11차 자동조기상환 조건 있음",
-    "예금자보호 대상이 아니며 발행사 신용위험이 있음",
-    "만기평가가격이 최초기준가격의 65% 미만이면 원금 10% 손실"
-   ],
-   "numbers": [
-    [
-     "이번 모집·매출총액",
-     "99억3,000만원"
-    ],
-    [
-     "회차별 모집총액",
-     "49억6,500만원"
-    ],
-    [
-     "쿠폰 수익률(연, 13746회)",
-     "6.33%"
-    ],
-    [
-     "최대 손실률(13746회)",
-     "10%"
-    ]
-   ],
-   "events": [
-    {
-     "date": "2026-11-12",
-     "kind": "청약",
-     "desc": "13746·13747회 청약기간(취소 불가)"
-    },
-    {
-     "date": "2026-11-12",
-     "kind": "납입일",
-     "desc": "13746·13747회 납입일"
-    },
-    {
-     "date": "2026-11-12",
-     "kind": "기타",
-     "desc": "13746·13747회 배정 및 환불일, 발행일"
-    },
-    {
-     "date": "2029-11-14",
-     "kind": "기타",
-     "desc": "13746·13747회 만기일"
-    }
-   ],
-   "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000033"
-  },
-  {
-   "rcept_no": "20261029000030",
-   "date": "2026-10-29",
-   "corp": "교보증권",
-   "stock_code": "030610",
-   "corp_code": "00113359",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "일괄신고추가서류(파생결합사채-주가연계파생결합사채)",
-   "flr": "교보증권",
-   "rm": "",
-   "seen": "09:23",
-   "ai": "교보증권 제12870회 주가연계파생결합사채로, SK하이닉스 주가에 연계되며 원금 지급은 발행사 지급여력에 따르고 예금자보호 대상이 아닙니다.",
-   "points": [
-    "기초자산 SK하이닉스 보통주 종가에 따라 월 쿠폰과 조기상환 여부 결정",
-    "자동조기상환·만기 판정 기준은 최초기준가격의 85%",
-    "원금상환 여부는 기초자산이 아닌 발행사 지급여력에 따라 결정",
-    "거래소 비상장이라 만기 전 회수가 어려울 수 있음"
-   ],
-   "numbers": [
-    [
-     "모집총액",
-     "99억 5,000만원"
-    ],
-    [
-     "발행가액(1증권당)",
-     "9,950원"
-    ],
-    [
-     "월 쿠폰 수익률(세전)",
-     "0.605%"
-    ],
-    [
-     "최대 세전 수익률",
-     "21.78%"
-    ]
-   ],
-   "events": [
-    {
-     "date": "2026-11-12",
-     "kind": "청약",
-     "desc": "청약기간(청약 기간 이후 취소 불가)"
-    },
-    {
-     "date": "2026-11-12",
-     "kind": "납입일",
-     "desc": "납입일 및 발행일"
-    },
-    {
-     "date": "2026-11-12",
-     "kind": "기타",
-     "desc": "배정 및 청약증거금 환불일"
-    },
-    {
-     "date": "2026-11-12",
-     "kind": "기타",
-     "desc": "최초기준가격평가일"
-    },
-    {
-     "date": "2029-11-14",
-     "kind": "기타",
-     "desc": "만기일(만기상환)"
-    }
-   ],
-   "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000030"
   },
   {
    "rcept_no": "20261029000027",
@@ -5807,46 +5234,6 @@
    ],
    "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000001"
-  },
-  {
-   "rcept_no": "20261019100068",
-   "date": "2026-10-29",
-   "corp": "롯데렌탈",
-   "stock_code": "089860",
-   "corp_code": "00545716",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "효력발생안내( 2026.10.19. 제출 증권신고서(채무증권) )",
-   "flr": "금융감독원",
-   "rm": "",
-   "seen": "08:06",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019100068"
-  },
-  {
-   "rcept_no": "20261019100049",
-   "date": "2026-10-29",
-   "corp": "하나금융지주",
-   "stock_code": "086790",
-   "corp_code": "00547583",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "효력발생안내( 2026.10.19. 제출 증권신고서(채무증권) )",
-   "flr": "금융감독원",
-   "rm": "",
-   "seen": "08:06",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019100049"
   }
  ]
 }
