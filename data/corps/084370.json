@@ -1,0 +1,18 @@
+{
+ "name": "유진테크",
+ "code": "084370",
+ "mkt": "코스닥",
+ "corp_code": "00531014",
+ "disclosures": [
+  {
+   "rcept_no": "20261029000263",
+   "date": "2026-10-29",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "JPMorgan Asset Management(Asia Pacific) 등 보고자·특별관계자의 유진테크 보유비율이 6.48%에서 5.00%로 줄었습니다. 장내매매를 통한 단순투자 목적입니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029000263",
+   "seen": "14:29"
+  }
+ ]
+}
