@@ -49,6 +49,10 @@ YAHOO_EVERY_MIN = 50   # Yahoo 호출은 50분에 한 번만 (요청 제한 회�
 # 증권사 시황·투자정보 리포트 목록 (제목·링크만)
 REPORT_LISTS = [("시황", "https://finance.naver.com/research/market_info_list.naver", "market_info_read.naver"),
                 ("투자정보", "https://finance.naver.com/research/invest_list.naver", "invest_read.naver")]
+# 2026년 개편 후 네이버(Npay 증권) 리서치 JSON API — type 'market'은 화면의 /research/daily
+NAVER_RESEARCH_API = "https://stock.naver.com/api/stockSecurity/researches/v2"
+REPORT_TYPES = [("시황", "market", "daily"), ("투자정보", "invest", "invest")]
+NAVER_HEADERS = {**UA, "Accept": "application/json, text/plain, */*", "Referer": "https://stock.naver.com/"}
 
 
 def csv_rows(text: str) -> list[dict]:
@@ -230,7 +234,16 @@ def summarize_reports(reports: list, old_reports: list, budget: int) -> int:
         if rep_["url"] in prev:
             rep_["sum"] = prev[rep_["url"]]
             continue
-        if not key or not rep_.get("pdf") or done >= budget:
+        if not key or done >= budget:
+            continue
+        if not rep_.get("pdf") and rep_.get("api"):
+            try:
+                d = requests.get(rep_["api"], headers=NAVER_HEADERS, timeout=20)
+                if d.ok:
+                    rep_["pdf"] = _find_pdf(d.json())
+            except Exception as e:
+                print(f"리포트 상세 실패 {rep_['title'][:20]}: {e}")
+        if not rep_.get("pdf"):
             continue
         try:
             body = pdf_text(rep_["pdf"])
@@ -311,8 +324,62 @@ def _norm_date(v: str) -> str:
     return f"20{m.group(1)}-{m.group(2)}-{m.group(3)}" if m else ""
 
 
+def _flat(d: dict) -> dict:
+    """한 단계 안쪽 객체의 값까지 펼침 (예: broker: {name: ...})"""
+    out = {}
+    for k, v in d.items():
+        if isinstance(v, dict):
+            for k2, v2 in v.items():
+                if not isinstance(v2, (dict, list)):
+                    out[f"{k}_{k2}"] = v2
+        elif not isinstance(v, list):
+            out[k] = v
+    return out
+
+
+def _find_pdf(o) -> str:
+    for d in _walk(o):
+        for v in d.values():
+            if isinstance(v, str) and ".pdf" in v.lower() and v.startswith("http"):
+                return v
+    return ""
+
+
+def report_list_api() -> list[dict]:
+    out = []
+    for cat, typ, page in REPORT_TYPES:
+        try:
+            r = requests.get(f"{NAVER_RESEARCH_API}/{typ}", params={"index": 0, "size": 20},
+                             headers=NAVER_HEADERS, timeout=20)
+            if not r.ok:
+                print(f"리포트 API {cat}: HTTP {r.status_code} {r.text[:150]}")
+                continue
+            j = r.json()
+            items = j.get("items") if isinstance(j, dict) else j
+            for it in items or []:
+                f = _flat(it)
+                nid = _pick(f, ("nid", "researchid")) or str(it.get("id", ""))
+                title = _pick(f, ("title", "subject"))
+                if not nid or not title:
+                    continue
+                broker = _pick(f, ("brokername", "broker", "firm", "company", "source"))
+                date = _norm_date(_pick(f, ("writedate", "date", "dt", "regist", "created")))
+                out.append({"cat": cat, "title": title[:80], "broker": broker[:20], "date": date,
+                            "url": f"https://stock.naver.com/research/{page}/{nid}",
+                            "pdf": _find_pdf(it), "api": f"{NAVER_RESEARCH_API}/{typ}/{nid}"})
+            if not items:
+                print(f"리포트 API {cat}: 응답에 항목이 없어요 → {str(j)[:200]}")
+        except Exception as e:
+            print(f"리포트 API 실패 {cat}: {e}")
+    out.sort(key=lambda x: x["date"], reverse=True)
+    return out[:30]
+
+
 def report_list() -> list[dict]:
-    """네이버 금융 리서치 목록에서 증권사·제목·날짜·링크만 수집 (개편된 Next.js 페이지와 예전 표 형식 모두 시도)"""
+    """증권사 리포트 목록: 네이버 리서치 JSON API 우선, 실패하면 예전 페이지 방식"""
+    api = report_list_api()
+    if api:
+        return api
     out = []
     for cat, url, read_path in REPORT_LISTS:
         try:
