@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_at": "2026-10-29 11:10",
+ "updated_at": "2026-10-29 11:12",
  "count": 65,
  "items": [
   {
@@ -21,8 +21,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900174",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029900174"
   },
   {
    "rcept_no": "20261029000167",
