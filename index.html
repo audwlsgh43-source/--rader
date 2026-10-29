@@ -360,6 +360,37 @@ aside.cal{border-radius:16px;background:var(--surface)}
 .sheet{border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}
 .sheet h3{font-family:var(--font-display);font-weight:600}
 .star svg{transition:transform .15s}
+.head-tools{display:flex;gap:6px;align-items:center}
+.corp-link{border:0;background:none;padding:0;font:inherit;color:inherit;cursor:pointer;text-align:left}
+.corp-link:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.corp-sheet{max-width:560px;gap:16px}
+.cs-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.cs-head h3{margin:0;font-size:20px}
+.cs-head .meta{font-size:12.5px;color:var(--muted);margin-top:2px}
+.cs-close{flex:none}
+.cs-sec h4{margin:0 0 8px;font-size:12.5px;color:var(--muted);font-weight:600;letter-spacing:.04em}
+.cs-price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.cs-price .v{font-family:var(--font-display);font-size:26px;font-weight:600}
+.cs-price .r{font-size:12.5px;color:var(--muted)}
+.cs-chart svg{width:100%;height:120px;display:block}
+.cs-chart .ax{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:2px}
+.cs-fin{width:100%;border-collapse:collapse;font-size:13px}
+.cs-fin th,.cs-fin td{padding:6px 4px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+.cs-fin th:first-child,.cs-fin td:first-child{text-align:left}
+.cs-fin th{font-weight:500;color:var(--muted);font-size:11.5px}
+.cs-list{display:flex;flex-direction:column}
+.cs-item{padding:9px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:2px}
+.cs-item:last-child{border-bottom:0}
+.cs-item a{color:var(--ink);text-decoration:none;font-size:14px}
+.cs-item a:hover{color:var(--accent)}
+.cs-item .d{font-size:11.5px;color:var(--muted)}
+.cs-item .s{font-size:13px;color:var(--muted)}
+.wk-list{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:5px;font-size:14px}
+.subtabs{max-width:100%;overflow-x:auto;scrollbar-width:none}
+.subtabs button{flex:none;padding:0 14px}
+.cs-hint{font-size:12.5px;color:var(--muted);background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.toggle b{font-weight:700;margin-left:2px}
+.new{font-size:9.5px;font-weight:800;letter-spacing:.1em;color:var(--on-accent);background:var(--accent);border-radius:999px;padding:1px 6px;line-height:1.5}
 .star[aria-pressed="true"]{color:var(--accent)}
 .star[aria-pressed="true"] svg path{fill:currentColor}
 .star:active svg{transform:scale(.88)}
@@ -416,7 +447,7 @@ footer{border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
     <section class="feedwrap" aria-labelledby="feedTitle">
       <div class="panel-head">
         <h2 id="feedTitle">오늘의 공시</h2>
-        <button class="toggle" id="watchOnly" aria-pressed="false">★ 관심종목만</button>
+        <div class="head-tools"><button class="toggle" id="newOnly" aria-pressed="false" hidden>새 공시 <b id="newCount">0</b></button><button class="toggle" id="watchOnly" aria-pressed="false">★ 관심종목만</button></div>
       </div>
       <div class="dates" id="dates" role="group" aria-label="날짜 선택"></div>
       <div class="feed" id="feed"></div>
@@ -434,6 +465,9 @@ footer{border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
   </div>
   <footer>데이터 출처: 금융감독원 DART 오픈API. 요약은 AI가 생성하므로 투자 판단 전에 원문을 확인하세요. · <button id="openSetup">즉시 수집 설정</button></footer>
 </div>
+<div class="modal" id="corpSheet" role="dialog" aria-modal="true" aria-labelledby="corpTitle">
+  <div class="sheet corp-sheet" id="corpBody"></div>
+</div>
 <div class="modal" id="setup" role="dialog" aria-modal="true" aria-labelledby="setupTitle">
   <div class="sheet">
     <h3 id="setupTitle">↻ 버튼으로 바로 수집하기</h3>
@@ -442,7 +476,7 @@ footer{border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
       <li>GitHub → 프로필 사진 → Settings → Developer settings</li>
       <li>Personal access tokens → Fine-grained tokens → Generate new token</li>
       <li>Repository access: Only select repositories → <b id="repoName">gongsi-radar</b></li>
-      <li>Permissions → Actions: <b>Read and write</b> → Generate token</li>
+      <li>Permissions → <b>Actions</b>와 <b>Contents</b>를 각각 <b>Read and write</b>로 → Generate token (Contents는 관심종목을 기기 간에 저장할 때 써요)</li>
       <li>github_pat_로 시작하는 토큰을 복사해서 아래에 붙여넣기</li>
     </ol>
     <label for="tokenInput" class="sr">GitHub 토큰</label>
@@ -498,7 +532,7 @@ let EV = [
   {d:"2026-10-30",k:"주주총회",tone:"",c:"미르모빌리티",s:"임시주총 · 정관 변경"}
 ];
 
-let state = {type:"all", q:"", watchOnly:false, day:null, wk:0, date:null, cat:"전체", open:new Set()};
+let state = {type:"all", q:"", watchOnly:false, newOnly:false, day:null, wk:0, date:null, cat:"전체", open:new Set()};
 const CATS = ["전체","잠정실적","유상증자","무상증자","합병/분할","감자","액면변경","배당","상호변경","신규상장","재상장","IR","IR | 실적발표","IR | 경영현황"];
 const evCat = e => e.cat || (CATS.includes(e.k) ? e.k : "기타");
 const catMatch = (e,c) => c==="전체" || (c==="IR" ? evCat(e)==="IR" : c==="IR | 실적발표" ? e.k==="IR(실적발표)" : c==="IR | 경영현황" ? e.k==="IR(경영현황)" : evCat(e)===c);
@@ -506,9 +540,44 @@ let AI_ON = true;
 let AI_ERR = "";
 let DAYS = [];            // [{date,count}] 공시가 있는 최근 3일
 const dayCache = new Map(); // date -> items
-let watch = new Set(["한빛반도체","가온바이오"]);
-try{ const s = localStorage.getItem("radar-watch"); if(s) watch = new Set(JSON.parse(s)); }catch(e){}
-function saveWatch(){ try{ localStorage.setItem("radar-watch", JSON.stringify([...watch])); }catch(e){} }
+/* ---- 관심종목: 저장소 watchlist.json과 동기화 (토큰이 있는 기기에서만 저장) ---- */
+let watch = new Set();          // 회사명 (공시·일정 매칭용)
+let watchCodes = {};            // 회사명 -> 종목코드
+try{ const s = localStorage.getItem("radar-watch"); if(s){ const j = JSON.parse(s); (Array.isArray(j)?j:j.items||[]).forEach(x=>{ if(typeof x==="string") watch.add(x); else { watch.add(x.name); if(x.code) watchCodes[x.name]=x.code; } }); } }catch(e){}
+const watchItems = () => [...watch].sort().map(n=>({name:n, code:watchCodes[n]||""}));
+let watchTimer = null;
+function saveWatch(){
+  try{ localStorage.setItem("radar-watch", JSON.stringify({items:watchItems()})); }catch(e){}
+  if(typeof getToken==="function" && getToken() && REPO){ clearTimeout(watchTimer); watchTimer = setTimeout(pushWatch, 1200); }
+}
+async function pushWatch(){
+  try{
+    const path = `/contents/watchlist.json`;
+    let sha;
+    const g = await gh(path);
+    if(g.ok) sha = (await g.json()).sha;
+    else if(g.status===403){ runStatus("관심종목을 저장하려면 토큰에 Contents: Read and write 권한을 추가해 주세요.", "err"); return; }
+    const body = JSON.stringify({updated_at: new Date().toISOString(), items: watchItems()}, null, 1);
+    const content = btoa(unescape(encodeURIComponent(body)));
+    const r = await gh(path, {method:"PUT", body: JSON.stringify({message:"관심종목 업데이트", content, ...(sha?{sha}:{})})});
+    if(r.status===403 || r.status===404){ runStatus("관심종목을 저장하려면 토큰에 Contents: Read and write 권한을 추가해 주세요.", "err"); return; }
+    if(r.status===409){ setTimeout(pushWatch, 1500); return; }  // 동시에 바뀐 경우 재시도
+    if(r.ok){ runStatus("관심종목을 저장했어요. 다른 기기와 알림에도 반영돼요."); setTimeout(()=>runStatus(""), 3000); }
+  }catch(e){ runStatus("관심종목 저장 중 문제가 생겼어요: "+e.message, "err"); }
+}
+async function loadWatch(){
+  try{
+    const j = await getJSON("watchlist.json");
+    const items = j.items || [];
+    let hasLocal = false; try{ hasLocal = !!localStorage.getItem("radar-watch"); }catch(_){}
+    // 토큰이 있으면 저장소 목록이 기준, 없으면 이 기기에 저장된 게 없을 때만 저장소 목록을 가져옴
+    if((typeof getToken==="function" && getToken()) || !hasLocal){
+      watch = new Set(items.map(x=>x.name)); watchCodes = {};
+      items.forEach(x=>{ if(x.code) watchCodes[x.name]=x.code; });
+      try{ localStorage.setItem("radar-watch", JSON.stringify({items:watchItems()})); }catch(_){}
+    }
+  }catch(_){}
+}
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -528,7 +597,24 @@ function renderSummary(){
     </button>`).join("");
 }
 
+/* ---- 읽음 표시: 이 기기에서 이미 본 공시 기억 ---- */
+let SEEN = null;                 // 본 공시 id 집합 (null = 첫 방문)
+try{ const s = localStorage.getItem("radar-seen"); if(s) SEEN = new Set(JSON.parse(s)); }catch(_){}
+const isNew = x => SEEN && x.id && !String(x.id).startsWith("s") && !SEEN.has(x.id);
+function markAllSeen(){
+  const ids = new Set(SEEN || []);
+  for(const items of dayCache.values()) items.forEach(x=>ids.add(x.id));
+  D.forEach(x=>ids.add(x.id));
+  SEEN = new Set([...ids].slice(-4000));
+  try{ localStorage.setItem("radar-seen", JSON.stringify([...SEEN])); }catch(_){}
+}
+function updateNewCount(){
+  const n = D.filter(isNew).length;
+  $("#newCount").textContent = n;
+  $("#newOnly").hidden = n===0 && !state.newOnly;
+}
 function matches(x){
+  if(state.newOnly && !isNew(x)) return false;
   if(state.type!=="all" && x.type!==state.type) return false;
   if(state.watchOnly && !watch.has(x.corp)) return false;
   if(state.q){ const q = state.q.toLowerCase(); if(!(x.corp+x.title+x.ai).toLowerCase().includes(q)) return false; }
@@ -546,6 +632,7 @@ function hintFor(x){
   return "AI 요약을 만드는 중이에요. 다음 갱신(약 10분) 때 표시돼요.";
 }
 function renderFeed(){
+  updateNewCount();
   const list = D.map((x,i)=>({...x,i:x.id||("s"+i)})).filter(matches);
   const tl = TYPES.find(t=>t.id===state.type);
   const scope = !state.date || state.date===TODAY ? "오늘" : state.date==="all" ? "최근 3일" : `${+state.date.slice(5,7)}월 ${+state.date.slice(8)}일`;
@@ -558,11 +645,11 @@ function renderFeed(){
     const rich = x.kv.length || x.pts.length;
     return `<article class="card imp-${x.imp}${open?" open":""}" data-i="${x.i}">
       <div class="row1">
-        <span class="time">${state.date==="all" && x.date ? x.date.slice(5).replace("-",".")+" " : ""}${x.t||""}</span>
-        <span class="corp">${esc(x.corp)}</span>
+        ${isNew(x)?`<span class="new" title="마지막 방문 이후 새로 올라온 공시">NEW</span>`:""}<span class="time">${state.date==="all" && x.date ? x.date.slice(5).replace("-",".")+" " : ""}${x.t||""}</span>
+        <button class="corp corp-link" data-cname="${esc(x.corp)}" data-ccode="${esc(x.code||"")}">${esc(x.corp)}</button>
         <span class="mkt">${x.mkt}</span>
         <span class="pill ${t.tone?"t-"+t.tone:""}">${t.label}</span>
-        <button class="star" data-corp="${esc(x.corp)}" aria-pressed="${watch.has(x.corp)}" aria-label="${esc(x.corp)} 관심종목 ${watch.has(x.corp)?"해제":"추가"}">${starSvg}</button>
+        <button class="star" data-corp="${esc(x.corp)}" data-code="${esc(x.code||"")}" aria-pressed="${watch.has(x.corp)}" aria-label="${esc(x.corp)} 관심종목 ${watch.has(x.corp)?"해제":"추가"}">${starSvg}</button>
       </div>
       <p class="title">${esc(x.title)}</p>
       ${x.ai?`<p class="ai"><b>AI</b><span>${esc(x.ai)}</span></p>`:""}
@@ -610,7 +697,7 @@ document.addEventListener("click", ev=>{
   const chip = ev.target.closest(".chip");
   if(chip){ state.type = chip.dataset.type; renderSummary(); renderFeed(); return; }
   const star = ev.target.closest(".star");
-  if(star){ const c = star.dataset.corp; watch.has(c)?watch.delete(c):watch.add(c); saveWatch(); renderFeed(); renderCal(); return; }
+  if(star){ const c = star.dataset.corp; if(watch.has(c)){ watch.delete(c); } else { watch.add(c); if(star.dataset.code) watchCodes[c]=star.dataset.code; } saveWatch(); renderFeed(); renderCal(); return; }
   const tg = ev.target.closest("[data-toggle]");
   if(tg){ const i = tg.dataset.toggle; state.open.has(i)?state.open.delete(i):state.open.add(i); renderFeed(); return; }
   const day = ev.target.closest(".day");
@@ -623,6 +710,10 @@ document.addEventListener("click", ev=>{
   if(ev.target.closest("#wkNext")){ state.wk++; state.day=null; renderCal(); return; }
 });
 $("#q").addEventListener("input", e=>{ state.q = e.target.value.trim(); renderFeed(); });
+$("#newOnly").addEventListener("click", e=>{ state.newOnly=!state.newOnly; e.currentTarget.setAttribute("aria-pressed", state.newOnly); renderFeed(); });
+// 화면을 떠날 때 지금까지 본 공시를 '읽음'으로 기억 (다음에 열면 그 뒤 공시만 NEW)
+document.addEventListener("visibilitychange", ()=>{ if(document.hidden && D.length) markAllSeen(); });
+window.addEventListener("pagehide", ()=>{ if(D.length) markAllSeen(); });
 $("#watchOnly").addEventListener("click", e=>{ state.watchOnly=!state.watchOnly; e.currentTarget.setAttribute("aria-pressed", state.watchOnly); renderFeed(); renderCal(); });
 function setTab(t){ document.body.dataset.tab=t; $("#tabFeed").setAttribute("aria-selected", t==="feed"); $("#tabCal").setAttribute("aria-selected", t==="cal"); }
 $("#tabFeed").addEventListener("click",()=>setTab("feed"));
@@ -716,7 +807,7 @@ function renderDates(){
 }
 function renderAll(){ fmtToday(); renderDates(); renderSummary(); renderFeed(); renderCal(); }
 const mapItem = x => ({
-  id:x.rcept_no, date:x.date, t:x.seen, corp:x.corp, mkt:x.mkt, type:x.type, imp:x.imp, title:x.title, ai:x.ai, url:x.url,
+  id:x.rcept_no, date:x.date, t:x.seen, corp:x.corp, code:x.stock_code||"", corpCode:x.corp_code||"", mkt:x.mkt, type:x.type, imp:x.imp, title:x.title, ai:x.ai, url:x.url,
   kv:x.numbers||[], pts:x.points||[], events:x.events||[], analyzed:!!x.analyzed,
   meta:[x.stock_code, x.flr && x.flr!==x.corp ? `제출 ${x.flr}` : "", x.rm ? `비고 ${x.rm}` : "", `접수 ${x.rcept_no}`].filter(Boolean).join(" · ")
 });
@@ -741,6 +832,7 @@ async function showDate(force){
 }
 async function loadReal(){
   loadMarket();
+  await loadWatch();
   const getItems = async f => { try{ return (await getJSON(f)).items||[]; }catch(_){ return []; } };
   try{
     const idx = await getJSON("data/days/index.json");
@@ -752,6 +844,7 @@ async function loadReal(){
     EV = [...manual, ...auto];
     $("#notice").textContent = `DART 오픈API 기준 코스피·코스닥 공시입니다. 평일 10분마다 갱신되고, 날짜별 기록은 계속 쌓여요.`;
     await showDate(true);
+    if(SEEN===null){ markAllSeen(); renderFeed(); }   // 첫 방문엔 전부 읽은 것으로
   }catch(err){
     try{
       const j = await getJSON("data/latest.json");   // 이전 버전 데이터
@@ -768,6 +861,80 @@ async function loadReal(){
     }
   }
 }
+/* ================= 종목 상세 ================= */
+const corpCache = new Map();
+function bigChart(dates, closes){
+  if(!closes || closes.length<2) return "";
+  const w=520, h=120, mn=Math.min(...closes), mx=Math.max(...closes), r=(mx-mn)||1;
+  const pts = closes.map((v,i)=>[i*(w/(closes.length-1)), h-6-((v-mn)/r)*(h-14)]);
+  const line = pts.map(p=>p.map(n=>n.toFixed(1)).join(",")).join(" ");
+  const up = closes[closes.length-1] >= closes[0];
+  const col = up ? "var(--up)" : "var(--down)";
+  const last = pts[pts.length-1];
+  const grid = [0.25,0.5,0.75].map(f=>`<line x1="0" x2="${w}" y1="${(h*f).toFixed(1)}" y2="${(h*f).toFixed(1)}" stroke="var(--line)" stroke-width="1" vector-effect="non-scaling-stroke"/>`).join("");
+  return `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-label="최근 6개월 주가 추이">${grid}
+    <polygon points="0,${h} ${line} ${w},${h}" fill="${col}" opacity=".10"/>
+    <polyline points="${line}" fill="none" stroke="${col}" stroke-width="1.8" vector-effect="non-scaling-stroke"/>
+    <circle cx="${last[0]}" cy="${last[1]}" r="3" fill="${col}"/></svg>
+    <div class="ax"><span>${dates[0].slice(5).replace("-",".")}</span><span>최저 ${fmt(mn,0)} · 최고 ${fmt(mx,0)}</span><span>${dates[dates.length-1].slice(5).replace("-",".")}</span></div>`;
+}
+const finAmt = v => { const n = Number(String(v).replace(/,/g,"")); if(!isFinite(n) || String(v).trim()==="") return "-"; return Math.abs(n)>=1e12 ? `${fmt(n/1e12,2)}조` : `${fmt(n/1e8,0)}억`; };
+async function openCorp(name, code){
+  const sheet = $("#corpSheet"), body = $("#corpBody");
+  sheet.classList.add("on");
+  body.innerHTML = `<p class="mk-empty">불러오는 중…</p>`;
+  let c = null;
+  if(code){
+    if(corpCache.has(code)) c = corpCache.get(code);
+    else { try{ c = await getJSON(`data/corps/${code}.json`); corpCache.set(code, c); }catch(_){ c = null; } }
+  }
+  const local = D.filter(x=>x.corp===name).map(x=>({rcept_no:x.id, date:x.date, title:x.title, ai:x.ai, url:x.url}));
+  const discl = (c && c.disclosures && c.disclosures.length) ? c.disclosures : local;
+  const today = TODAY;
+  const evs = EV.filter(e=>e.c===name && e.d>=today).sort((a,b)=>a.d.localeCompare(b.d));
+  const watched = watch.has(name);
+  let price = "";
+  if(c && c.prices && c.prices.close && c.prices.close.length>1){
+    const cl = c.prices.close, n = cl.length, last = cl[n-1];
+    const chg = (k) => n>k ? (last/cl[n-1-k]-1)*100 : null;
+    const d1 = chg(1), m1 = chg(21), m3 = chg(63);
+    price = `<div class="cs-sec"><h4>주가 추이 · 최근 6개월</h4>
+      <div class="cs-price"><span class="v">${fmt(last,0)}원</span>${d1!=null?`<span class="${cls(d1)}">${sign(d1)}${fmt(d1,2)}%</span>`:""}
+      <span class="r">1개월 <span class="${cls(m1)}">${m1!=null?sign(m1)+fmt(m1,1)+"%":"-"}</span> · 3개월 <span class="${cls(m3)}">${m3!=null?sign(m3)+fmt(m3,1)+"%":"-"}</span></span></div>
+      <div class="cs-chart">${bigChart(c.prices.dates, cl)}</div></div>`;
+  }
+  let fin = "";
+  if(c && c.fin && c.fin.rows && c.fin.rows.length){
+    const f = c.fin, r0 = f.rows[0];
+    fin = `<div class="cs-sec"><h4>재무 요약 · ${f.year}년 ${esc(f.report)} (${esc(f.fs)})</h4>
+      <table class="cs-fin"><thead><tr><th></th><th>${esc(r0.cur_nm||"당기")}</th><th>${esc(r0.prev_nm||"전기")}</th><th>증감</th></tr></thead><tbody>
+      ${f.rows.map(r=>{ const a=Number(String(r.cur).replace(/,/g,"")), b=Number(String(r.prev).replace(/,/g,""));
+        let g = "-", c = "";
+        if(isFinite(a) && isFinite(b) && b!==0){
+          if(b<0 && a>=0){ g="흑자전환"; c="up"; } else if(b>0 && a<0){ g="적자전환"; c="down"; } else if(b<0 && a<0){ g="적자지속"; c="down"; }
+          else { const v=(a/b-1)*100; g=sign(v)+fmt(v,1)+"%"; c=cls(v); }
+        }
+        return `<tr><td>${esc(r.name)}</td><td>${finAmt(r.cur)}</td><td>${finAmt(r.prev)}</td><td class="${c}">${g}</td></tr>`; }).join("")}
+      </tbody></table></div>`;
+  }
+  const hint = (!price && !fin) ? `<p class="cs-hint">${watched ? "관심종목이에요. 다음 수집 때 주가 추이와 재무 요약이 채워져요." : "★ 관심종목에 추가하면 다음 수집부터 주가 추이와 재무 요약도 볼 수 있어요."}</p>` : "";
+  body.innerHTML = `
+    <div class="cs-head"><div><h3 id="corpTitle">${esc(name)}</h3><div class="meta">${[code, c&&c.mkt].filter(Boolean).join(" · ")}</div></div>
+      <div class="head-tools"><button class="toggle" id="csStar" aria-pressed="${watched}">${watched?"★ 관심종목":"☆ 관심종목 추가"}</button>
+      <button class="iconbtn cs-close" id="csClose" aria-label="닫기"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div></div>
+    ${price}${fin}${hint}
+    ${evs.length?`<div class="cs-sec"><h4>다가오는 일정</h4><div class="cs-list">${evs.slice(0,8).map(e=>`<div class="cs-item"><span class="d">${e.d.slice(5).replace("-",".")} · ${esc(e.k)}</span><span class="s">${esc(e.s||"")}</span></div>`).join("")}</div></div>`:""}
+    <div class="cs-sec"><h4>공시 기록${discl.length?` · ${discl.length}건`:""}</h4>${discl.length?`<div class="cs-list">${discl.slice(0,30).map(d=>`<div class="cs-item"><span class="d">${(d.date||"").slice(2).replace(/-/g,".")}</span><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title)}</a>${d.ai?`<span class="s">${esc(d.ai)}</span>`:""}</div>`).join("")}</div>`:`<p class="mk-empty">쌓인 공시 기록이 아직 없어요.</p>`}</div>`;
+  $("#csClose").onclick = closeCorp;
+  $("#csStar").onclick = () => { if(watch.has(name)) watch.delete(name); else { watch.add(name); if(code) watchCodes[name]=code; } saveWatch(); renderFeed(); renderCal(); openCorp(name, code); };
+}
+function closeCorp(){ $("#corpSheet").classList.remove("on"); }
+document.addEventListener("click", e=>{
+  const b = e.target.closest(".corp-link"); if(b){ e.preventDefault(); openCorp(b.dataset.cname, b.dataset.ccode); return; }
+  if(e.target.id==="corpSheet") closeCorp();
+});
+document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeCorp(); });
+
 /* ================= 시황 ================= */
 let MK = null;
 const fmt = (v, d=2) => v==null || isNaN(v) ? "-" : Number(v).toLocaleString("ko-KR", {minimumFractionDigits:d, maximumFractionDigits:d});
@@ -795,7 +962,7 @@ function gVal(g){
 }
 function rankTable(list, valFn){
   if(!list || !list.length) return `<p class="mk-empty">데이터가 없어요.</p>`;
-  return `<table class="rank"><tbody>${list.map((x,i)=>`<tr><td class="n">${i+1}</td><td class="nm">${esc(x.name)}<small>${x.mkt}</small></td>
+  return `<table class="rank"><tbody>${list.map((x,i)=>`<tr><td class="n">${i+1}</td><td class="nm"><button class="corp-link" data-cname="${esc(x.name)}" data-ccode="${esc(x.code||"")}">${esc(x.name)}</button><small>${x.mkt}</small></td>
     <td class="r">${fmt(x.close,0)}</td><td class="r ${cls(x.pct)}">${sign(x.pct)}${fmt(x.pct,2)}%</td>${valFn?`<td class="r">${valFn(x)}</td>`:""}</tr>`).join("")}</tbody></table>`;
 }
 let MKTAB = (()=>{ const n=new Date(); const m=n.getHours()*60+n.getMinutes(); return m < 15*60+30 ? "us" : "kr"; })();
@@ -861,13 +1028,27 @@ function renderReports(){
 function renderMarket(){
   const el = $("#viewMarket");
   if(!MK){ el.innerHTML = `<div class="panel"><p class="mk-empty">시황 데이터가 아직 없어요. ↻로 수집을 실행하거나 다음 자동 수집을 기다려 주세요.</p></div>`; return; }
-  const tabs = [["us","뉴욕"],["kr","국내"],["rep","리포트"]];
+  const tabs = [["us","뉴욕"],["kr","국내"],["rep","리포트"],["wk","주간"]];
   el.innerHTML = `<div class="subtabs" role="tablist">${tabs.map(([k,l])=>`<button role="tab" data-mk="${k}" aria-selected="${MKTAB===k}">${l}</button>`).join("")}</div>
-    ${MKTAB==="kr" ? renderKR() : MKTAB==="us" ? renderUS() : renderReports()}
+    ${MKTAB==="kr" ? renderKR() : MKTAB==="us" ? renderUS() : MKTAB==="wk" ? renderWeekly() : renderReports()}
     <p class="mk-note">출처: 한국거래소 시세(FinanceDataReader 일별 데이터), Yahoo Finance, 네이버 금융 리서치 목록.${MK.updated_at?` 마지막 수집 ${MK.updated_at.slice(5).replace("-",".")}.`:""} AI 시황은 수치를 바탕으로 자동 작성되며 투자 권유가 아니에요.</p>`;
 }
 document.addEventListener("click", e=>{ const b = e.target.closest("[data-mk]"); if(b){ MKTAB = b.dataset.mk; renderMarket(); } });
-async function loadMarket(){ try{ MK = await getJSON("data/market.json"); }catch(_){ } renderMarket(); }
+let WK = null;
+async function loadMarket(){
+  try{ MK = await getJSON("data/market.json"); }catch(_){ }
+  try{ WK = await getJSON("data/weekly/latest.json"); }catch(_){ WK = null; }
+  renderMarket();
+}
+function renderWeekly(){
+  if(!WK) return `<div class="mk-head"><h2>주간 리포트</h2></div><div class="panel"><p class="mk-empty">매주 금요일 저녁 6시 이후에 이번 주 리포트가 만들어져요.</p></div>`;
+  const sec = (t, arr) => arr && arr.length ? `<div class="panel"><h3>${t}</h3><ul class="wk-list">${arr.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>` : "";
+  const idx = Object.entries(WK.indices||{}).map(([n,v])=>`<div class="g"><span class="nm">${esc(n)} 주간</span><span class="v">${fmt(v.close,2)}</span><span class="c ${cls(v.pct)}">${sign(v.pct)}${fmt(v.pct,2)}%</span></div>`).join("");
+  return `<div class="mk-head"><h2>주간 리포트</h2><span>${WK.start.slice(5).replace("-",".")} ~ ${WK.end.slice(5).replace("-",".")}</span></div>
+    <div class="panel ai-card"><p class="hl"><span class="tag">AI</span>${esc(WK.headline)}</p><p>${esc(WK.summary)}</p></div>
+    ${idx?`<div class="g-grid">${idx}</div>`:""}
+    ${sec("시장 흐름", WK.market)}${sec("주목할 공시", WK.disclosures)}${sec("관심종목", WK.watch)}${sec("다음 주 일정", WK.next_week)}`;
+}
 function setView(v){
   document.body.dataset.view = v;
   document.querySelectorAll(".maintabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.view===v));

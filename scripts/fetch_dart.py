@@ -350,6 +350,7 @@ def build_items(raw: list[dict], date: str, prev: dict, seen_now: str) -> list[d
             "date": date,
             "corp": x["corp_name"],
             "stock_code": x.get("stock_code", ""),
+            "corp_code": x.get("corp_code", ""),
             "mkt": MARKETS[x["corp_cls"]],
             "type": typ,
             "imp": imp,
