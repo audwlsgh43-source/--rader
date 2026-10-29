@@ -196,6 +196,38 @@ footer{font-size:12px;color:var(--muted);padding:0 0 32px}
 body[data-view="market"] #viewDisclosure, body[data-view="disclosure"] #viewMarket{display:none}
 body[data-view="talk"] #viewDisclosure, body[data-view="talk"] #viewMarket{display:none}
 body:not([data-view="talk"]) #viewTalk{display:none}
+body:not([data-view="tax"]) #viewTax{display:none}
+body[data-view="tax"] #viewDisclosure, body[data-view="tax"] #viewMarket{display:none}
+body[data-view="tax"] .search{visibility:hidden}
+#viewTax{display:flex;flex-direction:column;gap:14px;padding:14px 0 40px}
+.tx-sum{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.tx-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:13px 14px;display:flex;flex-direction:column;gap:4px}
+.tx-card .k{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.02em}
+.tx-card .v{font-family:var(--font-display);font-size:19px;font-weight:600;color:var(--ink)}
+.tx-card .d{font-size:12.5px;color:var(--muted);line-height:1.5}
+.tx-card.fresh{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.tx-card.fresh .k::after{content:"2026 신설·변경";margin-left:6px;font-size:10px;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:0 6px}
+.tx-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.tx-f{display:flex;flex-direction:column;gap:4px}
+.tx-f label{font-size:12.5px;color:var(--muted);font-weight:600}
+.tx-f input,.tx-f select{height:42px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--ink);padding:0 12px;font-size:15px;font-variant-numeric:tabular-nums}
+.tx-f input:focus,.tx-f select:focus{outline:none;border-color:var(--accent)}
+.tx-f .h{font-size:11.5px;color:var(--muted)}
+.tx-chk{display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--ink)}
+.tx-res{margin-top:12px;border-top:1px dashed var(--line);padding-top:12px;display:flex;flex-direction:column;gap:6px}
+.tx-row{display:flex;justify-content:space-between;gap:10px;font-size:14px}
+.tx-row span:first-child{color:var(--muted)}
+.tx-row b{font-variant-numeric:tabular-nums;font-weight:600}
+.tx-row.total{font-size:16px;padding-top:6px;border-top:1px solid var(--line)}
+.tx-row.total b{font-family:var(--font-display);color:var(--accent);font-size:20px}
+.tx-tip{font-size:12.5px;color:var(--muted);background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:9px 11px;line-height:1.6}
+.tx-cal{display:flex;flex-direction:column}
+.tx-ev{display:grid;grid-template-columns:96px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+.tx-ev:last-child{border-bottom:0}
+.tx-ev .m{font-family:var(--font-display);font-weight:600;color:var(--accent)}
+.tx-ev .t{font-weight:600;font-size:14px}
+.tx-ev .s{font-size:12.5px;color:var(--muted)}
+.tx-ev.soon .m::after{content:" · 다가옴";font-family:var(--font-body);font-size:10.5px;color:var(--up)}
 body[data-view="market"] .search, body[data-view="talk"] .search{visibility:hidden}
 #viewTalk{display:flex;flex-direction:column;gap:14px;padding:14px 0 40px}
 .rules{font-size:12.5px;color:var(--muted);background:var(--warn-soft);border-radius:10px;padding:10px 12px;line-height:1.6}
@@ -425,6 +457,7 @@ footer{border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
   <div class="wrap"><nav class="maintabs" role="tablist" aria-label="메뉴">
     <button role="tab" data-view="disclosure" aria-selected="true">공시</button>
     <button role="tab" data-view="market" aria-selected="false">시황</button>
+    <button role="tab" data-view="tax" aria-selected="false">세금</button>
     <button role="tab" data-view="talk" aria-selected="false" hidden>토론</button><!-- 토론 탭: 보류 중. 다시 열려면 hidden과 아래 TALK_ON을 바꾸세요 -->
   </nav></div>
 </header>
@@ -432,6 +465,7 @@ footer{border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
 <div class="wrap">
   <div class="runbar" id="runbar" role="status" aria-live="polite"><span class="dot"></span><span id="runtext"></span></div>
   <section id="viewMarket" aria-label="시황"></section>
+  <section id="viewTax" aria-label="세금"></section>
   <section id="viewTalk" aria-label="토론">
     <div class="mk-head"><h2>토론</h2><span>GitHub 계정으로 로그인하면 글을 쓸 수 있어요</span></div>
     <div class="subtabs" role="tablist" id="talkRooms"></div>
@@ -863,6 +897,189 @@ async function loadReal(){
     }
   }
 }
+/* ================= 세금 (2026년 10월 기준 세법) ================= */
+const TAX = {
+  basis: "2026년 10월",
+  stt: { kospi: 0.0005, kospiFarm: 0.0015, kosdaq: 0.0020 },           // 증권거래세·농특세
+  overseas: { rate: 0.22, deduction: 2_500_000 },                       // 해외주식 양도세(지방세 포함), 기본공제
+  ria: { cap: 50_000_000, rates: [["none","감면 없음",0],["100","5월까지 매도 (100%)",1],["80","6~7월 매도 (80%)",0.8],["50","8~12월 매도 (50%)",0.5]] },
+  dividend: { withhold: 0.154, finThreshold: 20_000_000 },
+  highDiv: [[20_000_000,0.14],[300_000_000,0.20],[5_000_000_000,0.25],[Infinity,0.30]],   // 고배당 분리과세(지방세 별도)
+  income: [[14_000_000,0.06],[50_000_000,0.15],[88_000_000,0.24],[150_000_000,0.35],[300_000_000,0.38],[500_000_000,0.40],[1_000_000_000,0.42],[Infinity,0.45]],
+  major: { threshold: 5_000_000_000, deduction: 2_500_000, brackets: [[300_000_000,0.20],[Infinity,0.25]] },
+  pension: { savingsCap: 6_000_000, totalCap: 9_000_000, isaTransferCap: 3_000_000, highRate: 0.165, lowRate: 0.132, salaryLine: 55_000_000 },
+  isa: { general: 2_000_000, low: 4_000_000, over: 0.099 },
+};
+const progressive = (amt, br) => { let tax=0, prev=0; for(const [lim, r] of br){ if(amt<=prev) break; tax += (Math.min(amt,lim)-prev)*r; prev=lim; } return tax; };
+const incomeTax = base => progressive(Math.max(0,base), TAX.income);
+const won0 = v => (isFinite(v) ? Math.round(v) : 0).toLocaleString("ko-KR") + "원";
+const pctStr = v => (v*100).toFixed(v*100 % 1 ? 2 : 0) + "%";
+
+function calcDomesticSell({sell, buy, market, feeRate}){
+  const stt = market==="kospi" ? sell*TAX.stt.kospi : sell*TAX.stt.kosdaq;
+  const farm = market==="kospi" ? sell*TAX.stt.kospiFarm : 0;
+  const fee = (sell + (buy||0)) * feeRate;
+  const net = sell - stt - farm - sell*feeRate;
+  const profit = buy ? sell - buy - stt - farm - fee : null;
+  return { stt, farm, fee, net, profit, totalRate: (stt+farm)/sell };
+}
+function calcOverseas({gain, fees, sellTotal, riaSell, riaRate}){
+  const g = Math.max(0, gain - (fees||0));
+  let riaDeduct = 0;
+  if(riaRate>0 && sellTotal>0 && g>0){
+    const eligible = Math.min(riaSell||0, TAX.ria.cap, sellTotal);
+    riaDeduct = g * (eligible/sellTotal) * riaRate;
+  }
+  const base = Math.max(0, g - riaDeduct - TAX.overseas.deduction);
+  return { gainAfterFees: g, riaDeduct, base, tax: base*TAX.overseas.rate, taxNoRia: Math.max(0,g-TAX.overseas.deduction)*TAX.overseas.rate };
+}
+function calcDividend({interest, divNormal, divOverseas, divHigh, otherBase, useHighSep}){
+  const fin = interest + divNormal + divOverseas + (useHighSep ? 0 : divHigh);
+  const withheld = (interest + divNormal + divHigh) * TAX.dividend.withhold + divOverseas * TAX.dividend.withhold; // 해외배당은 현지 원천징수 후 국내 차액 징수 → 합계 15.4% 가정
+  // 금융소득종합과세(비교과세, Gross-up 생략한 간이계산): 지방세 포함
+  let finTax;
+  const T = TAX.dividend.finThreshold;
+  const baseOnly = incomeTax(otherBase);
+  if(fin <= T){ finTax = fin*0.14; }
+  else{
+    const general = incomeTax(otherBase + (fin - T)) - baseOnly + T*0.14;
+    const compare = fin*0.14;
+    finTax = Math.max(general, compare);
+  }
+  const highSepTax = useHighSep ? progressive(divHigh, TAX.highDiv) : 0;
+  const totalTax = (finTax + highSepTax) * 1.1;           // 지방소득세 10% 포함
+  return { fin, overThreshold: fin > T, withheld, totalTax, extra: Math.max(0, totalTax - withheld), highSepTax: highSepTax*1.1,
+           highDefault: divHigh * TAX.dividend.withhold };
+}
+function calcMajor({gain, sme}){
+  const base = Math.max(0, gain - TAX.major.deduction);
+  const tax = sme ? base*0.10 : progressive(base, TAX.major.brackets);
+  return { base, tax: tax*1.1 };
+}
+function calcPension({salary, savings, irp, isaTransfer}){
+  const s = Math.min(savings, TAX.pension.savingsCap);
+  const eligible = Math.min(s + irp, TAX.pension.totalCap);
+  const isaExtra = Math.min((isaTransfer||0)*0.10, TAX.pension.isaTransferCap);
+  const rate = salary <= TAX.pension.salaryLine ? TAX.pension.highRate : TAX.pension.lowRate;
+  return { eligible, isaExtra, rate, credit: (eligible + isaExtra) * rate, unused: Math.max(0, TAX.pension.totalCap - eligible) };
+}
+function calcIsa({profit, type}){
+  const lim = type==="low" ? TAX.isa.low : TAX.isa.general;
+  const normal = Math.max(0,profit) * TAX.dividend.withhold;
+  const isaTax = Math.max(0, profit - lim) * TAX.isa.over;
+  return { lim, normal, isaTax, saved: normal - isaTax };
+}
+
+let TXTAB = "sum", TXCALC = "dom";
+const numIn = v => Number(String(v||"").replace(/[^\d.-]/g,"")) || 0;
+function fld(id, label, val, hint){ return `<div class="tx-f"><label for="${id}">${label}</label><input id="${id}" inputmode="numeric" value="${val}" data-num>${hint?`<span class="h">${hint}</span>`:""}</div>`; }
+function sel(id, label, opts, val){ return `<div class="tx-f"><label for="${id}">${label}</label><select id="${id}">${opts.map(([v,l])=>`<option value="${v}" ${v===val?"selected":""}>${l}</option>`).join("")}</select></div>`; }
+const row = (k, v, cls="") => `<div class="tx-row ${cls}"><span>${k}</span><b>${v}</b></div>`;
+function taxSummary(){
+  const c = (k,v,d,nw) => `<div class="tx-card ${nw?"fresh":""}"><span class="k">${k}</span><span class="v">${v}</span><span class="d">${d}</span></div>`;
+  return `<div class="tx-sum">
+    ${c("국내주식 매매차익","비과세","대주주가 아닌 개인은 국내 상장주식을 팔아 남긴 차익에 양도세가 없어요. 금투세는 2024년 말 폐지됐어요.")}
+    ${c("증권거래세","매도금액의 0.20%","코스피는 거래세 0.05% + 농특세 0.15%, 코스닥은 0.20%. 손실이 나도 팔 때마다 붙어요.",true)}
+    ${c("배당·이자","15.4% 원천징수","소득세 14% + 지방세 1.4%. 받을 때 떼고 끝나요(연 2천만원 이하).")}
+    ${c("금융소득종합과세","연 2천만원 초과","이자+배당이 2천만원을 넘으면 초과분이 다른 소득과 합산돼 최고 49.5%까지 올라가요. 다음 해 5월 신고.")}
+    ${c("고배당기업 배당 분리과세","14·20·25·30%","2026~2028년 받는 고배당기업(요건 충족 공시) 배당은 종합과세 대신 분리과세를 선택할 수 있어요. ETF·펀드는 제외.",true)}
+    ${c("해외주식 양도세","22% (250만원 공제)","1년간 실현한 손익을 합산해 250만원을 넘는 부분에 22%. 다음 해 5월 직접 신고해요.")}
+    ${c("RIA 국내복귀계좌","양도세 50~100% 감면","2025.12.23 이전 보유 해외주식을 RIA에서 팔고 국내에 1년 이상 투자하면 매도금액 5천만원 한도로 감면. 지금(8~12월)은 50%. 2026년 한시.",true)}
+    ${c("대주주 양도세","종목당 50억원 이상","또는 지분율 코스피 1%·코스닥 2%. 직전 연말 보유 기준으로 판정. 과표 3억 이하 22%, 초과분 27.5%(지방세 포함).")}
+    ${c("연금저축·IRP","최대 900만원 세액공제","총급여 5,500만원 이하 16.5%, 초과 13.2%. 연금저축은 600만원까지.")}
+    ${c("ISA","200만원 비과세","서민형 400만원. 초과분은 9.9% 분리과세, 3년 유지. 한도 확대안(생산적금융 ISA)은 국회 심의 중이에요.")}
+  </div>`;
+}
+function taxCalendar(){
+  const now = new Date(); const m = now.getMonth()+1;
+  const evs = [
+    [1,"1월","연말정산","회사에서 연금저축·IRP 세액공제가 반영돼요."],
+    [2,"2월 말","대주주 양도세 예정신고","지난해 하반기에 판 대주주 상장주식분"],
+    [5,"5월 1~31일","종합소득세·해외주식 양도세 신고","금융소득 2천만원 초과분, 해외주식 양도세, 고배당 분리과세 신청"],
+    [8,"8월 말","대주주 양도세 예정신고","올해 상반기에 판 대주주 상장주식분"],
+    [12,"12월 중순~","해외주식 손익 정리","올해 양도세에 넣으려면 결제일이 연내여야 해요. 미국은 거래일+1일 결제라 마지막 거래일 하루 전까지 매도"],
+    [12,"12월 마지막 거래일","대주주 판정 기준일","이날 종목별 보유액이 50억원 이상이면 내년 양도분부터 대주주"],
+    [12,"12월 31일","연금저축·IRP 납입 마감","올해 세액공제 한도(900만원) 채우기"],
+    [12,"12월 31일","RIA 감면 종료","RIA 해외주식 양도세 감면은 2026년 매도분까지만"],
+  ];
+  return `<div class="panel"><h3>세금 일정</h3><div class="tx-cal">${evs.map(([mm,d,t,s])=>`<div class="tx-ev ${mm>=m && mm-m<=1?"soon":""}"><span class="m">${d}</span><div><div class="t">${t}</div><div class="s">${s}</div></div></div>`).join("")}</div></div>`;
+}
+function calcForm(){
+  const tabs = [["dom","국내 매도"],["ovs","해외 양도세"],["div","배당·금융소득"],["pen","연금·ISA"],["maj","대주주"]];
+  const head = `<div class="cats">${tabs.map(([k,l])=>`<button data-txcalc="${k}" aria-pressed="${TXCALC===k}">${l}</button>`).join("")}</div>`;
+  let body = "";
+  if(TXCALC==="dom") body = `<h3>국내주식 매도 비용</h3><div class="tx-form">
+      ${fld("d_sell","매도금액","10,000,000")}${fld("d_buy","매수금액 (선택)","9,000,000","넣으면 실제 손익을 계산해요")}
+      ${sel("d_mkt","시장",[["kospi","코스피"],["kosdaq","코스닥"]],"kospi")}${fld("d_fee","증권사 수수료율 (%)","0.015","비대면 계좌는 보통 0.01~0.015%")}</div><div class="tx-res" id="txRes"></div>`;
+  if(TXCALC==="ovs") body = `<h3>해외주식 양도소득세</h3><div class="tx-form">
+      ${fld("o_gain","올해 실현 손익 합계 (원화)","30,000,000","이익과 손실을 모두 더한 금액. 매도일 환율 기준")}
+      ${fld("o_fee","매매 수수료 합계","0","필요경비로 빼줘요")}
+      ${fld("o_sell","올해 해외주식 매도금액 합계","60,000,000","RIA 감면 비율 계산에 써요")}
+      ${sel("o_ria","RIA 국내복귀계좌",TAX.ria.rates.map(([v,l])=>[v,l]),"none")}
+      ${fld("o_riasell","RIA에서 판 금액","0","5천만원 한도")}</div><div class="tx-res" id="txRes"></div>`;
+  if(TXCALC==="div") body = `<h3>배당·이자 세금 (연간)</h3><div class="tx-form">
+      ${fld("v_int","이자소득","0")}${fld("v_div","국내 배당 (일반)","10,000,000")}${fld("v_ovs","해외 배당","0")}
+      ${fld("v_high","고배당기업 배당","0","분리과세 요건을 충족했다고 공시된 기업")}
+      ${fld("v_base","다른 소득 과세표준","50,000,000","근로·사업소득 과세표준(공제 후 금액)")}
+      <label class="tx-chk"><input type="checkbox" id="v_sep" checked> 고배당기업 배당은 분리과세 선택</label></div><div class="tx-res" id="txRes"></div>`;
+  if(TXCALC==="pen") body = `<h3>연금저축·IRP 세액공제 / ISA 절세</h3><div class="tx-form">
+      ${fld("p_sal","총급여","50,000,000")}${fld("p_sav","연금저축 납입액","6,000,000")}${fld("p_irp","IRP 납입액","3,000,000")}
+      ${fld("p_isa","ISA 만기자금 연금 이체액","0","이체액의 10%, 최대 300만원 추가 공제")}
+      ${fld("i_prof","ISA 예상 순수익 (배당·이자·매매차익)","5,000,000")}${sel("i_type","ISA 유형",[["general","일반형 (200만원)"],["low","서민·농어민형 (400만원)"]],"general")}</div><div class="tx-res" id="txRes"></div>`;
+  if(TXCALC==="maj") body = `<h3>대주주 국내주식 양도소득세</h3><div class="tx-form">
+      ${fld("m_gain","양도차익 (연간 합계)","500,000,000")}${sel("m_sme","종목 구분",[["0","일반 (중소기업 아님)"],["1","중소기업"]],"0")}</div>
+      <p class="tx-tip">대주주 요건: 직전 연말 기준 종목당 보유액 50억원 이상, 또는 지분율 코스피 1%·코스닥 2%·코넥스 4% 이상. 반기마다 예정신고(2월·8월 말)해요.</p><div class="tx-res" id="txRes"></div>`;
+  return `<div class="panel">${head}${body}</div>`;
+}
+function runCalc(){
+  const g = id => { const el=document.getElementById(id); return el ? (el.type==="checkbox" ? el.checked : el.tagName==="SELECT" ? el.value : numIn(el.value)) : 0; };
+  const out = $("#txRes"); if(!out) return;
+  let h = "";
+  if(TXCALC==="dom"){ const sell=g("d_sell"), buy=g("d_buy"); if(sell<=0){ out.innerHTML=""; return; }
+    const r = calcDomesticSell({sell, buy, market:g("d_mkt"), feeRate:numIn(document.getElementById("d_fee").value)/100});
+    h = row("증권거래세", won0(r.stt)) + (r.farm?row("농어촌특별세", won0(r.farm)):"") + row("수수료 (매도"+(buy?"+매수":"")+")", won0(r.fee))
+      + row("매도 후 입금액", won0(r.net)) + (r.profit!=null ? row("실제 손익 (세금·수수료 뺀 금액)", `<span class="${cls(r.profit)}">${won0(r.profit)}</span>`, "total") : row("세금 합계", won0(r.stt+r.farm), "total"));
+    h += `<p class="tx-tip">대주주가 아니면 이 외에 양도세는 없어요. 손익분기 수익률은 약 ${((0.002+2*numIn(document.getElementById("d_fee").value)/100)*100).toFixed(3)}%예요.</p>`; }
+  if(TXCALC==="ovs"){ const r = calcOverseas({gain:g("o_gain"), fees:g("o_fee"), sellTotal:g("o_sell"), riaSell:g("o_riasell"), riaRate:(TAX.ria.rates.find(x=>x[0]===g("o_ria"))||[0,0,0])[2]});
+    h = row("양도차익 (수수료 뺀 금액)", won0(r.gainAfterFees)) + (r.riaDeduct?row("RIA 감면 공제", "−"+won0(r.riaDeduct)):"") + row("기본공제", "−"+won0(Math.min(TAX.overseas.deduction, Math.max(0,r.gainAfterFees-r.riaDeduct))))
+      + row("과세표준", won0(r.base)) + row("납부할 양도세 (22%)", won0(r.tax), "total") + (r.riaDeduct?row("RIA 없을 때와 비교", `${won0(r.taxNoRia - r.tax)} 절약`):"");
+    h += `<p class="tx-tip">손실 난 종목을 연내에 팔면 이익과 합산돼 세금이 줄어요. 가족 간 증여, 환율 적용(매수일·매도일 기준환율) 등 세부 사항은 신고 전 증권사 양도세 신고대행 자료로 확인하세요.</p>`; }
+  if(TXCALC==="div"){ const r = calcDividend({interest:g("v_int"), divNormal:g("v_div"), divOverseas:g("v_ovs"), divHigh:g("v_high"), otherBase:g("v_base"), useHighSep:g("v_sep")});
+    h = row("종합과세 판정 금융소득", won0(r.fin) + (r.overThreshold?" · 2천만원 초과":" · 2천만원 이하")) + row("이미 원천징수된 세금 (15.4%)", won0(r.withheld))
+      + (g("v_high")>0 && g("v_sep") ? row("고배당 배당 분리과세 세액", won0(r.highSepTax)) : "")
+      + row("연간 총 세금 (추정)", won0(r.totalTax)) + row("5월에 더 낼 세금 (추정)", won0(r.extra), "total");
+    h += `<p class="tx-tip">${r.overThreshold ? "2천만원 초과분은 다른 소득과 합산돼 누진세율이 적용돼요. 배당가산(Gross-up)과 배당세액공제는 반영하지 않은 간이 계산이에요." : "2천만원 이하는 원천징수(15.4%)로 끝나요. 추가로 낼 세금이 없어요."} 건강보험료(피부양자 자격, 소득월액)도 금융소득에 영향을 받아요.</p>`; }
+  if(TXCALC==="pen"){ const p = calcPension({salary:g("p_sal"), savings:g("p_sav"), irp:g("p_irp"), isaTransfer:g("p_isa")}); const i = calcIsa({profit:g("i_prof"), type:g("i_type")});
+    h = row("세액공제 대상 납입액", won0(p.eligible) + (p.isaExtra?` + ISA 이체분 ${won0(p.isaExtra)}`:"")) + row("공제율", pctStr(p.rate)) + row("연말정산 환급 (세액공제)", won0(p.credit), "total")
+      + (p.unused>0?`<p class="tx-tip">${won0(p.unused)} 더 넣으면 ${won0(p.unused*p.rate)}을 더 돌려받을 수 있어요.</p>`:"")
+      + `<div style="height:8px"></div>` + row("일반계좌였다면 낼 세금 (15.4%)", won0(i.normal)) + row(`ISA 비과세 한도`, won0(i.lim)) + row("ISA에서 낼 세금 (초과분 9.9%)", won0(i.isaTax)) + row("ISA 절세 효과", won0(i.saved), "total"); }
+  if(TXCALC==="maj"){ const r = calcMajor({gain:g("m_gain"), sme:g("m_sme")==="1"});
+    h = row("과세표준 (250만원 공제)", won0(r.base)) + row("양도소득세 (지방세 포함)", won0(r.tax), "total"); }
+  out.innerHTML = h;
+}
+function renderTax(){
+  const tabs = [["sum","한눈에"],["calc","계산기"],["cal","일정"]];
+  $("#viewTax").innerHTML = `<div class="mk-head"><h2>투자 세금</h2><span>${TAX.basis} 세법 기준</span></div>
+    <div class="subtabs" role="tablist">${tabs.map(([k,l])=>`<button role="tab" data-txtab="${k}" aria-selected="${TXTAB===k}">${l}</button>`).join("")}</div>
+    ${TXTAB==="sum" ? taxSummary() : TXTAB==="calc" ? calcForm() : taxCalendar()}
+    <p class="mk-note">세법은 자주 바뀌고 개인 상황에 따라 달라져요. 이 화면은 참고용 간이 계산이며, 실제 신고 전에는 홈택스·증권사 안내나 세무사 상담으로 확인하세요.</p>`;
+  if(TXTAB==="calc") runCalc();
+}
+document.addEventListener("click", e=>{
+  const a = e.target.closest("[data-txtab]"); if(a){ TXTAB=a.dataset.txtab; renderTax(); return; }
+  const b = e.target.closest("[data-txcalc]"); if(b){ TXCALC=b.dataset.txcalc; renderTax(); return; }
+});
+document.addEventListener("input", e=>{
+  if(!e.target.closest("#viewTax")) return;
+  if(e.target.matches("[data-num]") && e.target.id!=="d_fee"){
+    const raw = e.target.value.replace(/[^\d]/g,""); const pos = e.target.value.length - e.target.selectionStart;
+    e.target.value = raw ? Number(raw).toLocaleString("ko-KR") : "";
+    try{ const p = Math.max(0, e.target.value.length - pos); e.target.setSelectionRange(p,p); }catch(_){}
+  }
+  runCalc();
+});
+document.addEventListener("change", e=>{ if(e.target.closest("#viewTax")) runCalc(); });
+
 /* ================= 종목 상세 ================= */
 const corpCache = new Map();
 function bigChart(dates, closes){
@@ -1069,6 +1286,7 @@ function setView(v){
   const h = v==="disclosure" ? "" : "#"+v;
   if(location.hash !== h) history.replaceState(null, "", h || location.pathname + location.search);
   if(v==="talk") loadTalk();
+  if(v==="tax") renderTax();
   window.scrollTo(0,0);
 }
 /* ================= 토론 (GitHub Discussions + giscus) ================= */
@@ -1102,7 +1320,7 @@ async function loadTalk(){
 document.addEventListener("click", e=>{ const b = e.target.closest("[data-room]"); if(b){ ROOM = b.dataset.room; loadTalk(); } });
 document.querySelectorAll(".maintabs button").forEach(b=>b.addEventListener("click", ()=>setView(b.dataset.view)));
 const TALK_ON = false;  // 토론 탭 보류 중
-const VIEWS = TALK_ON ? ["#market","#talk"] : ["#market"];
+const VIEWS = TALK_ON ? ["#market","#tax","#talk"] : ["#market","#tax"];
 window.addEventListener("hashchange", ()=>setView(VIEWS.includes(location.hash) ? location.hash.slice(1) : "disclosure"));
 if(VIEWS.includes(location.hash)) setView(location.hash.slice(1));
 
