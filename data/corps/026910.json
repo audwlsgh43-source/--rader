@@ -5,6 +5,26 @@
  "corp_code": "00104120",
  "disclosures": [
   {
+   "rcept_no": "20261030000753",
+   "date": "2026-10-30",
+   "title": "소액공모실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000753",
+   "seen": "18:15"
+  },
+  {
+   "rcept_no": "20261030000732",
+   "date": "2026-10-30",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000732",
+   "seen": "18:15"
+  },
+  {
    "rcept_no": "20261029000002",
    "date": "2026-10-29",
    "title": "[기재정정]주요사항보고서(유상증자결정)",
