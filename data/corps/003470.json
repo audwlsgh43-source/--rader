@@ -5,6 +5,16 @@
  "corp_code": "00117601",
  "disclosures": [
   {
+   "rcept_no": "20261030801172",
+   "date": "2026-10-30",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "최대주주 본인 Yuanta Securities Asia Financial Services가 2026-10-30 장내매수로 보통주 1,500주를 추가 취득했다는 보고입니다. 합계 지분율은 57.59%입니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801172",
+   "seen": "17:23"
+  },
+  {
    "rcept_no": "20261030000230",
    "date": "2026-10-30",
    "title": "증권발행실적보고서",
