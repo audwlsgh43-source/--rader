@@ -1,8 +1,50 @@
 {
  "date": "2026-10-30",
- "updated_at": "2026-10-30 19:10",
+ "updated_at": "2026-10-30 19:54",
  "count": 363,
  "items": [
+  {
+   "rcept_no": "20261030901431",
+   "date": "2026-10-30",
+   "corp": "랩지노믹스",
+   "stock_code": "084650",
+   "corp_code": "00545114",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]기타시장안내              (주가 미달에 따른 상장폐지 우려 관련 안내)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "19:54",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901431",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030901430",
+   "date": "2026-10-30",
+   "corp": "아티스트스튜디오",
+   "stock_code": "200350",
+   "corp_code": "00990819",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "high",
+   "title": "최대주주변경",
+   "flr": "아티스트스튜디오",
+   "rm": "코",
+   "seen": "19:54",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901430",
+   "read_fail": true
+  },
   {
    "rcept_no": "20261030901429",
    "date": "2026-10-30",
@@ -21,8 +63,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901429",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901429"
   },
   {
    "rcept_no": "20261030901424",
@@ -42,8 +84,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901424",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901424"
   },
   {
    "rcept_no": "20261030901422",
@@ -63,8 +105,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901422",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901422"
   },
   {
    "rcept_no": "20261030901421",
@@ -84,8 +126,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901421",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901421"
   },
   {
    "rcept_no": "20261030901411",
@@ -105,8 +147,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901411",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901411"
   },
   {
    "rcept_no": "20261030901313",
@@ -126,8 +168,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901313",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901313"
   },
   {
    "rcept_no": "20261030901264",
@@ -147,8 +189,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901264",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901264"
   },
   {
    "rcept_no": "20261030801428",
@@ -168,8 +210,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801428",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801428"
   },
   {
    "rcept_no": "20261030801427",
@@ -189,8 +231,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801427",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801427"
   },
   {
    "rcept_no": "20261030000718",
@@ -205,11 +247,59 @@
    "flr": "블루엠텍",
    "rm": "",
    "seen": "19:10",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "블루엠텍이 360억원 규모의 무기명식 무보증 사모 전환사채를 발행하며, 인수인 지위가 케이디비아이헬스케어밸류업 유한회사로 이전되었음을 정정 공시함.",
+   "points": [
+    "무기명식 무보증 사모 전환사채, 표면이자율 0%, 만기 2033년 11월 6일",
+    "자금 용도: 운영자금 310억원, 채무상환자금 50억원",
+    "2026년 10월 30일 인수인 지위를 케이디비아이헬스케어밸류업 유한회사로 이전",
+    "관계기관 요청에 따라 조기상환 지급일 등 일부 일자 정정"
+   ],
+   "numbers": [
+    [
+     "권면(전자등록)총액",
+     "360억원"
+    ],
+    [
+     "전환가액",
+     "3,235원"
+    ],
+    [
+     "전환 주식수",
+     "11,128,284주"
+    ],
+    [
+     "주식총수 대비 비율",
+     "32.88%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-06",
+     "kind": "청약",
+     "desc": "전환사채 사모 청약일"
+    },
+    {
+     "date": "2026-11-06",
+     "kind": "납입일",
+     "desc": "전환사채 납입일"
+    },
+    {
+     "date": "2027-11-07",
+     "kind": "전환청구",
+     "desc": "전환청구기간 시작(종료 2033-10-06)"
+    },
+    {
+     "date": "2029-05-06",
+     "kind": "기타",
+     "desc": "조기상환청구권 최초 조기상환지급일"
+    },
+    {
+     "date": "2033-11-06",
+     "kind": "기타",
+     "desc": "사채 만기일, 원금 일시상환"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000718"
   },
   {
@@ -244,7 +334,7 @@
    "imp": "mid",
    "title": "기타시장안내              (주가 미달에 따른 상장폐지 우려 관련 안내)",
    "flr": "코스닥시장본부",
-   "rm": "코",
+   "rm": "코정",
    "seen": "18:15",
    "ai": "",
    "points": [],
