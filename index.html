@@ -54,6 +54,7 @@
   color-scheme:light;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
 button,input{font:inherit;color:inherit}
@@ -138,6 +139,17 @@ section.feedwrap{min-width:0}
 .more{margin-top:8px;border:0;background:none;padding:0;color:var(--accent);font-size:13px;cursor:pointer}
 .detail{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);display:none}
 .card.open .detail{display:block}
+.card.group .detail{display:none}
+.gi.open .detail{display:block}
+.gcount{font-size:11.5px;font-weight:600;color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 45%,var(--line));border-radius:999px;padding:0 8px}
+.gitems{display:flex;flex-direction:column;margin-top:6px}
+.gi{padding:9px 0;border-top:1px dashed var(--line)}
+.gi:first-child{border-top:0}
+.gi-h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.gi-t{font-size:14.5px;color:var(--ink);flex:1 1 200px}
+.gi .ai{margin-top:4px}
+.gi .more{margin-top:4px}
+.gmore{margin-top:6px}
 .kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:0 0 10px}
 .kv div{background:var(--bg);border-radius:8px;padding:8px 10px}
 .kv dt{font-size:11.5px;color:var(--muted)}
@@ -170,7 +182,7 @@ a.ev:hover .c{color:var(--accent)}
 .empty{padding:32px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:10px}
 
 /* calendar */
-aside.cal{position:sticky;top:112px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+aside.cal{position:sticky;top:112px;max-height:calc(100vh - 128px);display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
 .week{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin:0 0 12px}
 .day{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:6px 0;text-align:center;cursor:pointer}
 .day .dw{display:block;font-size:11px;color:var(--muted)}
@@ -179,7 +191,7 @@ aside.cal{position:sticky;top:112px;background:var(--surface);border:1px solid v
 .day .dots i{width:5px;height:5px;border-radius:50%;background:var(--accent)}
 .day.is-today .dd{color:var(--accent)}
 .day[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
-.evlist{display:flex;flex-direction:column;gap:0}
+.evlist{display:flex;flex-direction:column;gap:0;overflow-y:auto;min-height:0;flex:1 1 auto;margin-right:-6px;padding-right:6px;overscroll-behavior:contain;scrollbar-width:thin}
 .evday{font-size:12.5px;font-weight:700;color:var(--muted);padding:10px 0 4px;border-bottom:1px solid var(--line)}
 .ev{display:grid;grid-template-columns:84px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
 .ev:last-child{border-bottom:0}
@@ -341,7 +353,8 @@ body[data-view="market"] .search, body[data-view="talk"] .search{visibility:hidd
 @media (max-width:860px){
   main.grid{grid-template-columns:minmax(0,1fr)}
   .tabs{display:flex}
-  aside.cal{position:static}
+  aside.cal{position:static;max-height:none}
+  .evlist{overflow:visible;margin-right:0;padding-right:0}
   body[data-tab="feed"] aside.cal{display:none}
   body[data-tab="cal"] section.feedwrap{display:none}
 }
@@ -704,21 +717,19 @@ function renderFeed(){
   const scope = !state.date || state.date===TODAY ? "오늘" : state.date==="all" ? "최근 3일" : `${+state.date.slice(5,7)}월 ${+state.date.slice(8)}일`;
   $("#feedTitle").textContent = state.type==="all" ? `${scope} 공시 ${list.length}건` : `${scope} ${tl.label} 공시 ${list.length}건`;
   if(!list.length){ $("#feed").innerHTML = `<div class="empty">${D.length ? "조건에 맞는 공시가 없어요. 필터를 바꾸거나 검색어를 지워 보세요." : "표시할 공시가 없어요."}</div>`; return; }
-  $("#feed").innerHTML = list.map(x => {
-    const t = TYPES.find(t=>t.id===x.type);
+  // 같은 날 같은 회사 공시는 한 카드로 묶음
+  const groups = [], gmap = new Map();
+  list.forEach(x=>{ const k = (x.date||"")+"|"+x.corp; if(!gmap.has(k)){ const g={key:k, items:[]}; gmap.set(k,g); groups.push(g); } gmap.get(k).items.push(x); });
+  const rank = {high:0, mid:1, low:2};
+  const timeOf = x => `${state.date==="all" && x.date ? x.date.slice(5).replace("-",".")+" " : ""}${x.t||""}`;
+  const pillOf = x => { const t = TYPES.find(t=>t.id===x.type); return `<span class="pill ${t.tone?"t-"+t.tone:""}">${t.label}</span>`; };
+  const starOf = x => `<button class="star" data-corp="${esc(x.corp)}" data-code="${esc(x.code||"")}" aria-pressed="${watch.has(x.corp)}" aria-label="${esc(x.corp)} 관심종목 ${watch.has(x.corp)?"해제":"추가"}">${starSvg}</button>`;
+  const newOf = x => isNew(x) ? `<span class="new" title="마지막 방문 이후 새로 올라온 공시">NEW</span>` : "";
+  const detailOf = x => {
     const open = state.open.has(x.i);
     const evs = (x.events||[]).map(e=>`<span>${e.date.slice(5).replace("-",".")} ${esc(e.kind)} · ${esc(e.desc)}</span>`).join("");
     const rich = x.kv.length || x.pts.length;
-    return `<article class="card imp-${x.imp}${open?" open":""}" data-i="${x.i}">
-      <div class="row1">
-        ${isNew(x)?`<span class="new" title="마지막 방문 이후 새로 올라온 공시">NEW</span>`:""}<span class="time">${state.date==="all" && x.date ? x.date.slice(5).replace("-",".")+" " : ""}${x.t||""}</span>
-        <button class="corp corp-link" data-cname="${esc(x.corp)}" data-ccode="${esc(x.code||"")}">${esc(x.corp)}</button>
-        <span class="mkt">${x.mkt}</span>
-        <span class="pill ${t.tone?"t-"+t.tone:""}">${t.label}</span>
-        <button class="star" data-corp="${esc(x.corp)}" data-code="${esc(x.code||"")}" aria-pressed="${watch.has(x.corp)}" aria-label="${esc(x.corp)} 관심종목 ${watch.has(x.corp)?"해제":"추가"}">${starSvg}</button>
-      </div>
-      <p class="title">${esc(x.title)}</p>
-      ${x.ai?`<p class="ai"><b>AI</b><span>${esc(x.ai)}</span></p>`:""}
+    return `${x.ai?`<p class="ai"><b>AI</b><span>${esc(x.ai)}</span></p>`:""}
       <button class="more" data-toggle="${x.i}" aria-expanded="${open}">${open?"접기":"상세 보기"}</button>
       <div class="detail">
         ${x.kv.length?`<dl class="kv">${x.kv.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>`:""}
@@ -727,7 +738,30 @@ function renderFeed(){
         ${rich?"":`<p class="hint">${hintFor(x)}</p>`}
         ${x.meta?`<p class="meta-line">${esc(x.meta)}</p>`:""}
         <a href="${esc(x.url||"https://dart.fss.or.kr")}" target="_blank" rel="noopener">DART에서 원문 보기 →</a>
-      </div>
+      </div>`;
+  };
+  $("#feed").innerHTML = groups.map(g => {
+    const its = g.items, x = its[0];
+    if(its.length === 1){
+      return `<article class="card imp-${x.imp}${state.open.has(x.i)?" open":""}" data-i="${x.i}">
+        <div class="row1">${newOf(x)}<span class="time">${timeOf(x)}</span>
+          <button class="corp corp-link" data-cname="${esc(x.corp)}" data-ccode="${esc(x.code||"")}">${esc(x.corp)}</button>
+          <span class="mkt">${x.mkt}</span>${pillOf(x)}${starOf(x)}</div>
+        <p class="title">${esc(x.title)}</p>${detailOf(x)}
+      </article>`;
+    }
+    const top = its.reduce((m,y)=> rank[y.imp] < rank[m] ? y.imp : m, "low");
+    const expanded = state.gopen && state.gopen.has(g.key);
+    const shown = expanded ? its : its.slice(0,3);
+    const anyNew = its.some(isNew);
+    return `<article class="card group imp-${top}">
+      <div class="row1">${anyNew?`<span class="new">NEW</span>`:""}<span class="time">${timeOf(x)}</span>
+        <button class="corp corp-link" data-cname="${esc(x.corp)}" data-ccode="${esc(x.code||"")}">${esc(x.corp)}</button>
+        <span class="mkt">${x.mkt}</span><span class="gcount">공시 ${its.length}건</span>${starOf(x)}</div>
+      <div class="gitems">${shown.map(y=>`<div class="gi${state.open.has(y.i)?" open":""}" data-i="${y.i}">
+          <div class="gi-h">${newOf(y)}<span class="time">${timeOf(y)}</span>${pillOf(y)}<span class="gi-t">${esc(y.title)}</span></div>
+          ${detailOf(y)}</div>`).join("")}</div>
+      ${its.length>3?`<button class="more gmore" data-gopen="${esc(g.key)}">${expanded?"접기":`나머지 ${its.length-3}건 더 보기`}</button>`:""}
     </article>`;
   }).join("");
 }
@@ -776,6 +810,8 @@ document.addEventListener("click", ev=>{
   if(chip){ state.type = chip.dataset.type; renderSummary(); renderFeed(); return; }
   const star = ev.target.closest(".star");
   if(star){ const c = star.dataset.corp; if(watch.has(c)){ watch.delete(c); } else { watch.add(c); if(star.dataset.code) watchCodes[c]=star.dataset.code; } saveWatch(); renderFeed(); renderCal(); return; }
+  const go = ev.target.closest("[data-gopen]");
+  if(go){ state.gopen = state.gopen || new Set(); const k=go.dataset.gopen; state.gopen.has(k)?state.gopen.delete(k):state.gopen.add(k); renderFeed(); return; }
   const tg = ev.target.closest("[data-toggle]");
   if(tg){ const i = tg.dataset.toggle; state.open.has(i)?state.open.delete(i):state.open.add(i); renderFeed(); return; }
   const day = ev.target.closest(".day");
