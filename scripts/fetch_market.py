@@ -211,7 +211,9 @@ REPORT_PROMPT = """다음은 {broker}의 리포트 「{title}」 본문 일부�
 아래 JSON 하나로만 답하세요.
 
 {{"summary": ["핵심 내용 3~4줄. 각 60자 이내, 원문 문장을 그대로 옮기지 말고 자기 말로"],
-  "valuation": ["밸류에이션 1~2줄. 각 70자 이내"]}}
+  "valuation": ["밸류에이션 1~2줄. 각 70자 이내"],
+  "method": "목표주가에 쓴 주된 방식 하나: PER, PBR, EV/EBITDA, SOTP, DCF, rNPV, PSR, RIM, NAV, DDM, PEG, EV/Sales 중 하나. 없으면 빈 문자열",
+  "why": "이 종목에 이 방식을 쓴 이유 1줄(80자 이내). 리포트에 이유가 있으면 그 내용을, 없으면 업종 특성상 일반적인 이유를 쓰고 끝에 '(일반적 설명)'을 붙이세요. method가 없으면 빈 문자열"}}
 
 - 리포트의 의견은 '{broker}는 ~로 봄'처럼 리포트의 의견임을 밝혀 주세요.
 - valuation에는 목표주가 산정 방식과 근거 수치(적용 PER·PBR·EV/EBITDA 배수, 기준 EPS·BPS와 연도, 현재 주가 기준 PER·PBR, 상승여력, 동종업체 대비 수준 등)를 원문에 있는 숫자만으로 쓰세요.
@@ -244,12 +246,13 @@ def summarize_reports(reports: list, old_reports: list, budget: int) -> int:
         for k in ("sum", "opinion", "goal", "pdf"):
             if p.get(k) and not rep_.get(k):
                 rep_[k] = p[k]
-        if "val" in p:
-            rep_["val"] = p["val"]
+        for k in ("val", "method", "why"):
+            if k in p:
+                rep_[k] = p[k]
     order = {"기업": 1, "산업": 2, "시황": 3, "투자정보": 4}
     for rep_ in sorted(reports, key=lambda x: (not x.get("watch"), order.get(x["cat"], 9))):
         # 요약이 있고, 기업 리포트는 밸류에이션까지 있으면 건너뜀 (예전에 요약만 만든 기업 리포트는 한 번 더)
-        if rep_.get("sum") and (rep_["cat"] != "기업" or "val" in rep_):
+        if rep_.get("sum") and (rep_["cat"] != "기업" or "method" in rep_):
             continue
         if not key or done >= budget:
             continue
@@ -287,6 +290,8 @@ def summarize_reports(reports: list, old_reports: list, budget: int) -> int:
                 j = json.loads(text[text.find("{"):text.rfind("}") + 1])
                 lines = [str(x)[:90] for x in j.get("summary", [])][:4]
                 val = [str(x)[:110] for x in j.get("valuation", [])][:2]
+                rep_["method"] = str(j.get("method", "") or "").strip()[:12]
+                rep_["why"] = str(j.get("why", "") or "").strip()[:120]
             except Exception:
                 s_, e_ = text.find("["), text.rfind("]")
                 lines = [str(x)[:90] for x in json.loads(text[s_:e_ + 1])][:4]

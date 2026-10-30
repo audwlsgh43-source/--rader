@@ -311,7 +311,23 @@ body[data-view="market"] .search, body[data-view="talk"] .search{visibility:hidd
 .rep .rep-stock{font-weight:700;color:var(--ink);font-size:13px}
 .rep .rep-op{color:var(--accent);font-weight:600}
 .rep-val{margin:6px 0 2px;padding:8px 10px;border-radius:10px;background:var(--accent-soft);display:flex;flex-direction:column;gap:2px;font-size:13px;color:var(--ink)}
+.rep-val .why{margin-top:4px;color:var(--ink)}
+.rep-val .why i{font-style:normal;font-weight:700;font-size:11px;color:var(--accent);margin-right:4px}
+.vg{margin-top:4px}
+.vg summary{cursor:pointer;font-size:12px;color:var(--accent);font-weight:600;list-style:none}
+.vg summary::-webkit-details-marker{display:none}
+.vg summary::before{content:"ⓘ ";}
+.vg dl{margin:6px 0 2px;display:grid;grid-template-columns:72px 1fr;gap:4px 8px;font-size:12.5px}
+.vg dt{color:var(--muted);font-weight:600}
+.vg dd{margin:0;color:var(--ink)}
 .rep-val b{font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--accent)}
+.vg-all summary{cursor:pointer;list-style:none;font-family:var(--font-display);font-size:15px}
+.vg-all summary::-webkit-details-marker{display:none}
+.vg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;margin-top:12px}
+.vg-card{border:1px solid var(--line);border-radius:12px;padding:11px 12px;background:var(--surface-2);font-size:12.5px}
+.vg-card b{font-size:14px;color:var(--accent)}
+.vg-card p{margin:5px 0 0;color:var(--ink);line-height:1.55}
+.vg-card i{font-style:normal;color:var(--muted);font-weight:600;margin-right:4px}
 .rep ul{margin:4px 0 2px;padding-left:16px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:2px}
 .ai-card h4{margin:10px 0 6px;font-size:12.5px;color:var(--muted);font-weight:600}
 .ai-card .issues{list-style:none;padding:0;margin:0 0 4px;display:flex;flex-direction:column;gap:6px}
@@ -1262,13 +1278,37 @@ function renderUS(){
     ${macroPanel()}`;
 }
 let REPCAT = "전체";
+/* 밸류에이션 방식 사전 (일반적 설명) */
+const VAL_GUIDE = {
+  "PER": {name:"주가수익비율", what:"주가 ÷ 주당순이익. 목표주가 = 예상 EPS × 목표 PER.", where:"이익이 꾸준히 나는 제조·IT·소비재·인터넷 기업", why:"주주가 가져갈 이익에 몇 배를 쳐줄지 직관적으로 비교할 수 있어요.", limit:"적자 기업이나 이익이 한 해에 크게 출렁이는 경기민감주에는 왜곡돼요."},
+  "PBR": {name:"주가순자산비율", what:"주가 ÷ 주당순자산. 목표주가 = BPS × 목표 PBR.", where:"은행·보험·증권, 철강·화학·조선 등 자산이 곧 영업 기반인 업종", why:"자기자본이 이익을 만드는 업종이라 순자산 대비 가격을 보는 게 자연스러워요. 보통 ROE가 높을수록 높은 PBR을 줘요.", limit:"무형자산(브랜드·기술) 비중이 큰 기업은 장부가가 실제 가치를 못 담아요."},
+  "EV/EBITDA": {name:"기업가치 ÷ 상각 전 영업이익", what:"EV(시가총액+순차입금) ÷ EBITDA. 빚까지 포함한 회사 전체 값과 현금창출력을 비교해요.", where:"통신·인프라·화학·반도체·M&A 비교 등 설비투자와 감가상각이 큰 업종", why:"부채 비율이나 감가상각 방식이 달라도 영업 현금창출력 기준으로 공정하게 비교할 수 있어요.", limit:"설비 재투자 부담(CAPEX)을 반영하지 않아 투자 부담이 큰 기업을 좋게 보이게 할 수 있어요."},
+  "SOTP": {name:"부분가치 합산", what:"사업부·자회사를 각각 적합한 방식으로 평가해 더한 뒤 지주 할인을 반영해요.", where:"지주회사, 여러 사업을 가진 복합기업, 자회사 지분이 큰 통신·플랫폼 기업", why:"성격이 다른 사업을 한 배수로 묶으면 왜곡되니, 사업별로 따로 값을 매겨 합산해요.", limit:"자회사 가치·할인율 가정에 따라 결과가 크게 달라져요."},
+  "DCF": {name:"현금흐름할인", what:"앞으로 벌 현금흐름을 할인율(WACC)로 현재가치로 바꿔 더해요.", where:"장기 계약 기반 인프라·신재생, 성장 초기 기업, 현재 이익으로 설명이 어려운 기업", why:"지금 실적보다 먼 미래의 현금흐름이 가치의 대부분인 기업에 맞아요.", limit:"성장률·할인율을 조금만 바꿔도 값이 크게 변해 가정 의존도가 높아요."},
+  "rNPV": {name:"위험조정 순현재가치", what:"신약 파이프라인별 미래 매출을 임상 성공확률로 조정해 현재가치로 더해요.", where:"바이오·신약 개발 기업", why:"아직 매출이 없거나 적고, 가치가 임상 성공 여부에 달려 있어서예요.", limit:"성공확률·출시 시점·약가 가정이 주관적이에요."},
+  "PSR": {name:"주가매출비율", what:"시가총액 ÷ 매출액.", where:"적자지만 매출이 빠르게 크는 플랫폼·SaaS·초기 성장 기업", why:"이익이 아직 없어 PER을 쓸 수 없을 때 성장 규모로 비교해요.", limit:"수익성을 무시해 이익을 못 내는 성장도 높게 평가할 수 있어요."},
+  "EV/Sales": {name:"기업가치 ÷ 매출", what:"EV ÷ 매출액. PSR에 부채까지 반영한 방식.", where:"적자 성장기업, 부채가 많은 성장기업 비교", why:"이익이 없을 때 부채 구조가 다른 기업끼리 매출 기준으로 비교해요.", limit:"수익성 차이를 반영하지 못해요."},
+  "RIM": {name:"잔여이익모델", what:"순자산 + 자기자본비용을 넘는 초과이익의 현재가치.", where:"은행·보험 등 금융주", why:"자본 대비 얼마나 초과 수익(ROE−요구수익률)을 내는지가 금융주 가치의 핵심이라서예요.", limit:"요구수익률·지속 기간 가정에 민감해요."},
+  "NAV": {name:"순자산가치", what:"보유 자산(부동산·지분·자원)의 시가에서 부채를 뺀 값, 여기에 할인율 적용.", where:"리츠·부동산 개발, 지주사, 자원·에너지 기업", why:"보유 자산 자체가 가치의 대부분인 기업이라 자산을 시가로 다시 평가해요.", limit:"자산 시가 산정과 할인율 적용이 주관적이에요."},
+  "DDM": {name:"배당할인모델", what:"앞으로 받을 배당을 현재가치로 할인해 더해요.", where:"배당이 안정적인 유틸리티·통신·금융", why:"주주 수익이 주로 배당으로 돌아오는 기업에 맞아요.", limit:"배당 정책이 바뀌거나 무배당 기업에는 쓸 수 없어요."},
+  "PEG": {name:"PER ÷ 이익성장률", what:"PER을 연평균 EPS 성장률로 나눈 값. 1 안팎이면 성장 대비 적정하다고 봐요.", where:"고성장 기술·소비 성장주", why:"PER이 높아도 성장이 빠르면 비싸지 않을 수 있어 성장률로 보정해요.", limit:"미래 성장률 추정이 틀리면 결론도 틀려요."},
+};
+function valGuide(m){
+  const key = Object.keys(VAL_GUIDE).find(k => (m||"").toUpperCase().replace(/\s/g,"") === k.toUpperCase().replace(/\s/g,""));
+  return key ? [key, VAL_GUIDE[key]] : null;
+}
 function repRow(r){
   const left = r.cat==="기업" && r.stock ? `<button class="corp-link rep-stock" data-cname="${esc(r.stock)}" data-ccode="${esc(r.code||"")}">${esc(r.stock)}</button>` : r.sector ? `<span class="rep-stock">${esc(r.sector)}</span>` : "";
   const op = r.opinion || r.goal ? `<span class="rep-op">${esc(r.opinion||"")}${r.goal?` · 목표가 ${fmt(Number(r.goal),0)}원`:""}</span>` : "";
   return `<div class="rep">${left||op?`<span class="m">${left}${op}</span>`:""}<a class="t" href="${esc(r.url)}" target="_blank" rel="noopener">${r.watch?"★ ":""}${esc(r.title)}</a>
     <span class="m"><span class="c">${esc(r.cat)}</span><span>${esc(r.broker)}</span><span>${r.date ? r.date.slice(5).replace("-",".") : ""}</span>${r.pdf?`<a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>`:""}</span>
     ${r.sum&&r.sum.length?`<ul>${r.sum.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
-    ${r.val&&r.val.length?`<div class="rep-val"><b>밸류에이션</b>${r.val.map(x=>`<span>${esc(x)}</span>`).join("")}</div>`:""}</div>`;
+    ${r.val&&r.val.length ? (()=>{ const g = valGuide(r.method);
+      return `<div class="rep-val"><b>밸류에이션${r.method?` · ${esc(r.method)}`:""}</b>${r.val.map(x=>`<span>${esc(x)}</span>`).join("")}
+        ${r.why?`<span class="why"><i>왜 이 방식?</i> ${esc(r.why)}</span>`:""}
+        ${g?`<details class="vg"><summary>${esc(g[0])}(${esc(g[1].name)})란?</summary><dl>
+          <dt>방법</dt><dd>${esc(g[1].what)}</dd><dt>주로 쓰는 곳</dt><dd>${esc(g[1].where)}</dd>
+          <dt>쓰는 이유</dt><dd>${esc(g[1].why)}</dd><dt>한계</dt><dd>${esc(g[1].limit)}</dd></dl></details>`:""}</div>`; })() : ""}</div>`;
 }
 function renderReports(){
   const all = MK.reports || [];
@@ -1280,6 +1320,8 @@ function renderReports(){
     : `<p class="mk-empty">${all.length ? "이 분류의 리포트가 없어요." : "리포트 목록을 받아오지 못했어요. 다음 수집 때 다시 시도해요."}</p>`;
   return `<div class="mk-head"><h2>증권사 리포트</h2><span>기업·산업·시황·투자정보 최신순</span></div>
     ${chips}<div class="panel">${body}</div>
+    <details class="panel vg-all"><summary><b>밸류에이션 방식 한눈에 보기</b> <span class="sub">PER · PBR · EV/EBITDA · SOTP · DCF 등 12가지</span></summary>
+      <div class="vg-grid">${Object.entries(VAL_GUIDE).map(([k,g])=>`<div class="vg-card"><b>${esc(k)}</b> <span class="sub">${esc(g.name)}</span><p>${esc(g.what)}</p><p><i>주로</i> ${esc(g.where)}</p><p><i>이유</i> ${esc(g.why)}</p><p><i>한계</i> ${esc(g.limit)}</p></div>`).join("")}</div></details>
     <p class="mk-note">요약은 리포트 앞부분을 AI가 3~4줄로 정리한 것이라 빠지거나 틀린 내용이 있을 수 있어요. 투자의견·목표가는 각 증권사 의견이에요. 원문은 네이버 증권 리서치에서 열려요.</p>`;
 }
 document.addEventListener("click", e=>{ const b=e.target.closest("[data-repcat]"); if(b){ REPCAT=b.dataset.repcat; renderMarket(); } });
