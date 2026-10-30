@@ -5,6 +5,16 @@
  "corp_code": "00521390",
  "disclosures": [
   {
+   "rcept_no": "20261030000390",
+   "date": "2026-10-30",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "J.P. Morgan Securities PLC가 뉴파워프라즈마 보유 지분을 5.37%에서 4.33%(1,892,737주)로 줄였다고 보고했습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000390",
+   "seen": "16:24"
+  },
+  {
    "rcept_no": "20261029900625",
    "date": "2026-10-29",
    "title": "교환청구권행사",

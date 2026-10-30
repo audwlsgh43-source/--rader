@@ -5,6 +5,26 @@
  "corp_code": "00492894",
  "disclosures": [
   {
+   "rcept_no": "20261030000532",
+   "date": "2026-10-30",
+   "title": "합병등종료보고서(자산양수도)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000532",
+   "seen": "16:24"
+  },
+  {
+   "rcept_no": "20261030000481",
+   "date": "2026-10-30",
+   "title": "[기재정정]주요사항보고서(유형자산양수결정)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000481",
+   "seen": "16:24"
+  },
+  {
    "rcept_no": "20261026000230",
    "date": "2026-10-26",
    "title": "주식등의대량보유상황보고서(일반)",
