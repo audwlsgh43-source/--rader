@@ -1,8 +1,217 @@
 {
  "date": "2026-10-30",
- "updated_at": "2026-10-30 18:15",
- "count": 362,
+ "updated_at": "2026-10-30 19:10",
+ "count": 363,
  "items": [
+  {
+   "rcept_no": "20261030901429",
+   "date": "2026-10-30",
+   "corp": "엔비티",
+   "stock_code": "236810",
+   "corp_code": "01051065",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "유동성공급계약의체결",
+   "flr": "엔비티",
+   "rm": "코",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901429",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030901424",
+   "date": "2026-10-30",
+   "corp": "케이씨피드",
+   "stock_code": "025880",
+   "corp_code": "00101752",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "금전대여결정              (대여기간 연장)",
+   "flr": "케이씨피드",
+   "rm": "코",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901424",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030901422",
+   "date": "2026-10-30",
+   "corp": "KS인더스트리",
+   "stock_code": "101000",
+   "corp_code": "00618410",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "파산신청",
+   "flr": "KS인더스트리",
+   "rm": "코",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901422",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030901421",
+   "date": "2026-10-30",
+   "corp": "KS인더스트리",
+   "stock_code": "101000",
+   "corp_code": "00618410",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "파산신청기각",
+   "flr": "KS인더스트리",
+   "rm": "코",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901421",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030901411",
+   "date": "2026-10-30",
+   "corp": "대호특수강",
+   "stock_code": "021040",
+   "corp_code": "00166175",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "기타시장안내(관리종목지정우려종목)              (대호특수강 우선주(시가총액 20억원 미달))",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901411",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030901313",
+   "date": "2026-10-30",
+   "corp": "블루엠텍",
+   "stock_code": "439580",
+   "corp_code": "01559637",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]최대주주변경을수반하는주식양수도계약체결",
+   "flr": "블루엠텍",
+   "rm": "코",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901313",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030901264",
+   "date": "2026-10-30",
+   "corp": "KS인더스트리",
+   "stock_code": "101000",
+   "corp_code": "00618410",
+   "mkt": "코스닥",
+   "type": "capital",
+   "imp": "high",
+   "title": "전환사채(해외전환사채포함)발행후만기전사채취득              (제15회차)",
+   "flr": "KS인더스트리",
+   "rm": "코",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901264",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030801428",
+   "date": "2026-10-30",
+   "corp": "대구백화점",
+   "stock_code": "006370",
+   "corp_code": "00108977",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "투자판단관련주요경영사항",
+   "flr": "대구백화점",
+   "rm": "유",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801428",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030801427",
+   "date": "2026-10-30",
+   "corp": "진에어",
+   "stock_code": "272450",
+   "corp_code": "00653024",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]신규시설투자등",
+   "flr": "진에어",
+   "rm": "유",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801427",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030000718",
+   "date": "2026-10-30",
+   "corp": "블루엠텍",
+   "stock_code": "439580",
+   "corp_code": "01559637",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "flr": "블루엠텍",
+   "rm": "",
+   "seen": "19:10",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000718"
+  },
   {
    "rcept_no": "20261030901414",
    "date": "2026-10-30",
@@ -21,8 +230,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901414",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901414"
   },
   {
    "rcept_no": "20261030901408",
@@ -42,8 +251,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901408",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901408"
   },
   {
    "rcept_no": "20261030901407",
@@ -63,8 +272,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901407",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901407"
   },
   {
    "rcept_no": "20261030901406",
@@ -84,8 +293,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901406",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901406"
   },
   {
    "rcept_no": "20261030901399",
@@ -105,8 +314,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901399",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901399"
   },
   {
    "rcept_no": "20261030901397",
@@ -126,8 +335,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901397",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901397"
   },
   {
    "rcept_no": "20261030901396",
@@ -147,8 +356,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901396",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901396"
   },
   {
    "rcept_no": "20261030901395",
@@ -168,8 +377,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901395",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901395"
   },
   {
    "rcept_no": "20261030901384",
@@ -189,8 +398,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901384",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901384"
   },
   {
    "rcept_no": "20261030901378",
@@ -210,8 +419,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901378",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901378"
   },
   {
    "rcept_no": "20261030901376",
@@ -231,8 +440,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901376",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901376"
   },
   {
    "rcept_no": "20261030901375",
@@ -252,8 +461,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901375",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901375"
   },
   {
    "rcept_no": "20261030901372",
@@ -273,8 +482,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901372",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901372"
   },
   {
    "rcept_no": "20261030901367",
@@ -294,8 +503,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901367",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901367"
   },
   {
    "rcept_no": "20261030901365",
@@ -315,8 +524,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901365",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901365"
   },
   {
    "rcept_no": "20261030901364",
@@ -336,8 +545,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901364",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901364"
   },
   {
    "rcept_no": "20261030901360",
@@ -357,8 +566,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901360",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901360"
   },
   {
    "rcept_no": "20261030901358",
@@ -378,8 +587,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901358",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901358"
   },
   {
    "rcept_no": "20261030901348",
@@ -399,8 +608,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901348",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901348"
   },
   {
    "rcept_no": "20261030901347",
@@ -420,8 +629,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901347",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901347"
   },
   {
    "rcept_no": "20261030901340",
@@ -441,8 +650,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901340",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901340"
   },
   {
    "rcept_no": "20261030901339",
@@ -462,8 +671,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901339",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901339"
   },
   {
    "rcept_no": "20261030901312",
@@ -483,8 +692,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901312",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901312"
   },
   {
    "rcept_no": "20261030901306",
@@ -504,8 +713,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901306",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901306"
   },
   {
    "rcept_no": "20261030901231",
@@ -525,8 +734,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901231",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901231"
   },
   {
    "rcept_no": "20261030901096",
@@ -546,8 +755,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901096",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901096"
   },
   {
    "rcept_no": "20261030801389",
@@ -567,8 +776,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801389",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801389"
   },
   {
    "rcept_no": "20261030801383",
@@ -588,8 +797,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801383",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801383"
   },
   {
    "rcept_no": "20261030801377",
@@ -609,8 +818,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801377",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801377"
   },
   {
    "rcept_no": "20261030801362",
@@ -630,8 +839,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801362",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801362"
   },
   {
    "rcept_no": "20261030801361",
@@ -651,8 +860,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801361",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801361"
   },
   {
    "rcept_no": "20261030801354",
@@ -672,8 +881,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801354",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801354"
   },
   {
    "rcept_no": "20261030801350",
@@ -693,8 +902,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801350",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801350"
   },
   {
    "rcept_no": "20261030801346",
@@ -714,8 +923,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801346",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801346"
   },
   {
    "rcept_no": "20261030801338",
@@ -735,8 +944,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801338",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801338"
   },
   {
    "rcept_no": "20261030801337",
@@ -756,8 +965,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801337",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801337"
   },
   {
    "rcept_no": "20261030801331",
@@ -777,8 +986,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801331",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801331"
   },
   {
    "rcept_no": "20261030801330",
@@ -798,8 +1007,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801330",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801330"
   },
   {
    "rcept_no": "20261030801328",
@@ -819,8 +1028,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801328",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801328"
   },
   {
    "rcept_no": "20261030801323",
@@ -840,8 +1049,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801323",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801323"
   },
   {
    "rcept_no": "20261030801321",
@@ -861,8 +1070,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801321",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801321"
   },
   {
    "rcept_no": "20261030801319",
@@ -882,8 +1091,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801319",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801319"
   },
   {
    "rcept_no": "20261030801318",
@@ -903,8 +1112,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801318",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801318"
   },
   {
    "rcept_no": "20261030801308",
@@ -924,8 +1133,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801308",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801308"
   },
   {
    "rcept_no": "20261030801304",
@@ -945,8 +1154,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801304",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801304"
   },
   {
    "rcept_no": "20261030801297",
@@ -966,8 +1175,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801297",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030801297"
   },
   {
    "rcept_no": "20261030000754",
@@ -982,11 +1191,16 @@
    "flr": "키움제10호스팩",
    "rm": "",
    "seen": "18:15",
-   "ai": "",
-   "points": [],
+   "ai": "키움제10호스팩이 상대방 법인과의 합병을 결정했으며, 합병비율은 1 : 0.1912442로 정해졌다고 보고했습니다.",
+   "points": [
+    "키움제10호스팩과 상대방 법인 간 합병 결정",
+    "목적: 신규사업·기술개발 자금 조달, 재무구조 개선",
+    "합병이 완료되면 키움제10호스팩은 소멸될 수 있음",
+    "합병가액 산정에 본질가치·상대가치 등 분석 결과 반영"
+   ],
    "numbers": [],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000754"
   },
   {
@@ -1002,11 +1216,39 @@
    "flr": "광진실업",
    "rm": "",
    "seen": "18:15",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "광진실업이 제3자배정 유상증자로 주당 2,335원, 685,225주를 발행해 1,600,000,375원을 조달했으며, 조달금액은 전액 운영자금에 쓰입니다.",
+   "points": [
+    "방식: 소액공모(제3자배정 유상증자)",
+    "배정: 에스앤와이지속성장1호조합 342,612주, 에이케이제1호조합 342,613주",
+    "신고서상 예정총액 1,999,997,550원 대비 실제 조달은 1,600,000,375원",
+    "최대주주 (주)디엔티인터네셔널 지분율은 증자 전후 12.96%로 동일"
+   ],
+   "numbers": [
+    [
+     "발행총액",
+     "1,600,000,375원"
+    ],
+    [
+     "발행주식수",
+     "685,225주"
+    ],
+    [
+     "발행가액",
+     "2,335원"
+    ],
+    [
+     "최대주주 지분율(증자 전후)",
+     "12.96%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-18",
+     "kind": "신주상장",
+     "desc": "주권상장예정일(관계기관 협의로 변동 가능)"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000753"
   },
   {
@@ -1069,8 +1311,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000749",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000749"
   },
   {
    "rcept_no": "20261030000745",
@@ -1085,11 +1327,33 @@
    "flr": "김남용",
    "rm": "",
    "seen": "18:15",
-   "ai": "",
-   "points": [],
-   "numbers": [],
+   "ai": "대표이사 김남용이 시간외매매로 보통주 570,000주를 처분해 지분율이 16.33%에서 13.01%로 낮아졌습니다.",
+   "points": [
+    "시간외매매 방식으로 보통주 570,000주 처분",
+    "보고자는 등기임원인 대표이사(2018년 9월 7일 선임)",
+    "처분 후 보유 주식은 2,240,368주(13.01%)",
+    "직전 보고서 대비 지분율 3.32%p 감소"
+   ],
+   "numbers": [
+    [
+     "처분 주식수",
+     "570,000주"
+    ],
+    [
+     "처분단가",
+     "45,942원"
+    ],
+    [
+     "변동 후 보유 주식수",
+     "2,240,368주"
+    ],
+    [
+     "변동 후 지분율",
+     "13.01%"
+    ]
+   ],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000745"
   },
   {
@@ -1172,8 +1436,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000741",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000741"
   },
   {
    "rcept_no": "20261030000740",
@@ -1235,8 +1499,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000739",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000739"
   },
   {
    "rcept_no": "20261030000738",
@@ -1256,8 +1520,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000738",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000738"
   },
   {
    "rcept_no": "20261030000737",
@@ -1277,8 +1541,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000737",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000737"
   },
   {
    "rcept_no": "20261030000735",
@@ -1340,8 +1604,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000734",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000734"
   },
   {
    "rcept_no": "20261030000733",
@@ -1356,11 +1620,64 @@
    "flr": "신영증권",
    "rm": "",
    "seen": "18:15",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "신영증권이 주가연계증권 3종(제12867·12869·12873회)을 직접모집 방식으로 발행했으며, 세 종목 모두 모집금액에 미달해 부분납입으로 종결됐습니다.",
+   "points": [
+    "발행회사 직접모집으로 인수행위 없음, 청약기간 2026.10.23~10.30",
+    "3종 모두 원금비보장형·매우높은위험, 만기 2029.10.30",
+    "모집금액 100% 미달로 부분납입 종결, 청약금액 전액 배정",
+    "조달자금은 상환금 지급을 위한 위험회피(Hedge)거래 등에 사용"
+   ],
+   "numbers": [
+    [
+     "제12867회 발행총액",
+     "101,100,000원"
+    ],
+    [
+     "제12869회 발행총액",
+     "미화 195,600달러"
+    ],
+    [
+     "제12873회 발행총액",
+     "664,700,000원"
+    ],
+    [
+     "제12873회 청약금액 비율(모집총액 대비)",
+     "6.65%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2027-04-28",
+     "kind": "기타",
+     "desc": "1차 자동조기상환평가일"
+    },
+    {
+     "date": "2027-10-27",
+     "kind": "기타",
+     "desc": "2차 자동조기상환평가일"
+    },
+    {
+     "date": "2028-04-26",
+     "kind": "기타",
+     "desc": "3차 자동조기상환평가일"
+    },
+    {
+     "date": "2028-10-26",
+     "kind": "기타",
+     "desc": "4차 자동조기상환평가일"
+    },
+    {
+     "date": "2029-04-26",
+     "kind": "기타",
+     "desc": "5차 자동조기상환평가일"
+    },
+    {
+     "date": "2029-10-26",
+     "kind": "기타",
+     "desc": "만기상환평가일"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000733"
   },
   {
@@ -1376,11 +1693,44 @@
    "flr": "광진실업",
    "rm": "",
    "seen": "18:15",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "광진실업이 제3자배정 방식으로 보통주 685,225주(발행가액 2,335원)를 유상증자하며, 이번 정정으로 발행주식수와 조달금액이 줄었습니다.",
+   "points": [
+    "제3자배정 방식, 증권신고서 미제출 소액공모로 실시",
+    "조달자금은 운영자금(일반관리비용)으로 사용 예정",
+    "대상자는 에스앤와이지속성장1호조합, 에이케이제1호조합",
+    "정정: 발행주식수 856,530주→685,225주, 조달액 약 20억→16억원"
+   ],
+   "numbers": [
+    [
+     "신주 보통주식 수",
+     "685,225주"
+    ],
+    [
+     "발행가액",
+     "2,335원"
+    ],
+    [
+     "운영자금 조달금액",
+     "1,600,000,375원"
+    ],
+    [
+     "증자전 발행주식총수",
+     "7,928,326주"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-10-30",
+     "kind": "납입일",
+     "desc": "신주 대금 납입 예정일"
+    },
+    {
+     "date": "2026-11-18",
+     "kind": "신주상장",
+     "desc": "신주 상장 예정일"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000732"
   },
   {
@@ -1396,11 +1746,54 @@
    "flr": "최석주",
    "rm": "",
    "seen": "18:15",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "최석주 최대주주가 10월 22~29일 장내매수로 보유비율을 42.01%에서 42.82%로 높였으며, 주식담보대출 계약 정보를 정정했습니다.",
+   "points": [
+    "방식: 2026년 10월 22~29일 장내 매수로 168,226주 추가 취득",
+    "목적: 경영권에 영향을 주기 위한 목적으로 보고",
+    "계약: 주식담보대출 7건, 계약 상대방은 증권사 7곳",
+    "정정: 계약기간 오타 수정, KB증권 이자율 5.7%→6.1%로 변경"
+   ],
+   "numbers": [
+    [
+     "보유비율",
+     "42.82%"
+    ],
+    [
+     "직전 대비 증가 주식수",
+     "168,226주"
+    ],
+    [
+     "주요계약 체결 주식등 비율",
+     "25.40%"
+    ],
+    [
+     "대신증권 차입금",
+     "10억원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-12-30",
+     "kind": "기타",
+     "desc": "삼성증권 주식담보대출 계약기간 만료"
+    },
+    {
+     "date": "2027-01-25",
+     "kind": "기타",
+     "desc": "우리투자증권·다올투자증권 담보대출 계약기간 만료"
+    },
+    {
+     "date": "2027-01-28",
+     "kind": "기타",
+     "desc": "KB증권 주식담보대출 계약기간 만료"
+    },
+    {
+     "date": "2027-04-26",
+     "kind": "기타",
+     "desc": "신한·하나·대신증권 담보대출 계약기간 만료"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000731"
   },
   {
@@ -1441,8 +1834,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000729",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000729"
   },
   {
    "rcept_no": "20261030000728",
@@ -1482,8 +1875,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000726",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000726"
   },
   {
    "rcept_no": "20261030000725",
@@ -1503,8 +1896,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000725",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000725"
   },
   {
    "rcept_no": "20261030000724",
@@ -1566,8 +1959,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000723",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000723"
   },
   {
    "rcept_no": "20261030000722",
@@ -1587,8 +1980,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000722",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000722"
   },
   {
    "rcept_no": "20261030000721",
@@ -1608,8 +2001,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000721",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000721"
   },
   {
    "rcept_no": "20261030000720",
@@ -1624,11 +2017,33 @@
    "flr": "크레버스",
    "rm": "",
    "seen": "18:15",
-   "ai": "",
-   "points": [],
-   "numbers": [],
+   "ai": "크레버스가 서울 양천구 목동 토지 및 건물을 250억원에 양도하는 거래가 2026년 10월 30일 잔금 지급 완료로 종료됐다고 보고했습니다.",
+   "points": [
+    "양도인 크레버스, 양수인 박*순 외 2인과 토지·건물 양수도",
+    "2026년 8월 28일 이사회 결의 및 계약 체결 후 잔금 지급",
+    "외부평가는 지안회계법인이 수행(2026.8.6~8.28)",
+    "재무정보 증감은 6월말 별도재무제표 기준 단순 가감 수치"
+   ],
+   "numbers": [
+    [
+     "양수도 금액",
+     "250억원"
+    ],
+    [
+     "자산총계 증감",
+     "95억원"
+    ],
+    [
+     "이익잉여금 증감",
+     "129억원"
+    ],
+    [
+     "부채총계 증감",
+     "-34억원"
+    ]
+   ],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000720"
   },
   {
@@ -1649,8 +2064,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000719",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000719"
   },
   {
    "rcept_no": "20261030000711",
@@ -1665,11 +2080,44 @@
    "flr": "벡트로보틱스",
    "rm": "",
    "seen": "18:15",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "벡트로보틱스가 제3자배정 방식으로 보통주 3,673,610주(발행가 2,273원)를 발행하는 유상증자를 결정했으며, 납입일은 2026년 12월 30일로 변경되었습니다.",
+   "points": [
+    "제3자배정 사모 방식, 대상자는 제이케이1호투자조합",
+    "기준주가 대비 10% 할인한 2,273원으로 발행가 산정",
+    "조달자금 8,350,115,530원 전액 운영자금(원재료 매입 등)으로 사용",
+    "신주 1년간 전량 의무보유, 납입 완료 후 최대주주 변경 예정"
+   ],
+   "numbers": [
+    [
+     "신주 수(보통주)",
+     "3,673,610주"
+    ],
+    [
+     "발행가액",
+     "2,273원"
+    ],
+    [
+     "조달금액(운영자금)",
+     "8,350,115,530원"
+    ],
+    [
+     "기준주가 할인율",
+     "-10%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-12-30",
+     "kind": "납입일",
+     "desc": "신주 대금 납입일(국민은행 부평종합금융센터)"
+    },
+    {
+     "date": "2027-01-19",
+     "kind": "신주상장",
+     "desc": "신주 상장 예정일"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000711"
   },
   {
