@@ -1,8 +1,401 @@
 {
  "date": "2026-10-30",
- "updated_at": "2026-10-30 12:18",
- "count": 92,
+ "updated_at": "2026-10-30 13:08",
+ "count": 98,
  "items": [
+  {
+   "rcept_no": "20261030900471",
+   "date": "2026-10-30",
+   "corp": "태광",
+   "stock_code": "023160",
+   "corp_code": "00153375",
+   "mkt": "코스닥",
+   "type": "div",
+   "imp": "mid",
+   "title": "중간(분기)배당을위한주주명부폐쇄(기준일)결정",
+   "flr": "태광",
+   "rm": "코",
+   "seen": "13:08",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030900471",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030900451",
+   "date": "2026-10-30",
+   "corp": "SKAI",
+   "stock_code": "357880",
+   "corp_code": "01381984",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "전환가액의조정",
+   "flr": "SKAI",
+   "rm": "코",
+   "seen": "13:08",
+   "ai": "SKAI 제6회차 전환사채의 전환가액이 시가하락에 따라 2,685원에서 1,880원으로 조정되며, 2026-10-30부터 적용됩니다.",
+   "points": [
+    "시가하락에 따른 전환가액 조정 공시",
+    "1개월·1주일·최근일 가중산술평균주가의 산술평균 등을 기준으로 산정",
+    "최초 전환가액의 70%를 최저 조정한도로 적용해 1,880원 결정",
+    "별도 이사회 없이 조정 진행"
+   ],
+   "numbers": [
+    [
+     "조정전 전환가액",
+     "2,685원"
+    ],
+    [
+     "조정후 전환가액",
+     "1,880원"
+    ],
+    [
+     "조정전 전환가능 주식수",
+     "1,117,318주"
+    ],
+    [
+     "조정후 전환가능 주식수",
+     "1,595,744주"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030900451"
+  },
+  {
+   "rcept_no": "20261030900449",
+   "date": "2026-10-30",
+   "corp": "유티아이",
+   "stock_code": "179900",
+   "corp_code": "00961774",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "임시주주총회결과",
+   "flr": "유티아이",
+   "rm": "코",
+   "seen": "13:08",
+   "ai": "유티아이 임시주주총회에서 자기주식 보유·처분 계획 승인의 건이 가결됐습니다. 의결권 행사 주식 기준 찬성률은 100%입니다.",
+   "points": [
+    "자기주식 보유·처분 계획 승인의 건(보통결의) 가결",
+    "의결권 행사 주식 기준 찬성 100%, 반대·기권 0%",
+    "북미고객 영업현황 보고사항 진행",
+    "소집결의 2026-07-20, 소집공고 2026-10-16"
+   ],
+   "numbers": [
+    [
+     "발행주식총수 기준 찬성률",
+     "36.6%"
+    ],
+    [
+     "의결권 행사 주식 기준 찬성률",
+     "100%"
+    ],
+    [
+     "반대·기권 등 비율",
+     "0%"
+    ],
+    [
+     "의결권행사기준일",
+     "2026-08-04"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030900449"
+  },
+  {
+   "rcept_no": "20261030900448",
+   "date": "2026-10-30",
+   "corp": "프레스티지바이오로직스",
+   "stock_code": "334970",
+   "corp_code": "01258428",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "대표이사변경",
+   "flr": "프레스티지바이오로직스",
+   "rm": "코",
+   "seen": "13:08",
+   "ai": "프레스티지바이오로직스는 2026년 10월 30일 이사회에서 김진우 대표이사의 자진사임에 따라 임영수를 신임 대표이사로 선임했습니다.",
+   "points": [
+    "김진우 대표이사가 일신상의 사유로 자진사임",
+    "김진우는 사내이사직을 유지하고 잔여 임기 직무 수행",
+    "임영수는 경영지원본부장(2019~2025년), 공장장(2025년~) 경력 보유",
+    "이사회결의일 2026-10-30, 사외이사 3명 참석, 불참 0명"
+   ],
+   "numbers": [
+    [
+     "임영수 보유 주식수",
+     "18,449주"
+    ],
+    [
+     "임영수 지분비율",
+     "0.02%"
+    ],
+    [
+     "사외이사 참석",
+     "3명"
+    ],
+    [
+     "사외이사 불참",
+     "0명"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030900448"
+  },
+  {
+   "rcept_no": "20261030900447",
+   "date": "2026-10-30",
+   "corp": "에스지헬스케어",
+   "stock_code": "398120",
+   "corp_code": "01179866",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]단일판매ㆍ공급계약체결",
+   "flr": "에스지헬스케어",
+   "rm": "코",
+   "seen": "13:08",
+   "ai": "우즈베키스탄 의료기자재 공급계약(17억1,010만원, 최근 매출액 대비 10.6%)을 체결했으며, 잔금 지급 승인 지연으로 계약 종료일이 2026-12-31로 변경되었습니다.",
+   "points": [
+    "우즈베키스탄 대상 의료기자재 공급 계약, 자체생산 방식",
+    "계약금·선급금 없이 중도금 90%, 잔금 10% 조건",
+    "잔금 지급 검토·승인 절차 지연으로 종료일 2026-10-31에서 2026-12-31로 변경",
+    "계약상대방 관련 내용은 영업기밀 비공개 요청으로 유보"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "1,710,100,000원"
+    ],
+    [
+     "매출액 대비",
+     "10.6%"
+    ],
+    [
+     "최근 매출액",
+     "16,104,629,986원"
+    ],
+    [
+     "잔금 비율",
+     "10%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-12-31",
+     "kind": "기타",
+     "desc": "계약기간 종료일(납품완료일 기준)"
+    },
+    {
+     "date": "2026-12-31",
+     "kind": "기타",
+     "desc": "계약상대방 관련 공시 유보기한"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030900447"
+  },
+  {
+   "rcept_no": "20261030800462",
+   "date": "2026-10-30",
+   "corp": "LS에코에너지",
+   "stock_code": "229640",
+   "corp_code": "01093007",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]타법인주식및출자증권취득결정",
+   "flr": "LS에코에너지",
+   "rm": "유",
+   "seen": "13:08",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800462",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030800461",
+   "date": "2026-10-30",
+   "corp": "동국제강",
+   "stock_code": "460860",
+   "corp_code": "01765265",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "high",
+   "title": "영업(잠정)실적(공정공시)",
+   "flr": "동국제강",
+   "rm": "유",
+   "seen": "13:08",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800461",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030800459",
+   "date": "2026-10-30",
+   "corp": "제일기획",
+   "stock_code": "030000",
+   "corp_code": "00148276",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "제일기획",
+   "rm": "유",
+   "seen": "13:08",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800459",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030800458",
+   "date": "2026-10-30",
+   "corp": "현대건설",
+   "stock_code": "000720",
+   "corp_code": "00164478",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "현대건설",
+   "rm": "유",
+   "seen": "13:08",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800458",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030000159",
+   "date": "2026-10-30",
+   "corp": "현대건설",
+   "stock_code": "000720",
+   "corp_code": "00164478",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+   "flr": "현대건설",
+   "rm": "공",
+   "seen": "13:08",
+   "ai": "현대건설이 계열 금융회사와 2027년 수신·여신 거래 3,000억원 등 금융거래를 하기로 하고, 2026년 10월 30일 이사회에서 의결했다고 공시했습니다.",
+   "points": [
+    "공정거래법 제26조에 따른 계열 금융회사 거래상대방 공시",
+    "수신·여신 거래는 2027.01.01~2027.12.31 기간",
+    "기타 금융거래·회사채 등은 2027.01.01~2027.03.31 기간",
+    "이사회 의결일은 2026.10.30"
+   ],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000159"
+  },
+  {
+   "rcept_no": "20261030000156",
+   "date": "2026-10-30",
+   "corp": "지엠비코리아",
+   "stock_code": "013870",
+   "corp_code": "00156354",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "최완욱",
+   "rm": "",
+   "seen": "13:08",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000156",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261030000146",
+   "date": "2026-10-30",
+   "corp": "컬러레이",
+   "stock_code": "900310",
+   "corp_code": "01236286",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "의결권대리행사권유참고서류",
+   "flr": "컬러레이",
+   "rm": "",
+   "seen": "13:08",
+   "ai": "컬러레이홀딩스는 11월 16일 임시주총에 Gloray Star International 주식 100° 취득 안건과 사내이사 선임안을 상정하고, 의결 정족수 확보를 위해 의결권 대리행사를 권유합니다.",
+   "points": [
+    "의안1: 타법인 주식 취득 결정(RMB 36,000,000, 현금), 정관상 특별결의 대상",
+    "취득 목적: 대상회사 지배력 확보, Zhejiang Kaisilei 간접 지배력 확대",
+    "거래 종결은 특별결의 및 선행조건 충족 후 5영업일 이내 예정",
+    "의안2: 사내이사 이준남 신규선임, 권유자는 의사정족수 확보 목적"
+   ],
+   "numbers": [
+    [
+     "취득금액",
+     "RMB 36,000,000"
+    ],
+    [
+     "취득지분율",
+     "100%"
+    ],
+    [
+     "간접취득 지분율",
+     "90%"
+    ],
+    [
+     "특별관계자 소유비율",
+     "45.56%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-04",
+     "kind": "기타",
+     "desc": "의결권 대리행사 권유 시작 및 위임장 접수 시작"
+    },
+    {
+     "date": "2026-11-15",
+     "kind": "기타",
+     "desc": "의결권 대리행사 권유 종료 및 위임장 접수 마감"
+    },
+    {
+     "date": "2026-11-16",
+     "kind": "주주총회",
+     "desc": "임시주주총회: 타법인 주식 취득, 이준남 사내이사 선임 안건"
+    },
+    {
+     "date": "2026-12-31",
+     "kind": "기타",
+     "desc": "주식 양수대금 2차 지급(RMB 20,000,000) 기한"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000146"
+  },
   {
    "rcept_no": "20261030900445",
    "date": "2026-10-30",
@@ -21,8 +414,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030900445",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030900445"
   },
   {
    "rcept_no": "20261030900424",
@@ -186,8 +579,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800444",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800444"
   },
   {
    "rcept_no": "20261030800443",
@@ -207,8 +600,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800443",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800443"
   },
   {
    "rcept_no": "20261030800437",
@@ -228,8 +621,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800437",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030800437"
   },
   {
    "rcept_no": "20261030800434",
@@ -384,8 +777,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000143",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030000143"
   },
   {
    "rcept_no": "20261030000142",
