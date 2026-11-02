@@ -1,0 +1,28 @@
+{
+ "name": "삼천당제약",
+ "code": "000250",
+ "mkt": "코스닥",
+ "corp_code": "00128546",
+ "disclosures": [
+  {
+   "rcept_no": "20261102900634",
+   "date": "2026-11-02",
+   "title": "투자판단관련주요경영사항              (황반변성치료제(주성분: Aflibercept) 바이오시밀러 SCD411의 일본 독점판매권 및 공급계약 체결)",
+   "type": "contract",
+   "imp": "high",
+   "ai": "삼천당제약이 SCD411(아플리버셉트 바이오시밀러)의 일본 독점판매권 및 공급계약을 Daiichi Sankyo Espha와 체결했다고 공시했습니다. 계약금과 마일스톤 등 세부 금액은 공개하지 않았습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102900634",
+   "seen": "16:59"
+  },
+  {
+   "rcept_no": "20261102900593",
+   "date": "2026-11-02",
+   "title": "투자판단관련주요경영사항              (황반변성치료제(주성분: Aflibercept) 바이오시밀러 SCD411의 일본 독점판매권 및 공급계약 해지)",
+   "type": "contract",
+   "imp": "high",
+   "ai": "삼천당제약은 SCD411의 일본 독점판매권 및 공급계약을 SENJU Pharmaceutical과 양사 합의로 2026년 11월 2일 해지했다고 공시했다. 같은 날 Daiichi Sankyo Espha와 신규 계약을 체결했다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102900593",
+   "seen": "16:59"
+  }
+ ]
+}
