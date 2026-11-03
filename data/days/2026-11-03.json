@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "updated_at": "2026-11-03 18:35",
+ "updated_at": "2026-11-03 19:33",
  "count": 238,
  "items": [
   {
@@ -21,8 +21,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900703",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900703"
   },
   {
    "rcept_no": "20261103900701",
@@ -243,8 +243,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800711",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800711"
   },
   {
    "rcept_no": "20261103800677",
