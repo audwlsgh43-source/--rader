@@ -34,6 +34,11 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/fetch_market.py
+      - name: 뉴스 수집
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/fetch_news.py
       - name: 종목 상세
         continue-on-error: true
         env:
