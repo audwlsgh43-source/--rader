@@ -188,6 +188,11 @@ def morning_brief(state: dict, now: datetime, url: str):
         out.append(f'<b>국내 전일 마감</b> ({d[5:].replace("-", ".")})\n' +
                    " · ".join(f'{esc(i["name"])} {i["close"]:,.2f} ({pct(i["pct"])})' for i in mk["indices"][:2]))
 
+    nw = load(DATA / "news" / "latest.json", {}).get("digest") or {}
+    if nw.get("topics"):
+        lines = [f'· <a href="{esc(t["refs"][0])}">{esc(t["text"])}</a>' if t.get("refs") else f'· {esc(t["text"])}' for t in nw["topics"][:5]]
+        out.append("<b>주요 뉴스</b>" + (f' — <i>{esc(nw.get("headline"))}</i>' if nw.get("headline") else "") + "\n" + "\n".join(lines))
+
     evs = load(DATA / "events.json", {}).get("items", []) + load(DATA / "events_auto.json", {}).get("items", [])
     todays = [e for e in evs if e.get("d") == today]
     todays.sort(key=lambda e: (e.get("c") not in watch, e.get("c", "")))

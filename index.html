@@ -221,6 +221,27 @@ body[data-view="market"] #viewDisclosure, body[data-view="disclosure"] #viewMark
 body[data-view="talk"] #viewDisclosure, body[data-view="talk"] #viewMarket{display:none}
 body:not([data-view="talk"]) #viewTalk{display:none}
 body:not([data-view="tax"]) #viewTax{display:none}
+body:not([data-view="news"]) #viewNews{display:none}
+body[data-view="news"] #viewDisclosure, body[data-view="news"] #viewMarket{display:none}
+#viewNews{display:flex;flex-direction:column;gap:14px;padding:14px 0 40px}
+.nw-list{display:flex;flex-direction:column}
+.nw{padding:12px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:3px}
+.nw:last-child{border-bottom:0}
+.nw .m{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.nw .m .press{color:var(--ink);font-weight:600}
+.nw .m .c{color:var(--accent);font-weight:600}
+.nw a.t{color:var(--ink);text-decoration:none;font-size:15px;font-weight:500;line-height:1.45}
+.nw a.t:hover{color:var(--accent)}
+.nw .ai{margin:2px 0 0}
+.nw .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:2px}
+.nw .tags .corp-link{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:1px 8px;color:var(--muted)}
+.nw .tags .corp-link.w{border-color:var(--accent);color:var(--accent)}
+.dg-list{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}
+.dg-list li{display:flex;gap:8px;align-items:baseline;font-size:14px;line-height:1.5}
+.dg-list li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);flex:none;transform:translateY(-2px)}
+.dg-list a{color:var(--ink);text-decoration:none}
+.dg-list a:hover{color:var(--accent)}
+.dg-list .n{font-size:11px;color:var(--muted);margin-left:4px;white-space:nowrap}
 body[data-view="tax"] #viewDisclosure, body[data-view="tax"] #viewMarket{display:none}
 body[data-view="tax"] .search{visibility:hidden}
 #viewTax{display:flex;flex-direction:column;gap:14px;padding:14px 0 40px}
@@ -488,7 +509,7 @@ footer{border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
     <div class="today" id="today"></div>
     <label class="search" for="q">
       <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M20 20l-4.2-4.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input id="q" type="search" placeholder="종목명·공시 제목 검색" autocomplete="off">
+      <input id="q" type="search" placeholder="종목명·공시·뉴스 검색" autocomplete="off">
     </label>
     <button class="iconbtn" id="refreshBtn" aria-label="새로고침">
       <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M19.5 4.5v4h-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -500,6 +521,7 @@ footer{border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
   <div class="wrap"><nav class="maintabs" role="tablist" aria-label="메뉴">
     <button role="tab" data-view="disclosure" aria-selected="true">공시</button>
     <button role="tab" data-view="market" aria-selected="false">시황</button>
+    <button role="tab" data-view="news" aria-selected="false">뉴스</button>
     <button role="tab" data-view="tax" aria-selected="false">세금</button>
     <button role="tab" data-view="talk" aria-selected="false" hidden>토론</button><!-- 토론 탭: 보류 중. 다시 열려면 hidden과 아래 TALK_ON을 바꾸세요 -->
   </nav></div>
@@ -508,6 +530,7 @@ footer{border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
 <div class="wrap">
   <div class="runbar" id="runbar" role="status" aria-live="polite"><span class="dot"></span><span id="runtext"></span></div>
   <section id="viewMarket" aria-label="시황"></section>
+  <section id="viewNews" aria-label="뉴스"></section>
   <section id="viewTax" aria-label="세금"></section>
   <section id="viewTalk" aria-label="토론">
     <div class="mk-head"><h2>토론</h2><span>GitHub 계정으로 로그인하면 글을 쓸 수 있어요</span></div>
@@ -823,7 +846,7 @@ document.addEventListener("click", ev=>{
   if(ev.target.closest("#wkPrev")){ state.wk--; state.day=null; renderCal(); return; }
   if(ev.target.closest("#wkNext")){ state.wk++; state.day=null; renderCal(); return; }
 });
-$("#q").addEventListener("input", e=>{ state.q = e.target.value.trim(); renderFeed(); });
+$("#q").addEventListener("input", e=>{ state.q = e.target.value.trim(); renderFeed(); if(document.body.dataset.view==="news") renderNews(); });
 $("#newOnly").addEventListener("click", e=>{ state.newOnly=!state.newOnly; e.currentTarget.setAttribute("aria-pressed", state.newOnly); renderFeed(); });
 // 화면을 떠날 때 지금까지 본 공시를 '읽음'으로 기억 (다음에 열면 그 뒤 공시만 NEW)
 document.addEventListener("visibilitychange", ()=>{ if(document.hidden && D.length) markAllSeen(); });
@@ -946,6 +969,7 @@ async function showDate(force){
 }
 async function loadReal(){
   loadMarket();
+  loadNews();
   await loadWatch();
   const getItems = async f => { try{ return (await getJSON(f)).items||[]; }catch(_){ return []; } };
   try{
@@ -1157,6 +1181,39 @@ document.addEventListener("input", e=>{
   runCalc();
 });
 document.addEventListener("change", e=>{ if(e.target.closest("#viewTax")) runCalc(); });
+
+
+/* ================= 뉴스 ================= */
+let NW = null, NWCAT = "전체";
+async function loadNews(){ try{ NW = await getJSON("data/news/latest.json"); }catch(_){ NW = null; } if(document.body.dataset.view==="news") renderNews(); }
+function nwTime(t){ if(!t) return ""; const d=t.slice(0,10), hm=t.slice(11,16); return d===TODAY ? hm : `${d.slice(5).replace("-",".")} ${hm}`; }
+function renderNews(){
+  const el = $("#viewNews");
+  if(!NW){ el.innerHTML = `<div class="mk-head"><h2>오늘의 뉴스</h2></div><div class="panel"><p class="mk-empty">뉴스 데이터가 아직 없어요. ↻로 수집을 실행하거나 다음 자동 수집을 기다려 주세요.</p></div>`; return; }
+  const items = NW.items || [], codes = NW.codes || {};
+  const cats = ["전체","★ 관심종목","주요","많이 본","속보","시황·전망","기업·종목","해외증시","해외뉴스","환율"];
+  const inCat = (x,c) => c==="전체" || (c==="★ 관심종목" ? (x.stocks||[]).some(n=>watch.has(n)) || (x.cats||[]).includes("관심종목") : (x.cats||[]).includes(c));
+  const q = (state.q||"").toLowerCase();
+  const list = items.filter(x => inCat(x,NWCAT) && (!q || (x.title+" "+(x.ai||"")+" "+(x.stocks||[]).join(" ")).toLowerCase().includes(q)));
+  const byUrl = Object.fromEntries(items.map(x=>[x.url,x]));
+  const dg = NW.digest;
+  const digest = dg && dg.topics && dg.topics.length ? `<div class="panel ai-card"><p class="hl"><span class="tag">AI</span>${esc(dg.headline||"오늘의 뉴스 브리핑")}</p>
+      <ul class="dg-list">${dg.topics.map(t=>{ const first = (t.refs||[])[0]; const a = first ? `<a href="${esc(first)}" target="_blank" rel="noopener">${esc(t.text)}</a>` : esc(t.text);
+        return `<li><span>${a}${(t.refs||[]).length>1?`<span class="n">관련 ${(t.refs||[]).length}건</span>`:""}</span></li>`; }).join("")}</ul>
+      <p class="mk-note" style="margin-top:8px">${esc((dg.at||"").slice(11))} 기준 · 2시간마다 새로 정리돼요</p></div>` : "";
+  const chips = `<div class="cats">${cats.map(c=>{ const n = items.filter(x=>inCat(x,c)).length; return `<button data-nwcat="${c}" aria-pressed="${NWCAT===c}" ${n||c==="전체"?"":"disabled"}>${c}<b>${n}</b></button>`; }).join("")}</div>`;
+  const rows = list.slice(0,150).map(x=>`<div class="nw">
+      <span class="m"><span>${nwTime(x.time)}</span><span class="press">${esc(x.press||"")}</span><span class="c">${esc((x.cats||[]).filter(c=>c!=="관심종목")[0]||"")}</span></span>
+      <a class="t" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>
+      ${x.ai?`<p class="ai"><b>AI</b><span>${esc(x.ai)}</span></p>`:""}
+      ${(x.stocks||[]).length?`<div class="tags">${x.stocks.map(n=>`<button class="corp-link ${watch.has(n)?"w":""}" data-cname="${esc(n)}" data-ccode="${esc(codes[n]||watchCodes[n]||"")}">${watch.has(n)?"★ ":""}${esc(n)}</button>`).join("")}</div>`:""}
+    </div>`).join("");
+  el.innerHTML = `<div class="mk-head"><h2>오늘의 뉴스</h2><span>${NW.updated_at?`${NW.updated_at.slice(5).replace("-",".")} 수집`:""} · ${items.length}건</span></div>
+    ${digest}${chips}
+    <div class="panel">${rows ? `<div class="nw-list">${rows}</div>` : `<p class="mk-empty">${q?"검색어에 맞는 뉴스가 없어요.":"이 분류의 뉴스가 없어요."}</p>`}</div>
+    <p class="mk-note">제목·언론사·링크는 네이버 증권 뉴스 목록에서 가져오고, 한 줄 요약과 브리핑은 AI가 제목과 짧은 설명을 바탕으로 새로 쓴 거예요. 기사 원문은 각 언론사 자료이며 링크를 누르면 열려요.</p>`;
+}
+document.addEventListener("click", e=>{ const b=e.target.closest("[data-nwcat]"); if(b){ NWCAT=b.dataset.nwcat; renderNews(); } });
 
 /* ================= 종목 상세 ================= */
 const corpCache = new Map();
@@ -1392,6 +1449,7 @@ function setView(v){
   if(location.hash !== h) history.replaceState(null, "", h || location.pathname + location.search);
   if(v==="talk") loadTalk();
   if(v==="tax") renderTax();
+  if(v==="news") renderNews();
   window.scrollTo(0,0);
 }
 /* ================= 토론 (GitHub Discussions + giscus) ================= */
@@ -1425,7 +1483,7 @@ async function loadTalk(){
 document.addEventListener("click", e=>{ const b = e.target.closest("[data-room]"); if(b){ ROOM = b.dataset.room; loadTalk(); } });
 document.querySelectorAll(".maintabs button").forEach(b=>b.addEventListener("click", ()=>setView(b.dataset.view)));
 const TALK_ON = false;  // 토론 탭 보류 중
-const VIEWS = TALK_ON ? ["#market","#tax","#talk"] : ["#market","#tax"];
+const VIEWS = TALK_ON ? ["#market","#news","#tax","#talk"] : ["#market","#news","#tax"];
 window.addEventListener("hashchange", ()=>setView(VIEWS.includes(location.hash) ? location.hash.slice(1) : "disclosure"));
 if(VIEWS.includes(location.hash)) setView(location.hash.slice(1));
 
