@@ -5,6 +5,16 @@
  "corp_code": "01368354",
  "disclosures": [
   {
+   "rcept_no": "20261103000191",
+   "date": "2026-11-03",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "J.P. Morgan Securities PLC의 네패스아크 보유비율이 5.49%에서 5.46%(665,494주)로 줄었다고 보고되었습니다. 보유목적은 단순투자입니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000191",
+   "seen": "15:25"
+  },
+  {
    "rcept_no": "20261026000358",
    "date": "2026-10-26",
    "title": "주식등의대량보유상황보고서(약식)",
