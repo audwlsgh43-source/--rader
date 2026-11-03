@@ -1,8 +1,697 @@
 {
  "date": "2026-11-03",
- "updated_at": "2026-11-03 16:25",
- "count": 174,
+ "updated_at": "2026-11-03 16:44",
+ "count": 180,
  "items": [
+  {
+   "rcept_no": "20261103900581",
+   "date": "2026-11-03",
+   "corp": "현대이지웰",
+   "stock_code": "090850",
+   "corp_code": "00656951",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "현대이지웰",
+   "rm": "코",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900581",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103900560",
+   "date": "2026-11-03",
+   "corp": "비투엔",
+   "stock_code": "307870",
+   "corp_code": "01326792",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]주주총회소집결의",
+   "flr": "비투엔",
+   "rm": "코",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900560",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103900556",
+   "date": "2026-11-03",
+   "corp": "넥써쓰",
+   "stock_code": "205500",
+   "corp_code": "01042429",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "넥써쓰",
+   "rm": "코",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900556",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103900549",
+   "date": "2026-11-03",
+   "corp": "엣지파운드리",
+   "stock_code": "105550",
+   "corp_code": "00766106",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]전환사채(해외전환사채포함)발행후만기전사채취득",
+   "flr": "엣지파운드리",
+   "rm": "코",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900549",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103900522",
+   "date": "2026-11-03",
+   "corp": "강원에너지",
+   "stock_code": "114190",
+   "corp_code": "00100601",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "임시주주총회결과",
+   "flr": "강원에너지",
+   "rm": "코",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900522",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103900519",
+   "date": "2026-11-03",
+   "corp": "베셀",
+   "stock_code": "177350",
+   "corp_code": "00813389",
+   "mkt": "코스닥",
+   "type": "capital",
+   "imp": "high",
+   "title": "전환사채(해외전환사채포함)발행후만기전사채취득              (제10회차)",
+   "flr": "베셀",
+   "rm": "코",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900519",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103900511",
+   "date": "2026-11-03",
+   "corp": "대호특수강",
+   "stock_code": "021040",
+   "corp_code": "00166175",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "임시주주총회결과",
+   "flr": "대호특수강",
+   "rm": "코",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900511",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103900506",
+   "date": "2026-11-03",
+   "corp": "파두",
+   "stock_code": "440110",
+   "corp_code": "01292291",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]단일판매ㆍ공급계약체결",
+   "flr": "파두",
+   "rm": "코",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900506",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103900482",
+   "date": "2026-11-03",
+   "corp": "아이티엠반도체",
+   "stock_code": "084850",
+   "corp_code": "00579980",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "임시주주총회결과",
+   "flr": "아이티엠반도체",
+   "rm": "코",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900482",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103800574",
+   "date": "2026-11-03",
+   "corp": "동원산업",
+   "stock_code": "006040",
+   "corp_code": "00118026",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "flr": "동원산업",
+   "rm": "유",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800574",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103800571",
+   "date": "2026-11-03",
+   "corp": "동원산업",
+   "stock_code": "006040",
+   "corp_code": "00118026",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "low",
+   "title": "결산실적공시예고(안내공시)",
+   "flr": "동원산업",
+   "rm": "유",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800571",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103800563",
+   "date": "2026-11-03",
+   "corp": "솔루엠",
+   "stock_code": "248070",
+   "corp_code": "01159233",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "최대주주등소유주식변동신고서",
+   "flr": "솔루엠",
+   "rm": "유",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800563",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103800530",
+   "date": "2026-11-03",
+   "corp": "영진약품",
+   "stock_code": "003520",
+   "corp_code": "00141149",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "주식병합결정",
+   "flr": "영진약품",
+   "rm": "유",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800530",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103800525",
+   "date": "2026-11-03",
+   "corp": "일성건설",
+   "stock_code": "013360",
+   "corp_code": "00146232",
+   "mkt": "코스피",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약해지",
+   "flr": "일성건설",
+   "rm": "유",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800525",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000308",
+   "date": "2026-11-03",
+   "corp": "BNK금융지주",
+   "stock_code": "138930",
+   "corp_code": "00858364",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "박근서",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000308",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000306",
+   "date": "2026-11-03",
+   "corp": "엔젤로보틱스",
+   "stock_code": "455900",
+   "corp_code": "01592049",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "미래에셋자산운용",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "미래에셋자산운용이 엔젤로보틱스 보유 지분을 5.09%에서 4.27%로 줄였다고 보고했습니다(변동일 2026-10-08, 접수일 2026-11-03).",
+   "points": [
+    "보유목적은 단순투자",
+    "장내매도로 124,192주 감소, ETF 설정·환매 등 기타 변동 포함",
+    "보고자는 미래에셋자산운용(금융투자업자)"
+   ],
+   "numbers": [
+    [
+     "보유 주식수 변동",
+     "783,483주 → 657,623주"
+    ],
+    [
+     "보유비율 변동",
+     "5.09% → 4.27%"
+    ],
+    [
+     "감소 주식수",
+     "125,860주"
+    ],
+    [
+     "발행주식총수",
+     "15,392,981주"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000306"
+  },
+  {
+   "rcept_no": "20261103000305",
+   "date": "2026-11-03",
+   "corp": "삼성FN리츠",
+   "stock_code": "448730",
+   "corp_code": "01688896",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "미래에셋자산운용",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "미래에셋자산운용이 삼성FN리츠 보유 주식을 직전 보고 14.80%에서 18.37%(17,342,401주)로 늘렸다고 보고했으며, 보유목적은 단순투자입니다.",
+   "points": [
+    "보고자는 미래에셋자산운용(주)이며 보고구분은 변동",
+    "보유목적은 단순투자",
+    "장내거래 및 ETF 설정 등으로 보유 주식이 증가",
+    "보고의무 발생일은 2026년 10월 16일, 작성기준일은 10월 30일"
+   ],
+   "numbers": [
+    [
+     "보유 주식 수",
+     "17,342,401주"
+    ],
+    [
+     "보유비율",
+     "18.37%"
+    ],
+    [
+     "직전 보고 대비 증가",
+     "3,864,612주(3.57%p)"
+    ],
+    [
+     "발행주식 총수",
+     "91,050,000주"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000305"
+  },
+  {
+   "rcept_no": "20261103000304",
+   "date": "2026-11-03",
+   "corp": "티에프이",
+   "stock_code": "425420",
+   "corp_code": "01035368",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "미래에셋자산운용",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "미래에셋자산운용 등 보고자의 티에프이 보유 지분이 5.07%에서 7.58%(935,717주)로 늘었으며, 보유 목적은 단순투자입니다.",
+   "points": [
+    "2026년 10월 22일~30일 장내 매수로 보유 주식 증가",
+    "보유 목적은 단순투자",
+    "보고자 본인 929,895주(7.53%), 특별관계자 5,822주 포함",
+    "직전 보고서 대비 309,785주(2.51%p) 증가"
+   ],
+   "numbers": [
+    [
+     "보유 주식수",
+     "935,717주"
+    ],
+    [
+     "보유 비율",
+     "7.58%"
+    ],
+    [
+     "직전 보유 비율",
+     "5.07%"
+    ],
+    [
+     "증가 주식수",
+     "309,785주"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000304"
+  },
+  {
+   "rcept_no": "20261103000303",
+   "date": "2026-11-03",
+   "corp": "KB발해인프라",
+   "stock_code": "415640",
+   "corp_code": "01880801",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "미래에셋자산운용",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000303",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000302",
+   "date": "2026-11-03",
+   "corp": "신한서부티엔디리츠",
+   "stock_code": "404990",
+   "corp_code": "01436558",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "미래에셋자산운용",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000302",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000301",
+   "date": "2026-11-03",
+   "corp": "미래에셋글로벌리츠",
+   "stock_code": "396690",
+   "corp_code": "01576102",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "미래에셋자산운용",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000301",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000300",
+   "date": "2026-11-03",
+   "corp": "비투엔",
+   "stock_code": "307870",
+   "corp_code": "01326792",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "주주총회소집공고",
+   "flr": "비투엔",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000300",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000297",
+   "date": "2026-11-03",
+   "corp": "NICE",
+   "stock_code": "034310",
+   "corp_code": "00158316",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "김원우",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000297",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000296",
+   "date": "2026-11-03",
+   "corp": "한화투자증권",
+   "stock_code": "003530",
+   "corp_code": "00148610",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "증권발행실적보고서",
+   "flr": "한화투자증권",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000296",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000294",
+   "date": "2026-11-03",
+   "corp": "KG스틸",
+   "stock_code": "016380",
+   "corp_code": "00115676",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]주요사항보고서(타법인주식및출자증권양수결정)",
+   "flr": "KG스틸",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000294"
+  },
+  {
+   "rcept_no": "20261103000289",
+   "date": "2026-11-03",
+   "corp": "삼성생명",
+   "stock_code": "032830",
+   "corp_code": "00126256",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "특수관계인에대한출자",
+   "flr": "삼성생명",
+   "rm": "공",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000289",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000288",
+   "date": "2026-11-03",
+   "corp": "솔루엠",
+   "stock_code": "248070",
+   "corp_code": "01159233",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "전성호",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000288",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000284",
+   "date": "2026-11-03",
+   "corp": "티앤이코리아",
+   "stock_code": "0053F0",
+   "corp_code": "01543043",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "씨케이디창업투자",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000284"
+  },
+  {
+   "rcept_no": "20261103000281",
+   "date": "2026-11-03",
+   "corp": "삼성생명",
+   "stock_code": "032830",
+   "corp_code": "00126256",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "특수관계인에대한주식의처분",
+   "flr": "삼성생명",
+   "rm": "공",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000281",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261103000246",
+   "date": "2026-11-03",
+   "corp": "엑스페릭스",
+   "stock_code": "317770",
+   "corp_code": "01231786",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "flr": "엑스페릭스",
+   "rm": "",
+   "seen": "16:44",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000246"
+  },
   {
    "rcept_no": "20261103900528",
    "date": "2026-11-03",
@@ -21,8 +710,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900528",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900528"
   },
   {
    "rcept_no": "20261103900508",
@@ -42,8 +731,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900508",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900508"
   },
   {
    "rcept_no": "20261103900475",
@@ -63,8 +752,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900475",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900475"
   },
   {
    "rcept_no": "20261103900449",
@@ -787,11 +1476,64 @@
    "flr": "서진시스템",
    "rm": "코",
    "seen": "16:25",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "최대주주 전동규가 보유주식을 담보로 제공한 계약의 내용을 정정했습니다(주식담보대출 연장). 누적 담보 12건, 주식 7,242,964주입니다.",
+   "points": [
+    "정정사유: 주식담보대출 연장, 계약 정정일 2026-11-03",
+    "최대주주 전동규, 누적 12건 주식 담보제공(7,242,964주)",
+    "순번12: 스틱세콰이아홀딩스 채무 담보로 350만주 제공",
+    "순번12는 담보설정금액 대신 주식 매각 매매대금을 기재"
+   ],
+   "numbers": [
+    [
+     "채무(차입)금액 총액",
+     "693억원"
+    ],
+    [
+     "담보설정금액 총액",
+     "2,477.8억원"
+    ],
+    [
+     "공시일 현재 소유 주식 수",
+     "9,968,288주"
+    ],
+    [
+     "누적 담보제공 주식 총수",
+     "7,242,964주"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-30",
+     "kind": "기타",
+     "desc": "전동규 담보제공기간 종료(케이프 3건, 한국투자 1건)"
+    },
+    {
+     "date": "2026-12-14",
+     "kind": "기타",
+     "desc": "유화증권 담보제공기간 종료"
+    },
+    {
+     "date": "2026-12-30",
+     "kind": "기타",
+     "desc": "KB증권 담보제공기간 종료"
+    },
+    {
+     "date": "2027-02-01",
+     "kind": "기타",
+     "desc": "현대차증권 담보제공기간 종료"
+    },
+    {
+     "date": "2027-02-02",
+     "kind": "기타",
+     "desc": "대신증권 담보제공기간 종료"
+    },
+    {
+     "date": "2027-03-02",
+     "kind": "기타",
+     "desc": "NH투자증권 담보제공기간 종료"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900379"
   },
   {
@@ -857,8 +1599,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800526",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800526"
   },
   {
    "rcept_no": "20261103800516",
@@ -878,8 +1620,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800516",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800516"
   },
   {
    "rcept_no": "20261103800501",
@@ -899,8 +1641,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800501",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800501"
   },
   {
    "rcept_no": "20261103800500",
@@ -920,8 +1662,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800500",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800500"
   },
   {
    "rcept_no": "20261103800498",
@@ -941,8 +1683,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800498",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800498"
   },
   {
    "rcept_no": "20261103800496",
@@ -962,8 +1704,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800496",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103800496"
   },
   {
    "rcept_no": "20261103800494",
@@ -1840,8 +2582,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000271",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000271"
   },
   {
    "rcept_no": "20261103000270",
@@ -1861,8 +2603,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000270",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000270"
   },
   {
    "rcept_no": "20261103000269",
@@ -1877,11 +2619,33 @@
    "flr": "삼성생명",
    "rm": "공",
    "seen": "16:25",
-   "ai": "",
-   "points": [],
-   "numbers": [],
+   "ai": "삼성생명이 서민금융진흥원에 금전 157억원을 증여하기로 2026년 10월 29일 이사회에서 결의했으며, 기금은 특수관계인 삼성미소금융재단으로 지급됩니다.",
+   "points": [
+    "수증자는 비특수관계인 서민금융진흥원이며 증여 방식은 금전",
+    "서민금융진흥원이 기금을 받은 후 삼성미소금융재단으로 지급",
+    "2026년부터 향후 5년간 분할 지급 예정",
+    "실제 증여가액은 향후 계획과 집행 상황에 따라 변동 가능"
+   ],
+   "numbers": [
+    [
+     "증여가액",
+     "157억원"
+    ],
+    [
+     "증여누계금액",
+     "157억원"
+    ],
+    [
+     "자산총액 대비",
+     "0.01%"
+    ],
+    [
+     "직전사업연도말 자산총액",
+     "309조9,482억9,400만원"
+    ]
+   ],
    "events": [],
-   "analyzed": false,
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000269"
   },
   {
@@ -1897,11 +2661,44 @@
    "flr": "크래프톤",
    "rm": "",
    "seen": "16:25",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
+   "ai": "크래프톤이 2026년 11월 4일부터 2027년 2월 3일까지 유가증권시장에서 자기주식 1,651,073주(약 3,000억원)를 직접 취득해 소각할 예정이라고 공시했습니다.",
+   "points": [
+    "취득 방식: 유가증권시장 직접 취득(미래에셋증권 위탁)",
+    "목적: 자기주식 취득 및 소각을 통한 주주가치 제고",
+    "취득 후 주식은 주주환원 정책에 따라 전량 소각 예정",
+    "주가 변동에 따라 실제 취득 주식수와 금액이 달라질 수 있음"
+   ],
+   "numbers": [
+    [
+     "취득예정금액",
+     "2,999억 9,996만 4,100원"
+    ],
+    [
+     "취득예정주식수",
+     "1,651,073주"
+    ],
+    [
+     "취득 전 자기주식 보유",
+     "672,276주 (1.5%)"
+    ],
+    [
+     "1일 매수 주문수량 한도",
+     "165,107주"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-04",
+     "kind": "기타",
+     "desc": "자기주식 취득 예상기간 시작일"
+    },
+    {
+     "date": "2027-02-03",
+     "kind": "기타",
+     "desc": "자기주식 취득 예상기간 종료일"
+    }
+   ],
+   "analyzed": true,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000268"
   },
   {
@@ -1922,8 +2719,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000266",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000266"
   },
   {
    "rcept_no": "20261103000265",
@@ -2641,8 +3438,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000238",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103000238"
   },
   {
    "rcept_no": "20261103000237",
