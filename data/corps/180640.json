@@ -5,6 +5,26 @@
  "corp_code": "00983040",
  "disclosures": [
   {
+   "rcept_no": "20261104800732",
+   "date": "2026-11-04",
+   "title": "최대주주등소유주식변동신고서(최대주주변경시)",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104800732",
+   "seen": "18:39"
+  },
+  {
+   "rcept_no": "20261104800730",
+   "date": "2026-11-04",
+   "title": "최대주주변경",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104800730",
+   "seen": "18:39"
+  },
+  {
    "rcept_no": "20261102800358",
    "date": "2026-11-02",
    "title": "풍문또는보도에대한해명(미확정)",
