@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-05",
+ "updated_at": "2026-11-05 07:39",
+ "count": 2,
+ "items": [
+  {
+   "rcept_no": "20261104000392",
+   "date": "2026-11-05",
+   "corp": "제주항공",
+   "stock_code": "089590",
+   "corp_code": "00555874",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "동일인등출자계열회사와의상품ㆍ용역거래",
+   "flr": "제주항공",
+   "rm": "공",
+   "seen": "07:39",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000392"
+  },
+  {
+   "rcept_no": "20261104000391",
+   "date": "2026-11-05",
+   "corp": "제주항공",
+   "stock_code": "089590",
+   "corp_code": "00555874",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "동일인등출자계열회사와의상품ㆍ용역거래",
+   "flr": "제주항공",
+   "rm": "공",
+   "seen": "07:39",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261104000391"
+  }
+ ]
+}
