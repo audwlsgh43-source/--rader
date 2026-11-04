@@ -1,53 +1,53 @@
 {
- "updated_at": "2026-11-04 11:48",
+ "updated_at": "2026-11-04 12:34",
  "digest": {
-  "at": "2026-11-04 09:58",
-  "headline": "중간선거 관망 속 코스피 반등, 코스닥 700선 붕괴",
+  "at": "2026-11-04 12:34",
+  "headline": "미 중간선거 불안에 글로벌 증시 급락",
   "topics": [
    {
-    "text": "미국 중간선거 관망 속 닛케이 하락, 뉴욕증시 혼조",
+    "text": "민주당 선전에 나스닥 선물·아시아 증시 일제히 급락",
     "refs": [
-     "https://n.news.naver.com/mnews/article/003/0014300018",
-     "https://n.news.naver.com/mnews/article/654/0000209293"
+     "https://n.news.naver.com/mnews/article/018/0006403507",
+     "https://n.news.naver.com/mnews/article/001/0016421145",
+     "https://n.news.naver.com/mnews/article/421/0009269479"
     ]
    },
    {
-    "text": "미국 반도체 훈풍에 코스피 장초반 급등, 5800선 회복",
+    "text": "코스피 장중 하락 전환…외국인 1조원 넘게 순매도",
     "refs": [
-     "https://n.news.naver.com/mnews/article/009/0005758651?sid=101258401",
-     "https://n.news.naver.com/mnews/article/138/0002247168",
-     "https://n.news.naver.com/mnews/article/629/0000548493"
+     "https://n.news.naver.com/mnews/article/629/0000548648",
+     "https://n.news.naver.com/mnews/article/421/0009269399?sid=101258401",
+     "https://n.news.naver.com/mnews/article/001/0016420900?sid=101258401"
     ]
    },
    {
-    "text": "코스닥 장중 700선 붕괴…약 3개월 만에 600선대 진입",
+    "text": "쿠팡Inc, 3분기 영업손실 6,423억원…3개 분기 연속 적자",
     "refs": [
-     "https://n.news.naver.com/mnews/article/018/0006403381",
-     "https://n.news.naver.com/mnews/article/014/0005599116?sid=101258401",
-     "https://n.news.naver.com/mnews/article/008/0005436279?sid=101258401"
+     "https://n.news.naver.com/mnews/article/001/0016421165",
+     "https://n.news.naver.com/mnews/article/001/0016421164",
+     "https://n.news.naver.com/mnews/article/001/0016421158"
     ]
    },
    {
-    "text": "HLB 리보세라닙 FDA 허가 내년으로…주가 19%대 급락",
+    "text": "민주당 승리 가능성…AI 규제 입법·한국 반도체 영향 주목",
     "refs": [
-     "https://n.news.naver.com/mnews/article/011/0004678517",
-     "https://n.news.naver.com/mnews/article/031/0001071989",
-     "https://n.news.naver.com/mnews/article/008/0005436278?sid=101258402"
+     "https://n.news.naver.com/mnews/article/277/0005837955",
+     "https://n.news.naver.com/mnews/article/422/0000922761?sid=101258401"
     ]
    },
    {
-    "text": "하이브 3분기 순익 90% 가까이 급감, 10%대 하락",
+    "text": "한진칼 경영권 지분 경쟁에 주가 변동성 확대",
     "refs": [
-     "https://n.news.naver.com/mnews/article/366/0001202417",
-     "https://n.news.naver.com/mnews/article/008/0005436286"
+     "https://n.news.naver.com/mnews/article/016/0002718737",
+     "https://n.news.naver.com/mnews/article/016/0002718738",
+     "https://n.news.naver.com/mnews/article/421/0009269409"
     ]
    },
    {
-    "text": "SK텔레콤·대웅제약 영업익 증가, LG생활건강은 급락",
+    "text": "고금리 장기화로 코스닥·중소기업 자금조달 난항",
     "refs": [
-     "https://n.news.naver.com/mnews/article/016/0002718563",
-     "https://n.news.naver.com/mnews/article/001/0016420465",
-     "https://n.news.naver.com/mnews/article/421/0009269043?sid=101258401"
+     "https://n.news.naver.com/mnews/article/016/0002718739",
+     "https://n.news.naver.com/mnews/article/016/0002718695"
     ]
    }
   ]
@@ -70,6 +70,342 @@
   "대한항공": "003490"
  },
  "items": [
+  {
+   "title": "美중간선거 민주당 선전에 나스닥 선물·亞증시 일제히 급락",
+   "press": "이데일리",
+   "time": "2026-11-04 12:30",
+   "url": "https://n.news.naver.com/mnews/article/018/0006403507",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "민주당 선전에 미국 주가선물·아시아 증시 급락, 국채는 강세",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "美중간선거 민주당 선전에 나스닥 선물·亞증시 일제히 급락",
+   "press": "이데일리",
+   "time": "2026-11-04 12:30",
+   "url": "https://n.news.naver.com/mnews/article/018/0006403507?sid=101258403",
+   "cats": [
+    "해외증시"
+   ],
+   "stocks": [],
+   "ai": "민주당 선전에 미국 주가선물·아시아 증시 급락, 국채는 강세",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "3분기에도 6천억 넘는 영업손실 기록한 쿠팡Inc",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:21",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421165",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 3분기 영업손실 6,423억원…전년 대비 적자 전환",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "쿠팡Inc, 3개분기 연속 적자",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:21",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421164",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 3분기 6,423억원 손실로 3개 분기 연속 적자",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "3분기에도 6천억 넘는 영업손실 기록한 쿠팡Inc",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:21",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421163",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 3분기 영업손실 6,423억원…전년 대비 적자 전환",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "3분기에도 6천억 넘는 영업손실 기록한 쿠팡Inc",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:21",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421162",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 3분기 영업손실 6,423억원…전년 대비 적자 전환",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "쿠팡Inc, 3개분기 연속 적자",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:21",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421161",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 3분기 6,423억원 손실로 3개 분기 연속 적자",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "쿠팡Inc, 3개분기 연속 적자",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:21",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421160",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 3분기 6,423억원 손실로 3개 분기 연속 적자",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "쿠팡Inc, 3개분기 연속 적자",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:20",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421159",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 3분기 6,423억원 손실로 3개 분기 연속 적자",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "쿠팡Inc, 개인정보 유출사태 이후 3개 분기 연속 적자",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:20",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421158",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 개인정보 유출 후 1분기부터 3분기 연속 영업적자",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "쿠팡Inc, 개인정보 유출사태 이후 3개 분기 연속 적자",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:20",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421157",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 개인정보 유출 후 1분기부터 3분기 연속 영업적자",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "쿠팡Inc, 개인정보 유출사태 이후 3개 분기 연속 적자",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:20",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421156",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 개인정보 유출 후 1분기부터 3분기 연속 영업적자",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "쿠팡Inc, 3분기 영업손실 6천423억원",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:20",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421155",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 3분기 영업손실 6,423억원…전년 대비 적자 전환",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "쿠팡Inc, 3분기 영업손실 6천423억원",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:20",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421154",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "쿠팡Inc, 3분기 영업손실 6,423억원…전년 대비 적자 전환",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "파이낸셜타임스 \"中, 자국 IB들에게 IPO 주관 중단시켜\"",
+   "press": "한국경제",
+   "time": "2026-11-04 12:19",
+   "url": "https://n.news.naver.com/mnews/article/015/0005350120",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "FT 보도, 중국 증감위가 자국 IB에 IPO 주관 중단 지시",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "파이낸셜타임스 \"中, 자국 IB들에게 IPO 주관 중단시켜\"",
+   "press": "한국경제",
+   "time": "2026-11-04 12:19",
+   "url": "https://n.news.naver.com/mnews/article/015/0005350120?sid=101258403",
+   "cats": [
+    "해외증시"
+   ],
+   "stocks": [],
+   "ai": "FT 보도, 중국 증감위가 자국 IB에 IPO 주관 중단 지시",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "美 반도체 반등도 못 버텼다…코스피 3%대 급락세로 전환",
+   "press": "더팩트",
+   "time": "2026-11-04 12:13",
+   "url": "https://n.news.naver.com/mnews/article/629/0000548648",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "코스피 장중 2%대 상승에서 3%대 급락 전환, 외국인 1조원 매도",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "[美중간선거, 운명의 날]민주, 의회 장악땐 AI 규제 입법 본격화 가능성",
+   "press": "아시아경제",
+   "time": "2026-11-04 12:07",
+   "url": "https://n.news.naver.com/mnews/article/277/0005837955",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "민주당 의회 장악 시 AI 규제 입법 본격화 가능성 거론",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "[美중간선거, 운명의 날]민주, 의회 장악땐 AI 규제 입법 본격화 가능성",
+   "press": "아시아경제",
+   "time": "2026-11-04 12:07",
+   "url": "https://n.news.naver.com/mnews/article/277/0005837955?sid=101258403",
+   "cats": [
+    "해외증시"
+   ],
+   "stocks": [],
+   "ai": "민주당 의회 장악 시 AI 규제 입법 본격화 가능성 거론",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "日 닛케이지수 3.56% 급락…美 중간선거 영향 반도체주 하락",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:04",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421145",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "닛케이 오전장 3.56% 급락, 미 중간선거 영향에 반도체주 약세",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "日 닛케이지수 3.56% 급락…美 중간선거 영향 반도체주 하락",
+   "press": "연합뉴스",
+   "time": "2026-11-04 12:04",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421145?sid=101258403",
+   "cats": [
+    "해외증시"
+   ],
+   "stocks": [],
+   "ai": "닛케이 오전장 3.56% 급락, 미 중간선거 영향에 반도체주 약세",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "신규 자영업자 5명 중 1명 \"취업 못해 사장님 됐다\"",
+   "press": "한국일보",
+   "time": "2026-11-04 12:00",
+   "url": "https://n.news.naver.com/mnews/article/469/0000963546",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "최근 1년 내 창업자 5명 중 1명은 취업난 때문, 절반은 준비 3개월 미만",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "[美중간선거]텍사스 주지사 민주 16%p 선두…나스닥 선물 2% 급락",
+   "press": "뉴스1",
+   "time": "2026-11-04 11:58",
+   "url": "https://n.news.naver.com/mnews/article/421/0009269479",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "텍사스 주지사 민주당 후보 16%p 선두, 나스닥 선물 2% 가까이 급락",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "[美중간선거]텍사스 주지사 민주 16%p 선두…나스닥 선물 2% 급락",
+   "press": "뉴스1",
+   "time": "2026-11-04 11:58",
+   "url": "https://n.news.naver.com/mnews/article/421/0009269479?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "텍사스 주지사 민주당 후보 16%p 선두, 나스닥 선물 2% 가까이 급락",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "통신사들, AI 날개달고 3분기 실적 ‘껑충’",
+   "press": "문화일보",
+   "time": "2026-11-04 11:57",
+   "url": "https://n.news.naver.com/mnews/article/021/0002830254",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "주요 통신사 3분기 영업이익 대폭 증가, AI 데이터센터가 성장 동력",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "美 중간선거에 증시 '출렁'…코스피 하락 전환",
+   "press": "연합뉴스TV",
+   "time": "2026-11-04 11:53",
+   "url": "https://n.news.naver.com/mnews/article/422/0000922762?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "블룸버그 \"美민주당 승리 가능성…韓반도체 영향 주목\"",
+   "press": "연합뉴스TV",
+   "time": "2026-11-04 11:51",
+   "url": "https://n.news.naver.com/mnews/article/422/0000922761?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-04 12:34"
+  },
+  {
+   "title": "키움증권, 사우디 식품의약청장 초청 간담회…바이오 진출 모색",
+   "press": "연합뉴스TV",
+   "time": "2026-11-04 11:43",
+   "url": "https://n.news.naver.com/mnews/article/422/0000922756?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-04 11:48"
+  },
   {
    "title": "[게시판] 에프앤가이드·보난자랩, 디지털자산 분류체계 논문 게재",
    "press": "연합뉴스",
@@ -95,12 +431,12 @@
    "first_seen": "2026-11-04 11:48"
   },
   {
-   "title": "키움증권, 사우디 식품의약청장 초청 간담회…바이오 진출 모색",
-   "press": "연합뉴스TV",
-   "time": "2026-11-04 11:43",
-   "url": "https://n.news.naver.com/mnews/article/422/0000922756?sid=101258401",
+   "title": "스톤브릿지벤처스 투자기업 '올거나이즈', 도쿄증시 상장",
+   "press": "연합뉴스",
+   "time": "2026-11-04 11:41",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421013?sid=101258403",
    "cats": [
-    "시황·전망"
+    "해외증시"
    ],
    "stocks": [],
    "ai": "",
@@ -119,12 +455,12 @@
    "first_seen": "2026-11-04 11:48"
   },
   {
-   "title": "스톤브릿지벤처스 투자기업 '올거나이즈', 도쿄증시 상장",
+   "title": "블룸버그 이코노미스트 \"美민주당 승리 가능성…韓반도체 영향 주목\"",
    "press": "연합뉴스",
-   "time": "2026-11-04 11:41",
-   "url": "https://n.news.naver.com/mnews/article/001/0016421013?sid=101258403",
+   "time": "2026-11-04 11:39",
+   "url": "https://n.news.naver.com/mnews/article/001/0016421006?sid=101258401",
    "cats": [
-    "해외증시"
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -167,18 +503,6 @@
    "first_seen": "2026-11-04 11:48"
   },
   {
-   "title": "블룸버그 이코노미스트 \"美민주당 승리 가능성…韓반도체 영향 주목\"",
-   "press": "연합뉴스",
-   "time": "2026-11-04 11:39",
-   "url": "https://n.news.naver.com/mnews/article/001/0016421006?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-04 11:48"
-  },
-  {
    "title": "토스증권, AI 기반 게시글 검수 도입…불법 리딩방·욕설 차단 강화",
    "press": "더팩트",
    "time": "2026-11-04 11:38",
@@ -215,22 +539,23 @@
    "first_seen": "2026-11-04 11:48"
   },
   {
-   "title": "지분 확보전에 주가 연일 요동…변동성 확대 추격매수 주의보 [한진칼 경영권 분쟁]",
+   "title": "경영권 다툼 주총까지 가면 국민연금 의결권이 ‘키’ [한진칼 경영권 분쟁]",
    "press": "헤럴드경제",
    "time": "2026-11-04 11:37",
-   "url": "https://n.news.naver.com/mnews/article/016/0002718738",
+   "url": "https://n.news.naver.com/mnews/article/016/0002718737",
    "cats": [
-    "속보"
+    "속보",
+    "주요"
    ],
    "stocks": [],
    "ai": "",
    "first_seen": "2026-11-04 11:48"
   },
   {
-   "title": "경영권 다툼 주총까지 가면 국민연금 의결권이 ‘키’ [한진칼 경영권 분쟁]",
+   "title": "지분 확보전에 주가 연일 요동…변동성 확대 추격매수 주의보 [한진칼 경영권 분쟁]",
    "press": "헤럴드경제",
    "time": "2026-11-04 11:37",
-   "url": "https://n.news.naver.com/mnews/article/016/0002718737",
+   "url": "https://n.news.naver.com/mnews/article/016/0002718738",
    "cats": [
     "속보"
    ],
@@ -328,6 +653,18 @@
    "title": "[美중간선거] 나스닥 선물 급락…\"장기 투자자에 매수 기회\"",
    "press": "뉴스1",
    "time": "2026-11-04 11:29",
+   "url": "https://n.news.naver.com/mnews/article/421/0009269405?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-04 11:48"
+  },
+  {
+   "title": "[美중간선거] 나스닥 선물 급락…\"장기 투자자에 매수 기회\"",
+   "press": "뉴스1",
+   "time": "2026-11-04 11:29",
    "url": "https://n.news.naver.com/mnews/article/421/0009269405",
    "cats": [
     "속보"
@@ -349,15 +686,15 @@
    "first_seen": "2026-11-04 11:48"
   },
   {
-   "title": "[美중간선거] 나스닥 선물 급락…\"장기 투자자에 매수 기회\"",
+   "title": "美 선거 '위험회피' 외인 1조 '팔자'…코스피 5500선까지 밀려[장중시황]",
    "press": "뉴스1",
-   "time": "2026-11-04 11:29",
-   "url": "https://n.news.naver.com/mnews/article/421/0009269405?sid=101258401",
+   "time": "2026-11-04 11:24",
+   "url": "https://n.news.naver.com/mnews/article/421/0009269399?sid=101258401",
    "cats": [
     "시황·전망"
    ],
    "stocks": [],
-   "ai": "",
+   "ai": "미 중간선거 개표 속 외국인 1조 넘게 순매도, 코스피 5500선 하락",
    "first_seen": "2026-11-04 11:48"
   },
   {
@@ -382,18 +719,6 @@
    ],
    "stocks": [],
    "ai": "미·이란, 러·우크라 종전 기대감에 국제유가 하락세 이어져",
-   "first_seen": "2026-11-04 11:48"
-  },
-  {
-   "title": "美 선거 '위험회피' 외인 1조 '팔자'…코스피 5500선까지 밀려[장중시황]",
-   "press": "뉴스1",
-   "time": "2026-11-04 11:24",
-   "url": "https://n.news.naver.com/mnews/article/421/0009269399?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "미 중간선거 개표 속 외국인 1조 넘게 순매도, 코스피 5500선 하락",
    "first_seen": "2026-11-04 11:48"
   },
   {
@@ -467,6 +792,18 @@
    "stocks": [],
    "ai": "증권사 리포트: 한국항공우주 재평가 분석, LG엔솔은 내년 이익 추정치 하향",
    "first_seen": "2026-11-04 11:48"
+  },
+  {
+   "title": "주가 바닥에 베팅한 안철수, 넉달 만에 88억 잭팟",
+   "press": "이데일리",
+   "time": "2026-11-04 11:16",
+   "url": "https://n.news.naver.com/mnews/article/018/0006403469",
+   "cats": [
+    "많이 본"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-04 12:34"
   },
   {
    "title": "주가 바닥에 베팅한 안철수, 넉달 만에 88억 잭팟",
@@ -756,6 +1093,18 @@
    "stocks": [],
    "ai": "토스증권, 커뮤니티에 AI 게시글 검수 도입…욕설·불법 리딩방 거름",
    "first_seen": "2026-11-04 10:59"
+  },
+  {
+   "title": "[단독] 은행에 거절당해 집 잃을 판…주담대 채무조정 10명 중 6명 ‘퇴짜’",
+   "press": "매일경제",
+   "time": "2026-11-04 10:50",
+   "url": "https://n.news.naver.com/mnews/article/009/0005758726",
+   "cats": [
+    "많이 본"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-04 12:34"
   },
   {
    "title": "[그래픽] 북한 해커 바이낸스 해킹 어떻게 했나",
@@ -1245,7 +1594,8 @@
    "time": "2026-11-04 09:59",
    "url": "https://n.news.naver.com/mnews/article/277/0005837800",
    "cats": [
-    "주요"
+    "주요",
+    "많이 본"
    ],
    "stocks": [
     "삼성전자"
@@ -4595,374 +4945,10 @@
    "stocks": [],
    "ai": "",
    "first_seen": "2026-11-03 19:34"
-  },
-  {
-   "title": "[올댓차이나] 홍콩 증시, 中 경기부양 기대에 사흘째 상승 마감… H주 0.47%↑",
-   "press": "뉴시스",
-   "time": "2026-11-03 19:12",
-   "url": "https://n.news.naver.com/mnews/article/003/0014299050",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-03 19:34"
-  },
-  {
-   "title": "삼성바이오에피스, 테바와 5600억 규모 시밀러 2종 판매 계약",
-   "press": "비즈워치",
-   "time": "2026-11-03 18:51",
-   "url": "https://n.news.naver.com/mnews/article/648/0000052248",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "삼성바이오에피스, 테바와 5600억 규모 시밀러 2종 판매 계약 체결",
-   "first_seen": "2026-11-03 19:34"
-  },
-  {
-   "title": "3S, 주식병합 결정 임시주총서 부결",
-   "press": "이데일리",
-   "time": "2026-11-03 18:43",
-   "url": "https://n.news.naver.com/mnews/article/018/0006403040",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "3S 주식병합 안건, 임시주주총회에서 부결",
-   "first_seen": "2026-11-03 19:34"
-  },
-  {
-   "title": "엔비디아, 네이버 투자금 1조3천412억원 확정…지분율 4.13%",
-   "press": "연합뉴스",
-   "time": "2026-11-03 18:42",
-   "url": "https://n.news.naver.com/mnews/article/001/0016419584",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "엔비디아의 네이버 투자금 1조3412억원 확정, 지분율 4.13%",
-   "first_seen": "2026-11-03 19:34"
-  },
-  {
-   "title": "‘이런 주식 차트 봤어?’ 하루만에 30% 급등…우선주까지 상한가 친 한진칼 [종목Pick]",
-   "press": "헤럴드경제",
-   "time": "2026-11-03 18:41",
-   "url": "https://n.news.naver.com/mnews/article/016/0002718340",
-   "cats": [
-    "주요",
-    "속보",
-    "많이 본"
-   ],
-   "stocks": [
-    "한진칼"
-   ],
-   "ai": "한진칼 하루 30% 급등, 우선주까지 상한가…지분 경쟁 재점화",
-   "first_seen": "2026-11-03 19:34"
-  },
-  {
-   "title": "삼성생명, 금산법 위반 우려 속 에스원 주식 13만7000주 매각",
-   "press": "아시아경제",
-   "time": "2026-11-03 18:38",
-   "url": "https://n.news.naver.com/mnews/article/277/0005837570",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [
-    "삼성생명"
-   ],
-   "ai": "삼성생명, 금산법 위반 우려 속 에스원 주식 13만7000주 매각",
-   "first_seen": "2026-11-03 19:34"
-  },
-  {
-   "title": "석달뒤 토큰증권 시대",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:30",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598899?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "토큰증권 시행 3개월 앞두고 준비 완료 증권사는 10대 중 1곳",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "석달뒤 토큰증권 시대",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:30",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598899",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "토큰증권 제도 시행 3개월 앞으로, 증권사 준비 상황 점검",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "미래에셋, 올해 글로벌 문화체험단 성료",
-   "press": "한국경제",
-   "time": "2026-11-03 18:23",
-   "url": "https://n.news.naver.com/mnews/article/015/0005349890?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "미래에셋박현주재단, 제29회 글로벌 문화체험단 중국 일정 마무리",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "미래에셋, 올해 글로벌 문화체험단 성료",
-   "press": "한국경제",
-   "time": "2026-11-03 18:23",
-   "url": "https://n.news.naver.com/mnews/article/015/0005349890",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "미래에셋박현주재단, 올해 글로벌 문화체험단 사업 마무리",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "\"ISP 짜기 전에 전산 예산 편성…우리아이자립펀드, 예산처 지침 어긋나\"",
-   "press": "한국경제",
-   "time": "2026-11-03 18:18",
-   "url": "https://n.news.naver.com/mnews/article/015/0005349886",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "우리아이자립펀드, ISP 전 전산예산 편성해 예산처 지침 위반 지적",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "연기금 1조·하닉 20조 ‘사자’에도 코스피 반등 불발",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598848?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "연기금 순매수와 하이닉스 자사주 매입에도 코스피 반등 못 해",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "연기금 1조·하닉 20조 ‘사자’에도 코스피 반등 불발",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598848",
-   "cats": [
-    "주요",
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "연기금 1조원대 순매수·하이닉스 20조 자사주 매입에도 코스피 반등 불발",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "미래에셋박현주재단, 올해 글로벌 문화체험단 성료",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598852?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "미래에셋박현주재단, 청소년 250명에게 중국 첨단산업 현장 체험 제공",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "美중간선거가 코스피 살릴까… S&P500은 ‘17전 17승’",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598850?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "미국 중간선거 앞두고 정책 불확실성·국채금리 주목, AI 투자 변수",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "한진칼, 30% 급등… 지분경쟁 기대에 달아오른 투심",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598847?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [
-    "한진칼"
-   ],
-   "ai": "한진칼 30% 급등 마감, 호반·조원태 회장 지분 경쟁에 투심 과열",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "‘IPO 출사표’ 에이엘로봇 \"센서·제어 기술 고도화\"",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598846?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "에이엘로봇, IPO 간담회서 힘·토크센서 등 센서·제어 기술 강조",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "미래에셋박현주재단, 올해 글로벌 문화체험단 성료",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598852",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "미래에셋박현주재단, 올해 글로벌 문화체험단 사업 마무리",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "美중간선거가 코스피 살릴까… S&P500은 ‘17전 17승’",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598850",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "미국 중간선거 앞둔 코스피 전망, S&P500은 17번 중 17번 승",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "한진칼, 30% 급등… 지분경쟁 기대에 달아오른 투심",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598847",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [
-    "한진칼"
-   ],
-   "ai": "한진칼 상한가 마감, 호반·조원태 회장 지분 확보 경쟁 부각",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "‘IPO 출사표’ 에이엘로봇 \"센서·제어 기술 고도화\"",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:16",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598846",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "에이엘로봇, 기자간담회서 센서·제어 기술 고도화 계획 밝혀",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "'토큰' 키우겠다는 증권사… 10곳 중 9곳은 \"인력 부족\"",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:13",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598835?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "증권사 10곳 중 9곳이 토큰증권 인력 부족을 겪으며, 전담인력은 회사당 평균 5명에 그침",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "'토큰' 키우겠다는 증권사… 10곳 중 9곳은 \"인력 부족\"",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-03 18:13",
-   "url": "https://n.news.naver.com/mnews/article/014/0005598835",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "내년 2월 토큰증권 시행 앞두고 증권사 10곳 중 9곳이 인력 부족 호소, 전담인력은 평균 5명",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "\"설마했는데 진짜 上쳤네\"…'곡소리' 속 나홀로 '싱글벙글'한 주식",
-   "press": "아이뉴스24",
-   "time": "2026-11-03 18:12",
-   "url": "https://n.news.naver.com/mnews/article/031/0001071908",
-   "cats": [
-    "주요",
-    "속보",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "코스피가 크게 하락한 3일, 호반그룹과 조원태 회장의 한진칼 지분 매입 경쟁에 한진칼이 상한가",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "삼성생명, 에스원 주식 13만7천주 매각…금산법 위반 우려에",
-   "press": "연합뉴스",
-   "time": "2026-11-03 18:12",
-   "url": "https://n.news.naver.com/mnews/article/001/0016419520",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [
-    "삼성생명"
-   ],
-   "ai": "삼성생명이 에스원 주식 13만6천여 주를 매각해 지분율을 4.98%로 낮추기로 함, 금산법 우려 때문",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "[단독] 앤트로픽 '잭팟' 한투파…다음 승부수는 AI칩·휴머노이드",
-   "press": "한국경제TV",
-   "time": "2026-11-03 18:11",
-   "url": "https://n.news.naver.com/mnews/article/215/0001271539",
-   "cats": [
-    "주요",
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "한국투자파트너스가 앤트로픽 투자로 큰 평가이익을 기대, 앤트로픽은 이달 말 상장 예정",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "“퇴직연금, 장기·분산투자 해야“…금감원·금융권 ‘오래오래 캠페인’ 개최",
-   "press": "조선비즈",
-   "time": "2026-11-03 18:11",
-   "url": "https://n.news.naver.com/mnews/article/366/0001202326",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "금감원과 금융권이 퇴직연금 장기·분산투자를 권장하는 '오래오래 캠페인'을 개최함",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "[여명] 떠나는 외국인, 살얼음판 증시",
-   "press": "서울경제",
-   "time": "2026-11-03 18:10",
-   "url": "https://n.news.naver.com/mnews/article/011/0004678359?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "외국인 이탈 속 코스피 변동성 확대, 올해 7월 22%·10월 16% 급락, 중국 CXMT 위협 영향",
-   "first_seen": "2026-11-03 18:37"
-  },
-  {
-   "title": "떠나는 외국인, 살얼음판 증시[여명]",
-   "press": "서울경제",
-   "time": "2026-11-03 18:10",
-   "url": "https://n.news.naver.com/mnews/article/011/0004678359",
-   "cats": [
-    "주요",
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "외국인이 떠나며 코스피 변동성 확대, 올해 7월 22%, 10월 16% 하락, 중국 CXMT 위협 거론",
-   "first_seen": "2026-11-03 18:37"
   }
  ],
  "errors": [
+  "요약: Expecting value: line 1 column 1 (char 0)",
   "요약: Expecting value: line 1 column 1 (char 0)",
   "요약: Expecting value: line 1 column 1 (char 0)"
  ]
