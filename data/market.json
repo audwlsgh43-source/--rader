@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05 11:57",
+ "updated_at": "2026-11-05 12:51",
  "indices": [
   {
    "key": "ks11",
@@ -461,10 +461,10 @@
    "key": "KRW=X",
    "name": "원/달러",
    "kind": "fx",
-   "close": 1343.08,
-   "chg": 0.1799,
-   "pct": 0.01,
-   "date": "11.05 11:57",
+   "close": 1343.2,
+   "chg": 0.2999,
+   "pct": 0.02,
+   "date": "11.05 12:51",
    "spark": [
     1367.36,
     1354.51,
@@ -495,17 +495,17 @@
     1325.52,
     1344.8101,
     1342.9,
-    1343.08
+    1343.2
    ]
   },
   {
    "key": "DX-Y.NYB",
    "name": "달러인덱스",
    "kind": "fx",
-   "close": 101.294,
-   "chg": -0.216,
-   "pct": -0.21,
-   "date": "11.05 11:47",
+   "close": 101.269,
+   "chg": -0.241,
+   "pct": -0.24,
+   "date": "11.05 12:41",
    "spark": [
     100.97,
     101.2,
@@ -536,7 +536,7 @@
     101.75,
     101.87,
     101.51,
-    101.294
+    101.269
    ]
   },
   {
@@ -666,10 +666,10 @@
    "key": "CL=F",
    "name": "WTI 유가",
    "kind": "cmdty",
-   "close": 87.3,
-   "chg": -0.82,
-   "pct": -0.93,
-   "date": "11.05 11:47",
+   "close": 86.8,
+   "chg": -1.32,
+   "pct": -1.5,
+   "date": "11.05 12:41",
    "spark": [
     92.41,
     92.6,
@@ -700,17 +700,17 @@
     96.46,
     96.09,
     88.12,
-    87.3
+    86.8
    ]
   },
   {
    "key": "GC=F",
    "name": "금",
    "kind": "cmdty",
-   "close": 4147.7998,
-   "chg": 74.7998,
-   "pct": 1.84,
-   "date": "11.05 11:47",
+   "close": 4148.5,
+   "chg": 75.5,
+   "pct": 1.85,
+   "date": "11.05 12:41",
    "spark": [
     4321.2002,
     4168.3999,
@@ -741,17 +741,17 @@
     3969.6001,
     3940.3999,
     4073.0,
-    4147.7998
+    4148.5
    ]
   },
   {
    "key": "BTC-USD",
    "name": "비트코인",
    "kind": "crypto",
-   "close": 80478.0,
-   "chg": 3132.9531,
-   "pct": 4.05,
-   "date": "11.05 11:57",
+   "close": 80505.1094,
+   "chg": 3160.0625,
+   "pct": 4.09,
+   "date": "11.05 12:51",
    "spark": [
     85557.5625,
     83275.9297,
@@ -782,7 +782,7 @@
     78248.4531,
     76677.2969,
     77345.0469,
-    80478.0
+    80505.1094
    ]
   }
  ],
@@ -1204,8 +1204,21 @@
   "date": "2026-11-04",
   "closed": true
  },
- "yahoo_at": "2026-11-05 11:57",
+ "yahoo_at": "2026-11-05 12:51",
  "reports": [
+  {
+   "cat": "기업",
+   "title": "향후 성장의 기반을 만드는 시기",
+   "broker": "한화투자증권",
+   "date": "2026-11-05",
+   "url": "https://stock.naver.com/research/company/97725",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261105_company_816794000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97725",
+   "stock": "이노션",
+   "code": "214320",
+   "goal": "25000",
+   "opinion": ""
+  },
   {
    "cat": "기업",
    "title": "3Q26 Re: 사업 구조조정 마무리 국면",
@@ -1578,19 +1591,6 @@
    "stock": "카카오게임즈",
    "code": "293490",
    "goal": "15000",
-   "opinion": ""
-  },
-  {
-   "cat": "기업",
-   "title": "3Q26 Review : 괄목할만한 수퍼와 아쉬운 편의점",
-   "broker": "한화투자증권",
-   "date": "2026-11-05",
-   "url": "https://stock.naver.com/research/company/97695",
-   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261105_company_680102000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97695",
-   "stock": "GS리테일",
-   "code": "007070",
-   "goal": "32000",
    "opinion": ""
   },
   {
