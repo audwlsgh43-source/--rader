@@ -5,6 +5,26 @@
  "corp_code": "00111111",
  "disclosures": [
   {
+   "rcept_no": "20261105800939",
+   "date": "2026-11-05",
+   "title": "투자판단관련주요경영사항",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800939",
+   "seen": "17:58"
+  },
+  {
+   "rcept_no": "20261105800915",
+   "date": "2026-11-05",
+   "title": "소송등의제기ㆍ신청(일정금액이상의청구)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800915",
+   "seen": "17:58"
+  },
+  {
    "rcept_no": "20261105000306",
    "date": "2026-11-05",
    "title": "주식등의대량보유상황보고서(약식)",

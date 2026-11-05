@@ -5,6 +5,26 @@
  "corp_code": "00530413",
  "disclosures": [
   {
+   "rcept_no": "20261105900856",
+   "date": "2026-11-05",
+   "title": "기타주요경영사항              (제3자배정 유상증자 결정 철회)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105900856",
+   "seen": "17:58"
+  },
+  {
+   "rcept_no": "20261105000548",
+   "date": "2026-11-05",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000548",
+   "seen": "17:58"
+  },
+  {
    "rcept_no": "20261104000170",
    "date": "2026-11-04",
    "title": "[기재정정]반기보고서 (2026.06)",

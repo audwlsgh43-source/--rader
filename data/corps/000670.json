@@ -5,6 +5,16 @@
  "corp_code": "00141307",
  "disclosures": [
   {
+   "rcept_no": "20261105800854",
+   "date": "2026-11-05",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800854",
+   "seen": "17:58"
+  },
+  {
    "rcept_no": "20261102800394",
    "date": "2026-11-02",
    "title": "[기재정정]생산중단",

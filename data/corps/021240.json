@@ -1,0 +1,48 @@
+{
+ "name": "코웨이",
+ "code": "021240",
+ "mkt": "코스피",
+ "corp_code": "00170558",
+ "disclosures": [
+  {
+   "rcept_no": "20261105800925",
+   "date": "2026-11-05",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800925",
+   "seen": "17:58"
+  },
+  {
+   "rcept_no": "20261105800921",
+   "date": "2026-11-05",
+   "title": "현금ㆍ현물배당결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800921",
+   "seen": "17:58"
+  },
+  {
+   "rcept_no": "20261105800913",
+   "date": "2026-11-05",
+   "title": "유형자산취득결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800913",
+   "seen": "17:58"
+  },
+  {
+   "rcept_no": "20261105800904",
+   "date": "2026-11-05",
+   "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800904",
+   "seen": "17:58"
+  }
+ ]
+}

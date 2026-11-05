@@ -1,0 +1,38 @@
+{
+ "name": "에스원",
+ "code": "012750",
+ "mkt": "코스피",
+ "corp_code": "00158501",
+ "disclosures": [
+  {
+   "rcept_no": "20261105800948",
+   "date": "2026-11-05",
+   "title": "수시공시의무관련사항(공정공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800948",
+   "seen": "17:58"
+  },
+  {
+   "rcept_no": "20261105000556",
+   "date": "2026-11-05",
+   "title": "자기주식취득결과보고서",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000556",
+   "seen": "17:58"
+  },
+  {
+   "rcept_no": "20261105000555",
+   "date": "2026-11-05",
+   "title": "공개매수결과보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000555",
+   "seen": "17:58"
+  }
+ ]
+}
