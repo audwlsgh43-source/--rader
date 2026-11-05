@@ -5,6 +5,16 @@
  "corp_code": "00693554",
  "disclosures": [
   {
+   "rcept_no": "20261105000337",
+   "date": "2026-11-05",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000337",
+   "seen": "17:02"
+  },
+  {
    "rcept_no": "20261103900350",
    "date": "2026-11-03",
    "title": "주주총회소집결의              (임시주주총회)",

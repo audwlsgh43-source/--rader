@@ -1,0 +1,28 @@
+{
+ "name": "오성첨단소재",
+ "code": "052420",
+ "mkt": "코스닥",
+ "corp_code": "00350048",
+ "disclosures": [
+  {
+   "rcept_no": "20261105900817",
+   "date": "2026-11-05",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105900817",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105900794",
+   "date": "2026-11-05",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105900794",
+   "seen": "17:02"
+  }
+ ]
+}

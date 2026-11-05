@@ -5,6 +5,36 @@
  "corp_code": "00106313",
  "disclosures": [
   {
+   "rcept_no": "20261105800680",
+   "date": "2026-11-05",
+   "title": "[기재정정]단일판매ㆍ공급계약체결",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800680",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000361",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000361",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000347",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000347",
+   "seen": "17:02"
+  },
+  {
    "rcept_no": "20261105000315",
    "date": "2026-11-05",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

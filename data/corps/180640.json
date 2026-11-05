@@ -5,6 +5,16 @@
  "corp_code": "00983040",
  "disclosures": [
   {
+   "rcept_no": "20261105000438",
+   "date": "2026-11-05",
+   "title": "특수관계인과의내부거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000438",
+   "seen": "17:02"
+  },
+  {
    "rcept_no": "20261104800732",
    "date": "2026-11-04",
    "title": "최대주주등소유주식변동신고서(최대주주변경시)",

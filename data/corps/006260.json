@@ -1,0 +1,38 @@
+{
+ "name": "LS",
+ "code": "006260",
+ "mkt": "코스피",
+ "corp_code": "00105952",
+ "disclosures": [
+  {
+   "rcept_no": "20261105800557",
+   "date": "2026-11-05",
+   "title": "단기차입금증가결정(자회사의 주요경영사항)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800557",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000377",
+   "date": "2026-11-05",
+   "title": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000377",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000352",
+   "date": "2026-11-05",
+   "title": "특수관계인에대한출자",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000352",
+   "seen": "17:02"
+  }
+ ]
+}

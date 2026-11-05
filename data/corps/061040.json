@@ -5,6 +5,46 @@
  "corp_code": "00309831",
  "disclosures": [
   {
+   "rcept_no": "20261105900505",
+   "date": "2026-11-05",
+   "title": "대표이사변경",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105900505",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000482",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000482",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000470",
+   "date": "2026-11-05",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000470",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000359",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000359",
+   "seen": "17:02"
+  },
+  {
    "rcept_no": "20261105000117",
    "date": "2026-11-05",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

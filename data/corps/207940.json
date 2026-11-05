@@ -5,6 +5,46 @@
  "corp_code": "00877059",
  "disclosures": [
   {
+   "rcept_no": "20261105800618",
+   "date": "2026-11-05",
+   "title": "유상증자신주발행가액(안내공시)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800618",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000423",
+   "date": "2026-11-05",
+   "title": "[기재정정]투자설명서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000423",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000415",
+   "date": "2026-11-05",
+   "title": "[발행조건확정]증권신고서(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000415",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000355",
+   "date": "2026-11-05",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000355",
+   "seen": "17:02"
+  },
+  {
    "rcept_no": "20261104000338",
    "date": "2026-11-04",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

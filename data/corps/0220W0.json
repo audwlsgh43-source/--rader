@@ -5,6 +5,26 @@
  "corp_code": "02042949",
  "disclosures": [
   {
+   "rcept_no": "20261105800801",
+   "date": "2026-11-05",
+   "title": "주식소각결정(자회사의 주요경영사항)",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800801",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105800559",
+   "date": "2026-11-05",
+   "title": "최대주주등소유주식변동신고서(최대주주변경시)",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800559",
+   "seen": "17:02"
+  },
+  {
    "rcept_no": "20261105800429",
    "date": "2026-11-05",
    "title": "최대주주변경",
@@ -13,6 +33,46 @@
    "ai": "",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800429",
    "seen": "15:43"
+  },
+  {
+   "rcept_no": "20261105000376",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000376",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000367",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000367",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000344",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000344",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000341",
+   "date": "2026-11-05",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000341",
+   "seen": "17:02"
   },
   {
    "rcept_no": "20261104000107",

@@ -1,0 +1,38 @@
+{
+ "name": "티웨이홀딩스",
+ "code": "004870",
+ "mkt": "코스피",
+ "corp_code": "00109514",
+ "disclosures": [
+  {
+   "rcept_no": "20261105800782",
+   "date": "2026-11-05",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800782",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000472",
+   "date": "2026-11-05",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000472",
+   "seen": "17:02"
+  },
+  {
+   "rcept_no": "20261105000467",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000467",
+   "seen": "17:02"
+  }
+ ]
+}

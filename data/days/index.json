@@ -1,12 +1,12 @@
 {
  "today": "2026-11-05",
- "updated_at": "2026-11-05 15:43",
+ "updated_at": "2026-11-05 17:02",
  "ai": true,
  "ai_error": "Anthropic 크레딧이 부족해요. console.anthropic.com → Billing에서 크레딧을 충전해 주세요.",
  "days": [
   {
    "date": "2026-11-05",
-   "count": 220
+   "count": 384
   },
   {
    "date": "2026-11-04",
@@ -14,7 +14,7 @@
   },
   {
    "date": "2026-11-03",
-   "count": 238
+   "count": 237
   },
   {
    "date": "2026-11-02",
