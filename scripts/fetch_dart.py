@@ -13,7 +13,7 @@ ANTHROPIC_API_KEY가 있으면 주요 공시 원문을 AI가 읽고
   DART_API_KEY       (필수) OpenDART 인증키 40자리
   ANTHROPIC_API_KEY  (선택) AI 요약·일정 추출
   SUMMARY_MODEL      (선택) 기본 claude-haiku-5-5
-  MAX_SUMMARIES      (선택) 1회 실행당 새로 분석할 최대 건수, 기본 600
+  MAX_SUMMARIES      (선택) 1회 실행당 새로 분석할 최대 건수, 기본 60
   AI_TIME_LIMIT      (선택) 1회 실행에서 AI 분석에 쓸 최대 시간(초), 기본 420 = 7분
 """
 import io
@@ -121,9 +121,15 @@ def classify(title: str) -> tuple[str, str]:
     return typ, imp
 
 
+# AI 요약 대상 (비용 절감): 실적 · 유상증자 · 공급계약만
+AI_TITLES = ["영업(잠정)실적", "잠정실적", "매출액또는손익구조", "결산실적", "유상증자", "공급계약", "판매ㆍ공급"]
+
+
 def wants_ai(d: dict) -> bool:
     t = d["title"].replace(" ", "")
-    return not any(k in t for k in SKIP_AI)
+    if t.startswith("[") or any(k in t for k in SKIP_AI):   # 정정공시·정기보고서 제외
+        return False
+    return any(k in t for k in AI_TITLES)
 
 
 def fetch_list(key: str, day: str) -> list[dict]:
@@ -405,7 +411,7 @@ def main():
         sys.exit("DART_API_KEY 환경변수가 없습니다. GitHub Secrets 또는 .env에 넣어주세요.")
     ai_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     model = os.environ.get("SUMMARY_MODEL", "claude-haiku-5-5")
-    max_sum = int(os.environ.get("MAX_SUMMARIES", "600"))
+    max_sum = int(os.environ.get("MAX_SUMMARIES", "60"))
     time_limit = int(os.environ.get("AI_TIME_LIMIT", "420"))
     workers = int(os.environ.get("AI_WORKERS", "4"))        # 동시에 분석할 개수
     show_days = int(os.environ.get("SHOW_DAYS", "3"))      # 공시가 있는 최근 며칠을 보여주고 AI 분석할지

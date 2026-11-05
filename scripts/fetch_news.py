@@ -206,7 +206,8 @@ def main():
     lst = sorted(items.values(), key=lambda x: x.get("time") or "", reverse=True)[:MAX_ITEMS]
 
     # AI 한 줄 요약: 새 기사만, 25건씩 묶어서
-    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    # 뉴스 AI 요약·브리핑은 기본으로 꺼 둠 (비용 절감). 켜려면 워크플로에 NEWS_AI: "1"
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip() if os.environ.get("NEWS_AI") == "1" else ""
     errors = []
     if key:
         todo = [x for x in lst if not x.get("ai")][:100]
@@ -240,7 +241,9 @@ def main():
             except Exception as e:
                 errors.append(f"브리핑: {e}")
     else:
-        dg = old.get("digest")
+        dg = None
+        for x in lst:
+            x["ai"] = ""
 
     for x in lst:
         x.pop("_snip", None)
