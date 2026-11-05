@@ -1,0 +1,28 @@
+{
+ "name": "엘에스일렉트릭",
+ "code": "010120",
+ "mkt": "코스피",
+ "corp_code": "00105855",
+ "disclosures": [
+  {
+   "rcept_no": "20261105800509",
+   "date": "2026-11-05",
+   "title": "영업양도결정(종속회사의주요경영사항)",
+   "type": "ma",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800509",
+   "seen": "15:43"
+  },
+  {
+   "rcept_no": "20261105000308",
+   "date": "2026-11-05",
+   "title": "약관에의한금융거래시계열금융회사의거래상대방의공시",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000308",
+   "seen": "15:43"
+  }
+ ]
+}
