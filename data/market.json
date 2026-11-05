@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05 11:04",
+ "updated_at": "2026-11-05 11:57",
  "indices": [
   {
    "key": "ks11",
@@ -461,10 +461,10 @@
    "key": "KRW=X",
    "name": "원/달러",
    "kind": "fx",
-   "close": 1342.7,
-   "chg": -0.2001,
-   "pct": -0.01,
-   "date": "11.05 11:04",
+   "close": 1343.08,
+   "chg": 0.1799,
+   "pct": 0.01,
+   "date": "11.05 11:57",
    "spark": [
     1367.36,
     1354.51,
@@ -495,19 +495,18 @@
     1325.52,
     1344.8101,
     1342.9,
-    1342.7
+    1343.08
    ]
   },
   {
    "key": "DX-Y.NYB",
    "name": "달러인덱스",
    "kind": "fx",
-   "close": 101.331,
-   "chg": -0.539,
-   "pct": -0.53,
-   "date": "11.05 10:54",
+   "close": 101.294,
+   "chg": -0.216,
+   "pct": -0.21,
+   "date": "11.05 11:47",
    "spark": [
-    101.29,
     100.97,
     101.2,
     101.37,
@@ -536,7 +535,8 @@
     101.88,
     101.75,
     101.87,
-    101.331
+    101.51,
+    101.294
    ]
   },
   {
@@ -666,10 +666,10 @@
    "key": "CL=F",
    "name": "WTI 유가",
    "kind": "cmdty",
-   "close": 87.31,
-   "chg": -0.81,
-   "pct": -0.92,
-   "date": "11.05 10:54",
+   "close": 87.3,
+   "chg": -0.82,
+   "pct": -0.93,
+   "date": "11.05 11:47",
    "spark": [
     92.41,
     92.6,
@@ -700,17 +700,17 @@
     96.46,
     96.09,
     88.12,
-    87.31
+    87.3
    ]
   },
   {
    "key": "GC=F",
    "name": "금",
    "kind": "cmdty",
-   "close": 4135.5,
-   "chg": 62.5,
-   "pct": 1.53,
-   "date": "11.05 10:54",
+   "close": 4147.7998,
+   "chg": 74.7998,
+   "pct": 1.84,
+   "date": "11.05 11:47",
    "spark": [
     4321.2002,
     4168.3999,
@@ -741,17 +741,17 @@
     3969.6001,
     3940.3999,
     4073.0,
-    4135.5
+    4147.7998
    ]
   },
   {
    "key": "BTC-USD",
    "name": "비트코인",
    "kind": "crypto",
-   "close": 80670.25,
-   "chg": 3325.2031,
-   "pct": 4.3,
-   "date": "11.05 11:04",
+   "close": 80478.0,
+   "chg": 3132.9531,
+   "pct": 4.05,
+   "date": "11.05 11:57",
    "spark": [
     85557.5625,
     83275.9297,
@@ -782,7 +782,7 @@
     78248.4531,
     76677.2969,
     77345.0469,
-    80670.25
+    80478.0
    ]
   }
  ],
@@ -1031,91 +1031,91 @@
   ],
   "sectors": [
    {
-    "key": "XLK",
-    "name": "기술",
-    "close": 176.51,
-    "chg": 2.29,
-    "pct": 1.31,
-    "date": "11.05 06:00"
-   },
-   {
-    "key": "XLC",
-    "name": "커뮤니케이션",
-    "close": 101.44,
-    "chg": 1.18,
-    "pct": 1.18,
-    "date": "11.05 06:00"
-   },
-   {
-    "key": "XLI",
-    "name": "산업재",
-    "close": 171.32,
-    "chg": 1.61,
-    "pct": 0.95,
-    "date": "11.05 06:00"
-   },
-   {
-    "key": "XLRE",
-    "name": "부동산",
-    "close": 43.67,
-    "chg": 0.03,
-    "pct": 0.07,
-    "date": "11.05 06:00"
-   },
-   {
-    "key": "XLV",
-    "name": "헬스케어",
-    "close": 184.02,
-    "chg": -0.58,
-    "pct": -0.31,
-    "date": "11.05 06:00"
-   },
-   {
-    "key": "XLU",
-    "name": "유틸리티",
-    "close": 43.42,
-    "chg": -0.25,
-    "pct": -0.57,
+    "key": "XLY",
+    "name": "임의소비재",
+    "close": 122.33,
+    "chg": 5.0,
+    "pct": 4.26,
     "date": "11.05 06:00"
    },
    {
     "key": "XLF",
     "name": "금융",
-    "close": 57.19,
-    "chg": -0.37,
-    "pct": -0.64,
+    "close": 59.2,
+    "chg": 2.01,
+    "pct": 3.51,
     "date": "11.05 06:00"
    },
    {
-    "key": "XLY",
-    "name": "임의소비재",
-    "close": 117.33,
-    "chg": -0.83,
-    "pct": -0.7,
-    "date": "11.05 06:00"
-   },
-   {
-    "key": "XLE",
-    "name": "에너지",
-    "close": 66.68,
-    "chg": -0.57,
-    "pct": -0.85,
-    "date": "11.05 06:00"
-   },
-   {
-    "key": "XLB",
-    "name": "소재",
-    "close": 52.59,
-    "chg": -1.08,
-    "pct": -2.01,
+    "key": "XLC",
+    "name": "커뮤니케이션",
+    "close": 104.96,
+    "chg": 3.52,
+    "pct": 3.47,
     "date": "11.05 06:00"
    },
    {
     "key": "XLP",
     "name": "필수소비재",
-    "close": 88.95,
-    "chg": -1.88,
-    "pct": -2.07,
+    "close": 91.94,
+    "chg": 2.99,
+    "pct": 3.36,
+    "date": "11.05 06:00"
+   },
+   {
+    "key": "XLRE",
+    "name": "부동산",
+    "close": 45.12,
+    "chg": 1.45,
+    "pct": 3.32,
+    "date": "11.05 06:00"
+   },
+   {
+    "key": "XLV",
+    "name": "헬스케어",
+    "close": 189.66,
+    "chg": 5.64,
+    "pct": 3.06,
+    "date": "11.05 06:00"
+   },
+   {
+    "key": "XLB",
+    "name": "소재",
+    "close": 53.9,
+    "chg": 1.31,
+    "pct": 2.49,
+    "date": "11.05 06:00"
+   },
+   {
+    "key": "XLU",
+    "name": "유틸리티",
+    "close": 43.61,
+    "chg": 0.19,
+    "pct": 0.44,
+    "date": "11.05 06:00"
+   },
+   {
+    "key": "XLK",
+    "name": "기술",
+    "close": 176.5,
+    "chg": -0.01,
+    "pct": -0.01,
+    "date": "11.05 06:00"
+   },
+   {
+    "key": "XLI",
+    "name": "산업재",
+    "close": 169.46,
+    "chg": -1.86,
+    "pct": -1.09,
+    "date": "11.05 06:00"
+   },
+   {
+    "key": "XLE",
+    "name": "에너지",
+    "close": 63.52,
+    "chg": -3.16,
+    "pct": -4.74,
     "date": "11.05 06:00"
    }
   ],
@@ -1123,88 +1123,88 @@
    {
     "key": "NVDA",
     "name": "엔비디아",
-    "close": 206.69,
-    "chg": 4.63,
-    "pct": 2.29,
+    "close": 200.13,
+    "chg": -6.56,
+    "pct": -3.17,
     "date": "11.05 06:00"
    },
    {
     "key": "AAPL",
     "name": "애플",
-    "close": 331.9,
-    "chg": -6.42,
-    "pct": -1.9,
+    "close": 349.51,
+    "chg": 17.61,
+    "pct": 5.31,
     "date": "11.05 06:00"
    },
    {
     "key": "MSFT",
     "name": "마이크로소프트",
-    "close": 520.99,
-    "chg": 13.87,
-    "pct": 2.74,
+    "close": 555.8,
+    "chg": 34.81,
+    "pct": 6.68,
     "date": "11.05 06:00"
    },
    {
     "key": "AMZN",
     "name": "아마존",
-    "close": 250.69,
-    "chg": 5.06,
-    "pct": 2.06,
+    "close": 266.03,
+    "chg": 15.34,
+    "pct": 6.12,
     "date": "11.05 06:00"
    },
    {
     "key": "GOOGL",
     "name": "알파벳",
-    "close": 280.03,
-    "chg": 1.04,
-    "pct": 0.37,
+    "close": 288.93,
+    "chg": 8.9,
+    "pct": 3.18,
     "date": "11.05 06:00"
    },
    {
     "key": "META",
     "name": "메타",
-    "close": 621.03,
-    "chg": 14.3,
-    "pct": 2.36,
+    "close": 630.0,
+    "chg": 8.97,
+    "pct": 1.44,
     "date": "11.05 06:00"
    },
    {
     "key": "TSLA",
     "name": "테슬라",
-    "close": 398.5,
-    "chg": -5.32,
-    "pct": -1.32,
+    "close": 385.19,
+    "chg": -13.31,
+    "pct": -3.34,
     "date": "11.05 06:00"
    },
    {
     "key": "AVGO",
     "name": "브로드컴",
-    "close": 332.13,
-    "chg": 9.9,
-    "pct": 3.07,
+    "close": 325.48,
+    "chg": -6.65,
+    "pct": -2.0,
     "date": "11.05 06:00"
    },
    {
     "key": "TSM",
     "name": "TSMC",
-    "close": 404.8,
-    "chg": 6.17,
-    "pct": 1.55,
+    "close": 395.75,
+    "chg": -9.05,
+    "pct": -2.24,
     "date": "11.05 06:00"
    },
    {
     "key": "MU",
     "name": "마이크론",
-    "close": 855.1,
-    "chg": 21.5099,
-    "pct": 2.58,
+    "close": 795.23,
+    "chg": -59.87,
+    "pct": -7.0,
     "date": "11.05 06:00"
    }
   ],
   "date": "2026-11-04",
   "closed": true
  },
- "yahoo_at": "2026-11-05 11:04",
+ "yahoo_at": "2026-11-05 11:57",
  "reports": [
   {
    "cat": "기업",
@@ -1595,6 +1595,16 @@
   },
   {
    "cat": "산업",
+   "title": "중간선거 이후, 섹터별 온도차 - 운송>방산>조선=로봇",
+   "broker": "유진투자증권",
+   "date": "2026-11-05",
+   "url": "https://stock.naver.com/research/industry/46840",
+   "pdf": "https://stock.pstatic.net/stock-research/industry/63/20261105_industry_382582000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46840",
+   "sector": "etc"
+  },
+  {
+   "cat": "산업",
    "title": "미국 중간선거와 섹터 영향 분석",
    "broker": "DS투자증권",
    "date": "2026-11-05",
@@ -1734,14 +1744,13 @@
    "sector": "game"
   },
   {
-   "cat": "산업",
-   "title": "2027년 전망: 은행 중심 방어력이 관건이 되는 구간",
-   "broker": "iM증권",
+   "cat": "시황",
+   "title": "마켓레이더 - 중간선거 불확실성은 해소, AI 경계는 지속 (11월 5일)",
+   "broker": "신한투자증권",
    "date": "2026-11-05",
-   "url": "https://stock.naver.com/research/industry/46825",
-   "pdf": "https://stock.pstatic.net/stock-research/industry/61/20261105_industry_550514000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46825",
-   "sector": "bank"
+   "url": "https://stock.naver.com/research/daily/38058",
+   "pdf": "https://stock.pstatic.net/stock-research/market/21/20261105_market_805943000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38058"
   },
   {
    "cat": "시황",
@@ -1958,24 +1967,6 @@
    "url": "https://stock.naver.com/research/invest/40708",
    "pdf": "https://stock.pstatic.net/stock-research/invest/39/20261105_invest_217972000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40708"
-  },
-  {
-   "cat": "시황",
-   "title": "[시황저격] 예상된 Blue Wave, 앞서가는 AI 규제 우려",
-   "broker": "유안타증권",
-   "date": "2026-11-04",
-   "url": "https://stock.naver.com/research/daily/38043",
-   "pdf": "https://stock.pstatic.net/stock-research/market/18/20261104_market_657432000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38043",
-   "sum": [
-    "민주당의 의회 장악은 선거 전부터 반영된 시나리오라 새 악재로 보기 어렵다고 봄",
-    "추가 재정확대 견제는 장기금리 상승 압력을 낮출 수 있는 변화라고 봄",
-    "데이터센터 규제는 투자 중단보다 인허가와 집행 시점 지연 문제에 가깝다고 봄",
-    "메모리 ASP 하락을 단정하기엔 근거가 부족해 과도한 규제 우려는 경계해야 한다고 봄"
-   ],
-   "val": [],
-   "method": "",
-   "why": ""
   }
  ],
  "us_comment": {
