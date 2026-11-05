@@ -5,6 +5,16 @@
  "corp_code": "01326279",
  "disclosures": [
   {
+   "rcept_no": "20261105000193",
+   "date": "2026-11-05",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000193",
+   "seen": "14:42"
+  },
+  {
    "rcept_no": "20261105000102",
    "date": "2026-11-05",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

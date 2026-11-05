@@ -1,0 +1,28 @@
+{
+ "name": "CJ프레시웨이",
+ "code": "051500",
+ "mkt": "코스닥",
+ "corp_code": "00127954",
+ "disclosures": [
+  {
+   "rcept_no": "20261105900399",
+   "date": "2026-11-05",
+   "title": "기업설명회(IR)개최",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105900399",
+   "seen": "14:42"
+  },
+  {
+   "rcept_no": "20261105900319",
+   "date": "2026-11-05",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "type": "earn",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105900319",
+   "seen": "14:42"
+  }
+ ]
+}
