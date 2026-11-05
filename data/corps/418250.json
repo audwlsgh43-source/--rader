@@ -5,6 +5,26 @@
  "corp_code": "01579570",
  "disclosures": [
   {
+   "rcept_no": "20261105000040",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000040",
+   "seen": "09:54"
+  },
+  {
+   "rcept_no": "20261105000030",
+   "date": "2026-11-05",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000030",
+   "seen": "09:54"
+  },
+  {
    "rcept_no": "20261030900525",
    "date": "2026-10-30",
    "title": "증권발행결과(자율공시)",
