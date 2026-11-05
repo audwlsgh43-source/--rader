@@ -5,6 +5,16 @@
  "corp_code": "00276083",
  "disclosures": [
   {
+   "rcept_no": "20261105900974",
+   "date": "2026-11-05",
+   "title": "주권매매거래정지해제              (우회상장 미해당)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105900974",
+   "seen": "18:58"
+  },
+  {
    "rcept_no": "20261105900005",
    "date": "2026-11-05",
    "title": "주권매매거래정지              (우회상장여부 및 요건충족확인)",

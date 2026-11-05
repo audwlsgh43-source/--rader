@@ -5,6 +5,26 @@
  "corp_code": "00125974",
  "disclosures": [
   {
+   "rcept_no": "20261105800932",
+   "date": "2026-11-05",
+   "title": "[기재정정]회생계획인가",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800932",
+   "seen": "18:58"
+  },
+  {
+   "rcept_no": "20261105000565",
+   "date": "2026-11-05",
+   "title": "주요사항보고서(회사분할결정)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105000565",
+   "seen": "18:58"
+  },
+  {
    "rcept_no": "20261027800656",
    "date": "2026-10-27",
    "title": "[기재정정]거래처와의거래중단",

@@ -1,0 +1,48 @@
+{
+ "name": "제이알글로벌리츠",
+ "code": "348950",
+ "mkt": "코스피",
+ "corp_code": "01415892",
+ "disclosures": [
+  {
+   "rcept_no": "20261105800978",
+   "date": "2026-11-05",
+   "title": "[첨부정정]수시공시의무관련사항(공정공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800978",
+   "seen": "18:58"
+  },
+  {
+   "rcept_no": "20261105800973",
+   "date": "2026-11-05",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800973",
+   "seen": "18:58"
+  },
+  {
+   "rcept_no": "20261105800972",
+   "date": "2026-11-05",
+   "title": "[기재정정]기타경영사항(자율공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800972",
+   "seen": "18:58"
+  },
+  {
+   "rcept_no": "20261105800970",
+   "date": "2026-11-05",
+   "title": "[기재정정]수시공시의무관련사항(공정공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105800970",
+   "seen": "18:58"
+  }
+ ]
+}
