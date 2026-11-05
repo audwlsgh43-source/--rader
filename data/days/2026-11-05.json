@@ -1,8 +1,28 @@
 {
  "date": "2026-11-05",
- "updated_at": "2026-11-05 19:57",
- "count": 455,
+ "updated_at": "2026-11-05 20:52",
+ "count": 456,
  "items": [
+  {
+   "rcept_no": "20261105900985",
+   "date": "2026-11-05",
+   "corp": "신한제12호스팩",
+   "stock_code": "474660",
+   "corp_code": "01809569",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "주권매매거래정지              (상장폐지 사유발생)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "20:52",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261105900985"
+  },
   {
    "rcept_no": "20261105900974",
    "date": "2026-11-05",

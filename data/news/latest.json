@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05 19:59",
+ "updated_at": "2026-11-05 20:54",
  "digest": null,
  "codes": {
   "삼성전자": "005930",
@@ -17,6 +17,105 @@
   "NAVER": "035420"
  },
  "items": [
+  {
+   "title": "美증시 환호 터졌는데…'블루쓰나미' 휩쓸린 코스피, 韓개미 '날벼락'",
+   "press": "한국경제TV",
+   "time": "2026-11-05 20:21",
+   "url": "https://n.news.naver.com/mnews/article/215/0001271834",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-05 20:54"
+  },
+  {
+   "title": "교섭단 떠나고 합의엔 반발…삼성전자 DX노조 '명분 논란'",
+   "press": "비즈워치",
+   "time": "2026-11-05 20:20",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052346",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [
+    "삼성전자"
+   ],
+   "ai": "",
+   "first_seen": "2026-11-05 20:54"
+  },
+  {
+   "title": "상장사 기업분할 급감…\"주식매수청구권 과잉 규제\"",
+   "press": "연합뉴스TV",
+   "time": "2026-11-05 20:09",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923302",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-05 20:54"
+  },
+  {
+   "title": "상장사 기업분할 급감…\"주식매수청구권 과잉 규제\"",
+   "press": "연합뉴스TV",
+   "time": "2026-11-05 20:09",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923302?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-05 20:54"
+  },
+  {
+   "title": "반도체 급락에 코스피 5%↓…자동차는 강세",
+   "press": "연합뉴스TV",
+   "time": "2026-11-05 20:08",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923301",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-05 20:54"
+  },
+  {
+   "title": "반도체 급락에 코스피 5%↓…자동차는 강세",
+   "press": "연합뉴스TV",
+   "time": "2026-11-05 20:08",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923301?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-05 20:54"
+  },
+  {
+   "title": "반도체주 '흔들'…美 AI 규제 향방 예의주시",
+   "press": "연합뉴스TV",
+   "time": "2026-11-05 20:06",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923300",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-05 20:54"
+  },
+  {
+   "title": "반도체주 '흔들'…美 AI 규제 향방 예의주시",
+   "press": "연합뉴스TV",
+   "time": "2026-11-05 20:06",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923300?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-05 20:54"
+  },
   {
    "title": "서울 아파트 너무 올랐나…중저가 많은 강북도 '멈칫', 매물 8만 건 돌파",
    "press": "MBN",
@@ -72,7 +171,8 @@
    "url": "https://n.news.naver.com/mnews/article/021/0002830663",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -92,7 +192,7 @@
    "first_seen": "2026-11-05 19:59"
   },
   {
-   "title": "\"6만원에 샀는데 120만원 호가\"…'김구라 아들' 그리, 투자 근황 공개",
+   "title": "\"6만원에 샀는데 120만원 호가\"…김구라 아들 그리, 투자 수익률 '깜짝'",
    "press": "한국경제TV",
    "time": "2026-11-05 19:35",
    "url": "https://n.news.naver.com/mnews/article/215/0001271830",
@@ -142,12 +242,13 @@
    "first_seen": "2026-11-05 19:59"
   },
   {
-   "title": "[속보] 최태원 \"美중간선거 하나에도 증시 와장창…롤러코스터 계속될 것\"",
+   "title": "최태원 \"美중간선거 하나에도 증시 와장창…롤러코스터 계속될 것\"",
    "press": "한국경제TV",
    "time": "2026-11-05 19:17",
    "url": "https://n.news.naver.com/mnews/article/215/0001271829",
    "cats": [
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -242,6 +343,18 @@
    "title": "[단독]IMM PE 에어퍼스트 컨티뉴펀드에 유럽 최대 사모펀드 EQT 그룹 투자 받는다",
    "press": "매일경제",
    "time": "2026-11-05 18:52",
+   "url": "https://n.news.naver.com/mnews/article/009/0005759788?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-05 19:00"
+  },
+  {
+   "title": "[단독]IMM PE 에어퍼스트 컨티뉴펀드에 유럽 최대 사모펀드 EQT 그룹 투자 받는다",
+   "press": "매일경제",
+   "time": "2026-11-05 18:52",
    "url": "https://n.news.naver.com/mnews/article/009/0005759788",
    "cats": [
     "속보"
@@ -263,12 +376,12 @@
    "first_seen": "2026-11-05 19:00"
   },
   {
-   "title": "[단독]IMM PE 에어퍼스트 컨티뉴펀드에 유럽 최대 사모펀드 EQT 그룹 투자 받는다",
-   "press": "매일경제",
-   "time": "2026-11-05 18:52",
-   "url": "https://n.news.naver.com/mnews/article/009/0005759788?sid=101258402",
+   "title": "美 앰코, 광주 반도체 증설…英 엔스케일은 구미에 AIDC",
+   "press": "서울경제",
+   "time": "2026-11-05 18:46",
+   "url": "https://n.news.naver.com/mnews/article/011/0004679256?sid=101258401",
    "cats": [
-    "기업·종목"
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -287,12 +400,13 @@
    "first_seen": "2026-11-05 19:00"
   },
   {
-   "title": "美 앰코, 광주 반도체 증설…英 엔스케일은 구미에 AIDC",
-   "press": "서울경제",
-   "time": "2026-11-05 18:46",
-   "url": "https://n.news.naver.com/mnews/article/011/0004679256?sid=101258401",
+   "title": "주식 담보로 1700억 빚냈는데… 증시 급락에 잠못드는 대주주 [불안한 증시]",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-05 18:39",
+   "url": "https://n.news.naver.com/mnews/article/014/0005600259",
    "cats": [
-    "시황·전망"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -305,18 +419,6 @@
    "url": "https://n.news.naver.com/mnews/article/014/0005600259?sid=101258402",
    "cats": [
     "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-05 19:00"
-  },
-  {
-   "title": "주식 담보로 1700억 빚냈는데… 증시 급락에 잠못드는 대주주 [불안한 증시]",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-05 18:39",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600259",
-   "cats": [
-    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -781,7 +883,7 @@
    "first_seen": "2026-11-05 18:00"
   },
   {
-   "title": "금 ETF 고점 대비 36% 뚝…저가매수 기회?",
+   "title": "\"금값 폭락에 개미들 속 타는데\"…증권가 깜짝 전망에 '술렁'",
    "press": "한국경제",
    "time": "2026-11-05 17:58",
    "url": "https://n.news.naver.com/mnews/article/015/0005350842",
@@ -4799,104 +4901,6 @@
    "press": "연합뉴스",
    "time": "2026-11-05 11:05",
    "url": "https://n.news.naver.com/mnews/article/001/0016423554?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-05 11:06"
-  },
-  {
-   "title": "'역대 최대 영업익' SK바이오팜, 13% 급등…제약주 강세[핫종목",
-   "press": "뉴스1",
-   "time": "2026-11-05 11:04",
-   "url": "https://n.news.naver.com/mnews/article/421/0009271877?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-05 11:06"
-  },
-  {
-   "title": "'역대 최대 영업익' SK바이오팜, 13% 급등…제약주 강세[핫종목",
-   "press": "뉴스1",
-   "time": "2026-11-05 11:04",
-   "url": "https://n.news.naver.com/mnews/article/421/0009271877",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-05 11:06"
-  },
-  {
-   "title": "수능일 19일 증시 오전 10시 개장…마감도 1시간 순연",
-   "press": "이데일리",
-   "time": "2026-11-05 11:04",
-   "url": "https://n.news.naver.com/mnews/article/018/0006404096",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-05 11:06"
-  },
-  {
-   "title": "보원케미칼, 내달 15일 임시주총…자본준비금 이익잉여금 전입 추진",
-   "press": "뉴시스",
-   "time": "2026-11-05 11:02",
-   "url": "https://n.news.naver.com/mnews/article/003/0014303187",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-05 11:06"
-  },
-  {
-   "title": "美 직장인 60% \"AI 검수, 신입 교육만큼 고되다\"",
-   "press": "이데일리",
-   "time": "2026-11-05 11:02",
-   "url": "https://n.news.naver.com/mnews/article/018/0006404094",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-05 11:06"
-  },
-  {
-   "title": "고점 대비 반토막 난 삼전닉스…내년 실적 믿고 지금 사도 될까",
-   "press": "매일경제",
-   "time": "2026-11-05 11:01",
-   "url": "https://n.news.naver.com/mnews/article/009/0005759365",
-   "cats": [
-    "속보",
-    "주요",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-05 11:06"
-  },
-  {
-   "title": "고점 대비 반토막 난 삼전닉스…내년 실적 믿고 지금 사도 될까",
-   "press": "매일경제",
-   "time": "2026-11-05 11:01",
-   "url": "https://n.news.naver.com/mnews/article/009/0005759365?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-05 11:06"
-  },
-  {
-   "title": "김동철 “연료비 연동제 제대로 작동 안 해…산업용 전기료 인상은 최후 수단”",
-   "press": "서울경제",
-   "time": "2026-11-05 11:01",
-   "url": "https://n.news.naver.com/mnews/article/011/0004679014?sid=101258401",
    "cats": [
     "시황·전망"
    ],
