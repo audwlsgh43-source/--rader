@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06 20:41",
+ "updated_at": "2026-11-06 21:35",
  "digest": null,
  "codes": {
   "삼성전자": "005930",
@@ -20,19 +20,129 @@
  },
  "items": [
   {
+   "title": "한국 코스피 급락한 날…美 장전서 엔비디아·마이크론 '반등'",
+   "press": "이데일리",
+   "time": "2026-11-06 21:24",
+   "url": "https://n.news.naver.com/mnews/article/018/0006405386",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 21:35"
+  },
+  {
+   "title": "한국 코스피 급락한 날…美 장전서 엔비디아·마이크론 '반등'",
+   "press": "이데일리",
+   "time": "2026-11-06 21:24",
+   "url": "https://n.news.naver.com/mnews/article/018/0006405386?sid=101258403",
+   "cats": [
+    "해외증시"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 21:35"
+  },
+  {
+   "title": "AI 쇼크에 아시아 증시도 휘청…日 닛케이지수 폭락",
+   "press": "연합뉴스TV",
+   "time": "2026-11-06 21:05",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923649",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 21:35"
+  },
+  {
+   "title": "AI 쇼크에 아시아 증시도 휘청…日 닛케이지수 폭락",
+   "press": "연합뉴스TV",
+   "time": "2026-11-06 21:05",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923649?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 21:35"
+  },
+  {
+   "title": "\"반도체 펀더멘털 유효…AI 투자 불확실성 해소돼야 반등\"",
+   "press": "연합뉴스TV",
+   "time": "2026-11-06 21:04",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923648",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 21:35"
+  },
+  {
+   "title": "\"반도체 펀더멘털 유효…AI 투자 불확실성 해소돼야 반등\"",
+   "press": "연합뉴스TV",
+   "time": "2026-11-06 21:04",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923648?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 21:35"
+  },
+  {
+   "title": "[그래픽] 코스피 6.02% 급락 5000 턱걸이 마감…외인 2.7조원 순매도",
+   "press": "뉴시스",
+   "time": "2026-11-06 21:03",
+   "url": "https://n.news.naver.com/mnews/article/003/0014307288",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 21:35"
+  },
+  {
+   "title": "\"한국 선크림은 못 참지\"…주문 '2배' 폭주한 회사 '들썩'",
+   "press": "한국경제TV",
+   "time": "2026-11-06 21:00",
+   "url": "https://n.news.naver.com/mnews/article/215/0001271963",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 21:35"
+  },
+  {
+   "title": "\"바닥 밑에 지하실이\" 이틀 새 '-11%'…\"추매냐 손절이냐\" 개미들 패닉",
+   "press": "한국경제TV",
+   "time": "2026-11-06 20:46",
+   "url": "https://n.news.naver.com/mnews/article/215/0001271960",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 21:35"
+  },
+  {
    "title": "20만전자 무너졌는데 \"성과급 주식 수 많아져\" 뜻밖 글…\"주주는 피눈물 흘리는데\"",
    "press": "한국경제TV",
    "time": "2026-11-06 20:37",
    "url": "https://n.news.naver.com/mnews/article/215/0001271959",
    "cats": [
-    "속보"
+    "속보",
+    "주요"
    ],
    "stocks": [],
    "ai": "",
    "first_seen": "2026-11-06 20:41"
   },
   {
-   "title": "고팍스, 해킹 협박 메일에 매매·출금 중단…코인 전량 콜드월렛 이전",
+   "title": "고팍스, 해킹 협박 메일에 매매·출금 중단",
    "press": "동행미디어 시대",
    "time": "2026-11-06 20:34",
    "url": "https://n.news.naver.com/mnews/article/417/0001163539",
@@ -165,7 +275,7 @@
    "first_seen": "2026-11-06 20:41"
   },
   {
-   "title": "\"그렇게 떨어진다고 말했건만\"…코스피 폭락에 재조명된 '이 사람'",
+   "title": "석달 전 코스피 '5000 붕괴' 적중한 전문가…\"연말 추가 하락 가능성은 낮아\"",
    "press": "아시아경제",
    "time": "2026-11-06 19:50",
    "url": "https://n.news.naver.com/mnews/article/277/0005839339",
@@ -177,7 +287,7 @@
    "first_seen": "2026-11-06 20:41"
   },
   {
-   "title": "\"그렇게 떨어진다고 말했건만\"…코스피 폭락에 재조명된 '이 사람'",
+   "title": "석달 전 코스피 '5000 붕괴' 적중한 전문가…\"연말 추가 하락 가능성은 낮아\"",
    "press": "아시아경제",
    "time": "2026-11-06 19:50",
    "url": "https://n.news.naver.com/mnews/article/277/0005839339?sid=101258402",
@@ -243,9 +353,9 @@
    "title": "코스닥 대표기업 키운다…\"셀렉트 시총, 전체 3분의 1 수준 예상\"",
    "press": "이데일리",
    "time": "2026-11-06 19:21",
-   "url": "https://n.news.naver.com/mnews/article/018/0006405367",
+   "url": "https://n.news.naver.com/mnews/article/018/0006405367?sid=101258401",
    "cats": [
-    "속보"
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -255,9 +365,9 @@
    "title": "코스닥 대표기업 키운다…\"셀렉트 시총, 전체 3분의 1 수준 예상\"",
    "press": "이데일리",
    "time": "2026-11-06 19:21",
-   "url": "https://n.news.naver.com/mnews/article/018/0006405367?sid=101258401",
+   "url": "https://n.news.naver.com/mnews/article/018/0006405367",
    "cats": [
-    "시황·전망"
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -277,18 +387,6 @@
    "first_seen": "2026-11-06 19:50"
   },
   {
-   "title": "가상자산 거래소 고팍스, 해킹 위협에 입출금·매매 중단(종합)",
-   "press": "연합뉴스",
-   "time": "2026-11-06 19:20",
-   "url": "https://n.news.naver.com/mnews/article/001/0016427161",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 19:50"
-  },
-  {
    "title": "“1000만원어치 주식 샀어요”…코스피 폭락장에 매수 인증한 박용진",
    "press": "매일경제",
    "time": "2026-11-06 19:20",
@@ -301,36 +399,24 @@
    "first_seen": "2026-11-06 19:50"
   },
   {
+   "title": "가상자산 거래소 고팍스, 해킹 위협에 입출금·매매 중단(종합)",
+   "press": "연합뉴스",
+   "time": "2026-11-06 19:20",
+   "url": "https://n.news.naver.com/mnews/article/001/0016427161",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 19:50"
+  },
+  {
    "title": "세계 증시 뒤흔든 '중간선거 쇼크' 언제까지[뉴스추적]",
    "press": "MBN",
    "time": "2026-11-06 19:15",
    "url": "https://n.news.naver.com/mnews/article/057/0001977066",
    "cats": [
     "주요",
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 19:50"
-  },
-  {
-   "title": "'천당과 지옥' 오간 코스피…AI 반도체에 웃고 울었다",
-   "press": "연합뉴스TV",
-   "time": "2026-11-06 19:15",
-   "url": "https://n.news.naver.com/mnews/article/422/0000923628",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 19:50"
-  },
-  {
-   "title": "5000피 깨졌는데 여전히 “코스피 1만 간다”…노무라가 꼽은 ‘상승 동력’ 4가지",
-   "press": "서울경제",
-   "time": "2026-11-06 19:15",
-   "url": "https://n.news.naver.com/mnews/article/011/0004679627",
-   "cats": [
     "속보"
    ],
    "stocks": [],
@@ -356,6 +442,30 @@
    "url": "https://n.news.naver.com/mnews/article/277/0005839336?sid=101258402",
    "cats": [
     "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 19:50"
+  },
+  {
+   "title": "'천당과 지옥' 오간 코스피…AI 반도체에 웃고 울었다",
+   "press": "연합뉴스TV",
+   "time": "2026-11-06 19:15",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923628",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 19:50"
+  },
+  {
+   "title": "5000피 깨졌는데 여전히 “코스피 1만 간다”…노무라가 꼽은 ‘상승 동력’ 4가지",
+   "press": "서울경제",
+   "time": "2026-11-06 19:15",
+   "url": "https://n.news.naver.com/mnews/article/011/0004679627",
+   "cats": [
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -768,7 +878,8 @@
    "time": "2026-11-06 17:59",
    "url": "https://n.news.naver.com/mnews/article/015/0005351285",
    "cats": [
-    "주요"
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -4767,119 +4878,6 @@
    "url": "https://n.news.naver.com/mnews/article/421/0009274071?sid=101258401",
    "cats": [
     "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 11:06"
-  },
-  {
-   "title": "[기고] ‘K-치안’에 법의 뼈대를 세우자",
-   "press": "서울경제",
-   "time": "2026-11-06 11:00",
-   "url": "https://n.news.naver.com/mnews/article/011/0004679443",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 11:06"
-  },
-  {
-   "title": "미래에셋운용, 美 블루웨이브 이후 주목할 'TIGER ETF' 소개",
-   "press": "뉴시스",
-   "time": "2026-11-06 10:59",
-   "url": "https://n.news.naver.com/mnews/article/003/0014305726",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 11:06"
-  },
-  {
-   "title": "로아앤코그룹, 넥스턴앤롤코리아·이브이첨단소재 등 계열사 지분 확대",
-   "press": "머니투데이",
-   "time": "2026-11-06 10:58",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437584?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 11:06"
-  },
-  {
-   "title": "리서치센터장 긴급진단…\"투매 동참 말고 관망, 美 AI 우려 과도\"",
-   "press": "뉴시스",
-   "time": "2026-11-06 10:58",
-   "url": "https://n.news.naver.com/mnews/article/003/0014305718",
-   "cats": [
-    "속보",
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 11:06"
-  },
-  {
-   "title": "로아앤코그룹, 넥스턴앤롤코리아·이브이첨단소재 등 계열사 지분 확대",
-   "press": "머니투데이",
-   "time": "2026-11-06 10:58",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437584",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 11:06"
-  },
-  {
-   "title": "삼성전자 부사장, '글로벌 회계기준 제정'에 참여…韓 기업 목소리 커진다 [fn마켓워치]",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-06 10:58",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600478",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [
-    "삼성전자"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-06 11:06"
-  },
-  {
-   "title": "안국약품-셀비온, 방사성의약품 공동개발 본격화",
-   "press": "뉴시스",
-   "time": "2026-11-06 10:58",
-   "url": "https://n.news.naver.com/mnews/article/003/0014305717",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 11:06"
-  },
-  {
-   "title": "유한종 삼성전자 부사장, GPF 위원 선임…국제회계기준 제·개정 자문",
-   "press": "뉴시스",
-   "time": "2026-11-06 10:57",
-   "url": "https://n.news.naver.com/mnews/article/003/0014305715",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [
-    "삼성전자"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-06 11:06"
-  },
-  {
-   "title": "제이알글로벌리츠, 2028년까지 채무 전액 상환한다 [시그널]",
-   "press": "서울경제",
-   "time": "2026-11-06 10:57",
-   "url": "https://n.news.naver.com/mnews/article/011/0004679441",
-   "cats": [
-    "속보"
    ],
    "stocks": [],
    "ai": "",
