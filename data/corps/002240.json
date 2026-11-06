@@ -1,0 +1,28 @@
+{
+ "name": "고려제강",
+ "code": "002240",
+ "mkt": "코스피",
+ "corp_code": "00103006",
+ "disclosures": [
+  {
+   "rcept_no": "20261106800562",
+   "date": "2026-11-06",
+   "title": "매매거래정지및정지해제(중요내용공시)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800562",
+   "seen": "15:42"
+  },
+  {
+   "rcept_no": "20261106000213",
+   "date": "2026-11-06",
+   "title": "주요사항보고서(무상증자결정)",
+   "type": "capital",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000213",
+   "seen": "15:42"
+  }
+ ]
+}

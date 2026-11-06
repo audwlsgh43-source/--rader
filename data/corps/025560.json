@@ -1,0 +1,28 @@
+{
+ "name": "미래산업",
+ "code": "025560",
+ "mkt": "코스피",
+ "corp_code": "00197759",
+ "disclosures": [
+  {
+   "rcept_no": "20261106800598",
+   "date": "2026-11-06",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800598",
+   "seen": "15:42"
+  },
+  {
+   "rcept_no": "20261106800576",
+   "date": "2026-11-06",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800576",
+   "seen": "15:42"
+  }
+ ]
+}

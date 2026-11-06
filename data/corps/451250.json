@@ -1,0 +1,38 @@
+{
+ "name": "삐아",
+ "code": "451250",
+ "mkt": "코스닥",
+ "corp_code": "01283974",
+ "disclosures": [
+  {
+   "rcept_no": "20261106900608",
+   "date": "2026-11-06",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900608",
+   "seen": "15:42"
+  },
+  {
+   "rcept_no": "20261106900603",
+   "date": "2026-11-06",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900603",
+   "seen": "15:42"
+  },
+  {
+   "rcept_no": "20261106900599",
+   "date": "2026-11-06",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900599",
+   "seen": "15:42"
+  }
+ ]
+}

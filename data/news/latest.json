@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06 14:42",
+ "updated_at": "2026-11-06 15:45",
  "digest": null,
  "codes": {
   "삼성전자": "005930",
@@ -19,6 +19,668 @@
   "주성엔지니어링": "036930"
  },
  "items": [
+  {
+   "title": "하이로닉, 마이크로웨이브 기술 적용 ‘미글로우’ 웨비나 개최",
+   "press": "이데일리",
+   "time": "2026-11-06 15:44",
+   "url": "https://n.news.naver.com/mnews/article/018/0006405225",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "코스피, 6.02% 급락 마감…5000선 간신히 지켰다",
+   "press": "강원도민일보",
+   "time": "2026-11-06 15:44",
+   "url": "https://n.news.naver.com/mnews/article/654/0000209832",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "美 블루웨이브에 증시 '검은 금요일'…간신히 5000피 사수",
+   "press": "한국경제",
+   "time": "2026-11-06 15:43",
+   "url": "https://n.news.naver.com/mnews/article/015/0005351189",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "삼양식품, 3분기 영업익 1962억…전년비 49.9% ↑",
+   "press": "헤럴드경제",
+   "time": "2026-11-06 15:43",
+   "url": "https://n.news.naver.com/mnews/article/016/0002720036",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "美 블루웨이브에 증시 '검은 금요일'…간신히 5000피 사수",
+   "press": "한국경제",
+   "time": "2026-11-06 15:43",
+   "url": "https://n.news.naver.com/mnews/article/015/0005351189?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[그래픽] 코스피 추이",
+   "press": "연합뉴스",
+   "time": "2026-11-06 15:42",
+   "url": "https://n.news.naver.com/mnews/article/001/0016426598",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "한국거래소, 코스닥협회와 공시담당자 워크숍 개최",
+   "press": "이코노미스트",
+   "time": "2026-11-06 15:42",
+   "url": "https://n.news.naver.com/mnews/article/243/0000105313",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "씨젠, 3분기 영업익 116억…전년비 21.2% ↑",
+   "press": "헤럴드경제",
+   "time": "2026-11-06 15:42",
+   "url": "https://n.news.naver.com/mnews/article/016/0002720035",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[그래픽] 코스피 추이",
+   "press": "연합뉴스",
+   "time": "2026-11-06 15:42",
+   "url": "https://n.news.naver.com/mnews/article/001/0016426598?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[그래픽] 코스피 코스닥 추이",
+   "press": "뉴스1",
+   "time": "2026-11-06 15:41",
+   "url": "https://n.news.naver.com/mnews/article/421/0009274669",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "미래에셋증권 \"中알리바바와 글로벌 대학생 AI 공모전 개최\"",
+   "press": "아시아경제",
+   "time": "2026-11-06 15:40",
+   "url": "https://n.news.naver.com/mnews/article/277/0005839235",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "삼양식품 3분기 영업익 1천962억원…작년 동기 대비 49.9% 증가",
+   "press": "연합뉴스",
+   "time": "2026-11-06 15:40",
+   "url": "https://n.news.naver.com/mnews/article/001/0016426590",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "DSRV, 쿠콘과 손잡고 온체인 금융·AI 결제 사업 추진",
+   "press": "더팩트",
+   "time": "2026-11-06 15:39",
+   "url": "https://n.news.naver.com/mnews/article/629/0000549538",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "강원랜드 3분기 영업이익 597억원…작년 동기 대비 17.9%↓",
+   "press": "연합뉴스",
+   "time": "2026-11-06 15:38",
+   "url": "https://n.news.naver.com/mnews/article/001/0016426584",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[속보] 코스피, 6% 급락…장중 ‘5천피’ 무너졌다 간신히 사수",
+   "press": "매일경제",
+   "time": "2026-11-06 15:38",
+   "url": "https://n.news.naver.com/mnews/article/009/0005760084",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "美 1% 내릴 때 韓 16% 추락…\"반도체 때문만은 아냐\" [마켓딥다이브]",
+   "press": "한국경제TV",
+   "time": "2026-11-06 15:38",
+   "url": "https://n.news.naver.com/mnews/article/215/0001271921",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[속보] 코스피, 6% 급락…장중 ‘5천피’ 무너졌다 간신히 사수",
+   "press": "매일경제",
+   "time": "2026-11-06 15:38",
+   "url": "https://n.news.naver.com/mnews/article/009/0005760084?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[코스닥] 34.14포인트(5.03%) 내린 644.27 마감",
+   "press": "서울경제",
+   "time": "2026-11-06 15:37",
+   "url": "https://n.news.naver.com/mnews/article/011/0004679515",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "쎌바이오텍, 3분기 영업익 20억…전년비 9.4% ↓",
+   "press": "헤럴드경제",
+   "time": "2026-11-06 15:37",
+   "url": "https://n.news.naver.com/mnews/article/016/0002720033",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[코스닥] 34.14포인트(5.03%) 내린 644.27 마감",
+   "press": "서울경제",
+   "time": "2026-11-06 15:37",
+   "url": "https://n.news.naver.com/mnews/article/011/0004679515?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "코스피, 6.02% 하락한 5059.69 마감…코스닥 5.03%↓(2보)",
+   "press": "뉴스1",
+   "time": "2026-11-06 15:36",
+   "url": "https://n.news.naver.com/mnews/article/421/0009274661",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "원·달러 환율, 14.5원 오른 1356.6원(오후 3시30분)",
+   "press": "아시아경제",
+   "time": "2026-11-06 15:36",
+   "url": "https://n.news.naver.com/mnews/article/277/0005839233",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[속보]코스피, 6.02% 내린 5059.65 마감...코스닥은 644.25",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-06 15:36",
+   "url": "https://n.news.naver.com/mnews/article/014/0005600607",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[코스피] 324.11포인트(6.02%) 내린 5059.69 마감",
+   "press": "서울경제",
+   "time": "2026-11-06 15:36",
+   "url": "https://n.news.naver.com/mnews/article/011/0004679513",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "코스피, 6.02% 하락한 5059.69 마감…코스닥 5.03%↓(2보)",
+   "press": "뉴스1",
+   "time": "2026-11-06 15:36",
+   "url": "https://n.news.naver.com/mnews/article/421/0009274661?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[코스피] 324.11포인트(6.02%) 내린 5059.69 마감",
+   "press": "서울경제",
+   "time": "2026-11-06 15:36",
+   "url": "https://n.news.naver.com/mnews/article/011/0004679513?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[속보]코스피, 6.02% 내린 5059.65 마감...코스닥은 644.25",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-06 15:36",
+   "url": "https://n.news.naver.com/mnews/article/014/0005600607?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "원·달러 환율, 14.5원 오른 1356.6원(오후 3시30분)",
+   "press": "아시아경제",
+   "time": "2026-11-06 15:36",
+   "url": "https://n.news.naver.com/mnews/article/277/0005839233?sid=101258429",
+   "cats": [
+    "환율"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "'검은 금요일'…코스피, 6% 넘게 급락해 5,000선 턱걸이 마감",
+   "press": "연합뉴스",
+   "time": "2026-11-06 15:35",
+   "url": "https://n.news.naver.com/mnews/article/001/0016426576?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[속보] 코스피, 6% 급락…장중 ‘5000피’ 무너졌다 간신히 사수",
+   "press": "중앙일보",
+   "time": "2026-11-06 15:35",
+   "url": "https://n.news.naver.com/mnews/article/025/0003563373?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[코스닥] 34.14p(5.03%) 내린 644.27 마감",
+   "press": "뉴스1",
+   "time": "2026-11-06 15:35",
+   "url": "https://n.news.naver.com/mnews/article/421/0009274653?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[코스피] 324.11p(6.02%) 내린 5059.69 마감",
+   "press": "뉴스1",
+   "time": "2026-11-06 15:34",
+   "url": "https://n.news.naver.com/mnews/article/421/0009274652?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "코스닥, 34.14P 내린 644.27 마감(5.03%↓)",
+   "press": "아시아경제",
+   "time": "2026-11-06 15:34",
+   "url": "https://n.news.naver.com/mnews/article/277/0005839228?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "코스피, 324.11P 내린 5059.69 마감(6.02%↓)",
+   "press": "아시아경제",
+   "time": "2026-11-06 15:34",
+   "url": "https://n.news.naver.com/mnews/article/277/0005839229?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[속보] 코스피, 6% 급락…장중 '5천피' 무너졌다 간신히 사수",
+   "press": "연합뉴스",
+   "time": "2026-11-06 15:34",
+   "url": "https://n.news.naver.com/mnews/article/001/0016426569?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[달러·원] 환율 14.5원 오른 1356.6원 (15:30 기준)",
+   "press": "뉴스1",
+   "time": "2026-11-06 15:34",
+   "url": "https://n.news.naver.com/mnews/article/421/0009274650?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "[스팟]코스닥 34.14포인트(5.03%) 내린 644.27 마감",
+   "press": "머니투데이",
+   "time": "2026-11-06 15:34",
+   "url": "https://n.news.naver.com/mnews/article/008/0005437711?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "티로보틱스, 휴머노이드 무정지 운용 위한 '핫스왑' 기술 개발 추진",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-06 15:32",
+   "url": "https://n.news.naver.com/mnews/article/014/0005600598?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "미래에셋증권, 'Global AI Festival 2026' 성료..글로벌 AI 금융인재 발굴",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-06 15:29",
+   "url": "https://n.news.naver.com/mnews/article/014/0005600594?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "디엑스앤브이엑스, 차세대 핵산 안정화 플랫폼 ‘KRNA’ 글로벌 검증 확대…“연구 성과 주목”",
+   "press": "매일경제",
+   "time": "2026-11-06 15:24",
+   "url": "https://n.news.naver.com/mnews/article/009/0005760073?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "AI로 쌓아올린 탑, AI 공포에 ‘와르르’…9개월 만에 5000피 반납",
+   "press": "조선비즈",
+   "time": "2026-11-06 15:22",
+   "url": "https://n.news.naver.com/mnews/article/366/0001203100",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "\"다 파랗게 질렸는데\"…한진칼 우선주 5일새 200% 뛰었다[종목 NOW]",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-06 15:18",
+   "url": "https://n.news.naver.com/mnews/article/014/0005600585?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [
+    "한진칼"
+   ],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "‘테슬라·엔비디아·속슬’ 폭락…13조 증발에 서학개미도 ‘망연자실’",
+   "press": "디지털타임스",
+   "time": "2026-11-06 15:12",
+   "url": "https://n.news.naver.com/mnews/article/029/0003057552",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "반도체 반등이냐 순환매냐…중간선거 후 폭락장에 증권가 시각차",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-06 15:12",
+   "url": "https://n.news.naver.com/mnews/article/014/0005600584",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "\"AI 우려 과도하지만 바닥은 아직\"…리서치 수장 8인 진단",
+   "press": "이데일리",
+   "time": "2026-11-06 15:08",
+   "url": "https://n.news.naver.com/mnews/article/018/0006405133",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "AI 역풍에 앤스로픽 IPO도 먹구름…기업가치 급락 우려",
+   "press": "아시아경제",
+   "time": "2026-11-06 15:05",
+   "url": "https://n.news.naver.com/mnews/article/277/0005839210?sid=101258403",
+   "cats": [
+    "해외증시"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "'블루웨이브' 환호 뚝…비트코인 돌고돌아 7만5000달러",
+   "press": "머니투데이",
+   "time": "2026-11-06 14:59",
+   "url": "https://n.news.naver.com/mnews/article/008/0005437690",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "한국타이어, 3분기 영업익 5988억원…전년 대비 2.2%↑",
+   "press": "동행미디어 시대",
+   "time": "2026-11-06 14:59",
+   "url": "https://n.news.naver.com/mnews/article/417/0001163505?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "오늘부터 무려 1500억원 태운다…카카오가 자사주 조기 소각하는 이유",
+   "press": "매일경제",
+   "time": "2026-11-06 14:56",
+   "url": "https://n.news.naver.com/mnews/article/009/0005760058",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "‘20만전자·120만닉스' 붕괴… 증권가 “추가 하락” vs “바닥 근접” 갑론을박",
+   "press": "조선비즈",
+   "time": "2026-11-06 14:54",
+   "url": "https://n.news.naver.com/mnews/article/366/0001203094",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "IBK투자증권, 달러·엔화 투자 문 넓힌다…외화 신탁 3종 출시",
+   "press": "매일경제",
+   "time": "2026-11-06 14:50",
+   "url": "https://n.news.naver.com/mnews/article/009/0005760054?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "앤스로픽 IPO 기업가치 1조달러 거론…상장 연기 가능성도",
+   "press": "이데일리",
+   "time": "2026-11-06 14:48",
+   "url": "https://n.news.naver.com/mnews/article/018/0006405100?sid=101258403",
+   "cats": [
+    "해외증시"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "\"이재명 5000피 공약 믿은 개미들 분노\"…블룸버그가 본 韓증시",
+   "press": "이데일리",
+   "time": "2026-11-06 14:44",
+   "url": "https://n.news.naver.com/mnews/article/018/0006405098",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "\"이재명 5000피 공약 믿은 개미들 분노\"…블룸버그가 본 韓증시",
+   "press": "이데일리",
+   "time": "2026-11-06 14:44",
+   "url": "https://n.news.naver.com/mnews/article/018/0006405098?sid=101258403",
+   "cats": [
+    "해외증시"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
+  {
+   "title": "시스템 매도·헤지펀드 청산이 키운 증시 하락폭[AI 패닉]",
+   "press": "비즈워치",
+   "time": "2026-11-06 14:43",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052368",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 15:45"
+  },
   {
    "title": "한국투자증권, 3분기 순이익 2818억원…전년比 56.7%↓",
    "press": "디지털데일리",
@@ -56,24 +718,13 @@
    "first_seen": "2026-11-06 14:42"
   },
   {
-   "title": "AI 쇼크에 아시아 증시 급락…TSMC 한때 하한가",
-   "press": "연합뉴스",
-   "time": "2026-11-06 14:35",
-   "url": "https://n.news.naver.com/mnews/article/001/0016426430",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 14:42"
-  },
-  {
    "title": "AIDC 돈줄에 '균열'...5억달러 대출채권 매각 '분수령' [딥시그널]",
    "press": "한국경제TV",
    "time": "2026-11-06 14:35",
    "url": "https://n.news.naver.com/mnews/article/215/0001271916",
    "cats": [
-    "속보"
+    "속보",
+    "주요"
    ],
    "stocks": [],
    "ai": "",
@@ -92,10 +743,10 @@
    "first_seen": "2026-11-06 14:42"
   },
   {
-   "title": "한국타이어 3분기 영업이익 5천988억원…타이어 매출 분기 최대(종합)",
+   "title": "AI 쇼크에 아시아 증시 급락…TSMC 한때 하한가",
    "press": "연합뉴스",
-   "time": "2026-11-06 14:34",
-   "url": "https://n.news.naver.com/mnews/article/001/0016426428",
+   "time": "2026-11-06 14:35",
+   "url": "https://n.news.naver.com/mnews/article/001/0016426430",
    "cats": [
     "속보"
    ],
@@ -108,6 +759,19 @@
    "press": "이데일리",
    "time": "2026-11-06 14:34",
    "url": "https://n.news.naver.com/mnews/article/018/0006405091",
+   "cats": [
+    "속보",
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 14:42"
+  },
+  {
+   "title": "한국타이어 3분기 영업이익 5천988억원…타이어 매출 분기 최대(종합)",
+   "press": "연합뉴스",
+   "time": "2026-11-06 14:34",
+   "url": "https://n.news.naver.com/mnews/article/001/0016426428",
    "cats": [
     "속보"
    ],
@@ -152,12 +816,14 @@
    "first_seen": "2026-11-06 14:42"
   },
   {
-   "title": "[속보] \"주식 줄이고 현금 챙겨라\"…석 달 만에 현실이 된 '경고'",
+   "title": "\"주식 줄이고 현금 챙겨라\"…석 달 만에 현실이 된 '경고'",
    "press": "한국경제TV",
    "time": "2026-11-06 14:32",
    "url": "https://n.news.naver.com/mnews/article/215/0001271914",
    "cats": [
-    "속보"
+    "속보",
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -216,6 +882,18 @@
    "title": "미래에셋운용 “美 중간선거 이후 빅테크·신재생에너지 ETF 주목”",
    "press": "서울경제",
    "time": "2026-11-06 14:25",
+   "url": "https://n.news.naver.com/mnews/article/011/0004679489?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 14:42"
+  },
+  {
+   "title": "미래에셋운용 “美 중간선거 이후 빅테크·신재생에너지 ETF 주목”",
+   "press": "서울경제",
+   "time": "2026-11-06 14:25",
    "url": "https://n.news.naver.com/mnews/article/011/0004679489",
    "cats": [
     "속보"
@@ -255,18 +933,6 @@
    "url": "https://n.news.naver.com/mnews/article/011/0004679489?sid=101258401",
    "cats": [
     "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 14:42"
-  },
-  {
-   "title": "미래에셋운용 “美 중간선거 이후 빅테크·신재생에너지 ETF 주목”",
-   "press": "서울경제",
-   "time": "2026-11-06 14:25",
-   "url": "https://n.news.naver.com/mnews/article/011/0004679489?sid=101258402",
-   "cats": [
-    "기업·종목"
    ],
    "stocks": [],
    "ai": "",
@@ -482,9 +1148,9 @@
    "title": "“코스피 폭락 와중에 이건 10% 뛰었네”…급락장 거슬러 오른 종목은",
    "press": "매일경제",
    "time": "2026-11-06 13:47",
-   "url": "https://n.news.naver.com/mnews/article/009/0005760026?sid=101258401",
+   "url": "https://n.news.naver.com/mnews/article/009/0005760026?sid=101258402",
    "cats": [
-    "시황·전망"
+    "기업·종목"
    ],
    "stocks": [],
    "ai": "",
@@ -494,9 +1160,9 @@
    "title": "“코스피 폭락 와중에 이건 10% 뛰었네”…급락장 거슬러 오른 종목은",
    "press": "매일경제",
    "time": "2026-11-06 13:47",
-   "url": "https://n.news.naver.com/mnews/article/009/0005760026?sid=101258402",
+   "url": "https://n.news.naver.com/mnews/article/009/0005760026?sid=101258401",
    "cats": [
-    "기업·종목"
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -545,7 +1211,8 @@
    "url": "https://n.news.naver.com/mnews/article/015/0005351123",
    "cats": [
     "속보",
-    "주요"
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -604,10 +1271,9 @@
    "title": "반도체 꺾이자 돈 몰렸다…수익률 상위 10개 중 7개가 '이것' [이수의 ETF줌인]",
    "press": "한국경제",
    "time": "2026-11-06 13:31",
-   "url": "https://n.news.naver.com/mnews/article/015/0005351120",
+   "url": "https://n.news.naver.com/mnews/article/015/0005351120?sid=101258402",
    "cats": [
-    "주요",
-    "속보"
+    "기업·종목"
    ],
    "stocks": [],
    "ai": "",
@@ -617,9 +1283,10 @@
    "title": "반도체 꺾이자 돈 몰렸다…수익률 상위 10개 중 7개가 '이것' [이수의 ETF줌인]",
    "press": "한국경제",
    "time": "2026-11-06 13:31",
-   "url": "https://n.news.naver.com/mnews/article/015/0005351120?sid=101258402",
+   "url": "https://n.news.naver.com/mnews/article/015/0005351120",
    "cats": [
-    "기업·종목"
+    "주요",
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -644,7 +1311,8 @@
    "url": "https://n.news.naver.com/mnews/article/009/0005760019",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -1485,6 +2153,18 @@
    "first_seen": "2026-11-06 11:57"
   },
   {
+   "title": "정부, 증시 급락에 반대매매 차단…증권사 담보비율 규제 3개월 면제",
+   "press": "서울경제",
+   "time": "2026-11-06 11:41",
+   "url": "https://n.news.naver.com/mnews/article/011/0004679457?sid=101258429",
+   "cats": [
+    "환율"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-06 11:57"
+  },
+  {
    "title": "“개인들 완전한 항복” “떨어지는 칼날 못 잡는다”…월가도 패닉 [GMC]",
    "press": "중앙일보",
    "time": "2026-11-06 11:41",
@@ -1517,18 +2197,6 @@
    "url": "https://n.news.naver.com/mnews/article/011/0004679458?sid=101258402",
    "cats": [
     "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 11:57"
-  },
-  {
-   "title": "정부, 증시 급락에 반대매매 차단…증권사 담보비율 규제 3개월 면제",
-   "press": "서울경제",
-   "time": "2026-11-06 11:41",
-   "url": "https://n.news.naver.com/mnews/article/011/0004679457?sid=101258429",
-   "cats": [
-    "환율"
    ],
    "stocks": [],
    "ai": "",
@@ -4209,674 +4877,6 @@
    "stocks": [],
    "ai": "",
    "first_seen": "2026-11-06 09:39"
-  },
-  {
-   "title": "코스피 ‘검은 금요일’...증안펀드 가동·공매도 금지 나오나",
-   "press": "서울경제",
-   "time": "2026-11-06 09:12",
-   "url": "https://n.news.naver.com/mnews/article/011/0004679380?sid=101258429",
-   "cats": [
-    "환율"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:39"
-  },
-  {
-   "title": "[속보] 삼성전자 9%·SK하이닉스 11%대 급락",
-   "press": "한국경제",
-   "time": "2026-11-06 09:11",
-   "url": "https://n.news.naver.com/mnews/article/015/0005351036?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [
-    "SK하이닉스",
-    "삼성전자"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-06 09:39"
-  },
-  {
-   "title": "코스피 8%대 폭락…서킷브레이커·매도 사이드카 발동",
-   "press": "국민일보",
-   "time": "2026-11-06 09:07",
-   "url": "https://n.news.naver.com/mnews/article/005/0001883447",
-   "cats": [
-    "속보",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "\"LG화학, 4분기 영업익 반토막 예상…눈높이 낮춰야\"",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-06 09:07",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600378?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "\"LG화학, 4분기 영업익 반토막 예상…눈높이 낮춰야\"",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-06 09:07",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600378",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피, 개장 3분 만에 ‘서킷 브레이커’ 발동",
-   "press": "데일리안",
-   "time": "2026-11-06 09:07",
-   "url": "https://n.news.naver.com/mnews/article/119/0003152018",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피 5000선마저 무너졌다…서킷브레이커 발동",
-   "press": "헤럴드경제",
-   "time": "2026-11-06 09:07",
-   "url": "https://n.news.naver.com/mnews/article/016/0002719697",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피, 1단계 서킷 브레이커 발동&#8943;20분간 매매 중단",
-   "press": "아이뉴스24",
-   "time": "2026-11-06 09:07",
-   "url": "https://n.news.naver.com/mnews/article/031/0001072749",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "제노스코 \"ROCK2 억제제 임상 1상 마쳐…2상 추진\"",
-   "press": "뉴시스",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/003/0014305298",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스닥, 이틀 연속 매도 사이드카 발동…지수 6%대 급락",
-   "press": "뉴스1",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/421/0009273608",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보]코스닥 매도 사이드카 발동",
-   "press": "아시아경제",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/277/0005838952",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보]코스피, 5000선 깨져…2월2일 이후 277일만",
-   "press": "머니투데이",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437497",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보]8%대 폭락 5000피 붕괴…코스피 서킷브레이커 발동",
-   "press": "이데일리",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/018/0006404760",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스닥 장중 7%대 급락…630선도 위태",
-   "press": "한국경제",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/015/0005351031",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스닥 매도 사이드카 발동…지수 630 하회",
-   "press": "머니투데이",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437496",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피 급락에 서킷브레이커 발동…5,000선 붕괴",
-   "press": "연합뉴스TV",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/422/0000923401",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "플랜티넷 자회사 ‘모아진’, LG유플러스 제휴 가입자 20만명 돌파",
-   "press": "이데일리",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/018/0006404757",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피 '5000피' 붕괴&#8943;8% 급락",
-   "press": "아이뉴스24",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/031/0001072748",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피, 8%대 급락 출발…코스닥 5~6%대↓",
-   "press": "매일경제",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/009/0005759870",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스닥, 이틀 연속 매도 사이드카 발동…지수 6%대 급락",
-   "press": "뉴스1",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/421/0009273608?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보]코스닥 매도 사이드카 발동",
-   "press": "아시아경제",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/277/0005838952?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보]코스피, 5000선 깨져…2월2일 이후 277일만",
-   "press": "머니투데이",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437497?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스닥 장중 7%대 급락…630선도 위태",
-   "press": "한국경제",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/015/0005351031?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스닥 매도 사이드카 발동…지수 630 하회",
-   "press": "머니투데이",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437496?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피 급락에 서킷브레이커 발동…5,000선 붕괴",
-   "press": "연합뉴스TV",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/422/0000923401?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피, 8%대 급락 출발…코스닥 5~6%대↓",
-   "press": "매일경제",
-   "time": "2026-11-06 09:06",
-   "url": "https://n.news.naver.com/mnews/article/009/0005759870?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "코스피, 개장 3분만에 ‘서킷 브레이커’…9개월 만에 5000선 내줘",
-   "press": "조선비즈",
-   "time": "2026-11-06 09:05",
-   "url": "https://n.news.naver.com/mnews/article/366/0001202974",
-   "cats": [
-    "속보",
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보]코스피 5000선 붕괴...8% 급락에 서킷브레이커 발동",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-06 09:05",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600374",
-   "cats": [
-    "속보",
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피, 8% 급락에 서킷브레이커 발동",
-   "press": "아시아경제",
-   "time": "2026-11-06 09:05",
-   "url": "https://n.news.naver.com/mnews/article/277/0005838950",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] '서킷브레이커' 코스피 결국 4900선으로… 뉴욕발 폭락 쓰나미",
-   "press": "한국일보",
-   "time": "2026-11-06 09:05",
-   "url": "https://n.news.naver.com/mnews/article/469/0000963972",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피, 8% 급락에 서킷브레이커 발동",
-   "press": "아시아경제",
-   "time": "2026-11-06 09:05",
-   "url": "https://n.news.naver.com/mnews/article/277/0005838950?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보]코스피, 장초반 8% 급락에 서킷브레이커 발동",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-06 09:05",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600374?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "AI 성장 서사 대폭 후퇴…블루웨이브 방어 섹터는 [오늘 나온 보고서]",
-   "press": "매일경제",
-   "time": "2026-11-06 09:04",
-   "url": "https://n.news.naver.com/mnews/article/009/0005759868?sid=101258403",
-   "cats": [
-    "해외증시"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피 '검은 금요일' 4900선도 위태...1단계 '서킷 브레이커'",
-   "press": "머니투데이",
-   "time": "2026-11-06 09:04",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437491",
-   "cats": [
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 10:25"
-  },
-  {
-   "title": "AI 성장 서사 대폭 후퇴…블루웨이브 방어 섹터는 [오늘 나온 보고서]",
-   "press": "매일경제",
-   "time": "2026-11-06 09:04",
-   "url": "https://n.news.naver.com/mnews/article/009/0005759868",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:39"
-  },
-  {
-   "title": "[속보] 증시 급락에 코스피 서킷브레이커 발동…5천피 밑으로",
-   "press": "연합뉴스",
-   "time": "2026-11-06 09:04",
-   "url": "https://n.news.naver.com/mnews/article/001/0016425439?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보]코스피 지수 5000선 붕괴",
-   "press": "아시아경제",
-   "time": "2026-11-06 09:04",
-   "url": "https://n.news.naver.com/mnews/article/277/0005838948?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피 장중 8%대 폭락…5000선 붕괴",
-   "press": "한국경제",
-   "time": "2026-11-06 09:04",
-   "url": "https://n.news.naver.com/mnews/article/015/0005351029?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "AI 성장 서사 대폭 후퇴…블루웨이브 방어 섹터는 [오늘 나온 보고서]",
-   "press": "매일경제",
-   "time": "2026-11-06 09:04",
-   "url": "https://n.news.naver.com/mnews/article/009/0005759868?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보] 코스피 '검은 금요일' 4900선도 위태...1단계 '서킷 브레이커'",
-   "press": "머니투데이",
-   "time": "2026-11-06 09:04",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437491?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "영국인들, 9달동안 한국 증시 100조 팔았다…“세금 아끼려고” [오늘 나온 보고서]",
-   "press": "매일경제",
-   "time": "2026-11-06 09:03",
-   "url": "https://n.news.naver.com/mnews/article/009/0005759867",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:39"
-  },
-  {
-   "title": "[속보] 코스피 8%대 폭락에 서킷브레이커 발동…5000선 붕괴",
-   "press": "뉴스1",
-   "time": "2026-11-06 09:03",
-   "url": "https://n.news.naver.com/mnews/article/421/0009273600?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "[속보]코스피, 전일 대비 2.24% 내린 5263.26 출발",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-06 09:02",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600371?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "트럼프, 뉴욕증시 폭락에 \"공화당 아닌 멍청한 민주당 탓\"",
-   "press": "연합뉴스",
-   "time": "2026-11-06 08:59",
-   "url": "https://n.news.naver.com/mnews/article/001/0016425412?sid=101258403",
-   "cats": [
-    "해외증시"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "영우디에스피, 영업익 10배 급증했는데 PER 3.1배…“극단적 저평가”-밸류파인더",
-   "press": "이데일리",
-   "time": "2026-11-06 08:59",
-   "url": "https://n.news.naver.com/mnews/article/018/0006404747",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:39"
-  },
-  {
-   "title": "영우디에스피, 영업익 10배 급증했는데 PER 3.1배…“극단적 저평가”-밸류파인더",
-   "press": "이데일리",
-   "time": "2026-11-06 08:59",
-   "url": "https://n.news.naver.com/mnews/article/018/0006404747?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "나스닥 하루만에 시총 2조5000억달러 증발…AI 불안에 '역대 최대' 폭락",
-   "press": "강원도민일보",
-   "time": "2026-11-06 08:57",
-   "url": "https://n.news.naver.com/mnews/article/654/0000209799",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "현대건설, 목표 PBR 조정에 목표가 하향…현대차증권",
-   "press": "머니투데이",
-   "time": "2026-11-06 08:56",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437484?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [
-    "현대차"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "에코프로비엠, 고객사 재고 조정 여파에…목표가 13만원으로 하향-DB",
-   "press": "이데일리",
-   "time": "2026-11-06 08:54",
-   "url": "https://n.news.naver.com/mnews/article/018/0006404742?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "\"CJ ENM, 목표가↑…TV광고 턴어라운드\"-하나",
-   "press": "머니투데이",
-   "time": "2026-11-06 08:50",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437482?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "나스닥 하루 2.5조달러 증발…사상 최대 낙폭",
-   "press": "연합뉴스",
-   "time": "2026-11-06 08:48",
-   "url": "https://n.news.naver.com/mnews/article/001/0016425385?sid=101258403",
-   "cats": [
-    "해외증시"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "\"BGF리테일, 내년 편의점 매출 증가 기대… 목표가↑\"-키움",
-   "press": "머니투데이",
-   "time": "2026-11-06 08:48",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437481?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "\"고려아연, 프리미엄 정당화할 현금흐름 필요…목표가 150만원 유지\"",
-   "press": "머니투데이",
-   "time": "2026-11-06 08:43",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437479?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "한울앤제주, '로컬창업 페스타'서 참가…향토기업 성장 비전 제시",
-   "press": "머니투데이",
-   "time": "2026-11-06 08:43",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437478?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
-  },
-  {
-   "title": "비트코인도 추락 중, 1억도 위태...美 중간선거 충격 코인시장으로 [크립토브리핑]",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-06 08:42",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600349?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-06 09:07"
   }
  ],
  "errors": []
