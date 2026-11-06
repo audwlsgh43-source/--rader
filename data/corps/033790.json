@@ -5,6 +5,36 @@
  "corp_code": "00276083",
  "disclosures": [
   {
+   "rcept_no": "20261106900913",
+   "date": "2026-11-06",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900913",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261106900886",
+   "date": "2026-11-06",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900886",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261106900877",
+   "date": "2026-11-06",
+   "title": "타법인주식및출자증권취득결정",
+   "type": "ma",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900877",
+   "seen": "17:52"
+  },
+  {
    "rcept_no": "20261105900974",
    "date": "2026-11-05",
    "title": "주권매매거래정지해제              (우회상장 미해당)",

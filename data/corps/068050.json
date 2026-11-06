@@ -1,0 +1,28 @@
+{
+ "name": "팬엔터테인먼트",
+ "code": "068050",
+ "mkt": "코스닥",
+ "corp_code": "00397191",
+ "disclosures": [
+  {
+   "rcept_no": "20261106900997",
+   "date": "2026-11-06",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900997",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261106900958",
+   "date": "2026-11-06",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900958",
+   "seen": "17:52"
+  }
+ ]
+}

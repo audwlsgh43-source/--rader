@@ -5,6 +5,26 @@
  "corp_code": "01042650",
  "disclosures": [
   {
+   "rcept_no": "20261106000470",
+   "date": "2026-11-06",
+   "title": "[기재정정]투자설명서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000470",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261106000409",
+   "date": "2026-11-06",
+   "title": "[기재정정]증권신고서(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000409",
+   "seen": "17:52"
+  },
+  {
    "rcept_no": "20261106000191",
    "date": "2026-11-06",
    "title": "분기보고서 (2026.09)",

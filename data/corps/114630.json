@@ -5,6 +5,26 @@
  "corp_code": "00663669",
  "disclosures": [
   {
+   "rcept_no": "20261106900883",
+   "date": "2026-11-06",
+   "title": "[기재정정]경영권변경등에관한계약체결",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900883",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261106000465",
+   "date": "2026-11-06",
+   "title": "[기재정정]주식등의대량보유상황보고서(일반)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000465",
+   "seen": "17:52"
+  },
+  {
    "rcept_no": "20261028900683",
    "date": "2026-10-28",
    "title": "주주명부폐쇄기간또는기준일설정",
