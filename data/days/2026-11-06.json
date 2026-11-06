@@ -1,8 +1,28 @@
 {
  "date": "2026-11-06",
- "updated_at": "2026-11-06 19:48",
- "count": 439,
+ "updated_at": "2026-11-06 20:38",
+ "count": 440,
  "items": [
+  {
+   "rcept_no": "20261106100004",
+   "date": "2026-11-06",
+   "corp": "SK이노베이션",
+   "stock_code": "096770",
+   "corp_code": "00631518",
+   "mkt": "코스피",
+   "type": "ma",
+   "imp": "high",
+   "title": "정정신고서제출요구( 2026.10.28. 제출 증권신고서(합병) )",
+   "flr": "금융감독원",
+   "rm": "",
+   "seen": "20:38",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106100004"
+  },
   {
    "rcept_no": "20261106901026",
    "date": "2026-11-06",
