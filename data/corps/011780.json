@@ -5,6 +5,26 @@
  "corp_code": "00106368",
  "disclosures": [
   {
+   "rcept_no": "20261106800487",
+   "date": "2026-11-06",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800487",
+   "seen": "14:40"
+  },
+  {
+   "rcept_no": "20261106800457",
+   "date": "2026-11-06",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "type": "earn",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800457",
+   "seen": "14:40"
+  },
+  {
    "rcept_no": "20261102800428",
    "date": "2026-11-02",
    "title": "최대주주등소유주식변동신고서",
