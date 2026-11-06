@@ -5,6 +5,46 @@
  "corp_code": "00249441",
  "disclosures": [
   {
+   "rcept_no": "20261106901026",
+   "date": "2026-11-06",
+   "title": "기타시장안내              (상장적격성 실질심사 사유추가)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106901026",
+   "seen": "19:48"
+  },
+  {
+   "rcept_no": "20261106901025",
+   "date": "2026-11-06",
+   "title": "경영권변경등에관한계약체결",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106901025",
+   "seen": "19:48"
+  },
+  {
+   "rcept_no": "20261106901024",
+   "date": "2026-11-06",
+   "title": "최대주주변경",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106901024",
+   "seen": "19:48"
+  },
+  {
+   "rcept_no": "20261106901023",
+   "date": "2026-11-06",
+   "title": "최대주주변경을수반하는주식양수도계약해제ㆍ취소등",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106901023",
+   "seen": "19:48"
+  },
+  {
    "rcept_no": "20261106000423",
    "date": "2026-11-06",
    "title": "의결권대리행사권유참고서류",
