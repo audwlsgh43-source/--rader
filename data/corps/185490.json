@@ -1,0 +1,28 @@
+{
+ "name": "아이진",
+ "code": "185490",
+ "mkt": "코스닥",
+ "corp_code": "00945457",
+ "disclosures": [
+  {
+   "rcept_no": "20261106000084",
+   "date": "2026-11-06",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000084",
+   "seen": "11:55"
+  },
+  {
+   "rcept_no": "20261106000082",
+   "date": "2026-11-06",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000082",
+   "seen": "11:55"
+  }
+ ]
+}

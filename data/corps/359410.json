@@ -1,0 +1,38 @@
+{
+ "name": "영광",
+ "code": "359410",
+ "mkt": "코스닥",
+ "corp_code": "00579342",
+ "disclosures": [
+  {
+   "rcept_no": "20261106000078",
+   "date": "2026-11-06",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000078",
+   "seen": "11:55"
+  },
+  {
+   "rcept_no": "20261106000074",
+   "date": "2026-11-06",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000074",
+   "seen": "11:55"
+  },
+  {
+   "rcept_no": "20261106000073",
+   "date": "2026-11-06",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000073",
+   "seen": "11:55"
+  }
+ ]
+}
