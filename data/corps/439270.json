@@ -1,0 +1,78 @@
+{
+ "name": "크리에이츠",
+ "code": "439270",
+ "mkt": "코스닥",
+ "corp_code": "01540903",
+ "disclosures": [
+  {
+   "rcept_no": "20261106000349",
+   "date": "2026-11-06",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000349",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261106000342",
+   "date": "2026-11-06",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000342",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261106000340",
+   "date": "2026-11-06",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000340",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261106000333",
+   "date": "2026-11-06",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000333",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261106000323",
+   "date": "2026-11-06",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000323",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261106000318",
+   "date": "2026-11-06",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000318",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261106000309",
+   "date": "2026-11-06",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000309",
+   "seen": "16:56"
+  }
+ ]
+}

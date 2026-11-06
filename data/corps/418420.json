@@ -1,0 +1,28 @@
+{
+ "name": "라온텍",
+ "code": "418420",
+ "mkt": "코스닥",
+ "corp_code": "00965512",
+ "disclosures": [
+  {
+   "rcept_no": "20261106900848",
+   "date": "2026-11-06",
+   "title": "단일판매ㆍ공급계약해지",
+   "type": "contract",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900848",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261106900835",
+   "date": "2026-11-06",
+   "title": "단일판매ㆍ공급계약해지",
+   "type": "contract",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900835",
+   "seen": "16:56"
+  }
+ ]
+}

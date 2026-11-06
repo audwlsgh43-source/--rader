@@ -1,0 +1,28 @@
+{
+ "name": "빌리언스",
+ "code": "044480",
+ "mkt": "코스닥",
+ "corp_code": "00173449",
+ "disclosures": [
+  {
+   "rcept_no": "20261106900795",
+   "date": "2026-11-06",
+   "title": "대표이사변경",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900795",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261106900662",
+   "date": "2026-11-06",
+   "title": "임시주주총회결과",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106900662",
+   "seen": "16:56"
+  }
+ ]
+}

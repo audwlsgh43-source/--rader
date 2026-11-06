@@ -1,0 +1,28 @@
+{
+ "name": "CJ",
+ "code": "001040",
+ "mkt": "코스피",
+ "corp_code": "00148540",
+ "disclosures": [
+  {
+   "rcept_no": "20261106800715",
+   "date": "2026-11-06",
+   "title": "타인에대한담보제공결정(자회사의 주요경영사항)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800715",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261106800705",
+   "date": "2026-11-06",
+   "title": "타인에대한채무보증결정(자회사의 주요경영사항)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106800705",
+   "seen": "16:56"
+  }
+ ]
+}
