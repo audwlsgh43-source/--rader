@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-09",
+ "updated_at": "2026-11-09 07:27",
+ "count": 2,
+ "items": [
+  {
+   "rcept_no": "20261106000482",
+   "date": "2026-11-09",
+   "corp": "서진시스템",
+   "stock_code": "178320",
+   "corp_code": "00838005",
+   "mkt": "코스닥",
+   "type": "capital",
+   "imp": "high",
+   "title": "주요사항보고서(전환사채권발행결정)",
+   "flr": "서진시스템",
+   "rm": "",
+   "seen": "07:27",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000482"
+  },
+  {
+   "rcept_no": "20261106000481",
+   "date": "2026-11-09",
+   "corp": "서진시스템",
+   "stock_code": "178320",
+   "corp_code": "00838005",
+   "mkt": "코스닥",
+   "type": "capital",
+   "imp": "high",
+   "title": "주요사항보고서(전환사채권발행결정)",
+   "flr": "서진시스템",
+   "rm": "",
+   "seen": "07:27",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261106000481"
+  }
+ ]
+}
