@@ -5,6 +5,26 @@
  "corp_code": "02042949",
  "disclosures": [
   {
+   "rcept_no": "20261109000002",
+   "date": "2026-11-09",
+   "title": "공개매수설명서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000002",
+   "seen": "08:02"
+  },
+  {
+   "rcept_no": "20261109000001",
+   "date": "2026-11-09",
+   "title": "공개매수신고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000001",
+   "seen": "08:02"
+  },
+  {
    "rcept_no": "20261105800801",
    "date": "2026-11-05",
    "title": "주식소각결정(자회사의 주요경영사항)",
