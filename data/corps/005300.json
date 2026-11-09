@@ -1,0 +1,28 @@
+{
+ "name": "롯데칠성음료",
+ "code": "005300",
+ "mkt": "코스피",
+ "corp_code": "00120571",
+ "disclosures": [
+  {
+   "rcept_no": "20261109800275",
+   "date": "2026-11-09",
+   "title": "[기재정정]연결재무제표기준영업실적등에대한전망(공정공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800275",
+   "seen": "13:50"
+  },
+  {
+   "rcept_no": "20261109800266",
+   "date": "2026-11-09",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "type": "earn",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800266",
+   "seen": "13:50"
+  }
+ ]
+}

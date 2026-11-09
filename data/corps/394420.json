@@ -1,0 +1,28 @@
+{
+ "name": "리센스메디컬",
+ "code": "394420",
+ "mkt": "코스닥",
+ "corp_code": "01685677",
+ "disclosures": [
+  {
+   "rcept_no": "20261109000108",
+   "date": "2026-11-09",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000108",
+   "seen": "13:50"
+  },
+  {
+   "rcept_no": "20261109000081",
+   "date": "2026-11-09",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000081",
+   "seen": "13:50"
+  }
+ ]
+}
