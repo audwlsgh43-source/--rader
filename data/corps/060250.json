@@ -1,0 +1,28 @@
+{
+ "name": "NHN KCP",
+ "code": "060250",
+ "mkt": "코스닥",
+ "corp_code": "00357740",
+ "disclosures": [
+  {
+   "rcept_no": "20261110900014",
+   "date": "2026-11-10",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "type": "earn",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900014",
+   "seen": "08:19"
+  },
+  {
+   "rcept_no": "20261110900013",
+   "date": "2026-11-10",
+   "title": "영업(잠정)실적(공정공시)",
+   "type": "earn",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900013",
+   "seen": "08:19"
+  }
+ ]
+}
