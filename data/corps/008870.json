@@ -5,6 +5,16 @@
  "corp_code": "00168401",
  "disclosures": [
   {
+   "rcept_no": "20261109800220",
+   "date": "2026-11-09",
+   "title": "매출액또는손익구조30%(대규모법인은15%)이상변경",
+   "type": "earn",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800220",
+   "seen": "11:54"
+  },
+  {
    "rcept_no": "20261102800732",
    "date": "2026-11-02",
    "title": "최대주주등소유주식변동신고서",

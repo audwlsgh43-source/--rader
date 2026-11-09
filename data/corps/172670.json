@@ -5,6 +5,16 @@
  "corp_code": "00493325",
  "disclosures": [
   {
+   "rcept_no": "20261109000049",
+   "date": "2026-11-09",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000049",
+   "seen": "11:54"
+  },
+  {
    "rcept_no": "20261106900418",
    "date": "2026-11-06",
    "title": "증권발행결과(자율공시)              (제8회차 CB)",
