@@ -5,6 +5,36 @@
  "corp_code": "00117212",
  "disclosures": [
   {
+   "rcept_no": "20261109800497",
+   "date": "2026-11-09",
+   "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800497",
+   "seen": "15:54"
+  },
+  {
+   "rcept_no": "20261109800479",
+   "date": "2026-11-09",
+   "title": "현금ㆍ현물배당결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800479",
+   "seen": "15:54"
+  },
+  {
+   "rcept_no": "20261109800403",
+   "date": "2026-11-09",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "type": "earn",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800403",
+   "seen": "15:54"
+  },
+  {
    "rcept_no": "20261109000091",
    "date": "2026-11-09",
    "title": "특수관계인과의수익증권거래",

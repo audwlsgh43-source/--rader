@@ -1,0 +1,18 @@
+{
+ "name": "SG",
+ "code": "255220",
+ "mkt": "코스닥",
+ "corp_code": "00963976",
+ "disclosures": [
+  {
+   "rcept_no": "20261109000188",
+   "date": "2026-11-09",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000188",
+   "seen": "15:54"
+  }
+ ]
+}

@@ -5,6 +5,36 @@
  "corp_code": "01169434",
  "disclosures": [
   {
+   "rcept_no": "20261109900348",
+   "date": "2026-11-09",
+   "title": "[기재정정]주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900348",
+   "seen": "15:54"
+  },
+  {
+   "rcept_no": "20261109000194",
+   "date": "2026-11-09",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000194",
+   "seen": "15:54"
+  },
+  {
+   "rcept_no": "20261109000179",
+   "date": "2026-11-09",
+   "title": "주요사항보고서(유상증자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000179",
+   "seen": "15:54"
+  },
+  {
    "rcept_no": "20261028900276",
    "date": "2026-10-28",
    "title": "전환청구권행사              (제6회차)",

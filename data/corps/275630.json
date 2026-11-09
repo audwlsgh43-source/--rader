@@ -1,0 +1,28 @@
+{
+ "name": "에스에스알",
+ "code": "275630",
+ "mkt": "코스닥",
+ "corp_code": "01250374",
+ "disclosures": [
+  {
+   "rcept_no": "20261109000209",
+   "date": "2026-11-09",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000209",
+   "seen": "15:54"
+  },
+  {
+   "rcept_no": "20261109000204",
+   "date": "2026-11-09",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000204",
+   "seen": "15:54"
+  }
+ ]
+}
