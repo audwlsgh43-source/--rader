@@ -1,0 +1,28 @@
+{
+ "name": "CS홀딩스",
+ "code": "000590",
+ "mkt": "코스피",
+ "corp_code": "00149026",
+ "disclosures": [
+  {
+   "rcept_no": "20261109800582",
+   "date": "2026-11-09",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800582",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109000256",
+   "date": "2026-11-09",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000256",
+   "seen": "17:24"
+  }
+ ]
+}

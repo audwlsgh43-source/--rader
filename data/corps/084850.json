@@ -5,6 +5,26 @@
  "corp_code": "00579980",
  "disclosures": [
   {
+   "rcept_no": "20261109900491",
+   "date": "2026-11-09",
+   "title": "대표이사변경",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900491",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109000300",
+   "date": "2026-11-09",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000300",
+   "seen": "17:24"
+  },
+  {
    "rcept_no": "20261103000258",
    "date": "2026-11-03",
    "title": "독립이사의선임ㆍ해임또는중도퇴임에관한신고",

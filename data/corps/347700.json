@@ -5,6 +5,26 @@
  "corp_code": "01336762",
  "disclosures": [
   {
+   "rcept_no": "20261109900581",
+   "date": "2026-11-09",
+   "title": "유상증자결정(종속회사의주요경영사항)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900581",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109900498",
+   "date": "2026-11-09",
+   "title": "타법인주식및출자증권취득결정",
+   "type": "ma",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900498",
+   "seen": "17:24"
+  },
+  {
    "rcept_no": "20261105000554",
    "date": "2026-11-05",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

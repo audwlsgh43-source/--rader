@@ -1,0 +1,28 @@
+{
+ "name": "유유제약",
+ "code": "000220",
+ "mkt": "코스피",
+ "corp_code": "00144818",
+ "disclosures": [
+  {
+   "rcept_no": "20261109800716",
+   "date": "2026-11-09",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800716",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109000337",
+   "date": "2026-11-09",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000337",
+   "seen": "17:24"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "name": "선진",
+ "code": "136490",
+ "mkt": "코스피",
+ "corp_code": "00855093",
+ "disclosures": [
+  {
+   "rcept_no": "20261109800572",
+   "date": "2026-11-09",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800572",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109000230",
+   "date": "2026-11-09",
+   "title": "[기재정정]반기보고서 (2026.06)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000230",
+   "seen": "17:24"
+  }
+ ]
+}

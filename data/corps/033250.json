@@ -5,6 +5,76 @@
  "corp_code": "00125576",
  "disclosures": [
   {
+   "rcept_no": "20261109800720",
+   "date": "2026-11-09",
+   "title": "[기재정정]주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800720",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109800675",
+   "date": "2026-11-09",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800675",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109800650",
+   "date": "2026-11-09",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800650",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109800645",
+   "date": "2026-11-09",
+   "title": "투자판단관련주요경영사항",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800645",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109000351",
+   "date": "2026-11-09",
+   "title": "주요사항보고서(유상증자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000351",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109000343",
+   "date": "2026-11-09",
+   "title": "주요사항보고서(유상증자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000343",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109000317",
+   "date": "2026-11-09",
+   "title": "주요사항보고서(유상증자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000317",
+   "seen": "17:24"
+  },
+  {
    "rcept_no": "20261026800555",
    "date": "2026-10-26",
    "title": "대표이사(대표집행임원)변경(안내공시)",

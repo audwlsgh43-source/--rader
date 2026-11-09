@@ -1,0 +1,28 @@
+{
+ "name": "YG PLUS",
+ "code": "037270",
+ "mkt": "코스피",
+ "corp_code": "00249247",
+ "disclosures": [
+  {
+   "rcept_no": "20261109800644",
+   "date": "2026-11-09",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800644",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109800586",
+   "date": "2026-11-09",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800586",
+   "seen": "17:24"
+  }
+ ]
+}

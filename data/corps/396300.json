@@ -5,6 +5,16 @@
  "corp_code": "00534701",
  "disclosures": [
   {
+   "rcept_no": "20261109900774",
+   "date": "2026-11-09",
+   "title": "중대재해발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900774",
+   "seen": "17:24"
+  },
+  {
    "rcept_no": "20261103900219",
    "date": "2026-11-03",
    "title": "영업(잠정)실적(공정공시)",

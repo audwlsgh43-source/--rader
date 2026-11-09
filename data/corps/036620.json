@@ -5,6 +5,16 @@
  "corp_code": "00261009",
  "disclosures": [
   {
+   "rcept_no": "20261109000348",
+   "date": "2026-11-09",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000348",
+   "seen": "17:24"
+  },
+  {
    "rcept_no": "20261026000109",
    "date": "2026-10-26",
    "title": "주요사항보고서(자기주식취득결정)",

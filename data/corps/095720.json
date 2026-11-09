@@ -1,0 +1,48 @@
+{
+ "name": "웅진씽크빅",
+ "code": "095720",
+ "mkt": "코스피",
+ "corp_code": "00628189",
+ "disclosures": [
+  {
+   "rcept_no": "20261109800552",
+   "date": "2026-11-09",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "type": "earn",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800552",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109800545",
+   "date": "2026-11-09",
+   "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109800545",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109000248",
+   "date": "2026-11-09",
+   "title": "동일인등출자계열회사와의상품ㆍ용역거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000248",
+   "seen": "17:24"
+  },
+  {
+   "rcept_no": "20261109000245",
+   "date": "2026-11-09",
+   "title": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000245",
+   "seen": "17:24"
+  }
+ ]
+}

@@ -5,6 +5,16 @@
  "corp_code": "00155373",
  "disclosures": [
   {
+   "rcept_no": "20261109900571",
+   "date": "2026-11-09",
+   "title": "주주총회소집결의              (정기주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900571",
+   "seen": "17:24"
+  },
+  {
    "rcept_no": "20261109900401",
    "date": "2026-11-09",
    "title": "현금ㆍ현물배당결정",
@@ -13,6 +23,16 @@
    "ai": "",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109900401",
    "seen": "15:54"
+  },
+  {
+   "rcept_no": "20261109000352",
+   "date": "2026-11-09",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000352",
+   "seen": "17:24"
   }
  ]
 }
