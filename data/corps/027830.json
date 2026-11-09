@@ -1,0 +1,28 @@
+{
+ "name": "대성창투",
+ "code": "027830",
+ "mkt": "코스닥",
+ "corp_code": "00109037",
+ "disclosures": [
+  {
+   "rcept_no": "20261109000170",
+   "date": "2026-11-09",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000170",
+   "seen": "14:48"
+  },
+  {
+   "rcept_no": "20261109000164",
+   "date": "2026-11-09",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000164",
+   "seen": "14:48"
+  }
+ ]
+}

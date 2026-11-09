@@ -5,6 +5,16 @@
  "corp_code": "01078178",
  "disclosures": [
   {
+   "rcept_no": "20261109000173",
+   "date": "2026-11-09",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000173",
+   "seen": "14:48"
+  },
+  {
    "rcept_no": "20261028000145",
    "date": "2026-10-28",
    "title": "주식등의대량보유상황보고서(일반)",

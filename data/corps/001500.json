@@ -5,6 +5,26 @@
  "corp_code": "00137997",
  "disclosures": [
   {
+   "rcept_no": "20261109000169",
+   "date": "2026-11-09",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000169",
+   "seen": "14:48"
+  },
+  {
+   "rcept_no": "20261109000120",
+   "date": "2026-11-09",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000120",
+   "seen": "14:48"
+  },
+  {
    "rcept_no": "20261109000028",
    "date": "2026-11-09",
    "title": "증권발행실적보고서",
