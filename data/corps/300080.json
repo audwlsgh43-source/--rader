@@ -1,0 +1,38 @@
+{
+ "name": "플리토",
+ "code": "300080",
+ "mkt": "코스닥",
+ "corp_code": "01237434",
+ "disclosures": [
+  {
+   "rcept_no": "20261109000036",
+   "date": "2026-11-09",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000036",
+   "seen": "11:03"
+  },
+  {
+   "rcept_no": "20261109000034",
+   "date": "2026-11-09",
+   "title": "[기재정정]주식매수선택권부여에관한신고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000034",
+   "seen": "11:03"
+  },
+  {
+   "rcept_no": "20261109000031",
+   "date": "2026-11-09",
+   "title": "[기재정정]주식매수선택권부여에관한신고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109000031",
+   "seen": "11:03"
+  }
+ ]
+}
