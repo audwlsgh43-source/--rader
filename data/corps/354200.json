@@ -1,0 +1,58 @@
+{
+ "name": "엔젠바이오",
+ "code": "354200",
+ "mkt": "코스닥",
+ "corp_code": "01397903",
+ "disclosures": [
+  {
+   "rcept_no": "20261110900440",
+   "date": "2026-11-10",
+   "title": "타법인주식및출자증권취득결정(자율공시)",
+   "type": "ma",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900440",
+   "seen": "15:24"
+  },
+  {
+   "rcept_no": "20261110900418",
+   "date": "2026-11-10",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900418",
+   "seen": "15:24"
+  },
+  {
+   "rcept_no": "20261110900415",
+   "date": "2026-11-10",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900415",
+   "seen": "15:24"
+  },
+  {
+   "rcept_no": "20261110000237",
+   "date": "2026-11-10",
+   "title": "주요사항보고서(유상증자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000237",
+   "seen": "15:24"
+  },
+  {
+   "rcept_no": "20261110000233",
+   "date": "2026-11-10",
+   "title": "주요사항보고서(유상증자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "엔젠바이오가 제3자배정 방식으로 보통주 200만주를 액면가 1,000원에 발행해 20억원을 조달하기로 결정했습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000233",
+   "seen": "15:24"
+  }
+ ]
+}

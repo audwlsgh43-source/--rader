@@ -5,6 +5,16 @@
  "corp_code": "00870481",
  "disclosures": [
   {
+   "rcept_no": "20261110000220",
+   "date": "2026-11-10",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000220",
+   "seen": "15:24"
+  },
+  {
    "rcept_no": "20261106000079",
    "date": "2026-11-06",
    "title": "주식등의대량보유상황보고서(약식)",
