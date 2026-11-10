@@ -5,6 +5,26 @@
  "corp_code": "00530413",
  "disclosures": [
   {
+   "rcept_no": "20261110900774",
+   "date": "2026-11-10",
+   "title": "기타주요경영사항              (자기 전환사채 매도 결정(제9회차) 철회의 건)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900774",
+   "seen": "17:43"
+  },
+  {
+   "rcept_no": "20261110000431",
+   "date": "2026-11-10",
+   "title": "[기재정정]주요사항보고서(자기전환사채매도결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000431",
+   "seen": "17:43"
+  },
+  {
    "rcept_no": "20261105900856",
    "date": "2026-11-05",
    "title": "기타주요경영사항              (제3자배정 유상증자 결정 철회)",

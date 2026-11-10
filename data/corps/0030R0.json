@@ -5,6 +5,26 @@
  "corp_code": "01885222",
  "disclosures": [
   {
+   "rcept_no": "20261110800766",
+   "date": "2026-11-10",
+   "title": "감사보고서제출",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800766",
+   "seen": "17:43"
+  },
+  {
+   "rcept_no": "20261110000451",
+   "date": "2026-11-10",
+   "title": "사업보고서 (2026.08)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000451",
+   "seen": "17:43"
+  },
+  {
    "rcept_no": "20261103800636",
    "date": "2026-11-03",
    "title": "수시공시의무관련사항(공정공시)",

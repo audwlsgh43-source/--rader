@@ -1,0 +1,28 @@
+{
+ "name": "EDGC",
+ "code": "245620",
+ "mkt": "코스닥",
+ "corp_code": "01182550",
+ "disclosures": [
+  {
+   "rcept_no": "20261110900796",
+   "date": "2026-11-10",
+   "title": "기타시장안내              (관리종목 지정 사유 일부 해제 관련 시장조치 미진행)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900796",
+   "seen": "17:43"
+  },
+  {
+   "rcept_no": "20261110900765",
+   "date": "2026-11-10",
+   "title": "회생절차종결결정",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900765",
+   "seen": "17:43"
+  }
+ ]
+}
