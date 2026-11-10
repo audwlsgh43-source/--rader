@@ -1,8 +1,28 @@
 {
  "date": "2026-11-10",
- "updated_at": "2026-11-10 19:34",
- "count": 405,
+ "updated_at": "2026-11-10 20:29",
+ "count": 406,
  "items": [
+  {
+   "rcept_no": "20261110100012",
+   "date": "2026-11-10",
+   "corp": "뷰노",
+   "stock_code": "338220",
+   "corp_code": "01344202",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "정정신고서제출요구( 2026.10.28. 제출 증권신고서(지분증권) )",
+   "flr": "금융감독원",
+   "rm": "",
+   "seen": "20:29",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110100012"
+  },
   {
    "rcept_no": "20261110900859",
    "date": "2026-11-10",
