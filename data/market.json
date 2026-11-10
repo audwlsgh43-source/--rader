@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10 12:33",
+ "updated_at": "2026-11-10 13:29",
  "indices": [
   {
    "key": "ks11",
@@ -461,10 +461,10 @@
    "key": "KRW=X",
    "name": "원/달러",
    "kind": "fx",
-   "close": 1345.38,
-   "chg": -17.3199,
-   "pct": -1.27,
-   "date": "11.10 12:33",
+   "close": 1344.38,
+   "chg": -18.3199,
+   "pct": -1.34,
+   "date": "11.10 13:29",
    "spark": [
     1350.5,
     1356.84,
@@ -495,17 +495,17 @@
     1340.0699,
     1356.34,
     1362.7,
-    1345.38
+    1344.38
    ]
   },
   {
    "key": "DX-Y.NYB",
    "name": "달러인덱스",
    "kind": "fx",
-   "close": 101.687,
-   "chg": 0.037,
-   "pct": 0.04,
-   "date": "11.10 12:23",
+   "close": 101.68,
+   "chg": 0.03,
+   "pct": 0.03,
+   "date": "11.10 13:19",
    "spark": [
     101.45,
     102.1,
@@ -536,7 +536,7 @@
     101.55,
     102.3,
     101.65,
-    101.687
+    101.68
    ]
   },
   {
@@ -666,10 +666,10 @@
    "key": "CL=F",
    "name": "WTI 유가",
    "kind": "cmdty",
-   "close": 85.86,
-   "chg": -0.99,
-   "pct": -1.14,
-   "date": "11.10 12:23",
+   "close": 85.93,
+   "chg": -0.92,
+   "pct": -1.06,
+   "date": "11.10 13:19",
    "spark": [
     90.42,
     92.87,
@@ -700,17 +700,17 @@
     90.52,
     90.83,
     86.85,
-    85.86
+    85.93
    ]
   },
   {
    "key": "GC=F",
    "name": "금",
    "kind": "cmdty",
-   "close": 4123.8999,
-   "chg": 9.3999,
-   "pct": 0.23,
-   "date": "11.10 12:23",
+   "close": 4122.1001,
+   "chg": 7.6001,
+   "pct": 0.18,
+   "date": "11.10 13:19",
    "spark": [
     4186.7002,
     4202.2998,
@@ -741,17 +741,17 @@
     4113.5,
     4074.8999,
     4114.5,
-    4123.8999
+    4122.1001
    ]
   },
   {
    "key": "BTC-USD",
    "name": "비트코인",
    "kind": "crypto",
-   "close": 74494.9922,
-   "chg": -89.6562,
-   "pct": -0.12,
-   "date": "11.10 12:33",
+   "close": 74719.8906,
+   "chg": 135.2422,
+   "pct": 0.18,
+   "date": "11.10 13:29",
    "spark": [
     83679.4688,
     81762.5625,
@@ -782,7 +782,7 @@
     75746.9297,
     75747.5781,
     74584.6484,
-    74494.9922
+    74719.8906
    ]
   }
  ],
@@ -871,10 +871,10 @@
    {
     "key": "^DJI",
     "name": "다우",
-    "close": 52389.75,
-    "chg": 1104.0195,
+    "close": 52389.8008,
+    "chg": 1104.0703,
     "pct": 2.15,
-    "date": "11.10 07:12",
+    "date": "11.10 06:00",
     "spark": [
      51349.9219,
      50906.0508,
@@ -905,7 +905,7 @@
      53356.1211,
      51523.0586,
      51285.7305,
-     52389.75
+     52389.8008
     ]
    },
    {
@@ -1204,7 +1204,7 @@
   "date": "2026-11-09",
   "closed": true
  },
- "yahoo_at": "2026-11-10 12:33",
+ "yahoo_at": "2026-11-10 13:29",
  "reports": [
   {
    "cat": "기업",
@@ -1298,7 +1298,6 @@
     "자체사업 NAV 28,086십억원(전자 이익 796십억원×35배 등), 상장지분은 50% 할인 적용",
     "목표주가 275만원으로 현재가 61만1천원 대비 상승여력 350%로 제시"
    ],
-   "opinion": "",
    "method": "NAV",
    "why": "지주회사 성격으로 상장·비상장 자회사 지분 가치를 합산하는 것이 적합하기 때문(일반적 설명)"
   },
@@ -1319,8 +1318,13 @@
     "교보증권은 투자의견 BUY를 유지하되 목표주가를 120만원으로 하향함"
    ],
    "goal": "1200000",
-   "val": [],
-   "opinion": ""
+   "val": [
+    "전자BG 가치 18.5조원(2027F 순이익 8,030억원×목표 PER 23배)에 SK실트론 2.3조원을 더하고, 순차입금 등 -4.9조원(70% 할인)을 반영",
+    "현재가 611,000원 기준 상승여력 96.4%, 2026F PER 14.7배·2027F PER 13.2배"
+   ],
+   "opinion": "",
+   "method": "SOTP",
+   "why": "전자BG 사업과 SK실트론 지분 등 성격이 다른 자산을 부문별로 나눠 가치를 산정하고 합산하기 위해서 (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1339,8 +1343,13 @@
     "경쟁사 멀티플 하락을 반영해 목표주가를 127만원으로 낮췄으나 BUY는 유지, 최근 주가 조정은 과도하다고 봄"
    ],
    "goal": "1270000",
-   "val": [],
-   "opinion": ""
+   "val": [
+    "전자BG 28년 순이익에 Peer PER 10.2배, 실트론 28년 EBITDA에 SUMCO EV/EBITDA 8.9배를 적용해 영업가치 19.6조원 산출",
+    "상장 자회사 지분에 70% 할인율을 적용해 Target NAV 33.0조원, 현재가 611,000원 대비 상승여력 108%"
+   ],
+   "opinion": "",
+   "method": "NAV",
+   "why": "지주회사로 상장·비상장 자회사 지분가치를 합산하는 구조라 NAV 방식이 적합함 (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1377,7 +1386,14 @@
    "stock": "한전기술",
    "code": "052690",
    "goal": "140000",
-   "opinion": ""
+   "opinion": "",
+   "sum": [
+    "하나증권은 3분기 영업이익이 컨센서스를 밑돌았다고 봄",
+    "해상풍력 EPC 매출 확대는 긍정적이나 마진 믹스 변화로 영업이익률은 7.5%에 그침",
+    "해외사업 외화환산손실로 세전이익이 적자 전환",
+    "신규 원전 수주 기대는 유지하되 목표주가는 36.4% 하향"
+   ],
+   "val": []
   },
   {
    "cat": "기업",
@@ -1420,8 +1436,13 @@
     "신인 남녀 그룹은 빠르면 상반기 내 데뷔가 가능하며 투자의견 BUY를 유지함"
    ],
    "goal": "63000",
-   "val": [],
-   "opinion": ""
+   "val": [
+    "목표주가 63,000원(12M), 산정 방식과 적용 배수는 원문에 명시되지 않음",
+    "현재주가 40,500원(11.09) 기준 2027F PER 17.0배, PBR 1.31배임"
+   ],
+   "opinion": "",
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1517,20 +1538,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97942",
    "stock": "두산",
    "code": "000150",
-   "goal": "1000000",
-   "opinion": "",
-   "method": "SOTP",
-   "why": "두산은 전자BG 등 자체사업과 두산에너빌리티·두산로보틱스 등 상장 자회사 지분을 함께 보유한 지주회사라, 부문별 가치를 합산하는 SOTP가 적합함 (일반적 설명)",
    "sum": [
     "3Q26 영업이익 4,594억원은 컨센서스를 하회했고, 차이는 자체사업이 아닌 계열사에서 발생",
     "전자BG 매출 8,020억원으로 사상 최대, OPM 29.3%로 2분기 수준 유지",
     "대신증권은 증설 전까지 2027년 성장이 물량보다 판가와 믹스에 의존한다고 봄",
     "목표주가 100만원으로 49.2% 하향, 피어 배수와 두산에너빌리티 지분가치 변동이 원인"
    ],
+   "goal": "1000000",
    "val": [
     "자체사업 12MF EBITDA 1조 535억원×CCL 피어 EV/EBITDA 10.9배=영업가치 11.5조원, 지분가치 10조원 더해 NAV 21.9조원",
     "38% 할인율 적용 목표주가 100만원, 현재가 611,000원 대비 상승여력 63.7%, 2026F PER 33.3배·2027F 19.3배"
-   ]
+   ],
+   "method": "SOTP",
+   "why": "두산은 전자BG 등 자체사업과 두산에너빌리티·두산로보틱스 등 상장 자회사 지분을 함께 보유한 지주회사라, 부문별 가치를 합산하는 SOTP가 적합함 (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1625,7 +1645,6 @@
     "목표주가 140,000원(200,000원에서 하향), 현재주가 72,800원 대비 상승여력 약 92%",
     "현재가 기준 PER 2026E 58.7배·2027E 32.5배, PBR 2026E 4.5배·2027E 4.1배"
    ],
-   "opinion": "",
    "method": "",
    "why": ""
   },
@@ -1916,15 +1935,15 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/57/20261110_industry_821747000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46934",
    "sector": "construction",
-   "method": "",
-   "why": "",
    "sum": [
     "하나증권은 미국 중간선거 후 데이터센터 건설이 어려워져 해외 공급 기회가 커질 것으로 봄",
     "하나증권은 산업단지와 낮은 발전소 가동률 등을 갖춘 한국이 수혜를 받을 수 있다고 봄",
     "하나증권은 동해 데이터센터 착공 기대로 GS건설을 TOP PICK으로 제시, 임차인 확인이 관건으로 봄",
     "하나증권은 삼성E&A를 차선호주, 계룡건설을 중소형 추천주로 제시"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -2012,8 +2031,6 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/66/20261110_industry_45460000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46929",
    "sector": "semiconductor",
-   "method": "",
-   "why": "",
    "sum": [
     "DS투자증권는 CSP CapEx 증가율이 둔화되어도 2028년 글로벌 AI 서버 출하가 30% 늘 것으로 봄",
     "Base 시나리오에서도 2029년 삼성전자·SK하이닉스 합산 영업이익이 2027년 피크의 70%를 유지할 것으로 봄",
@@ -2023,7 +2040,9 @@
    "val": [
     "삼성전자 목표주가 530,000원(유지), 상승여력 179.1%, 투자의견 매수",
     "SK하이닉스 목표주가 2,640,000원(유지), 상승여력 132.4%, 투자의견 매수"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -2375,15 +2394,15 @@
    "url": "https://stock.naver.com/research/daily/38097",
    "pdf": "https://stock.pstatic.net/stock-research/market/58/20261110_market_44407000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38097",
-   "method": "",
-   "why": "",
    "sum": [
     "국제유가 급락 속 기술주가 급등해 미국 3대 지수가 2%대 상승, 필라델피아 반도체 지수는 약 7% 올라",
     "엔비디아는 CEO 관련 사생활 논란으로 4% 하락하며 AI 투자심리 우려가 커짐",
     "AMD는 반사이익 기대와 호실적 전망에 13% 급등, 미-이란 협상 기대로 유가는 급락",
     "미 10년물 금리는 4.88%로 상승, 12월 금리인상 확률은 84%로 확대"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "시황",
@@ -2393,15 +2412,15 @@
    "url": "https://stock.naver.com/research/daily/38096",
    "pdf": "https://stock.pstatic.net/stock-research/market/64/20261110_market_816766000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38096",
-   "method": "",
-   "why": "",
    "sum": [
     "EUA는 87.7유로/톤으로 1일 1.3% 올랐고 3개월 기준 6.3% 상승",
     "국내 KAU는 29,500원/톤으로 1개월 -3.1%, 3개월 13.5% 상승",
     "국제유가는 트럼프의 이란 추가 공격 자제 시사에 급락, 유럽 전력·TTF도 하락",
     "EU 순배출 1.6% 감소, COP31 개막 등 배출권·에너지 관련 뉴스 함께 제공"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "시황",
@@ -2411,15 +2430,15 @@
    "url": "https://stock.naver.com/research/daily/38095",
    "pdf": "https://stock.pstatic.net/stock-research/market/21/20261110_market_827764000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38095",
-   "method": "",
-   "why": "",
    "sum": [
     "KOSPI·KOSDAQ이 각각 0.8% 하락했으나 반도체 선방으로 KOSPI 5천선은 지켰음",
     "비반도체 AI 밸류체인, 2차전지, 자동차 등 대형주로 온기가 퍼지지 못하고 양 시장 약세",
     "외국인은 반도체 대형주 중심으로 7일째 순매도가 이어졌고, 애프터에서는 반도체도 2%대 하락",
     "BAAJA 심의 절차 개시 표결 결과가 단기 안도 요인이 될지 신한투자증권은 주목하는 모습"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2429,15 +2448,15 @@
    "url": "https://stock.naver.com/research/invest/40785",
    "pdf": "https://stock.pstatic.net/stock-research/invest/57/20261110_invest_205247000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40785",
-   "method": "",
-   "why": "",
    "sum": [
     "10월 AI 투자 및 정책 우려 속에 대만 가권지수가 고점 대비 21% 하락했고, 외국인 대규모 순매도가 주도함",
     "TSMC 중심의 수출 펀더멘털은 견고해, 하나증권은 이번 급락을 실적보다 밸류에이션 부담과 수급 요인으로 봄",
     "당국은 공매도 제한과 국안기금 10차 개입으로 하방 지지에 나섰으며, 기금은 TSMC 등 대형주에 집중될 것으로 봄",
     "다만 외국인 수급이 안정되기 전까지 반등의 지속성은 낙관하기 어렵다는 것이 하나증권의 판단임"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2447,15 +2466,15 @@
    "url": "https://stock.naver.com/research/invest/40784",
    "pdf": "https://stock.pstatic.net/stock-research/invest/57/20261110_invest_147538000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40784",
-   "method": "",
-   "why": "",
    "sum": [
     "하나증권은 공급발 물가와 고금리가 실질 구매력과 고용의 질을 약화시킨다고 봄",
     "하나증권은 빅테크의 AI 투자 확대로 현금흐름과 자금조달 부담이 커지고 있다고 봄",
     "하나증권은 현금창출력이 견고한 기업 중심으로 대응하고 이후 점진적 회복을 기대함",
     "ETF 아이디어로 캐시카우, 퀄리티, AI&Tech 등 10개 테마를 제시함"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2465,15 +2484,15 @@
    "url": "https://stock.naver.com/research/invest/40783",
    "pdf": "https://stock.pstatic.net/stock-research/invest/15/20261110_invest_744763000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40783",
-   "method": "",
-   "why": "",
    "sum": [
     "은행은 건전성 관리와 리스크 대응의 중요성이 커지는 가운데 주주환원 강화가 이어져 주도 테마로 봄",
     "보험은 IFRS17 정착 후 CSM 중심 질적 성장과 고령화에 따른 상품 재편이 가속된다고 봄",
     "신고가 특징주로 SK바이오팜(3분기 최대 실적), 크래프톤(대규모 자사주 소각), 전진건설로봇(로봇 사업화)을 꼽음",
     "은행 종목은 200일선 조건을 충족하는 종목이 많아 주도 테마로 선정됨"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2483,15 +2502,15 @@
    "url": "https://stock.naver.com/research/invest/40782",
    "pdf": "https://stock.pstatic.net/stock-research/invest/15/20261110_invest_674573000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40782",
-   "method": "",
-   "why": "",
    "sum": [
     "대신증권은 인상 사이클 속 금리 상승 경로가 유효하다고 봄",
     "미국 중간선거 후 금리 급락은 안전자산 선호로 과도하다고 봄",
     "한국 기준금리 11월 3.25% 인상 후 최종금리 3.50%를 예상",
     "달러-원은 단기 반등 후 1,300원대 후반에서 상단이 제한된다고 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2501,8 +2520,6 @@
    "url": "https://stock.naver.com/research/invest/40781",
    "pdf": "https://stock.pstatic.net/stock-research/invest/15/20261110_invest_725510000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40781",
-   "method": "",
-   "why": "",
    "sum": [
     "민주당 신규 당선 5개 주에 DC 계획 49%가 몰려 공급 지연·비용 부담이 우려됨",
     "대신증권은 전면 중단이 아니면 미국 경제에 큰 충격은 없고 침체와도 거리가 있다고 봄",
@@ -2512,7 +2529,9 @@
    "val": [
     "KOSPI 선행 PER 3.54배(2001년 이후 처음 4배 하회), 선행 PBR 0.95배 수준",
     "선행 PER 5배 회복 시 7,100선 가능, 기본 시나리오는 4,600~5,000 구간 분할 매수 전략"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2522,15 +2541,15 @@
    "url": "https://stock.naver.com/research/invest/40780",
    "pdf": "https://stock.pstatic.net/stock-research/invest/15/20261110_invest_350358000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40780",
-   "method": "",
-   "why": "",
    "sum": [
     "AI 데이터센터 규제 우려로 AI 밸류체인이 급락했으나, 인허가 지연이 투자 총량 감소로 이어지진 않는다는 인식이 확산",
     "아이렌의 AI 클라우드 매출 급증과 고객 선급 조건의 장기 계약이 AI 투자 지속 기대를 뒷받침",
     "국내 반도체는 저가매수로 반등했으나 불안한 투자심리에 상승폭을 반납하고, 비반도체는 약세",
     "대신증권은 AI 투자 우려가 과도했다고 보나 엔비디아 관련 불확실성은 남아 있다고 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2540,15 +2559,15 @@
    "url": "https://stock.naver.com/research/invest/40779",
    "pdf": "https://stock.pstatic.net/stock-research/invest/64/20261110_invest_158206000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40779",
-   "method": "",
-   "why": "",
    "sum": [
     "SK증권은 고금리에도 증시가 버틴 근거를 AI 성장 기대와 채권 대안 부재로 봄",
     "2027년 핵심 변수로 AI 성장 믿음, 금리 인상 기대 정점, 기간 프리미엄을 제시",
     "현재는 고금리 장기화, AI 수요 견조, 산업 간 이익 차별화 신호가 점등된 상태로 판단",
     "전환 신호인 AI 생산성 확산은 아직 미점등이며, 투자 조정 경로는 HY 스프레드 하나만 점등"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2558,15 +2577,15 @@
    "url": "https://stock.naver.com/research/invest/40778",
    "pdf": "https://stock.pstatic.net/stock-research/invest/63/20261110_invest_240048000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40778",
-   "method": "",
-   "why": "",
    "sum": [
     "중간선거에서 텍사스를 민주당이 탈환해 데이터센터 구축 지연 우려가 부각됨",
     "유진투자증권은 데이터센터 전면 금지보다 세제 혜택 폐지 등 규제 강화가 유력하다고 봄",
     "아이렌 등 네오클라우드는 높은 계약 단가로 호실적이 예상되나 구축 지연과 자금 조달 우려가 상존",
     "유진투자증권은 프론티어랩 매출 성장 재가속과 앤트로픽 IPO 불확실성 해소가 추세 전환의 전제라고 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2576,15 +2595,15 @@
    "url": "https://stock.naver.com/research/invest/40777",
    "pdf": "https://stock.pstatic.net/stock-research/invest/39/20261110_invest_155865000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40777",
-   "method": "",
-   "why": "",
    "sum": [
     "키움증권 리서치는 11월 10일 상장 예정인 신규 ETF 6종을 소개하는 리포트로 봄",
     "TIGER·SOL 200커버드콜액티브는 코스피200 종목에 옵션 매도를 더해 월분배를 추구하는 구조임",
     "HANARO 삼성전기고정AI핵심기판은 삼성전기 25% 고정에 AI 기판·MLCC 관련주를 더하는 패시브 상품임",
     "KODEX 나스닥100미국채혼합50 등은 주식과 단기 미국채를 섞어 안정성과 성장성을 함께 노린 상품임"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2594,15 +2613,15 @@
    "url": "https://stock.naver.com/research/invest/40776",
    "pdf": "https://stock.pstatic.net/stock-research/invest/40/20261110_invest_822703000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40776",
-   "method": "",
-   "why": "",
    "sum": [
     "중동 긴장 완화로 국제유가가 내리며 미국과 유럽 증시는 물가 부담 완화 기대에 상승 마감",
     "국내 증시는 반도체 반등 탄력이 약해져 코스피가 0.81% 하락한 5,018.85P로 마감",
     "코스닥도 외국인과 개인의 매도에 0.82% 내린 638.97P로 마감",
     "중국 증시는 정책 지원 기대에 0.32% 올라 3,660.79P로 마감"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   }
  ],
  "us_comment": {

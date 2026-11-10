@@ -5,6 +5,26 @@
  "corp_code": "01014055",
  "disclosures": [
   {
+   "rcept_no": "20261110000176",
+   "date": "2026-11-10",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000176",
+   "seen": "13:28"
+  },
+  {
+   "rcept_no": "20261110000167",
+   "date": "2026-11-10",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000167",
+   "seen": "13:28"
+  },
+  {
    "rcept_no": "20261105000247",
    "date": "2026-11-05",
    "title": "합병등종료보고서(영업양수도)",

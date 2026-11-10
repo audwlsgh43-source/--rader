@@ -5,6 +5,26 @@
  "corp_code": "00136378",
  "disclosures": [
   {
+   "rcept_no": "20261110800287",
+   "date": "2026-11-10",
+   "title": "현금ㆍ현물배당결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800287",
+   "seen": "13:28"
+  },
+  {
+   "rcept_no": "20261110800284",
+   "date": "2026-11-10",
+   "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800284",
+   "seen": "13:28"
+  },
+  {
    "rcept_no": "20261103800429",
    "date": "2026-11-03",
    "title": "결산실적공시예고(안내공시)",
