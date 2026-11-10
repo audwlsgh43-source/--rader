@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10 20:30",
+ "updated_at": "2026-11-10 21:23",
  "digest": null,
  "codes": {
   "삼성전자": "005930",
@@ -19,6 +19,79 @@
   "NAVER": "035420"
  },
  "items": [
+  {
+   "title": "금융권 보안 책임지는 금융보안원도 뚫렸다… 일부 개인정보 유출",
+   "press": "한국일보",
+   "time": "2026-11-10 21:13",
+   "url": "https://n.news.naver.com/mnews/article/469/0000964827",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-10 21:23"
+  },
+  {
+   "title": "美훈풍에 코스피·코스닥 동반 급등…4거래일만 반등",
+   "press": "연합뉴스TV",
+   "time": "2026-11-10 21:04",
+   "url": "https://n.news.naver.com/mnews/article/422/0000924799",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-10 21:23"
+  },
+  {
+   "title": "美훈풍에 코스피·코스닥 동반 급등…4거래일만 반등",
+   "press": "연합뉴스TV",
+   "time": "2026-11-10 21:04",
+   "url": "https://n.news.naver.com/mnews/article/422/0000924799?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-10 21:23"
+  },
+  {
+   "title": "“삼전닉스 토큰 해외 거래, 가슴 아프다”…제도화 지연에 쓴소리",
+   "press": "한국경제TV",
+   "time": "2026-11-10 21:00",
+   "url": "https://n.news.naver.com/mnews/article/215/0001272335",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-10 21:23"
+  },
+  {
+   "title": "블루쓰나미 고비 넘겼는데…'젠슨 황 스캔들'에 엔비디아 '나 홀로' 추락",
+   "press": "한국경제TV",
+   "time": "2026-11-10 20:37",
+   "url": "https://n.news.naver.com/mnews/article/215/0001272333",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-10 21:23"
+  },
+  {
+   "title": "금융보안원도 해킹에 뚫려…금융사 보안평가 정보 일부 유출(종합)",
+   "press": "연합뉴스",
+   "time": "2026-11-10 20:34",
+   "url": "https://n.news.naver.com/mnews/article/001/0016434329",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-10 21:23"
+  },
   {
    "title": "[올댓차이나] 대만 증시, 美 반도체 강세에 이틀째 상승 마감…2.52%↑",
    "press": "뉴시스",
@@ -62,7 +135,8 @@
    "url": "https://n.news.naver.com/mnews/article/021/0002831833",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -80,6 +154,18 @@
    "stocks": [],
    "ai": "",
    "first_seen": "2026-11-10 20:30"
+  },
+  {
+   "title": "금융보안원도 뚫렸다…금융사 보안정보 유출 가능성",
+   "press": "한국경제TV",
+   "time": "2026-11-10 20:04",
+   "url": "https://n.news.naver.com/mnews/article/215/0001272331",
+   "cats": [
+    "많이 본"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-10 21:23"
   },
   {
    "title": "\"빼빼로는 덤, 주인공은 굿즈\"…유통가 빼빼로 데이 풍속도 바꼈다",
@@ -147,7 +233,8 @@
    "time": "2026-11-10 19:46",
    "url": "https://n.news.naver.com/mnews/article/015/0005352488",
    "cats": [
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -231,9 +318,9 @@
    "title": "상하이 투자사에서 엔비디아 협력사로…앨리스 황은 누구",
    "press": "아시아경제",
    "time": "2026-11-10 19:22",
-   "url": "https://n.news.naver.com/mnews/article/277/0005840785",
+   "url": "https://n.news.naver.com/mnews/article/277/0005840785?sid=101258403",
    "cats": [
-    "속보"
+    "해외증시"
    ],
    "stocks": [],
    "ai": "",
@@ -243,9 +330,9 @@
    "title": "상하이 투자사에서 엔비디아 협력사로…앨리스 황은 누구",
    "press": "아시아경제",
    "time": "2026-11-10 19:22",
-   "url": "https://n.news.naver.com/mnews/article/277/0005840785?sid=101258403",
+   "url": "https://n.news.naver.com/mnews/article/277/0005840785",
    "cats": [
-    "해외증시"
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -4818,90 +4905,6 @@
    "press": "연합뉴스",
    "time": "2026-11-10 11:30",
    "url": "https://n.news.naver.com/mnews/article/001/0016433059",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-10 11:49"
-  },
-  {
-   "title": "“수익률 하락시 3000억 증발”…KIC 노조, 모경종 의원에 '지방이전 우려' 전달",
-   "press": "이데일리",
-   "time": "2026-11-10 11:30",
-   "url": "https://n.news.naver.com/mnews/article/018/0006407190?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-10 11:49"
-  },
-  {
-   "title": "모건스탠리 '반도체 저승사자', 삼전닉스 30만9천원·160만원으로 하향",
-   "press": "연합뉴스",
-   "time": "2026-11-10 11:30",
-   "url": "https://n.news.naver.com/mnews/article/001/0016433059?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-10 11:49"
-  },
-  {
-   "title": "“공제회 지방이전 땐 회원 손해 10년간 8.6조”",
-   "press": "매일경제",
-   "time": "2026-11-10 11:29",
-   "url": "https://n.news.naver.com/mnews/article/009/0005761476?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-10 11:49"
-  },
-  {
-   "title": "앤스로픽, AI 악재에도 IPO 강행…몸값 낮아지나",
-   "press": "아시아경제",
-   "time": "2026-11-10 11:21",
-   "url": "https://n.news.naver.com/mnews/article/277/0005840505?sid=101258403",
-   "cats": [
-    "해외증시"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-10 11:49"
-  },
-  {
-   "title": "라이신 살아난 CJ제일제당…영업익 6.9% 증가",
-   "press": "동행미디어 시대",
-   "time": "2026-11-10 11:21",
-   "url": "https://n.news.naver.com/mnews/article/417/0001163808?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-10 11:49"
-  },
-  {
-   "title": "신차 넘어 수리시장…KCC, 보수용 도료 키운다",
-   "press": "동행미디어 시대",
-   "time": "2026-11-10 11:20",
-   "url": "https://n.news.naver.com/mnews/article/417/0001163806?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-10 11:49"
-  },
-  {
-   "title": "“교직원·경찰 노후자금인데”…공제회 지방 이전에 8.6조 손실 누가 메꾸나[마켓인]",
-   "press": "이데일리",
-   "time": "2026-11-10 11:16",
-   "url": "https://n.news.naver.com/mnews/article/018/0006407177",
    "cats": [
     "주요"
    ],
