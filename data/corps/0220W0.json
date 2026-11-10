@@ -5,6 +5,16 @@
  "corp_code": "02042949",
  "disclosures": [
   {
+   "rcept_no": "20261110800315",
+   "date": "2026-11-10",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800315",
+   "seen": "14:26"
+  },
+  {
    "rcept_no": "20261109000002",
    "date": "2026-11-09",
    "title": "공개매수설명서",

@@ -5,6 +5,16 @@
  "corp_code": "00942131",
  "disclosures": [
   {
+   "rcept_no": "20261110000206",
+   "date": "2026-11-10",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000206",
+   "seen": "14:26"
+  },
+  {
    "rcept_no": "20261029000384",
    "date": "2026-10-29",
    "title": "주요사항보고서(자기전환사채만기전취득결정)",

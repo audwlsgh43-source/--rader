@@ -1,0 +1,48 @@
+{
+ "name": "그리드위즈",
+ "code": "453450",
+ "mkt": "코스닥",
+ "corp_code": "01299203",
+ "disclosures": [
+  {
+   "rcept_no": "20261110900347",
+   "date": "2026-11-10",
+   "title": "해산사유발생(종속회사의주요경영사항)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900347",
+   "seen": "14:26"
+  },
+  {
+   "rcept_no": "20261110900332",
+   "date": "2026-11-10",
+   "title": "회사합병결정(종속회사의주요경영사항)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900332",
+   "seen": "14:26"
+  },
+  {
+   "rcept_no": "20261110900325",
+   "date": "2026-11-10",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900325",
+   "seen": "14:26"
+  },
+  {
+   "rcept_no": "20261110000178",
+   "date": "2026-11-10",
+   "title": "주요사항보고서(회사합병결정)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000178",
+   "seen": "14:26"
+  }
+ ]
+}

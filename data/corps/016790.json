@@ -5,6 +5,36 @@
  "corp_code": "00164618",
  "disclosures": [
   {
+   "rcept_no": "20261110900322",
+   "date": "2026-11-10",
+   "title": "소송등의판결ㆍ결정              (주주명부 열람 및 등사 가처분)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900322",
+   "seen": "14:26"
+  },
+  {
+   "rcept_no": "20261110900320",
+   "date": "2026-11-10",
+   "title": "[기재정정]주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900320",
+   "seen": "14:26"
+  },
+  {
+   "rcept_no": "20261110900317",
+   "date": "2026-11-10",
+   "title": "[기재정정]주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900317",
+   "seen": "14:26"
+  },
+  {
    "rcept_no": "20261109900324",
    "date": "2026-11-09",
    "title": "금전대여결정(자율공시)",
