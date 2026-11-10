@@ -1,0 +1,38 @@
+{
+ "name": "큐알티",
+ "code": "405100",
+ "mkt": "코스닥",
+ "corp_code": "01033591",
+ "disclosures": [
+  {
+   "rcept_no": "20261110000346",
+   "date": "2026-11-10",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000346",
+   "seen": "16:44"
+  },
+  {
+   "rcept_no": "20261110000335",
+   "date": "2026-11-10",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000335",
+   "seen": "16:44"
+  },
+  {
+   "rcept_no": "20261110000325",
+   "date": "2026-11-10",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000325",
+   "seen": "16:44"
+  }
+ ]
+}

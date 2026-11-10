@@ -5,6 +5,16 @@
  "corp_code": "00367695",
  "disclosures": [
   {
+   "rcept_no": "20261110000319",
+   "date": "2026-11-10",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000319",
+   "seen": "16:44"
+  },
+  {
    "rcept_no": "20261109000342",
    "date": "2026-11-09",
    "title": "[첨부정정]주요사항보고서(전환사채권발행결정)",

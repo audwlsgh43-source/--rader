@@ -5,6 +5,26 @@
  "corp_code": "00168401",
  "disclosures": [
   {
+   "rcept_no": "20261110800483",
+   "date": "2026-11-10",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800483",
+   "seen": "16:44"
+  },
+  {
+   "rcept_no": "20261110000285",
+   "date": "2026-11-10",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000285",
+   "seen": "16:44"
+  },
+  {
    "rcept_no": "20261109800220",
    "date": "2026-11-09",
    "title": "매출액또는손익구조30%(대규모법인은15%)이상변경",

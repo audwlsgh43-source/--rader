@@ -5,6 +5,26 @@
  "corp_code": "00787057",
  "disclosures": [
   {
+   "rcept_no": "20261110900468",
+   "date": "2026-11-10",
+   "title": "주권매매거래정지              (이익소각)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900468",
+   "seen": "16:44"
+  },
+  {
+   "rcept_no": "20261110900451",
+   "date": "2026-11-10",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900451",
+   "seen": "16:44"
+  },
+  {
    "rcept_no": "20261105000464",
    "date": "2026-11-05",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

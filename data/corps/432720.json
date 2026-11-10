@@ -5,6 +5,26 @@
  "corp_code": "01584183",
  "disclosures": [
   {
+   "rcept_no": "20261110900516",
+   "date": "2026-11-10",
+   "title": "전환가액의조정              (제1회차)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900516",
+   "seen": "16:44"
+  },
+  {
+   "rcept_no": "20261110000380",
+   "date": "2026-11-10",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000380",
+   "seen": "16:44"
+  },
+  {
    "rcept_no": "20261103000379",
    "date": "2026-11-03",
    "title": "주식등의대량보유상황보고서(일반)",

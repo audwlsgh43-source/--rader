@@ -5,6 +5,26 @@
  "corp_code": "00799070",
  "disclosures": [
   {
+   "rcept_no": "20261110900486",
+   "date": "2026-11-10",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900486",
+   "seen": "16:44"
+  },
+  {
+   "rcept_no": "20261110900458",
+   "date": "2026-11-10",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900458",
+   "seen": "16:44"
+  },
+  {
    "rcept_no": "20261030900453",
    "date": "2026-10-30",
    "title": "[기재정정]본점소재지변경",

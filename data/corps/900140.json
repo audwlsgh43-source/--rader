@@ -5,6 +5,26 @@
  "corp_code": "00838500",
  "disclosures": [
   {
+   "rcept_no": "20261110800537",
+   "date": "2026-11-10",
+   "title": "임시주주총회결과",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800537",
+   "seen": "16:44"
+  },
+  {
+   "rcept_no": "20261110000324",
+   "date": "2026-11-10",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000324",
+   "seen": "16:44"
+  },
+  {
    "rcept_no": "20261026800440",
    "date": "2026-10-26",
    "title": "[기재정정]주식병합결정",

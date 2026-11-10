@@ -1,0 +1,28 @@
+{
+ "name": "HMM",
+ "code": "011200",
+ "mkt": "코스피",
+ "corp_code": "00164645",
+ "disclosures": [
+  {
+   "rcept_no": "20261110000282",
+   "date": "2026-11-10",
+   "title": "의결권대리행사권유참고서류",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000282",
+   "seen": "16:44"
+  },
+  {
+   "rcept_no": "20261110000279",
+   "date": "2026-11-10",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000279",
+   "seen": "16:44"
+  }
+ ]
+}

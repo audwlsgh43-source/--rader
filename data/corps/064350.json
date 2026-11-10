@@ -5,6 +5,26 @@
  "corp_code": "00302926",
  "disclosures": [
   {
+   "rcept_no": "20261110000372",
+   "date": "2026-11-10",
+   "title": "의결권대리행사권유참고서류",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000372",
+   "seen": "16:44"
+  },
+  {
+   "rcept_no": "20261110000360",
+   "date": "2026-11-10",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000360",
+   "seen": "16:44"
+  },
+  {
    "rcept_no": "20261110000207",
    "date": "2026-11-10",
    "title": "자기주식취득결과보고서",
