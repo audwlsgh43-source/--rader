@@ -1,8 +1,527 @@
 {
  "date": "2026-11-10",
- "updated_at": "2026-11-10 10:58",
- "count": 63,
+ "updated_at": "2026-11-10 11:45",
+ "count": 82,
  "items": [
+  {
+   "rcept_no": "20261110900222",
+   "date": "2026-11-10",
+   "corp": "인터로조",
+   "stock_code": "119610",
+   "corp_code": "00604426",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]최대주주변경을수반하는주식담보제공계약체결",
+   "flr": "인터로조",
+   "rm": "코",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900222"
+  },
+  {
+   "rcept_no": "20261110900215",
+   "date": "2026-11-10",
+   "corp": "메디톡스",
+   "stock_code": "086900",
+   "corp_code": "00580199",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "메디톡스",
+   "rm": "코",
+   "seen": "11:45",
+   "ai": "메디톡스가 2026년 3분기 연결 잠정실적을 공정공시했습니다. 매출은 전년동기 대비 감소했지만 영업이익은 74.5% 증가한 155억원입니다. 외부감사인 회계검토 전 수치라 확정 시 달라질 수 있습니다.",
+   "points": [
+    "2026년 3분기 연결 잠정실적을 공정공시로 공개",
+    "정보제공 대상은 국내외 정보이용자, 이후 투자자에게 제공",
+    "외부감사인 회계검토 미완료, 검토 과정에서 변경 가능",
+    "3분기 매출 전년동기 대비 -2.8%, 영업이익 +74.5%"
+   ],
+   "numbers": [
+    [
+     "3분기 매출액",
+     "593억원"
+    ],
+    [
+     "3분기 영업이익",
+     "155억원"
+    ],
+    [
+     "3분기 당기순이익",
+     "116억원"
+    ],
+    [
+     "누계 영업이익(1~9월)",
+     "277억원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900215"
+  },
+  {
+   "rcept_no": "20261110900194",
+   "date": "2026-11-10",
+   "corp": "데브시스터즈",
+   "stock_code": "194480",
+   "corp_code": "01008762",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "데브시스터즈",
+   "rm": "코",
+   "seen": "11:45",
+   "ai": "데브시스터즈가 2026년 3분기 연결 잠정실적을 공정공시했으며, 3분기 영업이익은 72억 4,000만원으로 전년 동기 적자에서 흑자로 전환됐다.",
+   "points": [
+    "K-IFRS 기준 연결재무제표 기준으로 작성된 잠정치",
+    "외부감사인 검토를 받지 않아 확정치와 달라질 수 있음",
+    "누계 영업이익은 전년 동기 흑자에서 적자로 전환",
+    "정보제공 대상은 기관·일반투자자, 애널리스트, 언론사 등"
+   ],
+   "numbers": [
+    [
+     "3분기 매출액",
+     "811억 7,200만원"
+    ],
+    [
+     "3분기 영업이익",
+     "72억 4,000만원"
+    ],
+    [
+     "3분기 지배기업 소유주지분 순이익",
+     "34억 7,600만원"
+    ],
+    [
+     "누계 영업이익",
+     "-261억 800만원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900194"
+  },
+  {
+   "rcept_no": "20261110800233",
+   "date": "2026-11-10",
+   "corp": "삼성FN리츠",
+   "stock_code": "448730",
+   "corp_code": "01688896",
+   "mkt": "코스피",
+   "type": "capital",
+   "imp": "high",
+   "title": "유상증자또는주식관련사채등의청약결과(자율공시)",
+   "flr": "삼성FN리츠",
+   "rm": "유",
+   "seen": "11:45",
+   "ai": "삼성FN리츠 유상증자에서 구주주 청약 후 일반공모 청약 636,990주가 접수됐으며, 청약률은 92.68%입니다. 최종 실권주 1,390,606주는 대표주관회사 및 인수회사가 인수할 예정입니다.",
+   "points": [
+    "기명식 보통주를 일반공모 방식으로 발행하는 유상증자",
+    "구주주 청약 후 실권주 2,027,596주를 일반공모 청약에 배정",
+    "최종 실권주 1,390,606주는 인수계약서에 따라 인수 예정",
+    "구주주 초과청약 460,624주는 1주당 1주 비율로 배정"
+   ],
+   "numbers": [
+    [
+     "발행예정주식수",
+     "19,000,000주"
+    ],
+    [
+     "청약률",
+     "92.68%"
+    ],
+    [
+     "일반공모 청약주식수",
+     "636,990주"
+    ],
+    [
+     "최종 실권주",
+     "1,390,606주"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-11",
+     "kind": "납입일",
+     "desc": "유상증자 주금 납입일"
+    },
+    {
+     "date": "2026-11-25",
+     "kind": "신주상장",
+     "desc": "유상증자 신주 상장 예정일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800233"
+  },
+  {
+   "rcept_no": "20261110800210",
+   "date": "2026-11-10",
+   "corp": "계룡건설산업",
+   "stock_code": "013580",
+   "corp_code": "00102432",
+   "mkt": "코스피",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "계룡건설산업",
+   "rm": "유",
+   "seen": "11:45",
+   "ai": "계룡건설산업이 부산 벡스코 제3전시장 건립사업을 조달청과 837억8,828만원 규모로 수주했다고 공시했습니다.",
+   "points": [
+    "조달청(수요기관 부산광역시 건설본부)과 체결한 공사 수주",
+    "총 계약금액 중 당사 지분(약 35.83%) 해당 금액",
+    "계약금·선급금 없음, 대금은 기성불 조건",
+    "계약금액과 계약기간은 공사 진행에 따라 변동 가능"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "837억8,828만원"
+    ],
+    [
+     "매출액 대비",
+     "2.90%"
+    ],
+    [
+     "총 계약금액",
+     "2,338억2,000만원"
+    ],
+    [
+     "당사 지분",
+     "35.83%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-12-21",
+     "kind": "기타",
+     "desc": "계약기간 시작(착공일)"
+    },
+    {
+     "date": "2031-02-04",
+     "kind": "기타",
+     "desc": "계약기간 종료(총괄 준공일)"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800210"
+  },
+  {
+   "rcept_no": "20261110800202",
+   "date": "2026-11-10",
+   "corp": "비비안",
+   "stock_code": "002070",
+   "corp_code": "00107677",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "mid",
+   "title": "소송등의판결ㆍ결정",
+   "flr": "비비안",
+   "rm": "유",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800202"
+  },
+  {
+   "rcept_no": "20261110800196",
+   "date": "2026-11-10",
+   "corp": "지엠비코리아",
+   "stock_code": "013870",
+   "corp_code": "00156354",
+   "mkt": "코스피",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "지엠비코리아",
+   "rm": "유",
+   "seen": "11:45",
+   "ai": "지엠비코리아가 현대트랜시스와 하이브리드 차량용 자동차부품 공급계약을 체결했다고 공시했습니다. 계약금액은 약 2304.9억원(부가세 제외)이며, 계약기간은 2028년 9월 1일부터 2034년 12월 31일까지입니다.",
+   "points": [
+    "현대트랜시스와 하이브리드 차량용 자동차부품 공급계약 체결",
+    "납품품목: 전동식오일펌프, 인풋샤프트 서포트 어셈블리(총 2종)",
+    "전동식오일펌프는 미국 종속법인 GMB ALABAMA를 통해 생산·납품, 연결재무제표에 포함",
+    "선급금 없음, 매월 납품완료 후 100% 지급. 금액은 추정치이며 변동 가능"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "2304.9억원"
+    ],
+    [
+     "최근매출액(2025년말 연결 기준)",
+     "7872.7억원"
+    ],
+    [
+     "매출액대비",
+     "29.3%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2028-09-01",
+     "kind": "기타",
+     "desc": "계약기간 시작"
+    },
+    {
+     "date": "2034-12-31",
+     "kind": "기타",
+     "desc": "계약기간 종료"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800196"
+  },
+  {
+   "rcept_no": "20261110000135",
+   "date": "2026-11-10",
+   "corp": "삼아알미늄",
+   "stock_code": "006110",
+   "corp_code": "00126779",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "J.P.MORGANSECURITIESPLC",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000135"
+  },
+  {
+   "rcept_no": "20261110000132",
+   "date": "2026-11-10",
+   "corp": "금호석유화학",
+   "stock_code": "011780",
+   "corp_code": "00106368",
+   "mkt": "코스피",
+   "type": "ma",
+   "imp": "high",
+   "title": "합병등종료보고서(합병)",
+   "flr": "금호석유화학",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000132"
+  },
+  {
+   "rcept_no": "20261110000130",
+   "date": "2026-11-10",
+   "corp": "엑셈",
+   "stock_code": "205100",
+   "corp_code": "01042085",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "조종암",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000130"
+  },
+  {
+   "rcept_no": "20261110000129",
+   "date": "2026-11-10",
+   "corp": "코람코라이프인프라리츠",
+   "stock_code": "357120",
+   "corp_code": "01430475",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "코람코자산운용",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000129"
+  },
+  {
+   "rcept_no": "20261110000128",
+   "date": "2026-11-10",
+   "corp": "엑셈",
+   "stock_code": "205100",
+   "corp_code": "01042085",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "조종암",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000128"
+  },
+  {
+   "rcept_no": "20261110000125",
+   "date": "2026-11-10",
+   "corp": "HD현대마린솔루션",
+   "stock_code": "443060",
+   "corp_code": "01194689",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "김정혁",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000125"
+  },
+  {
+   "rcept_no": "20261110000122",
+   "date": "2026-11-10",
+   "corp": "이루온",
+   "stock_code": "065440",
+   "corp_code": "00390514",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "이정훈",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000122"
+  },
+  {
+   "rcept_no": "20261110000121",
+   "date": "2026-11-10",
+   "corp": "인지디스플레",
+   "stock_code": "037330",
+   "corp_code": "00265421",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "싸이맥스",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000121"
+  },
+  {
+   "rcept_no": "20261110000118",
+   "date": "2026-11-10",
+   "corp": "이루온",
+   "stock_code": "065440",
+   "corp_code": "00390514",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "이승구",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000118"
+  },
+  {
+   "rcept_no": "20261110000116",
+   "date": "2026-11-10",
+   "corp": "에프앤가이드",
+   "stock_code": "064850",
+   "corp_code": "00331016",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "에프앤가이드",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000116"
+  },
+  {
+   "rcept_no": "20261110000112",
+   "date": "2026-11-10",
+   "corp": "NEW",
+   "stock_code": "160550",
+   "corp_code": "00974927",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+   "flr": "김우택",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000112"
+  },
+  {
+   "rcept_no": "20261110000109",
+   "date": "2026-11-10",
+   "corp": "코닉오토메이션",
+   "stock_code": "391710",
+   "corp_code": "01573284",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "황보창협",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000109"
+  },
   {
    "rcept_no": "20261110900157",
    "date": "2026-11-10",
@@ -83,8 +602,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800199",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800199"
   },
   {
    "rcept_no": "20261110800183",
