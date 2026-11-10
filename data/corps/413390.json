@@ -1,0 +1,28 @@
+{
+ "name": "엠오티",
+ "code": "413390",
+ "mkt": "코스닥",
+ "corp_code": "01563922",
+ "disclosures": [
+  {
+   "rcept_no": "20261110000074",
+   "date": "2026-11-10",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000074",
+   "seen": "10:58"
+  },
+  {
+   "rcept_no": "20261110000073",
+   "date": "2026-11-10",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000073",
+   "seen": "10:58"
+  }
+ ]
+}
