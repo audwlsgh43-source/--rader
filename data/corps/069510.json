@@ -1,0 +1,28 @@
+{
+ "name": "에스텍",
+ "code": "069510",
+ "mkt": "코스닥",
+ "corp_code": "00306719",
+ "disclosures": [
+  {
+   "rcept_no": "20261111000002",
+   "date": "2026-11-11",
+   "title": "공개매수설명서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000002",
+   "seen": "08:12"
+  },
+  {
+   "rcept_no": "20261111000001",
+   "date": "2026-11-11",
+   "title": "공개매수신고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000001",
+   "seen": "08:12"
+  }
+ ]
+}
