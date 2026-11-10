@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10 09:01",
+ "updated_at": "2026-11-10 09:55",
  "indices": [
   {
    "key": "ks11",
@@ -461,10 +461,10 @@
    "key": "KRW=X",
    "name": "원/달러",
    "kind": "fx",
-   "close": 1344.08,
-   "chg": -18.62,
-   "pct": -1.37,
-   "date": "11.10 09:01",
+   "close": 1344.83,
+   "chg": -17.87,
+   "pct": -1.31,
+   "date": "11.10 09:55",
    "spark": [
     1350.5,
     1356.84,
@@ -495,17 +495,17 @@
     1340.0699,
     1356.34,
     1362.7,
-    1344.08
+    1344.83
    ]
   },
   {
    "key": "DX-Y.NYB",
    "name": "달러인덱스",
    "kind": "fx",
-   "close": 101.679,
-   "chg": -0.621,
-   "pct": -0.61,
-   "date": "11.10 08:04",
+   "close": 101.741,
+   "chg": -0.559,
+   "pct": -0.55,
+   "date": "11.10 09:45",
    "spark": [
     101.37,
     101.45,
@@ -536,7 +536,7 @@
     101.51,
     101.55,
     102.3,
-    101.679
+    101.741
    ]
   },
   {
@@ -666,10 +666,10 @@
    "key": "CL=F",
    "name": "WTI 유가",
    "kind": "cmdty",
-   "close": 86.48,
-   "chg": -4.35,
-   "pct": -4.79,
-   "date": "11.10 08:50",
+   "close": 86.64,
+   "chg": -4.19,
+   "pct": -4.61,
+   "date": "11.10 09:45",
    "spark": [
     89.38,
     90.42,
@@ -700,17 +700,17 @@
     88.12,
     90.52,
     90.83,
-    86.48
+    86.64
    ]
   },
   {
    "key": "GC=F",
    "name": "금",
    "kind": "cmdty",
-   "close": 4148.3999,
-   "chg": 73.5,
-   "pct": 1.8,
-   "date": "11.10 08:50",
+   "close": 4135.7998,
+   "chg": 60.8999,
+   "pct": 1.49,
+   "date": "11.10 09:45",
    "spark": [
     4179.7002,
     4186.7002,
@@ -741,17 +741,17 @@
     4073.0,
     4113.5,
     4074.8999,
-    4148.3999
+    4135.7998
    ]
   },
   {
    "key": "BTC-USD",
    "name": "비트코인",
    "kind": "crypto",
-   "close": 75239.6328,
-   "chg": 654.9844,
-   "pct": 0.88,
-   "date": "11.10 09:01",
+   "close": 74899.8594,
+   "chg": 315.2109,
+   "pct": 0.42,
+   "date": "11.10 09:55",
    "spark": [
     83679.4688,
     81762.5625,
@@ -782,7 +782,7 @@
     75746.9297,
     75747.5781,
     74584.6484,
-    75239.6328
+    74899.8594
    ]
   }
  ],
@@ -1204,8 +1204,225 @@
   "date": "2026-11-09",
   "closed": true
  },
- "yahoo_at": "2026-11-10 09:01",
+ "yahoo_at": "2026-11-10 09:55",
  "reports": [
+  {
+   "cat": "기업",
+   "title": "펀더멘털 이상 없음, 센티만 악화",
+   "broker": "유진투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97938",
+   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261110_company_20110000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97938",
+   "stock": "한전기술",
+   "code": "052690",
+   "goal": "140000",
+   "opinion": "",
+   "sum": [
+    "3Q26 매출 1,446억·영업이익 108억으로 추정에 부합, 체코 두코바니 효과로 분기 최대 매출 경신",
+    "유로화 약세 외화환산손실로 순이익은 적자지만, 유진투자증권는 영업 펀더멘털이 견조하다고 봄",
+    "미국 의회 정치 리스크와 국내 원전 발주 불확실성으로 구조적 모멘텀이 흔들려 멀티플을 낮춤",
+    "유진투자증권는 중장기 재평가보다 체코·신한울 실적 가시성과 4Q 계절성에 무게를 둘 필요가 있다고 봄"
+   ],
+   "val": []
+  },
+  {
+   "cat": "기업",
+   "title": "핵심은 수익성",
+   "broker": "SK증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97937",
+   "pdf": "https://stock.pstatic.net/stock-research/company/64/20261110_company_686073000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97937",
+   "stock": "원익IPS",
+   "code": "240810",
+   "goal": "120000",
+   "opinion": "",
+   "method": "PER",
+   "why": "실적 기반 업종이라 EPS 전망과 동종 멀티플 비교가 용이해 (일반적 설명)",
+   "sum": [
+    "3Q26 잠정 영업이익 667억원, 영업이익률 19.8%로 시장 눈높이(16.4%) 상회",
+    "매출 확대에 따른 고정비 레버리지 효과가 본격화, 4Q26 매출은 4천억원대 전망",
+    "SK증권는 업종 멀티플 하락으로 목표 멀티플 하향은 불가피하다고 봄",
+    "SK증권는 2027년 EPS 상향 여지가 크며, 이익률 가정 상향이 먼저 반영될 것으로 봄"
+   ],
+   "val": [
+    "2027년 예상 EPS 6,095원에 Target PER 20.0배를 적용해 적정주가 121,900원, 목표주가 120,000원 제시",
+    "현재주가 67,300원 기준 상승여력 78%이며, 2027년 예상 PER은 10.9배 수준"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "3Q26 Review: 파이프라인 재점검",
+   "broker": "미래에셋증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97936",
+   "pdf": "https://stock.pstatic.net/stock-research/company/56/20261110_company_151987000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97936",
+   "stock": "한전기술",
+   "code": "052690",
+   "goal": "145000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "3Q26P Review: 수익성 회복 성공. 매출 성장 기대",
+   "broker": "유진투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97935",
+   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261110_company_177179000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97935",
+   "stock": "KT나스미디어",
+   "code": "089600",
+   "goal": "16000",
+   "opinion": "",
+   "method": "PER",
+   "why": "리포트에 이유는 없으나, 실적 기반 업종에서 동종 기업 PER 비교가 일반적임 (일반적 설명)",
+   "sum": [
+    "3분기 매출은 전년 대비 5.4% 감소했지만 영업이익은 50.8% 늘어 수익성이 개선됨",
+    "영업이익률은 19.2%로 7.2%p 올랐고, 인건비와 사업비 절감이 주된 요인임",
+    "4분기는 성수기 진입으로 매출 404억원, 영업이익 76억원이 전망됨",
+    "4분기 연속 광고취급고가 늘어 광고 시장 회복세가 이어지고 있다고 봄"
+   ],
+   "val": [
+    "유진투자증권은 목표주가를 16,000원(기존 19,000원)으로 낮추고 BUY를 유지함",
+    "2026E EPS 1,800원에 국내 유사업체 평균 PER 8.8배를 적용함. 현재주가 12,120원 기준 PER 6.7배, 상승여력 32.0%"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "3Q26P Review: 주력 결제사업 안정적 성장 지속",
+   "broker": "유진투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97934",
+   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261110_company_212424000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97934",
+   "stock": "헥토파이낸셜",
+   "code": "234340",
+   "goal": "23000",
+   "opinion": "",
+   "method": "PER",
+   "why": "결제·핀테크 기업은 이익이 실적 기반으로 안정적이고 유사 상장사와 비교가 쉬워 PER을 주로 씀 (일반적 설명)",
+   "sum": [
+    "유진투자증권은 3분기 매출이 컨센서스에 부합했지만 영업이익은 소폭 하회했다고 봄",
+    "간편현금결제·PG 등 주력 결제사업 성장과 자회사 편입으로 매출 두 자리 수 성장 지속",
+    "4분기 매출 577억원, 영업이익 62억원으로 전년 대비 수익성 개선 전망",
+    "스테이블코인과 AI 결제 분야 협력을 확대해 신규 성장을 준비 중"
+   ],
+   "val": [
+    "2026년 EPS 1,581원에 국내 유사업체 평균 PER 14.4배를 적용해 목표주가 23,000원 산정",
+    "현재주가 15,760원 기준 2026E PER 10.0배, 상승여력 45.9%로 BUY 유지"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "약가는 내려도 SC 전환은 계속된다",
+   "broker": "IBK투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97933",
+   "pdf": "https://stock.pstatic.net/stock-research/company/40/20261110_company_570769000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97933",
+   "stock": "알테오젠",
+   "code": "196170",
+   "goal": "320000",
+   "opinion": "",
+   "method": "SOTP",
+   "why": "영업가치와 파이프라인별 기술이전 계약가치를 따로 평가해 합산할 수 있어 (일반적 설명)",
+   "sum": [
+    "미국 CMS가 히알루로니다제 추가 피하주사 제형도 정맥주사와 같은 약가협상 대상으로 분류",
+    "IBK투자증권은 약가 하락에도 편의성 덕에 글로벌 제약사의 SC 전환 수요가 이어진다고 봄",
+    "장기 약가 하락을 반영해 2030년 키트루다 큐렉스 로열티 추정치를 3억 달러로 낮춤",
+    "2028년까지 단기 실적 전망은 그대로 두고 매수 의견을 유지"
+   ],
+   "val": [
+    "목표주가 32만원(기존 40만원에서 하향), 2030F 순이익에 P/E 30.0배와 할인계수를 적용한 SOTP 방식",
+    "현재가 16만8,400원 대비 상승여력 90%, 2026F·2027F PER 48.7배·40.9배, PBR 17.5배·12.5배"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "난치성 류마티스 성공, GD로 이어간다",
+   "broker": "신한투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97932",
+   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261110_company_146711000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97932",
+   "stock": "한올바이오파마",
+   "code": "009420",
+   "goal": "110000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "약가인하는 조삼모사",
+   "broker": "신한투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97931",
+   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261110_company_476459000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97931",
+   "stock": "알테오젠",
+   "code": "196170",
+   "goal": "430000",
+   "opinion": "",
+   "method": "SOTP",
+   "why": "파트너사별·제품별 기술이전 가치를 나눠 합산하는 구조라 부문별 가치를 더하는 SOTP가 적합 (일반적 설명)",
+   "sum": [
+    "CMS 2029년 IRA 약가협상 최종규칙에 SC 제형도 포함됐으나, 신한투자증권은 키트루다SC 영향이 제한적이라고 봄",
+    "키트루다SC 순매출 기준 약가인하 영향은 10% 미만이며, 2년 내 약가인하 목록 제외도 가능하다고 판단",
+    "영구성장률 조정으로 목표주가를 43만원으로 낮췄으나 투자의견 매수와 업종 내 탑픽은 유지",
+    "할로자임 주가 15% 하락은 키트루다SC 로열티 배분 협상 부재 때문이며, 신한투자증권은 과도한 하락으로 봄"
+   ],
+   "val": [
+    "SOTP로 적정주가 432,012원을 산출, 목표주가 430,000원, 현재주가 168,400원 대비 상승여력 155.3%",
+    "현재 주가 기준 2026F PER 41.2배, 2027F PER 22.3배, 2026F PBR 16.9배 수준"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "완료를 못해서 생기는 문제",
+   "broker": "유진투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97930",
+   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261110_company_821012000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97930",
+   "stock": "한전KPS",
+   "code": "051600",
+   "goal": "48000",
+   "opinion": "",
+   "method": "PBR",
+   "why": "지주·정비 성격의 안정적 자본 기반 기업이라 자산가치(BPS)에 배수를 적용하는 방식이 일반적임 (일반적 설명)",
+   "sum": [
+    "3Q26 영업이익 117억원으로 컨센서스를 크게 밑돌았고, 원전 장기 OH 지연이 주된 원인이라고 봄",
+    "장기 OH 완료 호기가 늘고 4Q26 수행 호기가 7기로 예상되어 실적은 바닥을 확인 중이라고 봄",
+    "화력은 유일하게 증가했으나 연간 계획 대비 잔여 28호기가 4Q26에 몰릴 전망",
+    "2027년 수행 호기 증가와 상시검사 제도 도입이 분기별 매출 변동성 완화 요인으로 제시됨"
+   ],
+   "val": [
+    "목표주가 48,000원은 ‘27F BPS 32,163원에 PBR 1.5배를 적용한 값이며 기존 55,000원에서 하향됨",
+    "현재주가 40,200원 기준 상승여력 약 19%, 2027E 기준 PER 14.2배·PBR 1.2배 수준"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "탐방노트: 방어와 공격, 드론 풀라인업 확보",
+   "broker": "SK증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/company/97929",
+   "pdf": "https://stock.pstatic.net/stock-research/company/64/20261110_company_158589000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97929",
+   "stock": "니어스랩",
+   "code": "417030",
+   "opinion": "",
+   "method": "",
+   "why": "",
+   "sum": [
+    "SK증권은 저비용 드론 수요 확대로 니어스랩 방산 사업에 주목함",
+    "국내 KAiDEN 신속시범사업 수주와 UAE·싱가포르 등 해외 레퍼런스 확보",
+    "26년 영업적자 지속 전망이나 28년 흑자전환, 29년 국내 양산을 목표로 제시",
+    "목표주가 없는 Not Rated 리포트임"
+   ],
+   "val": []
+  },
   {
    "cat": "기업",
    "title": "이익보다 성장에 투자할 2027년",
@@ -1242,20 +1459,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97926",
    "stock": "롯데칠성",
    "code": "005300",
-   "goal": "140000",
-   "opinion": "",
-   "method": "SOTP",
-   "why": "음료·주류 등 사업부문별 성격이 달라 부문별 가치를 합산하고, 서초동 부지 등 비영업자산을 분리 평가하기 위함 (일반적 설명)",
    "sum": [
     "3Q26 영업이익은 570억원(-37.9%)으로 컨센서스를 크게 밑돌았고 원부자재 부담이 컸음",
     "음료는 판매 부진과 원가 상승으로 이익이 급감했고, 주류는 3분기 연속 매출이 늘었음",
     "해외 법인 영업이익은 48% 줄었으나 가격 전가가 자유로워 4Q부터 안정화될 전망",
     "2026~27년 영업이익 추정치를 하향했고, 중장기 회복의 핵심은 2030년 해외 매출 비중 50% 목표"
    ],
+   "goal": "140000",
    "val": [
     "신한투자증권은 목표주가 140,000원(매수 유지, 하향)으로 SOTP 방식을 적용, 상승여력 27.2%로 봄",
     "2027년 예상 EBITDA에 3배를 적용한 영업가치 1조 1,540억원과 비영업가치 1조 7,500억원을 합산, 순차입금 1조 4,883억원 차감"
-   ]
+   ],
+   "method": "SOTP",
+   "why": "음료·주류 등 사업부문별 성격이 달라 부문별 가치를 합산하고, 서초동 부지 등 비영업자산을 분리 평가하기 위함 (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1267,20 +1483,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97925",
    "stock": "와이지엔터테인먼트",
    "code": "122870",
-   "goal": "70000",
-   "opinion": "",
-   "method": "PER",
-   "why": "엔터테인먼트 업종은 공연·음반 등으로 이익 변동이 커서 이익 기준 멀티플인 PER을 주로 씀 (일반적 설명)",
    "sum": [
     "키움증권은 3분기 영업이익 부진이 빅뱅 월드투어 초기 비용과 대손상각 등 일회성 요인에서 비롯됐다고 봄",
     "키움증권은 4분기부터 비용이 줄고 공연 지역 이동과 회차 증가로 레버리지가 나타날 것으로 봄",
     "키움증권은 2026년 연간 영업이익 716억원이 직전 추정치와 사실상 같다고 봄",
     "신인 보이그룹 데뷔가 내년 상반기로 밀렸지만 주가 변수는 이 신인 라인업이라고 봄"
    ],
+   "goal": "70000",
    "val": [
     "2027E EPS 3,100원에 목표 P/E 22.5배를 적용해 목표주가 70,000원 산정",
     "현재주가 40,500원 기준 2027E PER 13.6배, 목표주가 기준 상승여력 72.8%"
-   ]
+   ],
+   "method": "PER",
+   "why": "엔터테인먼트 업종은 공연·음반 등으로 이익 변동이 커서 이익 기준 멀티플인 PER을 주로 씀 (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1292,20 +1507,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97924",
    "stock": "롯데칠성",
    "code": "005300",
-   "goal": "160000",
-   "opinion": "",
-   "method": "",
-   "why": "",
    "sum": [
     "3분기 영업이익 570억원(-38% YoY)으로 시장 기대치를 하회함",
     "명절 시점 차이, 원부재료 투입단가 상승, 미얀마 원액 수급 차질이 실적 부담으로 작용",
     "4분기는 명절 영향 소멸과 전년 일회성 비용 기저효과로 3분기보다 개선될 전망",
     "키움증권은 내년 원가가 안정되면 업종 내 수익성 개선 폭이 클 것으로 보고 BUY 유지"
    ],
+   "goal": "160000",
    "val": [
     "목표주가 160,000원 유지, 현재가 110,100원 대비 상승여력 약 45%(목표가 기준 계산)",
     "2026F PER 12.6배, PBR 0.70배, EV/EBITDA 6.7배; 2027F PER 13.0배, PBR 0.68배"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1317,9 +1531,6 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97923",
    "stock": "씨이랩",
    "code": "189330",
-   "opinion": "",
-   "method": "",
-   "why": "",
    "sum": [
     "엔비디아 GPU 인프라 구축·운영 솔루션, 영상AI, 디지털트윈 사업을 영위함",
     "엔비디아 엘리트 승격 후 2026년 10월 말 기준 3,647억 원을 수주함",
@@ -1329,7 +1540,9 @@
    "val": [
     "한국IR협의회는 2026년 예상 PBR 3.5배로 역사적 밴드 중하단에 있다고 봄",
     "2026F PSR 5.2배이며 적자로 PER·EV/EBITDA는 N/A. 현재가는 6,930원(11/6 기준)"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1341,20 +1554,48 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97922",
    "stock": "펌텍코리아",
    "code": "251970",
-   "goal": "85000",
-   "opinion": "",
-   "method": "PER",
-   "why": "리포트에 별도 이유는 없으나, 실적 기반 이익 성장을 직접 반영하기 쉬워 일반적으로 많이 쓰는 방식임 (일반적 설명)",
    "sum": [
     "3Q26 매출 1,238억원, 영업이익 251억원으로 당사 추정치를 상회",
     "비상장 주요 고객사 수주 증가와 생산 효율 개선으로 외형과 수익성이 함께 성장",
     "펌프사업부 매출총이익률 상승과 판관비 부담 완화가 이익 증가의 주요인",
     "6공장 설비 확충과 7공장·미라텍 증설로 생산 효율 추가 개선 기대"
    ],
+   "goal": "85000",
    "val": [
     "IBK투자증권은 Target PER 17배를 적용해 목표주가를 85,000원(기존 80,000원)으로 상향함",
     "현재가 69,000원 기준 2026F PER 14.5배, PBR 2.5배이며 2026F EPS는 4,755원임"
-   ]
+   ],
+   "method": "PER",
+   "why": "리포트에 별도 이유는 없으나, 실적 기반 이익 성장을 직접 반영하기 쉬워 일반적으로 많이 쓰는 방식임 (일반적 설명)"
+  },
+  {
+   "cat": "산업",
+   "title": "지정학 이슈와 단기 공급 과잉의 결과",
+   "broker": "유진투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/industry/46926",
+   "pdf": "https://stock.pstatic.net/stock-research/industry/63/20261110_industry_620200000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46926",
+   "sector": "petrochemical",
+   "method": "",
+   "why": "",
+   "sum": [
+    "유진투자증권은 지정학 프리미엄 축소만으로는 이번 유가 급락을 설명하기 어렵다고 봄",
+    "10월 호르무즈 해협 원유 수출이 전쟁 이전의 76%까지 회복, 글로벌 공급과잉은 약 140만 b/d로 추정",
+    "미국 석유제품 재고는 5년 평균보다 13% 낮아 원유 약세와 정제마진 강세가 공존할 수 있다고 봄",
+    "미국은 여전히 대이란 압박을 강화하는 중이라 단기 공급과잉과 지정학 리스크가 공존하는 국면으로 진단"
+   ],
+   "val": []
+  },
+  {
+   "cat": "산업",
+   "title": "두터운 자본이 겨울을 견딘다",
+   "broker": "신한투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/industry/46925",
+   "pdf": "",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46925",
+   "sector": "insurance"
   },
   {
    "cat": "산업",
@@ -1372,9 +1613,18 @@
    "broker": "IBK투자증권",
    "date": "2026-11-10",
    "url": "https://stock.naver.com/research/industry/46923",
-   "pdf": "",
+   "pdf": "https://stock.pstatic.net/stock-research/industry/40/20261110_industry_501298000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46923",
-   "sector": "game"
+   "sector": "game",
+   "method": "",
+   "why": "",
+   "sum": [
+    "국내 증시는 코스피·코스닥이 전일 대비 각각 0.8% 하락했으며, 미국 증시는 다우와 나스닥이 상승함",
+    "게임 데이즈 2026이 처음 열려 콘솔 개발, 인디게임 경진, 게임 제작 AI 전환 사례가 소개됨",
+    "카카오모빌리티와 엔비디아가 레벨4 자율주행 기술 협력 MOU를 맺고 기아 PV5에 우선 적용하기로 함",
+    "국내 게임주는 크래프톤·NHN 등이 1주일 새 큰 폭으로 올랐으나 펄어비스·카카오게임즈 등은 하락함"
+   ],
+   "val": []
   },
   {
    "cat": "산업",
@@ -1382,9 +1632,54 @@
    "broker": "유진투자증권",
    "date": "2026-11-10",
    "url": "https://stock.naver.com/research/industry/46922",
-   "pdf": "",
+   "pdf": "https://stock.pstatic.net/stock-research/industry/63/20261110_industry_607700000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46922",
-   "sector": "steelMetal"
+   "sector": "steelMetal",
+   "method": "",
+   "why": "",
+   "sum": [
+    "미국 50% 철강 관세와 리쇼어링으로 현지 철강가격이 크게 올라 미국 철강사 3Q26 실적이 개선됨",
+    "US Steel, Cleveland-Cliffs 등이 내년 가이던스를 상향하며 호황 기조가 이어질 전망임",
+    "민주당 의회가 들어서도 무역확장법 232조에 따라 50% 관세는 유지될 것으로 봄",
+    "국내 철강사의 대미 수출에는 부담이나, 세아제강 등 현지 생산·수출 업체는 상대적 수혜가 예상됨"
+   ],
+   "val": []
+  },
+  {
+   "cat": "시황",
+   "title": "[IBKS Daily] Morning Brief(261110)",
+   "broker": "IBK투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/daily/38101",
+   "pdf": "",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38101"
+  },
+  {
+   "cat": "시황",
+   "title": "SK증권 아침에 슥_2026.11.10",
+   "broker": "SK증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/daily/38100",
+   "pdf": "",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38100"
+  },
+  {
+   "cat": "시황",
+   "title": "[Market Time] AI 인프라 우려에 따른 과대낙폭 되돌림",
+   "broker": "iM증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/daily/38099",
+   "pdf": "",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38099"
+  },
+  {
+   "cat": "시황",
+   "title": "Eugene Daily Snapshot - 코스피 5천 가까스로 사수",
+   "broker": "유진투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/daily/38098",
+   "pdf": "",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38098"
   },
   {
    "cat": "시황",
@@ -1421,6 +1716,33 @@
    "url": "https://stock.naver.com/research/daily/38094",
    "pdf": "",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38094"
+  },
+  {
+   "cat": "투자정보",
+   "title": "글로벌 테크 - 조정 이후를 결정할 변수",
+   "broker": "유진투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/invest/40778",
+   "pdf": "",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40778"
+  },
+  {
+   "cat": "투자정보",
+   "title": "뉴 ETF 라인 업 : AI핵심기판, 코스피200커버드콜 액티브, 나스닥+美단기채 등 ETF 6종 상장",
+   "broker": "키움증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/invest/40777",
+   "pdf": "",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40777"
+  },
+  {
+   "cat": "투자정보",
+   "title": "[IBKS Daily] Start with IBKS(2026.11.10) 중동발 물가 부담 완화에 글로벌 증시 반등",
+   "broker": "IBK투자증권",
+   "date": "2026-11-10",
+   "url": "https://stock.naver.com/research/invest/40776",
+   "pdf": "",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40776"
   },
   {
    "cat": "투자정보",
@@ -1477,20 +1799,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97921",
    "stock": "롯데케미칼",
    "code": "011170",
-   "goal": "50000",
-   "opinion": "",
-   "method": "PBR",
-   "why": "ROE 할인율을 반영한 적용 PBR을 쓰며, 적자가 이어져 PER 산정이 어려움 (일반적 설명)",
    "sum": [
     "미래에셋증권은 4분기에도 영업적자가 이어질 것으로 봄(영업손실 2,830억원 전망)",
     "기초화학 공급과잉과 첨단소재 수요 부진, 중국 증설로 수익성이 악화된 상태",
     "내년 상반기까지 ABS 시황 개선이 어려울 것으로 보고 실적 전망을 낮춤",
     "사업재편 효과는 지분법손익에 반영되며 연말 손상차손 리스크도 남아 있음"
    ],
+   "goal": "50000",
    "val": [
     "목표주가는 BPS 27.3만원에 적용 PBR 0.18배를 곱해 5만원으로 하향(기존 6.3만원)",
     "현재주가 46,600원 대비 상승여력 7.3%, 투자의견 중립 유지. 2026F PBR 0.2배"
-   ]
+   ],
+   "method": "PBR",
+   "why": "ROE 할인율을 반영한 적용 PBR을 쓰며, 적자가 이어져 PER 산정이 어려움 (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1502,20 +1823,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97920",
    "stock": "씨에스윈드",
    "code": "112610",
-   "goal": "74000",
-   "opinion": "",
-   "method": "PER",
-   "why": "글로벌 풍력 터빈 4개사의 12MF P/E 평균을 기준으로 20% 할인해 적용한 것으로, 리포트의 비교 기준에 따른 방식임",
    "sum": [
     "3Q26 영업이익 807억원으로 시장 기대치에 부합, AMPC를 제외한 수익성은 개선",
     "미국 법인 생산성 개선과 내년 생산 물량 약 10% 증가로 타워 중심 성장 기대",
     "민주당 상하원 탈환으로 인허가 개혁 동력이 생겨 풍력 프로젝트 취소·지연 위험 완화 전망",
     "한화투자증권는 AMPC 종료 후 이익 감소 우려가 자체 생산성 개선과 정책 변화로 완화될 것으로 봄"
    ],
+   "goal": "74000",
    "val": [
     "목표 P/E 16배(글로벌 풍력 터빈 4개사 12MF P/E 평균에 20% 할인)×12MF EPS 4,580원으로 적정주가 74,395원 산정",
     "현재가 49,100원 기준 2026E PER 11.5배·PBR 1.6배, 목표주가 74,000원 대비 상승여력 50.7%"
-   ]
+   ],
+   "method": "PER",
+   "why": "글로벌 풍력 터빈 4개사의 12MF P/E 평균을 기준으로 20% 할인해 적용한 것으로, 리포트의 비교 기준에 따른 방식임"
   },
   {
    "cat": "기업",
@@ -1527,20 +1847,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97919",
    "stock": "LIG디펜스앤에어로스페이스",
    "code": "079550",
-   "goal": "670000",
-   "opinion": "",
-   "method": "PER",
-   "why": "리포트는 해외 방공체계 동종업체(RTX, Kongsberg) 2027년 PER 평균을 기준으로 목표 PER을 정함. 방산 이익 기반 평가에 PER이 일반적(일반적 설명)",
    "sum": [
     "3분기 영업이익 676억원으로 컨센서스를 하회, 내수 감소와 해외 매출 기대 미달",
     "TMMR 2차 양산 종료와 개발사업 손실충당금이 실적 부담으로 작용",
     "단기 반등의 관건은 신규 수주 성과와 방위사업청 제재 결과",
     "한화투자증권는 방공체계 수출 확대 전망이 유효해 저가 매수 기회로 봄"
    ],
+   "goal": "670000",
    "val": [
     "2027년 예상 EPS 25,295원에 목표 PER 26배를 적용해 목표주가 670,000원 산정(적정주가 657,670원)",
     "현재가 326,000원 기준 2027E PER 12.9배, 상승여력 105.5%. 해외 방공 동종 2개사 2027E PER 평균 25.5배 참고"
-   ]
+   ],
+   "method": "PER",
+   "why": "리포트는 해외 방공체계 동종업체(RTX, Kongsberg) 2027년 PER 평균을 기준으로 목표 PER을 정함. 방산 이익 기반 평가에 PER이 일반적(일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1552,20 +1871,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97918",
    "stock": "삼양식품",
    "code": "003230",
-   "goal": "1800000",
-   "opinion": "",
-   "method": "",
-   "why": "",
    "sum": [
     "3분기 영업이익 1,962억원으로 컨센서스를 웃돌았으나, 비경상이익 200억원을 제외하면 컨센서스에 부합",
     "원화 강세와 선적 지연으로 매출이 줄었지만 이를 조정하면 전년 대비 31% 증가한 수준으로 추정",
     "미국·유럽 판매 확대와 2027년 중국 자싱 공장 본생산으로 공급 병목이 풀릴 것으로 기대",
     "한화투자증권는 2027년 매출 3조 9,550억원, 영업이익 9,140억원을 전망하며 Buy 의견을 유지함"
    ],
+   "goal": "1800000",
    "val": [
     "목표주가 1,800,000원(유지)으로 현재가 1,220,000원(11/6) 대비 상승여력 47.5%",
     "재무표 기준 PER은 2026E 17.7배, 2027E 13.1배, PBR은 2026E 5.3배, 2027E 3.9배 수준"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1590,20 +1908,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97916",
    "stock": "코웨이",
    "code": "021240",
-   "goal": "150000",
-   "opinion": "",
-   "method": "PER",
-   "why": "지속적으로 이익을 내는 렌탈·가전 기업이라 이익 기준 PER로 기업가치를 평가하는 것이 일반적입니다. (일반적 설명)",
    "sum": [
     "3Q26 매출 14,261억원(+14%), 영업이익 2,608억원(+7%)으로 컨센서스에 부합",
     "별도법인은 원가율 상승으로 OPM이 16.3%(-0.9%p)로 떨어져 수익성이 부진",
     "말레이시아·태국·미국 등 해외법인 성과가 두드러진 분기",
     "한화투자증권은 별도 수익성 하향을 반영해 목표주가를 15만원으로 낮추고 BUY 유지로 봄"
    ],
+   "goal": "150000",
    "val": [
     "목표 PER 15배를 12MF 지배순이익 7,148억원에 적용해 적정주가 151,824원 산출",
     "현재가 109,800원 기준 2026E PER 12.2배·PBR 1.9배, 상승여력 36.6%"
-   ]
+   ],
+   "method": "PER",
+   "why": "지속적으로 이익을 내는 렌탈·가전 기업이라 이익 기준 PER로 기업가치를 평가하는 것이 일반적입니다. (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1615,20 +1932,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97915",
    "stock": "LIG디펜스앤에어로스페이스",
    "code": "079550",
-   "goal": "600000",
-   "opinion": "",
-   "method": "PER",
-   "why": "리포트에 명시된 이유는 없으며, 이익 창출이 확인되는 방산 업체의 주가를 이익 대비로 평가하기 위해 흔히 쓰임 (일반적 설명)",
    "sum": [
     "DS투자증권은 3Q 매출 1.07조원, 영업이익 676억원으로 컨센서스를 크게 밑돈 것으로 봄",
     "UAE 천궁-Ⅱ 매출 미달, 환율 하락, 개발 손실충당금 등이 부진의 원인으로 제시됨",
     "중동 천궁-Ⅱ 수출 기대는 유효하나 단기 매출 변동성과 입찰 제재 이슈는 부담으로 봄",
     "환율과 천궁 매출 추정 하향을 반영해 목표주가를 60만원으로 낮춤"
    ],
+   "goal": "600000",
    "val": [
     "28F EPS 30,133원에 목표 PER 20배를 적용해 목표주가 600,000원을 산정, 상승여력 84.0%",
     "현재가 326,000원 기준 27F PER 14.6배, 28F PER 10.8배 수준으로 제시됨"
-   ]
+   ],
+   "method": "PER",
+   "why": "리포트에 명시된 이유는 없으며, 이익 창출이 확인되는 방산 업체의 주가를 이익 대비로 평가하기 위해 흔히 쓰임 (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1640,20 +1956,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97914",
    "stock": "한화에어로스페이스",
    "code": "012450",
-   "goal": "1250000",
-   "opinion": "",
-   "method": "",
-   "why": "",
    "sum": [
     "3Q26 영업이익 4,520억원(-46% YoY)으로 컨센서스를 크게 밑돌았으나 일시적 요인이 겹친 결과로 봄",
     "내수 저마진, 폴란드 인도 공백에 따른 고정비 부담, 환율 하락, 일회성 비용이 한 분기에 몰림",
     "4Q26부터 폴란드 K9·천무 인도가 재개되어 실적 회복이 예상되며, 2027년에는 추가 성장 전망",
     "미국 궤도형 자주포(MTC-T) 사업에 K9·K10이 선정될 가능성이 높다고 보고, 투자의견 매수 유지"
    ],
+   "goal": "1250000",
    "val": [
     "DS투자증권는 목표주가를 1,250,000원(하향)으로 제시, 현재가 660,000원 대비 상승여력 89.4%로 제시",
     "현재가 기준 2027F PER 12.5배(EPS 52,796원), 2026F PER 23.0배로 밸류에이션이 낮아졌다고 봄"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1666,7 +1981,19 @@
    "stock": "씨에스윈드",
    "code": "112610",
    "goal": "88000",
-   "opinion": ""
+   "opinion": "",
+   "method": "PER",
+   "why": "국내 경쟁사 27F PER에 50% 할증한 근거로 미국 풍력 업황 반등 가능성을 제시; 실적 기반 이익 평가에 PER이 널리 쓰임 (일반적 설명)",
+   "sum": [
+    "DS투자증권는 3분기 실적이 컨센서스에 부합했다고 봄(영업이익 807억원, +22.8% YoY)",
+    "미국 타워 생산성 개선으로 AMPC 제외 영업이익률이 분기마다 개선되는 중",
+    "DS투자증권는 중간선거 이후 재생에너지에 유리한 정책 변화를 기대",
+    "2026년은 무난하나 2027년은 인센티브 소멸로 수익성 하락(7~8%) 전망"
+   ],
+   "val": [
+    "목표주가 88,000원은 2027년 EPS 3,895원에 목표 PER 22.3배를 적용해 산출, 국내 경쟁사 27F PER에 50% 할증",
+    "현재주가 49,100원은 2027년 추정 PER 11.9배·PBR 1.4배 수준, 상승여력 79.2%"
+   ]
   },
   {
    "cat": "기업",
@@ -1678,20 +2005,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97912",
    "stock": "삼양식품",
    "code": "003230",
-   "goal": "1860000",
-   "opinion": "",
-   "method": "",
-   "why": "",
    "sum": [
     "3분기 매출·영업이익이 시장기대치를 상회해, 환율과 유럽 거래선 조정 악재에도 견조하다고 봄",
     "유럽 거래선 조정은 일시적 요인이며 2027년 유럽 매출을 한 단계 끌어올릴 기회라고 봄",
     "2027년 1월 중국 신공장 가동으로 실적이 한 단계 레벨업될 것으로 전망",
     "연내 해외 증설 발표와 가격인상 가능성을 감안해 업사이드 리스크가 크다고 봄"
    ],
+   "goal": "1860000",
    "val": [
     "현재가 122만원 기준 2026F PER 16.0배·PBR 5.1배·EV/EBITDA 11.0배, 2027F PER 13.3배·PBR 3.8배",
     "BUY 유지, 목표주가 186만원 유지. 산정 방식과 적용 배수는 원문에 명시되지 않음"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1703,20 +2029,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97911",
    "stock": "한국콜마",
    "code": "161890",
-   "goal": "170000",
-   "opinion": "",
-   "method": "",
-   "why": "",
    "sum": [
     "3분기 매출은 시장기대치를 하회했으나 HK이노엔 제외 본업은 부합",
     "한국 법인 매출은 YoY 35%로 견조, 선케어 중심 성장세 지속",
     "교보증권는 4분기 한국 매출이 연중 가장 높은 성장률을 낼 것으로 봄",
     "2027년 상반기 CAPA 확대 준비, 하반기 세종 원료공장 완공으로 외형 확대 기대"
    ],
+   "goal": "170000",
    "val": [
     "목표주가 17만원 유지, 현재가 10.89만원 대비 상승여력 약 56%(계산값)",
     "현재 12M Fwd P/E 11배, 2026F PER 13.2배·PBR 2.4배, 2027F PER 9.9배"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1728,20 +2053,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97910",
    "stock": "코스메카코리아",
    "code": "241710",
-   "goal": "150000",
-   "opinion": "",
-   "method": "",
-   "why": "",
    "sum": [
     "3Q26 매출은 2,475억원(YoY 36%)으로 늘었지만 영업이익은 시장 기대치를 밑돎",
     "성과충당금 30억원을 감안하면 예상에 대체로 부합한다고 봄",
     "한국 법인 매출이 QoQ 13% 늘어 수요 강세가 이어지는 것으로 봄",
     "미국은 역기저와 원화 강세로 부진, 중국은 저단가 인디 비중 확대로 수익성 부담"
    ],
+   "goal": "150000",
    "val": [
     "교보증권은 목표주가 150,000원(BUY 유지)을 제시했으나, 리포트에 산정 방식과 적용 배수는 명시되지 않음",
     "현재가 101,400원 기준 2027F PER 10.3배, PBR 2.5배 수준(리포트 표 기준)"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1753,182 +2077,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97909",
    "stock": "씨에스윈드",
    "code": "112610",
-   "goal": "80000",
-   "opinion": "",
-   "method": "PER",
-   "why": "풍력 업종은 이익 창출력이 핵심이라 Peer 간 PER 비교가 일반적이므로 (일반적 설명)",
    "sum": [
     "3Q26 영업이익 807억원(+22.8% YoY)으로 컨센서스에 부합, 타워 부문 마진 개선이 주도",
     "지배순이익은 외환손익 악화로 468억원(-16.2%)을 기록해 컨센서스 하회",
     "하부구조물은 2Q·3Q에 인센티브가 몰려 4Q 감소, 2027년 정상화 전망",
     "교보증권는 미국 법인 물량 확보와 인허가 정상화를 근거로 Buy 유지, 목표주가 80,000원으로 상향 봄"
    ],
+   "goal": "80000",
    "val": [
     "12MF EPS 4,725원에 글로벌 풍력 Peer 12MF PER 평균 17.0배를 적용해 목표주가 80,000원 산출",
     "현재가 49,100원 기준 상승여력 62.9%, 2026E PER 11.1배로 Peer 평균 21.2배보다 낮음"
-   ]
-  },
-  {
-   "cat": "기업",
-   "title": "3Q26 Review: 유효한 성장 기조",
-   "broker": "교보증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97908",
-   "pdf": "https://stock.pstatic.net/stock-research/company/62/20261109_company_506225000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97908",
-   "stock": "롯데쇼핑",
-   "code": "023530",
-   "goal": "135000",
-   "opinion": "",
-   "sum": [
-    "3Q26 영업이익 1,756억원(YoY +34.5%)으로 시장 기대치에 부합",
-    "백화점 국내 기존점 +11%, 외국인 매출 80% 이상 증가가 성장을 견인",
-    "할인점 영업이익 216억원(YoY +87.7%)으로 국내 고성장세 시현",
-    "교보증권은 4분기 희망퇴직 비용 부담에도 본업 성장세가 지속될 것으로 봄"
    ],
-   "val": []
-  },
-  {
-   "cat": "기업",
-   "title": "역대급 패키지기판 증설 사이클의 대표 수혜주",
-   "broker": "교보증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97907",
-   "pdf": "https://stock.pstatic.net/stock-research/company/62/20261109_company_303600000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97907",
-   "stock": "기가비스",
-   "code": "420770",
-   "goal": "160000",
-   "opinion": "",
-   "method": "",
-   "why": "",
-   "sum": [
-    "교보증권은 기가비스를 AI 패키지기판 증설 사이클의 대표 수혜주로 봄",
-    "AI 칩의 대면적·고다층 기판 수요로 ABF 기판 생산 부담과 증설 투자가 확대",
-    "고객사 선수금이 증설 자금으로 쓰여 투자 집행 가능성도 높아진 것으로 판단",
-    "상반기 신규 수주와 최근 공시를 합산해 약 2,700억원을 확보, 2027년 실적 가시성 높음"
-   ],
-   "val": [
-    "목표주가 160,000원(매수, 신규)으로 현재가 62,400원 대비 약 156% 상승여력",
-    "2027E EPS 8,029원 기준 현재가 PER 7.8배, PBR 2.5배. 목표가 산정 방식과 적용 배수는 본문에 명시되지 않음"
-   ]
-  },
-  {
-   "cat": "기업",
-   "title": "SOCAMM 중심의 긍정적인 업황 지속",
-   "broker": "교보증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97906",
-   "pdf": "https://stock.pstatic.net/stock-research/company/62/20261109_company_603946000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97906",
-   "stock": "티엘비",
-   "code": "356860",
-   "goal": "45000",
-   "opinion": "",
    "method": "PER",
-   "why": "목표 P/E 14배를 글로벌 기판 Peer의 27F P/E에서 도출해 이익(EPS) 기준으로 가치를 산정함",
-   "sum": [
-    "3Q26 매출 940억원(YoY +36.4%), 영업이익 166억원으로 고부가 SOCAMM 비중 확대가 이익률을 끌어올림",
-    "자재비 인상은 판가 인상과 제품 믹스 개선으로 상쇄되는 중",
-    "교보증권는 업황이 크게 바뀌지 않는 한 2028년까지 성장 추세가 이어질 것으로 봄",
-    "교보증권는 투자의견 BUY를 유지하고, 글로벌 AI HW 수요 불확실성을 반영해 목표주가를 45,000원으로 하향"
-   ],
-   "val": [
-    "교보증권는 2027년 추정 EPS 3,223원에 글로벌 기판 Peer 27F P/E 14배를 적용해 목표주가 45,000원을 산정",
-    "현재주가 26,500원(2026.11.6 종가) 기준 상승여력 69.8%이며, 2027F 기준 PER은 8.2배"
-   ]
-  },
-  {
-   "cat": "기업",
-   "title": "3Q26 Review: 바닥은 지나가고 있다",
-   "broker": "교보증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97905",
-   "pdf": "https://stock.pstatic.net/stock-research/company/62/20261109_company_282832000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97905",
-   "stock": "파마리서치",
-   "code": "214450",
-   "goal": "530000",
-   "opinion": "",
-   "sum": [
-    "교보증권는 3분기 매출 1,715억원(YoY +27.7%)은 늘었지만 영업이익 626억원은 컨센서스를 밑돈 것으로 봄",
-    "화장품 사업부(620억원, YoY +76.2%)가 성장을 이끌고 수출 의료기기도 31% 늘어난 것으로 봄",
-    "4분기 수출 의료기기 YoY +40% 성장을 목표로 하며, 신제품이 새 성장동력이 될 것으로 봄",
-    "화장품 비중 확대로 2027년 영업이익률은 30%대 중반을 유지할 것으로 보고 바닥 구간으로 판단"
-   ],
-   "val": []
-  },
-  {
-   "cat": "기업",
-   "title": "3Q26 Re: 실적은 턴어라운드, 주가는 바닥",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97904",
-   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261109_company_918303000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97904",
-   "stock": "롯데쇼핑",
-   "code": "023530",
-   "goal": "120000"
-  },
-  {
-   "cat": "기업",
-   "title": "추가 기술이전에 MASH 임상 결과 서프(3Q26 Re)",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97903",
-   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261109_company_285897000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97903",
-   "stock": "한미약품",
-   "code": "128940",
-   "goal": "720000"
-  },
-  {
-   "cat": "기업",
-   "title": "높은 주주 환원이 주가 하방을 지지",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97902",
-   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261109_company_9403000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97902",
-   "stock": "강원랜드",
-   "code": "035250",
-   "goal": "19000"
-  },
-  {
-   "cat": "기업",
-   "title": "미국 생산 증가와 마진 상승 확인",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97901",
-   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261109_company_520398000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97901",
-   "stock": "씨에스윈드",
-   "code": "112610",
-   "goal": "80000"
-  },
-  {
-   "cat": "기업",
-   "title": "일회성 비용 제외하면 견조한 실적",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97900",
-   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261109_company_768081000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97900",
-   "stock": "SK네트웍스",
-   "code": "001740",
-   "goal": "10000"
-  },
-  {
-   "cat": "기업",
-   "title": "3Q26 Re: 수요를 못 따라가는 생산 캐파",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/company/97899",
-   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261109_company_263080000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97899",
-   "stock": "한국콜마",
-   "code": "161890",
-   "goal": "160000"
+   "why": "풍력 업종은 이익 창출력이 핵심이라 Peer 간 PER 비교가 일반적이므로 (일반적 설명)"
   },
   {
    "cat": "산업",
@@ -1938,7 +2099,16 @@
    "url": "https://stock.naver.com/research/industry/46921",
    "pdf": "https://stock.pstatic.net/stock-research/industry/62/20261109_industry_812702000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46921",
-   "sector": "energy"
+   "sector": "energy",
+   "method": "",
+   "why": "",
+   "sum": [
+    "미국 육상풍력은 국방부 심사가 정상화되는 조짐이 보이며, 교보증권는 인허가 지연 물량 해소가 시작됐다고 봄",
+    "미국 태양광은 Section 232 관세로 PPA 제시가격이 상승했고, 교보증권는 구매자의 가격 수용 여부가 착공 속도를 좌우할 것으로 봄",
+    "국내 RE100 재생전력 수요는 2038년 156.4TWh로 PPA 공급 전망의 약 2.4배이며, 교보증권는 공급 기반 확보가 핵심 과제로 봄",
+    "12차 전기본과 RPS 개편에서 경쟁입찰과 기업 PPA 간 물량 배분이 주요 정책 쟁점으로 부상할 전망"
+   ],
+   "val": []
   },
   {
    "cat": "산업",
@@ -1948,7 +2118,16 @@
    "url": "https://stock.naver.com/research/industry/46920",
    "pdf": "https://stock.pstatic.net/stock-research/industry/57/20261109_industry_392817000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46920",
-   "sector": "semiconductor"
+   "sector": "semiconductor",
+   "method": "",
+   "why": "",
+   "sum": [
+    "미국 중간선거 민주당 승리로 데이터센터 규제 우려가 커져 코스피 11.7%, 필라델피아 반도체지수 12% 이상 하락",
+    "하나증권은 단기 실적 영향이 제한적이고 악재가 주가에 선반영됐다고 봄",
+    "국내 메모리 업체의 2027년 영업이익은 DRAM 가격 상승으로 4개월 만에 다시 상향 조정 중",
+    "하나증권은 소부장 업체의 2027년 실적 하향 가능성이 낮아 비중확대 기회라고 봄"
+   ],
+   "val": []
   },
   {
    "cat": "산업",
@@ -1958,7 +2137,16 @@
    "url": "https://stock.naver.com/research/industry/46919",
    "pdf": "https://stock.pstatic.net/stock-research/industry/62/20261109_industry_944120000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46919",
-   "sector": "it"
+   "sector": "it",
+   "method": "",
+   "why": "",
+   "sum": [
+    "교보증권은 반도체가 반등 기회와 추가 조정 위험이 공존하는 구간이라 급반등 추격에는 신중해야 한다고 봄",
+    "블루웨이브 이후 데이터센터 규제가 강화되면 가동과 투자금 회수가 늦어질 수 있어 고객사 투자 실행력 점검이 필요하다고 봄",
+    "미착공 데이터센터 계획의 약 57%가 규제 고위험 지역에 있으나, 영향은 주로 2028년 이후 신규 프로젝트에 집중될 것으로 봄",
+    "앤트로픽 IPO의 공모가와 조달 규모가 AI 가치평가와 자금조달 능력을 확인할 시험대이며, 외국인 매도 감소와 실적 유지 확인 시 회복 근거가 강화될 것으로 봄"
+   ],
+   "val": []
   },
   {
    "cat": "산업",
@@ -1968,7 +2156,16 @@
    "url": "https://stock.naver.com/research/industry/46918",
    "pdf": "https://stock.pstatic.net/stock-research/industry/57/20261109_industry_904323000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46918",
-   "sector": "energy"
+   "sector": "energy",
+   "method": "",
+   "why": "",
+   "sum": [
+    "하나증권은 민주당 양원 다수로 2027년 중 태양광 세액공제 조기종료 규정이 재개정될 수 있다고 봄",
+    "트럼프 거부권을 뒤집을 2/3 의석이 없어 실제 개정에는 시간이 걸릴 것으로 봄",
+    "미국 내 공급망 정책(AMPC, Section232)은 양당 모두 우호적이라 OCI홀딩스·한화솔루션 수혜 전망",
+    "중동 종전 기대로 원유·가스는 단기 약세, 석유화학은 BTX 중심으로 시황 약세"
+   ],
+   "val": []
   },
   {
    "cat": "산업",
@@ -1978,7 +2175,16 @@
    "url": "https://stock.naver.com/research/industry/46917",
    "pdf": "https://stock.pstatic.net/stock-research/industry/57/20261109_industry_800571000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46917",
-   "sector": "steelMetal"
+   "sector": "steelMetal",
+   "method": "",
+   "why": "",
+   "sum": [
+    "중국 건설용 강재는 겨울 비수기 진입으로 11월 수요 압박이 커질 전망",
+    "10월 철근 등 현물 거래량은 전년 대비 10.4% 급감해 수요 회복 기대에 못 미침",
+    "하나증권은 추가 정책 부양이 없으면 철강 가격 상승 동력은 제한적이라고 봄",
+    "원가 부담 완화로 건설용 강재 공급은 소폭 회복될 것으로 하나증권은 봄"
+   ],
+   "val": []
   },
   {
    "cat": "산업",
@@ -1998,7 +2204,16 @@
    "url": "https://stock.naver.com/research/industry/46915",
    "pdf": "https://stock.pstatic.net/stock-research/industry/66/20261109_industry_824402000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46915",
-   "sector": "pharmaceutical"
+   "sector": "pharmaceutical",
+   "method": "",
+   "why": "",
+   "sum": [
+    "DS투자증권는 2026년부터 AI 신약개발에 자본이 모이기 시작했다고 봄",
+    "AI 빅테크와 빅파마의 진입으로 후기 임상 전 후보물질의 가치는 낮아질 수 있다고 봄",
+    "DS투자증권는 AI 신약의 의의를 임상 성공률보다 우수 후보물질을 많이 만드는 데 있다고 봄",
+    "성공 여부와 무관하게 매출이 나는 데이터·실험 인프라·소모품 기업을 우선 매수 구간으로 제시"
+   ],
+   "val": []
   },
   {
    "cat": "산업",
@@ -2008,7 +2223,19 @@
    "url": "https://stock.naver.com/research/industry/46914",
    "pdf": "https://stock.pstatic.net/stock-research/industry/57/20261109_industry_321379000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46914",
-   "sector": "bank"
+   "sector": "bank",
+   "method": "",
+   "why": "",
+   "sum": [
+    "하나증권은 KOSPI 급락 속에서도 은행주가 상대적으로 선방했다고 분석함",
+    "홍콩 ELS 과징금 추가 경감과 중앙일보 충당금 환입 기대가 은행주 강세 배경이라고 봄",
+    "기관은 은행주를 순매수한 반면 외국인은 순매도했으며, 우리금융은 유진PE 블록딜 리스크가 실질적으로 해소됐다고 판단함",
+    "은행주 업종 PBR이 0.64배로 낮아져 valuation 매력이 커졌고, 중장기 접근은 유효하다고 봄"
+   ],
+   "val": [
+    "하나증권은 은행 업종 2026F PBR 0.64배, PER 7.0배(ROE 9.2%)로 valuation 매력이 크다고 봄",
+    "KB금융(매수, TP 235,000원), 우리금융(매수, TP 43,000원)을 제시했으나 목표주가 산정 방식과 적용 배수는 원문에 없음"
+   ]
   },
   {
    "cat": "산업",
@@ -2018,7 +2245,19 @@
    "url": "https://stock.naver.com/research/industry/46913",
    "pdf": "https://stock.pstatic.net/stock-research/industry/66/20261109_industry_932568000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46913",
-   "sector": "etc"
+   "sector": "etc",
+   "method": "",
+   "why": "",
+   "sum": [
+    "3Q 연결 영업이익은 한화시스템·KAI가 컨센서스를 상회하고 현대로템·한화에어로·LIG D&A는 하회",
+    "환율 하락이 하회 기업의 마진 부담 요인이었고, KAI는 FA-50 수출 마진 개선으로 수혜",
+    "4Q에도 환율발 마진 변동이 이어질 수 있으며, 환율 추가 하락 시 KAI 완제기 수출은 우호적",
+    "DS투자증권는 실적 부진 속에서도 수주 파이프라인은 유효하다고 보고 한화에어로스페이스를 Top Pick으로 제시"
+   ],
+   "val": [
+    "DS투자증권 추정 27F P/E는 현대로템 7.5배, 한화시스템 20.9배, KAI 21.6배, 한화에어로 12.5배, LIG D&A 14.6배",
+    "실적 부진으로 멀티플이 하락했으나 수주 성장성을 감안해 현 수준을 저평가 구간으로 봄(목표주가·방식 언급 없음)"
+   ]
   },
   {
    "cat": "산업",
@@ -2029,26 +2268,6 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/-/20261109_industry_535327000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46912",
    "sector": "etc"
-  },
-  {
-   "cat": "산업",
-   "title": "AI, 신(新) 엔터 창조",
-   "broker": "DS투자증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/industry/46911",
-   "pdf": "https://stock.pstatic.net/stock-research/industry/66/20261109_industry_208829000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46911",
-   "sector": "media"
-  },
-  {
-   "cat": "산업",
-   "title": "Weekly Comment: 중소형주 3Q26 Re(현그린/CJ프레시웨이) + 10월 수출 Re",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/industry/46910",
-   "pdf": "https://stock.pstatic.net/stock-research/industry/57/20261109_industry_462155000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46910",
-   "sector": "foodBeverage"
   },
   {
    "cat": "시황",
@@ -2114,42 +2333,6 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38087"
   },
   {
-   "cat": "시황",
-   "title": "11/9 KB 리서치 모닝코멘트",
-   "broker": "KB증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/daily/38086",
-   "pdf": "https://stock.pstatic.net/stock-research/market/58/20261109_market_605655000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38086"
-  },
-  {
-   "cat": "시황",
-   "title": "주간 증시 브리핑",
-   "broker": "유진투자증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/daily/38085",
-   "pdf": "https://stock.pstatic.net/stock-research/market/63/20261109_market_912991000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38085"
-  },
-  {
-   "cat": "시황",
-   "title": "SK증권 Global Carbon Market Daily_261109",
-   "broker": "SK증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/daily/38084",
-   "pdf": "https://stock.pstatic.net/stock-research/market/64/20261109_market_80807000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38084"
-  },
-  {
-   "cat": "시황",
-   "title": "[Market Nowcast] 불확실성과 가격",
-   "broker": "SK증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/daily/38083",
-   "pdf": "https://stock.pstatic.net/stock-research/market/64/20261109_market_612067000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38083"
-  },
-  {
    "cat": "투자정보",
    "title": "[Quant Comment] 국내외 주간 이익 동향 체크",
    "broker": "하나증권",
@@ -2166,33 +2349,6 @@
    "url": "https://stock.naver.com/research/invest/40769",
    "pdf": "https://stock.pstatic.net/stock-research/invest/57/20261109_invest_603197000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40769"
-  },
-  {
-   "cat": "투자정보",
-   "title": "[New K-ETF] 나스닥100 + 미국채 채권혼합",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/invest/40768",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/57/20261109_invest_344124000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40768"
-  },
-  {
-   "cat": "투자정보",
-   "title": "[New K-ETF] 코스피200 커버드콜 액티브: 5% OTM, 15% 타겟",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/invest/40767",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/57/20261109_invest_505532000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40767"
-  },
-  {
-   "cat": "투자정보",
-   "title": "[New K-ETF] 중기채권 액티브, 현대차 로보틱스 채권혼합",
-   "broker": "하나증권",
-   "date": "2026-11-09",
-   "url": "https://stock.naver.com/research/invest/40766",
-   "pdf": "https://stock.pstatic.net/stock-research/invest/57/20261109_invest_537558000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40766"
   }
  ],
  "us_comment": {

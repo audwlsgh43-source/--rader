@@ -1,8 +1,626 @@
 {
  "date": "2026-11-10",
- "updated_at": "2026-11-10 08:59",
- "count": 19,
+ "updated_at": "2026-11-10 09:53",
+ "count": 43,
  "items": [
+  {
+   "rcept_no": "20261110900150",
+   "date": "2026-11-10",
+   "corp": "인벤티지랩",
+   "stock_code": "389470",
+   "corp_code": "01516456",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "인벤티지랩",
+   "rm": "코",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900150"
+  },
+  {
+   "rcept_no": "20261110900127",
+   "date": "2026-11-10",
+   "corp": "헥토이노베이션",
+   "stock_code": "214180",
+   "corp_code": "01013311",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "헥토이노베이션",
+   "rm": "코",
+   "seen": "09:53",
+   "ai": "헥토이노베이션은 2026년 3분기 연결 매출액 1,088억원, 영업이익 153억원을 잠정 공시했으며, 누계 지배기업 소유주지분 순이익은 전년동기 대비 11.6% 감소했습니다.",
+   "points": [
+    "2026-11-10 공정공시 방식으로 연결 잠정실적을 정보제공",
+    "K-IFRS 기준 연결 잠정치이며 향후 확정치와 다를 수 있음",
+    "외부감사를 받지 않은 내부결산 자료로 감사 과정에서 변경 가능",
+    "자세한 사항은 회사 홈페이지에 게재할 예정"
+   ],
+   "numbers": [
+    [
+     "3분기 매출액",
+     "1,088억원"
+    ],
+    [
+     "3분기 영업이익",
+     "153억원"
+    ],
+    [
+     "누계 매출액",
+     "3,240억원"
+    ],
+    [
+     "누계 지배기업 소유주지분 순이익",
+     "233억원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900127"
+  },
+  {
+   "rcept_no": "20261110900090",
+   "date": "2026-11-10",
+   "corp": "쎄크",
+   "stock_code": "081180",
+   "corp_code": "00406222",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결(자율공시)",
+   "flr": "쎄크",
+   "rm": "코",
+   "seen": "09:53",
+   "ai": "쎄크가 마이크론 싱가포르 법인과 HBM용 검사장비(NF120M) 공급계약을 5,804,886,710원 규모로 체결했습니다. 최근 매출액 대비 9.80%입니다.",
+   "points": [
+    "HBM용 검사장비(NF120M) 공급, 확정 계약이며 조건부 아님",
+    "상대방은 Micron Semiconductor Asia 싱가포르 법인이며 회사와 관계 없음",
+    "중도금 80%는 선적 후 60일 내, 잔금 20%는 최종 검수 후 60일 내 지급",
+    "계약금·선급금 없음, 자체생산 방식"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "5,804,886,710원"
+    ],
+    [
+     "매출액 대비",
+     "9.80%"
+    ],
+    [
+     "확정 계약금액(USD)",
+     "4,274,900달러"
+    ],
+    [
+     "최근 매출액(2025년 개별)",
+     "59,205,964,528원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2027-06-05",
+     "kind": "기타",
+     "desc": "계약기간 종료(최종납기일)"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900090"
+  },
+  {
+   "rcept_no": "20261110800118",
+   "date": "2026-11-10",
+   "corp": "대원전선",
+   "stock_code": "006340",
+   "corp_code": "00260392",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "최대주주등소유주식변동신고서",
+   "flr": "대원전선",
+   "rm": "유",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800118"
+  },
+  {
+   "rcept_no": "20261110800117",
+   "date": "2026-11-10",
+   "corp": "지역난방공사",
+   "stock_code": "071320",
+   "corp_code": "00159698",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "지역난방공사",
+   "rm": "유",
+   "seen": "09:53",
+   "ai": "2026년 3분기 연결 영업이익이 적자로 전환됐으며, 3분기 누계 매출액과 영업이익은 전년동기 대비 감소했다고 잠정 공시했다.",
+   "points": [
+    "3분기 영업손실 79억원, 전년동기 영업이익 894억원에서 적자 전환",
+    "잠정치이며 외부감사 완료 전이라 확정치는 달라질 수 있음",
+    "정보제공 대상은 애널리스트, 투자자, 언론기관 등",
+    "관련 IR자료는 회사 홈페이지에 게시 예정"
+   ],
+   "numbers": [
+    [
+     "3분기 매출액",
+     "6,062억원"
+    ],
+    [
+     "3분기 영업이익",
+     "-79억원"
+    ],
+    [
+     "3분기 당기순이익",
+     "-167억원"
+    ],
+    [
+     "누계 영업이익",
+     "3,453억원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800117"
+  },
+  {
+   "rcept_no": "20261110800113",
+   "date": "2026-11-10",
+   "corp": "미원상사",
+   "stock_code": "002840",
+   "corp_code": "00121932",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "최대주주등소유주식변동신고서",
+   "flr": "미원상사",
+   "rm": "유",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800113"
+  },
+  {
+   "rcept_no": "20261110800104",
+   "date": "2026-11-10",
+   "corp": "케이티",
+   "stock_code": "030200",
+   "corp_code": "00190321",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "케이티",
+   "rm": "유",
+   "seen": "09:53",
+   "ai": "KT의 2026년 3분기 연결 잠정 매출액은 6조9,975억원, 영업이익은 5,053억원으로 전년동기 대비 6.1% 감소했습니다.",
+   "points": [
+    "공정공시 방식으로 연결 영업(잠정)실적을 공개",
+    "정보제공 대상은 투자자, 애널리스트 등",
+    "2026년 11월 10일 이후 수시 제공 예정",
+    "K-IFRS 기준 잠정치로 확정치와 다를 수 있음"
+   ],
+   "numbers": [
+    [
+     "매출액(당기 3분기)",
+     "69,975억원"
+    ],
+    [
+     "영업이익(당기 3분기)",
+     "5,053억원"
+    ],
+    [
+     "당기순이익(당기 3분기)",
+     "3,673억원"
+    ],
+    [
+     "지배기업 소유주지분 순이익(당기 3분기)",
+     "3,213억원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800104"
+  },
+  {
+   "rcept_no": "20261110800099",
+   "date": "2026-11-10",
+   "corp": "케이티",
+   "stock_code": "030200",
+   "corp_code": "00190321",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "high",
+   "title": "영업(잠정)실적(공정공시)",
+   "flr": "케이티",
+   "rm": "유",
+   "seen": "09:53",
+   "ai": "KT가 2026년 3분기 별도재무제표 기준 잠정 영업실적을 공정공시로 공개했으며, 매출액은 49,878억원, 영업이익은 2,993억원입니다.",
+   "points": [
+    "정보제공자 KT IR, 투자자·애널리스트 등을 대상으로 한 공정공시",
+    "K-IFRS 기준 별도재무제표의 잠정치이며 외부 감사 검토로 변경될 수 있음",
+    "공정공시 이후 수시 제공 예정, 문의는 재무실 자금/IR담당",
+    "실적발표 자료는 KT 홈페이지 실적발표 페이지에서 확인 가능"
+   ],
+   "numbers": [
+    [
+     "매출액(당기, 2026년 3분기)",
+     "49,878억원"
+    ],
+    [
+     "영업이익(당기, 2026년 3분기)",
+     "2,993억원"
+    ],
+    [
+     "당기순이익(당기, 2026년 3분기)",
+     "2,381억원"
+    ],
+    [
+     "영업이익(누계, 2026년 1~9월)",
+     "10,022억원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800099"
+  },
+  {
+   "rcept_no": "20261110800079",
+   "date": "2026-11-10",
+   "corp": "CJ제일제당",
+   "stock_code": "097950",
+   "corp_code": "00635134",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "CJ제일제당",
+   "rm": "유",
+   "seen": "09:53",
+   "ai": "CJ제일제당은 2026년 3분기 잠정 매출액 7조3,952억원, 영업이익 3,090억원을 공시했으며, FC부문 중단영업 반영에 따라 전년동기 수치가 변경될 예정입니다.",
+   "points": [
+    "2026년 3분기 경영실적 발표 컨퍼런스콜, 11월 10일 오전 9시 30분",
+    "FC부문 종속기업 14개사 주식매매계약 체결에 따른 중단영업 반영",
+    "2025년 3분기 매출액·영업이익 등 전기 비교 수치 변경 예정",
+    "외부감사 미완료 상태로, 감사 결과에 따라 변동 가능"
+   ],
+   "numbers": [
+    [
+     "3분기 매출액",
+     "7조3,952억원"
+    ],
+    [
+     "3분기 영업이익",
+     "3,090억원"
+    ],
+    [
+     "누계 영업이익",
+     "8,047억원"
+    ],
+    [
+     "3분기 지배기업 소유주지분 순이익",
+     "191.6억원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800079"
+  },
+  {
+   "rcept_no": "20261110000072",
+   "date": "2026-11-10",
+   "corp": "비큐AI",
+   "stock_code": "148780",
+   "corp_code": "00980043",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "비큐AI",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000072"
+  },
+  {
+   "rcept_no": "20261110000069",
+   "date": "2026-11-10",
+   "corp": "팬오션",
+   "stock_code": "028670",
+   "corp_code": "00122737",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "국민연금공단",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000069"
+  },
+  {
+   "rcept_no": "20261110000063",
+   "date": "2026-11-10",
+   "corp": "NHN",
+   "stock_code": "181710",
+   "corp_code": "00983271",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "국민연금공단",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000063"
+  },
+  {
+   "rcept_no": "20261110000061",
+   "date": "2026-11-10",
+   "corp": "파라다이스",
+   "stock_code": "034230",
+   "corp_code": "00171265",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "국민연금공단",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000061"
+  },
+  {
+   "rcept_no": "20261110000059",
+   "date": "2026-11-10",
+   "corp": "대한항공",
+   "stock_code": "003490",
+   "corp_code": "00113526",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "국민연금공단",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000059"
+  },
+  {
+   "rcept_no": "20261110000057",
+   "date": "2026-11-10",
+   "corp": "효성티앤씨",
+   "stock_code": "298020",
+   "corp_code": "01316227",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "국민연금공단",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000057"
+  },
+  {
+   "rcept_no": "20261110000053",
+   "date": "2026-11-10",
+   "corp": "마이크로컨텍솔",
+   "stock_code": "098120",
+   "corp_code": "00568188",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "에셋플러스자산운용",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000053"
+  },
+  {
+   "rcept_no": "20261110000051",
+   "date": "2026-11-10",
+   "corp": "부방",
+   "stock_code": "014470",
+   "corp_code": "00243067",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+   "flr": "이동건",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000051"
+  },
+  {
+   "rcept_no": "20261110000049",
+   "date": "2026-11-10",
+   "corp": "KB제31호스팩",
+   "stock_code": "492220",
+   "corp_code": "01866926",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "KB제31호스팩",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000049"
+  },
+  {
+   "rcept_no": "20261110000047",
+   "date": "2026-11-10",
+   "corp": "한국화장품제조",
+   "stock_code": "003350",
+   "corp_code": "00160621",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "에셋플러스자산운용",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000047"
+  },
+  {
+   "rcept_no": "20261110000045",
+   "date": "2026-11-10",
+   "corp": "NH투자증권",
+   "stock_code": "005940",
+   "corp_code": "00120182",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "증권발행실적보고서",
+   "flr": "NH투자증권",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000045"
+  },
+  {
+   "rcept_no": "20261110000040",
+   "date": "2026-11-10",
+   "corp": "NH투자증권",
+   "stock_code": "005940",
+   "corp_code": "00120182",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "증권발행실적보고서",
+   "flr": "NH투자증권",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000040"
+  },
+  {
+   "rcept_no": "20261110000038",
+   "date": "2026-11-10",
+   "corp": "삼성전자",
+   "stock_code": "005930",
+   "corp_code": "00126380",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "김평진",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000038"
+  },
+  {
+   "rcept_no": "20261110000036",
+   "date": "2026-11-10",
+   "corp": "NH투자증권",
+   "stock_code": "005940",
+   "corp_code": "00120182",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "증권발행실적보고서",
+   "flr": "NH투자증권",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000036"
+  },
+  {
+   "rcept_no": "20261110000034",
+   "date": "2026-11-10",
+   "corp": "대원전선",
+   "stock_code": "006340",
+   "corp_code": "00260392",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "서명환",
+   "rm": "",
+   "seen": "09:53",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000034"
+  },
   {
    "rcept_no": "20261110800050",
    "date": "2026-11-10",
