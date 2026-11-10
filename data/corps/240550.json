@@ -1,0 +1,28 @@
+{
+ "name": "동방메디컬",
+ "code": "240550",
+ "mkt": "코스닥",
+ "corp_code": "01073261",
+ "disclosures": [
+  {
+   "rcept_no": "20261110900253",
+   "date": "2026-11-10",
+   "title": "기업설명회(IR)개최",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900253",
+   "seen": "12:33"
+  },
+  {
+   "rcept_no": "20261110900252",
+   "date": "2026-11-10",
+   "title": "기타경영사항(자율공시)              (PHD HA Filler, 브라질 국가위생감시청 (ANVISA) 에서 품목허가)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900252",
+   "seen": "12:33"
+  }
+ ]
+}
