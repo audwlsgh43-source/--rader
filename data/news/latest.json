@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11 13:35",
+ "updated_at": "2026-11-11 13:37",
  "digest": null,
  "codes": {
   "삼성전자": "005930",
@@ -19,6 +19,30 @@
   "NAVER": "035420"
  },
  "items": [
+  {
+   "title": "NH투자증권, 국고채 담합으로 과징금 2428억원 부과",
+   "press": "디지털데일리",
+   "time": "2026-11-11 13:37",
+   "url": "https://n.news.naver.com/mnews/article/138/0002248097",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-11 13:37"
+  },
+  {
+   "title": "코스닥 또 사이드카, 올해만 38번째",
+   "press": "한국경제TV",
+   "time": "2026-11-11 13:36",
+   "url": "https://n.news.naver.com/mnews/article/215/0001272393",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-11 13:37"
+  },
   {
    "title": "재경부 \"국고채 PD 자격 조치, 처분 확정 후 검토…시장 안정 최우선\"",
    "press": "뉴시스",
@@ -299,9 +323,9 @@
    "title": "코스피, 美물가 충격 딛고 상승…코스닥 4% 강세",
    "press": "연합뉴스TV",
    "time": "2026-11-11 12:50",
-   "url": "https://n.news.naver.com/mnews/article/422/0000925014",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925014?sid=101258401",
    "cats": [
-    "속보"
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -311,9 +335,9 @@
    "title": "코스피, 美물가 충격 딛고 상승…코스닥 4% 강세",
    "press": "연합뉴스TV",
    "time": "2026-11-11 12:50",
-   "url": "https://n.news.naver.com/mnews/article/422/0000925014?sid=101258401",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925014",
    "cats": [
-    "시황·전망"
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -4833,32 +4857,6 @@
     "주요"
    ],
    "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-11 08:14"
-  },
-  {
-   "title": "美 공화당 하원 원내대표에 '트럼프 충성파' 짐 조던",
-   "press": "아시아경제",
-   "time": "2026-11-11 07:43",
-   "url": "https://n.news.naver.com/mnews/article/277/0005840849?sid=101258403",
-   "cats": [
-    "해외증시"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-11 08:14"
-  },
-  {
-   "title": "전기차만 기다릴 수 없지…삼성SDI, ESS로 돈 번다[이주의 관.종]",
-   "press": "아시아경제",
-   "time": "2026-11-11 07:42",
-   "url": "https://n.news.naver.com/mnews/article/277/0005840846",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [
-    "삼성SDI"
-   ],
    "ai": "",
    "first_seen": "2026-11-11 08:14"
   }
