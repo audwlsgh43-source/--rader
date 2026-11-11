@@ -5,6 +5,16 @@
  "corp_code": "00120182",
  "disclosures": [
   {
+   "rcept_no": "20261111800234",
+   "date": "2026-11-11",
+   "title": "벌금등의부과",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800234",
+   "seen": "13:34"
+  },
+  {
    "rcept_no": "20261110000045",
    "date": "2026-11-10",
    "title": "증권발행실적보고서",
