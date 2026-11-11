@@ -5,6 +5,26 @@
  "corp_code": "01022902",
  "disclosures": [
   {
+   "rcept_no": "20261111900904",
+   "date": "2026-11-11",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900904",
+   "seen": "19:45"
+  },
+  {
+   "rcept_no": "20261111900903",
+   "date": "2026-11-11",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900903",
+   "seen": "19:45"
+  },
+  {
    "rcept_no": "20261109000280",
    "date": "2026-11-09",
    "title": "[첨부정정]주요사항보고서(전환사채권발행결정)",

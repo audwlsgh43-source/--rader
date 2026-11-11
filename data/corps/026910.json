@@ -5,6 +5,26 @@
  "corp_code": "00104120",
  "disclosures": [
   {
+   "rcept_no": "20261111900907",
+   "date": "2026-11-11",
+   "title": "최대주주변경을수반하는주식담보제공계약해제ㆍ취소등",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900907",
+   "seen": "19:45"
+  },
+  {
+   "rcept_no": "20261111900906",
+   "date": "2026-11-11",
+   "title": "[첨부추가]최대주주변경",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900906",
+   "seen": "19:45"
+  },
+  {
    "rcept_no": "20261110900682",
    "date": "2026-11-10",
    "title": "[기재정정]주주총회소집결의              (임시주주총회)",
