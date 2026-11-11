@@ -5,6 +5,16 @@
  "corp_code": "01526806",
  "disclosures": [
   {
+   "rcept_no": "20261111900569",
+   "date": "2026-11-11",
+   "title": "전환가액의조정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900569",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261028900519",
    "date": "2026-10-28",
    "title": "전환청구권행사",

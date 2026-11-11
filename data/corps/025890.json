@@ -13,6 +13,36 @@
    "ai": "",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800413",
    "seen": "15:37"
+  },
+  {
+   "rcept_no": "20261111000359",
+   "date": "2026-11-11",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000359",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000326",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000326",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000275",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000275",
+   "seen": "16:55"
   }
  ]
 }

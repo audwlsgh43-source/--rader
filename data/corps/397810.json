@@ -5,6 +5,46 @@
  "corp_code": "01551042",
  "disclosures": [
   {
+   "rcept_no": "20261111000349",
+   "date": "2026-11-11",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000349",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000331",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000331",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000323",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000323",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000311",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000311",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261029900608",
    "date": "2026-10-29",
    "title": "증권발행결과(자율공시)              (제2회차 CB)",

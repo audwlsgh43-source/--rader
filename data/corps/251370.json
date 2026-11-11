@@ -5,6 +5,16 @@
  "corp_code": "00602172",
  "disclosures": [
   {
+   "rcept_no": "20261111000350",
+   "date": "2026-11-11",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000350",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261106900961",
    "date": "2026-11-06",
    "title": "기업설명회(IR)개최",

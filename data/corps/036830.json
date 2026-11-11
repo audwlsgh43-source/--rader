@@ -1,0 +1,28 @@
+{
+ "name": "솔브레인홀딩스",
+ "code": "036830",
+ "mkt": "코스닥",
+ "corp_code": "00247975",
+ "disclosures": [
+  {
+   "rcept_no": "20261111000373",
+   "date": "2026-11-11",
+   "title": "의결권대리행사권유참고서류",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000373",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000371",
+   "date": "2026-11-11",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000371",
+   "seen": "16:55"
+  }
+ ]
+}

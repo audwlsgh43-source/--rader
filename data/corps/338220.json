@@ -5,6 +5,26 @@
  "corp_code": "01344202",
  "disclosures": [
   {
+   "rcept_no": "20261111000304",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등거래계획철회보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000304",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000261",
+   "date": "2026-11-11",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000261",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261110100012",
    "date": "2026-11-10",
    "title": "정정신고서제출요구( 2026.10.28. 제출 증권신고서(지분증권) )",

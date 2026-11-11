@@ -5,6 +5,46 @@
  "corp_code": "01110474",
  "disclosures": [
   {
+   "rcept_no": "20261111000343",
+   "date": "2026-11-11",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000343",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000325",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000325",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000316",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000316",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000312",
+   "date": "2026-11-11",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000312",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261026000213",
    "date": "2026-10-26",
    "title": "주요사항보고서(유상증자결정)",

@@ -5,6 +5,26 @@
  "corp_code": "00110893",
  "disclosures": [
   {
+   "rcept_no": "20261111800573",
+   "date": "2026-11-11",
+   "title": "벌금등의부과",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800573",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261111000267",
+   "date": "2026-11-11",
+   "title": "특수관계인과의수익증권거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000267",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261109800639",
    "date": "2026-11-09",
    "title": "연결재무제표기준영업(잠정)실적(공정공시)",
