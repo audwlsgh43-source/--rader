@@ -1,0 +1,38 @@
+{
+ "name": "광주신세계",
+ "code": "037710",
+ "mkt": "코스피",
+ "corp_code": "00220561",
+ "disclosures": [
+  {
+   "rcept_no": "20261111800403",
+   "date": "2026-11-11",
+   "title": "단기차입금증가결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800403",
+   "seen": "15:37"
+  },
+  {
+   "rcept_no": "20261111800398",
+   "date": "2026-11-11",
+   "title": "현금ㆍ현물배당결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800398",
+   "seen": "15:37"
+  },
+  {
+   "rcept_no": "20261111800393",
+   "date": "2026-11-11",
+   "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800393",
+   "seen": "15:37"
+  }
+ ]
+}

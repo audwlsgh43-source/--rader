@@ -5,6 +5,16 @@
  "corp_code": "00843900",
  "disclosures": [
   {
+   "rcept_no": "20261111900412",
+   "date": "2026-11-11",
+   "title": "금전대여결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900412",
+   "seen": "15:37"
+  },
+  {
    "rcept_no": "20261110000218",
    "date": "2026-11-10",
    "title": "합병등종료보고서(자산양수도)",

@@ -5,6 +5,26 @@
  "corp_code": "00398792",
  "disclosures": [
   {
+   "rcept_no": "20261111800444",
+   "date": "2026-11-11",
+   "title": "현금ㆍ현물배당결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800444",
+   "seen": "15:37"
+  },
+  {
+   "rcept_no": "20261111000243",
+   "date": "2026-11-11",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000243",
+   "seen": "15:37"
+  },
+  {
    "rcept_no": "20261106800939",
    "date": "2026-11-06",
    "title": "최대주주등소유주식변동신고서",

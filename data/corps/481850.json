@@ -1,0 +1,28 @@
+{
+ "name": "신한글로벌액티브리츠",
+ "code": "481850",
+ "mkt": "코스피",
+ "corp_code": "01714997",
+ "disclosures": [
+  {
+   "rcept_no": "20261111800416",
+   "date": "2026-11-11",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800416",
+   "seen": "15:37"
+  },
+  {
+   "rcept_no": "20261111000251",
+   "date": "2026-11-11",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000251",
+   "seen": "15:37"
+  }
+ ]
+}
