@@ -1,0 +1,28 @@
+{
+ "name": "파라택시스코리아",
+ "code": "288330",
+ "mkt": "코스닥",
+ "corp_code": "01227039",
+ "disclosures": [
+  {
+   "rcept_no": "20261111900302",
+   "date": "2026-11-11",
+   "title": "본점소재지변경",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900302",
+   "seen": "14:36"
+  },
+  {
+   "rcept_no": "20261111000195",
+   "date": "2026-11-11",
+   "title": "[기재정정]주식매수선택권부여에관한신고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000195",
+   "seen": "14:36"
+  }
+ ]
+}

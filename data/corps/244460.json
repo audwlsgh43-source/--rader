@@ -1,0 +1,38 @@
+{
+ "name": "올리패스",
+ "code": "244460",
+ "mkt": "코스닥",
+ "corp_code": "01070149",
+ "disclosures": [
+  {
+   "rcept_no": "20261111900294",
+   "date": "2026-11-11",
+   "title": "기타시장안내              (상장적격성 실질심사 사유 추가 관련 절차 미진행)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900294",
+   "seen": "14:36"
+  },
+  {
+   "rcept_no": "20261111900285",
+   "date": "2026-11-11",
+   "title": "반기또는분기매출액미달사실발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900285",
+   "seen": "14:36"
+  },
+  {
+   "rcept_no": "20261111000171",
+   "date": "2026-11-11",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000171",
+   "seen": "14:36"
+  }
+ ]
+}
