@@ -1,8 +1,314 @@
 {
  "date": "2026-11-11",
- "updated_at": "2026-11-11 10:56",
- "count": 52,
+ "updated_at": "2026-11-11 11:45",
+ "count": 64,
  "items": [
+  {
+   "rcept_no": "20261111900157",
+   "date": "2026-11-11",
+   "corp": "동원개발",
+   "stock_code": "013120",
+   "corp_code": "00117966",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결(자율공시)",
+   "flr": "동원개발",
+   "rm": "코",
+   "seen": "11:45",
+   "ai": "동원개발이 부산광역시 건설본부와 벡스코 제3전시장 건립사업 공사 계약을 체결했다고 공시했다. 계약금액은 350억7,300만원으로 최근 매출액의 9.05%에 해당한다.",
+   "points": [
+    "부산광역시 건설본부와 벡스코 제3전시장 건립사업 계약",
+    "계약금액은 부가세 별도, 당사 공사지분 반영 금액",
+    "계약금·선급금 없음, 공사기간·금액은 추후 변경 가능",
+    "계약일 2026-11-10, 부산 해운대구에서 이행"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "350억7,300만원"
+    ],
+    [
+     "매출액 대비",
+     "9.05%"
+    ],
+    [
+     "2025년 연결 매출액",
+     "3,873억4,457만원"
+    ],
+    [
+     "계약금ㆍ선급금",
+     "없음"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-12-21",
+     "kind": "기타",
+     "desc": "벡스코 제3전시장 건립사업 계약기간 시작"
+    },
+    {
+     "date": "2031-02-04",
+     "kind": "기타",
+     "desc": "벡스코 제3전시장 건립사업 계약기간 종료"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900157"
+  },
+  {
+   "rcept_no": "20261111900136",
+   "date": "2026-11-11",
+   "corp": "엔켐",
+   "stock_code": "348370",
+   "corp_code": "01011526",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "전환가액의조정              (제11회차)",
+   "flr": "엔켐",
+   "rm": "코",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900136"
+  },
+  {
+   "rcept_no": "20261111800204",
+   "date": "2026-11-11",
+   "corp": "금호건설",
+   "stock_code": "002990",
+   "corp_code": "00106313",
+   "mkt": "코스피",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "금호건설",
+   "rm": "유",
+   "seen": "11:45",
+   "ai": "금호건설이 농촌진흥청 국립축산과학원 축산자원개발부 이전사업을 3,279억원 규모로 수주했다고 공시했습니다. 매출액 대비 16.25%이며 공사기간은 2027-09-01부터 2031-04-12까지입니다.",
+   "points": [
+    "농촌진흥청 국립축산과학원 축산자원개발부 이전사업 공사 수주",
+    "전남광주통합특별시 함평군 일원 104개동 건설 공사",
+    "당사 지분 60%, 총 계약금액 5,465억원(VAT 제외)",
+    "계약금·선급금 없이 공사 진행에 따라 청구·지급"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "3,279억원"
+    ],
+    [
+     "매출액대비",
+     "16.25%"
+    ],
+    [
+     "최근매출액(2025년말 연결)",
+     "2조185억원"
+    ],
+    [
+     "총 계약금액(VAT 제외)",
+     "5,465억원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2027-09-01",
+     "kind": "기타",
+     "desc": "계약기간 시작(공사기간)"
+    },
+    {
+     "date": "2031-04-12",
+     "kind": "기타",
+     "desc": "계약기간 종료(공사기간)"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800204"
+  },
+  {
+   "rcept_no": "20261111800178",
+   "date": "2026-11-11",
+   "corp": "엠앤씨솔루션",
+   "stock_code": "484870",
+   "corp_code": "01519790",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "flr": "엠앤씨솔루션",
+   "rm": "유",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800178"
+  },
+  {
+   "rcept_no": "20261111000130",
+   "date": "2026-11-11",
+   "corp": "에스에너지",
+   "stock_code": "095910",
+   "corp_code": "00585538",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "홍문교",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000130"
+  },
+  {
+   "rcept_no": "20261111000127",
+   "date": "2026-11-11",
+   "corp": "인지소프트",
+   "stock_code": "100030",
+   "corp_code": "00641171",
+   "mkt": "코스닥",
+   "type": "buyback",
+   "imp": "mid",
+   "title": "주요사항보고서(자기주식취득결정)",
+   "flr": "인지소프트",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000127"
+  },
+  {
+   "rcept_no": "20261111000123",
+   "date": "2026-11-11",
+   "corp": "파두",
+   "stock_code": "440110",
+   "corp_code": "01292291",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "J.P.MORGANSECURITIESPLC",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000123"
+  },
+  {
+   "rcept_no": "20261111000122",
+   "date": "2026-11-11",
+   "corp": "유라클",
+   "stock_code": "088340",
+   "corp_code": "00407294",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "유웅진",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000122"
+  },
+  {
+   "rcept_no": "20261111000119",
+   "date": "2026-11-11",
+   "corp": "유라클",
+   "stock_code": "088340",
+   "corp_code": "00407294",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "권태일",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000119"
+  },
+  {
+   "rcept_no": "20261111000115",
+   "date": "2026-11-11",
+   "corp": "한화솔루션",
+   "stock_code": "009830",
+   "corp_code": "00162461",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "김재영",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000115"
+  },
+  {
+   "rcept_no": "20261111000113",
+   "date": "2026-11-11",
+   "corp": "삼성전자",
+   "stock_code": "005930",
+   "corp_code": "00126380",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "이시영",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000113"
+  },
+  {
+   "rcept_no": "20261111000104",
+   "date": "2026-11-11",
+   "corp": "씨앤투스",
+   "stock_code": "352700",
+   "corp_code": "00875237",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "하춘욱",
+   "rm": "",
+   "seen": "11:45",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000104"
+  },
   {
    "rcept_no": "20261111900155",
    "date": "2026-11-11",
