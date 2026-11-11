@@ -1,0 +1,28 @@
+{
+ "name": "DXVX",
+ "code": "180400",
+ "mkt": "코스닥",
+ "corp_code": "00995993",
+ "disclosures": [
+  {
+   "rcept_no": "20261111000408",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000408",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261111000389",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000389",
+   "seen": "17:52"
+  }
+ ]
+}

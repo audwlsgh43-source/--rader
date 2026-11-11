@@ -1,0 +1,28 @@
+{
+ "name": "자이글",
+ "code": "234920",
+ "mkt": "코스닥",
+ "corp_code": "01020524",
+ "disclosures": [
+  {
+   "rcept_no": "20261111900810",
+   "date": "2026-11-11",
+   "title": "주권매매거래정지기간변경              (개선기간 부여)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900810",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261111900792",
+   "date": "2026-11-11",
+   "title": "기타시장안내              (코스닥시장위원회 심의·의결 결과 및 개선기간 부여 안내)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900792",
+   "seen": "17:52"
+  }
+ ]
+}

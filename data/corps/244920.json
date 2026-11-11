@@ -5,6 +5,26 @@
  "corp_code": "00684802",
  "disclosures": [
   {
+   "rcept_no": "20261111800710",
+   "date": "2026-11-11",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800710",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261111800641",
+   "date": "2026-11-11",
+   "title": "주식교환ㆍ이전결정(종속회사의주요경영사항)",
+   "type": "ma",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111800641",
+   "seen": "17:52"
+  },
+  {
    "rcept_no": "20261111000344",
    "date": "2026-11-11",
    "title": "주요사항보고서(주식교환ㆍ이전결정)",

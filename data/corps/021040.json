@@ -5,6 +5,26 @@
  "corp_code": "00166175",
  "disclosures": [
   {
+   "rcept_no": "20261111900747",
+   "date": "2026-11-11",
+   "title": "주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900747",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261111900746",
+   "date": "2026-11-11",
+   "title": "주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900746",
+   "seen": "17:52"
+  },
+  {
    "rcept_no": "20261030000124",
    "date": "2026-10-30",
    "title": "주식등의대량보유상황보고서(일반)",
