@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11 09:54",
+ "updated_at": "2026-11-11 10:57",
  "indices": [
   {
    "key": "ks11",
@@ -461,10 +461,10 @@
    "key": "KRW=X",
    "name": "원/달러",
    "kind": "fx",
-   "close": 1338.1801,
-   "chg": -5.6599,
-   "pct": -0.42,
-   "date": "11.11 09:54",
+   "close": 1337.08,
+   "chg": -6.76,
+   "pct": -0.5,
+   "date": "11.11 10:57",
    "spark": [
     1356.84,
     1360.59,
@@ -495,19 +495,18 @@
     1356.34,
     1362.7,
     1343.84,
-    1338.1801
+    1337.08
    ]
   },
   {
    "key": "DX-Y.NYB",
    "name": "달러인덱스",
    "kind": "fx",
-   "close": 102.222,
-   "chg": 0.572,
-   "pct": 0.56,
-   "date": "11.11 09:34",
+   "close": 102.24,
+   "chg": 0.01,
+   "pct": 0.01,
+   "date": "11.11 10:47",
    "spark": [
-    101.45,
     102.1,
     101.93,
     102.17,
@@ -536,7 +535,8 @@
     101.55,
     102.3,
     101.65,
-    102.222
+    102.23,
+    102.24
    ]
   },
   {
@@ -666,10 +666,10 @@
    "key": "CL=F",
    "name": "WTI 유가",
    "kind": "cmdty",
-   "close": 86.28,
-   "chg": -0.57,
-   "pct": -0.66,
-   "date": "11.11 09:44",
+   "close": 86.27,
+   "chg": -0.58,
+   "pct": -0.67,
+   "date": "11.11 10:47",
    "spark": [
     90.42,
     92.87,
@@ -700,17 +700,17 @@
     90.52,
     90.83,
     86.85,
-    86.28
+    86.27
    ]
   },
   {
    "key": "GC=F",
    "name": "금",
    "kind": "cmdty",
-   "close": 4045.1001,
-   "chg": -69.3999,
-   "pct": -1.69,
-   "date": "11.11 09:44",
+   "close": 4053.7,
+   "chg": -60.8,
+   "pct": -1.48,
+   "date": "11.11 10:47",
    "spark": [
     4186.7002,
     4202.2998,
@@ -741,17 +741,17 @@
     4113.5,
     4074.8999,
     4114.5,
-    4045.1001
+    4053.7
    ]
   },
   {
    "key": "BTC-USD",
    "name": "비트코인",
    "kind": "crypto",
-   "close": 73461.0078,
-   "chg": -1762.1406,
-   "pct": -2.34,
-   "date": "11.11 09:54",
+   "close": 73509.8984,
+   "chg": -1713.25,
+   "pct": -2.28,
+   "date": "11.11 10:57",
    "spark": [
     81762.5625,
     83095.125,
@@ -782,7 +782,7 @@
     75747.5781,
     74584.6484,
     75223.1484,
-    73461.0078
+    73509.8984
    ]
   }
  ],
@@ -1031,6 +1031,22 @@
   ],
   "sectors": [
    {
+    "key": "XLC",
+    "name": "커뮤니케이션",
+    "close": 107.36,
+    "chg": 2.57,
+    "pct": 2.45,
+    "date": "11.11 06:00"
+   },
+   {
+    "key": "XLRE",
+    "name": "부동산",
+    "close": 44.64,
+    "chg": 0.64,
+    "pct": 1.45,
+    "date": "11.11 06:00"
+   },
+   {
     "key": "XLF",
     "name": "금융",
     "close": 58.29,
@@ -1044,14 +1060,6 @@
     "close": 62.21,
     "chg": 0.27,
     "pct": 0.44,
-    "date": "11.11 06:00"
-   },
-   {
-    "key": "XLC",
-    "name": "커뮤니케이션",
-    "close": 107.76,
-    "chg": 0.4,
-    "pct": 0.37,
     "date": "11.11 06:00"
    },
    {
@@ -1084,14 +1092,6 @@
     "close": 168.73,
     "chg": -0.16,
     "pct": -0.09,
-    "date": "11.11 06:00"
-   },
-   {
-    "key": "XLRE",
-    "name": "부동산",
-    "close": 44.58,
-    "chg": -0.06,
-    "pct": -0.13,
     "date": "11.11 06:00"
    },
    {
@@ -1163,9 +1163,9 @@
    {
     "key": "META",
     "name": "메타",
-    "close": 641.39,
-    "chg": 0.02,
-    "pct": 0.0,
+    "close": 641.37,
+    "chg": 31.22,
+    "pct": 5.12,
     "date": "11.11 06:00"
    },
    {
@@ -1204,8 +1204,428 @@
   "date": "2026-11-10",
   "closed": true
  },
- "yahoo_at": "2026-11-11 09:54",
+ "yahoo_at": "2026-11-11 10:57",
  "reports": [
+  {
+   "cat": "기업",
+   "title": "많은 것이 선명해질 2027년",
+   "broker": "한화투자증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98028",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261111_company_833432000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98028",
+   "stock": "크래프톤",
+   "code": "259960",
+   "goal": "300000",
+   "opinion": "",
+   "method": "PER",
+   "why": "보고서에 명시된 이유는 없으나, 실적이 안정적으로 발생하는 게임 업종에서는 이익 기준 PER 적용이 일반적이다. (일반적 설명)",
+   "sum": [
+    "3Q26 영업이익이 시장 컨센서스를 밑돌며 실적이 부진했음",
+    "PC 매출 부진 속에서도 4분기 콜라보와 신규 모드로 일부 회복 기대",
+    "내년 10주년과 신작 5종 출시 예정, 추정치에는 미반영 상태",
+    "한화투자증권은 실적 추정치를 낮췄지만 투자의견 Buy를 유지하고 목표가를 30만 원으로 봄"
+   ],
+   "val": [
+    "2027년 예상 EPS 18,813원에 목표 P/E 16배를 적용해 적정주가 301,014원, 목표주가 30만 원 산정",
+    "현재 주가 216,500원 기준 2027년 PER 11.5배, 목표주가 기준 상승여력 38.6%"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "많은 것이 반영된 주가 수준",
+   "broker": "한화투자증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98027",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261111_company_789567000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98027",
+   "stock": "시프트업",
+   "code": "462870",
+   "goal": "40000",
+   "opinion": "",
+   "method": "PER",
+   "why": "이익 창출력이 주가에 직접 반영되는 게임사는 이익 기준 배수인 PER로 평가하는 경우가 많음 (일반적 설명)",
+   "sum": [
+    "3Q26 매출 462억·영업이익 207억으로 컨센서스를 밑돌았고, 니케와 스텔라블레이드 매출이 줄었음",
+    "4분기는 니케 업데이트와 스텔라블레이드 신규 플랫폼 효과로 반등이 기대되나 회복의 지속성이 관건이라고 봄",
+    "신작 스피릿의 정보 공개는 경쟁작 일정을 고려해 내년으로 미뤄짐",
+    "실적 추정치 하향을 반영해 목표주가를 4만원으로 낮추고 Buy 의견은 유지함"
+   ],
+   "val": [
+    "목표주가 40,000원은 27년 예상 EPS 2,048원에 목표 P/E 19.5배를 적용해 산출한 값(적정주가 39,941원)",
+    "현재 주가 31,350원 기준 27년 PER 15.3배, PBR 1.7배이며 상승여력은 27.6%"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "3Q26 Review: 내실은 더욱 단단해지는 중",
+   "broker": "교보증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98026",
+   "pdf": "https://stock.pstatic.net/stock-research/company/62/20261111_company_376770000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98026",
+   "stock": "신세계",
+   "code": "004170",
+   "goal": "400000",
+   "opinion": "",
+   "method": "PER",
+   "why": "유통 기업은 이익이 안정적으로 창출되는 단계에서 이익 기준 PER을 주로 사용함 (일반적 설명)",
+   "sum": [
+    "3Q26 영업이익 1,643억원으로 시장 기대치(1,706억원)를 소폭 하회, 매출은 1.2% 증가",
+    "백화점은 패션 중심 상품 믹스 개선으로 영업이익이 23.5% 늘어 실적을 견인",
+    "면세점은 공항 임차료 부담 완화로 흑자전환했으나 환율 영향으로 분기 수익성은 하락",
+    "교보증권은 수익성 개선과 주주환원 강화가 주가에 긍정적이라고 봄"
+   ],
+   "val": [
+    "교보증권은 12MF 지배순이익 4,022억원에 목표 PER 9.5배를 적용해 목표주가 40만원 제시(기존 64.5만원에서 하향)",
+    "현재가 245,500원 기준 상승여력 62.9%, 2026E EPS 기준 PER 5.4배"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "4분기에도 내심 기대를 걸어봅니다",
+   "broker": "한화투자증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98025",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261111_company_168737000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98025",
+   "stock": "파라다이스",
+   "code": "034230",
+   "goal": "16000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "FcRn으로 류마티스를 누르다",
+   "broker": "교보증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98024",
+   "pdf": "https://stock.pstatic.net/stock-research/company/62/20261111_company_868146000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98024",
+   "stock": "한올바이오파마",
+   "code": "009420",
+   "opinion": "",
+   "method": "",
+   "why": "",
+   "sum": [
+    "600mg군 ACR20 반응률 92.5%로 위약군(75.6%)보다 높아 주평가지표 충족",
+    "JAK·TNF 억제제 실패 환자에서도 600mg 투여 시 유사한 효과 확인",
+    "300mg군은 위약과 차이가 없어 용량과 추가 임상 설계는 과제로 남음",
+    "루푸스·쇼그렌 개발 중단 후 2027년 그레이브스병 임상 발표가 다음 모멘텀"
+   ],
+   "val": [
+    "목표주가는 제시되지 않고 Not Rated 유지. 시가총액은 이뮤노반트 대비 24.9%라 교보증권는 매력적 매수 구간으로 봄",
+    "현재가 46,700원, 2025A 기준 PBR 14.1배, PER -411.1배(적자)"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "3분기는 환율과 원가 시차로 컨센서스 하회, 4분기 회복 전망",
+   "broker": "한화투자증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98023",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261111_company_500541000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98023",
+   "stock": "세아제강",
+   "code": "306200",
+   "goal": "174000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "10주년을 앞두고 보여준 주주환원 의지",
+   "broker": "교보증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98022",
+   "pdf": "https://stock.pstatic.net/stock-research/company/62/20261111_company_164195000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98022",
+   "stock": "크래프톤",
+   "code": "259960",
+   "goal": "340000",
+   "opinion": "",
+   "method": "PER",
+   "why": "리포트는 글로벌 게임사 27년 PER 평균에 30% 할인을 적용했으며, 게임사는 이익 기준 비교가 일반적이라 PER을 씀 (일반적 설명)",
+   "sum": [
+    "3Q26 매출 9,714억원, 영업이익 2,250억원으로 컨센서스를 밑돌았다고 봄",
+    "PC는 Subnautica2 출시 효과가 빠져 급감했고, 모바일은 콜라보 효과로 늘었다고 봄",
+    "ADK·PC 매출 추정 하향으로 목표주가를 34만원으로 낮췄다고 봄",
+    "4Q26 자사주 3천억원 추가 취득·소각 포함 26년 주주환원액 9,172억원, 주주가치 제고 의지 확인"
+   ],
+   "val": [
+    "27년 지배주주순이익 1,144십억원에 target PER 13.5배를 적용해 적정주가 339,427원 산출",
+    "글로벌 게임사 27년 PER 평균에 30% 할인 적용, 현재가 216,500원 대비 상승여력 57.0%"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "어닝 호조와 함꼐 밟은 AI DC 확장 엑셀",
+   "broker": "교보증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98021",
+   "pdf": "https://stock.pstatic.net/stock-research/company/62/20261111_company_306258000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98021",
+   "stock": "NHN",
+   "code": "181710",
+   "goal": "92000",
+   "opinion": "",
+   "sum": [
+    "3Q26 영업이익 588억원(YoY +112.6%)으로 컨센서스 상회",
+    "AI DC 확보 목표를 27년 말 100MW로 약 30MW 상향, 기술 매출 전망 상향",
+    "교보증권은 기술 부문 가치 상향에 따라 목표주가를 64,000원에서 92,000원으로 올리고 Buy 유지로 봄",
+    "정부 GPU 사업 참여 여부에 따라 27~28년 기술 매출 추정치가 크게 변동 가능"
+   ],
+   "val": []
+  },
+  {
+   "cat": "기업",
+   "title": "3Q26 Review : 27년 백화점과 SI가 실적 개선을 이끌 전망",
+   "broker": "한화투자증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98020",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261111_company_149085000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98020",
+   "stock": "신세계",
+   "code": "004170",
+   "goal": "410000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "4연속 컨센서스 하회 이후 첫 호실적",
+   "broker": "하나증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98019",
+   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261111_company_499919000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98019",
+   "stock": "파라다이스",
+   "code": "034230",
+   "goal": "16000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "3Q26 Review : 새로운 활력이 필요해",
+   "broker": "한화투자증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98018",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261111_company_825395000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98018",
+   "stock": "F&F",
+   "code": "383220",
+   "goal": "95000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "내년에도 기대할 것이 많아졌습니다",
+   "broker": "하나증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98017",
+   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261111_company_868269000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98017",
+   "stock": "한올바이오파마",
+   "code": "009420",
+   "goal": "80000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "3Q26 Re: 탄탄한 실적, 백화점 성장률이 관건",
+   "broker": "하나증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98016",
+   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261111_company_473669000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98016",
+   "stock": "신세계",
+   "code": "004170",
+   "goal": "365000",
+   "opinion": "",
+   "method": "PER",
+   "why": "리포트에 명시된 이유는 없으며, 이익 기반으로 기업가치를 산정하기 위해 PER을 쓴 것으로 보임(일반적 설명)",
+   "sum": [
+    "3분기 영업이익 1,643억원(YoY 65%)으로 시장 기대치엔 소폭 못 미쳤지만 양호함",
+    "백화점 기존점 성장률 15.6%가 실적 개선을 이끌었고 주요 계열사도 회복세",
+    "4분기는 10~11월 백화점 기존점 성장률이 1% 내외로 둔화될 것으로 봄",
+    "백화점이 영업이익의 60% 이상을 차지해 성장 둔화가 주가 부담이라고 판단"
+   ],
+   "val": [
+    "하나증권은 12MF PER 7배(기존 8배)를 적용해 목표주가를 43만원에서 36.5만원으로 하향",
+    "현재주가 24만 5,500원은 12MF PER 4.7배로 역대 최저 수준이라고 봄"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "더디지만 방향은 회복세",
+   "broker": "한화투자증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98015",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261111_company_930822000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98015",
+   "stock": "CJ제일제당",
+   "code": "097950",
+   "goal": "260000",
+   "opinion": "",
+   "method": "PER",
+   "why": "이익 기반 업종이라 실적 회복 단계에서 이익 대비 주가 수준을 직관적으로 비교할 수 있기 때문 (일반적 설명)",
+   "sum": [
+    "3분기 영업이익 2,030억원으로 컨센서스에 부합, 지배주주순이익은 외환 손실로 192억원에 그침",
+    "4분기는 국내 가격 인상과 판가 정상화로 이익 개선 폭이 3분기보다 확대될 전망",
+    "2027년은 외형 성장은 낮지만 식품 가격 정상화와 바이오 수익성 회복으로 이익 회복이 두드러질 것으로 봄",
+    "미국 햇반 GSP 확대, 헝가리 공장 가동, 아미노산 통상환경 변화가 주요 변수"
+   ],
+   "val": [
+    "2027년 EPS 23,805원에 목표 P/E 11.0배(국내 평균 P/E)를 적용해 목표주가 260,000원 산정",
+    "현재 주가 177,600원 기준 2027E PER 7.5배, PBR 0.4배, 상승여력 46.4%"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "영업력 확대가 비용 부담으로 작용했던 3분기",
+   "broker": "한화투자증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98014",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261111_company_681669000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98014",
+   "stock": "GKL",
+   "code": "114090",
+   "goal": "12000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "3Q26 Re: 희망적인 내용",
+   "broker": "하나증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98013",
+   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261111_company_838778000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98013",
+   "stock": "CJ제일제당",
+   "code": "097950",
+   "goal": "370000",
+   "opinion": "",
+   "method": "",
+   "why": "",
+   "sum": [
+    "3Q26 영업이익은 3,090억원으로 전년 대비 10.8% 줄었지만 시장 기대에는 대체로 부합",
+    "물류를 제외하면 영업이익 2,030억원(+6.9%)으로 국내 가공이 특히 선방",
+    "라이신 판가 유지와 중국 반덤핑 관세에 따른 내년 바이오 실적 개선을 기대",
+    "하나증권은 올해 실적 부진으로 주가가 저평가돼 내년 저가 매수가 유효하다고 봄"
+   ],
+   "val": [
+    "목표주가 370,000원(12M), 현재 주가 177,600원(11.10) 대비 상승여력 약 108%",
+    "현 주가는 12M Fwd PER 7배, PBR 0.4배 수준. 목표주가 산정 방식은 명시되지 않음"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "캐노피우스 지분 취득: ROE 개선에 기여할 것으로 기대",
+   "broker": "한화투자증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98012",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261111_company_629690000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98012",
+   "stock": "삼성화재",
+   "code": "000810",
+   "goal": "700000",
+   "opinion": "",
+   "method": "",
+   "why": "",
+   "sum": [
+    "삼성화재가 캐노피우스 지분 40.53%를 추가 취득해 보유율을 80.56%로 확대할 예정",
+    "추후 완전자회사화가 예상되며, 각국 승인 절차는 2027년 상반기 내 마무리될 전망",
+    "1H26 경상손익 기준 지분율 80% 확대 시 연간 지배주주순이익 2,600억원 증가 효과 기대",
+    "한화투자증권은 ROE 개선 효과를 긍정적으로 보고 투자의견 Hold, 목표주가 70만원을 유지"
+   ],
+   "val": []
+  },
+  {
+   "cat": "기업",
+   "title": "3Q26 Re: 저점 매수 관점에서 접근 가능",
+   "broker": "하나증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98011",
+   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261111_company_668453000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98011",
+   "stock": "CJ대한통운",
+   "code": "000120",
+   "goal": "100000",
+   "opinion": "",
+   "method": "",
+   "why": "",
+   "sum": [
+    "3Q26 영업이익 1,105억원(-25% YoY)으로 컨센서스에 부합",
+    "하나증권은 2026년 HUB 투자비용 등으로 영업이익 감소를 봄",
+    "하나증권은 2027년 영업이익 5,190억원(+18%)과 택배 ASP 상승을 전망",
+    "하나증권은 투자의견 BUY와 목표주가 10만원을 유지하며 저점 매수 관점을 제시"
+   ],
+   "val": [
+    "목표주가 10만원 유지, 현재가 6만7,600원(11.09 기준). 산정 방식은 리포트에 명시되지 않음",
+    "현재 주가 12MF PER 7배대, 2027F PER 7.00배·PBR 0.33배(하나증권 추정)"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "2026년 3분기 컨퍼런스콜 요약",
+   "broker": "하나증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98010",
+   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261111_company_791138000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98010",
+   "stock": "KT",
+   "code": "030200",
+   "goal": "76000",
+   "opinion": "",
+   "method": "",
+   "why": "",
+   "sum": [
+    "3분기 매출 6조9,775억원, 영업이익 5,053억원으로 전년 대비 감소",
+    "무선 가입자는 늘었으나 무선 매출은 줄고, 유선 가입자는 감소",
+    "AX 매출은 전년 대비 9.8% 증가, B2B 수주는 누적 약 20% 성장",
+    "본업 턴어라운드 언급, 최소 DPS 2,400원과 2028년까지 1조원 자사주 매입 계획"
+   ],
+   "val": [
+    "하나증권은 목표주가 76,000원을 제시하며 BUY 의견을 유지함",
+    "현재 주가 51,000원 대비 목표주가 76,000원이며, 산정 방식과 배수는 원문에 없음"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "3Q 실적 부진, 하지만 매수로 대응해야",
+   "broker": "하나증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98009",
+   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261111_company_489943000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98009",
+   "stock": "KT",
+   "code": "030200",
+   "goal": "76000",
+   "opinion": "",
+   "method": "",
+   "why": "",
+   "sum": [
+    "하나증권은 3분기 실적 부진이 이미 주가에 반영됐다고 보고 매수 의견 유지",
+    "3분기 본사 영업이익 2,993억원(-12% YoY)으로 부진, 자회사 실적은 양호",
+    "2026년 연결·본사 이익은 감소하지만 2027년에는 증가 전환을 기대",
+    "금리 하락 가능성을 고려하면 배당 매력이 충분해 5만원대 매수 권고"
+   ],
+   "val": [
+    "목표주가 76,000원, 현재주가 51,000원 기준 상승여력은 약 49%(계산값)",
+    "목표주가 산정 방식은 명시되지 않음. 현재가 기준 PER 2026F 9.58배·2027F 8.66배, PBR 0.67배·0.64배"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "아직은 보여줄게 많이 남아 있습니다",
+   "broker": "하나증권",
+   "date": "2026-11-11",
+   "url": "https://stock.naver.com/research/company/98008",
+   "pdf": "https://stock.pstatic.net/stock-research/company/57/20261111_company_897854000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98008",
+   "stock": "RFHIC",
+   "code": "218410",
+   "goal": "150000",
+   "opinion": ""
+  },
   {
    "cat": "기업",
    "title": "2027년 3월, PUBG 10주년을 믿자",
@@ -1216,20 +1636,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98007",
    "stock": "크래프톤",
    "code": "259960",
-   "goal": "320000",
-   "opinion": "",
-   "method": "PER",
-   "why": "이익 창출이 안정된 게임사는 주당순이익에 동종업체 배수를 곱해 시장 평가를 반영하는 것이 일반적이기 때문 (일반적 설명)",
    "sum": [
     "3분기 영업이익 2,250억원으로 컨센서스를 하회, PC 콜라보 공백과 외화손실이 원인",
     "4분기 PC 콜라보로 회복을 예상하고, 2027년 PUBG 10주년 이벤트로 트래픽 반등 기대",
     "신작 5종과 정식 출시 게임은 현 추정치에 미반영, 일정 확정 시 실적 상향 여지",
     "하나증권은 목표주가를 32만원으로 낮추면서도 Buy와 게임 Top Pick을 유지하는 의견"
    ],
+   "goal": "320000",
    "val": [
     "12MF EPS 20,324원에 목표 PER 16배(피어 12MF PER 평균 90일 기준 10% 할인)를 적용해 목표주가 32만원 산정",
     "현재가 21.65만원 대비 상승여력 47.8%, 2027F PER 10.65배로 현재 주가 수준 확인"
-   ]
+   ],
+   "method": "PER",
+   "why": "이익 창출이 안정된 게임사는 주당순이익에 동종업체 배수를 곱해 시장 평가를 반영하는 것이 일반적이기 때문 (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1241,20 +1660,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98006",
    "stock": "지역난방공사",
    "code": "071320",
-   "goal": "110000",
-   "opinion": "",
-   "method": "PBR",
-   "why": "지역난방공사처럼 설비 투자가 많은 자산 집약형 공기업은 이익 변동이 커서 자산가치 기반인 PBR이 안정적인 기준이 되기 때문임(일반적 설명)",
    "sum": [
     "3분기 영업이익은 -79억원으로 적자 전환해 컨센서스를 하회함",
     "전기 판매량이 42.6% 줄고 SMP 상승폭이 제한되며 전기 부문 실적이 둔화됨",
     "발전기 강제 가동 확대로 SMP 구조적 약세가 나타나 규제 리스크가 실적에 반영되는 중",
     "미수금은 LNG 가격에 연동돼 당분간 순증이 이어질 전망임"
    ],
+   "goal": "110000",
    "val": [
     "하나증권은 2027년 예상 BPS 222,391원에 목표 PBR 0.5배를 적용해 목표주가 110,000원을 산출함(21.4% 하향)",
     "현재 주가 67,700원 기준 2027F PER 4.9배, PBR 0.3배이며 상승여력은 약 62%임"
-   ]
+   ],
+   "method": "PBR",
+   "why": "지역난방공사처럼 설비 투자가 많은 자산 집약형 공기업은 이익 변동이 커서 자산가치 기반인 PBR이 안정적인 기준이 되기 때문임(일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1279,20 +1697,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98004",
    "stock": "KT",
    "code": "030200",
-   "goal": "73000",
-   "opinion": "",
-   "method": "",
-   "why": "",
    "sum": [
     "유안타증권은 BUY 의견과 목표주가 73,000원을 유지한다고 봄",
     "3분기 영업이익은 일회성 비용을 빼면 컨센서스에 부합했고, 무선 ARPU도 회복세",
     "AX 매출은 전년 대비 9.8% 늘었고 그룹사 이익기여도 2,000억원을 넘김",
     "AIDC·해저케이블 투자로 AX 중장기 성장 기반이 구체화되는 중"
    ],
+   "goal": "73000",
    "val": [
     "목표주가 73,000원은 현재가 51,000원 대비 상승여력 43%이며 BUY 의견을 유지함",
     "2026F·2027F 현재 주가 기준 PER 9.7배·9.0배, PBR 0.7배·0.6배 수준"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1304,20 +1721,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98003",
    "stock": "크래프톤",
    "code": "259960",
-   "goal": "300000",
-   "opinion": "",
-   "method": "PER",
-   "why": "리포트가 글로벌 게임사 Peer의 12M Fwd PER 평균(15.5배)을 목표 배수로 적용했기 때문",
    "sum": [
     "3Q26 영업이익은 컨센서스를 17% 밑돌았고, PC 매출 감소가 주된 원인으로 꼽힘",
     "4분기 PC 이벤트와 신규 모드로 매출 회복을 기대하며, 2026년 영업이익은 1조 2,734억원으로 전망",
     "2027년 PUBG 10주년 콘텐츠와 신작 5종 공개가 주가 회복의 핵심 변수가 될 것으로 봄",
     "추가 자사주 소각 등으로 2026년 총 주주환원은 9,172억원 규모이며, 유안타증권은 BUY를 유지하되 목표주가를 33만원에서 30만원으로 내림"
    ],
+   "goal": "300000",
    "val": [
     "12M Fwd EPS 19,427원에 글로벌 게임사 Peer 12M Fwd PER 평균 15.5배를 적용해 적정주가 301,114원, 목표주가 30만원 산정",
     "현재 주가 216,500원 기준 상승여력 39%이며, 2026F PER 21.7배·2027F PER 10.2배 수준"
-   ]
+   ],
+   "method": "PER",
+   "why": "리포트가 글로벌 게임사 Peer의 12M Fwd PER 평균(15.5배)을 목표 배수로 적용했기 때문"
   },
   {
    "cat": "기업",
@@ -1329,20 +1745,19 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98002",
    "stock": "CJ대한통운",
    "code": "000120",
-   "goal": "100000",
-   "opinion": "",
-   "method": "PBR",
-   "why": "지배주주 자본(BPS) 기준 자산가치로 평가하는 방식이며, 리포트는 목표배수 근거로 과거 3개년 평균 PBR을 제시 (일반적 설명)",
    "sum": [
     "3Q26 매출 3조 3,581억원(YoY +9.5)으로 전 사업부 외형은 성장",
     "영업이익 1,105억원(YoY -25.3%)은 컨센서스를 3% 하회, 영업일수 감소와 원가 부담이 원인",
     "4Q26도 허브 운영비와 택배 ASP 하락으로 전년 대비 감익이 이어질 전망",
     "유안타증권은 실적 추정 하향을 반영해 목표주가를 12만원에서 10만원으로 낮추고 BUY 유지"
    ],
+   "goal": "100000",
    "val": [
     "12M Fwd BPS 222,915원에 과거 3개년 평균 PBR 0.5배를 적용해 적정주가 102,541원, 목표주가 10만원 산출",
     "현재 주가 67,800원 기준 상승여력 47%, 2026F PER 8.8배·PBR 0.3배 수준"
-   ]
+   ],
+   "method": "PBR",
+   "why": "지배주주 자본(BPS) 기준 자산가치로 평가하는 방식이며, 리포트는 목표배수 근거로 과거 3개년 평균 PBR을 제시 (일반적 설명)"
   },
   {
    "cat": "기업",
@@ -1354,9 +1769,6 @@
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98001",
    "stock": "헥토이노베이션",
    "code": "214180",
-   "opinion": "",
-   "method": "",
-   "why": "",
    "sum": [
     "3Q26 연결 매출 1,088억원, 영업이익 153억원으로 분기 최대 영업이익을 기록함",
     "핀테크(헥토파이낸셜)와 헬스케어 매출이 함께 늘고 있어 매출 성장세는 이어질 것으로 봄",
@@ -1366,7 +1778,9 @@
    "val": [
     "3Q26과 4Q26 실적이 같다고 가정할 때 26년 연간 PER은 3.7배로 제시함 (당기순이익 480.9억원, 전일 시가총액 1,761억원 기준)",
     "별도기준으로도 매력적인 밸류에이션 수준이라고 언급했으나 목표주가 산정 방식은 없음"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "기업",
@@ -1392,448 +1806,38 @@
    "stock": "삼성에스디에스",
    "code": "018260",
    "goal": "320000",
-   "opinion": ""
-  },
-  {
-   "cat": "기업",
-   "title": "견조한 매출 성장, 마진 개선 준비 완료",
-   "broker": "미래에셋증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97998",
-   "pdf": "https://stock.pstatic.net/stock-research/company/56/20261111_company_489396000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97998",
-   "stock": "CJ대한통운",
-   "code": "000120",
-   "goal": "120000",
-   "opinion": ""
-  },
-  {
-   "cat": "기업",
-   "title": "Golden Decade, 셀트리온의 시간",
-   "broker": "미래에셋증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97997",
-   "pdf": "https://stock.pstatic.net/stock-research/company/56/20261111_company_702546000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97997",
-   "stock": "셀트리온",
-   "code": "068270",
-   "goal": "350000",
-   "opinion": ""
-  },
-  {
-   "cat": "기업",
-   "title": "4분기 숨 고르기",
-   "broker": "미래에셋증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97996",
-   "pdf": "https://stock.pstatic.net/stock-research/company/56/20261111_company_277706000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97996",
-   "stock": "신세계",
-   "code": "004170",
-   "goal": "421000",
-   "opinion": ""
-  },
-  {
-   "cat": "기업",
-   "title": "하면, 된다",
-   "broker": "유진투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97995",
-   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261111_company_494331000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97995",
-   "stock": "파라다이스",
-   "code": "034230",
-   "sum": [
-    "3분기 매출 3,517억원, 영업이익 641억원으로 시장 기대를 웃도는 어닝 서프라이즈 기록",
-    "하얏트 호텔 OCC 상승으로 첫 흑자전환, 비용 효율화가 수익성 개선을 견인",
-    "중국 VIP는 역성장했지만 일본 VIP와 Mass 성장으로 드랍액은 증가",
-    "관광기금 인상 이슈가 완화된 수준으로 연내 발표될 경우 반등 기대"
-   ],
-   "goal": "17000",
-   "val": [
-    "유진투자증권은 투자의견 BUY, 목표주가 17,000원을 유지한다고 봄. 현재주가는 9,920원(11/10 기준)",
-    "2026E PER 11.8배, 2027E PER 9.0배(본문은 8.9배), PBR 0.5배 수준. 목표주가 산정 방식은 리포트에 명시되지 않음"
-   ],
-   "method": "",
-   "why": ""
-  },
-  {
-   "cat": "기업",
-   "title": "10주년 <PUBG>와 신작, 결과 증명 필요",
-   "broker": "신한투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97994",
-   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261111_company_232929000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97994",
-   "stock": "크래프톤",
-   "code": "259960",
-   "sum": [
-    "3Q26 영업이익 2,250억원으로 컨센서스를 17.5% 밑돌았고, PC 매출 감소가 주된 원인임",
-    "PUBG M은 콜라보 효과로 성장했으나 마케팅비와 지급수수료 부담이 커짐",
-    "4Q26은 PC 콜라보와 신규 모드로 반등이 기대되며, 10주년 이벤트의 과금 피로도 관리가 관건임",
-    "신한투자증권은 매수 의견을 유지하되, PUBG 외 신작 성과가 입증돼야 재평가가 가능하다고 봄"
-   ],
-   "goal": "270000",
-   "val": [
-    "12MF EPS 20,960원에 목표 PER 13.0배(24~26년 12MF PER 평균)를 적용해 목표주가 270,000원 산정",
-    "현재주가 216,500원(11/10) 기준 상승여력 24.7%이며, PER은 2026F 17.6배, 2027F 10.3배임"
-   ],
-   "method": "PER",
-   "why": "리포트상 크래프톤의 24~26년 12MF PER 평균을 목표 배수로 적용했기 때문임"
-  },
-  {
-   "cat": "기업",
-   "title": "30MW 묻고 32MW 더블로 가",
-   "broker": "신한투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97993",
-   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261111_company_160620000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97993",
-   "stock": "NHN",
-   "code": "181710",
-   "sum": [
-    "3Q26 영업이익 588억원으로 컨센서스(539억원)를 웃돌며 실적 개선이 이어짐",
-    "수도권 신규 거점으로 2027년 초부터 AI DC 운영 규모를 약 100MW까지 확대할 계획",
-    "신규 확보 62MW에 B300 GPU 1,700장을 구축해 2027년 1월 서비스를 시작할 예정",
-    "신한투자증권은 AI DC 사업 확장과 이익 상향을 근거로 투자의견 매수를 유지함"
-   ],
-   "goal": "87000",
-   "val": [
-    "신한투자증권은 목표주가 87,000원(기존 73,000원 대비 19.2% 상향)으로 매수 의견을 유지함",
-    "12MF EPS 4,858원에 목표 PER 18배를 적용하며, 현재가 77,400원 기준 상승여력은 12.4%임. 현재가 기준 PER은 2026F 24.5배, 2027F 16.2배"
-   ],
-   "method": "PER",
-   "why": "리포트에 별도 이유는 없으나, 이익 기반 수익성이 확인되는 기업의 주가를 이익 대비 배수로 평가하는 것이 일반적임 (일반적 설명)"
-  },
-  {
-   "cat": "기업",
-   "title": "재고조정과 환율 역풍",
-   "broker": "SK증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97992",
-   "pdf": "https://stock.pstatic.net/stock-research/company/64/20261111_company_550439000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97992",
-   "stock": "F&F",
-   "code": "383220",
-   "sum": [
-    "3Q26 영업이익 1,084억 원(-15%)으로 컨센서스와 자체 추정치를 모두 하회",
-    "중국 출고 조정과 원화 강세가 매출과 수익성을 동시에 끌어내림",
-    "SK증권는 4Q26 중국 매출이 위안화 기준 회복되나 원화 기준은 역성장이 이어질 것으로 봄",
-    "원화 강세를 반영해 26·27년 이익을 낮추고 목표주가를 84,000원으로 하향"
-   ],
-   "goal": "84000",
-   "val": [
-    "12MF EPS 10,711원에 목표 PER 7.8배(피어 13.1배에 40% 할인)를 적용해 목표가 산출",
-    "현재가 62,600원 기준 상승여력 34.2%, 2026E PER 6.1배·PBR 1.1배로 최근 2년 밴드 하단"
-   ],
-   "method": "PER",
-   "why": "의류 업종은 이익 기준 멀티플로 평가되는 경우가 많고 중국 동종업체 PER 비교가 용이해서 (일반적 설명)"
-  },
-  {
-   "cat": "기업",
-   "title": "예상보다 컸던 PC매출 부진",
-   "broker": "유진투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97991",
-   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261111_company_924360000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97991",
-   "stock": "크래프톤",
-   "code": "259960",
-   "sum": [
-    "3분기 매출 9,714억원(전년비 +12%), 영업이익 2,250억원으로 컨센서스를 하회",
-    "PC 매출은 서브노티카2 초기 판매 효과 소멸과 전년 콜라보 기저로 예상보다 크게 감소",
-    "4분기 콜라보와 웰메이드 모드로 PUBG PC 반등을 기대, 2027년 10주년과 신작 효과 강조",
-    "실적 추정 하향에 목표주가는 30만원에서 28만원으로 낮췄으나, 자사주 소각 등 주주환원을 감안해 BUY 유지"
-   ],
-   "goal": "280000",
-   "val": [],
-   "opinion": ""
-  },
-  {
-   "cat": "기업",
-   "title": "신작 모멘텀을 기다리는 시간",
-   "broker": "미래에셋증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97990",
-   "pdf": "https://stock.pstatic.net/stock-research/company/56/20261111_company_81258000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97990",
-   "stock": "시프트업",
-   "code": "462870",
-   "goal": "42000",
-   "opinion": ""
-  },
-  {
-   "cat": "기업",
-   "title": "3Q26P Review: 4분기 연속 영업이익 흑자 달성",
-   "broker": "유진투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97989",
-   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261111_company_544046000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97989",
-   "stock": "서울바이오시스",
-   "code": "092190",
-   "sum": [
-    "3분기 매출 2,297억원(+22.5%)으로 분기 최고치, 영업이익 124억원으로 흑자 전환",
-    "유진투자증권은 4분기 연속 영업이익 흑자와 5%대 영업이익률이 이어지고 있다고 봄",
-    "WICOP 3는 원가를 절반 수준으로 낮춰 내년 1분기 이후 실적에 반영될 전망",
-    "AI 데이터센터 광통신과 마이크로디스플레이 수주 확대도 성장 요인으로 제시"
-   ],
-   "val": [
-    "유진투자증권은 2026E 기준 현재주가 PER 10.8배가 동종업체 평균 29.7배보다 낮아 저평가로 봄",
-    "목표주가는 제시하지 않았으며(투자의견 NR), 2027E 기준 PER은 7.8배임"
-   ],
-   "method": "",
-   "why": ""
-  },
-  {
-   "cat": "기업",
-   "title": "본업 정상화와 ktCloud 성장을 기대",
-   "broker": "iM증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97988",
-   "pdf": "https://stock.pstatic.net/stock-research/company/61/20261111_company_268627000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97988",
-   "stock": "KT",
-   "code": "030200",
-   "sum": [
-    "3Q26 영업이익은 고객 보답 프로그램 비용 탓에 컨센서스를 16% 밑돌았으나, iM증권은 수익성 개선 흐름으로 봄",
-    "무선 가입자와 ARPU가 8월 이후 회복 중이어서 4분기에는 본업 정상화가 나타날 것으로 봄",
-    "KT클라우드와 KT에스테이트 등 주요 그룹사는 고른 성장세이며, 부천 데이터센터 가동(’27년)이 성장 동력으로 꼽힘",
-    "주주환원수익률 6.3% 수준을 매력적으로 보고 Buy 투자의견과 목표주가 70,000원을 유지함"
-   ],
-   "goal": "70000",
-   "val": [],
-   "opinion": ""
-  },
-  {
-   "cat": "기업",
-   "title": "패션과 코스메틱 모두 좋았다",
-   "broker": "SK증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97987",
-   "pdf": "https://stock.pstatic.net/stock-research/company/64/20261111_company_790323000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97987",
-   "stock": "신세계인터내셔날",
-   "code": "031430",
-   "sum": [
-    "3분기 영업이익은 51억 원으로 컨센서스(72억 원)를 밑돌았지만 당사 추정치(41억 원)는 웃돌았음",
-    "해외 패션(+28%)과 수입·제조 코스메틱 성장으로 백화점 업황 둔화 속에서도 매출 성장세 유지",
-    "4분기 매출 4,005억 원(+16.3%), 영업이익 215억 원 전망이며 원화 강세로 수익성 개선 기대",
-    "SK증권은 실적 성장 모멘텀 대비 주가가 저평가됐다고 보고 매수 의견을 유지함"
-   ],
-   "goal": "15000",
-   "val": [
-    "SK증권은 목표주가 15,000원, 현재가 9,940원 대비 상승여력 50.9%로 제시함",
-    "현재가 기준 추정 PER은 2026E 6.5배, 2027E 4.9배, PBR은 2026E 0.4배 수준임"
-   ],
-   "method": "",
-   "why": ""
-  },
-  {
-   "cat": "기업",
-   "title": "3Q26P Review: 실적 성장 지속, 시장기대치 부합",
-   "broker": "유진투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97986",
-   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261111_company_155691000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97986",
-   "stock": "헥토이노베이션",
-   "code": "214180",
-   "sum": [
-    "3분기 매출 1,088억원으로 3분기 연속 1,000억원대를 기록하며 8분기 연속 두 자릿수 성장",
-    "IT정보서비스와 핀테크 매출 증가가 성장을 이끌었고 헬스케어는 보합",
-    "4분기는 성수기 효과로 분기 최대 매출 경신을 기대",
-    "유진투자증권은 실적 성장세가 이어지고 주가 상승 전환이 가능하다고 봄"
-   ],
-   "goal": "19000",
-   "val": [
-    "목표주가 19,000원(기존 21,000원에서 하향)으로 2026년 예상 EPS 2,401원에 최근 5년 평균 PER 7.9배를 적용",
-    "현재주가 13,350원 기준 2026E PER 5.6배, PBR 0.7배이며 상승여력 40.2%로 BUY 유지"
-   ],
-   "method": "PER",
-   "why": "이익 대비 주가 수준을 직접 비교할 수 있어 실적 기반 기업가치 산정에 널리 쓰임 (일반적 설명)"
-  },
-  {
-   "cat": "기업",
-   "title": "반격의 시작은 바이오",
-   "broker": "신한투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97985",
-   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261111_company_392942000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97985",
-   "stock": "CJ제일제당",
-   "code": "097950",
-   "sum": [
-    "중국발 공급 증가와 경쟁 심화로 바이오 실적 부진이 길어져 주가가 약세였음",
-    "3Q26 영업이익은 컨센서스에 부합했으나 식품은 원가 부담으로 부진이 이어짐",
-    "신한투자증권은 유가·곡물 상승과 라이신 반덤핑 관세가 바이오 이익 회복의 핵심 동력이라고 봄",
-    "27년 바이오 업황 정상화 시 이익 레버리지 확대를 기대하며, 중장기 밸류에이션은 글로벌 식품 성장성이 결정할 것으로 봄"
-   ],
-   "goal": "260000",
-   "val": [
-    "목표주가 260,000원은 SOTP 기준, 식품·바이오 27년 EBITDA에 6배 적용(피어 대비 30% 할인)",
-    "현재가 177,600원 대비 상승여력 46.4%, 12개월 선행 PER 9배로 매력적이라고 봄"
-   ],
-   "method": "SOTP",
-   "why": "사업부문별 수익성과 성장성이 달라 식품·바이오 등을 각각 평가해 합산하는 방식이 적합하기 때문(일반적 설명)"
-  },
-  {
-   "cat": "기업",
-   "title": "높은 기저, 더 높은 경쟁력",
-   "broker": "신한투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97984",
-   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261111_company_999095000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97984",
-   "stock": "신세계",
-   "code": "004170",
-   "sum": [
-    "3Q26 매출과 영업이익은 컨센서스에 부합했고, 전 사업부 영업이익이 늘었다고 신한투자증권는 봄",
-    "백화점은 대형 점포와 외국인 매출 증가로 우려보다 선방했으며 영업이익은 4개 분기 연속 증가",
-    "면세는 계절적 비수기와 원화 강세로 원가율이 올라 전분기 대비 감익",
-    "실적 추정치는 하향했지만 업종 최선호주 의견과 매수 투자의견은 유지"
-   ],
-   "goal": "380000",
-   "val": [
-    "SOTP로 목표주가 380,000원(17% 하향)을 산정. 백화점은 글로벌 백화점 27F EV/EBITDA 5배에 20% 할인, 면세는 호텔신라 27F EV/EBITDA 적용",
-    "현재주가 245,500원 대비 상승여력 54.8%. 현재주가 기준 2026F PER 5.7배, PBR 0.5배이며 12개월 선행 PER 5.5배 수준까지 하락을 반영"
-   ],
-   "method": "SOTP",
-   "why": "백화점, 면세, 비영업자산 등 성격이 다른 사업·자산을 각각 평가해 합산하는 것이 적합하기 때문 (일반적 설명)"
-  },
-  {
-   "cat": "기업",
-   "title": "장점이 부각될 때를 기다리다",
-   "broker": "신한투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97983",
-   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261111_company_513079000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97983",
-   "stock": "신세계인터내셔날",
-   "code": "031430",
-   "sum": [
-    "3Q26 매출은 17% 증가하고 영업흑자로 전환했지만 영업이익은 추정치를 크게 밑돎",
-    "해외 패션(+28%)이 성장을 이끈 반면 국내 패션(-9%)은 부진해 브랜드 간 격차가 커짐",
-    "실적 눈높이를 20% 이상 낮추면서 목표주가도 16,000원으로 하향",
-    "신한투자증권은 실적 턴어라운드 흐름은 맞지만 화장품 이익 확대가 주가 회복의 관건으로 봄"
-   ],
-   "goal": "16000",
-   "val": [
-    "12MF 지배주주순이익 기준 추정 EPS 1,911원에 목표 PER 8배를 적용해 목표주가 16,000원 산출",
-    "현재주가 9,940원 대비 상승여력 61.0%이며, 의류 평균 PER 5배와 화장품 평균 15배를 감안해 할증 적용"
-   ],
-   "method": "PER",
-   "why": "의류 기업(평균 PER 5배)과 화장품 기업(평균 15배)이 섞여 있어 화장품 비중을 반영해 할증한 배수를 씀"
-  },
-  {
-   "cat": "기업",
-   "title": "천릿길도 벌크업부터",
-   "broker": "신한투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97982",
-   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261111_company_546030000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97982",
-   "stock": "CJ대한통운",
-   "code": "000120",
-   "sum": [
-    "3Q26 영업이익 1,105억원(-25.3%)으로 컨센서스를 밑돌았으나, 택배 물량은 9% 늘어 점유율 확대는 지속",
-    "신한투자증권은 4Q26 감익폭이 완화되고 2027년 영업이익은 5,247억원(+18.1%)으로 턴어라운드할 것으로 봄",
-    "중동 긴장이 완화되면 CL·글로벌 수익성 훼손 요인이 사라져 이익 개선이 빨라질 수 있다고 봄",
-    "자사주 5% 현물배당 등 주주환원 계획도 긍정적으로 평가"
-   ],
-   "goal": "100000",
-   "val": [
-    "목표주가 100,000원(유지)은 12MF 추정 BPS 206,568원에 목표 PBR 0.5배를 적용해 산출",
-    "현재주가 67,800원 기준 26F PBR 0.4배, 상승여력 47.5%; 종합물류 피어 평균 PBR 1.85배보다 낮음"
-   ],
-   "method": "PBR",
-   "why": "리포트상 ROE 수준을 고려해 유사 ROE였던 24~25년 평균 배수를 적용하기 위함"
-  },
-  {
-   "cat": "기업",
-   "title": "외형보다 선명했던 이익 개선",
-   "broker": "신한투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97981",
-   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261111_company_403706000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97981",
-   "stock": "헥토이노베이션",
-   "code": "214180",
-   "goal": "21500",
    "opinion": "",
-   "method": "SOTP",
-   "why": "사업부별 성격이 달라 IT정보서비스·핀테크·헬스케어에 각각 다른 배수를 적용하기 위함(일반적 설명)",
+   "method": "DCF",
+   "why": "2029년 이후에야 가시화되는 AIDC 투자 회수를 2035년까지의 장기 현금흐름에 반영하기 위해 사용함",
    "sum": [
-    "3Q26 영업이익 153억원으로 분기 최대, 세 사업부 모두 개선",
-    "IT정보서비스 고마진 믹스와 핀테크 거래구조 조정 후 회복이 이익을 견인",
-    "26·27년 영업이익 추정치를 낮추고 목표주가는 23,000원에서 21,500원으로 하향",
-    "신한투자증권은 2027년 헬스케어 신제품·해외사업 성장을 근거로 매수 의견 유지"
+    "대신증권은 AI 전환 수혜주로 보고 투자의견 매수, 목표주가 32만원을 유지한다고 봄",
+    "2027년에는 MSP, 공공 GPU, SI, SaaS 등 IT서비스 성장이 실적을 이끌 것으로 봄",
+    "2028년 이후 해남·구미 데이터센터 가동 효과가 순차적으로 실적에 반영될 전망",
+    "2029~2031년 AIDC 투자 회수가 가시화되면 리스크프리미엄 하향 여지가 있다고 봄"
    ],
    "val": [
-    "SOTP로 총 EV 232.5십억원에 순차입금 45.0십억원을 더해 equity value 277.5십억원, 목표주가 21,500원 산출",
-    "현재주가 13,550원 대비 상승여력 58.7%, 2027F 기준 PER 3.8배·PBR 0.6배 수준"
+    "2035년까지 추정 현금흐름에 무위험이자율 4.3%, 리스크프리미엄 7.2%를 적용한 DCF로 목표주가 산정",
+    "현재주가 216,500원 대비 상승여력 47.8%이며 DCF 산출주가는 328,910원"
    ]
   },
   {
-   "cat": "기업",
-   "title": "조정 국면, 일단 대기",
-   "broker": "신한투자증권",
+   "cat": "산업",
+   "title": "BAAJA, 절차표결 통과, 이 앞엔 무엇이 남아있나",
+   "broker": "DS투자증권",
    "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97980",
-   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261111_company_145002000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97980",
-   "stock": "F&F",
-   "code": "383220",
+   "url": "https://stock.naver.com/research/industry/46958",
+   "pdf": "https://stock.pstatic.net/stock-research/industry/66/20261111_industry_228386000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46958",
+   "sector": "energy",
+   "method": "",
+   "why": "",
    "sum": [
-    "신한투자증권은 단기 모멘텀 약화로 조정 국면이 이어질 것으로 보고 매수 의견은 유지하되 일단 대기하라고 봄",
-    "3Q26 영업이익 1,084억원으로 컨센서스 1,259억원을 하회, 한국과 중국 매출이 모두 부진",
-    "중국 MLB 재고 건전화를 위한 출고 조정과 디스커버리 중국 출점 지연으로 중국 실적 가정치를 하향",
-    "2026F·2027F 영업이익 추정치를 각각 15.8%, 12.5% 낮춤"
+    "상원 절차표결 73:25 통과로 BAAJA의 초당적 지지가 확인됨",
+    "하원 통과 H.R.2347에 대체수정안으로 넣어 입법이 진행 중",
+    "데이터센터 비용회수 기준이 연방 차원에서 강화될 전망",
+    "송전망 건설 기간 단축 기대, DS투자증권는 전력기기 비중확대 의견 유지"
    ],
-   "goal": "84000",
-   "val": [
-    "12MF 추정 EPS 12,080원(지배주주순이익 기준)에 목표 PER 7배를 적용해 목표주가 84,000원(기존 8배 대비 하향)",
-    "현재주가 62,600원 대비 상승여력 34.2%, 2026F 기준 PER 5.8배·PBR 1.1배"
-   ],
-   "method": "PER",
-   "why": "리포트는 업종 대비 수출 비중 할증과 ROE 하락을 반영해 목표 PER을 정했으며, 방식 선택 이유는 명시하지 않음. 이익 기반 업종 특성상 PER을 쓰는 것이 일반적 (일반적 설명)"
-  },
-  {
-   "cat": "기업",
-   "title": "이제는 안정적인 맛",
-   "broker": "신한투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97979",
-   "pdf": "https://stock.pstatic.net/stock-research/company/21/20261111_company_253961000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97979",
-   "stock": "KT",
-   "code": "030200",
-   "sum": [
-    "신한투자증권는 방어주 관점에서 KT를 업종 Top Pick으로 보고 매수 의견을 유지함",
-    "3분기 영업이익은 5,053억원(-6.1%)으로 컨센서스를 하회, 별도 부문 부진이 주원인",
-    "4분기부터 고객 보상 프로그램 종료 후 가입자와 ARPU 회복으로 별도 실적 개선 전망",
-    "2027년 통신 3사 중 가장 높은 주주환원수익률 전망, 업종 내 유일하게 자사주 매입 예상"
-   ],
-   "goal": "68000",
-   "val": [
-    "SOTP로 목표주가 68,000원 유지, 현재가 51,000원 대비 상승여력 33.3%(11/10 기준)",
-    "2027F 별도 EBITDA 4,369십억원에 EV/EBITDA 3.5배(3개년 평균)를 적용해 영업가치 산정, 현재가 기준 2026F PER 9.2배·PBR 0.7배"
-   ],
-   "method": "SOTP",
-   "why": "BC카드, KT클라우드, KT에스테이트 등 자회사 가치가 커서 부문별로 나눠 합산하는 방식이 적합함. (일반적 설명)"
-  },
-  {
-   "cat": "기업",
-   "title": "시장 컬러에 맞는 배당주로 변화",
-   "broker": "유진투자증권",
-   "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/company/97978",
-   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261111_company_717736000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/97978",
-   "stock": "지역난방공사",
-   "code": "071320",
-   "goal": "104000",
-   "opinion": ""
+   "val": []
   },
   {
    "cat": "산업",
@@ -1843,7 +1847,19 @@
    "url": "https://stock.naver.com/research/industry/46957",
    "pdf": "https://stock.pstatic.net/stock-research/industry/66/20261111_industry_85877000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46957",
-   "sector": "shipbuilding"
+   "sector": "shipbuilding",
+   "method": "PBR",
+   "why": "리포트가 과거 호황기 2사에 적용된 PBR(태광 1.5배·성광벤드 1.8배)을 적절하다고 본 데 근거함",
+   "sum": [
+    "DS투자증권은 3Q26 피팅 2사 수주가 과거 호황기 초입과 닮았다고 봄",
+    "LNG·발전·DC·중동 재건·원전으로 수요가 다변화돼 사이클 장기화 기대",
+    "2027년 2사 합산 수주는 2012년 역대 최대치를 넘고 2028년에는 더 늘어날 전망",
+    "수주가 쌓이면 밸류에이션도 따라올 것으로 판단"
+   ],
+   "val": [
+    "목표주가는 태광 50,000원, 성광벤드 39,000원으로 제시",
+    "과거 호황기 2사 적용 PBR(태광 1.5배, 성광벤드 1.8배)을 적절하다고 판단"
+   ]
   },
   {
    "cat": "산업",
@@ -1854,15 +1870,15 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/62/20261111_industry_764473000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46956",
    "sector": "electronics",
-   "method": "",
-   "why": "",
    "sum": [
     "미국 선거 이후 AI 데이터센터 투자 축소 우려가 커지며 AI 노출도 높은 기업의 낙폭이 확대됨",
     "호실적에도 주가 반등이 없었고, B2C 세트 관련 밸류체인은 상대적으로 주가 방어력을 보임",
     "교보증권은 물량 성장 둔화보다 AI 수요가 만든 고성능화와 탑재량 증가 등 구조적 변화에 주목해야 한다고 봄",
     "교보증권은 이에 부합하는 전기전자 기업이 많아 현재의 우려는 과도한 구간이라고 판단함"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -1873,8 +1889,6 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/62/20261111_industry_777961000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46955",
    "sector": "construction",
-   "method": "",
-   "why": "",
    "sum": [
     "교보증권은 서울 아파트 착공이 2023~2025년 연평균 3.0만 호로 과거 10년 평균보다 51% 적다고 봄",
     "적정 수요 5.0만 호 대비 연 2.0만 호의 공급 부족이 나타나 중장기 주택가격을 지지할 것으로 봄",
@@ -1884,7 +1898,9 @@
    "val": [
     "교보증권은 현대건설 BUY·목표주가 15만원, GS건설 BUY·목표주가 4.3만원을 제시함",
     "발췌문에는 목표주가 산정 방식과 적용 배수, 상승여력 수치가 없음"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -1895,15 +1911,15 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/62/20261111_industry_14970000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46954",
    "sector": "finance",
-   "method": "",
-   "why": "",
    "sum": [
     "교보증권은 은행 지수가 연초 이후 13% 가까이 올랐지만 코스피 상승률에는 못 미쳤다고 봄",
     "최근 3개월은 반도체 중심의 투자심리 위축 속에서 은행이 경기방어주로 상대 강세를 보였다고 봄",
     "기준금리는 연말과 내년 초 각 0.25%p씩 올라 3.50%에 이른 뒤 당분간 동결될 것으로 봄",
     "고금리 지속으로 대출·채권 수익률은 견조하나 조달비용 부담과 예금 변동성은 과제로 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -1914,8 +1930,6 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/62/20261111_industry_66374000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46953",
    "sector": "etc",
-   "method": "",
-   "why": "",
    "sum": [
     "교보증권는 미국 정치 불확실성이 단기 밸류에이션 부담이지만 우주 산업의 구조적 성장 방향은 유효하다고 봄",
     "데이터센터 전력·인허가 병목이 심해질수록 궤도 데이터센터의 경제성 기대가 높아질 것으로 판단",
@@ -1925,7 +1939,9 @@
    "val": [
     "교보증권는 스피어 목표주가를 피어 밸류에이션 조정에 따라 35,000원으로 하향하고 BUY 의견을 유지함",
     "발췌본에는 목표주가 산정 배수와 기준 EPS·BPS 등 구체 수치가 없음"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -1946,15 +1962,15 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/16/20261111_industry_847188000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46951",
    "sector": "semiconductor",
-   "method": "",
-   "why": "",
    "sum": [
     "테라팹은 칩 제조 성공 여부와 관계없이 Austin과 Grimes County에서 건설이 이미 진행 중",
     "국내외 소부장 업체와 공급 협의가 시작돼 인프라 업체는 2027년부터 매출이 날 수 있음",
     "리포트는 공정장비 업체가 Austin 데모 장비 검증 단계에서 먼저 주가 모멘텀을 받을 수 있다고 봄",
     "머스크 목표는 2027년 첫 시험 칩과 2028년 Grimes County 양산이며 일정은 공격적임"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -1965,15 +1981,15 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/16/20261111_industry_885170000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46950",
    "sector": "etc",
-   "method": "",
-   "why": "",
    "sum": [
     "10월 글로벌 정책은 가상자산 수탁·스테이블코인 규제 정비와 토큰화 자산 활용 확대 중심",
     "국내는 토큰증권 하위법규 개정안을 입법예고하며 2027년 2월 제도 시행을 준비",
     "미국 OCC는 지니어스법 시행 최종규칙을 확정, 2027년 1월 18일부터 시행",
     "한화투자증권은 11월 국내 토큰증권 규제기준 확정과 연준 시행규칙을 핵심 이슈로 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -1983,7 +1999,19 @@
    "url": "https://stock.naver.com/research/industry/46949",
    "pdf": "https://stock.pstatic.net/stock-research/industry/16/20261111_industry_468920000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46949",
-   "sector": "construction"
+   "sector": "construction",
+   "method": "",
+   "why": "",
+   "sum": [
+    "한화투자증권은 건설 업종에 대해 긍정적(Positive) 의견을 제시함",
+    "2026년 건설주 YTD 수익률은 +49.7%로 코스피를 크게 웃돌았고 실적 추정치도 꾸준히 상향됨",
+    "2027년 국내외 건설 수주는 한 자릿수 후반 증가가 전망되며, 국내는 데이터센터·도시정비, 해외는 두 자릿수 증가가 기대됨",
+    "2027~28년은 매출 성장에 따른 영업이익 증가가 예상되며, 업체별 수주 지역·공종 차이로 실적이 갈릴 것으로 봄. 최선호는 삼성E&A, 차선호는 현대건설·GS"
+   ],
+   "val": [
+    "업종 12M Fwd P/B는 현재 0.76배로, 4월 고점 1.61배보다 낮고 10년 평균 0.67배~20년 평균 0.93배 구간에 위치함",
+    "리포트는 최근 주가 조정으로 밸류에이션 부담이 줄었다고 보며, 개별 종목 목표주가 산정 방식은 발췌문에 없음"
+   ]
   },
   {
    "cat": "산업",
@@ -1994,15 +2022,15 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/16/20261111_industry_442500000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46948",
    "sector": "etc",
-   "method": "",
-   "why": "",
    "sum": [
     "한진칼우는 2020년 분쟁 때 보통주 대비 비율이 194.3%까지 올랐다가 주총 앞두고 70.6%로 낮아졌음",
     "투자경고 우선주 59건의 60거래일 평균 수익률은 -24.8%로, 한화투자증권는 한진칼우도 지정 후 고점을 찍고 크게 되돌릴 가능성이 높다고 봄",
     "한진칼우는 11/10 거래가 정지되며, 경고 해제 여부는 11/19~20부터 판단될 예정임",
     "우선주 경영권 프리미엄 근거는 주가가 아니라 우선주까지 포함한 공개매수나 의결권 부활 같은 공시로 확인된다고 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -2066,14 +2094,22 @@
    "sector": "display"
   },
   {
-   "cat": "산업",
-   "title": "노이즈 캔슬링",
-   "broker": "신한투자증권",
+   "cat": "시황",
+   "title": "[DS Defense Daily] 2026-11-11",
+   "broker": "DS투자증권",
    "date": "2026-11-11",
-   "url": "https://stock.naver.com/research/industry/46943",
-   "pdf": "",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/46943",
-   "sector": "semiconductor"
+   "url": "https://stock.naver.com/research/daily/38120",
+   "pdf": "https://stock.pstatic.net/stock-research/market/66/20261111_market_677725000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38120",
+   "method": "",
+   "why": "",
+   "sum": [
+    "영국에서 미국 군인이 러시아 정보기관을 도운 혐의로 체포됐으며, 미국은 이란 위협 대응으로 영국 공군기지에서 항공기를 철수시킴",
+    "헨솔트는 2035년 연매출 100억 유로 목표를 제시하고 TRML-4D 레이더 생산능력을 2년 내 두 배로 늘릴 계획",
+    "한화에어로스페이스 천무 유도탄 3차 실행계약(2,024억원) 등 대형 수주가 이어짐",
+    "미·러·우크라이나가 아부다비에서 3자 회담을 재개해 전쟁 종식 협상이 다시 움직이기 시작함"
+   ],
+   "val": []
   },
   {
    "cat": "시황",
@@ -2257,7 +2293,19 @@
    "date": "2026-11-11",
    "url": "https://stock.naver.com/research/invest/40797",
    "pdf": "https://stock.pstatic.net/stock-research/invest/57/20261111_invest_446599000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40797"
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40797",
+   "method": "",
+   "why": "",
+   "sum": [
+    "하나증권는 코스피 주요 지표가 과거 극단값에 근접해 바닥 가능성이 높아지고 있다고 봄",
+    "극단값 이후 1년 수익률 중앙값 +24%, 승률 95%로 반등 경험이 뚜렷하다고 제시",
+    "PBR 등 리스크가 있지만 향후 3개월 분할 매수로 지수 베팅을 시작하는 것이 시의적절하다고 봄",
+    "극단값 이후 성과가 좋았던 스타일은 실적 개선, 주가 눌림목, 저PER 종목군"
+   ],
+   "val": [
+    "목표주가 없이 코스피 12M Fwd PBR 0.94배(과거 중앙값 0.88배), PER 3.51배(중앙값 7.86배) 기준으로 판단",
+    "현재 배당수익률 3.35%는 과거 중앙값 2.90%보다 높아 극단값 근접 상태로 제시"
+   ]
   },
   {
    "cat": "투자정보",
@@ -2494,27 +2542,6 @@
    ],
    "method": "",
    "why": ""
-  },
-  {
-   "cat": "시황",
-   "title": "Daily 신한생각 (11월 10일)",
-   "broker": "신한투자증권",
-   "date": "2026-11-10",
-   "url": "https://stock.naver.com/research/daily/38105",
-   "pdf": "https://stock.pstatic.net/stock-research/market/21/20261110_market_120582000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38105",
-   "sum": [
-    "신한투자증권은 2027년에도 AI Capex 사이클이 미국 증시를 지배하지만 후반부 징후가 쌓이고 있다고 봄",
-    "기업이익 개선 경로를 꺾을 트리거가 없다는 것을 기본 시나리오로 두고 방향성은 상방으로 봄",
-    "자본조달 확대와 금리·물가 압력으로 금융이 AI 투자의 병목이 될 수 있다고 진단",
-    "2027년에는 B2B보다 B2C 확장이 부각될 수 있으며, 토큰 가격 하락과 창업 증가가 근거임"
-   ],
-   "val": [
-    "S&P500 목표 범위를 7,400~9,200p로 제시하고, 이는 PER 17.5~20.0배에 해당한다고 밝힘",
-    "리포트에 현재 주가 기준 PER이나 상승여력 수치는 없음"
-   ],
-   "method": "PER",
-   "why": "지수 목표치를 이익 대비 배수로 환산한 것으로 보이며, 시장 전체 밸류에이션을 가늠하는 데 일반적으로 쓰는 방식임 (일반적 설명)"
   }
  ],
  "us_comment": {
