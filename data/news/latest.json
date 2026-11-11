@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11 20:42",
+ "updated_at": "2026-11-11 21:41",
  "digest": null,
  "codes": {
   "삼성전자": "005930",
@@ -13,12 +13,84 @@
   "KB금융": "105560",
   "삼성생명": "032830",
   "주성엔지니어링": "036930",
-  "바로팜": "0153R0",
-  "한진칼": "180640",
   "삼성SDI": "006400",
-  "한진칼우": "18064K"
+  "한진칼": "180640",
+  "바로팜": "0153R0",
+  "NAVER": "035420"
  },
  "items": [
+  {
+   "title": "\"본업이 이렇게 좋은데\"…'10만→6만7,000원' 목표가 33% ↓",
+   "press": "한국경제TV",
+   "time": "2026-11-11 21:32",
+   "url": "https://n.news.naver.com/mnews/article/215/0001272463",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-11 21:41"
+  },
+  {
+   "title": "2035년 세계 에너지 소비 35%를 전기로…韓, 튀르키예 공약 지지",
+   "press": "이데일리",
+   "time": "2026-11-11 21:01",
+   "url": "https://n.news.naver.com/mnews/article/018/0006408450",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-11 21:41"
+  },
+  {
+   "title": "2035년 세계 에너지 소비 35%를 전기로…韓, 튀르키예 공약 지지",
+   "press": "이데일리",
+   "time": "2026-11-11 21:01",
+   "url": "https://n.news.naver.com/mnews/article/018/0006408450?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-11 21:41"
+  },
+  {
+   "title": "코스피, 美 긴축 우려에도 강세…코스닥 5% 급등",
+   "press": "연합뉴스TV",
+   "time": "2026-11-11 20:52",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925220",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-11 21:41"
+  },
+  {
+   "title": "코스피, 美 긴축 우려에도 강세…코스닥 5% 급등",
+   "press": "연합뉴스TV",
+   "time": "2026-11-11 20:52",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925220?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-11 21:41"
+  },
+  {
+   "title": "한신평 \"국고채 담합 제재, 증권사 단기 수익성 저하 불가피\"",
+   "press": "뉴시스",
+   "time": "2026-11-11 20:44",
+   "url": "https://n.news.naver.com/mnews/article/003/0014316844",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-11 21:41"
+  },
   {
    "title": "금투협, 공정위 국고채 담합 제재에 반발…\"업계 행정소송 지원\"",
    "press": "뉴시스",
@@ -172,7 +244,8 @@
    "url": "https://n.news.naver.com/mnews/article/016/0002722256",
    "cats": [
     "속보",
-    "주요"
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -221,7 +294,8 @@
    "url": "https://n.news.naver.com/mnews/article/031/0001074293",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -1047,18 +1121,6 @@
    "title": "증시 따라 ETF 운용사 순위 요동…KB·한투 3위 쟁탈전",
    "press": "서울경제",
    "time": "2026-11-11 17:55",
-   "url": "https://n.news.naver.com/mnews/article/011/0004681178?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-11 18:46"
-  },
-  {
-   "title": "증시 따라 ETF 운용사 순위 요동…KB·한투 3위 쟁탈전",
-   "press": "서울경제",
-   "time": "2026-11-11 17:55",
    "url": "https://n.news.naver.com/mnews/article/011/0004681178?sid=101258402",
    "cats": [
     "기업·종목"
@@ -1068,10 +1130,10 @@
    "first_seen": "2026-11-11 18:46"
   },
   {
-   "title": "700선 회복한 코스닥…“전용펀드로 수급 판 넓혀야” [마켓시그널]",
+   "title": "증시 따라 ETF 운용사 순위 요동…KB·한투 3위 쟁탈전",
    "press": "서울경제",
-   "time": "2026-11-11 17:54",
-   "url": "https://n.news.naver.com/mnews/article/011/0004681176?sid=101258401",
+   "time": "2026-11-11 17:55",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681178?sid=101258401",
    "cats": [
     "시황·전망"
    ],
@@ -1098,6 +1160,18 @@
    "url": "https://n.news.naver.com/mnews/article/011/0004681176?sid=101258402",
    "cats": [
     "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-11 18:46"
+  },
+  {
+   "title": "700선 회복한 코스닥…“전용펀드로 수급 판 넓혀야” [마켓시그널]",
+   "press": "서울경제",
+   "time": "2026-11-11 17:54",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681176?sid=101258401",
+   "cats": [
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -4785,80 +4859,6 @@
    "url": "https://n.news.naver.com/mnews/article/009/0005762070",
    "cats": [
     "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-11 11:47"
-  },
-  {
-   "title": "[속보]코스닥, 매수 사이드카 발동…4%대 급등",
-   "press": "아시아경제",
-   "time": "2026-11-11 11:32",
-   "url": "https://n.news.naver.com/mnews/article/277/0005841144",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-11 11:47"
-  },
-  {
-   "title": "코스닥, 부양책 기대에 4% 급등…700선 탈환 시도[장중시황]",
-   "press": "뉴스1",
-   "time": "2026-11-11 11:32",
-   "url": "https://n.news.naver.com/mnews/article/421/0009283035",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-11 11:47"
-  },
-  {
-   "title": "변동성 장세에 자금 몰린 머니마켓액티브·커버드콜 성적표는",
-   "press": "연합뉴스",
-   "time": "2026-11-11 11:31",
-   "url": "https://n.news.naver.com/mnews/article/001/0016435413",
-   "cats": [
-    "속보",
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-11 11:47"
-  },
-  {
-   "title": "“순익 1.4조 쌓았지만 3분기 65% 급감”…엄주성 키움證 대표, 첫 연임 시험대",
-   "press": "디지털데일리",
-   "time": "2026-11-11 11:31",
-   "url": "https://n.news.naver.com/mnews/article/138/0002248087",
-   "cats": [
-    "속보",
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-11 11:47"
-  },
-  {
-   "title": "변동성 장세에 자금 몰린 머니마켓액티브·커버드콜 성적표는",
-   "press": "연합뉴스",
-   "time": "2026-11-11 11:31",
-   "url": "https://n.news.naver.com/mnews/article/001/0016435413?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-11 11:47"
-  },
-  {
-   "title": "[속보] 4%대 급등 코스닥, 매수 사이드카 발동",
-   "press": "연합뉴스TV",
-   "time": "2026-11-11 11:31",
-   "url": "https://n.news.naver.com/mnews/article/422/0000925004?sid=101258401",
-   "cats": [
-    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
