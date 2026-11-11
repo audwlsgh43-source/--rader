@@ -5,6 +5,16 @@
  "corp_code": "00550994",
  "disclosures": [
   {
+   "rcept_no": "20261111000137",
+   "date": "2026-11-11",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111000137",
+   "seen": "12:37"
+  },
+  {
    "rcept_no": "20261109000309",
    "date": "2026-11-09",
    "title": "주요사항보고서(자기주식취득결정)",
