@@ -1,0 +1,28 @@
+{
+ "name": "ES큐브",
+ "code": "050120",
+ "mkt": "코스닥",
+ "corp_code": "00175623",
+ "disclosures": [
+  {
+   "rcept_no": "20261112000501",
+   "date": "2026-11-12",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000501",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112000457",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000457",
+   "seen": "16:06"
+  }
+ ]
+}

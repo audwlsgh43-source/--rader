@@ -1,9 +1,19 @@
 {
- "name": "알엔투테크놀로지",
+ "name": "스퀘어텍",
  "code": "148250",
  "mkt": "코스닥",
  "corp_code": "00915508",
  "disclosures": [
+  {
+   "rcept_no": "20261112000440",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000440",
+   "seen": "16:06"
+  },
   {
    "rcept_no": "20261029900636",
    "date": "2026-10-29",

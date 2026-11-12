@@ -5,6 +5,26 @@
  "corp_code": "01519790",
  "disclosures": [
   {
+   "rcept_no": "20261112800581",
+   "date": "2026-11-12",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800581",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112800574",
+   "date": "2026-11-12",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800574",
+   "seen": "16:06"
+  },
+  {
    "rcept_no": "20261111800178",
    "date": "2026-11-11",
    "title": "기업설명회(IR)개최(안내공시)",

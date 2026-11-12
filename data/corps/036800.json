@@ -1,0 +1,28 @@
+{
+ "name": "나이스정보통신",
+ "code": "036800",
+ "mkt": "코스닥",
+ "corp_code": "00264945",
+ "disclosures": [
+  {
+   "rcept_no": "20261112000465",
+   "date": "2026-11-12",
+   "title": "의결권대리행사권유참고서류",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000465",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112000450",
+   "date": "2026-11-12",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000450",
+   "seen": "16:06"
+  }
+ ]
+}

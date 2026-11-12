@@ -1,0 +1,48 @@
+{
+ "name": "휴온스",
+ "code": "243070",
+ "mkt": "코스닥",
+ "corp_code": "01159853",
+ "disclosures": [
+  {
+   "rcept_no": "20261112900575",
+   "date": "2026-11-12",
+   "title": "현금ㆍ현물배당결정              (분기배당)",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900575",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112900569",
+   "date": "2026-11-12",
+   "title": "중간(분기)배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900569",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112900565",
+   "date": "2026-11-12",
+   "title": "[기재정정]연결재무제표기준영업실적등에대한전망(공정공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900565",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112900558",
+   "date": "2026-11-12",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "type": "earn",
+   "imp": "high",
+   "ai": "2026년 3분기 연결 잠정실적: 매출 1,440억원(전년동기 대비 6.3% 감소), 영업손실 44억원으로 적자전환, 당기순이익 154억원으로 흑자전환.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900558",
+   "seen": "16:06"
+  }
+ ]
+}

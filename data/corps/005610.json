@@ -1,0 +1,48 @@
+{
+ "name": "삼립",
+ "code": "005610",
+ "mkt": "코스피",
+ "corp_code": "00125530",
+ "disclosures": [
+  {
+   "rcept_no": "20261112800759",
+   "date": "2026-11-12",
+   "title": "[기재정정]기업설명회(IR)개최(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800759",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112800624",
+   "date": "2026-11-12",
+   "title": "타인에대한채무보증결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800624",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112800621",
+   "date": "2026-11-12",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800621",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112800600",
+   "date": "2026-11-12",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800600",
+   "seen": "16:06"
+  }
+ ]
+}

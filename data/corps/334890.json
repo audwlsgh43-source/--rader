@@ -5,6 +5,26 @@
  "corp_code": "01394377",
  "disclosures": [
   {
+   "rcept_no": "20261112800726",
+   "date": "2026-11-12",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800726",
+   "seen": "16:06"
+  },
+  {
+   "rcept_no": "20261112800669",
+   "date": "2026-11-12",
+   "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800669",
+   "seen": "16:06"
+  },
+  {
    "rcept_no": "20261110000168",
    "date": "2026-11-10",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",
