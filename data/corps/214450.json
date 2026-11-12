@@ -5,6 +5,16 @@
  "corp_code": "00970453",
  "disclosures": [
   {
+   "rcept_no": "20261112000201",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000201",
+   "seen": "12:01"
+  },
+  {
    "rcept_no": "20261106900196",
    "date": "2026-11-06",
    "title": "연결재무제표기준영업(잠정)실적(공정공시)",
