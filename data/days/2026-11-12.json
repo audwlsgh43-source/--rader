@@ -1,8 +1,386 @@
 {
  "date": "2026-11-12",
- "updated_at": "2026-11-12 08:31",
- "count": 12,
+ "updated_at": "2026-11-12 09:21",
+ "count": 27,
  "items": [
+  {
+   "rcept_no": "20261112900140",
+   "date": "2026-11-12",
+   "corp": "AP위성",
+   "stock_code": "211270",
+   "corp_code": "00874803",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "AP위성",
+   "rm": "코",
+   "seen": "09:21",
+   "ai": "AP위성이 UAE의 STAR SATELLITE COMMUNICATIONS와 차세대 위성통신 스마트폰(ThurayaTwo) 2종의 개발·공급 계약을 체결했으며, 계약금액은 147억원으로 최근 매출액의 30%입니다.",
+   "points": [
+    "차세대 위성통신 스마트폰(ThurayaTwo) 2종 개발 및 공급",
+    "확정 계약이며 외주생산 방식, 계약금·선급금 없음",
+    "상대방: STAR SATELLITE COMMUNICATIONS COMPANY-PJSC (UAE)",
+    "계약기간 2026-11-11 ~ 2033-04-08, 계약일 2026-11-11"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "14,729,123,304원"
+    ],
+    [
+     "최근 매출액 대비",
+     "30%"
+    ],
+    [
+     "최근 매출액",
+     "47,812,373,057원"
+    ],
+    [
+     "계약금액(미화)",
+     "10,964,880달러"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2033-04-08",
+     "kind": "기타",
+     "desc": "계약기간 종료일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900140"
+  },
+  {
+   "rcept_no": "20261112800130",
+   "date": "2026-11-12",
+   "corp": "대한조선",
+   "stock_code": "439260",
+   "corp_code": "00182696",
+   "mkt": "코스피",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "대한조선",
+   "rm": "유",
+   "seen": "09:21",
+   "ai": "대한조선이 오세아니아 지역 선주와 원유운반선(157,000 DWT) 2척을 2498억원 규모로 수주하는 계약을 2026년 11월 11일 체결했다고 공시했습니다.",
+   "points": [
+    "원유운반선(157,000 DWT) 2척 공사 수주 계약",
+    "계약상대는 오세아니아 지역 선주이며 회사와의 관계는 기재되지 않음",
+    "계약금·선급금 있음, 대금은 공사진척에 따라 수금",
+    "계약금액은 계약일 매매기준율 1,343.30원/$ 적용 환산 기준"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "2498억원"
+    ],
+    [
+     "최근매출액(2025년 연결)",
+     "1조2281억원"
+    ],
+    [
+     "매출액대비",
+     "20.34%"
+    ],
+    [
+     "계약 선박 수",
+     "2척"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2030-06-28",
+     "kind": "기타",
+     "desc": "계약기간 종료(인도일 기준, 공정에 따라 변동 가능)"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800130"
+  },
+  {
+   "rcept_no": "20261112800091",
+   "date": "2026-11-12",
+   "corp": "DB하이텍",
+   "stock_code": "000990",
+   "corp_code": "00160843",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "high",
+   "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+   "flr": "DB하이텍",
+   "rm": "유",
+   "seen": "09:21",
+   "ai": "DB하이텍의 2026년 3분기 연결 영업이익은 900.2억원(전년동기 대비 6.58%↑)이며, 당기순이익은 224.8억원(전년동기 대비 75.23%↓)입니다. 잠정치입니다.",
+   "points": [
+    "외부감사인 회계검토 미완료 잠정치로, 향후 확정치와 다를 수 있음",
+    "종속회사 (주)디비월드 합금철 부문 일시 영업정지(2026.05.29)에 따른 손익은 중단영업손익으로 분류",
+    "매출·영업이익·법인세차감전이익은 계속사업 기준, 순이익은 중단영업손익 포함",
+    "정보제공 대상은 국내외 투자자 및 애널리스트, 공정공시 후 수시 제공"
+   ],
+   "numbers": [
+    [
+     "3분기 매출액",
+     "4,033.6억원"
+    ],
+    [
+     "3분기 영업이익",
+     "900.2억원"
+    ],
+    [
+     "3분기 지배기업 소유주지분 순이익",
+     "285.4억원"
+    ],
+    [
+     "누계 영업이익",
+     "2,621.6억원"
+    ]
+   ],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800091"
+  },
+  {
+   "rcept_no": "20261112000033",
+   "date": "2026-11-12",
+   "corp": "넥사다이내믹스",
+   "stock_code": "351320",
+   "corp_code": "01440153",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "시원이노텍",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000033"
+  },
+  {
+   "rcept_no": "20261112000031",
+   "date": "2026-11-12",
+   "corp": "넥사다이내믹스",
+   "stock_code": "351320",
+   "corp_code": "01440153",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "시원이노텍",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000031"
+  },
+  {
+   "rcept_no": "20261112000028",
+   "date": "2026-11-12",
+   "corp": "디케이앤디",
+   "stock_code": "263020",
+   "corp_code": "00892526",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "디케이앤디",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000028"
+  },
+  {
+   "rcept_no": "20261112000020",
+   "date": "2026-11-12",
+   "corp": "디바이스",
+   "stock_code": "187870",
+   "corp_code": "00624509",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "디바이스",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000020"
+  },
+  {
+   "rcept_no": "20261112000017",
+   "date": "2026-11-12",
+   "corp": "삼성전자",
+   "stock_code": "005930",
+   "corp_code": "00126380",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "송기재",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000017"
+  },
+  {
+   "rcept_no": "20261112000016",
+   "date": "2026-11-12",
+   "corp": "다원넥스뷰",
+   "stock_code": "323350",
+   "corp_code": "01344363",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "다원넥스뷰",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000016"
+  },
+  {
+   "rcept_no": "20261112000015",
+   "date": "2026-11-12",
+   "corp": "지역난방공사",
+   "stock_code": "071320",
+   "corp_code": "00159698",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "지역난방공사",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000015"
+  },
+  {
+   "rcept_no": "20261112000013",
+   "date": "2026-11-12",
+   "corp": "롯데렌탈",
+   "stock_code": "089860",
+   "corp_code": "00545716",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "브이아이피자산운용",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000013"
+  },
+  {
+   "rcept_no": "20261112000012",
+   "date": "2026-11-12",
+   "corp": "스트라드비젼",
+   "stock_code": "475040",
+   "corp_code": "01370517",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "스트라드비젼",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000012"
+  },
+  {
+   "rcept_no": "20261112000011",
+   "date": "2026-11-12",
+   "corp": "KB금융",
+   "stock_code": "105560",
+   "corp_code": "00688996",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "투자설명서",
+   "flr": "KB금융",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000011"
+  },
+  {
+   "rcept_no": "20261112000009",
+   "date": "2026-11-12",
+   "corp": "포스코퓨처엠",
+   "stock_code": "003670",
+   "corp_code": "00155276",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "투자설명서",
+   "flr": "포스코퓨처엠",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000009"
+  },
+  {
+   "rcept_no": "20261112000008",
+   "date": "2026-11-12",
+   "corp": "유진증권",
+   "stock_code": "001200",
+   "corp_code": "00131054",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "증권발행실적보고서",
+   "flr": "유진증권",
+   "rm": "",
+   "seen": "09:21",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000008"
+  },
   {
    "rcept_no": "20261112000007",
    "date": "2026-11-12",
