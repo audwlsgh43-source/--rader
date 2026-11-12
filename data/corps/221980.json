@@ -1,0 +1,48 @@
+{
+ "name": "케이디켐",
+ "code": "221980",
+ "mkt": "코스닥",
+ "corp_code": "00370918",
+ "disclosures": [
+  {
+   "rcept_no": "20261112901142",
+   "date": "2026-11-12",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112901142",
+   "seen": "18:25"
+  },
+  {
+   "rcept_no": "20261112901113",
+   "date": "2026-11-12",
+   "title": "주권매매거래정지              (우회상장여부 및 요건충족확인)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112901113",
+   "seen": "18:25"
+  },
+  {
+   "rcept_no": "20261112901111",
+   "date": "2026-11-12",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112901111",
+   "seen": "18:25"
+  },
+  {
+   "rcept_no": "20261112000698",
+   "date": "2026-11-12",
+   "title": "주요사항보고서(회사합병결정)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000698",
+   "seen": "18:25"
+  }
+ ]
+}

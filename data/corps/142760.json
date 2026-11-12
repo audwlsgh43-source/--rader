@@ -5,6 +5,26 @@
  "corp_code": "00587925",
  "disclosures": [
   {
+   "rcept_no": "20261112901143",
+   "date": "2026-11-12",
+   "title": "주권매매거래정지기간변경",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112901143",
+   "seen": "18:25"
+  },
+  {
+   "rcept_no": "20261112901133",
+   "date": "2026-11-12",
+   "title": "기타시장안내              (상장적격성 실질심사 관련 안내)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112901133",
+   "seen": "18:25"
+  },
+  {
    "rcept_no": "20261112900882",
    "date": "2026-11-12",
    "title": "주권매매거래정지              (상장적격성 실질심사 대상 (사유발생))",

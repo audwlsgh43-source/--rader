@@ -1,0 +1,28 @@
+{
+ "name": "케이프",
+ "code": "064820",
+ "mkt": "코스닥",
+ "corp_code": "00152437",
+ "disclosures": [
+  {
+   "rcept_no": "20261112000730",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000730",
+   "seen": "18:25"
+  },
+  {
+   "rcept_no": "20261112000715",
+   "date": "2026-11-12",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000715",
+   "seen": "18:25"
+  }
+ ]
+}

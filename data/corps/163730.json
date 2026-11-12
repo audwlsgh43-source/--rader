@@ -5,6 +5,16 @@
  "corp_code": "01142075",
  "disclosures": [
   {
+   "rcept_no": "20261112901116",
+   "date": "2026-11-12",
+   "title": "금전대여결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112901116",
+   "seen": "18:25"
+  },
+  {
    "rcept_no": "20261112901108",
    "date": "2026-11-12",
    "title": "증권발행결과(자율공시)",
