@@ -5,6 +5,16 @@
  "corp_code": "00370918",
  "disclosures": [
   {
+   "rcept_no": "20261112901212",
+   "date": "2026-11-12",
+   "title": "주권매매거래정지해제              (우회상장 미해당)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112901212",
+   "seen": "20:28"
+  },
+  {
    "rcept_no": "20261112901142",
    "date": "2026-11-12",
    "title": "주주명부폐쇄기간또는기준일설정",
