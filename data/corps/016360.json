@@ -5,6 +5,16 @@
  "corp_code": "00104856",
  "disclosures": [
   {
+   "rcept_no": "20261112000326",
+   "date": "2026-11-12",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000326",
+   "seen": "14:56"
+  },
+  {
    "rcept_no": "20261111000291",
    "date": "2026-11-11",
    "title": "[기재정정]특수관계인에대한출자",

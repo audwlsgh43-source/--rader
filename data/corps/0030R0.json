@@ -5,6 +5,16 @@
  "corp_code": "01885222",
  "disclosures": [
   {
+   "rcept_no": "20261112000295",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000295",
+   "seen": "14:56"
+  },
+  {
    "rcept_no": "20261110800766",
    "date": "2026-11-10",
    "title": "감사보고서제출",

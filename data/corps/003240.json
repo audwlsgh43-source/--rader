@@ -5,6 +5,26 @@
  "corp_code": "00153393",
  "disclosures": [
   {
+   "rcept_no": "20261112000364",
+   "date": "2026-11-12",
+   "title": "[기재정정]특수관계인과의수익증권거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000364",
+   "seen": "14:56"
+  },
+  {
+   "rcept_no": "20261112000330",
+   "date": "2026-11-12",
+   "title": "동일인등출자계열회사와의상품ㆍ용역거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000330",
+   "seen": "14:56"
+  },
+  {
    "rcept_no": "20261030000071",
    "date": "2026-10-30",
    "title": "[기재정정]특수관계인과의수익증권거래",

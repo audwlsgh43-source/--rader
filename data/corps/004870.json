@@ -5,6 +5,36 @@
  "corp_code": "00109514",
  "disclosures": [
   {
+   "rcept_no": "20261112800564",
+   "date": "2026-11-12",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800564",
+   "seen": "14:56"
+  },
+  {
+   "rcept_no": "20261112000366",
+   "date": "2026-11-12",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000366",
+   "seen": "14:56"
+  },
+  {
+   "rcept_no": "20261112000358",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000358",
+   "seen": "14:56"
+  },
+  {
    "rcept_no": "20261105800782",
    "date": "2026-11-05",
    "title": "최대주주등소유주식변동신고서",
