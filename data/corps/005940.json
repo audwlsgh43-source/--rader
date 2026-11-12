@@ -5,6 +5,36 @@
  "corp_code": "00120182",
  "disclosures": [
   {
+   "rcept_no": "20261112000078",
+   "date": "2026-11-12",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000078",
+   "seen": "09:59"
+  },
+  {
+   "rcept_no": "20261112000072",
+   "date": "2026-11-12",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000072",
+   "seen": "09:59"
+  },
+  {
+   "rcept_no": "20261112000068",
+   "date": "2026-11-12",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000068",
+   "seen": "09:59"
+  },
+  {
    "rcept_no": "20261111800234",
    "date": "2026-11-11",
    "title": "벌금등의부과",
