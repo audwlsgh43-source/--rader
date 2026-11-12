@@ -5,6 +5,46 @@
  "corp_code": "01046708",
  "disclosures": [
   {
+   "rcept_no": "20261112000598",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000598",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000588",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000588",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000577",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000577",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000553",
+   "date": "2026-11-12",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000553",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261106900371",
    "date": "2026-11-06",
    "title": "연결재무제표기준영업(잠정)실적(공정공시)",

@@ -5,6 +5,16 @@
  "corp_code": "00688996",
  "disclosures": [
   {
+   "rcept_no": "20261112000614",
+   "date": "2026-11-12",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000614",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261112000011",
    "date": "2026-11-12",
    "title": "투자설명서",

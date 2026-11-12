@@ -5,6 +5,56 @@
  "corp_code": "01230255",
  "disclosures": [
   {
+   "rcept_no": "20261112900720",
+   "date": "2026-11-12",
+   "title": "[기재정정]주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900720",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112900719",
+   "date": "2026-11-12",
+   "title": "증권발행결과(자율공시)              (일반공모 유상증자)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "한울앤제주가 일반공모 방식으로 기명식 보통주 2,310,200주를 발행해 1,880,502,800원을 조달하는 유상증자의 납입을 2026년 11월 12일에 완료했다고 공시했습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900719",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000555",
+   "date": "2026-11-12",
+   "title": "의결권대리행사권유참고서류",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000555",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000550",
+   "date": "2026-11-12",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000550",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000546",
+   "date": "2026-11-12",
+   "title": "소액공모실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000546",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261105900797",
    "date": "2026-11-05",
    "title": "유상증자최종발행가액확정",

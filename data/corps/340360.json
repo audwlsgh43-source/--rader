@@ -5,6 +5,26 @@
  "corp_code": "01416642",
  "disclosures": [
   {
+   "rcept_no": "20261112901017",
+   "date": "2026-11-12",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112901017",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112900977",
+   "date": "2026-11-12",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900977",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261112000453",
    "date": "2026-11-12",
    "title": "[기재정정]주주총회소집공고",

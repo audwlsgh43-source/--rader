@@ -5,6 +5,16 @@
  "corp_code": "00187770",
  "disclosures": [
   {
+   "rcept_no": "20261112000638",
+   "date": "2026-11-12",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000638",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261112000212",
    "date": "2026-11-12",
    "title": "분기보고서 (2026.09)",

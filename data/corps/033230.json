@@ -5,6 +5,26 @@
  "corp_code": "00229021",
  "disclosures": [
   {
+   "rcept_no": "20261112000679",
+   "date": "2026-11-12",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000679",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000670",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000670",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261112000368",
    "date": "2026-11-12",
    "title": "의결권대리행사권유참고서류",

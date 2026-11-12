@@ -15,6 +15,26 @@
    "seen": "16:06"
   },
   {
+   "rcept_no": "20261112000562",
+   "date": "2026-11-12",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000562",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000498",
+   "date": "2026-11-12",
+   "title": "주요사항보고서(자기주식취득결정)",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000498",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261112000446",
    "date": "2026-11-12",
    "title": "분기보고서 (2026.09)",

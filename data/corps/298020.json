@@ -5,6 +5,36 @@
  "corp_code": "01316227",
  "disclosures": [
   {
+   "rcept_no": "20261112800953",
+   "date": "2026-11-12",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112800953",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000600",
+   "date": "2026-11-12",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000600",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000573",
+   "date": "2026-11-12",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000573",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261110000087",
    "date": "2026-11-10",
    "title": "주식등의대량보유상황보고서(약식)",

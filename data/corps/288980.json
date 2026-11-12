@@ -5,6 +5,26 @@
  "corp_code": "01423837",
  "disclosures": [
   {
+   "rcept_no": "20261112000706",
+   "date": "2026-11-12",
+   "title": "[기재정정]소액공모공시서류(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000706",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112000574",
+   "date": "2026-11-12",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000574",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261110900806",
    "date": "2026-11-10",
    "title": "주권매매거래정지해제              (액면병합 주권 변경상장)",

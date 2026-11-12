@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12 16:07",
+ "updated_at": "2026-11-12 17:24",
  "digest": null,
  "codes": {
   "삼성전자": "005930",
@@ -19,6 +19,885 @@
   "삼성SDI": "006400"
  },
  "items": [
+  {
+   "title": "[퇴근길머니] 엔비디아 '젠슨 황 해임' 논의…앤트로픽엔 투자금 ‘밀물’",
+   "press": "연합뉴스TV",
+   "time": "2026-11-12 17:24",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925565",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "[퇴근길머니] 엔비디아 '젠슨 황 해임' 논의…앤트로픽엔 투자금 ‘밀물’",
+   "press": "연합뉴스TV",
+   "time": "2026-11-12 17:24",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925565?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "\"손실 나도 버틴다\"…개미 3명 중 2명은 손절 대신 보유·물타기",
+   "press": "뉴시스",
+   "time": "2026-11-12 17:23",
+   "url": "https://n.news.naver.com/mnews/article/003/0014319393",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "베인캐피탈, 9000억 공차 인수 완료…韓日 협업 닻 올렸다 [시그널]",
+   "press": "서울경제",
+   "time": "2026-11-12 17:22",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681573",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "스틱, KEMI 지속가능경영보고서 부문 우수상 [시그널]",
+   "press": "서울경제",
+   "time": "2026-11-12 17:20",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681572",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "한숨 돌린 코어위브, 국내 증시 영향은",
+   "press": "동행미디어 시대",
+   "time": "2026-11-12 17:19",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164181",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "아시아나항공, 3분기 영업손실 1790억…당기순이익은 흑자 전환",
+   "press": "서울경제",
+   "time": "2026-11-12 17:19",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681570",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "사모펀드 7개를 하나로…라이프자산운용, 첫 공모펀드 출시",
+   "press": "비즈워치",
+   "time": "2026-11-12 17:19",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052580",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "한화생명, 3분기 누적 순익 8,656억원…전년 대비 12.6%↑",
+   "press": "연합뉴스TV",
+   "time": "2026-11-12 17:19",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925562",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "아시아나항공, 3분기 영업손실 1790억…당기순이익은 흑자 전환",
+   "press": "서울경제",
+   "time": "2026-11-12 17:19",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681570?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "한화생명, 3분기 누적 순익 8,656억원…전년 대비 12.6%↑",
+   "press": "연합뉴스TV",
+   "time": "2026-11-12 17:19",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925562?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "\"AI로 2초 만에 암호 뚫었다\"…금융권 \"방어도 AI에 맡겨야\"",
+   "press": "한국일보",
+   "time": "2026-11-12 17:17",
+   "url": "https://n.news.naver.com/mnews/article/469/0000965272",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "삼성생명 3분기 누적 순이익 2.7조… \"10년 내 해외사업 비중 20% 목표\"",
+   "press": "한국일보",
+   "time": "2026-11-12 17:17",
+   "url": "https://n.news.naver.com/mnews/article/469/0000965271",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [
+    "삼성생명"
+   ],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "VIP운용 롯데렌탈 공개매수 환영…\"일반주주도 같은 가격 받아야\"",
+   "press": "동행미디어 시대",
+   "time": "2026-11-12 17:16",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164179",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "한화투자증권, 3분기 영업익 210억…WM 이익 급감",
+   "press": "비즈워치",
+   "time": "2026-11-12 17:16",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052579",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "빅6 증권사 3분기 실적 희비…미래에셋·KB 적자 전환",
+   "press": "동행미디어 시대",
+   "time": "2026-11-12 17:16",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164177",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "[마켓인]法, 고려아연 정기주총 결의 취소…MBK·영풍, 1심 승소",
+   "press": "이데일리",
+   "time": "2026-11-12 17:14",
+   "url": "https://n.news.naver.com/mnews/article/018/0006409036",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "[마켓인]法, 고려아연 정기주총 결의 취소…MBK·영풍, 1심 승소",
+   "press": "이데일리",
+   "time": "2026-11-12 17:14",
+   "url": "https://n.news.naver.com/mnews/article/018/0006409036?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "HMM, 3분기 영업익 1조3947억원…전년 대비 370%↑",
+   "press": "동행미디어 시대",
+   "time": "2026-11-12 17:11",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164175",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "HMM, 3분기 영업익 1조3947억원…전년 대비 370%↑",
+   "press": "동행미디어 시대",
+   "time": "2026-11-12 17:11",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164175?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "한전 3분기 영업익 71% 급감…전기요금 인상 압박 커지나(종합)",
+   "press": "연합뉴스",
+   "time": "2026-11-12 17:10",
+   "url": "https://n.news.naver.com/mnews/article/001/0016439241",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "1조6000억 과징금 폭탄 맞았는데… ‘시장 조성’ 시킨 재경부·금융위는 뒷짐만",
+   "press": "조선비즈",
+   "time": "2026-11-12 17:09",
+   "url": "https://n.news.naver.com/mnews/article/366/0001204413",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "해외 직영 체제 전환에…클래시스, 3분기 영업익 28%↓",
+   "press": "서울경제",
+   "time": "2026-11-12 17:08",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681562",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "동아제약, ESG 평가 통합 'A+'…상장사 최상위 수준",
+   "press": "동행미디어 시대",
+   "time": "2026-11-12 17:08",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164173",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "해외 직영 체제 전환에…클래시스, 3분기 영업익 28%↓",
+   "press": "서울경제",
+   "time": "2026-11-12 17:08",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681562?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "동아제약, ESG 평가 통합 'A+'…상장사 최상위 수준",
+   "press": "동행미디어 시대",
+   "time": "2026-11-12 17:08",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164173?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "펄어비스, 3분기 매출 1015억원…검은사막의 힘",
+   "press": "비즈워치",
+   "time": "2026-11-12 17:07",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052578",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "최진원 젠스타메이트 대표, ‘부동산산업의 날’ 국토교통부 장관표창 수상 [시그널]",
+   "press": "서울경제",
+   "time": "2026-11-12 17:06",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681560?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "비트맥스, 특례상장 기술 어디로…5년만에 주가 '18만원→1800원'[상장事記]",
+   "press": "머니투데이",
+   "time": "2026-11-12 17:04",
+   "url": "https://n.news.naver.com/mnews/article/008/0005440489",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "과징금에 흑자가 적자로…증권사 주주환원에도 불똥 튀나",
+   "press": "이데일리",
+   "time": "2026-11-12 17:04",
+   "url": "https://n.news.naver.com/mnews/article/018/0006409032",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "과징금에 흑자가 적자로…증권사 주주환원에도 불똥 튀나",
+   "press": "이데일리",
+   "time": "2026-11-12 17:04",
+   "url": "https://n.news.naver.com/mnews/article/018/0006409032?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "비트코인 반등 길 열리나…레버리지 17%↓[코인뉴스]",
+   "press": "데일리안",
+   "time": "2026-11-12 17:03",
+   "url": "https://n.news.naver.com/mnews/article/119/0003154559",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "“코스피 5000~1만 전망, 누가 못하나”…증권사 뒷북 전망에 추천 서비스 수수료 ‘꼼수’까지",
+   "press": "이코노미스트",
+   "time": "2026-11-12 17:00",
+   "url": "https://n.news.naver.com/mnews/article/243/0000105600",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "‘하이테크 강점’ 코오롱글로벌, 3분기 영업익 23%↑",
+   "press": "서울경제",
+   "time": "2026-11-12 17:00",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681556?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "삼성증권, 3분기 순익 3528억원…전년비 14.1% 증가",
+   "press": "한국경제",
+   "time": "2026-11-12 17:00",
+   "url": "https://n.news.naver.com/mnews/article/015/0005353243?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "젠슨 황 '불장난'에 인버스 환호…개미, SK하닉 '곱버스' 나흘째 매수",
+   "press": "뉴스1",
+   "time": "2026-11-12 16:57",
+   "url": "https://n.news.naver.com/mnews/article/421/0009286567",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "젠슨 황 '불장난'에 인버스 환호…개미, SK하닉 '곱버스' 나흘째 매수",
+   "press": "뉴스1",
+   "time": "2026-11-12 16:57",
+   "url": "https://n.news.naver.com/mnews/article/421/0009286567?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "DB손보 3분기 영업이익 6,183억원…전년 대비 40.1%↑",
+   "press": "연합뉴스TV",
+   "time": "2026-11-12 16:57",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925553?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "\"젠슨 황 해임\" 보도에 흔들린 코스피… 네비우스 실적에 안정찾을까",
+   "press": "머니투데이",
+   "time": "2026-11-12 16:56",
+   "url": "https://n.news.naver.com/mnews/article/008/0005440476",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "\"젠슨 황 해임\" 보도에 흔들린 코스피… 네비우스 실적에 안정찾을까",
+   "press": "머니투데이",
+   "time": "2026-11-12 16:56",
+   "url": "https://n.news.naver.com/mnews/article/008/0005440476?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "\"스키즈 효과\"…JYP, 3분기 깜짝 실적에 16% 급등",
+   "press": "한국경제TV",
+   "time": "2026-11-12 16:54",
+   "url": "https://n.news.naver.com/mnews/article/215/0001272565?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "최윤범 ‘상호주 카드’ 법원서 막혔다… MBK “주주 앞에 사과하라”",
+   "press": "조선비즈",
+   "time": "2026-11-12 16:52",
+   "url": "https://n.news.naver.com/mnews/article/366/0001204407",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "3분기 숨고른 대형 증권사…누적 순익은 '역대급' 행진",
+   "press": "머니투데이",
+   "time": "2026-11-12 16:51",
+   "url": "https://n.news.naver.com/mnews/article/008/0005440475",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "이것도 1위, 저것도 1위…'400조' ETF 광고에 개미는 난감",
+   "press": "한국경제TV",
+   "time": "2026-11-12 16:51",
+   "url": "https://n.news.naver.com/mnews/article/215/0001272563",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "“떨어졌는데 어떻게 팔아” 손실 앞에 약한 개미…팔기보다 버티거나 더 샀다",
+   "press": "서울경제",
+   "time": "2026-11-12 16:48",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681550?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "거래 식고 평가손 겹쳤다…대형 증권사, 3Q 영업익 7.6조→1.8조",
+   "press": "디지털타임스",
+   "time": "2026-11-12 16:44",
+   "url": "https://n.news.naver.com/mnews/article/029/0003058845",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "펄어비스, 3Q 매출 1015억·영업익 207억…붉은사막 내년 닌텐도 스위치2 출격",
+   "press": "매일경제",
+   "time": "2026-11-12 16:44",
+   "url": "https://n.news.naver.com/mnews/article/009/0005762885?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "“韓 대외신인도 큰 타격 우려” 국고채 담합 과징금에 금투업계 대거 반발 예고 [투자360]",
+   "press": "헤럴드경제",
+   "time": "2026-11-12 16:41",
+   "url": "https://n.news.naver.com/mnews/article/016/0002722770",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "\"뜨거워서 호호~ 맛이 좋아 호호~\"",
+   "press": "동행미디어 시대",
+   "time": "2026-11-12 16:41",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164164?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "트랙레코드 쌓는 고도파트너스…해태htb·엘리시아 ‘투트랙’ 인수전[마켓인]",
+   "press": "이데일리",
+   "time": "2026-11-12 16:40",
+   "url": "https://n.news.naver.com/mnews/article/018/0006409013",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "[마켓인] 트랙레코드 쌓는 고도파트너스…해태htb·엘리시아 ‘투트랙’ 인수전",
+   "press": "이데일리",
+   "time": "2026-11-12 16:40",
+   "url": "https://n.news.naver.com/mnews/article/018/0006409013?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "홈런부터 버디까지…스포츠에 꽂힌 제약사들",
+   "press": "동행미디어 시대",
+   "time": "2026-11-12 16:39",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164163?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "“AI 투자, 닷컴버블 국면과 달라…향후 2년이 빅테크 승자 가른다\"",
+   "press": "이데일리",
+   "time": "2026-11-12 16:37",
+   "url": "https://n.news.naver.com/mnews/article/018/0006409007",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "“AI 투자, 닷컴버블 국면과 달라…향후 2년이 빅테크 승자 가른다\"",
+   "press": "이데일리",
+   "time": "2026-11-12 16:37",
+   "url": "https://n.news.naver.com/mnews/article/018/0006409007?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "“외국인 선물 샀는데 왜 빠졌지?”…옵션 만기일 코스피 막판 ‘출렁’",
+   "press": "매일경제",
+   "time": "2026-11-12 16:35",
+   "url": "https://n.news.naver.com/mnews/article/009/0005762878",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "SFA, 3분기 별도 영업이익률 13.8%…반도체 수주 확대에 성장 기대",
+   "press": "아시아경제",
+   "time": "2026-11-12 16:34",
+   "url": "https://n.news.naver.com/mnews/article/277/0005841947?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "美 긴축 우려에도 환율 2.9원↓…1330.7원 마감(종합)",
+   "press": "뉴스1",
+   "time": "2026-11-12 16:30",
+   "url": "https://n.news.naver.com/mnews/article/421/0009286497",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "코인거래소, 해킹 의심 단계서도 입출금 차단 가능해진다",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-12 16:30",
+   "url": "https://n.news.naver.com/mnews/article/014/0005603533?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "증시부진·금리상승에 '직격탄'…증권사 3분기 실적 줄줄이 악화(종합)",
+   "press": "연합뉴스",
+   "time": "2026-11-12 16:29",
+   "url": "https://n.news.naver.com/mnews/article/001/0016439120",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "‘젠슨 황 해임설’에 투자심리 위축…코스피 0.61% 하락, 코스닥 700선 붕괴",
+   "press": "디지털데일리",
+   "time": "2026-11-12 16:29",
+   "url": "https://n.news.naver.com/mnews/article/138/0002248329",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "증시부진·금리상승에 '직격탄'…증권사 3분기 실적 줄줄이 악화(종합)",
+   "press": "연합뉴스",
+   "time": "2026-11-12 16:29",
+   "url": "https://n.news.naver.com/mnews/article/001/0016439120?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "3분기 10대 증권사 순이익 83% 급감 1조 하회...과징금·평가손 여파",
+   "press": "이데일리",
+   "time": "2026-11-12 16:28",
+   "url": "https://n.news.naver.com/mnews/article/018/0006408998",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "정부가 맡긴 업무 했는데 과징금 부메랑…업계 ‘부글부글’",
+   "press": "매일경제",
+   "time": "2026-11-12 16:26",
+   "url": "https://n.news.naver.com/mnews/article/009/0005762872",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "한화證, 3분기 영업익 210억…전년比 44% 감소",
+   "press": "서울경제",
+   "time": "2026-11-12 16:26",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681539?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "삼성증권, 3분기 순익 3528억…증시 부진에도 전년比 14.1%↑",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-12 16:22",
+   "url": "https://n.news.naver.com/mnews/article/014/0005603528?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "엔화 소폭 강세에 달러 숨 고르기…원·달러 환율 1330원대 마감 [김혜란의 FX]",
+   "press": "서울경제",
+   "time": "2026-11-12 16:20",
+   "url": "https://n.news.naver.com/mnews/article/011/0004681533?sid=101258429",
+   "cats": [
+    "환율"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "제이알 쇼크 이후 더 빠졌다…상장리츠 '신저가' 행진",
+   "press": "머니투데이",
+   "time": "2026-11-12 16:19",
+   "url": "https://n.news.naver.com/mnews/article/008/0005440432?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "코어위브 호실적에 웃던 엘리스…젠슨 황 불확실성에 하락 반전",
+   "press": "머니투데이",
+   "time": "2026-11-12 16:17",
+   "url": "https://n.news.naver.com/mnews/article/008/0005440431?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "'어닝 서프라이즈' JYP 16% 급등...엔터株 동반 강세",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-12 16:15",
+   "url": "https://n.news.naver.com/mnews/article/014/0005603518?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "원·달러 환율, 2.9원 내린 1330.7원 (오후 3시30분)",
+   "press": "아시아경제",
+   "time": "2026-11-12 16:15",
+   "url": "https://n.news.naver.com/mnews/article/277/0005841932?sid=101258429",
+   "cats": [
+    "환율"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "환율, 수출업체 달러매도 등에 보름 만에 1,320원대로 하락",
+   "press": "연합뉴스",
+   "time": "2026-11-12 16:13",
+   "url": "https://n.news.naver.com/mnews/article/001/0016439083?sid=101258429",
+   "cats": [
+    "환율"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "고점 대비 41% 추락한 코스피… 대만에 증시 상승률 1위 내줘",
+   "press": "한국일보",
+   "time": "2026-11-12 16:12",
+   "url": "https://n.news.naver.com/mnews/article/469/0000965249",
+   "cats": [
+    "많이 본"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
+   "title": "한화투자증권, 3분기 영업이익 209억원…전년比 44.3%↓",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-12 16:12",
+   "url": "https://n.news.naver.com/mnews/article/014/0005603516?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
   {
    "title": "휴온스, 3분기 적자전환…올해 매출 전망 5846억으로 낮춰",
    "press": "서울경제",
@@ -512,6 +1391,18 @@
    "first_seen": "2026-11-12 16:07"
   },
   {
+   "title": "‘오락가락’ 코스피, 결국 0.6% 하락 마감…코스닥도 1.2%내려",
+   "press": "매일경제",
+   "time": "2026-11-12 15:50",
+   "url": "https://n.news.naver.com/mnews/article/009/0005762811",
+   "cats": [
+    "많이 본"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
+  },
+  {
    "title": "코스피·코스닥 동반 하락 마감",
    "press": "연합뉴스",
    "time": "2026-11-12 15:50",
@@ -570,6 +1461,18 @@
    "stocks": [],
    "ai": "",
    "first_seen": "2026-11-12 16:07"
+  },
+  {
+   "title": "\"존재 이유가 뭔가요?\"…코스닥 대책설 일축에 '금융당국 무용론'",
+   "press": "더팩트",
+   "time": "2026-11-12 15:43",
+   "url": "https://n.news.naver.com/mnews/article/629/0000551371",
+   "cats": [
+    "많이 본"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 17:24"
   },
   {
    "title": "기업 공시 [11월 12일]",
@@ -2237,7 +3140,7 @@
    "first_seen": "2026-11-12 12:05"
   },
   {
-   "title": "'존버'하면 오히려 손해?…개미 1000명 조사했더니",
+   "title": "\"물린 주식 끝까지 안 판다\"…개미 3명 중 2명은 '보유하거나 물타기'",
    "press": "한국경제TV",
    "time": "2026-11-12 11:55",
    "url": "https://n.news.naver.com/mnews/article/215/0001272525",
@@ -3737,6 +4640,19 @@
    "first_seen": "2026-11-12 11:16"
   },
   {
+   "title": "“찬물 끼얹은 젠슨 황”…코스피 0.61% 하락, 5300선 위태",
+   "press": "디지털데일리",
+   "time": "2026-11-12 09:52",
+   "url": "https://n.news.naver.com/mnews/article/138/0002248227",
+   "cats": [
+    "주요",
+    "많이 본"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-12 10:03"
+  },
+  {
    "title": "2730억 흑자에서 591억 적자로…국고채 과징금 여의도 '강타'",
    "press": "아시아경제",
    "time": "2026-11-12 09:52",
@@ -3747,18 +4663,6 @@
    "stocks": [],
    "ai": "",
    "first_seen": "2026-11-12 11:16"
-  },
-  {
-   "title": "“찬물 끼얹은 젠슨 황”…코스피 0.61% 하락, 5300선 위태",
-   "press": "디지털데일리",
-   "time": "2026-11-12 09:52",
-   "url": "https://n.news.naver.com/mnews/article/138/0002248227",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
   },
   {
    "title": "공정위 과징금·외인 선물 매도 겹친 채권시장…약세로 돌아설까",
@@ -3955,920 +4859,6 @@
    "stocks": [],
    "ai": "",
    "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "“AI주 더 갈까, 꺾일까”…‘몸값 1.4조 달러’ 앤트로픽 상장에 투심 달렸다",
-   "press": "매일경제",
-   "time": "2026-11-12 09:39",
-   "url": "https://n.news.naver.com/mnews/article/009/0005762546",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "이틀연속 오른 코스피, '젠슨황 해임 준비' 악재속 보합권 등락(종합)",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:39",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437503?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "“AI주 더 갈까, 꺾일까”…‘몸값 1.4조 달러’ 앤트로픽 상장에 투심 달렸다",
-   "press": "매일경제",
-   "time": "2026-11-12 09:39",
-   "url": "https://n.news.naver.com/mnews/article/009/0005762546?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "“AI주 더 갈까, 꺾일까”…‘몸값 1.4조 달러’ 앤트로픽 상장에 투심 달렸다",
-   "press": "매일경제",
-   "time": "2026-11-12 09:39",
-   "url": "https://n.news.naver.com/mnews/article/009/0005762546?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "코스피, 장 초반 5400선 회복…'젠슨 황 해임설'에 변동성 장세",
-   "press": "뉴시스",
-   "time": "2026-11-12 09:36",
-   "url": "https://n.news.naver.com/mnews/article/003/0014317389",
-   "cats": [
-    "주요",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "정부는 ‘3000스닥’ 외쳤지만…뼈아픈 추락에 개미 ‘초토화’",
-   "press": "데일리안",
-   "time": "2026-11-12 09:36",
-   "url": "https://n.news.naver.com/mnews/article/119/0003154263",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "KB증권 '내 컵 챌린지' 성료…환경보호에 1000만원 기부",
-   "press": "한국경제",
-   "time": "2026-11-12 09:34",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353058?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "코스피, 보합권에서 숨 고르기… 개인 나홀로 '순매수'",
-   "press": "머니투데이",
-   "time": "2026-11-12 09:32",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440066",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "증권사 목표가 줄줄이 낮췄다…NC, 장 초반 11% 급락",
-   "press": "한국경제",
-   "time": "2026-11-12 09:31",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353057?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "JYP, 스트레이키즈 대박 행보에 19%대 급등",
-   "press": "매일경제",
-   "time": "2026-11-12 09:31",
-   "url": "https://n.news.naver.com/mnews/article/009/0005762537?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "7만3000달러 갇힌 비트코인…출구는 어디[코인뉴스]",
-   "press": "데일리안",
-   "time": "2026-11-12 09:28",
-   "url": "https://n.news.naver.com/mnews/article/119/0003154247",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "\"앤스로픽 IPO 청약, 공모물량 수배 넘어…역대 최대규모 기대\"",
-   "press": "아시아경제",
-   "time": "2026-11-12 09:27",
-   "url": "https://n.news.naver.com/mnews/article/277/0005841595?sid=101258403",
-   "cats": [
-    "해외증시"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "TPG보다 못한 의무공개매수법?…롯데렌탈 2대주주의 돌직구 [fn마켓워치]",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-12 09:27",
-   "url": "https://n.news.naver.com/mnews/article/014/0005603146",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "\"삼성전자, 재평가 필요하지만...\" 목표가는 낮춘 이유",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-12 09:25",
-   "url": "https://n.news.naver.com/mnews/article/014/0005603141",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [
-    "삼성전자"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "\"삼성전자, 재평가 필요하지만...\" 목표가는 낮춘 이유",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-12 09:25",
-   "url": "https://n.news.naver.com/mnews/article/014/0005603141?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [
-    "삼성전자"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "DB하이텍 , 3분기 실적 실망에 장 초반 16%대 급락",
-   "press": "한국경제",
-   "time": "2026-11-12 09:24",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353056?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "\"현직 애널리스트한테 직접 배운다\"…하나증권, 청년 실무교육",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-12 09:24",
-   "url": "https://n.news.naver.com/mnews/article/014/0005603139?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "DB하이텍 , 3분기 실적 실망에 장 초반 16%대 급락",
-   "press": "한국경제",
-   "time": "2026-11-12 09:24",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353056",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "\"현직 애널리스트한테 직접 배운다\"…하나증권, 청년 실무교육",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-12 09:24",
-   "url": "https://n.news.naver.com/mnews/article/014/0005603139",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "현대차, 전·현직 카마스터와 함께 소아암 환아에 후원금 6200만원 전달",
-   "press": "서울경제",
-   "time": "2026-11-12 09:24",
-   "url": "https://n.news.naver.com/mnews/article/011/0004681314",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [
-    "현대차"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "[특징주] AI 호재·엔비디아 악재 교차&#8943;'삼전닉스' 보합권 등락",
-   "press": "아이뉴스24",
-   "time": "2026-11-12 09:24",
-   "url": "https://n.news.naver.com/mnews/article/031/0001074349",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "현대차, 전·현직 카마스터와 함께 소아암 환아에 후원금 6200만원 전달",
-   "press": "서울경제",
-   "time": "2026-11-12 09:24",
-   "url": "https://n.news.naver.com/mnews/article/011/0004681314?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [
-    "현대차"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "코스피, 옵션 만기일 경계감에 개장 직후 하락전환",
-   "press": "한국경제",
-   "time": "2026-11-12 09:23",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353055",
-   "cats": [
-    "속보",
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "코스피, 옵션 만기일 경계감에 개장 직후 하락전환",
-   "press": "한국경제",
-   "time": "2026-11-12 09:23",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353055?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "美 반도체 지수는 5% 급등했는데…‘젠슨황 해임 준비’ 소식에 코스피 약보합",
-   "press": "조선비즈",
-   "time": "2026-11-12 09:22",
-   "url": "https://n.news.naver.com/mnews/article/366/0001204235",
-   "cats": [
-    "속보",
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "코스맥스, 3분기 호실적에 연이틀 강세",
-   "press": "한국경제",
-   "time": "2026-11-12 09:22",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353054",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "유안타증권, '사람 살리는 금융 릴레이 캠페인' 동참",
-   "press": "더팩트",
-   "time": "2026-11-12 09:22",
-   "url": "https://n.news.naver.com/mnews/article/629/0000551100",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "코스피, 5400 찍고 하락 전환…보합권 등락",
-   "press": "아시아경제",
-   "time": "2026-11-12 09:21",
-   "url": "https://n.news.naver.com/mnews/article/277/0005841587",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "셀트리온 \"시밀러 '비세큐마', 호주 품목허가 신청\"",
-   "press": "뉴시스",
-   "time": "2026-11-12 09:21",
-   "url": "https://n.news.naver.com/mnews/article/003/0014317310",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "[콘콜]네이버 최수연 대표 \"물류센터 강화…2030년까지 1조 가까운 투자\"",
-   "press": "아시아경제",
-   "time": "2026-11-12 09:21",
-   "url": "https://n.news.naver.com/mnews/article/277/0005841585",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "코스피, 5400 찍고 하락 전환…보합권 등락",
-   "press": "아시아경제",
-   "time": "2026-11-12 09:21",
-   "url": "https://n.news.naver.com/mnews/article/277/0005841587?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "[콘콜]네이버 최수연 대표 \"물류센터 강화…2030년까지 1조 가까운 투자\"",
-   "press": "아시아경제",
-   "time": "2026-11-12 09:21",
-   "url": "https://n.news.naver.com/mnews/article/277/0005841585?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "美 AI주 급등에도 코스피 5380선서 공방…삼전·하닉 ‘혼조’",
-   "press": "디지털타임스",
-   "time": "2026-11-12 09:20",
-   "url": "https://n.news.naver.com/mnews/article/029/0003058687",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "[특징주] 코스맥스, 3분기 역대 최대 매출에 7%대 강세",
-   "press": "조선비즈",
-   "time": "2026-11-12 09:20",
-   "url": "https://n.news.naver.com/mnews/article/366/0001204234",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "JYP엔터, 3분기 깜짝 실적에 17% 급등",
-   "press": "한국경제",
-   "time": "2026-11-12 09:19",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353051",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "엔비디아 시간외서 한때 10% 급락…\"이사회, 젠슨 황 해임 준비\"",
-   "press": "뉴스1",
-   "time": "2026-11-12 09:19",
-   "url": "https://n.news.naver.com/mnews/article/421/0009284810",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "엔비디아 시간외서 한때 10% 급락…\"이사회, 젠슨 황 해임 준비\"",
-   "press": "뉴스1",
-   "time": "2026-11-12 09:19",
-   "url": "https://n.news.naver.com/mnews/article/421/0009284810?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "JYP엔터, 3분기 깜짝 실적에 17% 급등",
-   "press": "한국경제",
-   "time": "2026-11-12 09:19",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353051?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "장초반 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437391",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "장초반 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437390",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "오늘 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437389",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "오늘 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437388",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "'방산 임베디드 컴퓨팅 시스템' 인텔릭스, 코스닥 상장예심 신청",
-   "press": "이데일리",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/018/0006408628",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "장초반 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437391?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "장초반 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437390?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "오늘 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437389?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "오늘 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437388?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "'방산 임베디드 컴퓨팅 시스템' 인텔릭스, 코스닥 상장예심 신청",
-   "press": "이데일리",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/018/0006408628?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "오늘 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:18",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437387?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "오늘 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:17",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437386?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "장초반 증시는?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:17",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437384?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "상승 출발하는 코스피",
-   "press": "뉴스1",
-   "time": "2026-11-12 09:17",
-   "url": "https://n.news.naver.com/mnews/article/421/0009284806?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "코스피 상승세로 장 시작",
-   "press": "뉴스1",
-   "time": "2026-11-12 09:17",
-   "url": "https://n.news.naver.com/mnews/article/421/0009284805?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "장초반 증시?",
-   "press": "연합뉴스",
-   "time": "2026-11-12 09:17",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437383?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "넥스아이, 코스닥 상장 첫날 11%대 하락 [이런국장 저런주식]",
-   "press": "서울경제",
-   "time": "2026-11-12 09:15",
-   "url": "https://n.news.naver.com/mnews/article/011/0004681305?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "DB하이텍 3Q 어닝미스…10%대 급락 출발",
-   "press": "머니투데이",
-   "time": "2026-11-12 09:14",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440055?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "넥스아이, 코스닥 상장 첫날 공모가 대비 15%대 급락[특징주]",
-   "press": "이데일리",
-   "time": "2026-11-12 09:13",
-   "url": "https://n.news.naver.com/mnews/article/018/0006408623?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "E8, 상장폐지 우려 과도…\"사업 경쟁력 강화해 기업가치 높일 것\"",
-   "press": "아시아경제",
-   "time": "2026-11-12 09:12",
-   "url": "https://n.news.naver.com/mnews/article/277/0005841572?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "“어제까진 2730억 흑자, 오늘은 591억 적자”…폭탄 떨어진 증권가 근황 [오늘 나온 보고서]",
-   "press": "매일경제",
-   "time": "2026-11-12 09:11",
-   "url": "https://n.news.naver.com/mnews/article/009/0005762525",
-   "cats": [
-    "주요",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "JYP Ent., 스트레이키즈 서구권 흥행에 실적 호조…장초반 급등",
-   "press": "머니투데이",
-   "time": "2026-11-12 09:11",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440051?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "[속보]AI 훈풍에도 코스피 0.41%↓…코스닥 1.16%↓ 700선 내줘",
-   "press": "이데일리",
-   "time": "2026-11-12 09:07",
-   "url": "https://n.news.naver.com/mnews/article/018/0006408618",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 10:03"
-  },
-  {
-   "title": "넥스아이, 코스닥 상장 첫날 14%대 급락",
-   "press": "한국경제",
-   "time": "2026-11-12 09:07",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353046?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "고점서 반토막 난 삼전닉스…KB證 “과거 급락 뒤 3개월 내 10번 중 9번 올랐다” [줍줍리포트]",
-   "press": "서울경제",
-   "time": "2026-11-12 09:07",
-   "url": "https://n.news.naver.com/mnews/article/011/0004681301?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "\"눈높이 올렸는데 더 잘 벌었다\"…코스맥스 목표가 3개월새 43% '쑥'",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-12 08:59",
-   "url": "https://n.news.naver.com/mnews/article/014/0005603114?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "\"본업 선방했는데\"…스타벅스 적자에 이마트 '털썩' [종목+]",
-   "press": "한국경제",
-   "time": "2026-11-12 08:58",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353037",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "\"본업 선방했는데\"…스타벅스 적자에 이마트 '털썩' [종목+]",
-   "press": "한국경제",
-   "time": "2026-11-12 08:58",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353037?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "메리츠금융지주, 3분기 시장 기대치 밑돌아…\"방어주 지위 흔들\"-신한",
-   "press": "머니투데이",
-   "time": "2026-11-12 08:57",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440036?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "“48만→40만전자”…실적 좋은데 목표가 낮춘 이유",
-   "press": "이데일리",
-   "time": "2026-11-12 08:56",
-   "url": "https://n.news.naver.com/mnews/article/018/0006408607",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "“48만→40만전자”…실적 좋은데 목표가 낮춘 이유",
-   "press": "이데일리",
-   "time": "2026-11-12 08:56",
-   "url": "https://n.news.naver.com/mnews/article/018/0006408607?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "달러 가치 19개월 만에 최고",
-   "press": "연합뉴스",
-   "time": "2026-11-12 08:55",
-   "url": "https://n.news.naver.com/mnews/article/001/0016437322?sid=101258429",
-   "cats": [
-    "환율"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "\"남들 다 잃을 때 600만원 벌었다\"…한 달 새 64% 뛴 종목 [종목+]",
-   "press": "한국경제",
-   "time": "2026-11-12 08:53",
-   "url": "https://n.news.naver.com/mnews/article/015/0005353035",
-   "cats": [
-    "주요",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "KB증권 \"기술주 공매도 정점…삼전·닉스 반등 탄력 커질 것\"",
-   "press": "뉴시스",
-   "time": "2026-11-12 08:44",
-   "url": "https://n.news.naver.com/mnews/article/003/0014317151",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "뉴욕증시, 코어위브 호실적에 기술주 반등…나스닥 1.60% 상승[마켓무버]",
-   "press": "이데일리",
-   "time": "2026-11-12 08:43",
-   "url": "https://n.news.naver.com/mnews/article/018/0006408597",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "\"공매도, 또 너냐?\"…'반토막' 삼전닉스 반등 확률 90% 까닭",
-   "press": "이데일리",
-   "time": "2026-11-12 08:37",
-   "url": "https://n.news.naver.com/mnews/article/018/0006408593",
-   "cats": [
-    "주요",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
-  },
-  {
-   "title": "젠슨 황 스캔들에 美 반도체 수출규제 강화 재점화",
-   "press": "아시아경제",
-   "time": "2026-11-12 08:36",
-   "url": "https://n.news.naver.com/mnews/article/277/0005841515?sid=101258403",
-   "cats": [
-    "해외증시"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-12 09:24"
   }
  ],
  "errors": []

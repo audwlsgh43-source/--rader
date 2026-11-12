@@ -5,6 +5,26 @@
  "corp_code": "01032404",
  "disclosures": [
   {
+   "rcept_no": "20261112900916",
+   "date": "2026-11-12",
+   "title": "현금ㆍ현물배당결정              (분기배당)",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900916",
+   "seen": "17:22"
+  },
+  {
+   "rcept_no": "20261112900909",
+   "date": "2026-11-12",
+   "title": "중간(분기)배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900909",
+   "seen": "17:22"
+  },
+  {
    "rcept_no": "20261105000378",
    "date": "2026-11-05",
    "title": "주식등의대량보유상황보고서(일반)",
