@@ -1,0 +1,48 @@
+{
+ "name": "매드업",
+ "code": "0039P0",
+ "mkt": "코스닥",
+ "corp_code": "01379129",
+ "disclosures": [
+  {
+   "rcept_no": "20261112900257",
+   "date": "2026-11-12",
+   "title": "현금ㆍ현물배당결정              (분기배당)",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900257",
+   "seen": "11:12"
+  },
+  {
+   "rcept_no": "20261112900242",
+   "date": "2026-11-12",
+   "title": "중간(분기)배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900242",
+   "seen": "11:12"
+  },
+  {
+   "rcept_no": "20261112000169",
+   "date": "2026-11-12",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000169",
+   "seen": "11:12"
+  },
+  {
+   "rcept_no": "20261112000145",
+   "date": "2026-11-12",
+   "title": "주요사항보고서(자기주식취득결정)",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000145",
+   "seen": "11:12"
+  }
+ ]
+}
