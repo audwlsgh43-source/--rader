@@ -1,0 +1,28 @@
+{
+ "name": "한국정보공학",
+ "code": "039740",
+ "mkt": "코스닥",
+ "corp_code": "00261957",
+ "disclosures": [
+  {
+   "rcept_no": "20261112900418",
+   "date": "2026-11-12",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900418",
+   "seen": "13:55"
+  },
+  {
+   "rcept_no": "20261112900416",
+   "date": "2026-11-12",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900416",
+   "seen": "13:55"
+  }
+ ]
+}
