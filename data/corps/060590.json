@@ -1,0 +1,28 @@
+{
+ "name": "씨티씨바이오",
+ "code": "060590",
+ "mkt": "코스닥",
+ "corp_code": "00362292",
+ "disclosures": [
+  {
+   "rcept_no": "20261113000210",
+   "date": "2026-11-13",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000210",
+   "seen": "11:00"
+  },
+  {
+   "rcept_no": "20261113000201",
+   "date": "2026-11-13",
+   "title": "[기재정정]사업보고서 (2025.12)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000201",
+   "seen": "11:00"
+  }
+ ]
+}

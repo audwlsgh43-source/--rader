@@ -1,0 +1,28 @@
+{
+ "name": "듀켐바이오",
+ "code": "176750",
+ "mkt": "코스닥",
+ "corp_code": "00867034",
+ "disclosures": [
+  {
+   "rcept_no": "20261113000236",
+   "date": "2026-11-13",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000236",
+   "seen": "11:00"
+  },
+  {
+   "rcept_no": "20261113000140",
+   "date": "2026-11-13",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000140",
+   "seen": "11:00"
+  }
+ ]
+}
