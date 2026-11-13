@@ -5,6 +5,26 @@
  "corp_code": "00261656",
  "disclosures": [
   {
+   "rcept_no": "20261113000513",
+   "date": "2026-11-13",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000513",
+   "seen": "14:39"
+  },
+  {
+   "rcept_no": "20261113000491",
+   "date": "2026-11-13",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000491",
+   "seen": "14:39"
+  },
+  {
    "rcept_no": "20261111000215",
    "date": "2026-11-11",
    "title": "분기보고서 (2026.09)",
