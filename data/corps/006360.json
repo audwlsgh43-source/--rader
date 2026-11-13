@@ -5,6 +5,16 @@
  "corp_code": "00120030",
  "disclosures": [
   {
+   "rcept_no": "20261113000076",
+   "date": "2026-11-13",
+   "title": "특수관계인과의내부거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000076",
+   "seen": "09:57"
+  },
+  {
    "rcept_no": "20261111800268",
    "date": "2026-11-11",
    "title": "[기재정정]단일판매ㆍ공급계약체결",
