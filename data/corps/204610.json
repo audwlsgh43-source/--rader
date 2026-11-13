@@ -1,0 +1,28 @@
+{
+ "name": "티쓰리",
+ "code": "204610",
+ "mkt": "코스닥",
+ "corp_code": "00609661",
+ "disclosures": [
+  {
+   "rcept_no": "20261113901107",
+   "date": "2026-11-13",
+   "title": "중간(분기)배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901107",
+   "seen": "15:39"
+  },
+  {
+   "rcept_no": "20261113000866",
+   "date": "2026-11-13",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000866",
+   "seen": "15:39"
+  }
+ ]
+}

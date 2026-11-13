@@ -5,6 +5,26 @@
  "corp_code": "00365989",
  "disclosures": [
   {
+   "rcept_no": "20261113800940",
+   "date": "2026-11-13",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113800940",
+   "seen": "15:39"
+  },
+  {
+   "rcept_no": "20261113000684",
+   "date": "2026-11-13",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000684",
+   "seen": "15:39"
+  },
+  {
    "rcept_no": "20261105800486",
    "date": "2026-11-05",
    "title": "최대주주등소유주식변동신고서",

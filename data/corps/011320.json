@@ -5,6 +5,16 @@
  "corp_code": "00147152",
  "disclosures": [
   {
+   "rcept_no": "20261113000851",
+   "date": "2026-11-13",
+   "title": "자기주식처분결과보고서",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000851",
+   "seen": "15:39"
+  },
+  {
    "rcept_no": "20261110000413",
    "date": "2026-11-10",
    "title": "주요사항보고서(자기주식처분결정)",
