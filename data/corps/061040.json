@@ -5,6 +5,16 @@
  "corp_code": "00309831",
  "disclosures": [
   {
+   "rcept_no": "20261113000315",
+   "date": "2026-11-13",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000315",
+   "seen": "11:46"
+  },
+  {
    "rcept_no": "20261112900837",
    "date": "2026-11-12",
    "title": "증권발행결과(자율공시)",

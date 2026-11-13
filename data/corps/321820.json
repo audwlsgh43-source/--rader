@@ -1,0 +1,28 @@
+{
+ "name": "아티스트컴퍼니",
+ "code": "321820",
+ "mkt": "코스닥",
+ "corp_code": "01116502",
+ "disclosures": [
+  {
+   "rcept_no": "20261113900396",
+   "date": "2026-11-13",
+   "title": "[기재정정]단일판매ㆍ공급계약체결",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113900396",
+   "seen": "11:46"
+  },
+  {
+   "rcept_no": "20261113000279",
+   "date": "2026-11-13",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000279",
+   "seen": "11:46"
+  }
+ ]
+}

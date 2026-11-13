@@ -5,6 +5,26 @@
  "corp_code": "00111722",
  "disclosures": [
   {
+   "rcept_no": "20261113000274",
+   "date": "2026-11-13",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000274",
+   "seen": "11:46"
+  },
+  {
+   "rcept_no": "20261113000255",
+   "date": "2026-11-13",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000255",
+   "seen": "11:46"
+  },
+  {
    "rcept_no": "20261112801045",
    "date": "2026-11-12",
    "title": "[기재정정]연결재무제표기준영업(잠정)실적(공정공시)",
