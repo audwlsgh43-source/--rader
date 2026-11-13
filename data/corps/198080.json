@@ -1,0 +1,28 @@
+{
+ "name": "캐프",
+ "code": "198080",
+ "mkt": "코스닥",
+ "corp_code": "00876643",
+ "disclosures": [
+  {
+   "rcept_no": "20261113000436",
+   "date": "2026-11-13",
+   "title": "[기재정정]분기보고서 (2026.09)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000436",
+   "seen": "13:39"
+  },
+  {
+   "rcept_no": "20261113000401",
+   "date": "2026-11-13",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000401",
+   "seen": "13:39"
+  }
+ ]
+}

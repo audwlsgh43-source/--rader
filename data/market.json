@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13 12:37",
+ "updated_at": "2026-11-13 13:40",
  "indices": [
   {
    "key": "ks11",
@@ -461,10 +461,10 @@
    "key": "KRW=X",
    "name": "원/달러",
    "kind": "fx",
-   "close": 1331.6899,
-   "chg": -4.5701,
-   "pct": -0.34,
-   "date": "11.13 12:37",
+   "close": 1333.1899,
+   "chg": -3.0701,
+   "pct": -0.23,
+   "date": "11.13 13:40",
    "spark": [
     1342.5601,
     1343.75,
@@ -495,17 +495,17 @@
     1343.84,
     1341.91,
     1336.26,
-    1331.6899
+    1333.1899
    ]
   },
   {
    "key": "DX-Y.NYB",
    "name": "달러인덱스",
    "kind": "fx",
-   "close": 103.148,
-   "chg": -0.022,
-   "pct": -0.02,
-   "date": "11.13 12:27",
+   "close": 103.174,
+   "chg": 0.004,
+   "pct": 0.0,
+   "date": "11.13 13:30",
    "spark": [
     102.17,
     101.83,
@@ -536,7 +536,7 @@
     102.23,
     102.91,
     103.17,
-    103.148
+    103.174
    ]
   },
   {
@@ -666,10 +666,10 @@
    "key": "CL=F",
    "name": "WTI 유가",
    "kind": "cmdty",
-   "close": 88.14,
-   "chg": -0.6,
-   "pct": -0.68,
-   "date": "11.13 12:27",
+   "close": 88.44,
+   "chg": -0.3,
+   "pct": -0.34,
+   "date": "11.13 13:30",
    "spark": [
     89.43,
     89.44,
@@ -700,17 +700,17 @@
     86.04,
     86.53,
     88.74,
-    88.14
+    88.44
    ]
   },
   {
    "key": "GC=F",
    "name": "금",
    "kind": "cmdty",
-   "close": 3919.1001,
-   "chg": 33.8,
-   "pct": 0.87,
-   "date": "11.13 12:27",
+   "close": 3914.7,
+   "chg": 29.3999,
+   "pct": 0.76,
+   "date": "11.13 13:30",
    "spark": [
     4156.7998,
     4187.1001,
@@ -741,17 +741,17 @@
     4030.2,
     4000.5,
     3885.3,
-    3919.1001
+    3914.7
    ]
   },
   {
    "key": "BTC-USD",
    "name": "비트코인",
    "kind": "crypto",
-   "close": 69135.4531,
-   "chg": -4829.0156,
-   "pct": -6.53,
-   "date": "11.13 12:37",
+   "close": 68705.1094,
+   "chg": -5259.3594,
+   "pct": -7.11,
+   "date": "11.13 13:40",
    "spark": [
     81562.4922,
     82141.4609,
@@ -782,7 +782,7 @@
     75223.1484,
     73720.1172,
     73964.4688,
-    69135.4531
+    68705.1094
    ]
   }
  ],
@@ -794,7 +794,7 @@
     "close": 7592.3999,
     "chg": -26.98,
     "pct": -0.35,
-    "date": "11.13 06:58",
+    "date": "11.13 06:00",
     "spark": [
      7722.7202,
      7773.9502,
@@ -871,10 +871,10 @@
    {
     "key": "^DJI",
     "name": "다우",
-    "close": 52297.0898,
-    "chg": -189.3984,
+    "close": 52297.1016,
+    "chg": -189.3867,
     "pct": -0.36,
-    "date": "11.13 06:58",
+    "date": "11.13 06:00",
     "spark": [
      51176.9609,
      51267.8984,
@@ -905,7 +905,7 @@
      52389.75,
      52231.8906,
      52486.4883,
-     52297.0898
+     52297.1016
     ]
    },
    {
@@ -1204,8 +1204,71 @@
   "date": "2026-11-12",
   "closed": true
  },
- "yahoo_at": "2026-11-13 12:37",
+ "yahoo_at": "2026-11-13 13:40",
  "reports": [
+  {
+   "cat": "기업",
+   "title": "AI로 끌고 환원으로 받친다",
+   "broker": "미래에셋증권",
+   "date": "2026-11-13",
+   "url": "https://stock.naver.com/research/company/98186",
+   "pdf": "https://stock.pstatic.net/stock-research/company/56/20261113_company_981898000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98186",
+   "stock": "LG",
+   "code": "003550",
+   "goal": "120000",
+   "opinion": ""
+  },
+  {
+   "cat": "기업",
+   "title": "절제된 성장",
+   "broker": "한화투자증권",
+   "date": "2026-11-13",
+   "url": "https://stock.naver.com/research/company/98185",
+   "pdf": "https://stock.pstatic.net/stock-research/company/16/20261113_company_719953000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98185",
+   "stock": "달바글로벌",
+   "code": "483650",
+   "goal": "200000",
+   "opinion": "",
+   "method": "PER",
+   "why": "이익 창출이 안정적으로 이어지는 기업이라 이익 대비 주가 수준을 비교하기 쉬워 PER을 주로 씀 (일반적 설명)",
+   "sum": [
+    "3분기 영업이익은 컨센서스에 부합했으나 매출은 원화 강세로 하회",
+    "해외 매출 비중 75%, 미국 Costco·영국 Boots 등 채널 확장 진행 중",
+    "한화투자증권은 차기 Hero SKU가 확인되어야 제품 집중도 우려가 해소된다고 봄",
+    "2027E 영업이익 1,992억원 전망, 목표주가는 20만원으로 30% 넘게 하향"
+   ],
+   "val": [
+    "2027E EPS 11,873원 × 목표 PER 17.0배(글로벌 피어 40% 할인) → 목표가 20만원",
+    "현재가 125,600원 기준 PER 2027E 10.6배·2026E 12.8배, 상승여력 59.2%"
+   ]
+  },
+  {
+   "cat": "기업",
+   "title": "독보적인 원가 경쟁력",
+   "broker": "미래에셋증권",
+   "date": "2026-11-13",
+   "url": "https://stock.naver.com/research/company/98184",
+   "pdf": "https://stock.pstatic.net/stock-research/company/56/20261113_company_142672000.pdf",
+   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98184",
+   "stock": "HMM",
+   "code": "011200",
+   "goal": "28000",
+   "opinion": "",
+   "method": "PBR",
+   "why": "순자산가치 대비 주가 수준을 보는 방식으로, 실적 변동이 큰 해운업에서 자산 기준 가치를 참고하기 위해 흔히 쓰임 (일반적 설명)",
+   "sum": [
+    "3Q26 영업이익 1조 3,946억원(영업이익률 33.8%)으로 시장 기대치를 크게 웃돔",
+    "컨테이너 평균운임 상승과 원가율 하락(63.1%)이 실적 개선을 이끎",
+    "4Q26 영업이익은 운임 약보합과 환율 하락으로 8,541억원 전망",
+    "미래에셋증권은 고정비 낮은 원가 구조와 장기계약 벌크 확대로 이익 하방을 지킬 수 있다고 봄"
+   ],
+   "val": [
+    "목표주가 28,000원은 PBR 0.9배를 적용해 기존 26,000원에서 상향, 투자의견 매수 유지",
+    "현재주가 20,700원 기준 2026F P/E 6.1배, P/B 0.71배, 상승여력 35.3%"
+   ]
+  },
   {
    "cat": "기업",
    "title": "3Q26 Review: 내년을 바라보자",
@@ -1491,7 +1554,6 @@
     "2028년 EBITDA 2,692억원에 EV/EBITDA 26.5배를 적용해 목표주가 140,000원 산출",
     "현재주가 80,400원(11.12) 대비 목표주가 140,000원, 투자의견 BUY 유지"
    ],
-   "opinion": "",
    "method": "EV/EBITDA",
    "why": "과거 영업이익 흑자 구간 하단 평균 배수를 적용했다고 리포트에 명시되어 있음"
   },
@@ -1846,74 +1908,6 @@
    ],
    "method": "NAV",
    "why": "지주회사는 자회사 지분가치의 합으로 기업가치가 결정되므로 NAV로 평가 (일반적 설명)"
-  },
-  {
-   "cat": "기업",
-   "title": "무거워진 AI팩토리의 어깨",
-   "broker": "유진투자증권",
-   "date": "2026-11-13",
-   "url": "https://stock.naver.com/research/company/98156",
-   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261113_company_659849000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98156",
-   "stock": "NAVER",
-   "code": "035420",
-   "sum": [
-    "3Q 영업이익은 컨센서스를 밑돌았고, 광고 성장 둔화와 비용 증가가 주된 원인이라고 봄",
-    "유진투자증권는 본업 둔화를 AI팩토리가 상쇄해야 하는 구조로 봄",
-    "27년 초기 물량 약 2조원 계약을 확보했으나 고객이 신생 AI 기업 중심이라 수요 지속성은 우려 요인",
-    "실적 부진을 반영해 26E·27E 영업이익 추정치를 각각 4.3%, 7.7% 하향"
-   ],
-   "goal": "320000",
-   "val": [
-    "목표주가 320,000원(유지), 현재주가 181,800원(11/12) 기준 26E PER 16.0배·PBR 1.0배, 27E PER 16.4배·PBR 0.9배",
-    "26E 영업이익 1,979억원(종전 2,068억원), 27E 2,240억원(종전 2,427억원)으로 하향"
-   ],
-   "method": "",
-   "why": ""
-  },
-  {
-   "cat": "기업",
-   "title": "2027년 DDI 완전 자회사화",
-   "broker": "유진투자증권",
-   "date": "2026-11-13",
-   "url": "https://stock.naver.com/research/company/98155",
-   "pdf": "https://stock.pstatic.net/stock-research/company/63/20261113_company_387466000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98155",
-   "stock": "더블유게임즈",
-   "code": "192080",
-   "sum": [
-    "3분기 영업이익 635억원으로 컨센서스(678억원)를 하회, 환율 하락 영향이 컸음",
-    "소셜카지노 시장 점유율 7.1%로 확대, DTC 비중 53.6%로 처음 50% 상회",
-    "DDI 완전 자회사화 공개매수 진행 중, 인수대금 최대 약 3,500억원, 2027년 초 종결 예정",
-    "환율 가정 하향으로 2026·27년 영업이익 추정치 하향, 유진투자증권은 BUY·목표가 78,000원 유지로 봄"
-   ],
-   "goal": "78000",
-   "val": [
-    "목표주가 78,000원(유지), 현재주가 57,900원(11/12) 기준 2026E PER 8.0배, 2027E PER 5.5배, 2027E PBR 0.8배",
-    "DDI 완전 자회사화를 가정한 2027년 기준 PER은 5.6배 수준이라고 본문에 명시, 목표주가 산정 방식은 밝히지 않음"
-   ],
-   "method": "",
-   "why": ""
-  },
-  {
-   "cat": "기업",
-   "title": "3Q26 Review: 평법함이 특별해지는 순간",
-   "broker": "SK증권",
-   "date": "2026-11-13",
-   "url": "https://stock.naver.com/research/company/98154",
-   "pdf": "https://stock.pstatic.net/stock-research/company/64/20261113_company_986342000.pdf",
-   "api": "https://stock.naver.com/api/stockSecurity/researches/v2/company/98154",
-   "stock": "삼성증권",
-   "code": "016360",
-   "sum": [
-    "3Q26 지배주주순이익 3,528억원으로 컨센서스에 부합, 거래대금 급감에도 선방",
-    "주식 평가이익 노출이 적어 운용손익 변동성이 낮은 점을 SK증권은 강점으로 봄",
-    "일평균 거래대금 추정치와 COE를 조정해 목표주가를 하향했으나 매수 유지",
-    "2026F DPS 6,200원, 배당수익률 8.7%로 주가 하방을 지지한다고 판단"
-   ],
-   "goal": "105000",
-   "val": [],
-   "opinion": ""
   },
   {
    "cat": "산업",
@@ -2423,15 +2417,15 @@
    "url": "https://stock.naver.com/research/invest/40814",
    "pdf": "https://stock.pstatic.net/stock-research/invest/40/20261113_invest_534302000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40814",
-   "method": "",
-   "why": "",
    "sum": [
     "IBK투자증권는 3분기 어닝 시즌 후반부에 실적 리스크가 상당 부분 반영됐다고 봄",
     "IBK투자증권는 대형 4종목을 제외하면 영업이익이 예상을 밑돈다고 봄",
     "IBK투자증권는 코어위브 실적과 가이던스가 양호해 AI 관련 단기 리스크가 완화될 것으로 봄",
     "11월 초순 수출 112% 급증으로 4분기 경기·실적 우려도 완화될 것으로 봄. 12월 금리 인상은 상승 탄력 제한 요인으로 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2441,8 +2435,6 @@
    "url": "https://stock.naver.com/research/invest/40813",
    "pdf": "https://stock.pstatic.net/stock-research/invest/21/20261113_invest_283406000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40813",
-   "method": "",
-   "why": "",
    "sum": [
     "미국 고용·CPI 서프라이즈와 연준 매파 발언에도 VIX가 진정되며 위험선호가 회복됨",
     "신한투자증권은 BAAJA법이 인허가 간소화로 AI 인프라 투심을 개선할 요인이라고 봄",
@@ -2451,7 +2443,9 @@
    ],
    "val": [
     "시장 전체 기준 KOSPI 선행 PBR 1배 내외로 언급. 개별 종목 목표주가는 없음"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2461,15 +2455,15 @@
    "url": "https://stock.naver.com/research/invest/40812",
    "pdf": "https://stock.pstatic.net/stock-research/invest/40/20261113_invest_799391000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40812",
-   "method": "",
-   "why": "",
    "sum": [
     "엔비디아 CEO 사임과 법무부 조사 이슈로 미국 기술주 불확실성이 재부각되며 미 3대 지수 하락 마감",
     "국내 증시는 반도체주 차별화 속 단기 차익실현으로 코스피 0.61%, 코스닥 1.22% 하락 마감",
     "외국인 매도 속에 코스피 5,342.73P, 코스닥 696.53P로 마감",
     "IBK투자증권은 엔비디아發 기술주 변동성에 대한 경계가 필요하다고 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2479,15 +2473,15 @@
    "url": "https://stock.naver.com/research/invest/40811",
    "pdf": "https://stock.pstatic.net/stock-research/invest/39/20261113_invest_407281000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40811",
-   "method": "",
-   "why": "",
    "sum": [
     "키움증권은 젠슨 황 사임이 단기 AI 투자심리에는 부담이지만 AI 수요 둔화로 이어질 가능성은 제한적이라고 봄",
     "엔비디아 경쟁사 AMD·브로드컴 강세는 시장이 엔비디아 독점 지위 약화로 해석한 결과라고 봄",
     "CEO 교체 자체보다 경영 공백의 장기화 여부와 기존 사업 성장세가 주가 방향을 좌우한다고 봄",
     "대중국 수출 규제 강화 가능성과 유가·금리 급등이 국내 증시 상승 탄력을 제한할 것으로 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
