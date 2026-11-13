@@ -5,6 +5,46 @@
  "corp_code": "01267222",
  "disclosures": [
   {
+   "rcept_no": "20261113901991",
+   "date": "2026-11-13",
+   "title": "최대주주변경",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901991",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261113901923",
+   "date": "2026-11-13",
+   "title": "임시주주총회결과",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901923",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261113901831",
+   "date": "2026-11-13",
+   "title": "증권발행결과(자율공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901831",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261113901824",
+   "date": "2026-11-13",
+   "title": "증권발행결과(자율공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901824",
+   "seen": "17:52"
+  },
+  {
    "rcept_no": "20261113001452",
    "date": "2026-11-13",
    "title": "소액공모실적보고서",

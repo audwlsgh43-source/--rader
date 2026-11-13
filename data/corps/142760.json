@@ -25,6 +25,26 @@
    "seen": "16:56"
   },
   {
+   "rcept_no": "20261113001598",
+   "date": "2026-11-13",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001598",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261113001587",
+   "date": "2026-11-13",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001587",
+   "seen": "17:52"
+  },
+  {
    "rcept_no": "20261113001253",
    "date": "2026-11-13",
    "title": "[기재정정]주요사항보고서(전환사채권발행결정)",

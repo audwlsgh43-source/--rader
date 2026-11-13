@@ -1,0 +1,28 @@
+{
+ "name": "한솔홈데코",
+ "code": "025750",
+ "mkt": "코스피",
+ "corp_code": "00203582",
+ "disclosures": [
+  {
+   "rcept_no": "20261113801905",
+   "date": "2026-11-13",
+   "title": "투자유의안내              (관리종목지정 우려 예고)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801905",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261113001486",
+   "date": "2026-11-13",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001486",
+   "seen": "17:52"
+  }
+ ]
+}

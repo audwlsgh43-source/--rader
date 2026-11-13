@@ -5,6 +5,26 @@
  "corp_code": "00110884",
  "disclosures": [
   {
+   "rcept_no": "20261113901838",
+   "date": "2026-11-13",
+   "title": "전환사채(해외전환사채포함)발행후만기전사채취득",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901838",
+   "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261113001488",
+   "date": "2026-11-13",
+   "title": "[기재정정]주식매수선택권부여에관한신고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001488",
+   "seen": "17:52"
+  },
+  {
    "rcept_no": "20261113001478",
    "date": "2026-11-13",
    "title": "[기재정정]주식매수선택권부여에관한신고",
