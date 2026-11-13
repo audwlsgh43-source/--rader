@@ -5,6 +5,36 @@
  "corp_code": "00155319",
  "disclosures": [
   {
+   "rcept_no": "20261113801151",
+   "date": "2026-11-13",
+   "title": "현금ㆍ현물배당결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113801052",
+   "date": "2026-11-13",
+   "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801052",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113001097",
+   "date": "2026-11-13",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001097",
+   "seen": "16:56"
+  },
+  {
    "rcept_no": "20261105000168",
    "date": "2026-11-05",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

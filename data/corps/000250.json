@@ -5,6 +5,26 @@
  "corp_code": "00128546",
  "disclosures": [
   {
+   "rcept_no": "20261113001479",
+   "date": "2026-11-13",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001479",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113001330",
+   "date": "2026-11-13",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001330",
+   "seen": "16:56"
+  },
+  {
    "rcept_no": "20261102900634",
    "date": "2026-11-02",
    "title": "투자판단관련주요경영사항              (황반변성치료제(주성분: Aflibercept) 바이오시밀러 SCD411의 일본 독점판매권 및 공급계약 체결)",

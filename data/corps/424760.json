@@ -1,0 +1,28 @@
+{
+ "name": "벨로크",
+ "code": "424760",
+ "mkt": "코스닥",
+ "corp_code": "01622331",
+ "disclosures": [
+  {
+   "rcept_no": "20261113901415",
+   "date": "2026-11-13",
+   "title": "조회공시요구(현저한시황변동)에대한답변(미확정)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901415",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113001148",
+   "date": "2026-11-13",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001148",
+   "seen": "16:56"
+  }
+ ]
+}

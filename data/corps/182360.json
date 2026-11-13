@@ -5,6 +5,26 @@
  "corp_code": "00985686",
  "disclosures": [
   {
+   "rcept_no": "20261113901210",
+   "date": "2026-11-13",
+   "title": "전환사채(해외전환사채포함)발행후만기전사채취득",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901210",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113001016",
+   "date": "2026-11-13",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001016",
+   "seen": "16:56"
+  },
+  {
    "rcept_no": "20261106000441",
    "date": "2026-11-06",
    "title": "주식등의대량보유상황보고서(일반)",

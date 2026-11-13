@@ -1,0 +1,28 @@
+{
+ "name": "동성케미컬",
+ "code": "102260",
+ "mkt": "코스피",
+ "corp_code": "00679314",
+ "disclosures": [
+  {
+   "rcept_no": "20261113801374",
+   "date": "2026-11-13",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801374",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113801154",
+   "date": "2026-11-13",
+   "title": "수시공시의무관련사항(공정공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801154",
+   "seen": "16:56"
+  }
+ ]
+}

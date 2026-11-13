@@ -1,0 +1,28 @@
+{
+ "name": "경남스틸",
+ "code": "039240",
+ "mkt": "코스닥",
+ "corp_code": "00206039",
+ "disclosures": [
+  {
+   "rcept_no": "20261113001077",
+   "date": "2026-11-13",
+   "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001077",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113000929",
+   "date": "2026-11-13",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000929",
+   "seen": "16:56"
+  }
+ ]
+}

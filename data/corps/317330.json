@@ -5,6 +5,16 @@
  "corp_code": "01021666",
  "disclosures": [
   {
+   "rcept_no": "20261113901208",
+   "date": "2026-11-13",
+   "title": "파생상품거래손실발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901208",
+   "seen": "16:56"
+  },
+  {
    "rcept_no": "20261113000874",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",

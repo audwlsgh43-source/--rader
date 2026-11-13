@@ -5,6 +5,36 @@
  "corp_code": "00587925",
  "disclosures": [
   {
+   "rcept_no": "20261113901549",
+   "date": "2026-11-13",
+   "title": "기타주요경영사항",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901549",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113901454",
+   "date": "2026-11-13",
+   "title": "[기재정정]최대주주변경",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901454",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113001253",
+   "date": "2026-11-13",
+   "title": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001253",
+   "seen": "16:56"
+  },
+  {
    "rcept_no": "20261112901181",
    "date": "2026-11-12",
    "title": "최대주주변경을수반하는주식담보제공계약해제ㆍ취소등",

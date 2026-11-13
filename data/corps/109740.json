@@ -5,6 +5,26 @@
  "corp_code": "00530121",
  "disclosures": [
   {
+   "rcept_no": "20261113901506",
+   "date": "2026-11-13",
+   "title": "[기재정정]주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901506",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113001301",
+   "date": "2026-11-13",
+   "title": "[기재정정]주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001301",
+   "seen": "16:56"
+  },
+  {
    "rcept_no": "20261112901040",
    "date": "2026-11-12",
    "title": "[기재정정]최대주주변경을수반하는주식양수도계약체결",

@@ -5,6 +5,16 @@
  "corp_code": "00310156",
  "disclosures": [
   {
+   "rcept_no": "20261113901402",
+   "date": "2026-11-13",
+   "title": "[기재정정]주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901402",
+   "seen": "16:56"
+  },
+  {
    "rcept_no": "20261113900019",
    "date": "2026-11-13",
    "title": "[첨부정정]주주총회소집결의              (임시주주총회)",
@@ -13,6 +23,26 @@
    "ai": "",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113900019",
    "seen": "08:20"
+  },
+  {
+   "rcept_no": "20261113001446",
+   "date": "2026-11-13",
+   "title": "[기재정정]주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001446",
+   "seen": "16:56"
+  },
+  {
+   "rcept_no": "20261113001192",
+   "date": "2026-11-13",
+   "title": "[기재정정]주요사항보고서(감자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001192",
+   "seen": "16:56"
   },
   {
    "rcept_no": "20261113000003",
