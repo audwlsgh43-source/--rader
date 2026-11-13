@@ -5,6 +5,26 @@
  "corp_code": "01228515",
  "disclosures": [
   {
+   "rcept_no": "20261113902051",
+   "date": "2026-11-13",
+   "title": "주권매매거래정지              (자본감소)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113902051",
+   "seen": "18:45"
+  },
+  {
+   "rcept_no": "20261113902031",
+   "date": "2026-11-13",
+   "title": "[기재정정]주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113902031",
+   "seen": "18:45"
+  },
+  {
    "rcept_no": "20261113001689",
    "date": "2026-11-13",
    "title": "의결권대리행사권유참고서류",
@@ -23,6 +43,16 @@
    "ai": "",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001687",
    "seen": "17:52"
+  },
+  {
+   "rcept_no": "20261113001675",
+   "date": "2026-11-13",
+   "title": "주요사항보고서(감자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001675",
+   "seen": "18:45"
   },
   {
    "rcept_no": "20261113000990",
