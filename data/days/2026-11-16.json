@@ -1,6 +1,145 @@
 {
  "date": "2026-11-16",
- "updated_at": "2026-11-16 07:29",
- "count": 0,
- "items": []
+ "updated_at": "2026-11-16 08:04",
+ "count": 5,
+ "items": [
+  {
+   "rcept_no": "20261116800009",
+   "date": "2026-11-16",
+   "corp": "삼성바이오로직스",
+   "stock_code": "207940",
+   "corp_code": "00877059",
+   "mkt": "코스피",
+   "type": "capital",
+   "imp": "high",
+   "title": "유상증자또는주식관련사채등의청약결과(자율공시)",
+   "flr": "삼성바이오로직스",
+   "rm": "유",
+   "seen": "08:04",
+   "ai": "주주배정 유상증자 청약 결과 총 청약률은 526.13%이며, 우리사주·구주주 청약 후 남은 실권주 71,854주는 일반공모 대상이 되었습니다.",
+   "points": [
+    "우리사주조합·구주주 청약 후 실권주 71,854주는 일반공모로 청약 진행",
+    "일반공모 청약률은 13,562.32%",
+    "청약기간은 2026.11.12~2026.11.13",
+    "신주 상장(유통) 예정일은 2026년 11월 30일"
+   ],
+   "numbers": [
+    [
+     "발행예정주식수",
+     "2,270,000주"
+    ],
+    [
+     "청약주식수(누계)",
+     "11,943,217주"
+    ],
+    [
+     "총 청약률",
+     "526.13%"
+    ],
+    [
+     "실권주",
+     "71,854주"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-17",
+     "kind": "납입일",
+     "desc": "주금 납입일"
+    },
+    {
+     "date": "2026-11-17",
+     "kind": "기타",
+     "desc": "환불 예정일"
+    },
+    {
+     "date": "2026-11-30",
+     "kind": "신주상장",
+     "desc": "신주 상장(유통) 예정일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116800009"
+  },
+  {
+   "rcept_no": "20261116000001",
+   "date": "2026-11-16",
+   "corp": "M83",
+   "stock_code": "476080",
+   "corp_code": "01704680",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "M83",
+   "rm": "",
+   "seen": "08:04",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000001"
+  },
+  {
+   "rcept_no": "20261113001703",
+   "date": "2026-11-16",
+   "corp": "나노씨엠에스",
+   "stock_code": "247660",
+   "corp_code": "00660459",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "김시석",
+   "rm": "",
+   "seen": "08:04",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001703"
+  },
+  {
+   "rcept_no": "20261113001702",
+   "date": "2026-11-16",
+   "corp": "제일엠앤에스",
+   "stock_code": "412540",
+   "corp_code": "00528791",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "제일엠앤에스",
+   "rm": "",
+   "seen": "08:04",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001702"
+  },
+  {
+   "rcept_no": "20261113001701",
+   "date": "2026-11-16",
+   "corp": "엔키AX",
+   "stock_code": "134580",
+   "corp_code": "00608699",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "엔키AX",
+   "rm": "",
+   "seen": "08:04",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001701"
+  }
+ ]
 }
