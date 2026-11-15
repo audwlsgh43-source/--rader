@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-16 07:26",
+ "updated_at": "2026-11-16 07:30",
  "digest": null,
  "codes": {
   "인벤테라": "0007J0",
@@ -21,12 +21,41 @@
  },
  "items": [
   {
+   "title": "SK하이닉스, 100조 주주환원에 쏠린 눈 \"시간은 매수자의 편\"",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-16 07:29",
+   "url": "https://n.news.naver.com/mnews/article/014/0005604551",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [
+    "SK하이닉스"
+   ],
+   "ai": "",
+   "first_seen": "2026-11-16 07:30"
+  },
+  {
+   "title": "SK하이닉스, 100조 주주환원에 쏠린 눈 \"시간은 매수자의 편\"",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-16 07:29",
+   "url": "https://n.news.naver.com/mnews/article/014/0005604551?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [
+    "SK하이닉스"
+   ],
+   "ai": "",
+   "first_seen": "2026-11-16 07:30"
+  },
+  {
    "title": "\"리가켐바이오, 3분기 '한 방' 없었지만 임상 성과는 누적…목표가↓\"-하나",
    "press": "한국경제",
    "time": "2026-11-16 07:20",
    "url": "https://n.news.naver.com/mnews/article/015/0005354088",
    "cats": [
-    "속보"
+    "속보",
+    "주요"
    ],
    "stocks": [],
    "ai": "",
@@ -431,9 +460,9 @@
    "title": "젠슨 황 퇴진 충격에 흔들린 기술주… 피난처 애플·반도체 규제 불안 속 차별화 장세 [ 美증시 특징주 ]",
    "press": "한국경제TV",
    "time": "2026-11-16 06:41",
-   "url": "https://n.news.naver.com/mnews/article/215/0001272841",
+   "url": "https://n.news.naver.com/mnews/article/215/0001272841?sid=101258403",
    "cats": [
-    "속보"
+    "해외증시"
    ],
    "stocks": [],
    "ai": "",
@@ -443,9 +472,9 @@
    "title": "젠슨 황 퇴진 충격에 흔들린 기술주… 피난처 애플·반도체 규제 불안 속 차별화 장세 [ 美증시 특징주 ]",
    "press": "한국경제TV",
    "time": "2026-11-16 06:41",
-   "url": "https://n.news.naver.com/mnews/article/215/0001272841?sid=101258403",
+   "url": "https://n.news.naver.com/mnews/article/215/0001272841",
    "cats": [
-    "해외증시"
+    "속보"
    ],
    "stocks": [],
    "ai": "",
