@@ -5,6 +5,26 @@
  "corp_code": "01835829",
  "disclosures": [
   {
+   "rcept_no": "20261116900261",
+   "date": "2026-11-16",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116900261",
+   "seen": "11:27"
+  },
+  {
+   "rcept_no": "20261116900249",
+   "date": "2026-11-16",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116900249",
+   "seen": "11:27"
+  },
+  {
    "rcept_no": "20261111000036",
    "date": "2026-11-11",
    "title": "분기보고서 (2026.09)",

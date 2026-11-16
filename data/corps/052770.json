@@ -5,6 +5,16 @@
  "corp_code": "00346911",
  "disclosures": [
   {
+   "rcept_no": "20261116900295",
+   "date": "2026-11-16",
+   "title": "반기또는분기매출액미달사실발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116900295",
+   "seen": "11:27"
+  },
+  {
    "rcept_no": "20261026900775",
    "date": "2026-10-26",
    "title": "주권매매거래정지기간변경              (상장폐지 사유 발생)",
