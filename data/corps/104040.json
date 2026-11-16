@@ -5,6 +5,26 @@
  "corp_code": "00442905",
  "disclosures": [
   {
+   "rcept_no": "20261116002113",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002113",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116002065",
+   "date": "2026-11-16",
+   "title": "[기재정정]분기보고서 (2025.09)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002065",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261109900788",
    "date": "2026-11-09",
    "title": "[기재정정]전환사채(해외전환사채포함)발행후만기전사채취득",

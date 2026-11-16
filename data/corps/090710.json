@@ -1,0 +1,28 @@
+{
+ "name": "휴림로봇",
+ "code": "090710",
+ "mkt": "코스닥",
+ "corp_code": "00540429",
+ "disclosures": [
+  {
+   "rcept_no": "20261116902369",
+   "date": "2026-11-16",
+   "title": "투자판단관련주요경영사항              (회계처리기준 위반행위로 인한 검찰 항소 판결 관련 진행사항)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116902369",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116002152",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002152",
+   "seen": "18:11"
+  }
+ ]
+}

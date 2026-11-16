@@ -5,6 +5,26 @@
  "corp_code": "01136001",
  "disclosures": [
   {
+   "rcept_no": "20261116002158",
+   "date": "2026-11-16",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002158",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116000902",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000902",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261102900540",
    "date": "2026-11-02",
    "title": "전환가액의조정              (제3회차)",

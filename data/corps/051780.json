@@ -5,6 +5,26 @@
  "corp_code": "00296324",
  "disclosures": [
   {
+   "rcept_no": "20261116000904",
+   "date": "2026-11-16",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000904",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116000861",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000861",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261102000184",
    "date": "2026-11-02",
    "title": "특수관계인으로부터자금차입",

@@ -5,6 +5,26 @@
  "corp_code": "00288343",
  "disclosures": [
   {
+   "rcept_no": "20261116901800",
+   "date": "2026-11-16",
+   "title": "증권발행결과(자율공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116901800",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116901785",
+   "date": "2026-11-16",
+   "title": "최대주주변경",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116901785",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261116000170",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

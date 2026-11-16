@@ -5,6 +5,36 @@
  "corp_code": "00651901",
  "disclosures": [
   {
+   "rcept_no": "20261116801678",
+   "date": "2026-11-16",
+   "title": "[기재정정]주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116801678",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116801406",
+   "date": "2026-11-16",
+   "title": "[기재정정]주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116801406",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116001097",
+   "date": "2026-11-16",
+   "title": "[기재정정]주요사항보고서(회사합병결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001097",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261113000342",
    "date": "2026-11-13",
    "title": "[기재정정]주요사항보고서(회사합병결정)",

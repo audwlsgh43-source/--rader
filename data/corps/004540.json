@@ -5,6 +5,26 @@
  "corp_code": "00113492",
  "disclosures": [
   {
+   "rcept_no": "20261116002234",
+   "date": "2026-11-16",
+   "title": "[기재정정]분기보고서 (2026.09)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002234",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116001657",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001657",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261104800578",
    "date": "2026-11-04",
    "title": "대표이사(대표집행임원)변경(안내공시)",

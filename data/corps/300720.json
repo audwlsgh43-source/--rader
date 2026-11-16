@@ -1,0 +1,28 @@
+{
+ "name": "한일시멘트",
+ "code": "300720",
+ "mkt": "코스피",
+ "corp_code": "01319808",
+ "disclosures": [
+  {
+   "rcept_no": "20261116801875",
+   "date": "2026-11-16",
+   "title": "대표이사(대표집행임원)변경(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116801875",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116001665",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001665",
+   "seen": "18:11"
+  }
+ ]
+}

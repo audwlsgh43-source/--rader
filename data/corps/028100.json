@@ -5,6 +5,26 @@
  "corp_code": "00178754",
  "disclosures": [
   {
+   "rcept_no": "20261116800982",
+   "date": "2026-11-16",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116800982",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116000951",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000951",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261110800167",
    "date": "2026-11-10",
    "title": "수시공시의무관련사항(공정공시)",

@@ -5,6 +5,46 @@
  "corp_code": "01514698",
  "disclosures": [
   {
+   "rcept_no": "20261116901562",
+   "date": "2026-11-16",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116901562",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116901552",
+   "date": "2026-11-16",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116901552",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116001311",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001311",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116001267",
+   "date": "2026-11-16",
+   "title": "[기재정정]주요사항보고서(전환사채매수선택권행사자지정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001267",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261110000410",
    "date": "2026-11-10",
    "title": "주식등의대량보유상황보고서(약식)",

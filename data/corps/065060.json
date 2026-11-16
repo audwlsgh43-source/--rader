@@ -5,6 +5,36 @@
  "corp_code": "00258102",
  "disclosures": [
   {
+   "rcept_no": "20261116002241",
+   "date": "2026-11-16",
+   "title": "주요사항보고서(자기전환사채만기전취득결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002241",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116002204",
+   "date": "2026-11-16",
+   "title": "[기재정정]주요사항보고서(전환사채매수선택권행사자지정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002204",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116001751",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001751",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261111000336",
    "date": "2026-11-11",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

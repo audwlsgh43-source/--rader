@@ -5,6 +5,26 @@
  "corp_code": "00863038",
  "disclosures": [
   {
+   "rcept_no": "20261116902412",
+   "date": "2026-11-16",
+   "title": "기타시장안내              (상장적격성 실질심사 사유 추가안내)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116902412",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116902187",
+   "date": "2026-11-16",
+   "title": "반기또는분기매출액미달사실발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116902187",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261116000697",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

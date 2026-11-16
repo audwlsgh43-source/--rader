@@ -5,6 +5,36 @@
  "corp_code": "00200910",
  "disclosures": [
   {
+   "rcept_no": "20261116002049",
+   "date": "2026-11-16",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002049",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116002000",
+   "date": "2026-11-16",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002000",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116001566",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001566",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261110000384",
    "date": "2026-11-10",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

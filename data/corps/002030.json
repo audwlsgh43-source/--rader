@@ -1,0 +1,28 @@
+{
+ "name": "아세아",
+ "code": "002030",
+ "mkt": "코스피",
+ "corp_code": "00138701",
+ "disclosures": [
+  {
+   "rcept_no": "20261116801039",
+   "date": "2026-11-16",
+   "title": "현금ㆍ현물배당결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116801039",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116000823",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000823",
+   "seen": "18:11"
+  }
+ ]
+}

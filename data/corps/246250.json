@@ -5,6 +5,26 @@
  "corp_code": "01112700",
  "disclosures": [
   {
+   "rcept_no": "20261116002244",
+   "date": "2026-11-16",
+   "title": "[기재정정]분기보고서 (2026.09)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002244",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116001190",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001190",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261026900656",
    "date": "2026-10-26",
    "title": "기타시장안내              (정리매매 보류 관련)",

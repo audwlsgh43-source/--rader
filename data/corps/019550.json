@@ -5,6 +5,26 @@
  "corp_code": "00156910",
  "disclosures": [
   {
+   "rcept_no": "20261116001625",
+   "date": "2026-11-16",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001625",
+   "seen": "18:11"
+  },
+  {
+   "rcept_no": "20261116001595",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001595",
+   "seen": "18:11"
+  },
+  {
    "rcept_no": "20261026900710",
    "date": "2026-10-26",
    "title": "기타시장안내(관리종목지정우려종목)              (주가 1,000원 미달)",
