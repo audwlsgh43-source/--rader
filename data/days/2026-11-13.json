@@ -1,7 +1,7 @@
 {
  "date": "2026-11-13",
- "updated_at": "2026-11-16 23:26",
- "count": 1265,
+ "updated_at": "2026-11-17 07:39",
+ "count": 1264,
  "items": [
   {
    "rcept_no": "20261113802072",
@@ -4067,7 +4067,7 @@
   {
    "rcept_no": "20261113901592",
    "date": "2026-11-13",
-   "corp": "베노티앤알",
+   "corp": "아인스팩씨엔에스",
    "stock_code": "206400",
    "corp_code": "01043853",
    "mkt": "코스닥",
@@ -15068,26 +15068,6 @@
    "events": [],
    "analyzed": false,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000880"
-  },
-  {
-   "rcept_no": "20261113000878",
-   "date": "2026-11-13",
-   "corp": "에코볼트",
-   "stock_code": "097780",
-   "corp_code": "00562360",
-   "mkt": "코스닥",
-   "type": "earn",
-   "imp": "low",
-   "title": "분기보고서 (2026.09)",
-   "flr": "에코볼트",
-   "rm": "",
-   "seen": "15:39",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000878"
   },
   {
    "rcept_no": "20261113000876",
