@@ -5,6 +5,16 @@
  "corp_code": "01781999",
  "disclosures": [
   {
+   "rcept_no": "20261116000306",
+   "date": "2026-11-16",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000306",
+   "seen": "14:04"
+  },
+  {
    "rcept_no": "20261027900002",
    "date": "2026-10-27",
    "title": "투자판단관련주요경영사항              (ODS025 기술이전계약 관련 마일스톤 기술료 수령)",

@@ -5,6 +5,16 @@
  "corp_code": "00346911",
  "disclosures": [
   {
+   "rcept_no": "20261116900522",
+   "date": "2026-11-16",
+   "title": "기타시장안내              (상장적격성 실질심사 사유추가)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116900522",
+   "seen": "14:04"
+  },
+  {
    "rcept_no": "20261116900295",
    "date": "2026-11-16",
    "title": "반기또는분기매출액미달사실발생",
@@ -13,6 +23,16 @@
    "ai": "",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116900295",
    "seen": "11:27"
+  },
+  {
+   "rcept_no": "20261116000379",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000379",
+   "seen": "14:04"
   },
   {
    "rcept_no": "20261026900775",
