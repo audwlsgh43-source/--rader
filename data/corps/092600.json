@@ -5,6 +5,16 @@
  "corp_code": "00537337",
  "disclosures": [
   {
+   "rcept_no": "20261116000540",
+   "date": "2026-11-16",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000540",
+   "seen": "15:20"
+  },
+  {
    "rcept_no": "20261113900759",
    "date": "2026-11-13",
    "title": "대표이사변경",

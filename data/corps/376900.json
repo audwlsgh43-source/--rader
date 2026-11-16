@@ -5,6 +5,26 @@
  "corp_code": "01335143",
  "disclosures": [
   {
+   "rcept_no": "20261116900607",
+   "date": "2026-11-16",
+   "title": "타법인주식및출자증권취득결정",
+   "type": "ma",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116900607",
+   "seen": "15:20"
+  },
+  {
+   "rcept_no": "20261116000742",
+   "date": "2026-11-16",
+   "title": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000742",
+   "seen": "15:20"
+  },
+  {
    "rcept_no": "20261113001071",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",

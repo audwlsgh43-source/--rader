@@ -1,0 +1,38 @@
+{
+ "name": "셀레스트라",
+ "code": "352770",
+ "mkt": "코스닥",
+ "corp_code": "01201970",
+ "disclosures": [
+  {
+   "rcept_no": "20261116900877",
+   "date": "2026-11-16",
+   "title": "기타시장안내              (상장적격성 실질심사 사유 추가 관련 절차 미진행)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116900877",
+   "seen": "15:20"
+  },
+  {
+   "rcept_no": "20261116900809",
+   "date": "2026-11-16",
+   "title": "반기또는분기매출액미달사실발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116900809",
+   "seen": "15:20"
+  },
+  {
+   "rcept_no": "20261116000746",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000746",
+   "seen": "15:20"
+  }
+ ]
+}

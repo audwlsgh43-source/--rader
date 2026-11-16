@@ -5,6 +5,26 @@
  "corp_code": "01636565",
  "disclosures": [
   {
+   "rcept_no": "20261116900540",
+   "date": "2026-11-16",
+   "title": "본점소재지변경",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116900540",
+   "seen": "15:20"
+  },
+  {
+   "rcept_no": "20261116000586",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000586",
+   "seen": "15:20"
+  },
+  {
    "rcept_no": "20261113902037",
    "date": "2026-11-13",
    "title": "[기재정정]신규시설투자등",

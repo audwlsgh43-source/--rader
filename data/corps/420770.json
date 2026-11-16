@@ -5,6 +5,26 @@
  "corp_code": "00765569",
  "disclosures": [
   {
+   "rcept_no": "20261116000783",
+   "date": "2026-11-16",
+   "title": "분기보고서 (2026.09)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000783",
+   "seen": "15:20"
+  },
+  {
+   "rcept_no": "20261116000646",
+   "date": "2026-11-16",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000646",
+   "seen": "15:20"
+  },
+  {
    "rcept_no": "20261028900110",
    "date": "2026-10-28",
    "title": "단일판매ㆍ공급계약체결",

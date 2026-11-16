@@ -5,6 +5,36 @@
  "corp_code": "00876865",
  "disclosures": [
   {
+   "rcept_no": "20261116000621",
+   "date": "2026-11-16",
+   "title": "[기재정정]투자설명서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000621",
+   "seen": "15:20"
+  },
+  {
+   "rcept_no": "20261116000613",
+   "date": "2026-11-16",
+   "title": "[기재정정]증권신고서(주식의포괄적교환ㆍ이전)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000613",
+   "seen": "15:20"
+  },
+  {
+   "rcept_no": "20261116000574",
+   "date": "2026-11-16",
+   "title": "[첨부정정]주요사항보고서(주식교환ㆍ이전결정)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000574",
+   "seen": "15:20"
+  },
+  {
    "rcept_no": "20261113000537",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",
