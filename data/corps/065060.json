@@ -5,6 +5,16 @@
  "corp_code": "00258102",
  "disclosures": [
   {
+   "rcept_no": "20261117000164",
+   "date": "2026-11-17",
+   "title": "특수관계인으로부터자금차입",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000164",
+   "seen": "17:04"
+  },
+  {
    "rcept_no": "20261116002241",
    "date": "2026-11-16",
    "title": "주요사항보고서(자기전환사채만기전취득결정)",

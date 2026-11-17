@@ -5,6 +5,36 @@
  "corp_code": "00660459",
  "disclosures": [
   {
+   "rcept_no": "20261117000222",
+   "date": "2026-11-17",
+   "title": "[기재정정]주식등의대량보유상황보고서(일반)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000222",
+   "seen": "17:04"
+  },
+  {
+   "rcept_no": "20261117000173",
+   "date": "2026-11-17",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000173",
+   "seen": "17:04"
+  },
+  {
+   "rcept_no": "20261117000169",
+   "date": "2026-11-17",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000169",
+   "seen": "17:04"
+  },
+  {
    "rcept_no": "20261116000848",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

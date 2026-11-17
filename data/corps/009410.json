@@ -5,6 +5,26 @@
  "corp_code": "00153861",
  "disclosures": [
   {
+   "rcept_no": "20261117800515",
+   "date": "2026-11-17",
+   "title": "기타안내사항(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117800515",
+   "seen": "17:04"
+  },
+  {
+   "rcept_no": "20261117800505",
+   "date": "2026-11-17",
+   "title": "중대재해발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117800505",
+   "seen": "17:04"
+  },
+  {
    "rcept_no": "20261116001348",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
