@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
- "updated_at": "2026-11-17 09:08",
- "count": 1829,
+ "updated_at": "2026-11-17 09:56",
+ "count": 1827,
  "items": [
   {
    "rcept_no": "20261116902611",
@@ -164,26 +164,6 @@
    "events": [],
    "analyzed": false,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116902584"
-  },
-  {
-   "rcept_no": "20261116902580",
-   "date": "2026-11-16",
-   "corp": "스코넥",
-   "stock_code": "276040",
-   "corp_code": "01290248",
-   "mkt": "코스닥",
-   "type": "etc",
-   "imp": "low",
-   "title": "기타시장안내              (상장적격성 실질심사 사유추가 안내)",
-   "flr": "코스닥시장본부",
-   "rm": "코",
-   "seen": "19:45",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116902580"
   },
   {
    "rcept_no": "20261116902532",
@@ -384,26 +364,6 @@
    "events": [],
    "analyzed": false,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116902540"
-  },
-  {
-   "rcept_no": "20261116902527",
-   "date": "2026-11-16",
-   "corp": "스코넥",
-   "stock_code": "276040",
-   "corp_code": "01290248",
-   "mkt": "코스닥",
-   "type": "etc",
-   "imp": "low",
-   "title": "반기또는분기매출액미달사실발생",
-   "flr": "스코넥",
-   "rm": "코",
-   "seen": "18:11",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116902527"
   },
   {
    "rcept_no": "20261116902519",
@@ -32970,7 +32930,7 @@
    "imp": "low",
    "title": "분기보고서 (2026.09)",
    "flr": "큐에스아이",
-   "rm": "",
+   "rm": "정",
    "seen": "12:35",
    "ai": "",
    "points": [],
