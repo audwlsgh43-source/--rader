@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
- "updated_at": "2026-11-17 21:08",
- "count": 1827,
+ "updated_at": "2026-11-18 07:44",
+ "count": 1826,
  "items": [
   {
    "rcept_no": "20261116902611",
@@ -4411,26 +4411,6 @@
    "events": [],
    "analyzed": false,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002128"
-  },
-  {
-   "rcept_no": "20261116002127",
-   "date": "2026-11-16",
-   "corp": "신한제12호스팩",
-   "stock_code": "474660",
-   "corp_code": "01809569",
-   "mkt": "코스닥",
-   "type": "earn",
-   "imp": "low",
-   "title": "분기보고서 (2026.09)",
-   "flr": "신한제12호스팩",
-   "rm": "",
-   "seen": "18:11",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002127"
   },
   {
    "rcept_no": "20261116002126",
