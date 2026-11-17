@@ -5,6 +5,46 @@
  "corp_code": "00407814",
  "disclosures": [
   {
+   "rcept_no": "20261117900584",
+   "date": "2026-11-17",
+   "title": "주식병합결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900584",
+   "seen": "18:07"
+  },
+  {
+   "rcept_no": "20261117900582",
+   "date": "2026-11-17",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900582",
+   "seen": "18:07"
+  },
+  {
+   "rcept_no": "20261117900576",
+   "date": "2026-11-17",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900576",
+   "seen": "18:07"
+  },
+  {
+   "rcept_no": "20261117000230",
+   "date": "2026-11-17",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000230",
+   "seen": "18:07"
+  },
+  {
    "rcept_no": "20261116001833",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
