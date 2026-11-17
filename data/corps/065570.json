@@ -5,6 +5,26 @@
  "corp_code": "00288343",
  "disclosures": [
   {
+   "rcept_no": "20261117900312",
+   "date": "2026-11-17",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900312",
+   "seen": "14:44"
+  },
+  {
+   "rcept_no": "20261117900307",
+   "date": "2026-11-17",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900307",
+   "seen": "14:44"
+  },
+  {
    "rcept_no": "20261116901800",
    "date": "2026-11-16",
    "title": "증권발행결과(자율공시)",

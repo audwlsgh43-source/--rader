@@ -5,6 +5,16 @@
  "corp_code": "01487446",
  "disclosures": [
   {
+   "rcept_no": "20261117900294",
+   "date": "2026-11-17",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900294",
+   "seen": "14:44"
+  },
+  {
    "rcept_no": "20261113000162",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",

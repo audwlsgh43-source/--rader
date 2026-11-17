@@ -5,6 +5,16 @@
  "corp_code": "00166315",
  "disclosures": [
   {
+   "rcept_no": "20261117800310",
+   "date": "2026-11-17",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117800310",
+   "seen": "14:44"
+  },
+  {
    "rcept_no": "20261116800916",
    "date": "2026-11-16",
    "title": "타인에대한채무보증결정",
