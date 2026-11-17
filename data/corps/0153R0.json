@@ -5,6 +5,46 @@
  "corp_code": "01835829",
  "disclosures": [
   {
+   "rcept_no": "20261117000115",
+   "date": "2026-11-17",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000115",
+   "seen": "15:50"
+  },
+  {
+   "rcept_no": "20261117000113",
+   "date": "2026-11-17",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000113",
+   "seen": "15:50"
+  },
+  {
+   "rcept_no": "20261117000107",
+   "date": "2026-11-17",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000107",
+   "seen": "15:50"
+  },
+  {
+   "rcept_no": "20261117000105",
+   "date": "2026-11-17",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117000105",
+   "seen": "15:50"
+  },
+  {
    "rcept_no": "20261116900261",
    "date": "2026-11-16",
    "title": "주주명부폐쇄기간또는기준일설정",

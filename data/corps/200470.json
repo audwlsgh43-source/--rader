@@ -5,6 +5,26 @@
  "corp_code": "00667425",
  "disclosures": [
   {
+   "rcept_no": "20261117900359",
+   "date": "2026-11-17",
+   "title": "신주인수권행사가액의조정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900359",
+   "seen": "15:50"
+  },
+  {
+   "rcept_no": "20261117900358",
+   "date": "2026-11-17",
+   "title": "전환가액의조정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900358",
+   "seen": "15:50"
+  },
+  {
    "rcept_no": "20261113901730",
    "date": "2026-11-13",
    "title": "증권발행결과(자율공시)",
