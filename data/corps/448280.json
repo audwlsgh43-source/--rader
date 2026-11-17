@@ -5,6 +5,26 @@
  "corp_code": "01218299",
  "disclosures": [
   {
+   "rcept_no": "20261117900285",
+   "date": "2026-11-17",
+   "title": "기업설명회(IR)개최",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900285",
+   "seen": "13:43"
+  },
+  {
+   "rcept_no": "20261117900277",
+   "date": "2026-11-17",
+   "title": "단일판매ㆍ공급계약체결",
+   "type": "contract",
+   "imp": "high",
+   "ai": "에코아이가 스위스 LDC와 배출권 판매 계약을 체결했으며, 계약금액 총액은 3,653,120,332원으로 최근 매출액의 11.8%에 해당합니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261117900277",
+   "seen": "13:43"
+  },
+  {
    "rcept_no": "20261116000065",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
