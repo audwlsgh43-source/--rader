@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18 19:39",
+ "updated_at": "2026-11-18 20:36",
  "digest": null,
  "codes": {
   "인벤테라": "0007J0",
@@ -21,12 +21,160 @@
  },
  "items": [
   {
+   "title": "나스닥 7% 빠질 때 8% 올랐다…AI 투자 부담에 뜨는 ‘캐시카우 ETF’ [투자360]",
+   "press": "헤럴드경제",
+   "time": "2026-11-18 20:21",
+   "url": "https://n.news.naver.com/mnews/article/016/0002725354",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "\"혼란한 증시서 듬직하다\"… 첫 목표가 '31만원' 찍은 종목 [주식R]",
+   "press": "한국경제TV",
+   "time": "2026-11-18 20:15",
+   "url": "https://n.news.naver.com/mnews/article/215/0001273195",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "엔비디아가 살린 코스피…하루 만에 5,000선 탈환",
+   "press": "연합뉴스TV",
+   "time": "2026-11-18 20:12",
+   "url": "https://n.news.naver.com/mnews/article/422/0000927566",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "엔비디아가 살린 코스피…하루 만에 5,000선 탈환",
+   "press": "연합뉴스TV",
+   "time": "2026-11-18 20:12",
+   "url": "https://n.news.naver.com/mnews/article/422/0000927566?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "6개월 새 반토막 났는데…\"왕이 되려는 자\" 평가 된 종목 [주식R]",
+   "press": "한국경제TV",
+   "time": "2026-11-18 20:02",
+   "url": "https://n.news.naver.com/mnews/article/215/0001273194",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "아빠 주먹보다 큰 사과가 6개 1만 원…품종 불문 \"가격 착하네\"",
+   "press": "MBN",
+   "time": "2026-11-18 19:55",
+   "url": "https://n.news.naver.com/mnews/article/057/0001978837",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "포장김치 가격은 안 떨어졌네…김장하는 것보다 2배 돈 더 든다",
+   "press": "MBN",
+   "time": "2026-11-18 19:53",
+   "url": "https://n.news.naver.com/mnews/article/057/0001978836",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "DB하이텍, 429억원 규모 자사주 소각… 420억원 추가 매입 계획",
+   "press": "조선비즈",
+   "time": "2026-11-18 19:50",
+   "url": "https://n.news.naver.com/mnews/article/366/0001205781",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "삼성증권, '모니모' 신규 가입 이벤트 이달 말까지",
+   "press": "뉴시스",
+   "time": "2026-11-18 19:49",
+   "url": "https://n.news.naver.com/mnews/article/003/0014331229",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "한·중&#160;FTA&#160;후속 협상 타결…&#160;한한령 해제 물꼬에 엔터주 불기둥",
+   "press": "디지털데일리",
+   "time": "2026-11-18 19:46",
+   "url": "https://n.news.naver.com/mnews/article/138/0002249125",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "보조배터리 터져도 열감지기 잠잠…골든타임 버는 연기감지기 40% 미설치",
+   "press": "MBN",
+   "time": "2026-11-18 19:45",
+   "url": "https://n.news.naver.com/mnews/article/057/0001978831",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
+   "title": "‘곰표 밀맥주’ 세븐브로이, 회생계획 인가… 경영 정상화 수순",
+   "press": "조선비즈",
+   "time": "2026-11-18 19:43",
+   "url": "https://n.news.naver.com/mnews/article/366/0001205780",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 20:36"
+  },
+  {
    "title": "'1만2000→9000→7500' 내렸는데…\"삼전닉스 아직 안 끝났다\"는 이유",
    "press": "한국경제TV",
    "time": "2026-11-18 19:36",
    "url": "https://n.news.naver.com/mnews/article/215/0001273190",
    "cats": [
-    "속보"
+    "속보",
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -51,7 +199,8 @@
    "url": "https://n.news.naver.com/mnews/article/014/0005606439",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -76,7 +225,8 @@
    "url": "https://n.news.naver.com/mnews/article/011/0004683702",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -101,7 +251,8 @@
    "url": "https://n.news.naver.com/mnews/article/016/0002725338",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -138,7 +289,8 @@
    "url": "https://n.news.naver.com/mnews/article/009/0005765836",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -197,6 +349,18 @@
    "title": "DB하이텍, 429억원 규모 자사주 소각…420억원 추가취득 예고",
    "press": "연합뉴스",
    "time": "2026-11-18 18:31",
+   "url": "https://n.news.naver.com/mnews/article/001/0016450186?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 18:39"
+  },
+  {
+   "title": "DB하이텍, 429억원 규모 자사주 소각…420억원 추가취득 예고",
+   "press": "연합뉴스",
+   "time": "2026-11-18 18:31",
    "url": "https://n.news.naver.com/mnews/article/001/0016450186",
    "cats": [
     "속보"
@@ -212,18 +376,6 @@
    "url": "https://n.news.naver.com/mnews/article/366/0001205774",
    "cats": [
     "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 18:39"
-  },
-  {
-   "title": "DB하이텍, 429억원 규모 자사주 소각…420억원 추가취득 예고",
-   "press": "연합뉴스",
-   "time": "2026-11-18 18:31",
-   "url": "https://n.news.naver.com/mnews/article/001/0016450186?sid=101258401",
-   "cats": [
-    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -259,9 +411,9 @@
    "title": "반도체가 다했다…코스피 상장사 영업익 10% 증가",
    "press": "한국경제",
    "time": "2026-11-18 18:24",
-   "url": "https://n.news.naver.com/mnews/article/015/0005355508",
+   "url": "https://n.news.naver.com/mnews/article/015/0005355508?sid=101258402",
    "cats": [
-    "속보"
+    "기업·종목"
    ],
    "stocks": [],
    "ai": "",
@@ -271,9 +423,9 @@
    "title": "반도체가 다했다…코스피 상장사 영업익 10% 증가",
    "press": "한국경제",
    "time": "2026-11-18 18:24",
-   "url": "https://n.news.naver.com/mnews/article/015/0005355508?sid=101258402",
+   "url": "https://n.news.naver.com/mnews/article/015/0005355508",
    "cats": [
-    "기업·종목"
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -308,9 +460,9 @@
    "title": "하나에어로다이내믹스, 코스닥 신규 상장…오는 20일 거래 개시",
    "press": "연합뉴스",
    "time": "2026-11-18 18:21",
-   "url": "https://n.news.naver.com/mnews/article/001/0016450172",
+   "url": "https://n.news.naver.com/mnews/article/001/0016450172?sid=101258401",
    "cats": [
-    "속보"
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -320,9 +472,9 @@
    "title": "하나에어로다이내믹스, 코스닥 신규 상장…오는 20일 거래 개시",
    "press": "연합뉴스",
    "time": "2026-11-18 18:21",
-   "url": "https://n.news.naver.com/mnews/article/001/0016450172?sid=101258401",
+   "url": "https://n.news.naver.com/mnews/article/001/0016450172",
    "cats": [
-    "시황·전망"
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -333,42 +485,6 @@
    "press": "한국경제",
    "time": "2026-11-18 18:20",
    "url": "https://n.news.naver.com/mnews/article/015/0005355504",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 18:39"
-  },
-  {
-   "title": "코스피 상장사 3분기 영업익 266%↑…10곳 중 4곳은 적자 ‘실적 양극화’",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-18 18:19",
-   "url": "https://n.news.naver.com/mnews/article/014/0005606384",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 18:39"
-  },
-  {
-   "title": "업비트 ‘코인모으기’ 누적 1조 돌파",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-18 18:19",
-   "url": "https://n.news.naver.com/mnews/article/014/0005606383",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 18:39"
-  },
-  {
-   "title": "\"ELS 손실구간 근접\" 내달부터 투자자에 미리 알려준다",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-18 18:19",
-   "url": "https://n.news.naver.com/mnews/article/014/0005606382",
    "cats": [
     "속보"
    ],
@@ -407,6 +523,42 @@
    "url": "https://n.news.naver.com/mnews/article/014/0005606382?sid=101258402",
    "cats": [
     "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 18:39"
+  },
+  {
+   "title": "코스피 상장사 3분기 영업익 266%↑…10곳 중 4곳은 적자 ‘실적 양극화’",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-18 18:19",
+   "url": "https://n.news.naver.com/mnews/article/014/0005606384",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 18:39"
+  },
+  {
+   "title": "업비트 ‘코인모으기’ 누적 1조 돌파",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-18 18:19",
+   "url": "https://n.news.naver.com/mnews/article/014/0005606383",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-18 18:39"
+  },
+  {
+   "title": "\"ELS 손실구간 근접\" 내달부터 투자자에 미리 알려준다",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-18 18:19",
+   "url": "https://n.news.naver.com/mnews/article/014/0005606382",
+   "cats": [
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -849,7 +1001,7 @@
    "first_seen": "2026-11-18 18:39"
   },
   {
-   "title": "반도체·정유, 4분기도 맑음…車·배터리는 먹구름 몰려와",
+   "title": "반도체·정유, 4분기도 맑음 … 車·배터리는 먹구름 몰려와",
    "press": "매일경제",
    "time": "2026-11-18 17:44",
    "url": "https://n.news.naver.com/mnews/article/009/0005765799",
@@ -4763,154 +4915,6 @@
     "시황·전망"
    ],
    "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "외국인 매수에도 팔기 바쁜 개인…코스피, 5000선 아래로",
-   "press": "조선비즈",
-   "time": "2026-11-18 10:59",
-   "url": "https://n.news.naver.com/mnews/article/366/0001205610",
-   "cats": [
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 13:09"
-  },
-  {
-   "title": "베이비몬스터, '춤' 스포티파이 1억 스트리밍 돌파… 팀 통산 8번째",
-   "press": "머니투데이",
-   "time": "2026-11-18 10:59",
-   "url": "https://n.news.naver.com/mnews/article/008/0005442820?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "케이엔알시스템 2톤짜리 로봇다리, 보행테스트 통과",
-   "press": "동행미디어 시대",
-   "time": "2026-11-18 10:57",
-   "url": "https://n.news.naver.com/mnews/article/417/0001164741?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "현대로템, ‘국내 유일’ 극초음속 엔진 시험기지 증축",
-   "press": "서울경제",
-   "time": "2026-11-18 10:55",
-   "url": "https://n.news.naver.com/mnews/article/011/0004683483?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "에스폴리텍, 유리 대체할 ‘고내후성 PC 투명판’ 개발… 도로 인프라 시장 공략",
-   "press": "매일경제",
-   "time": "2026-11-18 10:54",
-   "url": "https://n.news.naver.com/mnews/article/009/0005765371?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "웰크론한텍, 바이오가스 민간 확대 수혜… 고농도 폐수처리 역량 부각",
-   "press": "머니투데이",
-   "time": "2026-11-18 10:52",
-   "url": "https://n.news.naver.com/mnews/article/008/0005442815?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "\"엔비디아 살아있네\"…깜짝 실적에 시간외 4.8% 급등",
-   "press": "한국경제TV",
-   "time": "2026-11-18 10:48",
-   "url": "https://n.news.naver.com/mnews/article/215/0001273107",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "앱코 최대주주 불스아이, CES 2027 참가… 차세대 의료 솔루션 3종 공개",
-   "press": "머니투데이",
-   "time": "2026-11-18 10:46",
-   "url": "https://n.news.naver.com/mnews/article/008/0005442807?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "[속보]코스피 다시 5000선 하회, 하루 만에 4000대로",
-   "press": "머니투데이",
-   "time": "2026-11-18 10:43",
-   "url": "https://n.news.naver.com/mnews/article/008/0005442806?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "엠플러스, 삼성SDI 혁신기술 경진대회 'S-NOVA' 대상 수상",
-   "press": "동행미디어 시대",
-   "time": "2026-11-18 10:37",
-   "url": "https://n.news.naver.com/mnews/article/417/0001164732?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [
-    "삼성SDI"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-18 11:20"
-  },
-  {
-   "title": "코스피 5000선 공방전… \"지금은 매도 아닌 버틸 때\" [한밤의 증시포차]",
-   "press": "한국경제TV",
-   "time": "2026-11-18 10:36",
-   "url": "https://n.news.naver.com/mnews/article/215/0001273105",
-   "cats": [
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-18 12:13"
-  },
-  {
-   "title": "현대차, 어촌에 PBV ST1 투입 추진…어민 이동 편의 높인다",
-   "press": "서울경제",
-   "time": "2026-11-18 10:36",
-   "url": "https://n.news.naver.com/mnews/article/011/0004683467?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [
-    "현대차"
-   ],
    "ai": "",
    "first_seen": "2026-11-18 11:20"
   }

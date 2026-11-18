@@ -1,8 +1,28 @@
 {
  "date": "2026-11-18",
- "updated_at": "2026-11-18 19:38",
- "count": 285,
+ "updated_at": "2026-11-18 20:35",
+ "count": 286,
  "items": [
+  {
+   "rcept_no": "20261118900641",
+   "date": "2026-11-18",
+   "corp": "하나33호스팩",
+   "stock_code": "475250",
+   "corp_code": "01807729",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "주권매매거래정지              (상장폐지 사유발생)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "20:35",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900641"
+  },
   {
    "rcept_no": "20261118900627",
    "date": "2026-11-18",
