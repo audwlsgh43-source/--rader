@@ -5,6 +5,26 @@
  "corp_code": "00230036",
  "disclosures": [
   {
+   "rcept_no": "20261118900616",
+   "date": "2026-11-18",
+   "title": "주권매매거래정지기간변경              (상장폐지 사유 발생)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900616",
+   "seen": "18:38"
+  },
+  {
+   "rcept_no": "20261118900584",
+   "date": "2026-11-18",
+   "title": "기타시장안내              (기업심사위원회 개최 결과 안내)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900584",
+   "seen": "18:38"
+  },
+  {
    "rcept_no": "20261113000829",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",
