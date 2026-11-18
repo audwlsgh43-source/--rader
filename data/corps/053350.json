@@ -5,6 +5,26 @@
  "corp_code": "00353610",
  "disclosures": [
   {
+   "rcept_no": "20261118900518",
+   "date": "2026-11-18",
+   "title": "[기재정정]주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900518",
+   "seen": "17:39"
+  },
+  {
+   "rcept_no": "20261118000304",
+   "date": "2026-11-18",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000304",
+   "seen": "17:39"
+  },
+  {
    "rcept_no": "20261113001061",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",

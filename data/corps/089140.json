@@ -5,6 +5,16 @@
  "corp_code": "00416414",
  "disclosures": [
   {
+   "rcept_no": "20261118000258",
+   "date": "2026-11-18",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000258",
+   "seen": "17:39"
+  },
+  {
    "rcept_no": "20261117900590",
    "date": "2026-11-17",
    "title": "[기재정정]최대주주변경을수반하는주식담보제공계약체결",

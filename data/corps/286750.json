@@ -5,6 +5,16 @@
  "corp_code": "01136001",
  "disclosures": [
   {
+   "rcept_no": "20261118000285",
+   "date": "2026-11-18",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000285",
+   "seen": "17:39"
+  },
+  {
    "rcept_no": "20261116002158",
    "date": "2026-11-16",
    "title": "주식등의대량보유상황보고서(약식)",

@@ -1,0 +1,68 @@
+{
+ "name": "에이엘로봇",
+ "code": "471800",
+ "mkt": "코스닥",
+ "corp_code": "01797635",
+ "disclosures": [
+  {
+   "rcept_no": "20261118000276",
+   "date": "2026-11-18",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000276",
+   "seen": "17:39"
+  },
+  {
+   "rcept_no": "20261118000275",
+   "date": "2026-11-18",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000275",
+   "seen": "17:39"
+  },
+  {
+   "rcept_no": "20261118000272",
+   "date": "2026-11-18",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000272",
+   "seen": "17:39"
+  },
+  {
+   "rcept_no": "20261118000268",
+   "date": "2026-11-18",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000268",
+   "seen": "17:39"
+  },
+  {
+   "rcept_no": "20261118000265",
+   "date": "2026-11-18",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000265",
+   "seen": "17:39"
+  },
+  {
+   "rcept_no": "20261118000263",
+   "date": "2026-11-18",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000263",
+   "seen": "17:39"
+  }
+ ]
+}

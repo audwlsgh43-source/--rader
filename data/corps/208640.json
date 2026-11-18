@@ -5,6 +5,46 @@
  "corp_code": "01049422",
  "disclosures": [
   {
+   "rcept_no": "20261118900571",
+   "date": "2026-11-18",
+   "title": "경영권변경등에관한계약체결",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900571",
+   "seen": "17:39"
+  },
+  {
+   "rcept_no": "20261118900402",
+   "date": "2026-11-18",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900402",
+   "seen": "17:39"
+  },
+  {
+   "rcept_no": "20261118900398",
+   "date": "2026-11-18",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900398",
+   "seen": "17:39"
+  },
+  {
+   "rcept_no": "20261118000239",
+   "date": "2026-11-18",
+   "title": "주요사항보고서(유상증자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "썸에이지가 제3자배정 방식으로 보통주 15,477,792주(주당 743원)를 발행하는 유상증자를 결정했으며, 납입이 완료되면 예주산업 주식회사가 최대주주로 변경될 예정입니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000239",
+   "seen": "17:39"
+  },
+  {
    "rcept_no": "20261116902567",
    "date": "2026-11-16",
    "title": "기타시장안내              (주가 미달에 따른 상장폐지 우려 관련 안내)",
