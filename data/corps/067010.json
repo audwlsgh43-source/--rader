@@ -5,6 +5,16 @@
  "corp_code": "00400060",
  "disclosures": [
   {
+   "rcept_no": "20261118900057",
+   "date": "2026-11-18",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900057",
+   "seen": "10:02"
+  },
+  {
    "rcept_no": "20261116000454",
    "date": "2026-11-16",
    "title": "반기보고서 (2026.09)",
