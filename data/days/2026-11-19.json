@@ -1,0 +1,160 @@
+{
+ "date": "2026-11-19",
+ "updated_at": "2026-11-19 07:43",
+ "count": 6,
+ "items": [
+  {
+   "rcept_no": "20261118000368",
+   "date": "2026-11-19",
+   "corp": "나래나노텍",
+   "stock_code": "137080",
+   "corp_code": "00362122",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]주요사항보고서(자기주식취득결정)",
+   "flr": "나래나노텍",
+   "rm": "",
+   "seen": "07:43",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000368"
+  },
+  {
+   "rcept_no": "20261118000367",
+   "date": "2026-11-19",
+   "corp": "판타지오",
+   "stock_code": "032800",
+   "corp_code": "00231691",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[첨부정정]주요사항보고서(유상증자결정)",
+   "flr": "판타지오",
+   "rm": "",
+   "seen": "07:43",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000367"
+  },
+  {
+   "rcept_no": "20261118000366",
+   "date": "2026-11-19",
+   "corp": "GRT",
+   "stock_code": "900290",
+   "corp_code": "01170962",
+   "mkt": "코스닥",
+   "type": "capital",
+   "imp": "high",
+   "title": "주요사항보고서(유상증자결정)",
+   "flr": "GRT",
+   "rm": "",
+   "seen": "07:43",
+   "ai": "GRT가 China Polymer Thin Film Supply Chain Limited 지분 35%를 취득하는 대가로 신주 15,009,000주를 제3자배정 방식으로 발행하며, 발행가는 2,800원입니다.",
+   "points": [
+    "제3자배정 방식 유상증자이며, 타법인 지분 취득 대가로 하는 현물출자",
+    "발행가 2,800원은 기준주가 2,786원에 0.48% 할증한 가액",
+    "대상자: HuiYao International, HONG KONG BIG WEEK, Liu Ying (1년 보호예수)",
+    "35% 지분 가격은 100% 지분가치 6억 CNY 기준 쌍방 협의로 결정"
+   ],
+   "numbers": [
+    [
+     "신주 수",
+     "15,009,000주"
+    ],
+    [
+     "발행가액",
+     "2,800원"
+    ],
+    [
+     "현물출자가액",
+     "420억2,520만원"
+    ],
+    [
+     "증자 전 발행주식총수",
+     "92,751,685주"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-26",
+     "kind": "납입일",
+     "desc": "제3자배정 신주 납입일"
+    },
+    {
+     "date": "2026-12-18",
+     "kind": "신주상장",
+     "desc": "발행 신주의 상장 예정일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000366"
+  },
+  {
+   "rcept_no": "20261118000364",
+   "date": "2026-11-19",
+   "corp": "삼성FN리츠",
+   "stock_code": "448730",
+   "corp_code": "01688896",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "삼성생명",
+   "rm": "",
+   "seen": "07:43",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000364"
+  },
+  {
+   "rcept_no": "20261118000362",
+   "date": "2026-11-19",
+   "corp": "NE능률",
+   "stock_code": "053290",
+   "corp_code": "00363927",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "이정진",
+   "rm": "",
+   "seen": "07:43",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000362"
+  },
+  {
+   "rcept_no": "20261109100021",
+   "date": "2026-11-19",
+   "corp": "이렘",
+   "stock_code": "009730",
+   "corp_code": "00116426",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "효력발생안내( 2026.11.9. 제출 증권신고서(지분증권) )",
+   "flr": "금융감독원",
+   "rm": "",
+   "seen": "07:43",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261109100021"
+  }
+ ]
+}
