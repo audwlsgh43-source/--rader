@@ -5,6 +5,16 @@
  "corp_code": "00132318",
  "disclosures": [
   {
+   "rcept_no": "20261118900086",
+   "date": "2026-11-18",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900086",
+   "seen": "11:18"
+  },
+  {
    "rcept_no": "20261118900050",
    "date": "2026-11-18",
    "title": "기업설명회(IR)개최",

@@ -5,6 +5,16 @@
  "corp_code": "00339391",
  "disclosures": [
   {
+   "rcept_no": "20261118000053",
+   "date": "2026-11-18",
+   "title": "특수관계인과의보험거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000053",
+   "seen": "11:18"
+  },
+  {
    "rcept_no": "20261112000663",
    "date": "2026-11-12",
    "title": "분기보고서 (2026.09)",
