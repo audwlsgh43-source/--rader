@@ -5,6 +5,36 @@
  "corp_code": "01514005",
  "disclosures": [
   {
+   "rcept_no": "20261118900267",
+   "date": "2026-11-18",
+   "title": "조회공시요구(풍문또는보도)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900267",
+   "seen": "16:28"
+  },
+  {
+   "rcept_no": "20261118000223",
+   "date": "2026-11-18",
+   "title": "[기재정정]주식등의대량보유상황보고서(일반)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000223",
+   "seen": "16:28"
+  },
+  {
+   "rcept_no": "20261118000222",
+   "date": "2026-11-18",
+   "title": "[기재정정]주식등의대량보유상황보고서(일반)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000222",
+   "seen": "16:28"
+  },
+  {
    "rcept_no": "20261117900650",
    "date": "2026-11-17",
    "title": "[기재정정]최대주주변경",

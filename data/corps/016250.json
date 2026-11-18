@@ -5,6 +5,26 @@
  "corp_code": "00141246",
  "disclosures": [
   {
+   "rcept_no": "20261118900283",
+   "date": "2026-11-18",
+   "title": "단기차입금증가결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900283",
+   "seen": "16:28"
+  },
+  {
+   "rcept_no": "20261118900281",
+   "date": "2026-11-18",
+   "title": "타인에대한채무보증결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900281",
+   "seen": "16:28"
+  },
+  {
    "rcept_no": "20261117900571",
    "date": "2026-11-17",
    "title": "[기재정정]단일판매ㆍ공급계약체결(자율공시)",

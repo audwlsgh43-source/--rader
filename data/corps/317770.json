@@ -5,6 +5,36 @@
  "corp_code": "01231786",
  "disclosures": [
   {
+   "rcept_no": "20261118000207",
+   "date": "2026-11-18",
+   "title": "[기재정정]소액공모실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000207",
+   "seen": "16:28"
+  },
+  {
+   "rcept_no": "20261118000204",
+   "date": "2026-11-18",
+   "title": "[기재정정]소액공모공시서류(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000204",
+   "seen": "16:28"
+  },
+  {
+   "rcept_no": "20261118000201",
+   "date": "2026-11-18",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118000201",
+   "seen": "16:28"
+  },
+  {
    "rcept_no": "20261116001170",
    "date": "2026-11-16",
    "title": "[기재정정]주식매수선택권부여에관한신고",
