@@ -1,8 +1,28 @@
 {
  "date": "2026-11-18",
- "updated_at": "2026-11-18 18:38",
- "count": 284,
+ "updated_at": "2026-11-18 19:38",
+ "count": 285,
  "items": [
+  {
+   "rcept_no": "20261118900627",
+   "date": "2026-11-18",
+   "corp": "큐로셀",
+   "stock_code": "372320",
+   "corp_code": "01492651",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "투자판단관련주요경영사항(임상시험계획변경승인)              (CRC01(안발캅타젠오토류셀, 안발셀)의 B세포 급성 림프모구성 성인 백혈병 제1/2상 임상시험계획(IND) 변경승인)",
+   "flr": "큐로셀",
+   "rm": "코",
+   "seen": "19:38",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900627"
+  },
   {
    "rcept_no": "20261118900623",
    "date": "2026-11-18",
@@ -81,8 +101,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900609",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261118900609"
   },
   {
    "rcept_no": "20261118900604",
@@ -3361,7 +3381,7 @@
    "imp": "mid",
    "title": "주요사항보고서(자기주식취득결정)",
    "flr": "나래나노텍",
-   "rm": "",
+   "rm": "정",
    "seen": "16:28",
    "ai": "",
    "points": [],
