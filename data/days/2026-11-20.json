@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-20",
+ "updated_at": "2026-11-20 07:40",
+ "count": 1,
+ "items": [
+  {
+   "rcept_no": "20261119000427",
+   "date": "2026-11-20",
+   "corp": "잉크테크",
+   "stock_code": "049550",
+   "corp_code": "00261656",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "주요사항보고서(유형자산양도결정)",
+   "flr": "잉크테크",
+   "rm": "",
+   "seen": "07:40",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000427"
+  }
+ ]
+}

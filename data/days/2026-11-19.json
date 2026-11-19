@@ -1,7 +1,7 @@
 {
  "date": "2026-11-19",
- "updated_at": "2026-11-19 21:45",
- "count": 320,
+ "updated_at": "2026-11-20 07:40",
+ "count": 319,
  "items": [
   {
    "rcept_no": "20261119900783",
@@ -1483,26 +1483,6 @@
    "events": [],
    "analyzed": false,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000414"
-  },
-  {
-   "rcept_no": "20261119000413",
-   "date": "2026-11-19",
-   "corp": "코람코더원리츠",
-   "stock_code": "417310",
-   "corp_code": "01180118",
-   "mkt": "코스피",
-   "type": "stake",
-   "imp": "low",
-   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
-   "flr": "미래에셋자산운용",
-   "rm": "",
-   "seen": "17:47",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000413"
   },
   {
    "rcept_no": "20261119000412",

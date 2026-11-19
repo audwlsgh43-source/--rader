@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
- "updated_at": "2026-11-19 21:45",
- "count": 1826,
+ "updated_at": "2026-11-20 07:40",
+ "count": 1825,
  "items": [
   {
    "rcept_no": "20261116902611",
@@ -33740,26 +33740,6 @@
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116800315"
   },
   {
-   "rcept_no": "20261116800308",
-   "date": "2026-11-16",
-   "corp": "코람코더원리츠",
-   "stock_code": "417310",
-   "corp_code": "01180118",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "임시주주총회결과",
-   "flr": "코람코더원리츠",
-   "rm": "유",
-   "seen": "11:27",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116800308"
-  },
-  {
    "rcept_no": "20261116800299",
    "date": "2026-11-16",
    "corp": "넥센타이어",
@@ -34558,26 +34538,6 @@
    "events": [],
    "analyzed": false,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000180"
-  },
-  {
-   "rcept_no": "20261116000179",
-   "date": "2026-11-16",
-   "corp": "코람코더원리츠",
-   "stock_code": "417310",
-   "corp_code": "01180118",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "low",
-   "title": "주요사항보고서(해산사유발생)",
-   "flr": "코람코더원리츠",
-   "rm": "",
-   "seen": "11:27",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000179"
   },
   {
    "rcept_no": "20261116000178",
@@ -37024,6 +36984,26 @@
    "events": [],
    "analyzed": false,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113001701"
+  },
+  {
+   "rcept_no": "20261116001887",
+   "date": "2026-11-16",
+   "corp": "하나에어로",
+   "stock_code": "271160",
+   "corp_code": "01025617",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "하나에어로",
+   "rm": "",
+   "seen": "",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116001887"
   }
  ]
 }
