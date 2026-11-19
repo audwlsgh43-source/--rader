@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19 19:45",
+ "updated_at": "2026-11-19 20:44",
  "digest": null,
  "codes": {
   "인벤테라": "0007J0",
@@ -21,6 +21,69 @@
  },
  "items": [
   {
+   "title": "‘상장 첫날 살까, ETF 기다릴까’…‘2000조 공룡’ 앤트로픽 데뷔, 서학개미 투자 셈법은 [투자360]",
+   "press": "헤럴드경제",
+   "time": "2026-11-19 20:31",
+   "url": "https://n.news.naver.com/mnews/article/016/0002725937",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-19 20:44"
+  },
+  {
+   "title": "앤트로픽 효과에 반등…코스피 5,100선 탈환",
+   "press": "연합뉴스TV",
+   "time": "2026-11-19 20:17",
+   "url": "https://n.news.naver.com/mnews/article/422/0000927949",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-19 20:44"
+  },
+  {
+   "title": "앤트로픽 효과에 반등…코스피 5,100선 탈환",
+   "press": "연합뉴스TV",
+   "time": "2026-11-19 20:17",
+   "url": "https://n.news.naver.com/mnews/article/422/0000927949?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-19 20:44"
+  },
+  {
+   "title": "6580억 수혈에도 재무건전성 악화…교보자산신탁, 또 800억 증자 [fn마켓워치]",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-19 20:10",
+   "url": "https://n.news.naver.com/mnews/article/014/0005607148",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-19 20:44"
+  },
+  {
+   "title": "“2500억 수혈에 대주주 지분 85%”…박봉권·이석기號 교보증권, 상장유지 새 숙제",
+   "press": "디지털데일리",
+   "time": "2026-11-19 19:49",
+   "url": "https://n.news.naver.com/mnews/article/138/0002249298",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-19 20:44"
+  },
+  {
    "title": "건어물 싣고 홍콩행 78년 만에 '수출 1조 달러' 돌파…일본도 못한 세계 4번째 대기록",
    "press": "MBN",
    "time": "2026-11-19 19:43",
@@ -39,7 +102,8 @@
    "url": "https://n.news.naver.com/mnews/article/016/0002725919",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -197,7 +261,8 @@
    "url": "https://n.news.naver.com/mnews/article/016/0002725905",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -277,30 +342,6 @@
    "first_seen": "2026-11-19 18:47"
   },
   {
-   "title": "정은보 거래소 이사장, WFE 이사 연임",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-19 18:26",
-   "url": "https://n.news.naver.com/mnews/article/014/0005607074",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-19 18:47"
-  },
-  {
-   "title": "'한한령 해빙무드'… 엔터·여행·화장품주 줄줄이 상한가",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-19 18:26",
-   "url": "https://n.news.naver.com/mnews/article/014/0005607072",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-19 18:47"
-  },
-  {
    "title": "HLB·HLB생명과학, 합병 재추진…그룹 조직개편",
    "press": "아시아경제",
    "time": "2026-11-19 18:26",
@@ -319,6 +360,30 @@
    "url": "https://n.news.naver.com/mnews/article/014/0005607072?sid=101258402",
    "cats": [
     "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-19 18:47"
+  },
+  {
+   "title": "정은보 거래소 이사장, WFE 이사 연임",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-19 18:26",
+   "url": "https://n.news.naver.com/mnews/article/014/0005607074",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-19 18:47"
+  },
+  {
+   "title": "'한한령 해빙무드'… 엔터·여행·화장품주 줄줄이 상한가",
+   "press": "파이낸셜뉴스",
+   "time": "2026-11-19 18:26",
+   "url": "https://n.news.naver.com/mnews/article/014/0005607072",
+   "cats": [
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -607,7 +672,8 @@
    "time": "2026-11-19 17:58",
    "url": "https://n.news.naver.com/mnews/article/008/0005443802",
    "cats": [
-    "주요"
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -686,7 +752,7 @@
    "first_seen": "2026-11-19 18:47"
   },
   {
-   "title": "\"AI는 국가 안보자산 … 투자 꺾이는일 없다\"",
+   "title": "\"AI는 국가 안보자산 투자 꺾이는일 없다\"",
    "press": "매일경제",
    "time": "2026-11-19 17:49",
    "url": "https://n.news.naver.com/mnews/article/009/0005766421?sid=101258401",
@@ -940,7 +1006,7 @@
    "first_seen": "2026-11-19 17:49"
   },
   {
-   "title": "\"중국문 열린다\" K콘텐츠株 뛰고 항공·유통株 날았다",
+   "title": "\"중국문 열린다\" K콘텐츠株 뛰고 항공·뷰티株 날았다",
    "press": "매일경제",
    "time": "2026-11-19 17:37",
    "url": "https://n.news.naver.com/mnews/article/009/0005766351",
@@ -1592,13 +1658,14 @@
    "first_seen": "2026-11-19 16:47"
   },
   {
-   "title": "중국인 늘면 항공주 대박날까 [B급기자의 B급리포트]",
+   "title": "\"한한령 풀린대\" 들썩...진짜 수혜 1순위 따로 있다? [B급기자의 B급리포트]",
    "press": "한국경제TV",
    "time": "2026-11-19 16:40",
    "url": "https://n.news.naver.com/mnews/article/215/0001273282",
    "cats": [
     "속보",
-    "주요"
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -4796,66 +4863,6 @@
    "url": "https://n.news.naver.com/mnews/article/003/0014332091",
    "cats": [
     "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-19 10:04"
-  },
-  {
-   "title": "[코스닥] 5.50p(0.83%) 오른 668.31 출발",
-   "press": "뉴스1",
-   "time": "2026-11-19 10:01",
-   "url": "https://n.news.naver.com/mnews/article/421/0009298232",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-19 10:04"
-  },
-  {
-   "title": "[코스닥] 5.50p(0.83%) 오른 668.31(개장)",
-   "press": "연합뉴스",
-   "time": "2026-11-19 10:01",
-   "url": "https://n.news.naver.com/mnews/article/001/0016451206?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-19 10:04"
-  },
-  {
-   "title": "코스닥 5.5P 오른 668.31 출발(0.83%↑)",
-   "press": "아시아경제",
-   "time": "2026-11-19 10:01",
-   "url": "https://n.news.naver.com/mnews/article/277/0005844912?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-19 10:04"
-  },
-  {
-   "title": "[코스피] 22.60p(0.45%) 오른 5,090.04(개장)",
-   "press": "연합뉴스",
-   "time": "2026-11-19 10:01",
-   "url": "https://n.news.naver.com/mnews/article/001/0016451205?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-19 10:04"
-  },
-  {
-   "title": "[코스닥] 5.50p(0.83%) 오른 668.31 출발",
-   "press": "뉴스1",
-   "time": "2026-11-19 10:01",
-   "url": "https://n.news.naver.com/mnews/article/421/0009298232?sid=101258401",
-   "cats": [
-    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
