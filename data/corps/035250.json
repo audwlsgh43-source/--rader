@@ -5,6 +5,26 @@
  "corp_code": "00255619",
  "disclosures": [
   {
+   "rcept_no": "20261119800604",
+   "date": "2026-11-19",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800604",
+   "seen": "17:47"
+  },
+  {
+   "rcept_no": "20261119000369",
+   "date": "2026-11-19",
+   "title": "주요사항보고서(자기주식취득결정)",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000369",
+   "seen": "17:47"
+  },
+  {
    "rcept_no": "20261116002067",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

@@ -5,6 +5,36 @@
  "corp_code": "00349097",
  "disclosures": [
   {
+   "rcept_no": "20261119800741",
+   "date": "2026-11-19",
+   "title": "회사합병결정(종속회사의주요경영사항)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800741",
+   "seen": "17:47"
+  },
+  {
+   "rcept_no": "20261119800545",
+   "date": "2026-11-19",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800545",
+   "seen": "17:47"
+  },
+  {
+   "rcept_no": "20261119000322",
+   "date": "2026-11-19",
+   "title": "주요사항보고서(회사합병결정)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000322",
+   "seen": "17:47"
+  },
+  {
    "rcept_no": "20261116000237",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

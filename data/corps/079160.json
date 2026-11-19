@@ -5,6 +5,26 @@
  "corp_code": "00303873",
  "disclosures": [
   {
+   "rcept_no": "20261119800614",
+   "date": "2026-11-19",
+   "title": "금전대여결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800614",
+   "seen": "17:47"
+  },
+  {
+   "rcept_no": "20261119800601",
+   "date": "2026-11-19",
+   "title": "단기차입금증가결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800601",
+   "seen": "17:47"
+  },
+  {
    "rcept_no": "20261117800618",
    "date": "2026-11-17",
    "title": "기업설명회(IR)개최(안내공시)",

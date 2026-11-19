@@ -5,6 +5,36 @@
  "corp_code": "01394377",
  "disclosures": [
   {
+   "rcept_no": "20261119800634",
+   "date": "2026-11-19",
+   "title": "감사보고서제출",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800634",
+   "seen": "17:47"
+  },
+  {
+   "rcept_no": "20261119000420",
+   "date": "2026-11-19",
+   "title": "사업보고서 (2026.08)",
+   "type": "earn",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000420",
+   "seen": "17:47"
+  },
+  {
+   "rcept_no": "20261119000418",
+   "date": "2026-11-19",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000418",
+   "seen": "17:47"
+  },
+  {
    "rcept_no": "20261112801079",
    "date": "2026-11-12",
    "title": "타법인주식및출자증권처분결정",

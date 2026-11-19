@@ -5,6 +5,46 @@
  "corp_code": "00113562",
  "disclosures": [
   {
+   "rcept_no": "20261119800572",
+   "date": "2026-11-19",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800572",
+   "seen": "17:47"
+  },
+  {
+   "rcept_no": "20261119800547",
+   "date": "2026-11-19",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800547",
+   "seen": "17:47"
+  },
+  {
+   "rcept_no": "20261119800507",
+   "date": "2026-11-19",
+   "title": "매매거래정지및정지해제(중요내용공시)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800507",
+   "seen": "17:47"
+  },
+  {
+   "rcept_no": "20261119000310",
+   "date": "2026-11-19",
+   "title": "주요사항보고서(감자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000310",
+   "seen": "17:47"
+  },
+  {
    "rcept_no": "20261116802268",
    "date": "2026-11-16",
    "title": "파생상품거래손실발생",

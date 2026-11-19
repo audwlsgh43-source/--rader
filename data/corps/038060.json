@@ -5,6 +5,16 @@
  "corp_code": "00406329",
  "disclosures": [
   {
+   "rcept_no": "20261119900567",
+   "date": "2026-11-19",
+   "title": "주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119900567",
+   "seen": "17:47"
+  },
+  {
    "rcept_no": "20261118900391",
    "date": "2026-11-18",
    "title": "증권발행결과(자율공시)",
