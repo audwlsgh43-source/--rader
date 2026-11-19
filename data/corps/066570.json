@@ -5,6 +5,26 @@
  "corp_code": "00401731",
  "disclosures": [
   {
+   "rcept_no": "20261119800519",
+   "date": "2026-11-19",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800519",
+   "seen": "16:45"
+  },
+  {
+   "rcept_no": "20261119800427",
+   "date": "2026-11-19",
+   "title": "기업가치제고계획예고(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800427",
+   "seen": "16:45"
+  },
+  {
    "rcept_no": "20261119800168",
    "date": "2026-11-19",
    "title": "[기재정정]중대재해발생(종속회사의주요경영사항)",
@@ -13,6 +33,16 @@
    "ai": "",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119800168",
    "seen": "11:15"
+  },
+  {
+   "rcept_no": "20261119000241",
+   "date": "2026-11-19",
+   "title": "동일인등출자계열회사와의상품ㆍ용역거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000241",
+   "seen": "16:45"
   },
   {
    "rcept_no": "20261119000195",

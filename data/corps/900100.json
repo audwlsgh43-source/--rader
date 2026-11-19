@@ -5,6 +5,36 @@
  "corp_code": "00781202",
  "disclosures": [
   {
+   "rcept_no": "20261119900412",
+   "date": "2026-11-19",
+   "title": "[기재정정]임시주주총회결과",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119900412",
+   "seen": "16:45"
+  },
+  {
+   "rcept_no": "20261119000271",
+   "date": "2026-11-19",
+   "title": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000271",
+   "seen": "16:45"
+  },
+  {
+   "rcept_no": "20261119000263",
+   "date": "2026-11-19",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000263",
+   "seen": "16:45"
+  },
+  {
    "rcept_no": "20261117000130",
    "date": "2026-11-17",
    "title": "[기재정정]주요사항보고서(전환사채권발행결정)",

@@ -5,6 +5,36 @@
  "corp_code": "01344336",
  "disclosures": [
   {
+   "rcept_no": "20261119900344",
+   "date": "2026-11-19",
+   "title": "[기재정정]주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119900344",
+   "seen": "16:45"
+  },
+  {
+   "rcept_no": "20261119000272",
+   "date": "2026-11-19",
+   "title": "[기재정정]소액공모공시서류(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000272",
+   "seen": "16:45"
+  },
+  {
+   "rcept_no": "20261119000228",
+   "date": "2026-11-19",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119000228",
+   "seen": "16:45"
+  },
+  {
    "rcept_no": "20261116902607",
    "date": "2026-11-16",
    "title": "[첨부정정]단일판매ㆍ공급계약해지",
