@@ -1,8 +1,28 @@
 {
  "date": "2026-11-19",
- "updated_at": "2026-11-19 18:46",
- "count": 319,
+ "updated_at": "2026-11-19 19:43",
+ "count": 320,
  "items": [
+  {
+   "rcept_no": "20261119900783",
+   "date": "2026-11-19",
+   "corp": "이뮨온시아",
+   "stock_code": "424870",
+   "corp_code": "01203659",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "불성실공시법인지정              (공시불이행 2건)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "19:43",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119900783"
+  },
   {
    "rcept_no": "20261119900771",
    "date": "2026-11-19",
@@ -41,8 +61,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119900768",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119900768"
   },
   {
    "rcept_no": "20261119900766",
