@@ -5,6 +5,26 @@
  "corp_code": "01110678",
  "disclosures": [
   {
+   "rcept_no": "20261119900314",
+   "date": "2026-11-19",
+   "title": "기타시장안내              (실질심사 사유 발생 관련 시장조치 미진행)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119900314",
+   "seen": "15:22"
+  },
+  {
+   "rcept_no": "20261119900312",
+   "date": "2026-11-19",
+   "title": "최대주주변경",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261119900312",
+   "seen": "15:22"
+  },
+  {
    "rcept_no": "20261116001117",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
