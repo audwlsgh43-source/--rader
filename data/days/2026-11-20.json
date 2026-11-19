@@ -1,8 +1,28 @@
 {
  "date": "2026-11-20",
- "updated_at": "2026-11-20 07:40",
- "count": 1,
+ "updated_at": "2026-11-20 08:24",
+ "count": 2,
  "items": [
+  {
+   "rcept_no": "20261120000004",
+   "date": "2026-11-20",
+   "corp": "아이지넷",
+   "stock_code": "462980",
+   "corp_code": "01728167",
+   "mkt": "코스닥",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "아이지넷",
+   "rm": "",
+   "seen": "08:24",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000004"
+  },
   {
    "rcept_no": "20261119000427",
    "date": "2026-11-20",
