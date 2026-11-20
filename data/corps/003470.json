@@ -5,6 +5,16 @@
  "corp_code": "00117601",
  "disclosures": [
   {
+   "rcept_no": "20261120000385",
+   "date": "2026-11-20",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000385",
+   "seen": "14:47"
+  },
+  {
    "rcept_no": "20261119800659",
    "date": "2026-11-19",
    "title": "최대주주등소유주식변동신고서",
