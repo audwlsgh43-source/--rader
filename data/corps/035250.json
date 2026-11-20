@@ -5,6 +5,26 @@
  "corp_code": "00255619",
  "disclosures": [
   {
+   "rcept_no": "20261120000200",
+   "date": "2026-11-20",
+   "title": "의결권대리행사권유참고서류",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000200",
+   "seen": "11:05"
+  },
+  {
+   "rcept_no": "20261120000195",
+   "date": "2026-11-20",
+   "title": "주주총회소집공고",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000195",
+   "seen": "11:05"
+  },
+  {
    "rcept_no": "20261119800604",
    "date": "2026-11-19",
    "title": "주주총회소집결의",
