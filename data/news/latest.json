@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20 20:21",
+ "updated_at": "2026-11-20 21:17",
  "digest": null,
  "codes": {
   "인벤테라": "0007J0",
@@ -20,6 +20,117 @@
   "주성엔지니어링": "036930"
  },
  "items": [
+  {
+   "title": "앤트로픽 상장에도 외국인 '팔자'…AI·금리 변수",
+   "press": "연합뉴스TV",
+   "time": "2026-11-20 21:17",
+   "url": "https://n.news.naver.com/mnews/article/422/0000928348",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 21:17"
+  },
+  {
+   "title": "앤트로픽 상장에도 외국인 '팔자'…AI·금리 변수",
+   "press": "연합뉴스TV",
+   "time": "2026-11-20 21:17",
+   "url": "https://n.news.naver.com/mnews/article/422/0000928348?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 21:17"
+  },
+  {
+   "title": "'국민주'에 물린 개미 어쩌나…절반 넘게 '손실'",
+   "press": "한국경제TV",
+   "time": "2026-11-20 21:11",
+   "url": "https://n.news.naver.com/mnews/article/215/0001273445",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 21:17"
+  },
+  {
+   "title": "'검은 금요일' 코스피 5% 급락…4,800선 후퇴",
+   "press": "연합뉴스TV",
+   "time": "2026-11-20 21:10",
+   "url": "https://n.news.naver.com/mnews/article/422/0000928347",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 21:17"
+  },
+  {
+   "title": "'검은 금요일' 코스피 5% 급락…4,800선 후퇴",
+   "press": "연합뉴스TV",
+   "time": "2026-11-20 21:10",
+   "url": "https://n.news.naver.com/mnews/article/422/0000928347?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 21:17"
+  },
+  {
+   "title": "‘7만전자·20만닉스’ 간다는 전문가 “폭락 시작도 안 했다”…증권가는 정반대 전망",
+   "press": "서울경제",
+   "time": "2026-11-20 21:07",
+   "url": "https://n.news.naver.com/mnews/article/011/0004684536",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 21:17"
+  },
+  {
+   "title": "[올댓차이나] 대만 증시, 美 AI·반도체주 약세에 급락 마감…6.23%↓",
+   "press": "뉴시스",
+   "time": "2026-11-20 20:44",
+   "url": "https://n.news.naver.com/mnews/article/003/0014336811",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 21:17"
+  },
+  {
+   "title": "“공매도 좀 어떻에 안돼?” 이달 16조 쏟아낸 외인",
+   "press": "문화일보",
+   "time": "2026-11-20 20:34",
+   "url": "https://n.news.naver.com/mnews/article/021/0002834407",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 21:17"
+  },
+  {
+   "title": "‘안전자산의 굴욕’ 금값 3700달러 붕괴…“고점 회복까지 2년 걸려” [투자360]",
+   "press": "헤럴드경제",
+   "time": "2026-11-20 20:31",
+   "url": "https://n.news.naver.com/mnews/article/016/0002726435",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 21:17"
+  },
   {
    "title": "코스피 목표치 ‘1만2천’→‘7500’…5개월만에 맘바꾼 골드만",
    "press": "문화일보",
@@ -112,7 +223,8 @@
    "url": "https://n.news.naver.com/mnews/article/014/0005607555",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -270,7 +382,8 @@
    "url": "https://n.news.naver.com/mnews/article/016/0002726426",
    "cats": [
     "속보",
-    "주요"
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -986,9 +1099,9 @@
    "title": "앤트로픽 잔칫날, 증시는 '검은 금요일'",
    "press": "매일경제",
    "time": "2026-11-20 17:37",
-   "url": "https://n.news.naver.com/mnews/article/009/0005766842",
+   "url": "https://n.news.naver.com/mnews/article/009/0005766842?sid=101258401",
    "cats": [
-    "주요"
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -998,9 +1111,9 @@
    "title": "앤트로픽 잔칫날, 증시는 '검은 금요일'",
    "press": "매일경제",
    "time": "2026-11-20 17:37",
-   "url": "https://n.news.naver.com/mnews/article/009/0005766842?sid=101258401",
+   "url": "https://n.news.naver.com/mnews/article/009/0005766842",
    "cats": [
-    "시황·전망"
+    "주요"
    ],
    "stocks": [],
    "ai": "",
@@ -1019,12 +1132,26 @@
    "first_seen": "2026-11-20 18:12"
   },
   {
+   "title": "코스피 폭등에 돈 쓸어담더니…'70% 하락' 비명 터진 종목",
+   "press": "한국경제",
+   "time": "2026-11-20 17:35",
+   "url": "https://n.news.naver.com/mnews/article/015/0005356443",
+   "cats": [
+    "주요",
+    "많이 본"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-20 18:12"
+  },
+  {
    "title": "증권가도 \"팔기엔 늦었고 사기엔 무섭다\"…5000 깨진 코스피 고민",
    "press": "뉴스1",
    "time": "2026-11-20 17:35",
    "url": "https://n.news.naver.com/mnews/article/421/0009302014",
    "cats": [
-    "주요"
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -1061,18 +1188,6 @@
    "url": "https://n.news.naver.com/mnews/article/018/0006413304?sid=101258401",
    "cats": [
     "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-20 18:12"
-  },
-  {
-   "title": "코스피 폭등에 돈 쓸어담더니…'70% 하락' 비명 터진 종목",
-   "press": "한국경제",
-   "time": "2026-11-20 17:35",
-   "url": "https://n.news.naver.com/mnews/article/015/0005356443",
-   "cats": [
-    "주요"
    ],
    "stocks": [],
    "ai": "",
@@ -4798,119 +4913,6 @@
    "url": "https://n.news.naver.com/mnews/article/421/0009300937?sid=101258401",
    "cats": [
     "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-20 11:08"
-  },
-  {
-   "title": "“반도체주 손절? 후회할 수도”…삼전닉스에 무슨 일이",
-   "press": "전자신문",
-   "time": "2026-11-20 10:48",
-   "url": "https://n.news.naver.com/mnews/article/030/0003487899",
-   "cats": [
-    "주요",
-    "속보",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-20 11:08"
-  },
-  {
-   "title": "삼성전자 '투톱' 그대로…메모리·갤럭시는 새 얼굴로",
-   "press": "비즈워치",
-   "time": "2026-11-20 10:47",
-   "url": "https://n.news.naver.com/mnews/article/648/0000052822",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [
-    "삼성전자"
-   ],
-   "ai": "",
-   "first_seen": "2026-11-20 11:08"
-  },
-  {
-   "title": "[게시판] 신협, '신협자산관리회사' 창립…부실자산 관리 강화",
-   "press": "연합뉴스",
-   "time": "2026-11-20 10:45",
-   "url": "https://n.news.naver.com/mnews/article/001/0016453938",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-20 11:08"
-  },
-  {
-   "title": "이미 반토막 났는데…'7만전자·20만닉스'까지 더 떨어진다고?",
-   "press": "더팩트",
-   "time": "2026-11-20 10:44",
-   "url": "https://n.news.naver.com/mnews/article/629/0000553938",
-   "cats": [
-    "주요",
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-20 11:08"
-  },
-  {
-   "title": "광진실업, 자회사 통해 中 면세 사업 진출… K-컬처로 현지 시장 공략",
-   "press": "조선비즈",
-   "time": "2026-11-20 10:44",
-   "url": "https://n.news.naver.com/mnews/article/366/0001206208",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-20 11:08"
-  },
-  {
-   "title": "앱클론 ‘AM109’, 국가신약개발사업 후속 과제 선정",
-   "press": "서울경제",
-   "time": "2026-11-20 10:44",
-   "url": "https://n.news.naver.com/mnews/article/011/0004684327",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-20 11:08"
-  },
-  {
-   "title": "앱클론 ‘AM109’, 국가신약개발사업 후속 과제 선정",
-   "press": "서울경제",
-   "time": "2026-11-20 10:44",
-   "url": "https://n.news.naver.com/mnews/article/011/0004684327?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-20 11:08"
-  },
-  {
-   "title": "무디스 \"내년 韓반도체 수출 호조 지속…건설업도 AI투자 수혜\"",
-   "press": "연합뉴스",
-   "time": "2026-11-20 10:43",
-   "url": "https://n.news.naver.com/mnews/article/001/0016453934?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-20 11:08"
-  },
-  {
-   "title": "무디스 \"내년 韓반도체 수출 호조 지속…건설업도 AI투자 수혜\"",
-   "press": "연합뉴스",
-   "time": "2026-11-20 10:43",
-   "url": "https://n.news.naver.com/mnews/article/001/0016453934",
-   "cats": [
-    "속보"
    ],
    "stocks": [],
    "ai": "",
