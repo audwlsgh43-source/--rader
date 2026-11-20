@@ -5,6 +5,36 @@
  "corp_code": "00363510",
  "disclosures": [
   {
+   "rcept_no": "20261120900408",
+   "date": "2026-11-20",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900408",
+   "seen": "13:45"
+  },
+  {
+   "rcept_no": "20261120900405",
+   "date": "2026-11-20",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900405",
+   "seen": "13:45"
+  },
+  {
+   "rcept_no": "20261120900402",
+   "date": "2026-11-20",
+   "title": "주식병합결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900402",
+   "seen": "13:45"
+  },
+  {
    "rcept_no": "20261116002116",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
