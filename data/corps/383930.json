@@ -5,6 +5,26 @@
  "corp_code": "01437432",
  "disclosures": [
   {
+   "rcept_no": "20261120900611",
+   "date": "2026-11-20",
+   "title": "신주인수권행사가액의조정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900611",
+   "seen": "15:47"
+  },
+  {
+   "rcept_no": "20261120900606",
+   "date": "2026-11-20",
+   "title": "전환가액의조정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900606",
+   "seen": "15:47"
+  },
+  {
    "rcept_no": "20261113900687",
    "date": "2026-11-13",
    "title": "[기재정정]단일판매ㆍ공급계약체결(자율공시)",

@@ -5,6 +5,16 @@
  "corp_code": "01378005",
  "disclosures": [
   {
+   "rcept_no": "20261120000471",
+   "date": "2026-11-20",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000471",
+   "seen": "15:47"
+  },
+  {
    "rcept_no": "20261117900500",
    "date": "2026-11-17",
    "title": "주식매수선택권행사",

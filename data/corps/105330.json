@@ -5,6 +5,26 @@
  "corp_code": "00606664",
  "disclosures": [
   {
+   "rcept_no": "20261120000479",
+   "date": "2026-11-20",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000479",
+   "seen": "15:47"
+  },
+  {
+   "rcept_no": "20261120000477",
+   "date": "2026-11-20",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000477",
+   "seen": "15:47"
+  },
+  {
    "rcept_no": "20261117900397",
    "date": "2026-11-17",
    "title": "전환가액의조정",
