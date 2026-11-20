@@ -1,8 +1,565 @@
 {
  "date": "2026-11-20",
- "updated_at": "2026-11-20 11:05",
- "count": 50,
+ "updated_at": "2026-11-20 11:55",
+ "count": 72,
  "items": [
+  {
+   "rcept_no": "20261120900351",
+   "date": "2026-11-20",
+   "corp": "성호전자",
+   "stock_code": "043260",
+   "corp_code": "00317210",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "성호전자",
+   "rm": "코",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900351"
+  },
+  {
+   "rcept_no": "20261120900348",
+   "date": "2026-11-20",
+   "corp": "디오",
+   "stock_code": "039840",
+   "corp_code": "00115931",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "디오",
+   "rm": "코",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900348"
+  },
+  {
+   "rcept_no": "20261120900339",
+   "date": "2026-11-20",
+   "corp": "클래시스",
+   "stock_code": "214150",
+   "corp_code": "01061327",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "클래시스",
+   "rm": "코",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900339"
+  },
+  {
+   "rcept_no": "20261120900333",
+   "date": "2026-11-20",
+   "corp": "알테오젠",
+   "stock_code": "196170",
+   "corp_code": "00989619",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "전환주식의전환가액조정",
+   "flr": "알테오젠",
+   "rm": "코",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900333"
+  },
+  {
+   "rcept_no": "20261120900323",
+   "date": "2026-11-20",
+   "corp": "아이에스티이",
+   "stock_code": "212710",
+   "corp_code": "01208751",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결(자율공시)",
+   "flr": "아이에스티이",
+   "rm": "코",
+   "seen": "11:55",
+   "ai": "아이에스티이가 미국 Amkor Technology Arizona와 반도체 FOUP Cleaner 장비 판매 계약을 체결했다고 공시했습니다. 계약금액은 1,956,717,000원으로 최근 매출액의 6.07%입니다.",
+   "points": [
+    "반도체 FOUP Cleaner 장비를 미국 고객사에 판매하는 계약",
+    "상대방은 미국 반도체 조립사 Amkor Technology Arizona(거래처)",
+    "대금은 납품 후 기술검수 완료 후 100% 지급, 선급금 없음",
+    "USD 1,470,000을 1,331.10원/USD로 환산한 금액"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "1,956,717,000원"
+    ],
+    [
+     "최근 매출액 대비",
+     "6.07%"
+    ],
+    [
+     "계약금액(USD)",
+     "1,470,000달러"
+    ],
+    [
+     "최근 매출액(2025년말 연결)",
+     "32,220,867,462원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2028-03-31",
+     "kind": "기타",
+     "desc": "계약기간 종료 예정일(대금수령 감안)"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900323"
+  },
+  {
+   "rcept_no": "20261120900311",
+   "date": "2026-11-20",
+   "corp": "한울소재과학",
+   "stock_code": "091440",
+   "corp_code": "00560122",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "한울소재과학",
+   "rm": "코",
+   "seen": "11:55",
+   "ai": "한울소재과학이 한전원자력연료(주)와 경수로 원자력연료 비축재고 운영용 가돌리늄 분말 공급계약을 체결했습니다. 계약금액은 1,914,544,000원(부가세 별도)입니다.",
+   "points": [
+    "경수로 원자력연료 비축재고 운영용 가돌리늄 분말 공급",
+    "계약상대방은 한전원자력연료(주), 판매지역은 대한민국",
+    "선급금 없이 납품 및 검수 완료 후 현금 지급",
+    "물가변동 등에 따라 계약금액과 기간이 변동될 수 있음"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "1,914,544,000원"
+    ],
+    [
+     "최근 매출액 대비",
+     "14.25%"
+    ],
+    [
+     "지체상금율",
+     "매 지체 1일당 계약금액의 0.075%"
+    ],
+    [
+     "하자보수책임기간",
+     "1년"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2027-06-30",
+     "kind": "기타",
+     "desc": "계약기간 종료(계약서상 납품기한)"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900311"
+  },
+  {
+   "rcept_no": "20261120900304",
+   "date": "2026-11-20",
+   "corp": "제일테크노스",
+   "stock_code": "038010",
+   "corp_code": "00148595",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결(자율공시)",
+   "flr": "제일테크노스",
+   "rm": "코",
+   "seen": "11:55",
+   "ai": "제일테크노스가 삼성물산과 평택캠퍼스 P5 FAB2 건축공사 중 데크공사 2공구 공급계약을 체결했다. 계약금액은 116억원으로 최근 매출액의 8.7%이다.",
+   "points": [
+    "평택캠퍼스 P5 FAB2 건축공사 중 데크공사 2공구 계약",
+    "확정 계약이며 자체생산 방식으로 수행",
+    "선급금 지급 후 중도금·잔금은 공사 진행에 따라 지급",
+    "계약금액은 부가세 제외, 향후 협의에 따라 변동 가능"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "116억 6,301만 6,000원"
+    ],
+    [
+     "최근 매출액 대비",
+     "8.7%"
+    ],
+    [
+     "선급금",
+     "6억 4,146만 5,880원"
+    ],
+    [
+     "회사 최근 매출액",
+     "1,335억 7,937만원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-23",
+     "kind": "기타",
+     "desc": "계약기간 시작일"
+    },
+    {
+     "date": "2028-05-31",
+     "kind": "기타",
+     "desc": "계약기간 종료일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900304"
+  },
+  {
+   "rcept_no": "20261120900293",
+   "date": "2026-11-20",
+   "corp": "서전기전",
+   "stock_code": "189860",
+   "corp_code": "00869272",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "서전기전",
+   "rm": "코",
+   "seen": "11:55",
+   "ai": "서전기전이 현대건설과 25-F-K 지역 시설공사 수배전반·분전반 제조·설치 납품 계약을 체결했으며, 계약금액은 7,493,413,000원으로 최근 매출액 대비 11.0%입니다.",
+   "points": [
+    "방식: 자체생산 방식의 단일판매·공급계약",
+    "상대방: 현대건설 주식회사(대한민국 내 공급)",
+    "대금: 계약금·선급금 없음, 월 1회 지급, 목적물 수령일로부터 60일 내",
+    "계약금액은 부가가치세 제외, 조건에 따라 기간·금액 변동 가능"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "7,493,413,000원"
+    ],
+    [
+     "매출액 대비",
+     "11.0%"
+    ],
+    [
+     "최근 매출액(2025년 개별)",
+     "68,106,757,182원"
+    ],
+    [
+     "계약(수주)일자",
+     "2026-11-20"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2028-08-21",
+     "kind": "기타",
+     "desc": "계약기간 종료일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900293"
+  },
+  {
+   "rcept_no": "20261120800350",
+   "date": "2026-11-20",
+   "corp": "강원랜드",
+   "stock_code": "035250",
+   "corp_code": "00255619",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "flr": "강원랜드",
+   "rm": "유",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800350"
+  },
+  {
+   "rcept_no": "20261120800340",
+   "date": "2026-11-20",
+   "corp": "DSR",
+   "stock_code": "155660",
+   "corp_code": "00110608",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "최대주주등소유주식변동신고서",
+   "flr": "DSR",
+   "rm": "유",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800340"
+  },
+  {
+   "rcept_no": "20261120800332",
+   "date": "2026-11-20",
+   "corp": "LG화학",
+   "stock_code": "051910",
+   "corp_code": "00356361",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업가치제고계획(자율공시)              (2026년 이행현황)",
+   "flr": "LG화학",
+   "rm": "유",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800332"
+  },
+  {
+   "rcept_no": "20261120000239",
+   "date": "2026-11-20",
+   "corp": "노브랜드",
+   "stock_code": "145170",
+   "corp_code": "00305941",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "김기홍",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000239"
+  },
+  {
+   "rcept_no": "20261120000238",
+   "date": "2026-11-20",
+   "corp": "엘앤에프",
+   "stock_code": "066970",
+   "corp_code": "00398701",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "새로닉스",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000238"
+  },
+  {
+   "rcept_no": "20261120000229",
+   "date": "2026-11-20",
+   "corp": "아이텍",
+   "stock_code": "119830",
+   "corp_code": "00626011",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "프렌즈파트너스",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000229"
+  },
+  {
+   "rcept_no": "20261120000227",
+   "date": "2026-11-20",
+   "corp": "동일금속",
+   "stock_code": "109860",
+   "corp_code": "00118284",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]분기보고서 (2026.09)",
+   "flr": "동일금속",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000227"
+  },
+  {
+   "rcept_no": "20261120000222",
+   "date": "2026-11-20",
+   "corp": "에스씨디",
+   "stock_code": "042110",
+   "corp_code": "00171867",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "송찬",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000222"
+  },
+  {
+   "rcept_no": "20261120000221",
+   "date": "2026-11-20",
+   "corp": "DSR",
+   "stock_code": "155660",
+   "corp_code": "00110608",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "홍석빈",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000221"
+  },
+  {
+   "rcept_no": "20261120000220",
+   "date": "2026-11-20",
+   "corp": "NEW",
+   "stock_code": "160550",
+   "corp_code": "00974927",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "유제천",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000220"
+  },
+  {
+   "rcept_no": "20261120000219",
+   "date": "2026-11-20",
+   "corp": "에스씨디",
+   "stock_code": "042110",
+   "corp_code": "00171867",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "이제한",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000219"
+  },
+  {
+   "rcept_no": "20261120000213",
+   "date": "2026-11-20",
+   "corp": "한중엔시에스",
+   "stock_code": "107640",
+   "corp_code": "00474588",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "김상균",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000213"
+  },
+  {
+   "rcept_no": "20261120000208",
+   "date": "2026-11-20",
+   "corp": "에스씨디",
+   "stock_code": "042110",
+   "corp_code": "00171867",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "오길호",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000208"
+  },
+  {
+   "rcept_no": "20261120000207",
+   "date": "2026-11-20",
+   "corp": "농심",
+   "stock_code": "004370",
+   "corp_code": "00108241",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "신동원",
+   "rm": "",
+   "seen": "11:55",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000207"
+  },
   {
    "rcept_no": "20261120900319",
    "date": "2026-11-20",
