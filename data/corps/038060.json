@@ -5,6 +5,26 @@
  "corp_code": "00406329",
  "disclosures": [
   {
+   "rcept_no": "20261120000614",
+   "date": "2026-11-20",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000614",
+   "seen": "18:09"
+  },
+  {
+   "rcept_no": "20261120000579",
+   "date": "2026-11-20",
+   "title": "[기재정정]주요사항보고서(주권관련사채권양수결정)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000579",
+   "seen": "18:09"
+  },
+  {
    "rcept_no": "20261119900567",
    "date": "2026-11-19",
    "title": "주권매매거래정지              (주식의 병합, 분할 등 전자등록 변경, 말소)",

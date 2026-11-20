@@ -5,12 +5,22 @@
  "corp_code": "00152385",
  "disclosures": [
   {
+   "rcept_no": "20261120000615",
+   "date": "2026-11-20",
+   "title": "소액공모공시서류(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000615",
+   "seen": "18:09"
+  },
+  {
    "rcept_no": "20261120000562",
    "date": "2026-11-20",
    "title": "주요사항보고서(유상증자결정)",
    "type": "capital",
    "imp": "high",
-   "ai": "",
+   "ai": "에이프로젠이 일반공모 방식으로 보통주 1,428,571주를 주당 1,400원에 발행하는 유상증자를 결정했으며, 조달 자금은 운영자금으로 쓰입니다.",
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000562",
    "seen": "17:03"
   },
