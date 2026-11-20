@@ -1,8 +1,245 @@
 {
  "date": "2026-11-20",
- "updated_at": "2026-11-20 09:10",
- "count": 6,
+ "updated_at": "2026-11-20 09:56",
+ "count": 15,
  "items": [
+  {
+   "rcept_no": "20261120900230",
+   "date": "2026-11-20",
+   "corp": "에프에스티",
+   "stock_code": "036810",
+   "corp_code": "00223434",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "에프에스티",
+   "rm": "코",
+   "seen": "09:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900230"
+  },
+  {
+   "rcept_no": "20261120900191",
+   "date": "2026-11-20",
+   "corp": "프로텍",
+   "stock_code": "053610",
+   "corp_code": "00325112",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "프로텍",
+   "rm": "코",
+   "seen": "09:56",
+   "ai": "프로텍이 삼성전자와 반도체 제조장비 단일 판매·공급계약을 2026년 11월 19일 체결했다고 공시했습니다. 계약금액은 234억1000만원(부가세 별도)으로, 2025년 연결 매출액의 10.2%입니다.",
+   "points": [
+    "삼성전자와 반도체 제조장비 단일 판매·공급계약 체결",
+    "확정 계약이며 조건부 계약이 아님",
+    "대금은 중도금 90%, Setup 후 10%, 선급금 없음",
+    "국내 판매·공급이며 자체생산 방식"
+   ],
+   "numbers": [
+    [
+     "계약금액(부가세 별도)",
+     "234억1000만원"
+    ],
+    [
+     "최근 매출액 대비",
+     "10.2%"
+    ],
+    [
+     "계약상대방 최근 매출액(2025 연결)",
+     "333조6,059억원"
+    ],
+    [
+     "계약기간",
+     "2026-11-19 ~ 2027-09-30"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2027-09-30",
+     "kind": "기타",
+     "desc": "계약기간 종료일(Setup 완료에 따라 변동 가능)"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900191"
+  },
+  {
+   "rcept_no": "20261120900187",
+   "date": "2026-11-20",
+   "corp": "삼진",
+   "stock_code": "032750",
+   "corp_code": "00173351",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업가치제고계획(자율공시)              (기업가치 제고 계획(자율공시) 2026년)",
+   "flr": "삼진",
+   "rm": "코",
+   "seen": "09:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900187"
+  },
+  {
+   "rcept_no": "20261120900185",
+   "date": "2026-11-20",
+   "corp": "디케이앤디",
+   "stock_code": "263020",
+   "corp_code": "00892526",
+   "mkt": "코스닥",
+   "type": "buyback",
+   "imp": "low",
+   "title": "주식소각결정",
+   "flr": "디케이앤디",
+   "rm": "코",
+   "seen": "09:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900185"
+  },
+  {
+   "rcept_no": "20261120900180",
+   "date": "2026-11-20",
+   "corp": "덕신이피씨",
+   "stock_code": "090410",
+   "corp_code": "00454937",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "덕신이피씨",
+   "rm": "코",
+   "seen": "09:56",
+   "ai": "덕신이피씨가 삼성물산주식회사와 평택캠퍼스 P5 FAB2 건축공사 단일판매·공급계약을 체결했다. 계약금액은 114.19억원(부가세 별도)이며 2026-11-20 계약수주되었다.",
+   "points": [
+    "평택캠퍼스 P5 FAB2 건축공사 단일판매·공급계약",
+    "계약상대방은 삼성물산주식회사, 지역은 경기도 평택시",
+    "계약금·선급금 없이 공사 진행에 따라 청구·지급",
+    "판매·공급방식은 자체생산"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "114.19억원"
+    ],
+    [
+     "최근 매출액 대비",
+     "10.7%"
+    ],
+    [
+     "계약상대방 최근 매출액",
+     "40.74조원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-23",
+     "kind": "기타",
+     "desc": "계약기간 시작"
+    },
+    {
+     "date": "2028-05-31",
+     "kind": "기타",
+     "desc": "계약기간 종료"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900180"
+  },
+  {
+   "rcept_no": "20261120900176",
+   "date": "2026-11-20",
+   "corp": "아이지넷",
+   "stock_code": "462980",
+   "corp_code": "01728167",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "아이지넷",
+   "rm": "코",
+   "seen": "09:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900176"
+  },
+  {
+   "rcept_no": "20261120800197",
+   "date": "2026-11-20",
+   "corp": "DB증권",
+   "stock_code": "016610",
+   "corp_code": "00115694",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "flr": "DB증권",
+   "rm": "유",
+   "seen": "09:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120800197"
+  },
+  {
+   "rcept_no": "20261120000099",
+   "date": "2026-11-20",
+   "corp": "비피도",
+   "stock_code": "238200",
+   "corp_code": "01109070",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "박명수",
+   "rm": "",
+   "seen": "09:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000099"
+  },
+  {
+   "rcept_no": "20261120000096",
+   "date": "2026-11-20",
+   "corp": "한국정밀기계",
+   "stock_code": "101680",
+   "corp_code": "00257732",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "하만기",
+   "rm": "",
+   "seen": "09:56",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120000096"
+  },
   {
    "rcept_no": "20261120900120",
    "date": "2026-11-20",
