@@ -5,6 +5,16 @@
  "corp_code": "01524093",
  "disclosures": [
   {
+   "rcept_no": "20261123800004",
+   "date": "2026-11-23",
+   "title": "중대재해발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800004",
+   "seen": "08:22"
+  },
+  {
    "rcept_no": "20261113800306",
    "date": "2026-11-13",
    "title": "단일판매ㆍ공급계약체결",
