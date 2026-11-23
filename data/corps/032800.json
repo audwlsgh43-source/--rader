@@ -5,6 +5,56 @@
  "corp_code": "00231691",
  "disclosures": [
   {
+   "rcept_no": "20261123900629",
+   "date": "2026-11-23",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900629",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123900625",
+   "date": "2026-11-23",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900625",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123900529",
+   "date": "2026-11-23",
+   "title": "기타주요경영사항              (일반공모 유상증자결정 철회)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "판타지오가 2026년 7월 6일 결의했던 일반공모 유상증자를 철회하기로 결정했다. 대표주관사가 계약 해제를 통지하고 철회를 요청한 데 따른 것이다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900529",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000317",
+   "date": "2026-11-23",
+   "title": "철회신고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000317",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000297",
+   "date": "2026-11-23",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000297",
+   "seen": "17:31"
+  },
+  {
    "rcept_no": "20261118000367",
    "date": "2026-11-19",
    "title": "[첨부정정]주요사항보고서(유상증자결정)",

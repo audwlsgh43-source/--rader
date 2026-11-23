@@ -5,6 +5,46 @@
  "corp_code": "01397903",
  "disclosures": [
   {
+   "rcept_no": "20261123900635",
+   "date": "2026-11-23",
+   "title": "[기재정정]타법인주식및출자증권취득결정(자율공시)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900635",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123900632",
+   "date": "2026-11-23",
+   "title": "[기재정정]주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900632",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123900627",
+   "date": "2026-11-23",
+   "title": "[기재정정]주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900627",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000390",
+   "date": "2026-11-23",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000390",
+   "seen": "17:31"
+  },
+  {
    "rcept_no": "20261113001202",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",

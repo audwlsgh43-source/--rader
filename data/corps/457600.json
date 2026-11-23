@@ -5,6 +5,36 @@
  "corp_code": "01453944",
  "disclosures": [
   {
+   "rcept_no": "20261123900601",
+   "date": "2026-11-23",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900601",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000386",
+   "date": "2026-11-23",
+   "title": "소액공모공시서류(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000386",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000342",
+   "date": "2026-11-23",
+   "title": "주요사항보고서(유상증자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "벡트로보틱스가 제3자배정 방식으로 보통주 730,460주를 주당 1,369원에 발행하는 유상증자를 결정했으며, 조달금액은 약 10억원입니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000342",
+   "seen": "17:31"
+  },
+  {
    "rcept_no": "20261118900573",
    "date": "2026-11-18",
    "title": "[기재정정]최대주주변경을수반하는주식양수도계약체결",

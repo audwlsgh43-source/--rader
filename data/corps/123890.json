@@ -5,6 +5,26 @@
  "corp_code": "00404701",
  "disclosures": [
   {
+   "rcept_no": "20261123800606",
+   "date": "2026-11-23",
+   "title": "[기재정정]소송등의제기ㆍ신청(일정금액이상의청구)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800606",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000296",
+   "date": "2026-11-23",
+   "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000296",
+   "seen": "17:31"
+  },
+  {
    "rcept_no": "20261119800610",
    "date": "2026-11-19",
    "title": "[기재정정]소송등의제기ㆍ신청(일정금액이상의청구)",

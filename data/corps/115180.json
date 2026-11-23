@@ -5,6 +5,66 @@
  "corp_code": "01042650",
  "disclosures": [
   {
+   "rcept_no": "20261123900451",
+   "date": "2026-11-23",
+   "title": "유상증자최종발행가액확정",
+   "type": "capital",
+   "imp": "high",
+   "ai": "큐리언트가 기명식 보통주 7,100,000주 유상증자의 최종 발행가액을 1주당 9,940원으로 확정했다고 공시했습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900451",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000318",
+   "date": "2026-11-23",
+   "title": "[기재정정]투자설명서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000318",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000315",
+   "date": "2026-11-23",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000315",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000305",
+   "date": "2026-11-23",
+   "title": "[발행조건확정]증권신고서(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000305",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000278",
+   "date": "2026-11-23",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000278",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000260",
+   "date": "2026-11-23",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000260",
+   "seen": "17:31"
+  },
+  {
    "rcept_no": "20261123000255",
    "date": "2026-11-23",
    "title": "주식등의대량보유상황보고서(일반)",

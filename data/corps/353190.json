@@ -5,6 +5,16 @@
  "corp_code": "01453670",
  "disclosures": [
   {
+   "rcept_no": "20261123000267",
+   "date": "2026-11-23",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000267",
+   "seen": "17:31"
+  },
+  {
    "rcept_no": "20261118900103",
    "date": "2026-11-18",
    "title": "전환사채(해외전환사채포함)발행후만기전사채취득",

@@ -5,6 +5,16 @@
  "corp_code": "00767628",
  "disclosures": [
   {
+   "rcept_no": "20261123900481",
+   "date": "2026-11-23",
+   "title": "전환가액의조정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900481",
+   "seen": "17:31"
+  },
+  {
    "rcept_no": "20261116001581",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

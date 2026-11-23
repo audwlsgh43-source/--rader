@@ -5,6 +5,26 @@
  "corp_code": "00441243",
  "disclosures": [
   {
+   "rcept_no": "20261123000376",
+   "date": "2026-11-23",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000376",
+   "seen": "17:31"
+  },
+  {
+   "rcept_no": "20261123000366",
+   "date": "2026-11-23",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000366",
+   "seen": "17:31"
+  },
+  {
    "rcept_no": "20261116001039",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
