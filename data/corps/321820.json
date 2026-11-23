@@ -5,6 +5,26 @@
  "corp_code": "01116502",
  "disclosures": [
   {
+   "rcept_no": "20261123000124",
+   "date": "2026-11-23",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000124",
+   "seen": "14:44"
+  },
+  {
+   "rcept_no": "20261123000121",
+   "date": "2026-11-23",
+   "title": "[기재정정]분기보고서 (2026.09)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000121",
+   "seen": "14:44"
+  },
+  {
    "rcept_no": "20261113900396",
    "date": "2026-11-13",
    "title": "[기재정정]단일판매ㆍ공급계약체결",
