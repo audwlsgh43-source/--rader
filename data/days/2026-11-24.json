@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-24",
+ "updated_at": "2026-11-24 07:43",
+ "count": 2,
+ "items": [
+  {
+   "rcept_no": "20261124900001",
+   "date": "2026-11-24",
+   "corp": "피델릭스",
+   "stock_code": "032580",
+   "corp_code": "00189538",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]회계처리기준위반행위로인한증권선물위원회의검찰고발등",
+   "flr": "피델릭스",
+   "rm": "코",
+   "seen": "07:43",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900001"
+  },
+  {
+   "rcept_no": "20261123000408",
+   "date": "2026-11-24",
+   "corp": "유엔젤",
+   "stock_code": "072130",
+   "corp_code": "00416654",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "더원엠티에스",
+   "rm": "",
+   "seen": "07:43",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000408"
+  }
+ ]
+}
