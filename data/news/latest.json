@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23 20:03",
+ "updated_at": "2026-11-23 20:56",
  "digest": null,
  "codes": {
   "인벤테라": "0007J0",
@@ -21,22 +21,168 @@
  },
  "items": [
   {
-   "title": "'검은 월요일', 4700선 턱걸이한 코스피 [뉴시스Pic]",
-   "press": "뉴시스",
-   "time": "2026-11-23 20:01",
-   "url": "https://n.news.naver.com/mnews/article/003/0014340743",
+   "title": "기업들, 자사주 사 ‘떠받치기’... 연기금은 팔아 ‘추락 부채질’",
+   "press": "조선일보",
+   "time": "2026-11-23 20:37",
+   "url": "https://n.news.naver.com/mnews/article/023/0004011239",
+   "cats": [
+    "주요",
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "‘185만닉스’ 경고했던 애널리스트…이번엔 목표가 ‘105만원’ 제시",
+   "press": "이데일리",
+   "time": "2026-11-23 20:25",
+   "url": "https://n.news.naver.com/mnews/article/018/0006414388",
    "cats": [
     "속보"
    ],
    "stocks": [],
    "ai": "",
-   "first_seen": "2026-11-23 20:03"
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "‘185만닉스’ 경고했던 애널리스트…이번엔 목표가 ‘105만원’ 제시",
+   "press": "이데일리",
+   "time": "2026-11-23 20:25",
+   "url": "https://n.news.naver.com/mnews/article/018/0006414388?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "\"AI주 폭락, 닷컴버블 닮은꼴…韓 전형적 거품 최종 단계\"",
+   "press": "연합뉴스TV",
+   "time": "2026-11-23 20:20",
+   "url": "https://n.news.naver.com/mnews/article/422/0000929130",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "\"AI주 폭락, 닷컴버블 닮은꼴…韓 전형적 거품 최종 단계\"",
+   "press": "연합뉴스TV",
+   "time": "2026-11-23 20:20",
+   "url": "https://n.news.naver.com/mnews/article/422/0000929130?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "AI 공포에 급락…코스피 4,700선 턱걸이",
+   "press": "연합뉴스TV",
+   "time": "2026-11-23 20:13",
+   "url": "https://n.news.naver.com/mnews/article/422/0000929128",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "AI 공포에 급락…코스피 4,700선 턱걸이",
+   "press": "연합뉴스TV",
+   "time": "2026-11-23 20:13",
+   "url": "https://n.news.naver.com/mnews/article/422/0000929128?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "대한항공 조종사 임단협 잠정안 부결…통합 서열 갈등 지속",
+   "press": "서울경제",
+   "time": "2026-11-23 20:10",
+   "url": "https://n.news.naver.com/mnews/article/011/0004685314",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "다 떨어지는데 혼자 '선방'…폭락장 비껴간 '이 종목'",
+   "press": "한국경제TV",
+   "time": "2026-11-23 20:10",
+   "url": "https://n.news.naver.com/mnews/article/215/0001273679",
+   "cats": [
+    "속보"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "대한항공 조종사 임단협 잠정안 부결…통합 서열 갈등 지속",
+   "press": "서울경제",
+   "time": "2026-11-23 20:10",
+   "url": "https://n.news.naver.com/mnews/article/011/0004685314?sid=101258401",
+   "cats": [
+    "시황·전망"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "다 떨어지는데 혼자 '선방'…폭락장 비껴간 '이 종목'",
+   "press": "한국경제TV",
+   "time": "2026-11-23 20:10",
+   "url": "https://n.news.naver.com/mnews/article/215/0001273679?sid=101258402",
+   "cats": [
+    "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
+  },
+  {
+   "title": "기업들, 자사주 사 ‘떠받치기’... 연기금은 팔아 ‘추락 부채질’",
+   "press": "조선일보",
+   "time": "2026-11-23 20:05",
+   "url": "https://n.news.naver.com/mnews/article/023/0004011238",
+   "cats": [
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:56"
   },
   {
    "title": "\"최악의 경우 코스피 3000대까지 밀린다\"…전문가의 경고 [분석+]",
    "press": "한국경제",
    "time": "2026-11-23 20:01",
    "url": "https://n.news.naver.com/mnews/article/015/0005357298",
+   "cats": [
+    "속보",
+    "주요"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 20:03"
+  },
+  {
+   "title": "'검은 월요일', 4700선 턱걸이한 코스피 [뉴시스Pic]",
+   "press": "뉴시스",
+   "time": "2026-11-23 20:01",
+   "url": "https://n.news.naver.com/mnews/article/003/0014340743",
    "cats": [
     "속보"
    ],
@@ -109,7 +255,7 @@
    "first_seen": "2026-11-23 20:03"
   },
   {
-   "title": "“AI주 급락하더니” 떠오르는 유망업종…제약·바이오 다시 순위 진입 [투자360]",
+   "title": "“AI주 급락하더니” 떠오르는 유망업종…다시 순위 진입한 제약 바이오[투자360]",
    "press": "헤럴드경제",
    "time": "2026-11-23 19:41",
    "url": "https://n.news.naver.com/mnews/article/016/0002727314",
@@ -246,9 +392,9 @@
    "title": "“기금형 퇴직연금 참여 길 열리면…민간 생태계 메기 역할 할 것” [시그널]",
    "press": "서울경제",
    "time": "2026-11-23 19:03",
-   "url": "https://n.news.naver.com/mnews/article/011/0004685307",
+   "url": "https://n.news.naver.com/mnews/article/011/0004685307?sid=101258401",
    "cats": [
-    "속보"
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -258,9 +404,9 @@
    "title": "“기금형 퇴직연금 참여 길 열리면…민간 생태계 메기 역할 할 것” [시그널]",
    "press": "서울경제",
    "time": "2026-11-23 19:03",
-   "url": "https://n.news.naver.com/mnews/article/011/0004685307?sid=101258401",
+   "url": "https://n.news.naver.com/mnews/article/011/0004685307",
    "cats": [
-    "시황·전망"
+    "속보"
    ],
    "stocks": [],
    "ai": "",
@@ -285,7 +431,8 @@
    "url": "https://n.news.naver.com/mnews/article/009/0005767891",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -322,7 +469,8 @@
    "url": "https://n.news.naver.com/mnews/article/005/0001886931",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -384,7 +532,8 @@
    "url": "https://n.news.naver.com/mnews/article/011/0004685304",
    "cats": [
     "주요",
-    "속보"
+    "속보",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -838,24 +987,24 @@
    "first_seen": "2026-11-23 18:54"
   },
   {
-   "title": "KAI, 미래 항공우주 인재 양성한다…DGIST·UNIST와 협약",
-   "press": "서울경제",
-   "time": "2026-11-23 17:58",
-   "url": "https://n.news.naver.com/mnews/article/011/0004685286?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 18:54"
-  },
-  {
    "title": "한투운용 ‘AI 집중 TDF’ 내놨다…“향후 20년간 변화 이끌 것”",
    "press": "서울경제",
    "time": "2026-11-23 17:58",
    "url": "https://n.news.naver.com/mnews/article/011/0004685287?sid=101258402",
    "cats": [
     "기업·종목"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 18:54"
+  },
+  {
+   "title": "KAI, 미래 항공우주 인재 양성한다…DGIST·UNIST와 협약",
+   "press": "서울경제",
+   "time": "2026-11-23 17:58",
+   "url": "https://n.news.naver.com/mnews/article/011/0004685286?sid=101258401",
+   "cats": [
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -898,24 +1047,24 @@
    "first_seen": "2026-11-23 18:54"
   },
   {
-   "title": "자사주 매입 빗장 또 풀었지만…과거 4건 중 1건, 절반도 못 사",
-   "press": "서울경제",
-   "time": "2026-11-23 17:55",
-   "url": "https://n.news.naver.com/mnews/article/011/0004685282?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 18:54"
-  },
-  {
    "title": "美 Fed, 내달 금리 동결 가능성 '솔솔'",
    "press": "한국경제",
    "time": "2026-11-23 17:55",
    "url": "https://n.news.naver.com/mnews/article/015/0005357239?sid=101258403",
    "cats": [
     "해외증시"
+   ],
+   "stocks": [],
+   "ai": "",
+   "first_seen": "2026-11-23 18:54"
+  },
+  {
+   "title": "자사주 매입 빗장 또 풀었지만…과거 4건 중 1건, 절반도 못 사",
+   "press": "서울경제",
+   "time": "2026-11-23 17:55",
+   "url": "https://n.news.naver.com/mnews/article/011/0004685282?sid=101258401",
+   "cats": [
+    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
@@ -1047,7 +1196,8 @@
    "time": "2026-11-23 17:50",
    "url": "https://n.news.naver.com/mnews/article/011/0004685273",
    "cats": [
-    "주요"
+    "주요",
+    "많이 본"
    ],
    "stocks": [],
    "ai": "",
@@ -4732,153 +4882,6 @@
    "url": "https://n.news.naver.com/mnews/article/018/0006414061",
    "cats": [
     "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "교보증권, 임직원 직접 만든 수제 간식 지역아동복지센터 전달",
-   "press": "이데일리",
-   "time": "2026-11-23 11:13",
-   "url": "https://n.news.naver.com/mnews/article/018/0006414061?sid=101258401",
-   "cats": [
-    "시황·전망"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "한 돈 100만원 넘게 주고 샀는데…금값 폭락에 개미 ‘저가 매수’ 중",
-   "press": "매일경제",
-   "time": "2026-11-23 11:11",
-   "url": "https://n.news.naver.com/mnews/article/009/0005767501",
-   "cats": [
-    "속보",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "종근당, 위고비 부진·품목 공백 '이중고'…LG, 밸류업·AX로 재평가 기대 [株토피아]",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-23 11:11",
-   "url": "https://n.news.naver.com/mnews/article/014/0005608161?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "종근당, 위고비 부진·품목 공백 '이중고'…LG, 밸류업·AX로 재평가 기대 [株토피아]",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-23 11:11",
-   "url": "https://n.news.naver.com/mnews/article/014/0005608161",
-   "cats": [
-    "속보",
-    "주요"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "국제전기, 인공지능 전력·배전 설계 시스템 구축",
-   "press": "조선비즈",
-   "time": "2026-11-23 11:11",
-   "url": "https://n.news.naver.com/mnews/article/366/0001206638",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "비트코인, '과대 낙폭' 인식 속 저가매수 유입되며 6만달러선 회복 [크립토브리핑]",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-23 11:10",
-   "url": "https://n.news.naver.com/mnews/article/014/0005608157?sid=101258402",
-   "cats": [
-    "기업·종목"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "비트코인, '과대 낙폭' 인식 속 저가매수 유입되며 6만달러선 회복 [크립토브리핑]",
-   "press": "파이낸셜뉴스",
-   "time": "2026-11-23 11:10",
-   "url": "https://n.news.naver.com/mnews/article/014/0005608157",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "교보증권, 임직원 참여 '해피쿠킹' 진행…지역아동에 간식 전달",
-   "press": "뉴시스",
-   "time": "2026-11-23 11:08",
-   "url": "https://n.news.naver.com/mnews/article/003/0014339291",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "\"주식 옮기면 최대 200만원\"…한화증권, 연말 이벤트 눈길",
-   "press": "데일리안",
-   "time": "2026-11-23 11:08",
-   "url": "https://n.news.naver.com/mnews/article/119/0003158256",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "한화투자증권, 비대면 종합계좌 첫 개설 고객에 평생 수수료 우대",
-   "press": "뉴시스",
-   "time": "2026-11-23 11:08",
-   "url": "https://n.news.naver.com/mnews/article/003/0014339279",
-   "cats": [
-    "속보"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "삼전닉스 싸다고 줍줍했다간…증권가 '서늘한 경고' [머니팁]",
-   "press": "한국경제",
-   "time": "2026-11-23 11:06",
-   "url": "https://n.news.naver.com/mnews/article/015/0005356978",
-   "cats": [
-    "주요",
-    "많이 본"
-   ],
-   "stocks": [],
-   "ai": "",
-   "first_seen": "2026-11-23 11:18"
-  },
-  {
-   "title": "삼전닉스 싸다고 줍줍했다간…증권가 '서늘한 경고' [머니팁]",
-   "press": "한국경제",
-   "time": "2026-11-23 11:06",
-   "url": "https://n.news.naver.com/mnews/article/015/0005356978?sid=101258401",
-   "cats": [
-    "시황·전망"
    ],
    "stocks": [],
    "ai": "",
