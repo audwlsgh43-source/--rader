@@ -5,6 +5,26 @@
  "corp_code": "00604268",
  "disclosures": [
   {
+   "rcept_no": "20261123900737",
+   "date": "2026-11-23",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900737",
+   "seen": "18:53"
+  },
+  {
+   "rcept_no": "20261123000392",
+   "date": "2026-11-23",
+   "title": "주요사항보고서(회사합병결정)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000392",
+   "seen": "18:53"
+  },
+  {
    "rcept_no": "20261116002135",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
