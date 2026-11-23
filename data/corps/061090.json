@@ -5,6 +5,16 @@
  "corp_code": "01010615",
  "disclosures": [
   {
+   "rcept_no": "20261123000060",
+   "date": "2026-11-23",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000060",
+   "seen": "11:15"
+  },
+  {
    "rcept_no": "20261119000067",
    "date": "2026-11-19",
    "title": "주주총회소집공고",
