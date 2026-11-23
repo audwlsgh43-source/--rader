@@ -1,8 +1,244 @@
 {
  "date": "2026-11-23",
- "updated_at": "2026-11-23 11:15",
- "count": 32,
+ "updated_at": "2026-11-23 12:19",
+ "count": 41,
  "items": [
+  {
+   "rcept_no": "20261123900194",
+   "date": "2026-11-23",
+   "corp": "네패스",
+   "stock_code": "033640",
+   "corp_code": "00227333",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "네패스",
+   "rm": "코",
+   "seen": "12:19",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900194"
+  },
+  {
+   "rcept_no": "20261123900190",
+   "date": "2026-11-23",
+   "corp": "세나테크놀로지",
+   "stock_code": "061090",
+   "corp_code": "01010615",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "세나테크놀로지",
+   "rm": "코",
+   "seen": "12:19",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900190"
+  },
+  {
+   "rcept_no": "20261123800197",
+   "date": "2026-11-23",
+   "corp": "HD현대",
+   "stock_code": "267250",
+   "corp_code": "01205709",
+   "mkt": "코스피",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+   "flr": "HD현대",
+   "rm": "유",
+   "seen": "12:19",
+   "ai": "에이치디현대삼호가 아시아 소재 선주와 LPGC 2척 공사수주 계약을 체결했으며, 계약금액은 3,084억원으로 최근매출액 대비 3.82%입니다.",
+   "points": [
+    "방식: 공사수주, 체결계약명 LPGC 2척",
+    "상대방: 아시아 소재 선주(회사와의 관계 기재 없음)",
+    "대금: 계약금·선급금 있음, 공사진척에 따라 수금",
+    "계약일 2026-11-20, 계약기간 2030-06-12 종료"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "3,084억원"
+    ],
+    [
+     "최근매출액 대비",
+     "3.82%"
+    ],
+    [
+     "최근매출액",
+     "80,714억원"
+    ],
+    [
+     "자산총액비중",
+     "12.66%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2030-06-12",
+     "kind": "기타",
+     "desc": "계약기간 종료일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800197"
+  },
+  {
+   "rcept_no": "20261123800187",
+   "date": "2026-11-23",
+   "corp": "HD한국조선해양",
+   "stock_code": "009540",
+   "corp_code": "00164830",
+   "mkt": "코스피",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+   "flr": "HD한국조선해양",
+   "rm": "유",
+   "seen": "12:19",
+   "ai": "자회사 에이치디현대삼호(주)가 아시아 소재 선주와 LPGC 2척 공사수주 계약을 3,084억원 규모로 체결했습니다. 최근매출액 대비 3.82%입니다.",
+   "points": [
+    "자회사 에이치디현대삼호(주)의 단일 공사수주 계약",
+    "상대방은 아시아 소재 선주이며 회사와의 관계는 기재되지 않음",
+    "계약금·선급금 있음, 공사진척에 따라 대금 수금",
+    "계약기간 2026-11-20부터 2030-06-12까지"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "3,084억원"
+    ],
+    [
+     "최근매출액",
+     "80,714억원"
+    ],
+    [
+     "매출액대비",
+     "3.82%"
+    ],
+    [
+     "자산총액비중",
+     "12.66%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2030-06-12",
+     "kind": "기타",
+     "desc": "계약기간 종료 예정일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800187"
+  },
+  {
+   "rcept_no": "20261123000075",
+   "date": "2026-11-23",
+   "corp": "SH에너지화학",
+   "stock_code": "002360",
+   "corp_code": "00136457",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "대원엔비폴",
+   "rm": "",
+   "seen": "12:19",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000075"
+  },
+  {
+   "rcept_no": "20261123000074",
+   "date": "2026-11-23",
+   "corp": "디아이",
+   "stock_code": "003160",
+   "corp_code": "00118275",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "J.P.MORGANSECURITIESPLC",
+   "rm": "",
+   "seen": "12:19",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000074"
+  },
+  {
+   "rcept_no": "20261123000072",
+   "date": "2026-11-23",
+   "corp": "태성",
+   "stock_code": "323280",
+   "corp_code": "01366000",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "김종학",
+   "rm": "",
+   "seen": "12:19",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000072"
+  },
+  {
+   "rcept_no": "20261123000071",
+   "date": "2026-11-23",
+   "corp": "RFHIC",
+   "stock_code": "218410",
+   "corp_code": "01078178",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "조덕수",
+   "rm": "",
+   "seen": "12:19",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000071"
+  },
+  {
+   "rcept_no": "20261123000070",
+   "date": "2026-11-23",
+   "corp": "일진파워",
+   "stock_code": "094820",
+   "corp_code": "00485177",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "이상업",
+   "rm": "",
+   "seen": "12:19",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000070"
+  },
   {
    "rcept_no": "20261123900171",
    "date": "2026-11-23",
@@ -41,8 +277,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900170",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900170"
   },
   {
    "rcept_no": "20261123900159",
