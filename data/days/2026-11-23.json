@@ -1,8 +1,28 @@
 {
  "date": "2026-11-23",
- "updated_at": "2026-11-23 08:22",
- "count": 7,
+ "updated_at": "2026-11-23 09:00",
+ "count": 8,
  "items": [
+  {
+   "rcept_no": "20261123700074",
+   "date": "2026-11-23",
+   "corp": "엔켐",
+   "stock_code": "348370",
+   "corp_code": "01011526",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "조회공시요구(풍문또는보도등)에대한답변(부인)",
+   "flr": "엔켐",
+   "rm": "채",
+   "seen": "09:00",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123700074"
+  },
   {
    "rcept_no": "20261123800008",
    "date": "2026-11-23",
