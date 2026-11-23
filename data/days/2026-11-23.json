@@ -1,8 +1,28 @@
 {
  "date": "2026-11-23",
- "updated_at": "2026-11-23 18:53",
- "count": 302,
+ "updated_at": "2026-11-23 20:02",
+ "count": 303,
  "items": [
+  {
+   "rcept_no": "20261123900755",
+   "date": "2026-11-23",
+   "corp": "파라택시스이더리움",
+   "stock_code": "290560",
+   "corp_code": "01130849",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "불성실공시법인지정              (공시번복)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "20:02",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900755"
+  },
   {
    "rcept_no": "20261123900754",
    "date": "2026-11-23",
