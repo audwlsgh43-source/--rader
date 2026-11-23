@@ -5,6 +5,36 @@
  "corp_code": "00120182",
  "disclosures": [
   {
+   "rcept_no": "20261123800415",
+   "date": "2026-11-23",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800415",
+   "seen": "15:55"
+  },
+  {
+   "rcept_no": "20261123800387",
+   "date": "2026-11-23",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123800387",
+   "seen": "15:55"
+  },
+  {
+   "rcept_no": "20261123000182",
+   "date": "2026-11-23",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000182",
+   "seen": "15:55"
+  },
+  {
    "rcept_no": "20261123000093",
    "date": "2026-11-23",
    "title": "증권발행실적보고서",

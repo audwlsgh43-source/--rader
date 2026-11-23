@@ -5,6 +5,16 @@
  "corp_code": "01782004",
  "disclosures": [
   {
+   "rcept_no": "20261123900351",
+   "date": "2026-11-23",
+   "title": "전환주식의전환가액조정              (전환우선주)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900351",
+   "seen": "15:55"
+  },
+  {
    "rcept_no": "20261120900755",
    "date": "2026-11-20",
    "title": "전환가액의조정              (제2회차)",

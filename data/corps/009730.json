@@ -5,6 +5,36 @@
  "corp_code": "00116426",
  "disclosures": [
   {
+   "rcept_no": "20261123900352",
+   "date": "2026-11-23",
+   "title": "유상증자최종발행가액확정              (주주배정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "이렘이 주주배정 방식으로 기명식 보통주 4,800,000주를 발행하는 유상증자의 최종 발행가액을 1주당 1,060원으로 확정했습니다.",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900352",
+   "seen": "15:55"
+  },
+  {
+   "rcept_no": "20261123000256",
+   "date": "2026-11-23",
+   "title": "[발행조건확정]증권신고서(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000256",
+   "seen": "15:55"
+  },
+  {
+   "rcept_no": "20261123000236",
+   "date": "2026-11-23",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123000236",
+   "seen": "15:55"
+  },
+  {
    "rcept_no": "20261119000178",
    "date": "2026-11-19",
    "title": "[기재정정]투자설명서",
