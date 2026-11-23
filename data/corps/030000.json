@@ -5,6 +5,16 @@
  "corp_code": "00148276",
  "disclosures": [
   {
+   "rcept_no": "20261124800170",
+   "date": "2026-11-24",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124800170",
+   "seen": "08:35"
+  },
+  {
    "rcept_no": "20261117000007",
    "date": "2026-11-17",
    "title": "자기주식취득결과보고서",
