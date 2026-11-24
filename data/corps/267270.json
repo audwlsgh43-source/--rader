@@ -5,6 +5,26 @@
  "corp_code": "01205842",
  "disclosures": [
   {
+   "rcept_no": "20261124800338",
+   "date": "2026-11-24",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124800338",
+   "seen": "09:59"
+  },
+  {
+   "rcept_no": "20261124000051",
+   "date": "2026-11-24",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000051",
+   "seen": "09:59"
+  },
+  {
    "rcept_no": "20261116001470",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
