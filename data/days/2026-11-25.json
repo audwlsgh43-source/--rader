@@ -1,8 +1,28 @@
 {
  "date": "2026-11-25",
- "updated_at": "2026-11-25 07:35",
- "count": 2,
+ "updated_at": "2026-11-25 07:49",
+ "count": 3,
  "items": [
+  {
+   "rcept_no": "20261125900002",
+   "date": "2026-11-25",
+   "corp": "현대바이오",
+   "stock_code": "048410",
+   "corp_code": "00313649",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "투자판단관련주요경영사항(임상시험계획변경승인)              (전립선암 치료제 CPPCA07의 1상 임상시험계획 변경승인)",
+   "flr": "현대바이오",
+   "rm": "코",
+   "seen": "07:49",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900002"
+  },
   {
    "rcept_no": "20261124000552",
    "date": "2026-11-25",
