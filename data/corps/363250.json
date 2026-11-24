@@ -5,6 +5,26 @@
  "corp_code": "01437858",
  "disclosures": [
   {
+   "rcept_no": "20261124900944",
+   "date": "2026-11-24",
+   "title": "증권발행결과(자율공시)              (제2회차 CB)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900944",
+   "seen": "17:58"
+  },
+  {
+   "rcept_no": "20261124000520",
+   "date": "2026-11-24",
+   "title": "자기주식처분결과보고서",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000520",
+   "seen": "17:58"
+  },
+  {
    "rcept_no": "20261116902540",
    "date": "2026-11-16",
    "title": "주권매매거래정지              (영업양수도)",
