@@ -5,6 +5,16 @@
  "corp_code": "00144012",
  "disclosures": [
   {
+   "rcept_no": "20261124000180",
+   "date": "2026-11-24",
+   "title": "자기주식취득결과보고서",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000180",
+   "seen": "13:24"
+  },
+  {
    "rcept_no": "20261113000064",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",
