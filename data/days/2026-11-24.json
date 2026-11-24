@@ -1,8 +1,48 @@
 {
  "date": "2026-11-24",
- "updated_at": "2026-11-24 17:58",
- "count": 303,
+ "updated_at": "2026-11-24 19:04",
+ "count": 305,
  "items": [
+  {
+   "rcept_no": "20261124901002",
+   "date": "2026-11-24",
+   "corp": "디에이치엑스컴퍼니",
+   "stock_code": "031860",
+   "corp_code": "00180865",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "mid",
+   "title": "주권매매거래정지기간변경              (상장적격성 실질심사 대상 결정)",
+   "flr": "코스닥시장본부",
+   "rm": "코",
+   "seen": "19:04",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124901002"
+  },
+  {
+   "rcept_no": "20261124801000",
+   "date": "2026-11-24",
+   "corp": "하이브",
+   "stock_code": "352820",
+   "corp_code": "01204056",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]타법인주식및출자증권취득결정",
+   "flr": "하이브",
+   "rm": "유",
+   "seen": "19:04",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124801000"
+  },
   {
    "rcept_no": "20261124900987",
    "date": "2026-11-24",
@@ -261,8 +301,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900892",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900892"
   },
   {
    "rcept_no": "20261124900889",
@@ -282,8 +322,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900889",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900889"
   },
   {
    "rcept_no": "20261124900885",
