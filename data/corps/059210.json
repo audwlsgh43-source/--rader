@@ -5,6 +5,36 @@
  "corp_code": "00317681",
  "disclosures": [
   {
+   "rcept_no": "20261124000096",
+   "date": "2026-11-24",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000096",
+   "seen": "11:15"
+  },
+  {
+   "rcept_no": "20261124000094",
+   "date": "2026-11-24",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000094",
+   "seen": "11:15"
+  },
+  {
+   "rcept_no": "20261124000092",
+   "date": "2026-11-24",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000092",
+   "seen": "11:15"
+  },
+  {
    "rcept_no": "20261117000129",
    "date": "2026-11-17",
    "title": "주요사항보고서(자기주식취득결정)",

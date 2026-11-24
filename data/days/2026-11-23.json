@@ -1,7 +1,7 @@
 {
  "date": "2026-11-23",
- "updated_at": "2026-11-24 09:59",
- "count": 303,
+ "updated_at": "2026-11-24 11:15",
+ "count": 302,
  "items": [
   {
    "rcept_no": "20261123900755",
@@ -942,26 +942,6 @@
    "events": [],
    "analyzed": false,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900560"
-  },
-  {
-   "rcept_no": "20261123900558",
-   "date": "2026-11-23",
-   "corp": "에스바이오메딕스",
-   "stock_code": "304360",
-   "corp_code": "01258020",
-   "mkt": "코스닥",
-   "type": "etc",
-   "imp": "low",
-   "title": "전환가액의조정              (제10회차)",
-   "flr": "에스바이오메딕스",
-   "rm": "코",
-   "seen": "17:31",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261123900558"
   },
   {
    "rcept_no": "20261123900551",
@@ -4340,9 +4320,9 @@
    "stock_code": "009830",
    "corp_code": "00162461",
    "mkt": "코스피",
-   "type": "ma",
-   "imp": "high",
-   "title": "주요사항보고서(회사합병결정)",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[첨부추가]주요사항보고서(회사합병결정)",
    "flr": "한화솔루션",
    "rm": "",
    "seen": "15:55",
