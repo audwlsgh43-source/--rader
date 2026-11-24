@@ -5,6 +5,26 @@
  "corp_code": "01205709",
  "disclosures": [
   {
+   "rcept_no": "20261124000314",
+   "date": "2026-11-24",
+   "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000314",
+   "seen": "15:28"
+  },
+  {
+   "rcept_no": "20261124000300",
+   "date": "2026-11-24",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000300",
+   "seen": "15:28"
+  },
+  {
    "rcept_no": "20261123800197",
    "date": "2026-11-23",
    "title": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)",

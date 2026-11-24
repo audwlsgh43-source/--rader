@@ -5,6 +5,26 @@
  "corp_code": "00155373",
  "disclosures": [
   {
+   "rcept_no": "20261124900587",
+   "date": "2026-11-24",
+   "title": "정기주주총회결과",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900587",
+   "seen": "15:28"
+  },
+  {
+   "rcept_no": "20261124000282",
+   "date": "2026-11-24",
+   "title": "주요사항보고서(자기주식처분결정)",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000282",
+   "seen": "15:28"
+  },
+  {
    "rcept_no": "20261116900854",
    "date": "2026-11-16",
    "title": "감사보고서제출",
