@@ -5,6 +5,16 @@
  "corp_code": "00121288",
  "disclosures": [
   {
+   "rcept_no": "20261124000200",
+   "date": "2026-11-24",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000200",
+   "seen": "14:32"
+  },
+  {
    "rcept_no": "20261123000286",
    "date": "2026-11-23",
    "title": "주식등의대량보유상황보고서(일반)",

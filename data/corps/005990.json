@@ -5,6 +5,26 @@
  "corp_code": "00120924",
  "disclosures": [
   {
+   "rcept_no": "20261124900568",
+   "date": "2026-11-24",
+   "title": "주요사항보고서(자기주식처분결정)(자회사의 주요경영사항)",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900568",
+   "seen": "14:32"
+  },
+  {
+   "rcept_no": "20261124900563",
+   "date": "2026-11-24",
+   "title": "주식소각결정(자회사의 주요경영사항)",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900563",
+   "seen": "14:32"
+  },
+  {
    "rcept_no": "20261116001239",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
