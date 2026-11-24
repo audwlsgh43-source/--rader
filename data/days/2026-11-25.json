@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-25",
+ "updated_at": "2026-11-25 07:35",
+ "count": 2,
+ "items": [
+  {
+   "rcept_no": "20261124000552",
+   "date": "2026-11-25",
+   "corp": "케이쓰리아이",
+   "stock_code": "431190",
+   "corp_code": "01689266",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "flr": "제이스커머스",
+   "rm": "",
+   "seen": "07:35",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000552"
+  },
+  {
+   "rcept_no": "20261124000551",
+   "date": "2026-11-25",
+   "corp": "바로팜",
+   "stock_code": "0153R0",
+   "corp_code": "01835829",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "에스비브이에이",
+   "rm": "",
+   "seen": "07:35",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000551"
+  }
+ ]
+}
