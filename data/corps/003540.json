@@ -5,6 +5,26 @@
  "corp_code": "00110893",
  "disclosures": [
   {
+   "rcept_no": "20261124800689",
+   "date": "2026-11-24",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124800689",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261124000428",
+   "date": "2026-11-24",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000428",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261123000247",
    "date": "2026-11-23",
    "title": "대규모기업집단현황공시[분기별공시(대표회사용)]",

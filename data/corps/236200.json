@@ -5,6 +5,26 @@
  "corp_code": "01124653",
  "disclosures": [
   {
+   "rcept_no": "20261124900640",
+   "date": "2026-11-24",
+   "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900640",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261124900639",
+   "date": "2026-11-24",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900639",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261116000862",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

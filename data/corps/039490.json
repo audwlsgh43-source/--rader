@@ -5,6 +5,16 @@
  "corp_code": "00296290",
  "disclosures": [
   {
+   "rcept_no": "20261124000404",
+   "date": "2026-11-24",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000404",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261119000279",
    "date": "2026-11-19",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

@@ -5,6 +5,36 @@
  "corp_code": "00158501",
  "disclosures": [
   {
+   "rcept_no": "20261124800808",
+   "date": "2026-11-24",
+   "title": "매매거래정지및정지해제(중요내용공시)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124800808",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261124800774",
+   "date": "2026-11-24",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124800774",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261124000468",
+   "date": "2026-11-24",
+   "title": "동일인등출자계열회사와의상품ㆍ용역거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000468",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261116001584",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

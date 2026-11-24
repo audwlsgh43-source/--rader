@@ -5,6 +5,26 @@
  "corp_code": "01230255",
  "disclosures": [
   {
+   "rcept_no": "20261124000400",
+   "date": "2026-11-24",
+   "title": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000400",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261124000395",
+   "date": "2026-11-24",
+   "title": "주요사항보고서(자기전환사채만기전취득결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000395",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261120000629",
    "date": "2026-11-20",
    "title": "[기재정정]주식등의대량보유상황보고서(일반)",

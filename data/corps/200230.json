@@ -5,6 +5,36 @@
  "corp_code": "00608802",
  "disclosures": [
   {
+   "rcept_no": "20261124900732",
+   "date": "2026-11-24",
+   "title": "전환청구권행사",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124900732",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261124000408",
+   "date": "2026-11-24",
+   "title": "주요사항보고서(자기전환사채매도결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000408",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261124000390",
+   "date": "2026-11-24",
+   "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000390",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261113001223",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",

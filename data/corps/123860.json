@@ -5,6 +5,16 @@
  "corp_code": "00761952",
  "disclosures": [
   {
+   "rcept_no": "20261124000452",
+   "date": "2026-11-24",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000452",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261119900172",
    "date": "2026-11-19",
    "title": "타인에대한담보제공결정",

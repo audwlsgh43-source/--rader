@@ -5,6 +5,26 @@
  "corp_code": "00159102",
  "disclosures": [
   {
+   "rcept_no": "20261124000447",
+   "date": "2026-11-24",
+   "title": "특수관계인과의수익증권거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000447",
+   "seen": "16:55"
+  },
+  {
+   "rcept_no": "20261124000443",
+   "date": "2026-11-24",
+   "title": "특수관계인과의수익증권거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261124000443",
+   "seen": "16:55"
+  },
+  {
    "rcept_no": "20261118800397",
    "date": "2026-11-18",
    "title": "최대주주등소유주식변동신고서",
