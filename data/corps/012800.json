@@ -5,6 +5,36 @@
  "corp_code": "00112651",
  "disclosures": [
   {
+   "rcept_no": "20261125800337",
+   "date": "2026-11-25",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800337",
+   "seen": "14:40"
+  },
+  {
+   "rcept_no": "20261125800336",
+   "date": "2026-11-25",
+   "title": "주주총회소집결의",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800336",
+   "seen": "14:40"
+  },
+  {
+   "rcept_no": "20261125800334",
+   "date": "2026-11-25",
+   "title": "주식병합결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800334",
+   "seen": "14:40"
+  },
+  {
    "rcept_no": "20261120000470",
    "date": "2026-11-20",
    "title": "주식등의대량보유상황보고서(일반)",

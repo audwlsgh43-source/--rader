@@ -5,6 +5,16 @@
  "corp_code": "00101220",
  "disclosures": [
   {
+   "rcept_no": "20261125800316",
+   "date": "2026-11-25",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800316",
+   "seen": "14:40"
+  },
+  {
    "rcept_no": "20261125000293",
    "date": "2026-11-25",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

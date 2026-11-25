@@ -5,6 +5,16 @@
  "corp_code": "00156442",
  "disclosures": [
   {
+   "rcept_no": "20261125900305",
+   "date": "2026-11-25",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900305",
+   "seen": "14:40"
+  },
+  {
    "rcept_no": "20261113001103",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",
