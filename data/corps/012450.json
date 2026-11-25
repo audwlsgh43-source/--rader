@@ -5,6 +5,26 @@
  "corp_code": "00126566",
  "disclosures": [
   {
+   "rcept_no": "20261125000535",
+   "date": "2026-11-25",
+   "title": "특수관계인에대한자산양도",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000535",
+   "seen": "17:08"
+  },
+  {
+   "rcept_no": "20261125000526",
+   "date": "2026-11-25",
+   "title": "특수관계인에대한출자",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000526",
+   "seen": "17:08"
+  },
+  {
    "rcept_no": "20261120000501",
    "date": "2026-11-20",
    "title": "자기주식취득결과보고서",

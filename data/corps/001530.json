@@ -5,6 +5,36 @@
  "corp_code": "00118345",
  "disclosures": [
   {
+   "rcept_no": "20261125000699",
+   "date": "2026-11-25",
+   "title": "[기재정정]주식등의대량보유상황보고서(약식)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000699",
+   "seen": "17:08"
+  },
+  {
+   "rcept_no": "20261125000685",
+   "date": "2026-11-25",
+   "title": "[기재정정]주식등의대량보유상황보고서(약식)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000685",
+   "seen": "17:08"
+  },
+  {
+   "rcept_no": "20261125000582",
+   "date": "2026-11-25",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000582",
+   "seen": "17:08"
+  },
+  {
    "rcept_no": "20261113801927",
    "date": "2026-11-13",
    "title": "주식소각결정",

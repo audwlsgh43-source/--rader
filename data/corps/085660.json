@@ -5,6 +5,16 @@
  "corp_code": "00525679",
  "disclosures": [
   {
+   "rcept_no": "20261125900597",
+   "date": "2026-11-25",
+   "title": "주식소각결정              (상환전환우선주)",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900597",
+   "seen": "17:08"
+  },
+  {
    "rcept_no": "20261116902166",
    "date": "2026-11-16",
    "title": "신주인수권부사채(해외신주인수권부사채포함)발행후만기전사채취득",

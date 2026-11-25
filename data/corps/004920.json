@@ -5,6 +5,26 @@
  "corp_code": "00127158",
  "disclosures": [
   {
+   "rcept_no": "20261125800443",
+   "date": "2026-11-25",
+   "title": "기타안내사항(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800443",
+   "seen": "17:08"
+  },
+  {
+   "rcept_no": "20261125000696",
+   "date": "2026-11-25",
+   "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000696",
+   "seen": "17:08"
+  },
+  {
    "rcept_no": "20261119000372",
    "date": "2026-11-19",
    "title": "주식등의대량보유상황보고서(약식)",
