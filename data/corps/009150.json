@@ -5,6 +5,46 @@
  "corp_code": "00126371",
  "disclosures": [
   {
+   "rcept_no": "20261125800735",
+   "date": "2026-11-25",
+   "title": "주식소각결정",
+   "type": "buyback",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800735",
+   "seen": "18:18"
+  },
+  {
+   "rcept_no": "20261125000781",
+   "date": "2026-11-25",
+   "title": "특수관계인과의보험거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000781",
+   "seen": "18:18"
+  },
+  {
+   "rcept_no": "20261125000780",
+   "date": "2026-11-25",
+   "title": "특수관계인과의보험거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000780",
+   "seen": "18:18"
+  },
+  {
+   "rcept_no": "20261125000778",
+   "date": "2026-11-25",
+   "title": "[기재정정]특수관계인과의보험거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000778",
+   "seen": "18:18"
+  },
+  {
    "rcept_no": "20261116001915",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

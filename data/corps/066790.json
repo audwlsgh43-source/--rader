@@ -5,6 +5,26 @@
  "corp_code": "00249441",
  "disclosures": [
   {
+   "rcept_no": "20261125900759",
+   "date": "2026-11-25",
+   "title": "주권매매거래정지해제              (상장폐지에 따른 정리매매 개시)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900759",
+   "seen": "18:18"
+  },
+  {
+   "rcept_no": "20261125900743",
+   "date": "2026-11-25",
+   "title": "기타시장안내              (코스닥시장위원회 개최 결과 및 상장폐지 결정 안내)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900743",
+   "seen": "18:18"
+  },
+  {
    "rcept_no": "20261124000528",
    "date": "2026-11-24",
    "title": "주식등의대량보유상황보고서(일반)",

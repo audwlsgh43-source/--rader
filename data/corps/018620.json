@@ -5,6 +5,26 @@
  "corp_code": "00103547",
  "disclosures": [
   {
+   "rcept_no": "20261125900782",
+   "date": "2026-11-25",
+   "title": "최대주주변경",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900782",
+   "seen": "18:18"
+  },
+  {
+   "rcept_no": "20261125900774",
+   "date": "2026-11-25",
+   "title": "증권발행결과(자율공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900774",
+   "seen": "18:18"
+  },
+  {
    "rcept_no": "20261119000355",
    "date": "2026-11-19",
    "title": "주식등의대량보유상황보고서(일반)",
