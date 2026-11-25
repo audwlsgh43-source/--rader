@@ -1,8 +1,28 @@
 {
  "date": "2026-11-25",
- "updated_at": "2026-11-25 18:18",
- "count": 344,
+ "updated_at": "2026-11-25 19:27",
+ "count": 345,
  "items": [
+  {
+   "rcept_no": "20261125900786",
+   "date": "2026-11-25",
+   "corp": "서희건설",
+   "stock_code": "035890",
+   "corp_code": "00219848",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "타인에대한채무보증결정",
+   "flr": "서희건설",
+   "rm": "코",
+   "seen": "19:27",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900786"
+  },
   {
    "rcept_no": "20261125900782",
    "date": "2026-11-25",
@@ -101,8 +121,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900755",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900755"
   },
   {
    "rcept_no": "20261125900746",
