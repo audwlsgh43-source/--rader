@@ -5,6 +5,16 @@
  "corp_code": "00125974",
  "disclosures": [
   {
+   "rcept_no": "20261126800001",
+   "date": "2026-11-26",
+   "title": "중대재해발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800001",
+   "seen": "07:46"
+  },
+  {
    "rcept_no": "20261123800672",
    "date": "2026-11-23",
    "title": "회생절차종결신청",
