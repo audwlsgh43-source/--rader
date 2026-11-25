@@ -5,6 +5,16 @@
  "corp_code": "00261656",
  "disclosures": [
   {
+   "rcept_no": "20261125000455",
+   "date": "2026-11-25",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000455",
+   "seen": "15:39"
+  },
+  {
    "rcept_no": "20261119000427",
    "date": "2026-11-20",
    "title": "주요사항보고서(유형자산양도결정)",
