@@ -5,6 +5,16 @@
  "corp_code": "01798722",
  "disclosures": [
   {
+   "rcept_no": "20261125900789",
+   "date": "2026-11-25",
+   "title": "주권매매거래정지              (상장폐지 사유발생)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900789",
+   "seen": "20:28"
+  },
+  {
    "rcept_no": "20261118900536",
    "date": "2026-11-18",
    "title": "기타시장안내              (주권 상장폐지 우려 예고)",
