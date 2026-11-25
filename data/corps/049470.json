@@ -5,6 +5,26 @@
  "corp_code": "00351579",
  "disclosures": [
   {
+   "rcept_no": "20261125900227",
+   "date": "2026-11-25",
+   "title": "대표이사변경",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900227",
+   "seen": "13:41"
+  },
+  {
+   "rcept_no": "20261125000248",
+   "date": "2026-11-25",
+   "title": "주요사항보고서(자기전환사채만기전취득결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000248",
+   "seen": "13:41"
+  },
+  {
    "rcept_no": "20261124900648",
    "date": "2026-11-24",
    "title": "대표이사변경",

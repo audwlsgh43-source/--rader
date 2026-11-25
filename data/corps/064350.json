@@ -5,6 +5,26 @@
  "corp_code": "00302926",
  "disclosures": [
   {
+   "rcept_no": "20261125800220",
+   "date": "2026-11-25",
+   "title": "임시주주총회결과",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800220",
+   "seen": "13:41"
+  },
+  {
+   "rcept_no": "20261125000244",
+   "date": "2026-11-25",
+   "title": "주요사항보고서(자기주식처분결정)",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000244",
+   "seen": "13:41"
+  },
+  {
    "rcept_no": "20261117800497",
    "date": "2026-11-17",
    "title": "[기재정정]단일판매ㆍ공급계약체결",

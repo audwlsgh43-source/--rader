@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25 12:33",
+ "updated_at": "2026-11-25 13:41",
  "indices": [
   {
    "key": "ks11",
@@ -461,10 +461,10 @@
    "key": "KRW=X",
    "name": "원/달러",
    "kind": "fx",
-   "close": 1344.66,
-   "chg": 3.64,
-   "pct": 0.27,
-   "date": "11.25 12:33",
+   "close": 1342.98,
+   "chg": 1.96,
+   "pct": 0.15,
+   "date": "11.25 13:37",
    "spark": [
     1339.35,
     1340.95,
@@ -495,17 +495,17 @@
     1334.79,
     1344.3101,
     1341.02,
-    1344.66
+    1342.98
    ]
   },
   {
    "key": "DX-Y.NYB",
    "name": "달러인덱스",
    "kind": "fx",
-   "close": 103.912,
-   "chg": 0.102,
-   "pct": 0.1,
-   "date": "11.25 12:23",
+   "close": 103.97,
+   "chg": 0.16,
+   "pct": 0.15,
+   "date": "11.25 13:31",
    "spark": [
     102.0,
     101.84,
@@ -536,7 +536,7 @@
     103.81,
     104.32,
     103.81,
-    103.912
+    103.97
    ]
   },
   {
@@ -666,10 +666,10 @@
    "key": "CL=F",
    "name": "WTI 유가",
    "kind": "cmdty",
-   "close": 80.92,
-   "chg": -1.13,
-   "pct": -1.38,
-   "date": "11.25 12:23",
+   "close": 80.78,
+   "chg": -1.27,
+   "pct": -1.55,
+   "date": "11.25 13:31",
    "spark": [
     97.97,
     101.41,
@@ -700,17 +700,17 @@
     83.98,
     80.17,
     82.05,
-    80.92
+    80.78
    ]
   },
   {
    "key": "GC=F",
    "name": "금",
    "kind": "cmdty",
-   "close": 3556.0,
-   "chg": -5.8999,
-   "pct": -0.17,
-   "date": "11.25 12:23",
+   "close": 3548.8999,
+   "chg": -13.0,
+   "pct": -0.36,
+   "date": "11.25 13:31",
    "spark": [
     4170.1001,
     4181.1001,
@@ -741,17 +741,17 @@
     3515.3999,
     3651.3999,
     3561.8999,
-    3556.0
+    3548.8999
    ]
   },
   {
    "key": "BTC-USD",
    "name": "비트코인",
    "kind": "crypto",
-   "close": 59418.0312,
-   "chg": -1792.9531,
-   "pct": -2.93,
-   "date": "11.25 12:33",
+   "close": 58990.0508,
+   "chg": -2220.9336,
+   "pct": -3.63,
+   "date": "11.25 13:41",
    "spark": [
     80006.6562,
     80805.0781,
@@ -782,7 +782,7 @@
     60094.0898,
     61161.9102,
     61210.9844,
-    59418.0312
+    58990.0508
    ]
   }
  ],
@@ -794,7 +794,7 @@
     "close": 7201.0898,
     "chg": -36.0801,
     "pct": -0.5,
-    "date": "11.25 06:54",
+    "date": "11.25 06:00",
     "spark": [
      7718.9399,
      7744.0601,
@@ -874,7 +874,7 @@
     "close": 50018.6992,
     "chg": 423.3906,
     "pct": 0.85,
-    "date": "11.25 06:54",
+    "date": "11.25 06:00",
     "spark": [
      51621.4805,
      52177.6914,
@@ -1204,7 +1204,7 @@
   "date": "2026-11-24",
   "closed": true
  },
- "yahoo_at": "2026-11-25 12:33",
+ "yahoo_at": "2026-11-25 13:41",
  "reports": [
   {
    "cat": "기업",
@@ -1385,7 +1385,14 @@
    "stock": "코오롱인더",
    "code": "120110",
    "goal": "70000",
-   "opinion": ""
+   "opinion": "",
+   "sum": [
+    "3Q26 영업이익 402억원으로 컨센서스를 하회, 환율 하락과 역래깅이 부담",
+    "산업자재 적자와 화학 감익이 이어져 4Q26 수익성 개선은 제한적으로 봄",
+    "AI 서버향 저유전 소재 수요에 힘입어 IT 소재(mPPO·CPI)는 성장 지속",
+    "2027F 영업이익 2,760억원(+16%) 전망, mPPO 완전가동은 2027년 1분기 예상"
+   ],
+   "val": []
   },
   {
    "cat": "기업",
@@ -2148,8 +2155,6 @@
    "pdf": "https://stock.pstatic.net/stock-research/industry/15/20261125_industry_669535000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/industry/47215",
    "sector": "construction",
-   "method": "",
-   "why": "",
    "sum": [
     "2026년 건설주는 원전·중동 재건·AI 인프라 기대감으로 리레이팅됐고, 2027년은 수주와 실적으로 입증하는 해로 봄",
     "국내 건설투자는 SOC·메가프로젝트 중심으로 회복이 기대되나 실제 건설활동 회복은 아직 제한적",
@@ -2159,7 +2164,9 @@
    "val": [
     "대신증권은 현대건설(Top Pick) 목표주가 168,000원, 상승여력 81.6%로 봄. 2027F PER 15.1배·PBR 1.1배",
     "차선호주 GS건설 목표주가 44,000원(상승여력 49.7%), 2027F PER 10.9배·PBR 1.4배"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "산업",
@@ -2210,15 +2217,15 @@
    "url": "https://stock.naver.com/research/daily/38296",
    "pdf": "https://stock.pstatic.net/stock-research/market/21/20261125_market_856564000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/market/38296",
-   "method": "",
-   "why": "",
    "sum": [
     "코스피는 5.0% 하락한 4,753.9p로, 관세·AI 수익성 우려 속 매도 사이드카가 발동됨",
     "미 HPE 이익률 하락 전망과 엔비디아 등 반도체 차익 매물이 지수 낙폭을 키움",
     "신한투자증권은 수급 주도 반등이 이어질지에 의문을 두고 있음",
     "코스닥은 2.1% 하락했으나 바이오·의료AI 순환매로 코스피보다 선방"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "시황",
@@ -2483,15 +2490,15 @@
    "url": "https://stock.naver.com/research/invest/40954",
    "pdf": "https://stock.pstatic.net/stock-research/invest/63/20261125_invest_234328000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40954",
-   "method": "",
-   "why": "",
    "sum": [
     "금융위 제정안은 리테일 중심 디지털자산 시장을 기관 중심 업권 체계로 바꾸려는 방안",
     "매매·중개·보관은 인가, 운용은 등록제로 기능별 진입 요건을 나눔",
     "매매·중개·보관 인가를 모두 갖춘 사업자를 플랫폼운영자(거래소)로 지정",
     "유진투자증권은 업권화 후에도 대형 거래소의 유동성 경쟁력이 당분간 유효할 것으로 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2501,15 +2508,15 @@
    "url": "https://stock.naver.com/research/invest/40953",
    "pdf": "https://stock.pstatic.net/stock-research/invest/16/20261125_invest_51513000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40953",
-   "method": "",
-   "why": "",
    "sum": [
     "한화투자증권는 수출이 호조인데도 코스피 TTM P/B가 5월 고점의 절반 이하라 과도한 저평가로 봄",
     "메모리 2사 자본 컨센서스에 주주환원이 덜 반영돼, 반영 시 코스피 12MF ROE가 1.8~2.8%p 높아진다고 봄",
     "Capex 우려와 긴축 베팅이 완화되고 있어 바닥은 지났다고 봄",
     "반도체 중심 매수 대응 입장을 고수함"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2519,15 +2526,15 @@
    "url": "https://stock.naver.com/research/invest/40952",
    "pdf": "https://stock.pstatic.net/stock-research/invest/15/20261125_invest_435545000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40952",
-   "method": "",
-   "why": "",
    "sum": [
     "대신증권은 11.20일 미국 증시 급락이 엔비디아 회계 조사, AI 수익성 의구심 등 미시적 요인에 따른 것으로 추세 훼손은 아니라고 봄",
     "고점 대비 -11.6%로 약세장(-20|%) 진입 전이며, VIX 40 이상 이후 회복한 사례가 많다고 짚음",
     "현재는 금리 상승과 밸류에이션 부담에 따른 조정 국면이고, 경기침체와 신용위기 조건은 아직 확인되지 않았다고 봄",
     "S&P500은 20개월선(6,883p) 지지 중이며, 투매가 나오면 120주선(6,553p)까지 하락할 수 있다고 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2537,8 +2544,6 @@
    "url": "https://stock.naver.com/research/invest/40951",
    "pdf": "https://stock.pstatic.net/stock-research/invest/15/20261125_invest_822668000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40951",
-   "method": "",
-   "why": "",
    "sum": [
     "대신증권은 미국 증시가 끝이 아니라 하락 과정의 막바지 진통 구간이라고 봄",
     "S&P500은 20월선 지지 중이나 심리가 무너지면 120주선 6,553p까지 밀릴 수 있다고 봄",
@@ -2548,7 +2553,9 @@
    "val": [
     "11/5 기준 선행 P/E 17.7배로 연초 22.0배에서 내려와 3년여 만에 최저 수준",
     "장기 CAPE는 40 이상으로 닷컴버블(1999~2000년) 이후 처음인 고평가 구간"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2558,15 +2565,15 @@
    "url": "https://stock.naver.com/research/invest/40950",
    "pdf": "https://stock.pstatic.net/stock-research/invest/57/20261125_invest_89402000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40950",
-   "method": "",
-   "why": "",
    "sum": [
     "하나증권은 주식 단독 충격으로 VIX가 고점 대비 약 25% 내려왔다고 봄",
     "신용·채권 변동성이 크지 않았던 과거 국면은 VIX가 빠르게 20 아래로 내려옴",
     "단기(3개월 이내)는 실적 개선 종목과 저평가·고배당 종목을 함께 가져가는 전략 제시",
     "금리인상기 역금융장세 리스크를 경계하며 변동성 지표로 진바닥 시기를 확인해야 함"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2576,8 +2583,6 @@
    "url": "https://stock.naver.com/research/invest/40949",
    "pdf": "https://stock.pstatic.net/stock-research/invest/15/20261125_invest_433070000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40949",
-   "method": "",
-   "why": "",
    "sum": [
     "젠슨 황 복귀로 엔비디아 +31.5%, SOX +14.0% 급등",
     "하락의 본질은 실적이 아닌 신뢰, 이익은 늘었는데 PER이 급락",
@@ -2587,7 +2592,9 @@
    "val": [
     "목표주가 제시 없음. 반도체 12개월 선행 PER 2.1배·PBR 1.01배로, 하강기 저점 PER 중간값 9.9배보다 낮음",
     "KOSPI 12개월 선행 PER 3.24배·PBR 0.88배로 2001년 이후 가장 낮은 수준"
-   ]
+   ],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2597,15 +2604,15 @@
    "url": "https://stock.naver.com/research/invest/40948",
    "pdf": "https://stock.pstatic.net/stock-research/invest/15/20261125_invest_322561000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40948",
-   "method": "",
-   "why": "",
    "sum": [
     "젠슨 황이 사임 11일 만에 CEO로 복귀해 경영 불확실성이 완화됨",
     "대신증권은 실적으로 확인된 이익과 성장성에 복귀 소식이 더해져 투자심리가 급반전된 것으로 해석",
     "외국인 순매수 전환과 유가·금리 하락으로 매크로 부담도 일부 완화됨",
     "반도체, IT하드웨어, 피지컬AI 등 AI 밸류체인 전반이 낙폭 과대 종목 중심으로 강세"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2615,15 +2622,15 @@
    "url": "https://stock.naver.com/research/invest/40947",
    "pdf": "https://stock.pstatic.net/stock-research/invest/15/20261125_invest_724534000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40947",
-   "method": "",
-   "why": "",
    "sum": [
     "대신증권은 P/B·P/E가 최근 5년 내 하위 5% 수준인 저평가 우량주로 삼성전자, SK하이닉스, SK스퀘어 등을 봄",
     "배당을 늘리거나 유지했고 배당수익률이 높은 고배당 유망주로 에스엘, 한국금융지주 등을 제시",
     "제시된 종목들은 최근 3개월 수익률이 모두 마이너스임",
     "삼성전자·SK하이닉스·SK스퀘어는 1년 수익률이 80% 이상으로 높았음"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2633,15 +2640,15 @@
    "url": "https://stock.naver.com/research/invest/40946",
    "pdf": "https://stock.pstatic.net/stock-research/invest/40/20261125_invest_11051000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40946",
-   "method": "",
-   "why": "",
    "sum": [
     "젠슨 황 엔비디아 CEO 복귀 소식에 국내 증시가 급등해 KOSPI는 6.32% 오른 5,006.03P에 마감",
     "KOSDAQ도 4.79% 상승했고, 반도체·로봇·전력기기·이차전지 등 AI 밸류체인 전반에 매수세가 퍼짐",
     "미국에서는 AI 투자 지속성 우려와 차익실현으로 필라델피아 반도체지수가 7.88% 급락",
     "트럼프 대통령의 CEO 복귀 개입을 두고 미국 언론에서 국가자본주의라는 비판이 고조됨"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   },
   {
    "cat": "투자정보",
@@ -2651,15 +2658,15 @@
    "url": "https://stock.naver.com/research/invest/40945",
    "pdf": "https://stock.pstatic.net/stock-research/invest/21/20261125_invest_773157000.pdf",
    "api": "https://stock.naver.com/api/stockSecurity/researches/v2/invest/40945",
-   "method": "",
-   "why": "",
    "sum": [
     "3Q26 KOSPI 순이익은 컨센서스를 18.2% 하회, 영업이익은 2.3% 상회",
     "외환차이와 금융상품평가손익이 영향, 삼성전자·SK하이닉스에 집중",
     "2027년 순이익 컨센서스 1,146.6조원(YoY 44.8%), 반도체 중심 증가",
     "신한투자증권은 분기 쇼크보다 이익 전망 방향성을 봐야 한다고 봄"
    ],
-   "val": []
+   "val": [],
+   "method": "",
+   "why": ""
   }
  ],
  "us_comment": {
