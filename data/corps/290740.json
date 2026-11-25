@@ -5,6 +5,36 @@
  "corp_code": "01141942",
  "disclosures": [
   {
+   "rcept_no": "20261125900179",
+   "date": "2026-11-25",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900179",
+   "seen": "11:24"
+  },
+  {
+   "rcept_no": "20261125900174",
+   "date": "2026-11-25",
+   "title": "주권매매거래정지              (무상증자)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900174",
+   "seen": "11:24"
+  },
+  {
+   "rcept_no": "20261125000185",
+   "date": "2026-11-25",
+   "title": "주요사항보고서(무상증자결정)",
+   "type": "capital",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000185",
+   "seen": "11:24"
+  },
+  {
    "rcept_no": "20261113001093",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",

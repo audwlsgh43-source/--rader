@@ -5,6 +5,26 @@
  "corp_code": "00347062",
  "disclosures": [
   {
+   "rcept_no": "20261125900159",
+   "date": "2026-11-25",
+   "title": "주권매매거래정지              (중요한 영업정지)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900159",
+   "seen": "11:24"
+  },
+  {
+   "rcept_no": "20261125000164",
+   "date": "2026-11-25",
+   "title": "주요사항보고서(영업정지)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000164",
+   "seen": "11:24"
+  },
+  {
    "rcept_no": "20261116001273",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",
