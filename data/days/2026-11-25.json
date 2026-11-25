@@ -1,8 +1,284 @@
 {
  "date": "2026-11-25",
- "updated_at": "2026-11-25 11:24",
- "count": 48,
+ "updated_at": "2026-11-25 12:32",
+ "count": 59,
  "items": [
+  {
+   "rcept_no": "20261125900186",
+   "date": "2026-11-25",
+   "corp": "서진시스템",
+   "stock_code": "178320",
+   "corp_code": "00838005",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "서진시스템",
+   "rm": "코",
+   "seen": "12:32",
+   "ai": "서진시스템이 미국 Bloom Energy와 SOFC 모듈 및 부품 공급계약을 1,656억원 규모로 체결했으며, 최근 매출액 대비 15.53%입니다.",
+   "points": [
+    "고체산화물 연료전지(SOFC) 모듈 및 부품 생산·공급 계약",
+    "계약상대방은 미국 Bloom Energy Corporation, 판매지역은 미국",
+    "베트남 해외법인에서 생산하며 EXW 조건으로 인도",
+    "선급금 없음, 인보이스 발행 후 45일 이내 대금 지급"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "1,656억원"
+    ],
+    [
+     "계약금액(USD)",
+     "122,988,000달러"
+    ],
+    [
+     "매출액 대비",
+     "15.53%"
+    ],
+    [
+     "적용환율",
+     "1,346.60원/USD"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2027-12-19",
+     "kind": "기타",
+     "desc": "계약기간 종료일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900186"
+  },
+  {
+   "rcept_no": "20261125800216",
+   "date": "2026-11-25",
+   "corp": "카카오뱅크",
+   "stock_code": "323410",
+   "corp_code": "01133217",
+   "mkt": "코스피",
+   "type": "buyback",
+   "imp": "low",
+   "title": "주식소각결정",
+   "flr": "카카오뱅크",
+   "rm": "유",
+   "seen": "12:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800216"
+  },
+  {
+   "rcept_no": "20261125800208",
+   "date": "2026-11-25",
+   "corp": "경동인베스트",
+   "stock_code": "012320",
+   "corp_code": "00143527",
+   "mkt": "코스피",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+   "flr": "경동인베스트",
+   "rm": "유",
+   "seen": "12:32",
+   "ai": "자회사 ㈜경동이앤에스가 케이앤제이피엠㈜과 온산 PM Project 건설 공사 계약을 체결했다고 공시했다. 계약금액은 362억 5,000만원이며 수주일은 2026-11-24다.",
+   "points": [
+    "판매·공급 구분은 공사수주이며 온산 PM Project 건설 공사다",
+    "플랜트 및 부대시설 시공과 시운전 지원을 포함한다",
+    "계약금·선급금이 있으며 공사 진행에 따라 청구 및 지급한다",
+    "공사기간과 계약금액은 공사계약서 조건에 따라 변동될 수 있다"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "362억 5,000만원"
+    ],
+    [
+     "최근매출액(2025사업연도 개별)",
+     "692억 2,771만원"
+    ],
+    [
+     "매출액대비",
+     "52.36%"
+    ],
+    [
+     "자회사 주식 장부가액 비중(지주사 별도 자산총액 대비)",
+     "13.20%"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2027-11-15",
+     "kind": "기타",
+     "desc": "공사 계약기간 종료 예정일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800208"
+  },
+  {
+   "rcept_no": "20261125800198",
+   "date": "2026-11-25",
+   "corp": "코오롱",
+   "stock_code": "002020",
+   "corp_code": "00152862",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]단일판매ㆍ공급계약체결(자회사의 주요경영사항)",
+   "flr": "코오롱",
+   "rm": "유",
+   "seen": "12:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800198"
+  },
+  {
+   "rcept_no": "20261125800196",
+   "date": "2026-11-25",
+   "corp": "신흥",
+   "stock_code": "004080",
+   "corp_code": "00173795",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "최대주주등소유주식변동신고서",
+   "flr": "신흥",
+   "rm": "유",
+   "seen": "12:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800196"
+  },
+  {
+   "rcept_no": "20261125800178",
+   "date": "2026-11-25",
+   "corp": "코오롱글로벌",
+   "stock_code": "003070",
+   "corp_code": "00152880",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "mid",
+   "title": "[기재정정]단일판매ㆍ공급계약체결",
+   "flr": "코오롱글로벌",
+   "rm": "유",
+   "seen": "12:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125800178"
+  },
+  {
+   "rcept_no": "20261125000243",
+   "date": "2026-11-25",
+   "corp": "동운아나텍",
+   "stock_code": "094170",
+   "corp_code": "00695969",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "독립이사의선임ㆍ해임또는중도퇴임에관한신고",
+   "flr": "동운아나텍",
+   "rm": "",
+   "seen": "12:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000243"
+  },
+  {
+   "rcept_no": "20261125000231",
+   "date": "2026-11-25",
+   "corp": "HD현대중공업",
+   "stock_code": "329180",
+   "corp_code": "01390344",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "김환규",
+   "rm": "",
+   "seen": "12:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000231"
+  },
+  {
+   "rcept_no": "20261125000224",
+   "date": "2026-11-25",
+   "corp": "신흥",
+   "stock_code": "004080",
+   "corp_code": "00173795",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "이용익",
+   "rm": "",
+   "seen": "12:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000224"
+  },
+  {
+   "rcept_no": "20261125000220",
+   "date": "2026-11-25",
+   "corp": "한솔홈데코",
+   "stock_code": "025750",
+   "corp_code": "00203582",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+   "flr": "한솔홈데코",
+   "rm": "공",
+   "seen": "12:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000220"
+  },
+  {
+   "rcept_no": "20261125000219",
+   "date": "2026-11-25",
+   "corp": "프레스티지바이오파마",
+   "stock_code": "950210",
+   "corp_code": "01510489",
+   "mkt": "코스피",
+   "type": "earn",
+   "imp": "low",
+   "title": "분기보고서 (2026.09)",
+   "flr": "프레스티지바이오파마",
+   "rm": "",
+   "seen": "12:32",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000219"
+  },
   {
    "rcept_no": "20261125900184",
    "date": "2026-11-25",
@@ -21,8 +297,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900184",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125900184"
   },
   {
    "rcept_no": "20261125900181",
