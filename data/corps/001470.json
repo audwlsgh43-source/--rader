@@ -5,6 +5,16 @@
  "corp_code": "00125974",
  "disclosures": [
   {
+   "rcept_no": "20261126800131",
+   "date": "2026-11-26",
+   "title": "[기재정정]중대재해발생",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800131",
+   "seen": "11:23"
+  },
+  {
    "rcept_no": "20261126800001",
    "date": "2026-11-26",
    "title": "중대재해발생",
