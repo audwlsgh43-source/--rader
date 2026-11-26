@@ -1,8 +1,28 @@
 {
  "date": "2026-11-26",
- "updated_at": "2026-11-26 19:28",
- "count": 366,
+ "updated_at": "2026-11-26 20:26",
+ "count": 367,
  "items": [
+  {
+   "rcept_no": "20261126900976",
+   "date": "2026-11-26",
+   "corp": "유신",
+   "stock_code": "054930",
+   "corp_code": "00144650",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "풍문또는보도에대한해명(미확정)",
+   "flr": "유신",
+   "rm": "코",
+   "seen": "20:26",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900976"
+  },
   {
    "rcept_no": "20261126900973",
    "date": "2026-11-26",
@@ -21,8 +41,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900973",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900973"
   },
   {
    "rcept_no": "20261126800950",
