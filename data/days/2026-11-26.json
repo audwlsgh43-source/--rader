@@ -1,8 +1,69 @@
 {
  "date": "2026-11-26",
- "updated_at": "2026-11-26 18:14",
- "count": 364,
+ "updated_at": "2026-11-26 19:28",
+ "count": 366,
  "items": [
+  {
+   "rcept_no": "20261126900973",
+   "date": "2026-11-26",
+   "corp": "큐리언트",
+   "stock_code": "115180",
+   "corp_code": "01042650",
+   "mkt": "코스닥",
+   "type": "capital",
+   "imp": "high",
+   "title": "유상증자또는주식관련사채등의청약결과(자율공시)",
+   "flr": "큐리언트",
+   "rm": "코",
+   "seen": "19:28",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900973",
+   "read_fail": true
+  },
+  {
+   "rcept_no": "20261126800950",
+   "date": "2026-11-26",
+   "corp": "동원모빌리티",
+   "stock_code": "018500",
+   "corp_code": "00118008",
+   "mkt": "코스피",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]타인에대한채무보증결정",
+   "flr": "동원모빌리티",
+   "rm": "유",
+   "seen": "19:28",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800950"
+  },
+  {
+   "rcept_no": "20261126000961",
+   "date": "2026-11-26",
+   "corp": "골프존홀딩스",
+   "stock_code": "121440",
+   "corp_code": "00674498",
+   "mkt": "코스닥",
+   "type": "ma",
+   "imp": "mid",
+   "title": "주요사항보고서(타법인주식및출자증권양도결정)",
+   "flr": "골프존홀딩스",
+   "rm": "",
+   "seen": "19:28",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000961"
+  },
   {
    "rcept_no": "20261126900786",
    "date": "2026-11-26",
@@ -61,8 +122,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900759",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900759"
   },
   {
    "rcept_no": "20261126900755",
@@ -82,8 +143,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900755",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900755"
   },
   {
    "rcept_no": "20261126900750",
