@@ -5,6 +5,26 @@
  "corp_code": "00573579",
  "disclosures": [
   {
+   "rcept_no": "20261126800120",
+   "date": "2026-11-26",
+   "title": "최대주주등소유주식변동신고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800120",
+   "seen": "09:29"
+  },
+  {
+   "rcept_no": "20261126000065",
+   "date": "2026-11-26",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000065",
+   "seen": "09:29"
+  },
+  {
    "rcept_no": "20261125000267",
    "date": "2026-11-25",
    "title": "주주총회소집공고",

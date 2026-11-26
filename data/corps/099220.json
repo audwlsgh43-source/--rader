@@ -5,6 +5,26 @@
  "corp_code": "00574611",
  "disclosures": [
   {
+   "rcept_no": "20261126000032",
+   "date": "2026-11-26",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000032",
+   "seen": "09:29"
+  },
+  {
+   "rcept_no": "20261126000030",
+   "date": "2026-11-26",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000030",
+   "seen": "09:29"
+  },
+  {
    "rcept_no": "20261125900731",
    "date": "2026-11-25",
    "title": "소속부변경",
