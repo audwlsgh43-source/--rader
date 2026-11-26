@@ -5,6 +5,16 @@
  "corp_code": "00543107",
  "disclosures": [
   {
+   "rcept_no": "20261126000244",
+   "date": "2026-11-26",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000244",
+   "seen": "12:23"
+  },
+  {
    "rcept_no": "20261123900479",
    "date": "2026-11-23",
    "title": "유상증자결정(종속회사의주요경영사항)",

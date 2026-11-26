@@ -1,8 +1,318 @@
 {
  "date": "2026-11-26",
- "updated_at": "2026-11-26 11:23",
- "count": 53,
+ "updated_at": "2026-11-26 12:23",
+ "count": 64,
  "items": [
+  {
+   "rcept_no": "20261126900232",
+   "date": "2026-11-26",
+   "corp": "덕산하이메탈",
+   "stock_code": "077360",
+   "corp_code": "00471068",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "대표이사변경",
+   "flr": "덕산하이메탈",
+   "rm": "코",
+   "seen": "12:23",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900232"
+  },
+  {
+   "rcept_no": "20261126900227",
+   "date": "2026-11-26",
+   "corp": "엑시콘",
+   "stock_code": "092870",
+   "corp_code": "00611736",
+   "mkt": "코스닥",
+   "type": "contract",
+   "imp": "high",
+   "title": "단일판매ㆍ공급계약체결",
+   "flr": "엑시콘",
+   "rm": "코",
+   "seen": "12:23",
+   "ai": "엑시콘이 삼성전자와 CLT Interface Board 단일판매·공급계약을 체결했다고 공시했습니다. 계약금액은 80억3,740만원(부가가치세 제외)이며, 2025년 연결 매출액의 12.2%에 해당합니다.",
+   "points": [
+    "삼성전자와 CLT Interface Board 공급계약 체결",
+    "확정 계약이며 자체생산 방식으로 국내 공급",
+    "계약금·선급금 없이 제품 공급 후 100% 지급",
+    "계약기간은 2026-11-25부터 2027-02-28까지"
+   ],
+   "numbers": [
+    [
+     "계약금액",
+     "80억3,740만원"
+    ],
+    [
+     "매출액 대비",
+     "12.2%"
+    ],
+    [
+     "최근 매출액(2025년 연결)",
+     "660억2,675만원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2027-02-28",
+     "kind": "기타",
+     "desc": "계약기간 종료일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900227"
+  },
+  {
+   "rcept_no": "20261126900218",
+   "date": "2026-11-26",
+   "corp": "핑거",
+   "stock_code": "163730",
+   "corp_code": "01142075",
+   "mkt": "코스닥",
+   "type": "capital",
+   "imp": "high",
+   "title": "유상증자결정(종속회사의주요경영사항)",
+   "flr": "핑거",
+   "rm": "코",
+   "seen": "12:23",
+   "ai": "핑거의 종속회사 에프지투자2호가 주주배정 방식으로 603,483주를 유상증자하며, 단독주주인 핑거가 전량 인수하고 대여금과 상계해 납입합니다.",
+   "points": [
+    "주주배정 방식이며 단독주주인 핑거가 신주 전량을 인수함",
+    "자금 목적은 채무상환자금이며 주당 발행가액은 100,000원",
+    "대여금 채권 중 60,348,300,000원과 주금납입채무를 상계해 납입",
+    "2026년 신규 설립된 비상장 종속회사이며 이사회 대신 주주총회로 결의"
+   ],
+   "numbers": [
+    [
+     "신주 수(보통주)",
+     "603,483주"
+    ],
+    [
+     "1주당 발행가액",
+     "100,000원"
+    ],
+    [
+     "채무상환자금",
+     "60,348,300,000원"
+    ],
+    [
+     "1주당 신주배정주식수",
+     "60.3483주"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-11-27",
+     "kind": "기타",
+     "desc": "신주권 교부 예정일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900218"
+  },
+  {
+   "rcept_no": "20261126900217",
+   "date": "2026-11-26",
+   "corp": "지투파워",
+   "stock_code": "388050",
+   "corp_code": "01462605",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "기업설명회(IR)개최",
+   "flr": "지투파워",
+   "rm": "코",
+   "seen": "12:23",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900217"
+  },
+  {
+   "rcept_no": "20261126900206",
+   "date": "2026-11-26",
+   "corp": "알테오젠",
+   "stock_code": "196170",
+   "corp_code": "00989619",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "투자판단관련주요경영사항              (ALTB4 라이선스 계약 파트너사 MSD로부터 판매 마일스톤 수령 예정)",
+   "flr": "알테오젠",
+   "rm": "코",
+   "seen": "12:23",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900206"
+  },
+  {
+   "rcept_no": "20261126000254",
+   "date": "2026-11-26",
+   "corp": "NH농우바이오",
+   "stock_code": "054050",
+   "corp_code": "00176835",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+   "flr": "NH농우바이오",
+   "rm": "공",
+   "seen": "12:23",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000254"
+  },
+  {
+   "rcept_no": "20261126000250",
+   "date": "2026-11-26",
+   "corp": "삼성전자",
+   "stock_code": "005930",
+   "corp_code": "00126380",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "최수민",
+   "rm": "",
+   "seen": "12:23",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000250"
+  },
+  {
+   "rcept_no": "20261126000247",
+   "date": "2026-11-26",
+   "corp": "유디엠텍",
+   "stock_code": "389680",
+   "corp_code": "01498576",
+   "mkt": "코스닥",
+   "type": "etc",
+   "imp": "low",
+   "title": "[기재정정]반기보고서 (2026.06)",
+   "flr": "유디엠텍",
+   "rm": "",
+   "seen": "12:23",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000247"
+  },
+  {
+   "rcept_no": "20261126000244",
+   "date": "2026-11-26",
+   "corp": "오킨스전자",
+   "stock_code": "080580",
+   "corp_code": "00543107",
+   "mkt": "코스닥",
+   "type": "stake",
+   "imp": "mid",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "flr": "J.P.MORGANSECURITIESPLC",
+   "rm": "",
+   "seen": "12:23",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000244"
+  },
+  {
+   "rcept_no": "20261126000234",
+   "date": "2026-11-26",
+   "corp": "SIMPAC",
+   "stock_code": "009160",
+   "corp_code": "00138260",
+   "mkt": "코스피",
+   "type": "stake",
+   "imp": "low",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "flr": "최민찬",
+   "rm": "",
+   "seen": "12:23",
+   "ai": "",
+   "points": [],
+   "numbers": [],
+   "events": [],
+   "analyzed": false,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000234"
+  },
+  {
+   "rcept_no": "20261126000229",
+   "date": "2026-11-26",
+   "corp": "유디엠텍",
+   "stock_code": "389680",
+   "corp_code": "01498576",
+   "mkt": "코스닥",
+   "type": "capital",
+   "imp": "high",
+   "title": "주요사항보고서(유상증자결정)",
+   "flr": "유디엠텍",
+   "rm": "",
+   "seen": "12:23",
+   "ai": "유디엠텍이 피나클로지스투자 2호조합을 대상으로 보통주 1,031,636주(발행가 2,908원, 약 30억원)를 제3자배정 방식으로 발행하는 유상증자를 결정했습니다.",
+   "points": [
+    "제3자배정 방식이며 소액공모(증권신고서 미제출)로 진행",
+    "대상은 피나클로지스투자 2호조합(2026년 9월 설립)",
+    "발행가는 예정가액이며 청약일 전 3~5거래일 가중평균주가로 확정 후 정정공시 예정",
+    "조달자금은 운영자금 및 신성장동력 발굴 등 기타자금에 사용"
+   ],
+   "numbers": [
+    [
+     "신주 수",
+     "1,031,636주"
+    ],
+    [
+     "발행가액(예정)",
+     "2,908원"
+    ],
+    [
+     "조달금액 합계",
+     "2,999,997,488원"
+    ],
+    [
+     "운영자금",
+     "2,099,998,242원"
+    ]
+   ],
+   "events": [
+    {
+     "date": "2026-12-16",
+     "kind": "청약",
+     "desc": "신주 청약일"
+    },
+    {
+     "date": "2026-12-17",
+     "kind": "납입일",
+     "desc": "신주 주금납입일"
+    },
+    {
+     "date": "2027-01-06",
+     "kind": "신주상장",
+     "desc": "신주 상장 예정일"
+    }
+   ],
+   "analyzed": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000229"
+  },
   {
    "rcept_no": "20261126900207",
    "date": "2026-11-26",
@@ -213,8 +523,8 @@
    "numbers": [],
    "events": [],
    "analyzed": true,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800200",
-   "read_fail": true
+   "read_fail": true,
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800200"
   },
   {
    "rcept_no": "20261126800186",
