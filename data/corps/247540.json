@@ -5,6 +5,26 @@
  "corp_code": "01160363",
  "disclosures": [
   {
+   "rcept_no": "20261126000837",
+   "date": "2026-11-26",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000837",
+   "seen": "18:14"
+  },
+  {
+   "rcept_no": "20261126000825",
+   "date": "2026-11-26",
+   "title": "[기재정정]주식등의대량보유상황보고서(일반)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000825",
+   "seen": "18:14"
+  },
+  {
    "rcept_no": "20261126000793",
    "date": "2026-11-26",
    "title": "[기재정정]주식등의대량보유상황보고서(일반)",

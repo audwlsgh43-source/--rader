@@ -5,6 +5,36 @@
  "corp_code": "00618410",
  "disclosures": [
   {
+   "rcept_no": "20261126900750",
+   "date": "2026-11-26",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900750",
+   "seen": "18:14"
+  },
+  {
+   "rcept_no": "20261126900736",
+   "date": "2026-11-26",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126900736",
+   "seen": "18:14"
+  },
+  {
+   "rcept_no": "20261126000859",
+   "date": "2026-11-26",
+   "title": "[기재정정]주요사항보고서(유상증자결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000859",
+   "seen": "18:14"
+  },
+  {
    "rcept_no": "20261118000231",
    "date": "2026-11-18",
    "title": "[기재정정]주요사항보고서(유상증자결정)",

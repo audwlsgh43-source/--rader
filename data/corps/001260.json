@@ -5,6 +5,26 @@
  "corp_code": "00107066",
  "disclosures": [
   {
+   "rcept_no": "20261126800716",
+   "date": "2026-11-26",
+   "title": "소송등의판결ㆍ결정(일정금액이상의청구)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800716",
+   "seen": "18:14"
+  },
+  {
+   "rcept_no": "20261126800638",
+   "date": "2026-11-26",
+   "title": "투자판단관련주요경영사항",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126800638",
+   "seen": "18:14"
+  },
+  {
    "rcept_no": "20261124800550",
    "date": "2026-11-24",
    "title": "주식소각결정",
