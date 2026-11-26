@@ -1,7 +1,7 @@
 {
  "date": "2026-11-25",
- "updated_at": "2026-11-27 05:27",
- "count": 348,
+ "updated_at": "2026-11-27 07:47",
+ "count": 347,
  "items": [
   {
    "rcept_no": "20261125900807",
@@ -765,26 +765,6 @@
    "events": [],
    "analyzed": false,
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000767"
-  },
-  {
-   "rcept_no": "20261125000765",
-   "date": "2026-11-25",
-   "corp": "신한제13호스팩",
-   "stock_code": "474930",
-   "corp_code": "01807747",
-   "mkt": "코스닥",
-   "type": "stake",
-   "imp": "mid",
-   "title": "주식등의대량보유상황보고서(약식)",
-   "flr": "하우자산운용",
-   "rm": "",
-   "seen": "18:18",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261125000765"
   },
   {
    "rcept_no": "20261125000764",
