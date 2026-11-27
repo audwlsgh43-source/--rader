@@ -5,6 +5,26 @@
  "corp_code": "01267170",
  "disclosures": [
   {
+   "rcept_no": "20261127002013",
+   "date": "2026-11-27",
+   "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127002013",
+   "seen": ""
+  },
+  {
+   "rcept_no": "20261127001984",
+   "date": "2026-11-27",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001984",
+   "seen": ""
+  },
+  {
    "rcept_no": "20261112000694",
    "date": "2026-11-12",
    "title": "분기보고서 (2026.09)",

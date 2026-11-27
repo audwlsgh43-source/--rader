@@ -5,6 +5,26 @@
  "corp_code": "00843900",
  "disclosures": [
   {
+   "rcept_no": "20261127901144",
+   "date": "2026-11-27",
+   "title": "[기재정정]최대주주변경",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127901144",
+   "seen": ""
+  },
+  {
+   "rcept_no": "20261127001910",
+   "date": "2026-11-27",
+   "title": "주요사항보고서(전환사채권발행결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001910",
+   "seen": ""
+  },
+  {
    "rcept_no": "20261119900552",
    "date": "2026-11-19",
    "title": "최대주주변경",

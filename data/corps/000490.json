@@ -5,6 +5,36 @@
  "corp_code": "00109286",
  "disclosures": [
   {
+   "rcept_no": "20261127801150",
+   "date": "2026-11-27",
+   "title": "기업설명회(IR)개최(안내공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127801150",
+   "seen": ""
+  },
+  {
+   "rcept_no": "20261127002035",
+   "date": "2026-11-27",
+   "title": "증권신고서(지분증권)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127002035",
+   "seen": ""
+  },
+  {
+   "rcept_no": "20261127001941",
+   "date": "2026-11-27",
+   "title": "주요사항보고서(유상증자결정)",
+   "type": "capital",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001941",
+   "seen": ""
+  },
+  {
    "rcept_no": "20261113001683",
    "date": "2026-11-13",
    "title": "분기보고서 (2026.09)",

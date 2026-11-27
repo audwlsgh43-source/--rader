@@ -5,6 +5,16 @@
  "corp_code": "00219848",
  "disclosures": [
   {
+   "rcept_no": "20261127901126",
+   "date": "2026-11-27",
+   "title": "타인에대한채무보증결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127901126",
+   "seen": ""
+  },
+  {
    "rcept_no": "20261127900339",
    "date": "2026-11-27",
    "title": "소송등의판결ㆍ결정(일정금액이상의청구)",

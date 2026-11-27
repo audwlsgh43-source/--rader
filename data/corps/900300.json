@@ -5,6 +5,26 @@
  "corp_code": "01169434",
  "disclosures": [
   {
+   "rcept_no": "20261127001991",
+   "date": "2026-11-27",
+   "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001991",
+   "seen": ""
+  },
+  {
+   "rcept_no": "20261127001990",
+   "date": "2026-11-27",
+   "title": "[기재정정]주식등의대량보유상황보고서(약식)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001990",
+   "seen": ""
+  },
+  {
    "rcept_no": "20261124900544",
    "date": "2026-11-24",
    "title": "임시주주총회결과",

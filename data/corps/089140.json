@@ -5,6 +5,16 @@
  "corp_code": "00416414",
  "disclosures": [
   {
+   "rcept_no": "20261127001940",
+   "date": "2026-11-27",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001940",
+   "seen": ""
+  },
+  {
    "rcept_no": "20261126000540",
    "date": "2026-11-26",
    "title": "[기재정정]주요사항보고서(전환사채권발행결정)",

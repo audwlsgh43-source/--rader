@@ -5,6 +5,26 @@
  "corp_code": "00104856",
  "disclosures": [
   {
+   "rcept_no": "20261127801132",
+   "date": "2026-11-27",
+   "title": "단기차입금증가결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127801132",
+   "seen": ""
+  },
+  {
+   "rcept_no": "20261127801130",
+   "date": "2026-11-27",
+   "title": "기타경영사항(자율공시)              ((배당기준일 변경 안내))",
+   "type": "div",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127801130",
+   "seen": ""
+  },
+  {
    "rcept_no": "20261125000465",
    "date": "2026-11-25",
    "title": "증권발행실적보고서",
