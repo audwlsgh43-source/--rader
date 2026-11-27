@@ -5,6 +5,26 @@
  "corp_code": "01118281",
  "disclosures": [
   {
+   "rcept_no": "20261127900741",
+   "date": "2026-11-27",
+   "title": "[기재정정]단기차입금증가결정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900741",
+   "seen": "16:46"
+  },
+  {
+   "rcept_no": "20261127900736",
+   "date": "2026-11-27",
+   "title": "최대주주변경",
+   "type": "stake",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900736",
+   "seen": "16:46"
+  },
+  {
    "rcept_no": "20261123900591",
    "date": "2026-11-23",
    "title": "[기재정정]금전대여결정",

@@ -5,6 +5,16 @@
  "corp_code": "01326792",
  "disclosures": [
   {
+   "rcept_no": "20261127001589",
+   "date": "2026-11-27",
+   "title": "주식등의대량보유상황보고서(약식)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001589",
+   "seen": "16:46"
+  },
+  {
    "rcept_no": "20261120900579",
    "date": "2026-11-20",
    "title": "증권발행결과(자율공시)              (제7회차 CB)",

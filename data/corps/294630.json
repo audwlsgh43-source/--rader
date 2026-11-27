@@ -5,6 +5,26 @@
  "corp_code": "00867973",
  "disclosures": [
   {
+   "rcept_no": "20261127900421",
+   "date": "2026-11-27",
+   "title": "증권발행결과(자율공시)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900421",
+   "seen": "16:46"
+  },
+  {
+   "rcept_no": "20261127001011",
+   "date": "2026-11-27",
+   "title": "소액공모실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001011",
+   "seen": "16:46"
+  },
+  {
    "rcept_no": "20261119000396",
    "date": "2026-11-19",
    "title": "소액공모공시서류(지분증권)",

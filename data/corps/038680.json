@@ -5,6 +5,16 @@
  "corp_code": "00264635",
  "disclosures": [
   {
+   "rcept_no": "20261127000862",
+   "date": "2026-11-27",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000862",
+   "seen": "16:46"
+  },
+  {
    "rcept_no": "20261127000842",
    "date": "2026-11-27",
    "title": "임원ㆍ주요주주특정증권등소유상황보고서",

@@ -5,6 +5,46 @@
  "corp_code": "00137997",
  "disclosures": [
   {
+   "rcept_no": "20261127001540",
+   "date": "2026-11-27",
+   "title": "자기주식취득결과보고서",
+   "type": "buyback",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001540",
+   "seen": "16:46"
+  },
+  {
+   "rcept_no": "20261127001495",
+   "date": "2026-11-27",
+   "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001495",
+   "seen": "16:46"
+  },
+  {
+   "rcept_no": "20261127001415",
+   "date": "2026-11-27",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001415",
+   "seen": "16:46"
+  },
+  {
+   "rcept_no": "20261127001056",
+   "date": "2026-11-27",
+   "title": "증권발행실적보고서",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001056",
+   "seen": "16:46"
+  },
+  {
    "rcept_no": "20261125000517",
    "date": "2026-11-25",
    "title": "의결권대리행사권유참고서류",

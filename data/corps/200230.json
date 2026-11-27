@@ -5,6 +5,26 @@
  "corp_code": "00608802",
  "disclosures": [
   {
+   "rcept_no": "20261127001749",
+   "date": "2026-11-27",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001749",
+   "seen": "16:46"
+  },
+  {
+   "rcept_no": "20261127001733",
+   "date": "2026-11-27",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001733",
+   "seen": "16:46"
+  },
+  {
    "rcept_no": "20261125000549",
    "date": "2026-11-25",
    "title": "주요사항보고서(자기전환사채만기전취득결정)",

@@ -5,6 +5,36 @@
  "corp_code": "00369569",
  "disclosures": [
   {
+   "rcept_no": "20261127900520",
+   "date": "2026-11-27",
+   "title": "주주총회소집결의              (임시주주총회)",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900520",
+   "seen": "16:46"
+  },
+  {
+   "rcept_no": "20261127900516",
+   "date": "2026-11-27",
+   "title": "주주명부폐쇄기간또는기준일설정",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900516",
+   "seen": "16:46"
+  },
+  {
+   "rcept_no": "20261127001745",
+   "date": "2026-11-27",
+   "title": "[기재정정]주요사항보고서(전환사채권발행결정)",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127001745",
+   "seen": "16:46"
+  },
+  {
    "rcept_no": "20261125900358",
    "date": "2026-11-25",
    "title": "임시주주총회결과",

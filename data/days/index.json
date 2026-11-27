@@ -1,12 +1,12 @@
 {
  "today": "2026-11-27",
- "updated_at": "2026-11-27 13:35",
+ "updated_at": "2026-11-27 16:46",
  "ai": true,
  "ai_error": "Anthropic API 키가 올바르지 않아요. 키를 새로 만들어 GitHub Secrets의 ANTHROPIC_API_KEY를 바꿔 주세요.",
  "days": [
   {
    "date": "2026-11-27",
-   "count": 170
+   "count": 519
   },
   {
    "date": "2026-11-26",
