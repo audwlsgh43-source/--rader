@@ -5,6 +5,26 @@
  "corp_code": "00126292",
  "disclosures": [
   {
+   "rcept_no": "20261127000375",
+   "date": "2026-11-27",
+   "title": "특수관계인과의수익증권거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000375",
+   "seen": "13:35"
+  },
+  {
+   "rcept_no": "20261127000301",
+   "date": "2026-11-27",
+   "title": "특수관계인과의보험거래",
+   "type": "etc",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000301",
+   "seen": "13:35"
+  },
+  {
    "rcept_no": "20261126800570",
    "date": "2026-11-26",
    "title": "기업가치제고계획(자율공시)",

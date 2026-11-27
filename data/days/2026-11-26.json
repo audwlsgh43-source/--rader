@@ -1,7 +1,7 @@
 {
  "date": "2026-11-26",
- "updated_at": "2026-11-27 09:39",
- "count": 367,
+ "updated_at": "2026-11-27 13:35",
+ "count": 366,
  "items": [
   {
    "rcept_no": "20261126900976",
@@ -1207,26 +1207,6 @@
    "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000892"
   },
   {
-   "rcept_no": "20261126000883",
-   "date": "2026-11-26",
-   "corp": "현대그린푸드",
-   "stock_code": "453340",
-   "corp_code": "01721809",
-   "mkt": "코스피",
-   "type": "etc",
-   "imp": "mid",
-   "title": "[첨부정정]주요사항보고서(타법인주식및출자증권양수결정)",
-   "flr": "현대그린푸드",
-   "rm": "",
-   "seen": "18:14",
-   "ai": "",
-   "points": [],
-   "numbers": [],
-   "events": [],
-   "analyzed": false,
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000883"
-  },
-  {
    "rcept_no": "20261126000881",
    "date": "2026-11-26",
    "corp": "서부T&D",
@@ -1935,7 +1915,7 @@
    "imp": "low",
    "title": "[기재정정]유형자산취득결정(종속회사의주요경영사항)",
    "flr": "엑시온그룹",
-   "rm": "코",
+   "rm": "코정",
    "seen": "17:06",
    "ai": "",
    "points": [],

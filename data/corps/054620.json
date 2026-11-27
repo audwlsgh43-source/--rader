@@ -5,6 +5,36 @@
  "corp_code": "00296078",
  "disclosures": [
   {
+   "rcept_no": "20261127900325",
+   "date": "2026-11-27",
+   "title": "기타경영사항(자율공시)              (소규모 합병 승인 이사회 결의(주주총회 갈음) 결과 보고)",
+   "type": "ma",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900325",
+   "seen": "13:35"
+  },
+  {
+   "rcept_no": "20261127000684",
+   "date": "2026-11-27",
+   "title": "주식등의대량보유상황보고서(일반)",
+   "type": "stake",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000684",
+   "seen": "13:35"
+  },
+  {
+   "rcept_no": "20261127000679",
+   "date": "2026-11-27",
+   "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+   "type": "stake",
+   "imp": "low",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127000679",
+   "seen": "13:35"
+  },
+  {
    "rcept_no": "20261119900556",
    "date": "2026-11-19",
    "title": "타법인주식및출자증권처분결정",

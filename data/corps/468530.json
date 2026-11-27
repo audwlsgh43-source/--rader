@@ -5,6 +5,36 @@
  "corp_code": "01688568",
  "disclosures": [
   {
+   "rcept_no": "20261127900341",
+   "date": "2026-11-27",
+   "title": "[기재정정]단일판매ㆍ공급계약체결",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900341",
+   "seen": "13:35"
+  },
+  {
+   "rcept_no": "20261127900335",
+   "date": "2026-11-27",
+   "title": "[기재정정]단일판매ㆍ공급계약체결",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900335",
+   "seen": "13:35"
+  },
+  {
+   "rcept_no": "20261127900299",
+   "date": "2026-11-27",
+   "title": "단일판매ㆍ공급계약체결",
+   "type": "contract",
+   "imp": "high",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900299",
+   "seen": "13:35"
+  },
+  {
    "rcept_no": "20261116001991",
    "date": "2026-11-16",
    "title": "분기보고서 (2026.09)",

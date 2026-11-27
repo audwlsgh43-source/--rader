@@ -5,6 +5,16 @@
  "corp_code": "01235296",
  "disclosures": [
   {
+   "rcept_no": "20261127900283",
+   "date": "2026-11-27",
+   "title": "소송등의판결ㆍ결정",
+   "type": "etc",
+   "imp": "mid",
+   "ai": "",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261127900283",
+   "seen": "13:35"
+  },
+  {
    "rcept_no": "20261125900508",
    "date": "2026-11-25",
    "title": "소송등의제기ㆍ신청(경영권분쟁소송)              (장부등열람허용가처분)",
